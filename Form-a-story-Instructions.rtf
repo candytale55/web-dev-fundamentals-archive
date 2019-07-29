@@ -1,0 +1,262 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2058{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil Calibri;}}
+{\colortbl ;\red0\green0\blue255;}
+{\*\generator Riched20 10.0.17134}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\f0\fs22\lang10 Form a Story\par
+Forms are great for collecting information on users, like job applications or insightful surveys. However, we can also stretch our creative muscles and have a little fun with forms. For this project, we'll use our knowledge of the HTML <form> and grab user input to put a spin on a classic story!\par
+\par
+The logic for parsing and inserting of user inputs is already taken care of in main.js using JavaScript . We've also added some styling to the page in style.css. You can find these files by click on the folder icon located at the top of the code editor and selecting the files you're interested in.\par
+\par
+What you have to do is now make a <form> capable of collecting the correct information so that the newly crafted story makes sense!\par
+\par
+Note: Save your code as you follow the steps to see your progress!\par
+\par
+If you get stuck during this project, check out the project walkthrough video which can be found at the bottom of the page after the final step of the project.\par
+\par
+Tasks\par
+19/22Complete\par
+Mark the tasks as complete by checking them off\par
+Adding The Form\par
+1.\par
+We'll be collecting information from our users using a <form> so, first, we have to add a <form> under the <hr> element inside the <body> of index.html.\par
+\par
+2.\par
+Assign the <form> an action of "story.html" and a method of "GET".\par
+\par
+We'll be sending information from our form to story.html using a GET request.\par
+\par
+Assign the action and method attribute inside the opening <form> tag.\par
+\par
+3.\par
+In the <form>, create a submit button by adding an <input> with a type of "submit". Assign the value a value of "Form My Story!". Save your code to see the button rendered.\par
+\par
+This might seem counterintuitive, but by creating this submit button and submitting the form as you add more code, you can see how the final result of the story and debug in smaller chunks. Check the hint for more debugging tips!\par
+\par
+As you add more code to create new input fields, the submit button should be kept at the bottom. This formatting won't affect how the <form> submission process but makes sense from a design standpoint \f1\emdash  users will submit the <form> at the end, when they're done filling out the <form>.\par
+\par
+As you create more input fields, make sure that you've included the name attributes in each element that takes user input and the value of the name is correctly written as stated in the instructions.\par
+\par
+If you see "null" show up in your story, it could be that you omitted the name.\par
+\par
+To see which <input> is related to the text, hover your cursor over the bold and underlined word to see the id of the <input>. Then check that the <input> has all the necessary attributes.\par
+\par
+Adding Text Input\par
+4.\par
+Now we can populate our <form> with <input> elements that allow users to type in their responses. We'll also want to have associated <label>s with these <input> elements so users know what they're filling in.\par
+\par
+Add a <label> element and assign the for attribute a value of "animal-1". Have the <label> render the text Animal: on the webpage.\par
+\par
+Write your code so that the submit button always shows up at the bottom of the <form>. As you add more code, the submit button should be kept at the bottom.\par
+\par
+Set the for attribute in the opening tag of the <label> element. To have the text Animal: displayed on the webpage, add it between the opening and closing <label> tags.\par
+\par
+5.\par
+Now we can create an <input> to associate our <label> element with.\par
+\par
+Set the id of the <input> to "animal-1" and the type to "text". Assign the name to "animal-1". Remember, the name attribute is needed for information from this <input> to be sent with the form during submission.\par
+\par
+Speaking of submission, since we want our users to put in some value, add the required attribute to the <input>.\par
+\par
+The id value of the <input> must match the value of the for attribute to associate the two elements.\par
+\par
+6.\par
+We're going to be adding more <label>s and <input>s so we should add some spacing.\par
+\par
+Below the <input> element, add a line break using <br>.\par
+\par
+With the first input field and working submit button, type some text into the field and submit it! Remember, in order for you to see the new code rendered on the browser, you're going to need to save your code.\par
+\par
+As you add more input fields, save your code. Play around with the rendered form and submit the values that you have to check out how other users would interact with the <form>.\par
+\par
+7.\par
+Our story has quite a few blanks, so we're going to need a lot more <label>s and <input>s.\par
+\par
+Add another <label> with a for attribute of "animal-2" that renders Another Animal: to the webpage.\par
+\par
+Underneath the <label>, create a new <input> with the attributes:\par
+\par
+id and name set to "animal-2".\par
+type to "text".\par
+required\par
+Add another <br> for a line break.\par
+\par
+Your code will resemble the previous <label> and <input> added, like so:\par
+\par
+<label for="idValue">Rendered Text</label>\par
+<input id="idValue" type="text" name="name-of-input" required>\par
+<br>\par
+8.\par
+There's another animal in our story, so let's add another <label> with a for attribute of "animal-3" that renders One More Animal: to the webpage.\par
+\par
+Then, add a new <input> with the attributes:\par
+\par
+id and name set to "animal-3".\par
+type to "text".\par
+required\par
+Remember to add another <br> for a line break.\par
+\par
+9.\par
+Let's have our users provide an adjective.\par
+\par
+Add another <label> with a for attribute of "adj-1" that renders the text Adjective (past tense): to the webpage.\par
+\par
+Then, add a new <input> with the attributes:\par
+\par
+id and name set to "adj-1".\par
+type to "text".\par
+required\par
+Add another line break.\par
+\par
+10.\par
+Let's get a verb.\par
+\par
+Create a <label> with has a for attribute set to "verb-1" that renders the text Verb (ends in -ing):.\par
+\par
+Follow the <label> with an <input> with the attributes:\par
+\par
+id and name set to "verb-1".\par
+type to "text".\par
+required\par
+Also, add a line break.\par
+\par
+Other Inputs\par
+11.\par
+Great, we have some <input>s set up that accept text, but we can use some <input> with different types in our <form>.\par
+\par
+Let's add a field that will accept a number. First add <label> with a for attribute of "num-1"that renders the text Number: to the webpage.\par
+\par
+After the <label> element, add an <input> that has:\par
+\par
+id and name set to "num-1".\par
+a type attribute of "number".\par
+a required attribute.\par
+Also, add a line break.\par
+\par
+This <label> and <input> will resemble the previous <label>s and <input>s. The key difference is that you're now setting the type to "number" instead of "text".\par
+\par
+12.\par
+One of our blanks requires a "yes" or "no" answer\emdash  sounds like we can use some radio buttons for that.\par
+\par
+Before we can add the radio buttons, add a <span> element that has the text Yes or No:.\par
+\par
+We want to use a <span> element so that we don't add an unnecessary line break.\par
+\par
+A <span> element has an opening and closing tag. Add the text between the opening and closing <span> tags.\par
+\par
+13.\par
+For radio buttons, we want to add the <input> before the <label> to render the radio button on the left of the text.\par
+\par
+Add an <input> element with the following attributes:\par
+\par
+an id set to "yes".\par
+a type with a value of "radio".\par
+a name of "answer".\par
+a value of "yes".\par
+a required attribute.\par
+Under the <input>, add a <label> with a for attribute assigned a value of "yes" that renders the text Yes on the webpage.\par
+\par
+You do not need to add a line break yet, we can have the radio buttons show up next each.\par
+\par
+14.\par
+We should now add a radio button that represents the "no" choice.\par
+\par
+Add another <input> element that has the following attributes:\par
+\par
+an id set to "no".\par
+a type with a value of "radio".\par
+a name of "answer".\par
+a value of "no".\par
+Under the just added <input>, add another <label> with a for attribute assigned a value of "no" that renders the text No on the webpage.\par
+\par
+This time, add a line break!\par
+\par
+You do not need to add a required attribute for the second radio button. If two radio buttons share the same name, only one needs to have the required attribute.\par
+\par
+15.\par
+The story that we're creating this <form> for involves some sort of speed, so let's give our users a dropdown list of speed options.\par
+\par
+Create a <label> and set the for attribute to "speed". The <label> should render the text: Relative speed (ends in -er):\par
+\par
+Then add a <select> element with an id and name of "speed". Add the required attribute to make this field mandatory.\par
+\par
+Insert a <br> after the closing <select> tag. The <select> element will be empty for now.\par
+\par
+We'll be populating the <select> with <option>s in the next step.\par
+\par
+16.\par
+Inside the <select> add a few <option>s for users to choose from.\par
+\par
+One example of an <option> you could include is:\par
+\par
+<option value="faster">Faster</option>\par
+Add as many or as few as you'd like!\par
+\par
+Remember to assign a value and include text between the opening and closing <option> tags.\par
+\par
+The text within an <option> element is displayed to the user. When the <form> is submitted, the value of the value attribute is sent along with the name of the <select> element as a key-value pair.\par
+\par
+Your code might look like:\par
+\par
+<label for="speed">Choose a speed (ends in -er):</label>\par
+<select id="speed" name="speed" required>\par
+  <option value="slower">Slower</option>\par
+  <option value="faster">Faster</option>\par
+</select>\par
+<br>\par
+17.\par
+One of our story's blank requires a quote. We could provide our users with a few options but also give them the choice of adding their own custom quote. To do this, we can use the <datalist> element.\par
+\par
+To set up the <datalist> we need an accompanying <label> and <input>.\par
+\par
+Under the last <br>, add a <label> with a for attribute of "quote". Have the <label> render the text Motivational Quote:.\par
+\par
+After the <label>, add an <input> with the follow attributes:\par
+\par
+an id and name assigned a value of "quote".\par
+the type set to "text".\par
+a required attribute.\par
+a list attribute of "quote-choices".\par
+Add your new code after the code that wrote that renders the dropdown list for speed options.\par
+\par
+We don't need to add a <br> yet.\par
+\par
+18.\par
+Awesome, we should add the <datalist> now under the <input> element. Assign the <datalist> an id of "quote-choices".\par
+\par
+Add a <br> after the closing <datalist> tag.\par
+\par
+Make sure the id of the <datalist> matches the list attribute of the <input>.\par
+\par
+19.\par
+Let's add a few <option>s with values within the <datalist> element. For example:\par
+\par
+<option value="winner gets ice cream!"></option>\par
+You may add as many or as few quotes as you'd like! For a <datalist> you do not have to add text within the <option> element since the text will show up twice when rendered.\par
+\par
+20.\par
+Every good story has a key takeaway, so let's finish off this <form> by having our users provide this message!\par
+\par
+Add a <label> that has a for attribute of "message". Have the <label> render Meaningful Message: on the web page.\par
+\par
+Under the <label> add a <textarea> that has an id and name of "message". Make the <textarea> a required field. The <textarea> should have 8 rows and 40 columns. (Check the hint for a syntax reminder).\par
+\par
+Then add a line break after the <textarea> element.\par
+\par
+The syntax for a <textarea> element:\par
+\par
+<textarea id="some-od" name="a-name" rows="100" cols="100"></textarea>\par
+Project Extras\par
+21.\par
+Fantastic job creating a <form> to fill in a story!\par
+\par
+If you want to challenge yourself:\par
+\par
+Add pre-selected values for each input field.\par
+Add placeholder text that contains examples for users.\par
+Add some extra validations like min, minlength, or pattern to the elements that accept user input.\par
+22.\par
+If you are stuck on the project or would like to see an experienced developer work through the project, watch the following project walkthrough video!\par
+{{\field{\*\fldinst{HYPERLINK https://www.youtube.com/watch?time_continue=6&v=03CKXc4R1Q0 }}{\fldrslt{https://www.youtube.com/watch?time_continue=6&v=03CKXc4R1Q0\ul0\cf0}}}}\f1\fs22\par
+\par
+\f0\par
+}
+ 
