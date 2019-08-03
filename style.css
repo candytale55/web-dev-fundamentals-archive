@@ -1,0 +1,49 @@
+body{
+
+  /*IMAGES*/
+
+  /* Images - HTTP */
+  --background-image: url("https://i.postimg.cc/kXy3w5dV/baggage-large.jpg");
+
+  /*
+
+  --background-small: "https://i.postimg.cc/ZYFqN40R/baggage-small.jpg";
+  --background-image: "https://i.postimg.cc/kXy3w5dV/baggage-large.jpg";
+  --dock: "https://i.postimg.cc/SsKf0DXF/dock.jpg"
+  --fireplace:"https://i.postimg.cc/HsGpJYqJ/fireplace.jpg"
+  --footer-image: url("https://i.postimg.cc/KjcqsgVq/frozen-sunset.jpg)"
+  --map: "https://upload.wikimedia.org/wikipedia/commons/a/a0/Location_map_Norway_Oslo.png"
+ /*
+  /* Images - Project Path*/
+  /*
+  --background-small: "img/baggage_small.jpg"
+  --background-image:"img/baggage_large.jpg"
+  --dock: "img/dock.jpg"
+  --fireplace: img/fireplace.jpg
+  --footer-image: img/frozen_sunset.jpg
+  */
+} /* End of body Selector*/
+
+
+
+
+
+/* HEADER BANNER */
+
+#banner{
+  /*background-image: url("./img/baggage_large.jpg");*/
+  /*background-image: url("https://i.postimg.cc/kXy3w5dV/baggage-large.jpg");*/
+  background-image: var(--background-image);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+}
+
+
+/*BLOG ENTRY*/
+time {/*Blog post date, inside a h3*/}
+.blog-entry{ /*main section, container*/}
+.post{ /*contains all the blog post*/}
+article .image-container{
+/*the div that contains the img*/}
