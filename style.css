@@ -1,0 +1,34 @@
+body {
+
+}
+
+
+/*      HEADER SECTION     */
+
+/* Header structure is:  "
+   -- HEADER
+      -- div row (puts all logo and navbar in one line)
+        -- div col 2 (contains logo)
+           -- h1 element : Title or Logo of the page
+        -- div col 10 (contains the navbar )
+           -- navbar
+              (contains a ul element + (li>a) internal links)
+ */
+
+
+
+ /* HOME OR WELCOME SECTION */
+
+/* PRODUCTS SECTION */
+
+/* SERVICES SECTION */
+
+/* PRICES SECTION */
+
+/* GALLERY SECTION */
+
+/* FORM SECTION */
+
+/* ABOUT SECTION */
+
+/* CONTACT SECTION */
