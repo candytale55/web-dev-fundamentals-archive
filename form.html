@@ -16,8 +16,112 @@
     <!-- Local Stylesheets & files -->
     <link rel="stylesheet" type="text/css" href="style.css"/>
   </head>
-  
+
   <body>
+
+    <form action="#"
+          method="POST"
+          id="personal-info-form"
+          class="container">
+
+        <!--Names section-->
+      <div id="left-area" class="row">
+        <div id="left-area"
+              class="col-md-4">
+              <h1>Fill in this form!</h1>
+              <p><strong>Instructions:</strong>
+                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, quibusdam porro sapiente recusandae quia qui minima ea libero asperiores placeat, eum harum corporis! Consequuntur soluta, unde repellat recusandae, tempore explicabo!</span><span>Quia magni qui, ex placeat? Rem expedita modi rerum voluptates blanditiis, sed, officiis tempora sequi tempore assumenda ipsum iure. Quae rem iste, nesciunt ab! Modi delectus, laborum at repellendus hic.</span></p>
+
+         <div id="address-section">
+           <label for="address">Street Address:</label>
+           <input id="address"
+                  type="address"
+                  name="address"
+                  class="form-control">
+           <label for="city">City</label>
+           <label for="province">Province</label>
+           <label for="zip-code">Zip Code</label>
+           <label for="country">Country</label>
+         </div>  <!--End Address Section -->
+
+       </div> <!--End -left area-->
+
+        <div id="center-area"
+              class="col-md-4">
+
+          <label for="name">First Name:</label>
+          <input type="text"
+                  id="name"
+                  name="name"
+                  class="form-control"
+                  placeholder="Enter your first name">
+          <label for="last-name">Last Name</label>
+          <input type="text"
+                  id="last-name"
+                  name="last-name"
+                  class="form-control"
+                  placeholder="Enter your last name">
+          <label for="second-last-name">Second last name</label>
+          <input type="text"
+                  id="second-last-name"
+                  name="last-name"
+                  class="form-control"
+                  placeholder="If applicable, enter your second last name">
+        
+          <div id="email-section" class="container">
+
+
+          </div>
+
+        </div> <!--End center area-->
+
+
+
+
+
+
+
+
+                <!-- Gender and Age section-->
+        <div id="name-right"
+              class="col-md-4">
+          <div id="gender-section"
+               class="container subsection">
+
+            <h3>Gender:</h3>
+            <div class="row">
+
+            <label for="female">Female:</label>
+            <input type="radio"
+                    id="female"
+                    name="gender"
+                    value="female">
+            <label for="male">Male:</label>
+            <input type="radio"
+                    id="male"
+                    name="gender"
+                    value="male">
+            <label for="other">Other:</label>
+            <input type="radio"
+                    id="other"
+                    name="gender"
+                    value="other">
+              </div>
+            </div><!--End gender subsection-->
+
+          <div id="date-of-birth-section">
+            <label for="date-of-birth">Date of Birth:</label>
+            <input type="date"
+                   id="date-of-birth"
+                   name="date-of-birth">
+          </div>
+        </div>
+      </div>
+
+
+      </div>
+
+    </form>
 
   </body>
 </html>
