@@ -1,0 +1,18 @@
+
+
+/*Styling the Code Block without Bootstrap*/
+/*
+If you are not using bootstrap, use this code:
+Note: You still need to use shorthand &st; &lt; to
+display HTML, otherwise it will not display.
+
+You can use a converter:
+https://www.freeformatter.com/html-escape.html
+
+pre code {
+  background-color: #lightgray;
+  border: 1px solid #gray;
+  display: block;
+  padding: 20px;
+ }
+*/
