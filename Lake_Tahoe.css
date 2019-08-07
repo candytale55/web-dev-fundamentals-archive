@@ -1,0 +1,173 @@
+
+
+
+
+
+
+/*Global * /
+body{
+  background-color: white;
+  font-family: "Raleway", sans-serif;
+}
+
+/*Navigation bar* /
+.navigation{
+  display: flex;
+}
+
+.navigation ul{
+  padding: 0; /* ? Las viñetas desaparecieron despues de usar padding:0;* /
+  margin: 0;
+  text-align: center;
+
+}
+
+.navigation li{
+  display:inline-block;
+  font-weight: 100;
+  letter-spacing: 2px;
+  padding: 20px;
+}
+
+.navigation li a{
+  text-decoration:none;
+}
+
+.navigation li.logo{
+  color: black;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+
+.donate{
+  visibility: hidden;
+}
+
+
+/*Banner* /
+#banner{
+  background-image: url("./img_tahoe.jpeg");
+  background-size: cover;
+  background-position: bottom center;
+  height: 700px;
+  width: 100%;
+}
+
+#banner .content h1{
+  border: 3px solid white;
+  border-radius: 15px;
+  position: relative;
+  top: 50px;
+  width: 400px;
+  margin: 0 auto;
+}
+
+h1{
+  color: white;
+  font-size: 42px;
+  font-weight: 600;
+  text-align: center;
+
+}
+
+/* Main Content* /
+.content{
+
+}
+
+#main{
+  margin: 0 auto;
+  padding: 40px;
+  text-align: center;
+  width: 400px;
+  height: 1000px;
+  overflow: scroll;
+}
+
+
+h3{
+  color:red;
+  font-size: 26px;
+  font-weight: 700;
+  padding: 20px 10px;
+}
+
+p{
+  color:grey;
+  font-size: 16px;
+  line-height: 48px;
+  margin-top: 60px;
+  padding: 10px 20px;
+}
+.byline{
+  border-bottom: 1px solid LightGray;
+  border-top: 1px solid LightGray;
+  color: DarkGray;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+/*quote* /
+.pull-quote{
+  margin: 0 auto;
+  width: 350px;
+}
+
+
+h2{  /*quote* /
+  border: 1px dotted red;
+  color:red;
+  font-size: 14px;
+  line-height: 48px;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+
+/*Social Media Buttons* /
+.share{
+  border: 1px solid LightGray;
+  padding: 40px 0px;
+  possition: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.share a{
+  background: red;
+  border: 1px solid red;
+  border-radius: 3px;
+  color:white;
+  display: inline-block;
+  margin: 10px;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.share a:hover{
+  background:white;
+  border: 1px solid red;
+  color:red;
+}
+
+/*Footer* /
+
+footer{
+  background-color: gray;
+  height: 120px;
+  width: 100%;
+}
+
+.contact{
+  display:flex;
+}
+
+footer p{
+  position: relative;
+  top: 10px;
+  bottom: 10px;
+  padding: 20px;
+  margin: 0;
+  color: black;
+}
