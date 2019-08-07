@@ -1,0 +1,156 @@
+
+html, body{
+/*VARIABLES */
+      /*Colors */
+      --header-bkg: #333; /*Dark Grey*/
+      --footer-bkg: var(--header-bkg); /*Same as header*/
+      --btn-bkg: var(--header-bkg); /*Same as header*/
+      --bkg-color: #fff; /*White*/ /*Gral background color*/
+      /*Text Colors*/
+      --text-color: var(--header-bkg); /*Same as header*/
+      --btn-color: var(bkg-color); /*Same as background*/
+      /*Fonts */
+      --main-font: 'Raleway', sans-serif;
+      /*Sizes */
+      --banner-height: 800px;
+      --banner-h1: 3rem;
+
+  font-family: var(--main-font);
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  max-width: 940px;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  }
+
+/*HEADER / NAVIGATION SECTION*/
+
+header{
+  background-color: var(--header-bkg);
+  color: var(--bkg-color);
+  width: 100%;
+  position: fixed;
+  z-index: 5; /*para que quede encima al scrollear*/
+}
+
+#header li{
+  display: inline-flex;
+  font-size: 1.5rem;
+  padding: 0 2rem;
+}
+
+
+
+  /* BIG BANNER SECTION (JUMBOTRON) */
+
+#banner{
+  background-image: url("https://i.postimg.cc/j2rkbYMj/banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: var(--banner-height);
+
+  display:flex;
+}
+
+#banner h1{
+  color:var(--header-bkg);
+  /*text-shadow: 2px 1px var(--bkg-color);*/
+  text-transform: uppercase;
+  font-size: var(--banner-h1);
+}
+
+
+  /*   BUTTON SECTION */
+  /*  .btn-main is on the #banner section, btn-default on the .supporting section */
+
+.btn{ /*Applies to all buttons*/
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0.5rem 1rem;
+  background-color: var(--header-bkg);
+  color: var(--bkg-color);
+}
+
+.btn-main{
+  /*background-color: var(--header-bkg);
+  color: var(--bkg-color);*/
+}
+
+.btn-default{
+  /*background-color: var(--header-bkg);
+  color: var(--bkg-color);*/
+}
+
+
+
+  /*   SUPPORTING SECTION */
+
+#supporting {
+  position: relative;
+  top: 3rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+#supporting .col{
+  display: inline-block;
+  margin: 2rem 4rem;
+  max-width: 15rem;
+}
+
+#supporting h2{
+  font-weight: 600;
+}
+
+#supporting img {
+    height: 32px;
+  }
+
+
+
+  /*  FOOTER SECTION */
+
+  footer{
+    background-color: var(--header-bkg);
+    color: var(--bkg-color);
+    width: 100%;
+    text-align: left;
+    position:relative;
+    display:flex;
+    top: 3rem;
+    padding: .75rem 0;
+  }
+
+
+
+  #footer li{
+    display: inline-flex;
+    padding: 0 3rem;
+    margin: 6 5rem;
+  }
+
+
+  /*  Media Queries */
+
+
+  @media (max-width:800px){
+    #supporting col{
+      padding-top: 3rem;
+    }
+    #header li{
+      font-size: 1rem;
+      padding: 0 1rem;
+    }
+    #footer li{
+      display: inline-flex;
+      padding: 0 1rem;
+      margin: 6 5rem;
+      font-size: .75rem;
+    }
+  }
