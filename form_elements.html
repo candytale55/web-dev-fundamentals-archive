@@ -9,18 +9,26 @@
     <!--Bootstrap-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
     <!--Font Awesome-->
+  <!--
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
+  -->
     <!-- Local Stylesheets & files -->
     <link rel="stylesheet" type="text/css" href="style.css"/>
   </head>
   <body>
 
-<div class="container">
-  <h2>Form elements and types</h2>
-</div>
 
-  <!-- id="form-element"-->
-  <div id="form" class="container form-item">
+<!-- Navigation -->
+
+<navbar id="navbar" class="container">
+
+</navbar>
+
+
+<h2 class="container">Forms Elements and Types</h2>
+
+<!-- id="form-element"-->
+<div id="form" class="container form-item">
     <h3>The <code>form</code>element</h3>
     <p>This element is the skeleton for a form that will send information, in this case to "example.html" as a POST request.
       The action attribute determines where the information is sent
@@ -32,37 +40,42 @@
         &lt;/form&gt;
       </code>
    </pre>
-  </div>
-  <!-- fin id="form-element" -->
-
+  </div><!-- fin id="form-element" -->
 
 <!--input-element -->
 <div id="input" class="container form-item">
-  <h3>The<code>input</code>element</h3>
-  <p>The <code>input</code> element has a type attribute which determines how it renders on the web page and what kind of data it can accept.</p>
-  <p>It's also important that we include a name attribute for the <code>input</code> — without the name attribute, information in the <code>input</code> won't be sent when the <code>form</code> is submitted.</p>
-  <p>The first value for the type attribute we're going to explore is "text". When we create an <code>input</code> element with type="text",
-     it renders a text field that users can type into. </p>
-<pre><code>
-    &lt;form action=&quot;/example.html&quot; method=&quot;POST&quot;&gt;
-      &lt;input type=&quot;text&quot; name=&quot;first-text-field&quot;&gt;
-    &lt;/form&gt;
-  </code></pre>
-  <p>The result looks like:</p>
-  <div class="#input">
-    <form action="/example.html" method="POST">
-      <input type="text" name="first-text-field">
-    </form>
-  </div>
-</div>
-<!--fin input-element -->
+    <h3>The<code>input</code>element</h3>
+    <p>
+      The <code>input</code> element has a type attribute which determines how it renders on the web page and what kind of data it can accept.
+    </p>
+    <p>
+      It's also important that we include a name attribute for the <code>input</code> — without the name attribute, information in the <code>input</code> won't be sent when the <code>form</code> is submitted.
+    </p>
+    <p>
+      The first value for the type attribute we're going to explore is "text". When we create an <code>input</code> element with type="text", it renders a text field that users can type into.
+    </p>
 
+    <pre>
+      <code>
+        &lt;form action=&quot;/example.html&quot; method=&quot;POST&quot;&gt;
+        &lt;input type=&quot;text&quot; name=&quot;first-text-field&quot;&gt;
+        &lt;/form&gt;
+      </code>
+    </pre>
+    <p>The result looks like:</p>
+    <div class="html-example container">
+      <form action="/example.html" method="POST">
+        <input type="text" name="first-text-field">
+      </form>
+    </div>
+  </div> <!--fin input-element -->
 
 <!--id="label-element" -->
 <div id="label" class="container form-item">
   <h3>The<code>label</code>element</h3>
-  <p>To associate a <code>label</code> and an <code>input</code>, the <code>input</code> needs an id attribute. We then assign the for attribute of the <code>label</code> element with the value of the id attribute of <code>input</code>, like so:
-</p>
+  <p>
+    To associate a <code>label</code> and an <code>input</code>, the <code>input</code> needs an id attribute. We then assign the for attribute of the <code>label</code> element with the value of the id attribute of <code>input</code>, like so:
+  </p>
   <pre>
     <code>
       &lt;form action=&quot;/example.html&quot; method=&quot;POST&quot;&gt;
@@ -78,14 +91,11 @@
         <input type="text" name="food" id="meal">
       </form>
   </div>
-</div>
-<!--fin id="label-element" -->
+</div> <!--fin id="label-element" -->
 
-
-
-<!--id="number" -->
+<!--id="number" type -->
 <div id="number" class="container form-item">
-  <h2>The <code>number</code> type</h2>
+  <h3>The <code>number</code> type</h3>
   <p>By setting type="number" for an <code>input</code> we can restrict what users type into the input field to just numbers (and a few special characters like -, +, and .).</p>
   <p>We can also provide a step attribute which creates arrows inside the input field to increase or decrease by the value of the step attribute. Below is the code needed to render an input field for numbers:</p>
   <pre>
@@ -103,22 +113,24 @@
       <input id="years" name="years" type="number" step="1">
     </form>
   </div>
-</div>
-<!--fin id="number" -->
-
+</div>  <!--fin id="number" -->
 
 <!--id="range" -->
 <div id="range" class="container form-item">
   <h3>The<code>range</code>type</h3>
-  <p>Setting type to "range" creates a slider. To set the minimum and maximum values of the slider we assign values to the min and max attribute of the <code>input</code>.</p>
-  <p>We could also control how smooth and fluid the slider works by assigning the step attribute a value. Smaller step values will make the slider more fluidly, whereas larger step values will make the slider move more noticeably. Take a look at the code to create a slider</p>
+  <p>
+    Setting type to "range" creates a slider. To set the minimum and maximum values of the slider we assign values to the min and max attribute of the <code>input</code>.
+  </p>
+  <p>
+    We could also control how smooth and fluid the slider works by assigning the step attribute a value. Smaller step values will make the slider more fluidly, whereas larger step values will make the slider move more noticeably. Take a look at the code to create a slider
+  </p>
   <pre>
     <code>
-&lt;form&gt;
-  &lt;label for=&quot;volume&quot;&gt; Volume Control&lt;/label&gt;
-  &lt;input id=&quot;volume&quot; name=&quot;volume&quot; type=&quot;range&quot; min=&quot;0&quot; max=&quot;100&quot; step=&quot;1&quot;&gt;
-&lt;/form&gt;
-</code>
+      &lt;form&gt;
+      &lt;label for=&quot;volume&quot;&gt; Volume Control&lt;/label&gt;
+      &lt;input id=&quot;volume&quot; name=&quot;volume&quot; type=&quot;range&quot; min=&quot;0&quot; max=&quot;100&quot; step=&quot;1&quot;&gt;
+      &lt;/form&gt;
+    </code>
   </pre>
   <p>This is the result:</p>
   <div class="html-example container">
@@ -127,16 +139,17 @@
       <input id="volume" name="volume" type="range" min="0" max="100" step="1">
     </form>
   </div>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quidem qui laboriosam impedit nostrum iste tempore, reiciendis, fugit necessitatibus eum aliquam ea repellat debitis minus cumque quas quisquam maxime quia!</p>
+
+  <p>Using spans to add values to the range ends: </p>
   <pre>
     <code>
-&lt;section class=&quot;cooked&quot;&gt;
-  &lt;label for=&quot;doneness&quot;&gt;How do you want your patty cooked&lt;/label&gt;
-  &lt;br&gt;
-  &lt;span&gt;Rare&lt;/span&gt;
-  &lt;input type=&quot;range&quot; id=&quot;doneness&quot; name=&quot;doneness&quot; min=&quot;0&quot; max=&quot;5&quot; step=&quot;0.5&quot;&gt;
-  &lt;span&gt;Well-Done&lt;/span&gt;
-&lt;/section&gt;
+      &lt;section class=&quot;cooked&quot;&gt;
+      &lt;label for=&quot;doneness&quot;&gt;How do you want your patty cooked&lt;/label&gt;
+      &lt;br&gt;
+      &lt;span&gt;Rare&lt;/span&gt;
+      &lt;input type=&quot;range&quot; id=&quot;doneness&quot; name=&quot;doneness&quot; min=&quot;0&quot; max=&quot;5&quot; step=&quot;0.5&quot;&gt;
+      &lt;span&gt;Well-Done&lt;/span&gt;
+      &lt;/section&gt;
     </code>
   </pre>
   <p>This code will look like this:</p>
@@ -149,19 +162,19 @@
       <span>Well-Done</span>
     </section>
   </div>
-</div>
-<!--fin id="range" -->
-
+</div> <!--fin id="range" -->
 
 <!--id="password" -->
 <div id="password" class="container form-item">
   <h3>The<code>password</code>type</h3>
-  <p>An <code>input type ="password"</code> element will replace input text with another character like an asterisk (*) or a dot (•). The code below provides an example of how to create a password field:</p>
+  <p>
+    An <code>input type ="password"</code> element will replace input text with another character like an asterisk (*) or a dot (•). The code below provides an example of how to create a password field:
+  </p>
   <pre>
     <code>
       &lt;form&gt;
-        &lt;label for=&quot;user-password&quot;&gt;Password: &lt;/label&gt;
-        &lt;input type=&quot;password&quot; id=&quot;user-password&quot; name=&quot;user-password&quot;&gt;
+      &lt;label for=&quot;user-password&quot;&gt;Password: &lt;/label&gt;
+      &lt;input type=&quot;password&quot; id=&quot;user-password&quot; name=&quot;user-password&quot;&gt;
       &lt;/form&gt;
     </code>
   </pre>
@@ -172,18 +185,20 @@
       <input type="password" id="user-password" name="user-password">
     </form>
   </div>
-</div>
-<!--fin id="password" -->
-
+</div> <!--fin id="password" -->
 
 <!--id="checkbox" -->
 <div id="checkbox" class="container form-item">
   <h3>The <code>checkbox</code> type</h3>
-  <p>If we presented multiple options to users and want to allow them to select any number of options. <p>There are assigned values to the value attribute of the checkboxes. These values are not visible on the form itself, that's why it is important that we use an associated <code>label</code> to identify the checkbox.</p>
-  <p>Each <code>input</code> has the same value for the name attribute. Using the same name for each checkbox groups the <code>input</code>s together. However, each <code>input</code> has a unique id to pair with a <code>label</code>.</p>
+  <p>
+    If we presented multiple options to users and want to allow them to select any number of options. <p>There are assigned values to the value attribute of the checkboxes. These values are not visible on the form itself, that's why it is important that we use an associated <code>label</code> to identify the checkbox.
+    </p>
+    <p>
+      Each <code>input</code> has the same value for the name attribute. Using the same name for each checkbox groups the <code>input</code>s together. However, each <code>input</code> has a unique id to pair with a <code>label</code>.
+    </p>
     <pre>
-    <code>
-      &lt;form&gt;
+      <code>
+        &lt;form&gt;
         &lt;p&gt;Choose your pizza toppings:&lt;/p&gt;
         &lt;input id=&quot;cheese&quot; name=&quot;topping&quot; type=&quot;checkbox&quot; value=&quot;cheese&quot;&gt;
         &lt;label for=&quot;cheese&quot;&gt;Extra cheese&lt;/label&gt;
@@ -193,41 +208,40 @@
         &lt;br&gt;
         &lt;input id=&quot;anchovy&quot; name=&quot;topping&quot; type=&quot;checkbox&quot; value=&quot;anchovy&quot;&gt;
         &lt;label for=&quot;anchovy&quot;&gt;Anchovy&lt;/label&gt;
-      &lt;/form&gt;
-    </code>
-  </pre>
-  <p>This code will look like this:</p>
-  <div class="html-example container">
-    <form>
-      <p>Choose your pizza toppings:</p>
-      <input id="cheese" name="topping" type="checkbox" value="cheese">
-      <label for="cheese">Extra cheese</label>
-      <br>
-      <input id="pepperoni" name="topping" type="checkbox" value="pepperoni">
-      <label for="pepperoni">Pepperoni</label>
-      <br>
-      <input id="anchovy" name="topping" type="checkbox" value="anchovy">
-      <label for="anchovy">Anchovy</label>
-    </form>
-  </div>
-</div>
-<!--fin id="checkbox"-->
-
+        &lt;/form&gt;
+      </code>
+    </pre>
+    <p>This code will look like this:</p>
+    <div class="html-example container">
+      <form>
+        <p>Choose your pizza toppings:</p>
+        <input id="cheese" name="topping" type="checkbox" value="cheese">
+        <label for="cheese">Extra cheese</label>
+        <br>
+        <input id="pepperoni" name="topping" type="checkbox" value="pepperoni">
+        <label for="pepperoni">Pepperoni</label>
+        <br>
+        <input id="anchovy" name="topping" type="checkbox" value="anchovy">
+        <label for="anchovy">Anchovy</label>
+      </form>
+    </div>
+  </div> <!--fin id="checkbox"-->
 
 <!--id="radio" -->
 <div id="radio" class="container form-item">
   <h3>The<code>radio</code>type</h3>
-  <p>Radio buttons (like checkboxes) do not display their value. We have an associated <code>label</code> to represent the value of the radio button. To group radio buttons together, we assign them the same name and only one radio button from that group can be selected.
-</p>
+  <p>
+    Radio buttons (like checkboxes) do not display their value. We have an associated <code>label</code> to represent the value of the radio button. To group radio buttons together, we assign them the same name and only one radio button from that group can be selected.
+  </p>
   <pre>
     <code>
       &lt;form&gt;
-        &lt;p&gt;What is sum of 1 + 1?&lt;/p&gt;
-        &lt;input type=&quot;radio&quot; id=&quot;two&quot; name=&quot;answer&quot; value=&quot;2&quot;&gt;
-        &lt;label for=&quot;two&quot;&gt;2&lt;/label&gt;
-        &lt;br&gt;
-        &lt;input type=&quot;radio&quot; id=&quot;eleven&quot; name=&quot;answer&quot; value=&quot;11&quot;&gt;
-        &lt;label for=&quot;eleven&quot;&gt;11&lt;/label&gt;
+      &lt;p&gt;What is sum of 1 + 1?&lt;/p&gt;
+      &lt;input type=&quot;radio&quot; id=&quot;two&quot; name=&quot;answer&quot; value=&quot;2&quot;&gt;
+      &lt;label for=&quot;two&quot;&gt;2&lt;/label&gt;
+      &lt;br&gt;
+      &lt;input type=&quot;radio&quot; id=&quot;eleven&quot; name=&quot;answer&quot; value=&quot;11&quot;&gt;
+      &lt;label for=&quot;eleven&quot;&gt;11&lt;/label&gt;
       &lt;/form&gt;
     </code>
   </pre>
@@ -242,31 +256,37 @@
       <label for="eleven">11</label>
     </form>
   </div>
-</div>
-<!--fin id="radio" -->
-
+</div>  <!--fin id="radio" -->
 
 <!--id="select" -->
 <div id="select" class="container form-item">
   <h3>The <code>select</code> and <code>option</code> elements</h3>
-  <p>A dropdown list to allow our users to choose one option from an organized list. Here's the code to create a dropdown menu:</p>
+  <p>
+    A dropdown list to allow our users to choose one option from an organized list. Here's the code to create a dropdown menu:
+  </p>
   <pre>
     <code>
       &lt;form&gt;
-        &lt;label for=&quot;lunch&quot;&gt;What's for lunch?&lt;/label&gt;
-        &lt;select id=&quot;lunch&quot; name=&quot;lunch&quot;&gt;
-          &lt;option value=&quot;pizza&quot;&gt;Pizza&lt;/option&gt;
-          &lt;option value=&quot;curry&quot;&gt;Curry&lt;/option&gt;
-          &lt;option value=&quot;salad&quot;&gt;Salad&lt;/option&gt;
-          &lt;option value=&quot;ramen&quot;&gt;Ramen&lt;/option&gt;
-          &lt;option value=&quot;tacos&quot;&gt;Tacos&lt;/option&gt;
-        &lt;/select&gt;
+      &lt;label for=&quot;lunch&quot;&gt;What's for lunch?&lt;/label&gt;
+      &lt;select id=&quot;lunch&quot; name=&quot;lunch&quot;&gt;
+      &lt;option value=&quot;pizza&quot;&gt;Pizza&lt;/option&gt;
+      &lt;option value=&quot;curry&quot;&gt;Curry&lt;/option&gt;
+      &lt;option value=&quot;salad&quot;&gt;Salad&lt;/option&gt;
+      &lt;option value=&quot;ramen&quot;&gt;Ramen&lt;/option&gt;
+      &lt;option value=&quot;tacos&quot;&gt;Tacos&lt;/option&gt;
+      &lt;/select&gt;
       &lt;/form&gt;
     </code>
   </pre>
-  <p>We're using the element <code>select</code> to create the dropdown list. To populate the dropdown list, we add multiple <code>option</code> elements, each with a value attribute. By default, only one of these options can be selected.</p>
-  <p>The text rendered is included between the opening and closing <code>option</code> tags. However, it is the value of the value attribute that is used in <code>form</code> submission (notice the difference in the text and value capitalization).</p>
-  <p>When the <code>form</code> is submitted, the information from this input field will be sent using the name of the <code>select</code> and the value of the chosen <code>option</code>. For instance, if a user selected Pizza from the dropdown list, the information would be sent as "lunch=pizza".</p>
+  <p>
+    We're using the element <code>select</code> to create the dropdown list. To populate the dropdown list, we add multiple <code>option</code> elements, each with a value attribute. By default, only one of these options can be selected.
+  </p>
+  <p>
+    The text rendered is included between the opening and closing <code>option</code> tags. However, it is the value of the value attribute that is used in <code>form</code> submission (notice the difference in the text and value capitalization).
+  </p>
+  <p>
+    When the <code>form</code> is submitted, the information from this input field will be sent using the name of the <code>select</code> and the value of the chosen <code>option</code>. For instance, if a user selected Pizza from the dropdown list, the information would be sent as "lunch=pizza".
+  </p>
   <div class="html-example container">
     <form>
       <label for="lunch">What's for lunch?</label>
@@ -279,29 +299,28 @@
       </select>
     </form>
   </div>
-</div>
-<!--fin id="select" -->
-
-
+</div> <!--fin id="select" -->
 
 <!--id="datalist" -->
 <div id="datalist" class="container form-item">
-  <h2>The <code>datalist</code> element</h2>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores ipsum cupiditate ducimus assumenda, quibusdam voluptas. Est quam, quaerat cum perferendis veniam voluptatum corporis, accusantium assumenda nemo possimus mollitia consectetur iste.</p>
+  <h3>The <code>datalist</code> element</h3>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores ipsum cupiditate ducimus assumenda, quibusdam voluptas. Est quam, quaerat cum perferendis veniam voluptatum corporis, accusantium assumenda nemo possimus mollitia consectetur iste.
+  </p>
   <pre>
     <code>
       &lt;form&gt;
-        &lt;label for=&quot;city&quot;&gt;Ideal city to visit?&lt;/label&gt;
-        &lt;input type=&quot;text&quot; list=&quot;cities&quot; id=&quot;city&quot; name=&quot;city&quot;&gt;
+      &lt;label for=&quot;city&quot;&gt;Ideal city to visit?&lt;/label&gt;
+      &lt;input type=&quot;text&quot; list=&quot;cities&quot; id=&quot;city&quot; name=&quot;city&quot;&gt;
 
-        &lt;datalist id=&quot;cities&quot;&gt;
-          &lt;option value=&quot;New York City&quot;&gt;&lt;/option&gt;
-          &lt;option value=&quot;Tokyo&quot;&gt;&lt;/option&gt;
-          &lt;option value=&quot;Barcelona&quot;&gt;&lt;/option&gt;
-          &lt;option value=&quot;Mexico City&quot;&gt;&lt;/option&gt;
-          &lt;option value=&quot;Melbourne&quot;&gt;&lt;/option&gt;
-          &lt;option value=&quot;Other&quot;&gt;&lt;/option&gt;
-        &lt;/datalist&gt;
+      &lt;datalist id=&quot;cities&quot;&gt;
+      &lt;option value=&quot;New York City&quot;&gt;&lt;/option&gt;
+      &lt;option value=&quot;Tokyo&quot;&gt;&lt;/option&gt;
+      &lt;option value=&quot;Barcelona&quot;&gt;&lt;/option&gt;
+      &lt;option value=&quot;Mexico City&quot;&gt;&lt;/option&gt;
+      &lt;option value=&quot;Melbourne&quot;&gt;&lt;/option&gt;
+      &lt;option value=&quot;Other&quot;&gt;&lt;/option&gt;
+      &lt;/datalist&gt;
       &lt;/form&gt;
 
     </code>
@@ -321,23 +340,22 @@
         <option value="Other"></option>
       </datalist>
     </form>
-
   </div>
-</div>
-<!--fin id="datalist" -->
-
+</div> <!--fin id="datalist" -->
 
 <!--id="textarea" -->
 <div id="textarea" class="container form-item">
   <h2>The <code>textarea</code> element</h2>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores ipsum cupiditate ducimus assumenda, quibusdam voluptas. Est quam, quaerat cum perferendis veniam voluptatum corporis, accusantium assumenda nemo possimus mollitia consectetur iste.</p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores ipsum cupiditate ducimus assumenda, quibusdam voluptas. Est quam, quaerat cum perferendis veniam voluptatum corporis, accusantium assumenda nemo possimus mollitia consectetur iste.
+  </p>
   <pre>
     <code>
       &lt;form&gt;
-        &lt;label for=&quot;blog&quot;&gt;New Blog Post: &lt;/label&gt;
-        &lt;br&gt;
-        &lt;textarea id=&quot;blog&quot; name=&quot;blog&quot; rows=&quot;5&quot; cols=&quot;30&quot;&gt;You can add default text here.
-        &lt;/textarea&gt;
+      &lt;label for=&quot;blog&quot;&gt;New Blog Post: &lt;/label&gt;
+      &lt;br&gt;
+      &lt;textarea id=&quot;blog&quot; name=&quot;blog&quot; rows=&quot;5&quot; cols=&quot;30&quot;&gt;You can add default text here.
+      &lt;/textarea&gt;
       &lt;/form&gt;
     </code>
   </pre>
@@ -347,23 +365,21 @@
       <label for="blog">New Blog Post: </label>
       <br>
       <textarea id="blog" name="blog" rows="5" cols="30">
-    You can add default text here.
+        You can add default text here.
       </textarea>
     </form>
   </div>
-</div>
-<!--fin id="textarea" -->
-
+</div><!--fin id="textarea" -->
 
 <!--id="submit" -->
 <div id="submit" class="container form-item">
-  <h2>The <code>submit</code> type</h2>
+  <h3>The <code>submit</code> type</h3>
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores ipsum cupiditate ducimus assumenda, quibusdam voluptas. Est quam, quaerat cum perferendis veniam voluptatum corporis, accusantium assumenda nemo possimus mollitia consectetur iste.</p>
   <p>Value shows up as text on the submit button. If none, it shows default "Submit"</p>
   <pre>
     <code>
       &lt;form&gt;
-        &lt;input type=&quot;submit&quot; value=&quot;Send&quot;&gt;
+      &lt;input type=&quot;submit&quot; value=&quot;Send&quot;&gt;
       &lt;/form&gt;
     </code>
   </pre>
@@ -373,25 +389,27 @@
       <input type="submit" value="Send">
     </form>
   </div>
-</div>
-<!--fin id="submit" -->
+</div> <!--fin id="submit" -->
+
 
 
 <h2 class="container">Validation Attributes</h2>
 
 <!--id="required" -->
 <div id="required" class="container form-item">
-  <h2>The <code>required</code> attribute</h2>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores ipsum cupiditate ducimus assumenda, quibusdam voluptas. Est quam, quaerat cum perferendis veniam voluptatum corporis, accusantium assumenda nemo possimus mollitia consectetur iste.</p>
+  <h3>The <code>required</code> attribute</h3>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores ipsum cupiditate ducimus assumenda, quibusdam voluptas. Est quam, quaerat cum perferendis veniam voluptatum corporis, accusantium assumenda nemo possimus mollitia consectetur iste.
+  </p>
   <pre>
     <code>
       &lt;form action=&quot;/example.html&quot; method=&quot;POST&quot;&gt;
-        &lt;label for=&quot;allergies&quot;&gt;Do you have any dietary restrictions?&lt;/label&gt;
-        &lt;br&gt;
-        &lt;input id=&quot;allergies&quot; name=&quot;allergies&quot; type=&quot;text&quot; required&gt;
-        &lt;br&gt;
-        &lt;br&gt;
-        &lt;input type=&quot;submit&quot; value=&quot;Submit&quot;&gt;
+      &lt;label for=&quot;allergies&quot;&gt;Do you have any dietary restrictions?&lt;/label&gt;
+      &lt;br&gt;
+      &lt;input id=&quot;allergies&quot; name=&quot;allergies&quot; type=&quot;text&quot; required&gt;
+      &lt;br&gt;
+      &lt;br&gt;
+      &lt;input type=&quot;submit&quot; value=&quot;Submit&quot;&gt;
       &lt;/form&gt;
     </code>
   </pre>
@@ -418,21 +436,20 @@
       <input type="submit" value="Submit">
     </form>
   </div>
-</div>
-<!--fin id="required" -->
-
-
+</div> <!--fin id="required" -->
 
 <!--id="min-max" -->
 <div id="min-max" class="container form-item">
-  <h2>The <code>min</code> and <code>max</code> attributes</h2>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores ipsum cupiditate ducimus assumenda, quibusdam voluptas. Est quam, quaerat cum perferendis veniam voluptatum corporis, accusantium assumenda nemo possimus mollitia consectetur iste.</p>
+  <h3>The <code>min</code> and <code>max</code> attributes</h3>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores ipsum cupiditate ducimus assumenda, quibusdam voluptas. Est quam, quaerat cum perferendis veniam voluptatum corporis, accusantium assumenda nemo possimus mollitia consectetur iste.
+  </p>
   <pre>
     <code>
       &lt;form action=&quot;/example.html&quot; method=&quot;POST&quot;&gt;
-        &lt;label for=&quot;guests&quot;&gt;Enter # of guests:&lt;/label&gt;
-        &lt;input id=&quot;guests&quot; name=&quot;guests&quot; type=&quot;number&quot; min=&quot;1&quot; max=&quot;4&quot;&gt;
-        &lt;input type=&quot;submit&quot; value=&quot;Submit&quot;&gt;
+      &lt;label for=&quot;guests&quot;&gt;Enter # of guests:&lt;/label&gt;
+      &lt;input id=&quot;guests&quot; name=&quot;guests&quot; type=&quot;number&quot; min=&quot;1&quot; max=&quot;4&quot;&gt;
+      &lt;input type=&quot;submit&quot; value=&quot;Submit&quot;&gt;
       &lt;/form&gt;
     </code>
   </pre>
@@ -444,21 +461,21 @@
       <input type="submit" value="Submit">
     </form>
   </div>
-</div>
-<!--fin id="min-max" -->
+</div> <!--fin id="min-max" -->
 
-
-<!--id="minlength" -->
+<!--id="minlength" and maxlength -->
 <div id="minlength" class="container form-item">
-  <h2>The <code>minlength</code> and <code>maxlength</code> attribute</h2>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores ipsum cupiditate ducimus assumenda, quibusdam voluptas. Est quam, quaerat cum perferendis veniam voluptatum corporis, accusantium assumenda nemo possimus mollitia consectetur iste.</p>
+  <h3>The <code>minlength</code> and <code>maxlength</code> attribute</h3>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores ipsum cupiditate ducimus assumenda, quibusdam voluptas. Est quam, quaerat cum perferendis veniam voluptatum corporis, accusantium assumenda nemo possimus mollitia consectetur iste.
+  </p>
   <pre>
     <code>
       &lt;form action=&quot;#minlength&quot; method=&quot;POST&quot;&gt;
-        &lt;label for=&quot;summary&quot;&gt;Please explain in 140 characters&lt;/label&gt;
-        &lt;br&gt;
-        &lt;textarea id=&quot;summary&quot; name=&quot;summary&quot; minlength=&quot;5&quot; maxlength=&quot;140&quot; rows=&quot;5&quot; cols=&quot;60&quot; required&gt;&lt;/textarea&gt;
-        &lt;br&gt;
+      &lt;label for=&quot;summary&quot;&gt;Please explain in 140 characters&lt;/label&gt;
+      &lt;br&gt;
+      &lt;textarea id=&quot;summary&quot; name=&quot;summary&quot; minlength=&quot;5&quot; maxlength=&quot;140&quot; rows=&quot;5&quot; cols=&quot;60&quot; required&gt;&lt;/textarea&gt;
+      &lt;br&gt;
     </code>
   </pre>
   <p>Try to submit the form with less than 5 characters and then more than 140 characters (approx two and half lines of text):</p>
@@ -471,20 +488,21 @@
       <input type="submit" value="Submit">
     </form>
   </div>
-</div>
-<!--fin id="minlength" -->
+</div> <!--fin id="minlength" -->
 
 <!--id="regex" -->
 <div id="regex" class="container form-item">
-  <h2>Regex validation</h2>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores ipsum cupiditate ducimus assumenda, quibusdam voluptas. Est quam, quaerat cum perferendis veniam voluptatum corporis, accusantium assumenda nemo possimus mollitia consectetur iste.</p>
+  <h3>Regex validation</h3>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores ipsum cupiditate ducimus assumenda, quibusdam voluptas. Est quam, quaerat cum perferendis veniam voluptatum corporis, accusantium assumenda nemo possimus mollitia consectetur iste.
+  </p>
   <pre>
     <code>
       &lt;form action=&quot;/example.html&quot; method=&quot;POST&quot;&gt;
-        &lt;label for=&quot;payment&quot;&gt;Credit Card Number (no spaces):&lt;/label&gt;
-        &lt;br&gt;
-        &lt;input id=&quot;payment&quot; name=&quot;payment&quot; type=&quot;text&quot; required pattern=&quot;[0-9]{14,16}&quot;&gt;
-        &lt;input type=&quot;submit&quot; value=&quot;Submit&quot;&gt;
+      &lt;label for=&quot;payment&quot;&gt;Credit Card Number (no spaces):&lt;/label&gt;
+      &lt;br&gt;
+      &lt;input id=&quot;payment&quot; name=&quot;payment&quot; type=&quot;text&quot; required pattern=&quot;[0-9]{14,16}&quot;&gt;
+      &lt;input type=&quot;submit&quot; value=&quot;Submit&quot;&gt;
       &lt;/form&gt;
     </code>
   </pre>
@@ -497,48 +515,7 @@
       <input type="submit" value="Submit">
     </form>
   </div>
-</div>
-<!--fin id="" -->
+</div> <!--fin id="regex" -->
 
-
-
-<!--id="" -->
-<div id="" class="container form-item">
-  <h2>The <code></code> attribute</h2>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores ipsum cupiditate ducimus assumenda, quibusdam voluptas. Est quam, quaerat cum perferendis veniam voluptatum corporis, accusantium assumenda nemo possimus mollitia consectetur iste.</p>
-  <pre>
-    <code>
-
-    </code>
-  </pre>
-  <p>This code will look like this:</p>
-  <div class="html-example container">
-
-  </div>
-</div>
-<!--fin id="" -->
-
-
-
-
-
-
-<!--id="" -->
-<div id="" class="container form-item">
-  <h2>The <code></code> attribute</h2>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores ipsum cupiditate ducimus assumenda, quibusdam voluptas. Est quam, quaerat cum perferendis veniam voluptatum corporis, accusantium assumenda nemo possimus mollitia consectetur iste.</p>
-  <pre>
-    <code>
-
-    </code>
-  </pre>
-  <p>This code will look like this:</p>
-  <div class="html-example container">
-
-  </div>
-</div>
-<!--fin id="" -->
-
-
-  </body>
-</html>
+</body>
+ </html>
