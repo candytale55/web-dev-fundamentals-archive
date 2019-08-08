@@ -36,6 +36,8 @@ header{
   width: 100%;
   position: fixed;
   z-index: 5; /*para que quede encima al scrollear*/
+  display:flex;
+  justify-content: space-around;
 }
 
 #header li{
