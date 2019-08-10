@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Instructions Gameboard</title>
+  </head>
+  <body>
+<h2>INTRODUCTION TO JQUERY</h2>
+    <h1>Gameboard</h1>
+
+<p>
+Gameboard is creating a scoreboard that displays NBA scores from around the league. They want the user to be able to click the More link to see the dropdown menu, to click the Share link to see the share menu, and to click the notification bell.
+</p>
+<p>
+If you get stuck during this project or would like to see an experienced developer work through it, click “Get Help“ to see a project walkthrough video.
+</p>
+
+<h3>Tasks</h3>
+<p>
+Mark the tasks as complete by checking them off
+</p>
+
+<li>
+<!--2.-->
+<p>Look at index.html:</p>
+
+<p>
+In the <div class="row more">, there are two elements: an <a class="more-btn"> and a <ul class="more-menu">. When the <a> is clicked, we want the <ul class="more-menu"> to appear.
+</p>
+<p>
+Inside the <ul class="more-menu">, there are two elements: an <li class="share"> and a <li class="share-menu">. When the <li class="share"> is clicked, we want the <li class="share-menu"> to appear.
+</p>
+<p>
+There is a <span class="notification"> element. When that element is clicked, we want the notification bell to turn yellow.
+</p>
+<p>
+</li>
+
+<li>
+<!--2.-->
+<p>
+In script.js, attach a click event handler to the <a class="more-btn"> element.
+</p>
+<p>
+When clicked, toggle the sibling <ul class="more-menu"> element.
+</p>
+<p class="hint">
+Use event.currentTarget with .siblings() to access the .more-btn element.
+</p>
+</li>
+
+<li>
+<!--3.-->
+<p>
+Attach a click event handler to the <li class="share"> element. When clicked, toggle the corresponding <li class="share-menu"> element.
+</p>
+<p class="hint">
+Call .next() on the current target.
+</p>
+</li>
+
+<!--4.-->
+<li><p>Attach a click event handler to the notification bell. When clicked, toggle the class active.</p></li>
+
+
+<!--5.-->
+<li><p>Click here for a video walkthrough from our experts to help you check your work!</p></li>
+
+<div class="video">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Jml4eShR5O8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+  </body>
+</html>
