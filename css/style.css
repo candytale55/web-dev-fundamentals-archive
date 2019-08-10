@@ -1,0 +1,76 @@
+
+html{
+
+}
+
+body{
+
+}
+
+
+
+.container{
+
+}
+
+
+/* Navigation */
+
+.menu-button{
+
+}
+
+.login-button{
+
+}
+
+
+/*  Nav Menu  */
+.nav-menu{
+
+  }
+
+.hide{
+
+}
+
+/* Login Form */
+.login-form{
+
+}
+.username{
+
+}
+.sign-in-button{
+
+}
+
+
+/* Product Cards */
+.product-card{}
+.product-photo{}
+.product-details{}
+.more-details-button{}
+
+   /* Images */
+.product-card .sole-air-ii{
+  background-image: url("./img/sole-air-ii.png");
+}
+.product-card .tidal-x{
+  background-image: url("./img/tidal-x.png");
+}
+.product-card .dark-sole-original{
+  background-image: url("./img/dark-sole-original.png");
+}
+
+.shoe-details{}
+.size-chart{}
+.sizes{}
+.buy-now-button{}
+.disabled{}
+
+
+
+/* Shopping cart */
+.shopping-cart{}
+.cart{}
