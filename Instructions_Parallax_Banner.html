@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Instructions Sassy Parallax Banner</title>
+</head>
+<body>
+
+  <h2>LEARN SASS</h2>
+
+  <h1>Sassy Parallax Banner</h1>
+
+  <p>
+    Parallax scrolling is a popular web design trend that gained momentum in recent years! If you’ve ever noticed a background moving at a slower rate than the foreground, creating a 3D effect and adding depth, then you’ve seen parallax scrolling.
+  </p><p>
+    The sleek traveling agency Travels-R-Us has reached out to you to launch their new “Visit Myanmar” page. They have requested a page that implements a parallax banner so that the user may scroll and admire travel photography as they decide where to take their next trip. After some research, you decide nesting, variables, and mixins will be the best tools to style a parallax banner. Let’s do this!
+  </p><p>
+    If you get stuck during this project or would like to see an experienced developer work through it, click “Get Help“ to see a project walkthrough video.
+  </p>
+
+  <div class="video">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/s9fF0Pt2m1Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+  </div>
+
+  <h3>Tasks</h3>
+  <ol>
+
+    <li><!--1.-->
+      <p>Define the following variables at the top of your main.scss file—: </p>
+
+      <code>
+        $parallax-height: 100vh;<br>
+        $center-margin: 0px auto;
+      </code>
+
+      <p>
+        Reference those variables inside the instances that use them.
+      </p>
+
+      <p>
+        Reference $parallax-height as the height property of #landscape and #monkeys. Reference center-margin inside of p.
+      </p></li>
+
+
+      <li> <!--2.-->
+        <p>
+          Start to create the logic for a parallax effect. Inside of both id selectors for our background parallax, #landscape and #monkeys add the following properties:
+        </p>
+        <code>
+          width: 100%; <br>
+          height: 100vh;<br>
+          perspective: 1px;<br>
+          transform: translateZ(-1px);<br>
+          overflow-x: hidden;<br>
+          overflow-y: auto;<br>
+          #landscape, #monkeys{<br>
+            width: 100%;<br>
+            height: 100vh;<br>
+            perspective: 1px;<br>
+            overflow-x: hidden;<br>
+            overflow-y: auto;<br>
+            transform: translateZ(-1px);<br>
+          }
+        </code>
+        <p>
+          Play around with the property values to understand how each one is working towards achieving a parallax effect. Especially with the transform property!
+        </p>
+      </li>
+
+      <li> <!--3.-->
+        <p>
+          Since you are including travel photography in your parallax, you make sure that the background image covers the entire div. You can do this by setting the webkit-background-size to a value cover. This property is vendor specific, so it means you will need to make a mixin with the following properties:
+        </p>
+
+        <code>
+          background-size: cover; <br>
+          -webkit-background-size: cover; <br>
+          -moz-background-size: cover; <br>
+          -o-background-size: cover;
+        </code>
+
+        <p>
+          The mixin should takes one parameter, the size, and assign that to all of the vendor properties.
+        </p>
+
+        <code>
+          @mixin background-size($size) { <br>
+            -webkit-background-size: $size;<br>
+            -moz-background-size: $size;<br>
+            -o-background-size: $size;<br>
+            background-size: $size;<br>
+          }
+        </code>
+
+      </li>
+
+      <li> <!--4.-->
+        <p>
+          Task 4: At the top of your main.scss, make a new mixin with the rest of the parallax background properties.
+        </p>
+
+        <code>
+          @mixin parallax-background($file) {
+            background: url($file) no-repeat center center fixed;
+            @include background-size(cover);
+          }
+        </code>
+        <p>
+          Be sure to include the mixin at the top of your file.</p>
+        </li>
+
+
+        <li> <!--5.-->
+          <p>
+            Include the mixin inside the selectors of the both #landscape and #monkey, passing in a value of “https://s3.amazonaws.com/codecademy-content/projects/sass/landscape.jpg" and “https://s3.amazonaws.com/codecademy-content/projects/sass/monkeys.jpg" respectively.
+          </p>
+          <code>
+            @include parallax-background("https://s3.amazonaws.com/codecademy-content/projects/sass/monkeys.jpg")</code>
+          </li>
+
+          <li> <!--6.-->
+            <p>
+              Assign the h1 property a</p>
+
+              <code> transform: translateZ(-2px); </code>
+
+              <p>
+                This is to ensure that the Z-axis may be at a different translate setting than the image in the foreground.
+              </p>
+
+              <code>
+                h1{ <br>
+                  transform: translateZ(-2px)<br>
+                }
+              </code>
+            </li>
+
+
+            <li> <!--7.-->
+              <p>
+                Scroll around in the webpage! Observe the parallax effect. Tweak the transform effects as you please and play around with the values to create your own effects.
+              </p>
+              <p> Congratulations! You’ve styled a SCSS parallax banner.</p>
+              </li>
+
+            </body>
+            </html>
