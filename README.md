@@ -1,16 +1,17 @@
 # Message_Mixer_js
 
-The functions defined in Message Mixer allow you to:
+<div>The functions defined in Message Mixer allows you to:</div>
 
-count the characters in a message
-capitalize the first character of words
-reverse a message’s words in place
-reversing characters in place
-replace the first occurrence of a string
-replace all occurrences of a string
-encode text by swapping certain characters for other characters
-convert to a palindrome
-convert to pig-Latin
+<ul>
+<li>count the characters in a message</li>
+<li>capitalize the first character of words</li>
+<li>reverse a message’s words in place</li>
+<li>reversing characters in place</li>
+<li>replace the first occurrence of a string</li>
+<li>replace all occurrences of a string</li>
+<li>encode text by swapping certain characters for other characters</li>
+<li>convert to a palindrome</li>
+<li>convert to pig-Latin</li>
+</ul>
 
-
-This was JS modules practice, from a Codecademy tutorial. 
+<div>JS modules practice, from a Codecademy tutorial. </div>
