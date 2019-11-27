@@ -1,7 +1,6 @@
 # Message_Mixer_js
 
 <div>The functions defined in Message Mixer allows you to:</div>
-
 <ul>
 <li>count the characters in a message</li>
 <li>capitalize the first character of words</li>
@@ -13,5 +12,5 @@
 <li>convert to a palindrome</li>
 <li>convert to pig-Latin</li>
 </ul>
-
+<div>The text-transformation behavior should be kept within the module messageMixer.js  and the output behavior should exist within message.js.</div>
 <div>JS modules practice, from a Codecademy tutorial. </div>
