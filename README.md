@@ -1,6 +1,7 @@
 # Message_Mixer_js
 
-<div>The functions defined in Message Mixer allows you to:</div>
+<div>Three different ways to export modules in JavaScript.  Message Mixer takes a string and transforms it with functions, including:</div> </br>
+
 <ul>
 <li>count the characters in a message</li>
 <li>capitalize the first character of words</li>
