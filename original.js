@@ -1,4 +1,3 @@
-
 function countCharacter(inputString, inputCharacter) {
   let count = 0;
   let string = inputString.toLowerCase();
@@ -8,16 +7,16 @@ function countCharacter(inputString, inputCharacter) {
          count++;
       }
     }
-  return count;
+  return count; 
 };
 
 function capitalizeFirstCharacterOfWords(string) {
-  let arr = string.split(" ");
-    for (let i = 0; i < arr.length; i++) {
+  let arr = string.split(" ");  
+    for (let i = 0; i < arr.length; i++) {  
       let word = arr[i];
-        arr[i] = word[0].toUpperCase() + word.substring(1);
+        arr[i] = word[0].toUpperCase() + word.substring(1); 
     }
-  return arr.join(" ");
+  return arr.join(" "); 
 };
 
 
@@ -46,10 +45,21 @@ function replaceAllOccurrences(string, toBeReplaced, replaceWith) {
 function encode(string) {
   let replacementObject = { "a": "@", "s": "$", "i": "!", "o":"0" };
     for (let key in replacementObject) {
-      string = replaceAllOccurrences(string, key, replacementObject[key]);
-    }
+      string = replaceAllOccurrences(string, key, replacementObject[key]); 
+    }	
     return string;
 };
+
+function palindrome (str){
+  return `${str} ${reverseWord(str)}`;
+};
+
+function pigLatin (sentence, character) {
+  return sentence.split(' ').join(character + ' ');
+};
+
+
+
 
 function displayMessage() {
   console.log(countCharacter("What is the color of the sky?", "t"));
@@ -58,6 +68,8 @@ function displayMessage() {
   console.log(reverseAllWords("What is the color of the sky?"));
   console.log(replaceFirstOccurence("What is the color of the sky?", "sky", "water"));
   console.log(encode("What is the color of the sky?"));
+  console.log(palindrome("What is the color of the sky?"));
+  console.log(pigLatin("What is the color of the sky?", "nay"));
 }
 
 displayMessage();
