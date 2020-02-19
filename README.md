@@ -1,4 +1,4 @@
 # eight_ball
-Eight ball divination code. In English. From Codecademy lesson.
+Eight ball divination code in JavaScript. 
 
 Adding extra text to test Atom
