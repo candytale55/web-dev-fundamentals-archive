@@ -138,6 +138,12 @@ class GameScene extends Phaser.Scene {
 		if (isPaused === false) {
 	// check each burrow's location if the user is hitting the corresponding key and run the handler to determine if user should get a reward or penalty
 
+			///////////   ////////////   //////////////
+			
+			/*
+			THE PROBLEM WAS WITH QUOTES:   onBurrowHit('j'); ADING THEM SOLVED THE ISSUE. OUGH!
+			*/
+			
   // gameState.jKey, kKey and lKey, will identify when the user hits one of the keys
        if (Phaser.Input.Keyboard.JustDown(gameState.jKey)) {
         onBurrowHit(j);
