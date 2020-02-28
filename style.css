@@ -1,0 +1,29 @@
+body {
+    background-color: #010165;
+    margin: 0px;
+    text-align: center;
+  }
+
+
+
+
+.door-frame {
+  cursor: pointer;
+  padding: 10px;
+}
+
+/*START BUTTON*/
+.start-row {
+  margin: auto;
+  width: 120px;
+  height: 43px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #010165;
+  background-color: #eb6536;
+  padding-top: 18px;
+  margin-bottom: 21px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+  
