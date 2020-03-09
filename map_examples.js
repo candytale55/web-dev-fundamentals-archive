@@ -1,6 +1,4 @@
-/*
-When the .map() method is called on an array, it takes a callback function as argument and returns a new array.
-*/
+/*  When the .map() method is called on an array, it takes a callback function as argument and returns a new array.*/
 
 const numbers = [1,2,3,5,7,8,10];
 
@@ -27,6 +25,8 @@ console.log(secretMessage.join(''));
 
 
 
+
+
 const bigNumbers = [100, 200, 300, 400, 500];
 
 const smallNumbers = bigNumbers.map(
@@ -35,4 +35,19 @@ const smallNumbers = bigNumbers.map(
   }
 );
 console.log(smallNumbers); // [ 1, 2, 3, 4, 5 ]
+
+
+
+
+
+const nums = [1, 50, 75, 200, 350, 525, 1000];
+
+// Choose a method that will return a new array of numbers returned from the function
+const smallerNums = nums.map(
+  num => {
+    return num - 5;
+  }
+);
+console.log("smallerNums array: " + smallerNums);
+// prints: smallerNums array: -4,45,70,195,345,520,995
 
