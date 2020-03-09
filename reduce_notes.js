@@ -1,7 +1,8 @@
-/* The .reduce() method returns a single value after iterating through the elements of an array and applying a callback function.  
-   The callback function has two parameters, an accumulator (starts on the first element value) and the currentValue (the second element). 
-   Each loop the return value of the callback function becomes the accumulator for the next iteration and currentValue is the current element's value.
-*/
+/* The .reduce() method returns a single value after iterating through the elements of an array 
+and applying a callback function.  The callback function has two parameters: 
+an accumulator (starts on the first element value) and the currentValue (the second element). 
+Each loop, the return value of the callback function becomes the accumulator for the next iteration
+and currentValue is the current element's value. */
 
 const numbers = [0,10,20,30,40];
 
@@ -13,9 +14,10 @@ const sumNumbers = numbers.reduce(
 console.log(sumNumbers); // 100
 console.log(0+10+20+30+40); // 100
 
-/*
-.reduce() can also take an optional second parameter to set an initial value for accumulator. Remember that the first argument is the callback function. 
-*/
+
+
+/* .reduce() can also take an optional second parameter to set an initial value for accumulator. 
+Remember that the first argument is the callback function. */
 
 const biggerNumbers = [100, 200, 300, 400];
 
@@ -55,6 +57,8 @@ newSum final value is: 16
 */
 
 
+
+
 //  Checks the value being used as we iterate through the array
 const newSumAccu10 = newNumbers.reduce(
   (accumulator, currentValue) => {
@@ -77,3 +81,16 @@ The value of the accumulator is: 19
 The value of current value is: 7
 newSumAccu10 final value is: 26
 */
+
+
+
+const cities = ['Orlando', 'Dubai', 'Edinburgh', 'Chennai', 'Accra', 'Denver', 'Eskisehir', 'Medellin', 'Yokohama'];
+
+// take the first letter of each element in an  array and return a single value (word) starting with C.
+const word = cities.reduce(
+  (accumulator, currentValue) => {
+   return accumulator + currentValue[0]; 
+  }, "C");
+
+console.log(word)
+// Prints: CODECADEMY
