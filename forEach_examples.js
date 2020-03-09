@@ -1,6 +1,9 @@
-// .forEach() will execute the same code for each element of an array. Because forEach has a callback function as an argument, it will execute the function for each of the array's elements (current element is passed as argument.) 
+/* .forEach() will execute the same code for each element of an array. 
+Because forEach has a callback function as an argument, it will execute 
+the function for each of the array's elements (current element is passed as argument.) */
 
-//Note: The return value for .forEach() will always be undefined and never anything else. It purpose is to iterate over an array and act upon its elements.
+/*Note: The return value for .forEach() will always be undefined and never anything else. 
+It purpose is to iterate over an array and act upon its elements.*/
 
 const groceries = ['brown sugar', 'milk', 'salt', 'chicken legs', 'black pepper'];
 
@@ -81,3 +84,21 @@ fruits.forEach(
   }
 );
 
+
+
+const cities = ['Orlando', 'Dubai', 'Edinburgh', 'Chennai', 'Accra', 'Denver', 'Eskisehir', 'Medellin', 'Yokohama'];
+cities.forEach(
+  city => 
+  console.log('Have you visited ' + city + '?')
+);
+/*
+Have you visited Orlando?
+Have you visited Dubai?
+Have you visited Edinburgh?
+Have you visited Chennai?
+Have you visited Accra?
+Have you visited Denver?
+Have you visited Eskisehir?
+Have you visited Medellin?
+Have you visited Yokohama?
+*/
