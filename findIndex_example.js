@@ -1,4 +1,5 @@
 /* The method .findIndex() will return the index of the FIRST element of an array that evaluates to true in the callback function*/
+/* It returns -1 if none of the elements in the array satisfies the condition.*/
 
 const numbers = [123, 789, 78, 72, 34, 50];
 
