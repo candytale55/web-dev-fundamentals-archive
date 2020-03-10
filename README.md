@@ -30,4 +30,5 @@ I finaly checked my Dev Tools. IT WAS A STUPID STUPID ERROR. I got:
 
 I kept all the notes just in case. For the fifth commit I will have a clean-from-silly-error-notes version.
 
-Added URL paths in addition to relative paths. I finaly checked my Dev Tools and fixed my broken images problem. Added playDoor() and isClicked() code. 
+
+Fifth Commit: 2020.03.10 - Doors aren't opening anymore. I think the error is with the !isClicked(doorImage1) - Added Start-Button + gameOver() code. 
