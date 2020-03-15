@@ -32,3 +32,7 @@ I kept all the notes just in case. For the fifth commit I will have a clean-from
 
 
 Fifth Commit: 2020.03.10 - Doors aren't opening anymore. I think the error is with the !isClicked(doorImage1) - Added Start-Button + gameOver() code. 
+
+Pre-sixth commit: I fixed the !isClicked(doorImage1) part and it still didn't work. I checked the video and it turns out the code seems OK. I tried the code in CodeCademy page and it works there. ¿Why it doesn't work here?
+
+Sixth commit 2020.03.15 : The logic works except the start button. When clicked it doesn't produce a new game. The previous issue with the paths described in the fifth commit is not happening anymore but I substituted all the paths with URLs. It still has to be solved. 
