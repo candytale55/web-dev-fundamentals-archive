@@ -32,15 +32,6 @@ let currentlyPlaying = true; // when you find the Bot, gameOver() changes it to 
 
  /////////////  FUNCTIONS ///////////////
 
-/*isBot() takes door as argument and return a boolean value, true if it matches botDoorPath or false. - This determines if you lost*/
-const isBot = (door) => {
-  if (door.src === botDoorPath){
-    return true;
-  } else {
-    return false;
-  }
-}
-
 
 /* function isClicked() prevents players to click the same door (even if it’s opened) multiple times to decrease the numClosedDoors value down to 0 and cheat to become a winner. It returns a boolean value after comparing if path is the same as Closed_Door */
 const isClicked = (door) => { 
@@ -52,31 +43,98 @@ const isClicked = (door) => {
 } // isClicked function
 
 
+
+
+/*isBot() takes door as argument and return a boolean value, true if it matches botDoorPath or false. - This determines if you lost*/
+const isBot = (door) => {
+  if (door.src === botDoorPath){
+    return true;
+  } else {
+    return false;
+  }
+}
+
+
+
+
+/* function playDoor() decreases the numClosedDoors variable each time you click a door and checks if the game-winning condition (numClosedDoors === 0) has been met and if so, calls a gameOver() function*/
+const playDoor = (door) => {
+  numClosedDoors--;
+  if (numClosedDoors === 0){ // Winning condition
+    gameOver('win');
+   } else if (isBot(door)) { // Losing condition
+     /*if isBot returns true*/
+     gameOver('lose');
+   }   
+  
+} // playDoor 
+
+
+
+
 ///////////////////////////////////////////////////////////
    
+      
     doorImage1.onclick = () => {//doorImage1.onclick run when door images are clicked.
-      if(!isClicked(doorImage1) && currentlyPlaying){ //determines if the isClicked() function has not happened yet.
+    if(!isClicked(door1) && currentlyPlaying){ //determines if the isClicked() function has not happened yet.
         doorImage1.src = openDoor1;  // click on the door = img changes to a landscape (ChoreBot, Space Beach)
         playDoor(doorImage1); // The 3 .onclick() functions are where a door is opened, so it is where the playDoor() function that decreases the numClosedDoors must be.  
       }
     } // End doorImage1.onclick = () =>
 
+
       
     doorImage2.onclick = () => {
-      if(!isClicked(doorImage2) && currentlyPlaying){
+      if(!isClicked(door2) && currentlyPlaying){
         doorImage2.src= openDoor2;
         playDoor(doorImage2);    
       }
     }
 
+
   doorImage3.onclick = () => {
-    if(!isClicked(doorImage3) && currentlyPlaying){
+    if(!isClicked(door3) && currentlyPlaying){
       doorImage3.src = openDoor3;
       playDoor(doorImage3);  
     }
   }
  
-  
+
+
+startButton.onClick = () =>{
+  startRound();  
+}
+
+
+const startRound = () => {
+  // Resets variables to original values
+  doorImage1.src = closedDoorPath;
+  doorImage2.src = closedDoorPath;
+  doorImage3.src = closedDoorPath;
+  numClosedDoors = 3;
+  startButton.innerHTML = 'Good luck!';
+  currentlyPlaying = true;
+  // Assigns new doors: 
+  randomChoreDoorGenerator();
+}
+
+
+
+const gameOver = (status) => {
+  if (status === 'win'){
+    startButton.innerHTML = 'You WIN! Play Again?';
+  } else {
+    startButton.innerHTML = "Game Over! Play Again?"; 
+  }
+   currentlyPlaying = false;
+}
+
+
+
+
+
+
+/*
    // randomChoreDoorGenerator() generates the door that hides the ChoreBot randomly.
   const randomChoreDoorGenerator = () => {
   const choreDoor = Math.floor(Math.random() * numClosedDoors); // Will randomly generate a whole number between 0 and 2. 
@@ -98,52 +156,44 @@ const isClicked = (door) => {
   } // End if-else loop
 
 };  //randomChoreDoorGenerator
+*/
 
-
-const startRound = () => {
-  // Resets variables to original values
-  doorImage1.src = closedDoorPath;
-  doorImage2.src = closedDoorPath;
-  doorImage3.src = closedDoorPath;
-  numClosedDoors = 3;
-  startButton.innerHTML = 'Good luck!';
-  currentlyPlaying = true;
-  // Assigns new doors: 
-  randomChoreDoorGenerator();
-}
-
-
-startButton.onClick = () =>{ // CLICK HANDLER function
-  startRound();  
-}
-
-
-const gameOver = (status) => {
-  if (status === 'win'){
-    startButton.innerHTML = 'You WIN! Play Again?';
-  } else {
-    startButton.innerHTML = "Game Over! Play Again?"; 
-    currentlyPlaying = false;
+const randomChoreDoorGenerator = () => {
+  choreDoor = Math.floor(Math.random() * 6);
+  switch (choreDoor) {
+    case 0:
+      openDoor1 = botDoorPath;
+      openDoor2 = beachDoorPath;
+      openDoor3 = spaceDoorPath;
+      break;
+    case 1:
+      openDoor1 = botDoorPath;
+      openDoor2 = spaceDoorPath;
+      openDoor3 = beachDoorPath;
+      break;
+    case 2:
+      openDoor2 = botDoorPath;
+      openDoor1 = beachDoorPath;
+      openDoor3 = spaceDoorPath;
+      break;
+    case 3:
+      openDoor2 = botDoorPath;
+      openDoor1 = spaceDoorPath;
+      openDoor3 = beachDoorPath;
+      break;
+    case 4:
+      openDoor3 = botDoorPath;
+      openDoor1 = beachDoorPath;
+      openDoor2 = spaceDoorPath;
+      break;
+    case 5:
+      openDoor3 = botDoorPath;
+      openDoor1 = spaceDoorPath;
+      openDoor2 = beachDoorPath;
+      break;
   }
 }
 
-
-  
- 
-
-
-/* function playDoor() decreases the numClosedDoors variable each time you click a door and checks if the game-winning condition (numClosedDoors === 0) has been met and if so, calls a gameOver() function*/
-const playDoor = (door) => {
-  numClosedDoors--;
-
-  if (numClosedDoors === 0){ // Winning condition
-    gameOver('win');
-   } else if (isBot(door)) { // Losing condition
-     /*if isBot returns true*/
-     gameOver();
-   }   
-  
-} // playDoor 
 
 
 

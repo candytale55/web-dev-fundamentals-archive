@@ -36,3 +36,5 @@ Fifth Commit: 2020.03.10 - Doors aren't opening anymore. I think the error is wi
 Pre-sixth commit: I fixed the !isClicked(doorImage1) part and it still didn't work. I checked the video and it turns out the code seems OK. I tried the code in CodeCademy page and it works there. ¿Why it doesn't work here?
 
 Sixth commit 2020.03.15 : The logic works except the start button. When clicked it doesn't produce a new game. The previous issue with the paths described in the fifth commit is not happening anymore but I substituted all the paths with URLs. It still has to be solved. 
+
+Seventh Commit 2020.04.22: I still can't make the start button work. I've reviewed the logic against the working game but I can't find where the error is. I will probably start from scratch and check against commented code to find where I missed. I'm also turning this README.md into a working_log.md and make a real README page, but not until next commit. 

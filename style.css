@@ -1,72 +1,72 @@
 body {
-    background-color: #010165;
-    margin: 0px;
-    text-align: center;
-    font-family: 'Work Sans',Arial, Helvetica, sans-serif;
-  }
+  background-color: #010165;
+  margin: 0px;
+  text-align: center;
+  font-family: 'Work Sans',Arial, Helvetica, sans-serif;
+}
 
-  .header {
-    background-color: #0ff;
-    
-  }
+.header {
+  background-color: #0ff;
+  
+}
 
-  /*INSTRUCTIONS*/
-  .title-row{
-    margin-top: 42px;
-    margin-bottom: 21px;
-  }
+/*INSTRUCTIONS*/
+.title-row{
+  margin-top: 42px;
+  margin-bottom: 21px;
+}
 
-  .instructions-title {
-    display: inline; /*To display the stars and the title on the same line*/
-    font-size: 18px;
-    color: #0ff;
-  }
+.instructions-title {
+  display: inline; /*To display the stars and the title on the same line*/
+  font-size: 18px;
+  color: #0ff;
+}
 
-  .instructions-row { /*table element*/
-    margin: 0 auto;
-    width: 400px; 
-    color: #0ff;
-    text-align: justify;
-  }
+.instructions-row { /*table element*/
+  margin: 0 auto;
+  width: 400px; 
+  color: #0ff;
+  text-align: justify;
+}
 
-  .instructions-number { /*First <td> element*/
-    padding-right: 25px;
-    font-size: 36px;
-    color: #0ff;
-  }
+.instructions-number { /*First <td> element*/
+  padding-right: 25px;
+  font-size: 36px;
+  color: #0ff;
+}
 
-  .instructions-text {
-    padding: 10px;
-    font-size: 14px;
-    color: #fff;
-  }
-
-
+.instructions-text {
+  padding: 10px;
+  font-size: 14px;
+  color: #fff;
+}
 
 
 
-  #tester{
-    color: aliceblue;
-  }
+
+
+#tester{
+  color: aliceblue;
+}
 
 
 /* DOORS + GAME SECTION */
 
 .door-frame {
-  cursor: pointer;
-  padding: 10px;
+cursor: pointer;
+padding: 10px;
 }
 
 .start-row {  /*Start button*/
-  margin: auto;
-  width: 120px;
-  height: 43px;
-  font-size: 18px;
-  color: #010165;
-  background-color: #eb6536;
-  padding-top: 18px;
-  margin-bottom: 21px;
-  border-radius: 10px;
-  cursor: pointer;
+margin: auto;
+width: 120px;
+height: 43px;
+font-size: 18px;
+color: #010165;
+background-color: #eb6536;
+padding-top: 18px;
+margin-bottom: 21px;
+border-radius: 10px;
+cursor: pointer;
 }
-  
+
