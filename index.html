@@ -1,22 +1,21 @@
 <!DOCTYPE html>
 <html>
+
   <head>
-    <title>Chore Door!</title>
+    <title>My Chore Door!</title>
     <link href="./style.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet" type="text/css">
   </head>
 
   <body>
 
-    <!--    HEADER : Chore Door cyan banner    -->
     <header class="header">
-
-      
+      <img src="./img/logo.svg" alt="logo">
+      <!--<img src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/logo.svg" alt="logo">-->
     </header>
 
-    <!--   INSTRUCTIONS  -->
-
-    <div class="title-row">
+    
+    <div class="instructions-title-row">
       <img src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/star.svg" alt="star icon">
       <p class="instructions-title">Instructions</p>
       <!--<img src="img/star.svg" alt="star icon">-->
@@ -26,7 +25,7 @@
     
     
     
-   <table class="instructions-row">
+   <table class="instructions-table">
      <tr>
        <td class="instructions-number">1</td>
        <td class="instructions-text">Hiding behind one of these doors is the ChoreBot.</td>
@@ -46,20 +45,18 @@
    </table>
 
 
-    <!--<div class="door-row">
-      <img id="door1" class="door-frame" src="img/closed_door.svg" alt="First closed door">
-      <img id="door2" class="door-frame" src="img/closed_door.svg" alt="Second closed door">
-      <img id="door3" class="door-frame" src="img/closed_door.svg" alt="Third closed door">
-    </div>
--->
-    
-    
-    
     <div class="door-row">
+      <img id="door1" class="door-frame" src="./img/closed_door.svg" alt="First closed door">
+      <img id="door2" class="door-frame" src="./img/closed_door.svg" alt="Second closed door">
+      <img id="door3" class="door-frame" src="./img/closed_door.svg" alt="Third closed door">
+    </div>
+
+    <!--<div class="door-row">
       <img id="door1" class="door-frame" src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/closed_door.svg" alt="First closed door">
       <img id="door2" class="door-frame" src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/closed_door.svg" alt="Second closed door">
       <img id="door3" class="door-frame" src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/closed_door.svg" alt="Third closed door">
     </div>
+    -->
     
     
     
@@ -67,7 +64,20 @@
       Good Luck!
     </div>
 
-    <!--<div id="tester">Test</div>-->
+
+    <table class="score-table">
+      <tr>
+        <th class="score-text">Current streak:</th>
+        <th class="score-text">Best streak:</th>
+      </tr>
+      <tr>
+        <th id="current-streak" class="score-box"></th>
+        <th id="best-streak" class="score-box"></th>
+      </tr>
+    </table>
+
+
+
 
     <script type="text/javascript" src="script.js">
     </script>

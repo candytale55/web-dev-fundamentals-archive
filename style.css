@@ -5,49 +5,44 @@ body {
   font-family: 'Work Sans',Arial, Helvetica, sans-serif;
 }
 
-.header {
+.header { /*cyan banner + Chore Door logo*/ 
   background-color: #0ff;
-  
 }
 
-/*INSTRUCTIONS*/
-.title-row{
+
+
+.instructions-title-row{  
   margin-top: 42px;
   margin-bottom: 21px;
 }
-
 .instructions-title {
-  display: inline; /*To display the stars and the title on the same line*/
+  display: inline;   /*Display stars and title on the same line*/
   font-size: 18px;
   color: #0ff;
 }
 
-.instructions-row { /*table element*/
+
+
+.instructions-table {  /*Table Element, 2 col, 4 rows*/
   margin: 0 auto;
   width: 400px; 
   color: #0ff;
   text-align: justify;
 }
 
-.instructions-number { /*First <td> element*/
+.instructions-number { /*First col <td>*/
   padding-right: 25px;
   font-size: 36px;
   color: #0ff;
 }
 
-.instructions-text {
+.instructions-text { /*Second col <td>*/
   padding: 10px;
   font-size: 14px;
   color: #fff;
 }
 
 
-
-
-
-#tester{
-  color: aliceblue;
-}
 
 
 /* DOORS + GAME SECTION */
@@ -70,3 +65,29 @@ border-radius: 10px;
 cursor: pointer;
 }
 
+
+
+.score-table{
+  width: 100%;
+}
+
+.score-text{
+  margin-right: 17px;
+  padding: 5px;
+  display: inline;
+  font-size: 12px;
+  letter-spacing: 1.1px;
+  color: #fff;
+}
+
+.score-box{
+  margin-top: 9px;
+  margin-bottom: 9px;
+  display: inline-block;
+  padding: 8px;
+  margin: 18px;
+  margin-right: 29px;
+  width: 59px;
+  background-color: #0ff;
+  font-size: 45px;
+}
