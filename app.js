@@ -36,22 +36,23 @@ const menu = {
     },
     get courses(){
         return {
+            //return _courses; // also work instead : 
             appetizers: this.appetizers,
             mains: this.mains,
-            desserts: this.desserts
+            desserts: this.desserts,
         }
     },
-    addDishCourse: function(courseName, dishName, dishPrice){
+    addDishToCourse(courseName, dishName, dishPrice){
         const dish = {
-            name: this.dishName,
-            price: this.dishPrice
+            name:  dishName,
+            price: dishPrice,
         };
-        this._courses[courseName].push(dish);
+        return this._courses[courseName].push(dish);
 
     },
-    getRandomDishFromCourse: function(courseName){
-        let dishes = this._courses[courseName];
-        let index = Math.floor(Math.random()*dishes.length);
+    getRandomDishFromCourse(courseName){
+        const dishes = this._courses[courseName];
+        const index = Math.floor(Math.random() * dishes.length);
         return dishes[index];
     },
     generateRandomMeal: function(){
@@ -65,5 +66,5 @@ const menu = {
 
 let meal = menu.generateRandomMeal();
 
-
-document.body.innerHTML = meal;
+//document.body.innerHTML = meal;
+document.getElementById("meal").innerHTML= meal;
