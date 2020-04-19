@@ -12,7 +12,7 @@ addDishCourse(courseName, dishName, dishPrice) :  This method push dish object i
 
 const menu = {
     _courses : {
-        appetizers : [],
+        appetizers: [],
         mains: [],
         desserts: []
     },
@@ -55,16 +55,31 @@ const menu = {
         const index = Math.floor(Math.random() * dishes.length);
         return dishes[index];
     },
-    generateRandomMeal: function(){
-        let myAppetizer = this.getRandomDishFromCourse(appetizers);
-        let myMain = this.getRandomDishFromCourse(mains);
-        let myDessert = this.getRandomDishFromCourse(desserts);
-        return "Your random course is " + myAppetizer.name + ", " + myMain.name + ", " + myDessert.name + " and the price will be: " + (myAppetizer.price+ myMain.price + myDessert.price);
-         
+    generateRandomMeal(){
+        const myAppetizer = this.getRandomDishFromCourse("appetizers");
+        const myMain = this.getRandomDishFromCourse("mains");
+        const myDessert = this.getRandomDishFromCourse("desserts");
+        const totalPrice = myAppetizer.price+ myMain.price + myDessert.price;
+        return "A " + myAppetizer.name + ", " + myMain.name + ", " + myDessert.name + " and the price will be: $" + totalPrice;    
     }
 }
 
+
+menu.addDishToCourse('appetizers', 'veggie soup', 3.5);
+menu.addDishToCourse('appetizers', 'nachos', 5.5);
+menu.addDishToCourse('appetizers', 'jabugo plate', 13.5);
+//console.log(menu.appetizers[0]); // {name: "veggie soup", price: 3.5}  So they are in.
+
+menu.addDishToCourse('mains', 'Double cheese burger', 7.5);
+menu.addDishToCourse('mains', 'Steak', 10.5);
+menu.addDishToCourse('mains', 'Prawns', 9.75);
+
+menu.addDishToCourse('desserts', 'Chocolate cake', 3.25);
+menu.addDishToCourse('desserts', 'Ice cream', 1.50);
+menu.addDishToCourse('desserts', 'Crepes', 3.50);
+
 let meal = menu.generateRandomMeal();
+console.log(meal);
 
 //document.body.innerHTML = meal;
 document.getElementById("meal").innerHTML= meal;
