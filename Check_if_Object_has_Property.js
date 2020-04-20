@@ -44,3 +44,34 @@ console.log("Using \"in\"");
 console.log("ladybug" in animals);
 console.log("rhino" in animals);
 console.log("type" in animals.ladybug);
+
+
+// USED IN A FUNCTION:
+
+let users = {
+  Alan: {
+    age: 27,
+    online: true
+  },
+  Jeff: {
+    age: 32,
+    online: true
+  },
+  Sarah: {
+    age: 48,
+    online: true
+  },
+  Ryan: {
+    age: 19,
+    online: true
+  }
+};
+
+function isEveryoneHere(obj) {
+ if ("Alan" in users && "Jeff" in users && "Sarah" in users && "Ryan" in users){
+  return true;
+} else {
+  return false;
+}
+}
+console.log(isEveryoneHere(users)); //true
