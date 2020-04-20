@@ -1,11 +1,19 @@
-/* You want a new way to decide what you are going to eat, using JS to create randomly a three-course meal based on a menu. We’ll run the program until we like the generated meal.
+/* A random way to decide what you are going to eat. JS creates randomly a three-course meal based on a menu and the total cost of said menu.
 
-_courses: (object) map between each course and the dishes available for that course.
+menu (object) - contains it all.
 
-appetizers, mains, and desserts: (arrays) inside object _courses, 
+_courses (object): Contains three arrays, that are a map between each course and the dishes available for that course.
 
-addDishCourse(courseName, dishName, dishPrice) :  This method push dish object into the appropriate array in menu‘s _courses object, depending on the courseName that was passed in.
+appetizers, mains, and desserts (arrays): part of object _courses 
+These arrays will be populated with dish objects, through function addDishToCourse()
 
+dish (object): Created inside addDishToCourse(), contains the name of the dish and its price, and is added to the "appetizers", "mains" or "desserts" arrays inside _courses by addDishToCourse().
+
+addDishCourse(courseName, dishName, dishPrice) :  Pushes a dish object (dishName + dishPrice) into the courseName array inside object _courses. courseName should be either "appetizers", "mains" or "desserts".
+
+getRandomDishFromCourse(courseName): Will be called by generateRandomMeal() three times, passing as argument the three different _course arrays "appetizers", "mains" or "desserts". The function generates a random index that will be used to get a dish from the _course arrays and will return these dishes objects (name + price). 
+
+generateRandomMeal() calls getRandomDishFromCourse() to get random dishes and then logs these dishes and total price (sums the three dishPrices).
 */
 
 
@@ -68,18 +76,18 @@ const menu = {
 menu.addDishToCourse('appetizers', 'veggie soup', 3.5);
 menu.addDishToCourse('appetizers', 'nachos', 5.5);
 menu.addDishToCourse('appetizers', 'jabugo plate', 13.5);
-//console.log(menu.appetizers[0]); // {name: "veggie soup", price: 3.5}  So they are in.
+//console.log(menu.appetizers[0]); // {name: "veggie soup", price: 3.5} Testing they get in.
 
 menu.addDishToCourse('mains', 'Double cheese burger', 7.5);
 menu.addDishToCourse('mains', 'Steak', 10.5);
 menu.addDishToCourse('mains', 'Prawns', 9.75);
 
 menu.addDishToCourse('desserts', 'Chocolate cake', 3.25);
-menu.addDishToCourse('desserts', 'Ice cream', 1.50);
+menu.addDishToCourse('desserts', 'Ice cream', 2.70);
 menu.addDishToCourse('desserts', 'Crepes', 3.50);
 
 let meal = menu.generateRandomMeal();
-console.log(meal);
+//console.log(meal);
 
 //document.body.innerHTML = meal;
 document.getElementById("meal").innerHTML= meal;
