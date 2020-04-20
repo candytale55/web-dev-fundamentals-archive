@@ -1,10 +1,13 @@
-20.4.19 10:30
+20.4.20 10:16 am
+Finished my comments and README info. This is the last entry of this log.
+
+20.4.19 10:30 pm
 Ok, it was one of those dumb mistakes. I was missing the "" in generateRandomMeal()
 const myAppetizer = this.getRandomDishFromCourse("appetizers");
 Doh!
 The code is done. I just need to beautify it a little.
 
-20.4.19 9:30
+20.4.19 9:30 pm
 generateRandomMeal() was sort-pf ok. At least what I changed does not solve the ReferenceError. I think that it is because there's no dishes created, therefore no appetizers. It could be just that. 
 
 Nope, it wasn't that. I already created all the dishes. And the error remains the same. If I remove the appetizers line in  generateRandomMeal() I get an error for mains instead, and if I remove mains, I get it for desserts. So it should have to do with accessing these properties:
