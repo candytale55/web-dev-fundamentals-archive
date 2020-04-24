@@ -75,3 +75,30 @@ function isEveryoneHere(obj) {
 }
 }
 console.log(isEveryoneHere(users)); //true
+
+
+
+
+/* hasOwnProperty*/
+
+/* The Bird constructor receives name "Albert" as an argument, and it defines two properties: name and numLegs.  Name and numLegs are called own properties, because they are defined directly on the instance object. */
+
+function Bird(name, color) {
+  this.name = name;
+  this.color = color;
+  this.numLegs = 2;
+}
+
+let blueBird = new Bird("Albert","blue");
+//console.log( blueBird.name);
+
+let duck = new Bird("Donald", );
+let canary = new Bird("Tweety");
+
+let duckOwnProps = [];
+for (let property in duck){
+  if(duck.hasOwnProperty(property)){
+    duckOwnProps.push(property);
+  }
+}
+console.log(duckOwnProps); // ["name", "color", "numLegs"]
