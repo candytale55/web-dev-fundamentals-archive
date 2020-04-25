@@ -76,3 +76,69 @@ console.log(testStrictNotEqual(10));   // Not Equal
 console.log(testStrictNotEqual("17")); // Not Equal
 console.log(testStrictNotEqual(17));   //Equal
 
+
+
+
+
+/*
+The greater than operator (>) compares the values of two numbers. If the number to the left is greater than the number to the right, it returns true. Otherwise, it returns false.
+It will convert data types of values while comparing.
+
+Examples
+
+5   >  3   // true
+7   > '3'  // true
+2   >  3   // false
+'1' >  9   // false
+*/
+
+
+
+function testGreaterThan(val) {
+  if (val > 100) {  // Change this line
+    return "Over 100";
+  }
+
+  if (val > 10) {  // Change this line
+    return "Over 10";
+  }
+
+  return "10 or Under";
+}
+
+console.log(testGreaterThan(10));  //10 or Under
+console.log(testGreaterThan("10")); // 10 or Under
+console.log(testGreaterThan(100)); //Over 10
+console.log(testGreaterThan(50)); //Over 10 
+console.log(testGreaterThan("150")); //Over 100
+
+
+
+/*
+(>=) 
+If the number to the left is greater than or equal to the number to the right, it returns true. Otherwise, it returns false.  It will convert data types while comparing.
+
+*/
+
+
+
+
+function testGreaterOrEqual(val) {
+  if (val >= 20) {  // Change this line
+    return "20 or Over";
+  }
+
+  if (val >= 10) {  // Change this line
+    return "10 or Over";
+  }
+
+  return "Less than 10";
+}
+
+console.log(testGreaterOrEqual(10)); // 10 or Over
+console.log(testGreaterOrEqual("10")); // 10 or Over
+console.log(testGreaterOrEqual(9));  // Less than 10
+console.log(testGreaterOrEqual("11")); // 10 or Over
+console.log(testGreaterOrEqual("20")); // 20 or Over
+
+
