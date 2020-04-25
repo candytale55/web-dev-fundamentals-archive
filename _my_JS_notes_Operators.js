@@ -199,3 +199,30 @@ console.log(testLessOrEqual("100")); // More Than 24
 
 
 
+// Logical And Operator
+/*  The logical and operator (&&) returns true if and only if the operands to the left and right of it are true. */
+
+function testLogicalAnd(val) {
+  
+  if (val <= 50 && val >= 25) {
+      return "Yes";
+  }
+  return "No";
+}
+
+console.log(testLogicalAnd(26));  // Yes
+console.log(testLogicalAnd(10));  // No
+
+/* NOTE: It's the same than nesting an if statement inside another if statement:  */
+
+function withIfs(val) {
+  if (val <= 50) {
+    if (val >= 25) {
+      return "Yes";
+    }
+  }
+  return "No";
+}
+
+console.log(withIfs(26)); // Yes
+console.log(withIfs(10)); // No
