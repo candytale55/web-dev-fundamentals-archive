@@ -1,3 +1,10 @@
+20.04.25 
+I've created an additional js file SpanishCountries.js where I'm practicing object creation. I got issues with the populations of different arrays, because I'm changing some of the countries languages until later (Brazil). Of course I should do instead a new PortugueseSpeakingCountry object factory but since thare are very few Portuguese speaking countries I thought I'll try and practice object modification.  
+let countries = [];
+let spanishCountries = [];
+let portugueseCountries = [];
+let latinAmericanCountries = [];
+
 20.04.20 Another day in COVID-19 confinement
 
 14:25

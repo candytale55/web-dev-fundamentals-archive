@@ -50,22 +50,34 @@ countries.addCountryTo_Geo_Area("Europe", "Latvia", "Riga");
 countries.addCountryTo_Geo_Area("Europe", "Denmark", "Copenhagen");
 countries.addCountryTo_Geo_Area("Europe", "Serbia", "Belgrade");
 countries.addCountryTo_Geo_Area("Europe", "Portugal", "Lisbon");
+countries.addCountryTo_Geo_Area("Europe", "Slovakia", "Bratislava");
+countries.addCountryTo_Geo_Area("Europe", "Ukraine", "Kiev");
 
 countries.addCountryTo_Geo_Area("Africa", "Egypt", "Cairo");
 countries.addCountryTo_Geo_Area("Africa", "Cameroon", "Yaounde");
 countries.addCountryTo_Geo_Area("Africa", "South Africa", "Pretoria");
 countries.addCountryTo_Geo_Area("Africa", "Angola", "Luanda");
+countries.addCountryTo_Geo_Area("Africa", "Botswana", "Gaborone");
+countries.addCountryTo_Geo_Area("Africa", "Burundi", "Gitega");
 
 countries.addCountryTo_Geo_Area("America", "Surinam", "Paramaribo");
 countries.addCountryTo_Geo_Area("America", "Belize", "Belmopan");
+countries.addCountryTo_Geo_Area("America", "Honduras", "Tegucigalpa");
+countries.addCountryTo_Geo_Area("America", "Guatemala", "Guatemala");
+countries.addCountryTo_Geo_Area("America", "Panama", "Panama City");
+countries.addCountryTo_Geo_Area("America", "Costa Rica", "San José");
 
 countries.addCountryTo_Geo_Area("Oceania", "Niue", "Alofi");
 countries.addCountryTo_Geo_Area("Oceania", "New Caledonia", "Noumea");
+countries.addCountryTo_Geo_Area("Oceania", "New Zealand", "Wellington")
+countries.addCountryTo_Geo_Area("Oceania", "Solomon Islands", "Honiara");
 
 countries.addCountryTo_Geo_Area("Asia", "India", "New Delhi");
 countries.addCountryTo_Geo_Area("Asia", "China", "Beijing");
 countries.addCountryTo_Geo_Area("Asia", "Japan", "Tokyo");
 countries.addCountryTo_Geo_Area("Asia", "Philippines", "Manila");
+countries.addCountryTo_Geo_Area("Asia", "Afghanistan", "Kabul");
+countries.addCountryTo_Geo_Area("Asia", "Saudi Arabia","Riyadh");
 
 //let test = countries.getRandomCountryFrom_Geo_Area("Asia");
 let test = countries.generateRandomCards();
