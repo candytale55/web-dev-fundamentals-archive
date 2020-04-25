@@ -142,3 +142,60 @@ console.log(testGreaterOrEqual("11")); // 10 or Over
 console.log(testGreaterOrEqual("20")); // 20 or Over
 
 
+
+
+/* less than operator (<)
+
+If the number to the left is less than the number to the right, it returns true. Otherwise, it returns false. It converts data types while comparing.
+*/
+
+
+function testLessThan(val) {
+  if (val < 25) {  // Change this line
+    return "Under 25";
+  }
+
+  if (val < 55) {  // Change this line
+    return "Under 55";
+  }
+
+  return "55 or Over";
+}
+
+console.log(testLessThan(10)); //  Under 25
+console.log(testLessThan("10")); //  Under 25
+console.log(testLessThan(55)); //  55 or Over
+console.log(testLessThan("57")); //  55 or Over
+
+
+
+
+
+
+than or equal to operator (<=)
+If the number to the left is less than or equal to the number to the right, it returns true. If the number on the left is greater than the number on the right, it returns false.
+Less than or equal operator converts data types.
+*/
+
+
+function testLessOrEqual(val) {
+  if (val <= 12) {  
+    return "Smaller Than or Equal to 12";
+  }
+
+  if (val <= 24) {  
+    return "Smaller Than or Equal to 24";
+  }
+  return "More Than 24";
+}
+
+console.log(testLessOrEqual(10)); //Smaller Than or Equal to 12
+console.log(testLessOrEqual("11")); // Smaller Than or Equal to 12
+console.log(testLessOrEqual(12)); //Smaller Than or Equal to 12
+console.log(testLessOrEqual(13)); //Smaller Than or Equal to 24
+console.log(testLessOrEqual(5*5)); // More Than 24
+console.log(testLessOrEqual("100")); // More Than 24
+
+
+
+
