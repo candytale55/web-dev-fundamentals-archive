@@ -226,3 +226,50 @@ function withIfs(val) {
 
 console.log(withIfs(26)); // Yes
 console.log(withIfs(10)); // No
+
+
+
+/*
+The logical or operator (||) returns true if either of the operands is true. Otherwise, it returns false.
+
+The logical or operator is composed of two pipe symbols: (||). This can typically be found between your Backspace and Enter keys.
+*/
+
+// testLogicalOr(val) returns "Outside" if val is not between 10 and 20, inclusive. Otherwise, return "Inside"
+function testLogicalOr(val) {
+  if (val < 10 || val > 20 ) {
+    return "Outside";
+  } 
+    return "Inside";
+}
+
+console.log("Test with testLogicalOr()")
+console.log(testLogicalOr(15)); // Inside
+console.log(testLogicalOr(1));  // Outside
+console.log(testLogicalOr(21)); // Outside
+
+console.log(testLogicalOr("15")); // Inside
+console.log(testLogicalOr("1"));  // Outside
+console.log(testLogicalOr("21")); // Outside
+
+// The same could be achieved using ifs.
+
+function testOrWithIf(val) {
+  if (val < 10) {
+    return "Outside";
+  }
+
+  if (val > 20) {
+    return "Outside";
+  }
+    return "Inside";
+}
+
+console.log("Test with testOrWithIf()")
+console.log(testOrWithIf(15)); // Inside
+console.log(testOrWithIf(1));  // Outside
+console.log(testOrWithIf(21)); // Outside
+
+console.log(testOrWithIf("15")); // Inside
+console.log(testOrWithIf("1"));  // Outside
+console.log(testOrWithIf("21")); // Outside
