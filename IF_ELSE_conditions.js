@@ -5,6 +5,28 @@
 - followed by curly braces {} with a code block or statement that will run if the condition is true. 
 */
 
+
+/*
+if (condition is true) {
+  statement is executed
+}
+*/
+
+function trueOrFalse(AmITrue) {
+  if (AmITrue){
+    return("Yes, that was true");
+  } else {
+    return ("No, that was false");
+  }
+
+}
+console.log(trueOrFalse(true));
+console.log(trueOrFalse(false));
+
+
+
+
+
 let sale = true;
 sale = false; 
 
