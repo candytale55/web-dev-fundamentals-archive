@@ -1,7 +1,7 @@
 let countries = [];
 let spanishCountries = [];
-let portugueseCountries = [];
 let latinAmericanCountries = [];
+
 
 function SpanishSpeakingCountry(name, officialName, capital, continent){
   this.name = name;
@@ -15,19 +15,26 @@ function SpanishSpeakingCountry(name, officialName, capital, continent){
   this.language = "Spanish";
   if (this.continent === "America"){
     this.region = "Latin America";
+    latinAmericanCountries.push({name:name});
   } else {
     this.region = continent;
   }
-
-    countries.push([name, capital]);
+    countries.push([{name:name, capital:capital, language: this.language}]);
     //countries.push([this.name, this.capital, this.officialName, this.continent, this.language]);     
 }
+
+const Honduras = new SpanishSpeakingCountry("Honduras", "República de Honduras", "Tegucigalpa", "America");
+console.log(Honduras);
 
 const Mexico = new SpanishSpeakingCountry("México", "Estados Unidos Mexicanos", "Ciudad de México");
 //console.log(Mexico);
 
-const Cuba = new SpanishSpeakingCountry("Cuba", "República de Cuba", "Havana")
-//console.log(Cuba);
+const Cuba = new SpanishSpeakingCountry("Cuba", "República de Cuba", "Havana");
+Cuba.island = true;
+Cuba.ocean = "Atlantic";
+Cuba.sea = "Caribean";
+Cuba.region = "Antillas";
+console.log(Cuba);
 
 const Salvador = new SpanishSpeakingCountry("El Salvador", "República de El Salvador", "San Salvador");
 //console.log(Salvador);
@@ -59,11 +66,8 @@ const Uruguay = new SpanishSpeakingCountry("Uruguay", "República Oriental del U
 const Colombia = new SpanishSpeakingCountry("Colombia", "República de Colombia", "Bogotá");
 //console.log(Colombia);
 
-const Brazil = new SpanishSpeakingCountry("Brasil", "República Federativa do Brasil", "Brasilia");
-Brazil.language = "Portuguese";
-console.log(Brazil);
-
-const Chile = new SpanishSpeakingCountry("Chile", "República de Chile", "Santiago")
+const Chile = new SpanishSpeakingCountry("Chile", "República de Chile", "Santiago");
+console.log(Chile);
 
 /*
 function getCountries(countryArray){
