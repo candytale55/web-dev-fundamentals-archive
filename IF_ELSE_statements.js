@@ -96,3 +96,61 @@ if (season === 'spring') {
 } else {
   console.log('Invalid season.');
 }
+
+
+/* Careful what statement comes first. Function is executed top to bottom */
+
+function largerFirst(val) {
+  if (val < 10) {
+    return "Less than 10";
+  } else if (val < 5) {
+    return "Less than 5";
+  } else {
+    return "Greater than or equal to 10";
+  }
+}
+
+console.log(largerFirst(10)); // Greater than or equal to 10
+console.log(largerFirst(8));  //Less than 10
+console.log(largerFirst(4));  // Less than 10 - NOTICE IT SHOULD HAVE BEEN Less than 5.
+
+function smallerFirst(val) {
+  if (val < 5) {
+    return "Less than 5";
+  } else if (val < 10) {
+    return "Less than 10";
+  } else {
+    return "Greater than or equal to 10";
+  }
+}
+
+console.log(smallerFirst(10)); //Greater than or equal to 10
+console.log(smallerFirst(8));  // Less than 10
+console.log(smallerFirst(4));  // Less than 5
+
+
+
+
+
+
+// Chained if/else if statements
+
+function testSize(num) {
+  if (num < 5){
+    return "Tiny";
+  } else if (num < 10) {
+    return "Small";
+  } else if (num < 15) {
+    return "Medium";
+  } else if (num < 20) {
+    return "Large";
+  } else if (num >= 20){
+    return "Huge"; 
+  }
+}
+
+console.log(testSize(20));
+console.log(testSize(15));
+console.log(testSize(10));
+console.log(testSize(7));
+console.log(testSize(4));
