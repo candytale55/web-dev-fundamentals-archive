@@ -54,6 +54,7 @@ function FrenchSpeakingCountries(name, officialName, capital, continent){
     } else {
         this.continent = continent;
     }
+    this.language = "French";
     //countries.push({name:name, continent:continent });
     //countries.push({name:name, capital:capital, continent:continent});
 }
@@ -89,7 +90,9 @@ function SpanishSpeakingCountry(name, officialName, capital, continent){
       this.language = language;
       this.island = true;
       this.ocean = ocean;
-      this.sea = sea;
+      if (sea !== undefined){
+        this.sea = sea;
+      }
       //countries.push({name:name, continent:continent });
   }
 
@@ -109,6 +112,20 @@ function SpanishSpeakingCountry(name, officialName, capital, continent){
   }
 
 
+  function OceaniaCountries(name, officialName, capital, language, specificRegion){
+      this.name = name;
+      this.officialName = officialName;
+      this.capital = capital;
+      this.island = true;
+      this.ocean = "Pacific";
+      this.language = language;
+      this.continent = "Oceania";
+      if (specificRegion !== undefined){
+          this.specificRegion = specificRegion;
+      }
+  }
+
+
 
 
   /* *****************************  COUNTRIES ***************************   */
@@ -116,6 +133,16 @@ function SpanishSpeakingCountry(name, officialName, capital, continent){
   const Spain = new SpanishSpeakingCountry("España", "Reino de España", "Madrid", "Europe");
   //console.log(Spain);
 
+
+  // ASIA
+
+  const Cambodia = new anySpeakingCountry("Cambodia", "Kingdom of Cambodia", "Phnom Penh",  "Asia", "Khmer");
+  Cambodia.nickname =["Kampuchea"];
+  Cambodia.languages = [Cambodia.language, "French", "English"];
+  Cambodia.region = "Southeast Asia";
+  Cambodia.specificRegion = "Indochina Peninsula";
+  countries.push(Cambodia);
+  //console.log(Cambodia);
   
   // AMERICA
 
@@ -177,7 +204,7 @@ countries.unshift(Haiti);
 const PuertoRico = new antillesCountry("Puerto Rico", "Commonwealth of Puerto Rico", "San Juan", "Spanish", "Greater Antilles");
 PuertoRico.territory = "United States of America";
 PuertoRico.languages = ["Spanish", "English"];
-console.log(PuertoRico);
+//console.log(PuertoRico);
 countries.unshift(PuertoRico);
 
 
@@ -225,31 +252,93 @@ countries.unshift(PuertoRico);
   countries.push(Gambia);
 
   
-   const EquatorialGuinea = new SpanishSpeakingCountry("Guinea Ecuatorial", "República de Guinea Ecuatorial", "Malabo", "Africa")
+   const EquatorialGuinea = new SpanishSpeakingCountry("Guinea Ecuatorial", "República de Guinea Ecuatorial", "Malabo", "Africa");
    //console.log(EquatorialGuinea);
    countries.unshift(EquatorialGuinea);
 
+    const Gabon = new FrenchSpeakingCountries("Gabon", "Gabonese Republic", "Libreville", "Africa");
+    Gabon.languages = [Gabon.language, "Fang", "Myene", "Punu", "Nzebi"];
+    Gabon.region = "Central Africa";
+    //console.log(Gabon);
+    countries.unshift(Gabon);
 
+    const Ghana = new EnglishSpeakingCountries("Ghana", "Republic of Ghana", "Accra", "Africa");
+    Ghana.languages = [Ghana.language, "Akran", "Ga", "Akan", "Asante Twi", "Akuapem Twi","Fante", "Nzema", "Dagaare", "Dagbanli", "Ewe", "Dangme", "Guan", "Kasem"];
+    Ghana.region = "West Africa";
+    Ghana.specificRegion = "West African Coast";
+    countries.unshift(Ghana);
+    //console.log(Ghana);
+
+    const Liberia = new EnglishSpeakingCountries("Liberia", "Republic of Liberia", "Monrovia", "Africa");
+    Liberia.region = "West Africa";
+    Liberia.specificRegion = "West African Coast";
+    countries.unshift(Liberia);
+    //console.log(Liberia);
+
+    const Libya = new ArabSpeakingCountries("Libya", "State of Libya", "Tripoli", "Africa");
+    Libya.region = "North Africa";
+    Libya.specificRegion = "Maghreb";
+    Libya.languages = [Libya.language ,"Berber"];
+    countries.unshift(Libya);
+    //console.log(Libya);
+
+    const Malawi = new EnglishSpeakingCountries("Malawi", "Republic of Malawi","Lilongwe", "Africa");
+    Malawi.landlocked = true;
+    Malawi.region = "Southeastern Africa";
+    Malawi.languages = [Malawi.language, "Chewa"];
+    countries.unshift(Malawi);
+    //console.log(Malawi);
+
+    const Mali = new FrenchSpeakingCountries("Mali", "Republic of Mali", "Bamako", "Africa");
+    Mali.landlocked = true;
+    Mali.languages = [Mali.language, "Bambara"];
+    Mali.region = "West Africa";
+
+    const Mauritania = new ArabSpeakingCountries("Mauritania", " Islamic Republic of Mauritania", "Nouakchott", "Africa");
+    Mauritania.language = [Mauritania.language, "Hassaniya Arabic", "Pulaar", "Soninke", "Wolof", "French"];
+    Mauritania.region = "Northwest Africa";
+    countries.unshift(Mauritania);
+    //console.log(Mauritania);
+
+    const Namibia = new EnglishSpeakingCountries("Namibia", "Republic of Namibia", "Windhoek", "Africa");
+    Namibia.languages = [Namibia.language, "Oshiwambo", "Khoekhoegowab", "Afrikaans","Otjiherero", "RuKwangali", "siLozi", "German", "San", "Setswana"];
+    Namibia.region = "Southern Africa";
+    countries.unshift(Namibia);
+    //console.log(Namibia);
+
+    const Niger = new FrenchSpeakingCountries("Niger", "Republic of the Niger", "Niamey", "Africa");
+    Niger.languages = [Niger.language, "Arabic", "Buduma", "Fulfulde", "Gourmanchéma", "HausaKanuri", "Zarma", "Songhai", "Tamasheq", "Tassawaq", "Tebu"];
+    Niger.landlocked = true;
+    Niger.region = "West Africa";
+    countries.unshift(Niger);
+    //console.log(Niger);
+
+    const Cameroon = new FrenchSpeakingCountries("Cameroon", "République du Cameroun", "Yaoundé")
+    Cameroon.languages = ["English", "Cameroonian Pidgin","Fula","Ewondo", "Camfranglais"];
+    Cameroon.region = "Central Africa";
+    //console.log(Cameroon);
+    countries.unshift(Cameroon);
 
   // Islands
 
-    const Tonga = new EnglishSpeakingCountries("Tonga", "Kingdom of Tonga", "Nukuʻalofa", "Oceania");
-    Tonga.island = true;
-    Tonga.region = "Polynesia";
-    Tonga.languages = ["Tongan"];
-    Tonga.islands = ["Tongatapu"];
-    //console.log(Tonga);
-    countries.push(Tonga);
+
+    // African Islands
+
+    const Mauritius = new islandCountry("Mauritius", "Republic of Mauritius", "Port Louis", "Africa", "English", "Indian");
+    Mauritius.islands = ["Mauritius", "Rodrigues", "Agaléga", "St. Brandon"];
+    Mauritius.languages = [Mauritius.language, "Creole", "Bhojpuri", "French"];
+    //console.log(Mauritius);
+    countries.unshift(Mauritius);
+
+    const CapeVerde = new anySpeakingCountry("Cape Verde", "República de Cabo Verde", "Praia", "Africa", "Portuguese");
+    CapeVerde.languages = [CapeVerde.language, "Cape Verdean Creole"];
+    CapeVerde.island = true;
+    CapeVerde.ocean = "Atlantic";
+    CapeVerde.region = "Macaronesia";
+    //console.log(Cape_Verde);
+    countries.unshift(CapeVerde);
 
 
-    const NewZealand = new EnglishSpeakingCountries("New Zealand", "New Zealand", "Wellington", "Oceania");
-    NewZealand.island = true;
-    NewZealand.ocean = "Pacific";
-    NewZealand.islands = ["North Island (Te Ika-a-Māui)", "South Island (Te Waipounamu)"];   
-    NewZealand.cities = ["Auckland"];
-    NewZealand.languages = [NewZealand.language, "Maori"];
-    //console.log(NewZealand);
-    countries.push(NewZealand);
 
 
     // American Islands
@@ -299,9 +388,8 @@ countries.unshift(PuertoRico);
     //console.log(AntiguaandBarbuda);
     countries.unshift(AntiguaandBarbuda);
 
-    const Bahamas = new islandCountry("The Bahamas", "Commonwealth of The Bahamas", "Nassau", "America", "English", "Atlantic", "Caribean");
+    const Bahamas = new antillesCountry("The Bahamas", "Commonwealth of The Bahamas", "Nassau", "English");
     Bahamas.languages = [Bahamas.language, "Bahamian Creole"];
-    Bahamas.specificRegion = "Antillas";
     //console.log(Bahamas);
     countries.unshift(Bahamas);
 
@@ -422,7 +510,152 @@ countries.unshift(PuertoRico);
     NuevaSparta.islands = ["Margarita Island", "Coche", "Cubagua"];
     //console.log(NuevaSparta);
 
+    // Europe
+    const Austria = new anySpeakingCountry("Austria", "Republic of Austria", "Vienna", "Europe", "German");
+    Austria.landlocked = true;
+    Austria.region = "Central Europe";
+    Austria.specificRegion = "East Alpine";
+    countries.unshift(Austria);
+    //console.log(Austria);
 
+    const Switzerland = new anySpeakingCountry("Switzerland", "Swiss Confederation", "Bern", "Europe", "German");
+    Switzerland.languages = [Switzerland.language, "French", "Italian", "Romansh"];
+    Switzerland.region = "Central Europe";
+    Switzerland.landlocked = true;
+    Switzerland.cities = [Switzerland.capital, "Zurich"];
+    countries.unshift(Switzerland);
+    //console.log(Switzerland);
+
+    const Denmark = new anySpeakingCountry("Denmark", "Kingdom of Denmark", "Copenhagen", "Europe", "Danish");
+    Denmark.languages = [Denmark.language, "Faroese", "Greenlandic", "German"];
+    Denmark.region = "Northwest Europe";
+    countries.unshift(Denmark);
+    //console.log(Denmark);
+
+    const UnitedKingdom = new EnglishSpeakingCountries("United Kingdom", "United Kingdom of Great Britain and Northern Ireland", "London", "Europe");
+    UnitedKingdom.nickname = ["Great Britain", "UK"];
+    UnitedKingdom.countries = [];
+    UnitedKingdom.island = "true";
+    UnitedKingdom.ocean = "Atlantic";
+    UnitedKingdom.sea = "North Sea";
+    UnitedKingdom.cities = [UnitedKingdom.capital, "Birmingham", "Glasgow", "Leeds", "Liverpool", "Manchester", "Cardiff", "Edinburg", "Belfast"];
+    UnitedKingdom.languages = [UnitedKingdom.language, "Scots", "Ulster Scots", "Welsh", "Cornish", "Scottish", "Gaelic", "Irish"];
+    countries.unshift(UnitedKingdom);
+    //console.log(UnitedKingdom);
+
+    const Slovakia = new anySpeakingCountry("Slovakia", "Slovak Republic", "Bratislava", "Europe", "Slovak");
+    Slovakia.landlocked = true;
+    Slovakia.region = "Central Europe";
+    Slovakia.cities = [Slovakia.capital, "Košice"];
+    //console.log(Slovakia);
+    countries.unshift(Slovakia);
+
+    const Slovenia = new anySpeakingCountry("Slovenia", "Republic of Slovenia", "Ljubljana", "Europe", "Slovene");
+    Slovenia.region = "Central Europe";
+    countries.unshift(Slovenia);
+    //console.log(Slovenia);
+
+        // OCEANIA
+
+        const Tuvalu = new islandCountry("Tuvalu", "Tuvalu", "Funafuti", "Oceania", "English", "Pacific");
+        Tuvalu.nickname = ["Ellice Islands"];
+        Tuvalu.languages = [Tuvalu.language, "Tuvaluan"];
+        Tuvalu.islands = ["Nanumanga", "Niutao", "Niulakita", "Funafuti", "Nanumea", "Nui", "Nukufetau", "Nukulaelae", "Vaitupu"];
+        countries.unshift(Tuvalu);
+        //console.log(Tuvalu);
+    
+        const Tonga = new EnglishSpeakingCountries("Tonga", "Kingdom of Tonga", "Nukuʻalofa", "Oceania");
+        Tonga.island = true;
+        Tonga.region = "Polynesia";
+        Tonga.languages = ["Tongan"];
+        Tonga.islands = ["Tongatapu"];
+        //console.log(Tonga);
+        countries.push(Tonga);
+    
+        const NewZealand = new EnglishSpeakingCountries("New Zealand", "New Zealand", "Wellington", "Oceania");
+        NewZealand.island = true;
+        NewZealand.ocean = "Pacific";
+        NewZealand.islands = ["North Island (Te Ika-a-Māui)", "South Island (Te Waipounamu)"];   
+        NewZealand.cities = ["Auckland"];
+        NewZealand.languages = [NewZealand.language, "Maori"];
+        //console.log(NewZealand);
+        countries.push(NewZealand);
+    
+        const Niue = new OceaniaCountries("Niue", "Niue", "Alofi", "English", "South Pacific Ocean");
+        Niue.languages = [Niue.language, "Niuean"];
+        // console.log(Niue);
+        countries.unshift(Niue);    
+
+        const Palau = new OceaniaCountries("Palau", "Republic of Palau", "Ngerulmud", "English", "Caroline Islands");
+        Palau.cities = [Palau.capital, "Koror"];
+        Palau.languages = [Palau.language, "Palauan", "Japanese", "Sonsorolese", "Tobian"];
+        //console.log(Palau);
+        countries.unshift(Palau);
+
+        // ASIA
+
+        const Kyrgyzstan = new anySpeakingCountry("Kyrgyzstan", "Kyrgyz Republic", "Bishkek", "Asia", "Kyrgyz");
+        Kyrgyzstan.nickname = ["Kirghizia"];
+        Kyrgyzstan.region = "Central Asia";
+        Kyrgyzstan.landlocked = true;
+        Kyrgyzstan.languages = [Kyrgyzstan.language, "Russian"];
+
+        const Uzbekistan = new anySpeakingCountry("Uzbekistan", "Republic of Uzbekistan", "Tashkent", "Asia", "Uzbek");
+        Uzbekistan.languages = [Uzbekistan.language, "Karakalpak"];
+        Uzbekistan.landlocked = true;
+        Uzbekistan.region = "Central Asia";
+        countries.push(Uzbekistan);
+        //console.log(Uzbekistan);
+
+        const Pakistan = new anySpeakingCountry("Pakistan", "Islamic Republic of Pakistan", "Islamabad", "Asia", "English");
+        Pakistan.cities =[Pakistan.capital, "Karachi"];
+        Pakistan.languages =[Pakistan.language, "Urdu", "Punjabi", "Pashto", "Sindhi", "Balochi"];
+        Pakistan.region = "South Asia";
+        countries.push(Pakistan);
+        //console.log(Pakistan);
+
+        const SriLanka = new islandCountry("Sri Lanka", "Democratic Socialist Republic of Sri Lanka", "Sri Jayawardenepura Kotte", "Asia", "Sinhala", "Indian");
+        SriLanka.cities = [SriLanka.capital, "Colombo"];
+        SriLanka.languages = [SriLanka.language, "Tamil"];
+        countries.unshift(SriLanka);
+        //console.log(SriLanka);
+
+        // EURASIA - WEST ASIA - EAST EUROPE
+
+        const Georgia = new anySpeakingCountry("Georgia", "Georgia", "Tbilisi", "Asia", "Georgian");
+        Georgia.specificRegion ="Western Asia";
+        Georgia.languages = [Georgia.language, "Abkhazian"];
+        countries.unshift(Georgia);
+        //console.log(Georgia);
+
+        const Thailand = new anySpeakingCountry("Thailand", "Kingdom of Thailand", "Bangkok", "Asia", "Thai");
+        Thailand.nickname =["Siam"];
+        Thailand.region = "Southeast Asia";
+        Thailand.specificRegion = "Indochine Peninsula";
+        Thailand.languages = [Thailand.language, "Isan", "Kam Mueang", "Pak Tai"];
+        countries.unshift(Thailand);
+        //console.log(Thailand);
+
+        const Turkmenistan = new anySpeakingCountry("Turkmenistan", "Republic of Turkmenistan", "Ashgabat", "Asia", "Turkmen");
+        Turkmenistan.region = "Central Asia";
+        countries.unshift(Turkmenistan);
+        //console.log(Turkmenistan);
+        countries.unshift(Turkmenistan);
+
+        const Vietnam = new anySpeakingCountry("Vietnam", "Socialist Republic of Vietnam", "Hanoi", "Asia", "Vietnamese");
+        Vietnam.region = "Southeast Asia";
+        Vietnam.specificRegion = "Indochine Peninsula";
+        Vietnam.cities = [Vietnam.capital, "Ho Chi Minh City (Saigon)"];
+        countries.unshift(Vietnam);
+        //console.log(Vietnam);
+
+        const Yemen = new ArabSpeakingCountries("Yemen", "Republic of Yemen", "Sana'a", "Asia");
+        Yemen.nickname = ["Yaman"];
+        Yemen.region = "Western Asia";
+        Yemen.specificRegion = "Arabic Peninsula";
+        Yemen.cities = [Yemen.capital, "Aden", "Taiz"];
+        countries.unshift(Yemen);
+        //console.log(Yemen);
 
 
 

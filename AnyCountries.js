@@ -17,7 +17,7 @@ Bhutan.landlocked = true;
 Bhutan.region = "South Asia";
 console.log(Bhutan);
 
-/*
+
 const Brunei = new anySpeakingCountry("Brunei", "Nation of Brunei, the Abode of Peace", "Bandar Seri Begawan", "Asia","Malay");
 Brunei.languages = ["English"];
 console.log(Brunei);
@@ -30,24 +30,17 @@ const Suriname = new anySpeakingCountry("Suriname", "Republic of Suriname", "Par
 Suriname.region = "South America";
 console.log(Suriname);
 */
-/*
 
 const Brazil = new anySpeakingCountry("Brasil", "República Federativa do Brasil", "Brasilia", "America","Portuguese");
 Brazil.region = "South America";
 console.log(Brazil);
 
-const Cape_Verde = new anySpeakingCountry("Cape Verde", "República de Cabo Verde", "Praia", "Africa", "Portuguese");
-Cape_Verde.languages = ["Cape Verdean Creole"];
-Cape_Verde.island = true;
-Cape_Verde.ocean = "Atlantic";
-Cape_Verde.region = "Macaronesia";
-console.log(Cape_Verde);
 
 const Afghanistan = new anySpeakingCountry("Afghanistan", "Islamic Republic of Afghanistan", "Kabul","Asia", "Pashto - Dari");
 Afghanistan.languages = ["Pashto", "Dari"];
 Afghanistan.landlocked = true;
 console.log(Afghanistan);
 
-*/
+
 
 document.getElementById("main").innerHTML = JSON.stringify(countries);
