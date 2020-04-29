@@ -23,51 +23,7 @@ function SpanishSpeakingCountry(name, officialName, capital, continent){
     //countries.push([this.name, this.capital, this.officialName, this.continent, this.language]);     
 }
 
-const Honduras = new SpanishSpeakingCountry("Honduras", "República de Honduras", "Tegucigalpa", "America");
-console.log(Honduras);
 
-const Mexico = new SpanishSpeakingCountry("México", "Estados Unidos Mexicanos", "Ciudad de México");
-//console.log(Mexico);
-
-const Cuba = new SpanishSpeakingCountry("Cuba", "República de Cuba", "Havana");
-Cuba.island = true;
-Cuba.ocean = "Atlantic";
-Cuba.sea = "Caribean";
-Cuba.region = "Antillas";
-console.log(Cuba);
-
-const Salvador = new SpanishSpeakingCountry("El Salvador", "República de El Salvador", "San Salvador");
-//console.log(Salvador);
-
-const Venezuela = new SpanishSpeakingCountry("Venezuela", "República Bolivariana de Venezuela", "Caracas");
-//console.log(Venezuela);
-
-const Paraguay = new SpanishSpeakingCountry("Paraguay", "República del Paraguay", "Asunción");
-//console.log(Paraguay);
-
-const Peru = new SpanishSpeakingCountry("Peru", "República del Perú ", "Lima" );
-//console.log(Peru);
-
-const Bolivia = new SpanishSpeakingCountry("Bolivia", "Estado Plurinacional de Bolivia", "La Paz");
-//console.log(Bolivia);
-
-const Ecuador = new SpanishSpeakingCountry("Ecuador", "República del Ecuador", "Quito");
-//console.log(Ecuador);
-
-const Spain = new SpanishSpeakingCountry("España", "Reino de España", "Madrid", "Europe");
-//console.log(Spain);
-
-const Equatorial_Guinea = new SpanishSpeakingCountry("Guinea Ecuatorial", "República de Guinea Ecuatorial", "Malabo", "Africa")
-//console.log(Equatorial_Guinea);
-
-const Uruguay = new SpanishSpeakingCountry("Uruguay", "República Oriental del Uruguay", "Montevideo");
-//console.log(Uruguay);
-
-const Colombia = new SpanishSpeakingCountry("Colombia", "República de Colombia", "Bogotá");
-//console.log(Colombia);
-
-const Chile = new SpanishSpeakingCountry("Chile", "República de Chile", "Santiago");
-console.log(Chile);
 
 /*
 function getCountries(countryArray){
