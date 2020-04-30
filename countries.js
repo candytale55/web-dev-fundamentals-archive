@@ -143,13 +143,6 @@ function SpanishSpeakingCountry(name, officialName, capital, continent){
   Cambodia.region = "Southeast Asia";
   Cambodia.specificRegion = "Indochina Peninsula";
   //countries.push(Cambodia);
-  Cambodia.src = "https://postimg.cc/HcrsF8wc";
-      /*
-      "Direct link": "https://i.postimg.cc/503YYwj3/Cambodia-Cities.png",
-      "Android markdown": "[Cambodia-Cities.png](https://postimg.cc/HcrsF8wc)";
-      "GitHub markdown": "[![Cambodia-Cities.png](https://i.postimg.cc/503YYwj3/Cambodia-Cities.png)](https://postimg.cc/HcrsF8wc)";
-      "Direct link": "<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/503YYwj3/Cambodia-Cities.png' border='0' alt='Cambodia-Cities'/></a>"*/
-
   //console.log(Cambodia);
   
   const Singapore = new anySpeakingCountry("Singapore", "Republic of Singapore", "Singapore", "Asia", "English");
@@ -211,15 +204,50 @@ Panama.URIs = [{
 //console.log(Panama);
 //myCountry = Panama;
 
+
+const CostaRica = new SpanishSpeakingCountry("Costa Rica", "República de Costa Rica", "San José", "America");
+CostaRica.region = "Central America";
+CostaRica.wikiURI = "https://en.wikipedia.org/wiki/Costa_Rica";
+CostaRica.countryMap = "https://i.postimg.cc/3RVPNfF4/Costa-Rica-country-Map.png";
+CostaRica.regionMap = "https://i.postimg.cc/mZd0PD8f/Costa-Rica-Region.png";
+CostaRica.URIs = [{
+    SVG_locator : "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Costa_Rica_(location_map_scheme)",
+    regionMap : "https://commons.wikimedia.org/wiki/File:Costa_Rica_in_its_region.svg",
+}];
+//console.log(CostaRica);
+//countries.unshift(CostaRica);
+//myCountry = CostaRica;
+
 const Mexico = new SpanishSpeakingCountry("México", "Estados Unidos Mexicanos", "Ciudad de México");
 //console.log(Mexico);
 
+
 const Cuba = new antillesCountry("Cuba", "República de Cuba", "Havana", "Spanish", "Greater Antilles");
+Cuba.countryMap = "https://i.postimg.cc/L8ZB9v67/Cuba-country-map.png";
+Cuba.regionMap = "https://i.postimg.cc/h42FF8jT/Cuba-region-Map.png";
+Cuba.wikiURI = "https://en.wikipedia.org/wiki/Cuba";
+Cuba.URIs = [{
+    SVG_locator : "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Cuba_(location_map_scheme)",
+}];
 //console.log(Cuba);
 //countries.unshift(Cuba);
+//myCountry = Cuba;
 
-const Salvador = new SpanishSpeakingCountry("El Salvador", "República de El Salvador", "San Salvador");
-//console.log(Salvador);
+const ElSalvador = new SpanishSpeakingCountry("El Salvador", "República de El Salvador", "San Salvador");
+ElSalvador.languages = [ElSalvador.language, "Caliche","Nawat", "Maya"]
+ElSalvador.region = "Central America";
+ElSalvador.wikiURI ="https://en.wikipedia.org/wiki/El_Salvador";
+ElSalvador.countryMap = "https://upload.wikimedia.org/wikipedia/commons/9/98/El_Salvador-CIA_WFB_Map.png";
+ElSalvador.regionMap = "https://i.postimg.cc/C13ZX6cF/El-Salvador-Region.png";
+ElSalvador.URIs = [{
+    countryMapFile : "https://ca.wikipedia.org/wiki/Fitxer:El_Salvador-CIA_WFB_Map.png",
+
+    locationMap : "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/El_Salvador_-_Location_Map_%282013%29_-_SLV_-_UNOCHA.svg/480px-El_Salvador_-_Location_Map_%282013%29_-_SLV_-_UNOCHA.svg.png",
+    locationMapFile : "https://en.wikipedia.org/wiki/File:El_Salvador_-_Location_Map_(2013)_-_SLV_-_UNOCHA.svg",
+}];
+//console.log(ElSalvador);
+//countries.unshift(ElSalvador)
+//myCountry = ElSalvador;
 
 const Venezuela = new SpanishSpeakingCountry("Venezuela", "República Bolivariana de Venezuela", "Caracas");
 //console.log(Venezuela);
@@ -262,8 +290,20 @@ const Chile = new SpanishSpeakingCountry("Chile", "República de Chile", "Santia
 
 const Jamaica = new antillesCountry("Jamaica", "Jamaica", "Kingston", "English", "Greater Antilles");
 Jamaica.languages = [Jamaica.language, "Jamaican Patois"];
+Jamaica.wikiURI = "https://en.wikipedia.org/wiki/Jamaica";
+Jamaica.regionMap = "https://i.postimg.cc/8CpxdKH0/Jamaica-Region.png";
+Jamaica.countryMap = "https://upload.wikimedia.org/wikipedia/commons/d/dd/Jm-map.png";
+Jamaica.URIs = [{
+    SVG_locator: "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Jamaica_(location_map_scheme)",
+
+    regionMapFile: "https://commons.wikimedia.org/wiki/File:Jamaica_in_its_region.svg",
+    
+    locationMap: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Jamaica_-_Location_Map_%282013%29_-_JAM_-_UNOCHA.svg/480px-Jamaica_-_Location_Map_%282013%29_-_JAM_-_UNOCHA.svg.png",
+    locationMapFile: "https://en.wikipedia.org/wiki/File:Jamaica_-_Location_Map_(2013)_-_JAM_-_UNOCHA.svg",
+}];
 //console.log(Jamaica);
 //countries.unshift(Jamaica);
+//myCountry = Jamaica;
 
 const DominicanRepublic = new antillesCountry("Dominican Republic", "República Dominicana", "Santo Domingo", "Spanish", "Greater Antilles");
 //console.log(DominicanRepublic);
@@ -271,8 +311,20 @@ const DominicanRepublic = new antillesCountry("Dominican Republic", "República 
 
 const Haiti = new antillesCountry("Haiti", "Republic of Haiti", "Port-au-Prince", "French", "Greater Antilles");
 Haiti.languages= [Haiti.language, "Haitian Creole"];
+Haiti.wikiURI = "https://en.wikipedia.org/wiki/Haiti";
+Haiti.countryMap = "https://upload.wikimedia.org/wikipedia/commons/1/14/Haiti_map.png";
+Haiti.regionMap = "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/LocationHaiti.svg/640px-LocationHaiti.svg.png";
+Haiti.atlasURI = "https://commons.wikimedia.org/wiki/Atlas_of_Haiti";
+Haiti.URIs = [{
+    countryMapFile : "https://nn.wikipedia.org/wiki/Fil:Haiti_map.png",
+    regionMapFile : "https://nn.wikipedia.org/wiki/Fil:LocationHaiti.svg",
+    locationMapFile : "https://en.wikipedia.org/wiki/File:Haiti_-_Location_Map_(2013)_-_HTI_-_UNOCHA.svg",
+    locationMap: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Haiti_-_Location_Map_%282013%29_-_HTI_-_UNOCHA.svg/480px-Haiti_-_Location_Map_%282013%29_-_HTI_-_UNOCHA.svg.png",
+
+}];
 //console.log(Haiti);
 //countries.unshift(Haiti);
+//myCountry = Haiti;
 
 const PuertoRico = new antillesCountry("Puerto Rico", "Commonwealth of Puerto Rico", "San Juan", "Spanish", "Greater Antilles");
 PuertoRico.territory = "United States of America";
@@ -739,7 +791,26 @@ PuertoRico.languages = ["Spanish", "English"];
         //countries.unshift(Yemen);
         //console.log(Yemen);
 
+    /* *****************************  ***************************   */
 
+    const Antilles = {
+
+        lesserAntilles : {
+            countries: [AntiguaandBarbuda, Barbados, Dominica, Grenada, SaintKitts, SaintLucia, SaintVincentGrenadines, TrinidadandTobago, Aruba, Anguilla, Bonaire, VirginIslandsUK, VirginIslandsUSA, Curacao, Guadeloupe, Martinique, Montserrat, Saba, StBarths, SaintMartin, SintMaartin, SintEustatius, NuevaSparta],
+            wikiURI : "https://en.wikipedia.org/wiki/Lesser_Antilles",
+        }
+
+        greaterAntilles : {
+            countries: [CaymanIslands, Cuba, DominicanRepublic, Haiti, Jamaica, PuertoRico],
+            wikiURI : "https://en.wikipedia.org/wiki/Greater_Antilles";
+        },
+
+        allCountries : [],
+           
+        wikiURI : "https://en.wikipedia.org/wiki/Antilles",
+        regionMap: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/LocationAntilles.svg/800px-LocationAntilles.svg.png",
+        regionMapFile: "https://en.wikipedia.org/wiki/File:LocationAntilles.svg",
+    };
 
     /* *****************************  ***************************   */
 
@@ -756,4 +827,5 @@ PuertoRico.languages = ["Spanish", "English"];
     document.getElementById("countryMap").src = myCountry.countryMap;
     document.getElementById("wiki").href = myCountry.wikiURI;
     document.getElementById("regionMap").src = myCountry.regionMap;
+    
     
