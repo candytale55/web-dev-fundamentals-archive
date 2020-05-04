@@ -1,3 +1,16 @@
+04.05.2020
+Started practicing with classes in countries.js, and inheritance. I have no problems working with 1 level of inheritance (Island extends Country), but not with 2 levels (OceaniaIsland extends Island which should have extended Country.) There are a lot of comments where things didn't work out that I will have to fix before adding more stuff. I still haven't solved the transpilation issue to work with modules.  And I have to create a new branch in Bash to be able to get everything up-to-date (another stupid mistake I made while commiting a few days ago and I now have to learn to fix).
+
+04.05.2020
+Used underscore to make object properties not directly accessible and added getters and setters for practice in anySpeakingCountry - it didn't work. I'll have to check what I did wrong. They are contained in countriesObjects.js.
+I also started creating a Country class to practice them too now in countries.js, and because they are the correct way to deal with country object creation, duh! 
+
+02.05.2020
+Started trying to use modules, but I can't use them without transpilation it seems. Will keep adding missing countries and later I'll see about transpiling the stuff. At least I got the object creation stuff really clear now. 
+
+30.04.2020
+I added several more countries. I linked specific properties with to display with innerHTML, including wiki page, countryMap, regionMap. Right now it works true variable myCountry. It will becom random later.  
+
 27.04.2020
 
 
@@ -74,6 +87,7 @@ _geo_areas: {
   Oceania: [],
 }
 }
+
 
 
 
