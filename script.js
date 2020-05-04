@@ -87,4 +87,4 @@ document.getElementById("country_card").innerHTML= " :) Testing :) " + test;
 
 // document.getElementById("country_card").innerHTML= " :) Testing :) " + test.name + " " + test.capital ; // works but only logs one country.
 
-//document.getElementById("country_card").innerHTML= " :) Testing :) " + countries._geo_areas.Europe[3].name ;
+//document.getElementById("country_card").innerHTML= " :) Testing :) " + countries._geo_areas.Europe[3].name ; 
