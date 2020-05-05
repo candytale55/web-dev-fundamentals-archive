@@ -1,4 +1,7 @@
 05/05/2020
+I finally discovered there is no such thing as pushing stuff into an object, but I solved how to fill my _URIs object.  
+
+05/05/2020
 Started using branches with bash. 
 
 04.05.2020
