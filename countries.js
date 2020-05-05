@@ -9,7 +9,7 @@ class Country {
         this._language = language;
         this._languages = [language];
         this._cities = [capital];
-        this._URIs = [];
+        this._URIs = {};
     } // constructor end.
 
     get name(){
@@ -60,13 +60,6 @@ class Country {
         return this._continents;
     }
 
-    setwikiURI(URI){
-        this._wikiURI = URI;
-    }
-    get wikiURI(){
-        return this._wikiURI;
-    }
-
     setRegion(region){
         this._region = region;
     }
@@ -81,22 +74,38 @@ class Country {
     }
     setCountryMap(URI){
         this._countryMap = URI;
+        this._URIs["countryMap"] = URI;
     }
     get countryMap(){
         return this._countryMap;
     }
+    setwikiURI(URI){
+        this._wikiURI = URI;
+    }
+    get wikiURI(){
+        return this._wikiURI;
+    }
+
     setRegionMap(URI){
         this._regionMap = URI;
+        this._URIs["regionMap"] = URI;
     }
     get regionMap(){
         return this._regionMap;
     }
+    
     setFlag(URI){
         this._flag = URI;
+        this._URIs["flag"] = URI;
     }
     get flag(){
         return this._flag;
     }
+
+    addRefURI(key, URI){
+        this._URIs[key] = URI;
+    }
+
     addAKA(names){
         if(this._akas){
             this._akas.push(names);
@@ -172,7 +181,7 @@ class Island extends Country {
 
 /*  -------  OceaniaIsland SUBCLASS    ----------- */
 
-class OceaniaIsland extends Island {
+class OceaniaIsland extends Island {  ///// NOT USING AT THE MOMENT. I don't think it's worth to have an additional specific Oceania or Antillas island object - BUT HAVE TO SOLVE PROBLEMS OF INHERITANCE  - (my problems, not the program - I need to understand how it works)
     constructor(name, officialName, capital, language, specificRegion){
         super(name, officialName, capital, language);
         this._name = name;
@@ -209,54 +218,62 @@ const China = new Country("China", "People's Republic of China", "Beijing", "Sta
 China.languages.push("Mongolian", "Uyghur", "Tibetan", "Zhuang");
 China.setRegion("East Asia");
 China.cities.push("Shangai", "Chongqing");
-China.setwikiURI("https://en.wikipedia.org/wiki/China");
-China.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/7/7f/China_CIA_map.png"); 
-China.URIs = {
+China._URIs = {
     countryMapFile : "https://ast.wikipedia.org/wiki/Ficheru:China_CIA_map.png",
     flag : "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/320px-Flag_of_the_People%27s_Republic_of_China.svg.png",
     flagFile : "https://en.wikipedia.org/wiki/File:Flag_of_the_People%27s_Republic_of_China.svg",
 };
+China.setwikiURI("https://en.wikipedia.org/wiki/China");
+China.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/7/7f/China_CIA_map.png"); 
+China.addRefURI("globeFile", "https://commons.wikimedia.org/wiki/File:CHN_orthographic.svg");
+China.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/CHN_orthographic.svg/480px-CHN_orthographic.svg.png");
+China.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_China_(location_map_scheme)");
 //console.log(China);
 //myCountry = China;
 //asianCountriesArray.push(China);
-
+//console.log(China._URIs);
 
 const Cambodia = new Country("Cambodia", "Kingdom of Cambodia", "Phnom Penh", "Khmer");
 Cambodia.addAKA("Kampuchea");
 Cambodia.languages.push("French", "English");
 Cambodia.setRegion("Southeast Asia");
 //Cambodia.addSpecificRegion("Indochina Peninsula");
-Cambodia.setwikiURI("https://en.wikipedia.org/wiki/Cambodia");
-Cambodia.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/1/12/Cb-map.png");
-Cambodia.URIs = {
+Cambodia._URIs = {
     countryMapFile :"https://commons.wikimedia.org/wiki/File:Cb-map.png",
     flag : "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_Cambodia.svg/320px-Flag_of_Cambodia.svg.png",
     flagFile : "https://en.wikipedia.org/wiki/File:Flag_of_Cambodia.svg",
 }
+Cambodia.setwikiURI("https://en.wikipedia.org/wiki/Cambodia");
+Cambodia.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/1/12/Cb-map.png");
+Cambodia.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Cambodia_(location_map_scheme)");
+Cambodia.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:Cambodia_in_its_region.svg");
+Cambodia.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Cambodia_in_its_region.svg/640px-Cambodia_in_its_region.svg.png");
 //countries.push(Cambodia);
 //console.log(Cambodia);
 //myCountry = Cambodia;
-
+//console.log(Cambodia._URIs);
 
 const Thailand = new Country("Thailand", "Kingdom of Thailand", "Bangkok", "Thai");
   Thailand.addAKA("Siam");
   Thailand.setRegion("Southeast Asia");
   //Thailand.addSpecificRegion("Indochine Peninsula");
   Thailand.languages.push("Isan", "Kam Mueang", "Pak Tai");
-  Thailand.setwikiURI("https://en.wikipedia.org/wiki/Thailand");
-  Thailand.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Thailand_map_CIA.png/276px-Thailand_map_CIA.png");
-  Thailand.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/LocationThailand.svg/640px-LocationThailand.svg.png");
-  Thailand.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Thailand.svg/320px-Flag_of_Thailand.svg.png");
-  Thailand.URIs = {
+  Thailand._URIs = {
       countryMapFile : "https://commons.wikimedia.org/wiki/File:Thailand_map_CIA.png",
       regionMapFile: "https://ast.wikipedia.org/wiki/Ficheru:LocationThailand.svg",
       flagFile: "https://en.wikipedia.org/wiki/File:Flag_of_Thailand.svg",
       wikiAtlas: "https://commons.wikimedia.org/wiki/Atlas_of_Thailand",
       ciaFactBook : "https://www.cia.gov/library/publications/the-world-factbook/geos/th.html",
   }
+  Thailand.setwikiURI("https://en.wikipedia.org/wiki/Thailand");
+  Thailand.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Thailand_map_CIA.png/276px-Thailand_map_CIA.png");
+  Thailand.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/LocationThailand.svg/640px-LocationThailand.svg.png");
+  Thailand.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Thailand.svg/320px-Flag_of_Thailand.svg.png");
+  Thailand.addRefURI("SVG_locator","https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Thailand_(location_map_scheme)");
   //countries.unshift(Thailand);
   //console.log(Thailand);
   //myCountry = Thailand;
+  //console.log(Thailand._URIs);
 
 
   const Singapore = new Island("Singapore", "Republic of Singapore", "Singapore", "English", "Indian", "South China Sea");
@@ -264,20 +281,25 @@ const Thailand = new Country("Thailand", "Kingdom of Thailand", "Bangkok", "Thai
   Singapore.setRegion("Southeast Asia");
   Singapore.addAKA("Pulau Ujong","Temasek", "Singapura"); // ONLY THE FIRST ONE IS ADDED
   Singapore.AKAs.push("Temasek", "Singapura");
-  Singapore.setwikiURI("https://en.wikipedia.org/wiki/Singapore");
-  Singapore.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Singapore.svg/320px-Flag_of_Singapore.svg.png");
-  Singapore.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Singapore_in_its_region_%28zoom%29.svg/640px-Singapore_in_its_region_%28zoom%29.svg.png");
-  Singapore.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/0/07/CIA_World_Factbook_map_of_Singapore_%28English%29.png");
-  Singapore.URIs = {
+  Singapore._URIs = {
       flagFile : "https://en.wikipedia.org/wiki/File:Flag_of_Singapore.svg",
       regionMapFile: "https://commons.wikimedia.org/wiki/File:Singapore_in_its_region_(zoom).svg",
       countryMapFile : "https://en.wikipedia.org/wiki/File:CIA_World_Factbook_map_of_Singapore_(English).png",
   };
+  Singapore.setwikiURI("https://en.wikipedia.org/wiki/Singapore");
+  Singapore.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Singapore.svg/320px-Flag_of_Singapore.svg.png");
+  Singapore.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Singapore_in_its_region_%28zoom%29.svg/640px-Singapore_in_its_region_%28zoom%29.svg.png");
+  Singapore.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/0/07/CIA_World_Factbook_map_of_Singapore_%28English%29.png");
   //countries.unshift(Singapore);
   //console.log(Singapore);
   //myCountry = Singapore;
+  //console.log(Singapore._URIs);
 
   const arrAsia = [China, Cambodia, Thailand, Singapore];  
+
+
+
+
 
 // OCEANIA
 
@@ -286,30 +308,28 @@ Tuvalu.addAKA("Ellice Islands");
 Tuvalu.addLanguages("Tuvaluan");
 //Tuvalu.addIsland("Test"); // Solo de una en una, ver que pues con spread operator ...
 Tuvalu.islands.push("Nanumanga", "Niutao", "Niulakita", "Funafuti", "Nanumea", "Nui", "Nukufetau", "Nukulaelae", "Vaitupu");
-Tuvalu.setwikiURI("https://en.wikipedia.org/wiki/Tuvalu");
-Tuvalu.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/9/95/Tv-map.png");
-Tuvalu.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Flag_of_Tuvalu.svg/320px-Flag_of_Tuvalu.svg.png");
-Tuvalu.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Tuvalu_in_Oceania.svg/699px-Tuvalu_in_Oceania.svg.png");
 //countries.unshift(Tuvalu);
-Tuvalu.URIs = {
+Tuvalu._URIs = {
     SVG_locator : "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Tuvalu_(location_map_scheme)",
     flagFile : "https://en.wikipedia.org/wiki/File:Flag_of_Tuvalu.svg",
     countryMapFile : "https://en.wikipedia.org/wiki/File:Tv-map.png",
     regionMapFile : "https://commons.wikimedia.org/wiki/File:Tuvalu_in_Oceania.svg",
     wikiAtlas : "https://commons.wikimedia.org/wiki/Atlas_of_Tuvalu",
 }
+// Because I didn't want to use the function addRefURI with what I already worked, the following setURI function calls have to be set after the block above, or they will be wiped.
+Tuvalu.setwikiURI("https://en.wikipedia.org/wiki/Tuvalu");
+Tuvalu.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/9/95/Tv-map.png");
+Tuvalu.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Flag_of_Tuvalu.svg/320px-Flag_of_Tuvalu.svg.png");
+Tuvalu.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Tuvalu_in_Oceania.svg/699px-Tuvalu_in_Oceania.svg.png");
 //console.log(Tuvalu);
 //myCountry = Tuvalu;
+//console.log(Tuvalu._URIs);
 
 
 const Tonga = new OceaniaIsland("Tonga", "Kingdom of Tonga", "Nukuʻalofa", "Polynesia");
   Tonga.languages.push("Tongan");
   Tonga.islands = ["Tongatapu"];
-  Tonga.setwikiURI("https://en.wikipedia.org/wiki/Tonga");
-  Tonga.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/9/9b/Tonga_sm04.gif"),
-  Tonga.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Tonga.svg/320px-Flag_of_Tonga.svg.png");
-  Tonga.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Tonga_in_its_region.svg/640px-Tonga_in_its_region.svg.png");
-  Tonga.URIs = {
+  Tonga._URIs = {
       SVG_locator : "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Tonga_(location_map_scheme)",
       countryMapFile : "https://commons.wikimedia.org/wiki/File:Tonga_sm04.gif",
       regionMapFile : "https://commons.wikimedia.org/wiki/File:Tonga_in_its_region.svg",
@@ -320,31 +340,39 @@ const Tonga = new OceaniaIsland("Tonga", "Kingdom of Tonga", "Nukuʻalofa", "Pol
       blueCountryMapFile: "https://en.wikipedia.org/wiki/File:Tonga_-_Location_Map_(2013)_-_TON_-_UNOCHA.svg",
       geographyOf : "https://en.wikipedia.org/wiki/Geography_of_Tonga",
   }
+  // Because I didn't want to use the function addRefURI with what I already worked, the following setURI function calls have to be set after the block above, or they will be wiped.
+  Tonga.setwikiURI("https://en.wikipedia.org/wiki/Tonga");
+  Tonga.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/9/9b/Tonga_sm04.gif"),
+  Tonga.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Tonga.svg/320px-Flag_of_Tonga.svg.png");
+  Tonga.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Tonga_in_its_region.svg/640px-Tonga_in_its_region.svg.png");
   //console.log(Tonga);
   //countries.push(Tonga);
   //myCountry = Tonga;
+  //console.log(Tonga._URIs);
 
   const Vanuatu = new Island("Vanuatu", "Republic of Vanuatu", "Port Vila", "Bislama", "Pacific");
   Vanuatu.isArchipielago();
   Vanuatu.languages.push("English", "French");
   Vanuatu.islands.push("Espiritu Santo", "Malakula", "Efate", "Erromango", "Ambrym", "Tanna", "Pentecost", "Epi", "Ambae or Aoba", "Gaua", "Vanua Lava", "Maewo", "Malo", "Aneityum or Anatom");
+ // URI Section:
   Vanuatu.setwikiURI("https://en.wikipedia.org/wiki/Vanuatu");
   Vanuatu.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/6/69/Nh-map.png");
+  Vanuatu.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Vanuatu_in_Oceania.svg/560px-Vanuatu_in_Oceania.svg.png");
   Vanuatu.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Vanuatu.svg/320px-Flag_of_Vanuatu.svg.png");
-
-
-  Vanuatu.URIs = {
-      countryMapFile : "https://commons.wikimedia.org/wiki/File:Nh-map.png",
-      flagFile : "https://commons.wikimedia.org/wiki/File:Flag_of_Vanuatu.svg",
-      wikiAtlas : "https://commons.wikimedia.org/wiki/Atlas_of_Vanuatu",
-      blueCountryMapFile : "https://en.wikipedia.org/wiki/File:Vanuatu_-_Location_Map_(2013)_-_VUT_-_UNOCHA.svg",
-      blueCountryMap : "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Vanuatu_-_Location_Map_%282013%29_-_VUT_-_UNOCHA.svg/480px-Vanuatu_-_Location_Map_%282013%29_-_VUT_-_UNOCHA.svg.png",
-      SVG_locator : "https://commons.wikimedia.org/wiki/Template:Vanuatu_imagemap_(location_map_scheme)",
-      geographyOf : "https://en.wikipedia.org/wiki/Geography_of_Vanuatu",
-  };
-
-  myCountry = Vanuatu;
-  console.log(Vanuatu);
+  Vanuatu.addRefURI("countryMapFile","https://commons.wikimedia.org/wiki/File:Nh-map.png");
+  Vanuatu.addRefURI("flagFile","https://commons.wikimedia.org/wiki/File:Flag_of_Vanuatu.svg");
+  Vanuatu.addRefURI("wikiAtlas","https://commons.wikimedia.org/wiki/Atlas_of_Vanuatu");
+  Vanuatu.addRefURI("blueCountryMapFile", "https://en.wikipedia.org/wiki/File:Vanuatu_-_Location_Map_(2013)_-_VUT_-_UNOCHA.svg");
+  Vanuatu.addRefURI("blueCountryMap" ,"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Vanuatu_-_Location_Map_%282013%29_-_VUT_-_UNOCHA.svg/480px-Vanuatu_-_Location_Map_%282013%29_-_VUT_-_UNOCHA.svg.png");
+  Vanuatu.addRefURI("geographyWiki", "https://en.wikipedia.org/wiki/Geography_of_Vanuatu");
+  Vanuatu.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Template:Vanuatu_imagemap_(location_map_scheme)");
+  Vanuatu.addRefURI("globeFile","https://en.wikipedia.org/wiki/File:Vanuatu_on_the_globe_(Polynesia_centered).svg");
+  Vanuatu.addRefURI("globe", "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Vanuatu_on_the_globe_%28Polynesia_centered%29.svg/480px-Vanuatu_on_the_globe_%28Polynesia_centered%29.svg.png");
+  Vanuatu.addRefURI("plainCountryMap","https://commons.wikimedia.org/wiki/File:Vanuatu_location_map.svg");
+  Vanuatu.addRefURI("plainCountry", "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Vanuatu_location_map.svg/259px-Vanuatu_location_map.svg.png");
+  //myCountry = Vanuatu;
+  //console.log(Vanuatu);
+  //console.log(Vanuatu._URIs);
 
   const arrOceania = [Tonga, Tuvalu, Vanuatu];
 
