@@ -1,11 +1,11 @@
 let myCountry;
 
 class Country {
-    constructor(name, officialName, capital, continent, language){
+    constructor(name, officialName, capital, language){ //removed continent as parameter
         this._name = name;
         this._officialName = officialName;
         this._capital = capital;
-        this._continent = continent;
+        //this._continent = continent;
         this._language = language;
         this._languages = [language];
         this._cities = [capital];
@@ -21,9 +21,10 @@ class Country {
     get capital(){
         return this._capital;
     }
+    /*
     get continent(){
         return this._continent;
-    }
+    }*/
     get language(){
         return this._language;
     }
@@ -112,15 +113,16 @@ class Country {
 /*  -------  Island SUBCLASS    ----------- */
 
 class Island extends Country {
-    constructor(name, officialName, capital, continent, language, ocean, sea){
-        super(name, officialName, capital, continent, language);
+    constructor(name, officialName, capital, language, ocean, sea){ // removed continent,
+        super(name, officialName, capital, language); // removed continent,
         this._island = true;
         this._islands = [];
-        if (continent == "Oceania"){
+        /*if (continent == "Oceania"){
             this._ocean = "Pacific";
         } else {
             this._ocean = [ocean];
-        }
+        }*/
+        this._ocean = ocean;
         if(sea !== undefined){
             this._sea = [sea];
         }         
@@ -194,15 +196,6 @@ class OceaniaIsland extends Island {
 
 
 
-const Tuvalu = new OceaniaIsland("Tuvalu", "Tuvalu", "Funafuti", "English", "Polynesia");
-Tuvalu.addAKA("Ellice Islands");
-Tuvalu.addLanguages("Tuvaluan");
-//Tuvalu.addIsland("Test"); // Solo de una en una, ver que pues con spread operator ...
-Tuvalu.islands.push("Nanumanga", "Niutao", "Niulakita", "Funafuti", "Nanumea", "Nui", "Nukufetau", "Nukulaelae", "Vaitupu");
-//countries.unshift(Tuvalu);
-console.log(Tuvalu);
-myCountry = Tuvalu;
-
 /*  -------  Antillas SUBCLASS    ----------- */
 
 
@@ -210,7 +203,9 @@ myCountry = Tuvalu;
 
 // ASIA
 
-const China = new Country("China", "People's Republic of China", "Beijing", "Asia", "Standard Chinese");
+
+
+const China = new Country("China", "People's Republic of China", "Beijing", "Standard Chinese");
 China.languages.push("Mongolian", "Uyghur", "Tibetan", "Zhuang");
 China.setRegion("East Asia");
 China.cities.push("Shangai", "Chongqing");
@@ -223,10 +218,10 @@ China.URIs = {
 };
 //console.log(China);
 //myCountry = China;
+//asianCountriesArray.push(China);
 
 
-
-const Cambodia = new Country("Cambodia", "Kingdom of Cambodia", "Phnom Penh",  "Asia", "Khmer");
+const Cambodia = new Country("Cambodia", "Kingdom of Cambodia", "Phnom Penh", "Khmer");
 Cambodia.addAKA("Kampuchea");
 Cambodia.languages.push("French", "English");
 Cambodia.setRegion("Southeast Asia");
@@ -243,7 +238,7 @@ Cambodia.URIs = {
 //myCountry = Cambodia;
 
 
-const Thailand = new Country("Thailand", "Kingdom of Thailand", "Bangkok", "Asia", "Thai");
+const Thailand = new Country("Thailand", "Kingdom of Thailand", "Bangkok", "Thai");
   Thailand.addAKA("Siam");
   Thailand.setRegion("Southeast Asia");
   //Thailand.addSpecificRegion("Indochine Peninsula");
@@ -264,7 +259,7 @@ const Thailand = new Country("Thailand", "Kingdom of Thailand", "Bangkok", "Asia
   //myCountry = Thailand;
 
 
-  const Singapore = new Island("Singapore", "Republic of Singapore", "Singapore", "Asia", "English", "Indian", "South China Sea");
+  const Singapore = new Island("Singapore", "Republic of Singapore", "Singapore", "English", "Indian", "South China Sea");
   Singapore.languages.push("Malay", "Chinese", "Tamil");
   Singapore.setRegion("Southeast Asia");
   Singapore.addAKA("Pulau Ujong","Temasek", "Singapura"); // ONLY THE FIRST ONE IS ADDED
@@ -282,12 +277,94 @@ const Thailand = new Country("Thailand", "Kingdom of Thailand", "Bangkok", "Asia
   //console.log(Singapore);
   //myCountry = Singapore;
 
+  const arrAsia = [China, Cambodia, Thailand, Singapore];  
+
+// OCEANIA
+
+const Tuvalu = new Island("Tuvalu", "Tuvalu", "Funafuti", "English", "Polynesia");
+Tuvalu.addAKA("Ellice Islands");
+Tuvalu.addLanguages("Tuvaluan");
+//Tuvalu.addIsland("Test"); // Solo de una en una, ver que pues con spread operator ...
+Tuvalu.islands.push("Nanumanga", "Niutao", "Niulakita", "Funafuti", "Nanumea", "Nui", "Nukufetau", "Nukulaelae", "Vaitupu");
+Tuvalu.setwikiURI("https://en.wikipedia.org/wiki/Tuvalu");
+Tuvalu.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/9/95/Tv-map.png");
+Tuvalu.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Flag_of_Tuvalu.svg/320px-Flag_of_Tuvalu.svg.png");
+Tuvalu.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Tuvalu_in_Oceania.svg/699px-Tuvalu_in_Oceania.svg.png");
+//countries.unshift(Tuvalu);
+Tuvalu.URIs = {
+    SVG_locator : "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Tuvalu_(location_map_scheme)",
+    flagFile : "https://en.wikipedia.org/wiki/File:Flag_of_Tuvalu.svg",
+    countryMapFile : "https://en.wikipedia.org/wiki/File:Tv-map.png",
+    regionMapFile : "https://commons.wikimedia.org/wiki/File:Tuvalu_in_Oceania.svg",
+    wikiAtlas : "https://commons.wikimedia.org/wiki/Atlas_of_Tuvalu",
+}
+//console.log(Tuvalu);
+//myCountry = Tuvalu;
 
 
+const Tonga = new OceaniaIsland("Tonga", "Kingdom of Tonga", "Nukuʻalofa", "Polynesia");
+  Tonga.languages.push("Tongan");
+  Tonga.islands = ["Tongatapu"];
+  Tonga.setwikiURI("https://en.wikipedia.org/wiki/Tonga");
+  Tonga.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/9/9b/Tonga_sm04.gif"),
+  Tonga.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Tonga.svg/320px-Flag_of_Tonga.svg.png");
+  Tonga.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Tonga_in_its_region.svg/640px-Tonga_in_its_region.svg.png");
+  Tonga.URIs = {
+      SVG_locator : "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Tonga_(location_map_scheme)",
+      countryMapFile : "https://commons.wikimedia.org/wiki/File:Tonga_sm04.gif",
+      regionMapFile : "https://commons.wikimedia.org/wiki/File:Tonga_in_its_region.svg",
+      flagFile : "https://en.wikipedia.org/wiki/File:Flag_of_Tonga.svg",
+      wikiAtlas : "https://commons.wikimedia.org/wiki/Atlas_of_Tonga",
+      ciaFactBook : "https://www.cia.gov/library/publications/the-world-factbook/geos/tn.html",
+      blueCountryMap: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Tonga_-_Location_Map_%282013%29_-_TON_-_UNOCHA.svg/480px-Tonga_-_Location_Map_%282013%29_-_TON_-_UNOCHA.svg.png",
+      blueCountryMapFile: "https://en.wikipedia.org/wiki/File:Tonga_-_Location_Map_(2013)_-_TON_-_UNOCHA.svg",
+      geographyOf : "https://en.wikipedia.org/wiki/Geography_of_Tonga",
+  }
+  //console.log(Tonga);
+  //countries.push(Tonga);
+  //myCountry = Tonga;
+
+  const Vanuatu = new Island("Vanuatu", "Republic of Vanuatu", "Port Vila", "Bislama", "Pacific");
+  Vanuatu.isArchipielago();
+  Vanuatu.languages.push("English", "French");
+  Vanuatu.islands.push("Espiritu Santo", "Malakula", "Efate", "Erromango", "Ambrym", "Tanna", "Pentecost", "Epi", "Ambae or Aoba", "Gaua", "Vanua Lava", "Maewo", "Malo", "Aneityum or Anatom");
+  Vanuatu.setwikiURI("https://en.wikipedia.org/wiki/Vanuatu");
+  Vanuatu.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/6/69/Nh-map.png");
+  Vanuatu.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Vanuatu.svg/320px-Flag_of_Vanuatu.svg.png");
 
 
+  Vanuatu.URIs = {
+      countryMapFile : "https://commons.wikimedia.org/wiki/File:Nh-map.png",
+      flagFile : "https://commons.wikimedia.org/wiki/File:Flag_of_Vanuatu.svg",
+      wikiAtlas : "https://commons.wikimedia.org/wiki/Atlas_of_Vanuatu",
+      blueCountryMapFile : "https://en.wikipedia.org/wiki/File:Vanuatu_-_Location_Map_(2013)_-_VUT_-_UNOCHA.svg",
+      blueCountryMap : "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Vanuatu_-_Location_Map_%282013%29_-_VUT_-_UNOCHA.svg/480px-Vanuatu_-_Location_Map_%282013%29_-_VUT_-_UNOCHA.svg.png",
+      SVG_locator : "https://commons.wikimedia.org/wiki/Template:Vanuatu_imagemap_(location_map_scheme)",
+      geographyOf : "https://en.wikipedia.org/wiki/Geography_of_Vanuatu",
+  };
 
+  myCountry = Vanuatu;
+  console.log(Vanuatu);
 
+  const arrOceania = [Tonga, Tuvalu, Vanuatu];
+
+  const Oceania = {
+      description : "is a geographic region that includes Australasia, Melanesia, Micronesia and Polynesia. Spanning the eastern and western hemispheres, Oceania has a land area of 8,525,989 square kilometres (3,291,903 sq mi) and a population of over 47 million. Situated in the southeast of the Asia-Pacific region, Oceania, when compared to continental regions, is the smallest in land area and the second smallest in population after Antarctica.",
+      wikiURI : "https://en.wikipedia.org/wiki/Oceania",
+  }
+
+  /*
+  const NewCaledonia;
+  const Fiji;
+  const Palaos;
+ 
+
+  const Gales;
+  const Ukraine;
+  const Argentina;
+  const Laos;
+  const Armenia;
+  */
 
   
 /* --------------------------------------------------------------------------------- */

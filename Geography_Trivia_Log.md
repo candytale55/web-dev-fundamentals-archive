@@ -1,3 +1,6 @@
+05/05/2020
+Started using branches with bash. 
+
 04.05.2020
 Started practicing with classes in countries.js, and inheritance. I have no problems working with 1 level of inheritance (Island extends Country), but not with 2 levels (OceaniaIsland extends Island which should have extended Country.) There are a lot of comments where things didn't work out that I will have to fix before adding more stuff. I still haven't solved the transpilation issue to work with modules.  And I have to create a new branch in Bash to be able to get everything up-to-date (another stupid mistake I made while commiting a few days ago and I now have to learn to fix).
 
