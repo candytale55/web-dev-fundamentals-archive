@@ -374,16 +374,68 @@ const Tonga = new OceaniaIsland("Tonga", "Kingdom of Tonga", "Nukuʻalofa", "Pol
   //console.log(Vanuatu);
   //console.log(Vanuatu._URIs);
 
-  const arrOceania = [Tonga, Tuvalu, Vanuatu];
+  const Fiji = new Island("Fiji", "Republic of Fiji", "Suva", "iTaukei", "South Pacific");
+  Fiji.languages.push("English", "Fiji Hindi", "Rotuman");
+  Fiji.isArchipielago();
+  Fiji.islands.push("Ono-i-Lau", "Viti Levu", "Vanua Levu");
+  Fiji.setRegion("Melanesia");
+  Fiji.cities.push("Nadi", "Lautoka");
+  Fiji.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Fiji.svg");
+  Fiji.addRefURI("flag", "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Fiji.svg/320px-Flag_of_Fiji.svg.png");
+  Fiji.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Template:Fiji_imagemap_(location_map_scheme)");
+  Fiji.addRefURI("countryMapFile","https://en.wikipedia.org/wiki/File:Fiji_map.png");
+  Fiji.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/e/e1/Fiji_map.png");
+  Fiji.addRefURI("ciaFactBook", "https://www.cia.gov/library/publications/the-world-factbook/geos/fj.html");
+  Fiji.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_Fiji");
+  Fiji.addRefURI("geographyOf", "https://en.wikipedia.org/wiki/Geography_of_Fiji");
+  Fiji.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/a/a8/Fiji_and_oceania.jpg");
+  Fiji.addRefURI("globeFile", "https://commons.wikimedia.org/wiki/File:Fiji_(orthographic_projection).svg");
+  Fiji.addRefURI("globe", "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Fiji_%28orthographic_projection%29.svg/480px-Fiji_%28orthographic_projection%29.svg.png");
+
+  //console.log(Fiji);
+  //console.log(Fiji._URIs);
+  //myCountry = Fiji;
+
+
+  const NewZealand = new Island("New Zealand", "New Zealand", "Wellington", "English", "Pacific");
+  NewZealand.islands.push("North Island (Te Ika-a-Māui)", "South Island (Te Waipounamu)");   
+  NewZealand.cities.push("Auckland");
+  NewZealand.languages.push("Maori");
+  NewZealand.setRegion("Australasia");
+  NewZealand.addAKA("Aotearoa (Maori)");
+  NewZealand.addRefURI("wikiAtlas","https://commons.wikimedia.org/wiki/Atlas_of_New_Zealand");
+  NewZealand.addRefURI("ciaFactBook", "https://www.cia.gov/library/publications/the-world-factbook/geos/nz.html");
+  NewZealand.setwikiURI("https://en.wikipedia.org/wiki/New_Zealand");
+  NewZealand.setCountryMap("https://www.cia.gov/library/publications/the-world-factbook/attachments/maps/NZ-map.gif");
+  NewZealand.addRefURI("geographyOf", "https://en.wikipedia.org/wiki/Geography_of_New_Zealand");
+  NewZealand.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_New_Zealand.svg");
+  NewZealand.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Flag_of_New_Zealand.svg/320px-Flag_of_New_Zealand.svg.png");
+  NewZealand.addRefURI("SVG_locator","https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_New_Zealand_(location_map_scheme)");
+  NewZealand.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/New_Zealand_in_its_region.svg/640px-New_Zealand_in_its_region.svg.png");
+  NewZealand.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:New_Zealand_in_its_region.svg");
+  console.log(NewZealand._URIs);
+  //countries.push(NewZealand);
+  myCountry = NewZealand;
+
+
+  const arrOceania = ["Tonga", "Tuvalu", "Vanuatu", "Fiji"];
 
   const Oceania = {
       description : "is a geographic region that includes Australasia, Melanesia, Micronesia and Polynesia. Spanning the eastern and western hemispheres, Oceania has a land area of 8,525,989 square kilometres (3,291,903 sq mi) and a population of over 47 million. Situated in the southeast of the Asia-Pacific region, Oceania, when compared to continental regions, is the smallest in land area and the second smallest in population after Antarctica.",
       wikiURI : "https://en.wikipedia.org/wiki/Oceania",
+      regions : ["Melanesia"],
   }
+
+  const Melanesia = {
+    description : "a subregion of Oceania extending from New Guinea island in the southwestern Pacific Ocean to the Arafura Sea, and eastward to Tonga.          The region includes the five independent countries of Fiji, Vanuatu, Solomon Islands, Papua New Guinea, East Timor as well as the French special collectivity of New Caledonia, and parts of Indonesia – particularly Western New Guinea, East Nusa Tenggara, and Maluku. Most of the region is in the Southern Hemisphere, most of North Maluku and a few small northwestern islands of Western New Guinea are in the Northern Hemisphere.", 
+    wikiURI : "https://en.wikipedia.org/wiki/Melanesia",
+    countries : ["Fiji", "Vanuatu", /* SolomonIslands, PapuaNewGuinea, EastTimor, NewCaledonia, Indonesia*/],
+};
+
 
   /*
   const NewCaledonia;
-  const Fiji;
+
   const Palaos;
  
 
