@@ -28,7 +28,7 @@ class Country {
     get language(){
         return this._language;
     }
-    addLanguages(newLanguage){
+    addLanguages(...newLanguage){ // spread operator gets all the items as an array, still have to work how to solve it.
         if(languages){
             this._languages.push(newLanguage);
         } else{
@@ -60,8 +60,20 @@ class Country {
         return this._continents;
     }
 
-    setRegion(region){
-        this._region = region;
+    isTerritory(country){
+        this._territoryOf = country;
+    }
+    get territoryOf(){
+        return this._territoryOf;
+    }
+
+
+    setRegion(worldRegion){
+        if (this._region){
+            this._region.push(worldRegion);
+        } else {
+            this._region = [worldRegion];
+        }
     }
     get region(){
         return this._region;
@@ -125,7 +137,7 @@ class Island extends Country {
     constructor(name, officialName, capital, language, ocean, sea){ // removed continent,
         super(name, officialName, capital, language); // removed continent,
         this._island = true;
-        this._islands = [];
+        this._islands = []; 
         /*if (continent == "Oceania"){
             this._ocean = "Pacific";
         } else {
@@ -159,19 +171,23 @@ class Island extends Country {
             this._sea = [sea];
         }
     }
-    isArchipielago(){
+    isArchipielago(... islandsNames){
         this._archipielago = true;
+        this._islands = []
+        this._islands.push(islandsNames);
     }
     get archipielago(){
         return this._archipielago;
     }
 
     addIsland(newIsland){
+        this._islands.push(newIsland);
+        /*
         if (islands){
             this._islands.push(newIsland); // No funcionaba el PUSH sin declarar islands en el constructor, pensé que lo heredaría.  La parte del else de este metodo sale sobrando. ¿A lo mejor invirtiendo el orden, aunque no lo creo. 
         } else {
             this._islands = [newIsland];
-        }
+        } */
     }
     get islands(){
         return this._islands;
@@ -374,16 +390,106 @@ const Tonga = new OceaniaIsland("Tonga", "Kingdom of Tonga", "Nukuʻalofa", "Pol
   //console.log(Vanuatu);
   //console.log(Vanuatu._URIs);
 
-  const arrOceania = [Tonga, Tuvalu, Vanuatu];
+  const Fiji = new Island("Fiji", "Republic of Fiji", "Suva", "iTaukei", "South Pacific");
+  Fiji.languages.push("English", "Fiji Hindi", "Rotuman");
+  Fiji.isArchipielago();
+  Fiji.islands.push("Ono-i-Lau", "Viti Levu", "Vanua Levu");
+  Fiji.setRegion("Melanesia");
+  Fiji.cities.push("Nadi", "Lautoka");
+  Fiji.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Fiji.svg");
+  Fiji.addRefURI("flag", "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Fiji.svg/320px-Flag_of_Fiji.svg.png");
+  Fiji.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Template:Fiji_imagemap_(location_map_scheme)");
+  Fiji.addRefURI("countryMapFile","https://en.wikipedia.org/wiki/File:Fiji_map.png");
+  Fiji.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/e/e1/Fiji_map.png");
+  Fiji.addRefURI("ciaFactBook", "https://www.cia.gov/library/publications/the-world-factbook/geos/fj.html");
+  Fiji.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_Fiji");
+  Fiji.addRefURI("geographyOf", "https://en.wikipedia.org/wiki/Geography_of_Fiji");
+  Fiji.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/a/a8/Fiji_and_oceania.jpg");
+  Fiji.addRefURI("globeFile", "https://commons.wikimedia.org/wiki/File:Fiji_(orthographic_projection).svg");
+  Fiji.addRefURI("globe", "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Fiji_%28orthographic_projection%29.svg/480px-Fiji_%28orthographic_projection%29.svg.png");
+
+  //console.log(Fiji);
+  //console.log(Fiji._URIs);
+  //myCountry = Fiji;
+
+
+  const NewZealand = new Island("New Zealand", "New Zealand", "Wellington", "English", "Pacific");
+  NewZealand.islands.push("North Island (Te Ika-a-Māui)", "South Island (Te Waipounamu)");   
+  NewZealand.cities.push("Auckland");
+  NewZealand.languages.push("Maori");
+  NewZealand.setRegion("Australasia");
+  NewZealand.addAKA("Aotearoa (Maori)");
+  NewZealand.addRefURI("wikiAtlas","https://commons.wikimedia.org/wiki/Atlas_of_New_Zealand");
+  NewZealand.addRefURI("ciaFactBook", "https://www.cia.gov/library/publications/the-world-factbook/geos/nz.html");
+  NewZealand.setwikiURI("https://en.wikipedia.org/wiki/New_Zealand");
+  NewZealand.setCountryMap("https://www.cia.gov/library/publications/the-world-factbook/attachments/maps/NZ-map.gif");
+  NewZealand.addRefURI("geographyOf", "https://en.wikipedia.org/wiki/Geography_of_New_Zealand");
+  NewZealand.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_New_Zealand.svg");
+  NewZealand.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Flag_of_New_Zealand.svg/320px-Flag_of_New_Zealand.svg.png");
+  NewZealand.addRefURI("SVG_locator","https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_New_Zealand_(location_map_scheme)");
+  NewZealand.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/New_Zealand_in_its_region.svg/640px-New_Zealand_in_its_region.svg.png");
+  NewZealand.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:New_Zealand_in_its_region.svg");
+  //console.log(NewZealand._URIs);
+  //countries.push(NewZealand);
+  //myCountry = NewZealand;
+
+
+  const NewCaledonia = new Island("New Caledonia", "New Caledonia", "Nouméa", "French", "Pacific");
+  NewCaledonia.isTerritory("France");
+  NewCaledonia.setwikiURI("https://en.wikipedia.org/wiki/New_Caledonia");
+  NewCaledonia.addAKA("Nouvelle-Calédonie");
+  NewCaledonia.addLanguages("Nengone", "Paicî", "Ajië", "Drehu");
+  NewCaledonia.addSpecificRegion("Melanesia");
+  NewCaledonia.isArchipielago("Grande Terre (Le Caillou)", "Loyalty Islands", "Chesterfield Islands", "Belep archipelago", "Isle of Pines");
+  NewCaledonia.setFlag("https://en.wikipedia.org/wiki/File:Flag_of_FLNKS.svg");
+  NewCaledonia.addRefURI("flagFile", "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Flag_of_FLNKS.svg/320px-Flag_of_FLNKS.svg.png");
+  NewCaledonia.addRefURI("geographyOf", "https://fr.wikipedia.org/wiki/G%C3%A9ographie_de_la_Nouvelle-Cal%C3%A9donie");
+  NewCaledonia.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/1/18/New_Caledonia-CIA_WFB_Map.png");
+  NewCaledonia.addRefURI("countryMapFile", "https://commons.wikimedia.org/wiki/File:New_Caledonia-CIA_WFB_Map.png");
+  NewCaledonia.addRefURI("politicalMapFile","https://commons.wikimedia.org/wiki/File:New_Caledonia_and_Vanuatu_map-fr.svg");
+  NewCaledonia.addRefURI("plainCountryMapFile", "https://commons.wikimedia.org/wiki/File:Carte_de_la_Nouvelle-Caledonie.svg");
+  NewCaledonia.addRefURI("plainCountryMap","https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Carte_de_la_Nouvelle-Caledonie.svg/618px-Carte_de_la_Nouvelle-Caledonie.svg.png");
+  NewCaledonia.addRefURI("regionMapFile","https://commons.wikimedia.org/wiki/File:New_Caledonia_in_Oceania.svg");
+  NewCaledonia.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/New_Caledonia_in_Oceania.svg/560px-New_Caledonia_in_Oceania.svg.png");
+  console.log(NewCaledonia._URIs);
+  myCountry = NewCaledonia;
+
+
+  const arrOceania = ["Tonga", "Tuvalu", "Vanuatu", "Fiji"];
 
   const Oceania = {
       description : "is a geographic region that includes Australasia, Melanesia, Micronesia and Polynesia. Spanning the eastern and western hemispheres, Oceania has a land area of 8,525,989 square kilometres (3,291,903 sq mi) and a population of over 47 million. Situated in the southeast of the Asia-Pacific region, Oceania, when compared to continental regions, is the smallest in land area and the second smallest in population after Antarctica.",
       wikiURI : "https://en.wikipedia.org/wiki/Oceania",
+      regions : ["Melanesia", "Micronesia", "Polynesia"],
   }
 
+  const Melanesia = {
+    description : "a subregion of Oceania extending from New Guinea island in the southwestern Pacific Ocean to the Arafura Sea, and eastward to Tonga. The region includes the five independent countries of Fiji, Vanuatu, Solomon Islands, Papua New Guinea, East Timor as well as the French special collectivity of New Caledonia, and parts of Indonesia – particularly Western New Guinea, East Nusa Tenggara, and Maluku. Most of the region is in the Southern Hemisphere, most of North Maluku and a few small northwestern islands of Western New Guinea are in the Northern Hemisphere.", 
+    wikiURI : "https://en.wikipedia.org/wiki/Melanesia",
+    countries : ["Fiji", "Vanuatu", "SolomonIslands", "PapuaNewGuinea", "EastTimor", "NewCaledonia", "Indonesia"],
+};
+
+    const Overseas_France = {
+        AKAs: ["France d'outre-mer"],
+        countries: ["NewCaledonia", 
+        /*Réunion: 7
+        Guadeloupe: 4
+        Martinique: 4
+        French Polynesia: 3
+        French Guiana: 2
+        Mayotte: 2
+        New Caledonia: 2
+        Saint Barthélemy and Saint Martin: 1
+        Saint Pierre and Miquelon: 1
+        Wallis and Futuna: */],
+        wikiURI: "https://en.wikipedia.org/wiki/Overseas_France",
+        description : "consists of all the French-administered territories outside Europe, mostly remains of the French colonial empire. These territories have varying legal status and different levels of autonomy, although all (except those with no permanent inhabitants) have representation in both France's National Assembly and Senate, which together make up the French Parliament. Their citizens have French nationality and vote for the president of France. They have the right to vote in elections to the European Parliament (French citizens living overseas currently vote in the Overseas constituency). Overseas France includes island territories in the Atlantic, Pacific and Indian Oceans, French Guiana on the South American continent, and several periantarctic islands as well as a claim in Antarctica.",
+    }
+
+
   /*
-  const NewCaledonia;
-  const Fiji;
+  
+
   const Palaos;
  
 

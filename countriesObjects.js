@@ -1361,32 +1361,9 @@ const Argentina;
 const NewCaledonia;
 const Laos;
 const Armenia;
-const Fiji;
 const Palaos;
 
-    // FLAGS
 
-    const flagsManyWithStars = [Angola, BurkinaFasso, Burundi, Vietnam, UnitedStates, Chile, FrenchGuiana, EastTimor, Uzbekistan, China, UnitedStates, Venezuela];
-    const flagsWithStar = [Chile, Morocco, Cameroon, Nauru, Cuba];
-    const flagsWithEagles = [Mexico, Egypt];
-    const flagsWithCircles = [Palaos, Japan, India, Mexico, NorthMacedonia, Laos, Argentina, NewCaledonia];
-    const flagsWithCroces = [Greece, Finland];
-    const flagMoonAndStar = [Uzbekistan];
-    const flagYellowRed = [Spain];
-    const flagYellowRedBlue = [Armenia, Venezuela, ]
-    const flagRedWhiteBlack = [Yemen];
-
-    const flagsRedWhite = [Laos, Austria, Libano];
-    const flagsRedWhiteBlue = [Laos, CostaRica, DominicanRepublic, Cuba, Slovakia, Chile, France, Mongolia, Paraguay];
-    const flagsBlueWhite = [Finland, Argentina, Nicaragua, Uruguay];
-    const flagsBlueYellow = [Ukraine, Palaos, Nauru];
-    const flagsBlueYellowGreen = [Ecuador, Venezuela, Colombia];
-    const flagsGreen = [Zambia]
-    const flagsFigures = [Gales, Libano, Mexico, NewCaledonia, Uruguay, Argentina, Zambia, Mongolia, Tasmania, Camboya];
-    const vFlags = [Vanuatu, Guyana];
-    const flagCommonwealth = [Fiji, Tasmania];
-    const flagGreenWhiteRed = [Bulgaria];
-    
     /* *****************************  ***************************   */
 
     

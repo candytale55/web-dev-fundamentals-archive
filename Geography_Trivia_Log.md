@@ -1,3 +1,10 @@
+06-05-2020
+Problems pushing stuff with spread operator like here:
+
+ addLanguages(...newLanguage){ 
+   // spread operator gets all the items as an array, still have to work how to solve it.
+Like here:  ["French",["Nengone","Paicî","Ajië","Drehu"]]
+
 05/05/2020
 I finally discovered there is no such thing as pushing stuff into an object, but I solved how to fill my _URIs object.  
 
