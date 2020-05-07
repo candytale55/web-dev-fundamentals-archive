@@ -11,7 +11,7 @@
 
     const flagsVShaped = [Vanuatu, Guyana];
 
-    const flagsCommonwealth = [Fiji, Tasmania, Fiji, NewZealand];
+    const flagsCommonwealth = [Fiji, Tasmania, Fiji, NewZealand, Niue];
 
     const flagsWithCircles = [Palaos, Japan, India, Mexico, NorthMacedonia, Laos, Argentina, NewCaledonia];
 
