@@ -1072,45 +1072,10 @@ PuertoRico.countryMap = PuertoRico.URIs.countryMap;
     //countries.unshift(Slovenia);
     //console.log(Slovenia);
 
-        // OCEANIA
 
-        const Tuvalu = new islandCountry("Tuvalu", "Tuvalu", "Funafuti", "Oceania", "English", "Pacific");
-        Tuvalu.nickname = ["Ellice Islands"];
-        Tuvalu.languages = [Tuvalu.language, "Tuvaluan"];
-        Tuvalu.islands = ["Nanumanga", "Niutao", "Niulakita", "Funafuti", "Nanumea", "Nui", "Nukufetau", "Nukulaelae", "Vaitupu"];
-      //  countries.unshift(Tuvalu);
-        //console.log(Tuvalu);
-    
-        const Tonga = new EnglishSpeakingCountries("Tonga", "Kingdom of Tonga", "Nukuʻalofa", "Oceania");
-        Tonga.island = true;
-        Tonga.region = "Polynesia";
-        Tonga.languages = ["Tongan"];
-        Tonga.islands = ["Tongatapu"];
-        //console.log(Tonga);
-        //countries.push(Tonga);
-    
-        const NewZealand = new EnglishSpeakingCountries("New Zealand", "New Zealand", "Wellington", "Oceania");
-        NewZealand.island = true;
-        NewZealand.ocean = "Pacific";
-        NewZealand.islands = ["North Island (Te Ika-a-Māui)", "South Island (Te Waipounamu)"];   
-        NewZealand.cities = ["Auckland"];
-        NewZealand.languages = [NewZealand.language, "Maori"];
-        //console.log(NewZealand);
-        //countries.push(NewZealand);
-    
-        const Niue = new OceaniaCountries("Niue", "Niue", "Alofi", "English", "South Pacific Ocean");
-        Niue.languages = [Niue.language, "Niuean"];
-        // console.log(Niue);
-        //countries.unshift(Niue);    
 
-        /*
-        const Palau = new OceaniaCountries("Palau", "Republic of Palau", "Ngerulmud", "English", "Caroline Islands");
-        Palau.cities = [Palau.capital, "Koror"];
-        Palau.languages = [Palau.language, "Palauan", "Japanese", "Sonsorolese", "Tobian"];
-        //console.log(Palau);
-        //countries.unshift(Palau);
-        */
-        // ASIA
+    
+      // ASIA
 
         const Kyrgyzstan = new anySpeakingCountry("Kyrgyzstan", "Kyrgyz Republic", "Bishkek", "Asia", "Kyrgyz");
         Kyrgyzstan.nickname = ["Kirghizia"];

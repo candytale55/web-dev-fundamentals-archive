@@ -5,7 +5,7 @@
 
     const flagMoonAndStar = [Uzbekistan];
 
-    const flagsWithEagles = [Mexico, Egypt];
+    const flagsWithEagles = [Mexico, Egypt, Ecuador];
 
     const flagsWithFigures = [Gales, Libano, Mexico, NewCaledonia, Uruguay, Argentina, Zambia, Mongolia, Tasmania, Camboya];
 
