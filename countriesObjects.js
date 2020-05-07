@@ -1103,12 +1103,13 @@ PuertoRico.countryMap = PuertoRico.URIs.countryMap;
         // console.log(Niue);
         //countries.unshift(Niue);    
 
+        /*
         const Palau = new OceaniaCountries("Palau", "Republic of Palau", "Ngerulmud", "English", "Caroline Islands");
         Palau.cities = [Palau.capital, "Koror"];
         Palau.languages = [Palau.language, "Palauan", "Japanese", "Sonsorolese", "Tobian"];
         //console.log(Palau);
         //countries.unshift(Palau);
-
+        */
         // ASIA
 
         const Kyrgyzstan = new anySpeakingCountry("Kyrgyzstan", "Kyrgyz Republic", "Bishkek", "Asia", "Kyrgyz");

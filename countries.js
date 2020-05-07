@@ -41,6 +41,9 @@ class Country {
     get cities(){
         return this._cities;
     }
+    addCities(cities){
+        this._cities.push(cities);
+    }
 
     isLandlocked(){
         this._landlocked = true;
@@ -173,7 +176,7 @@ class Island extends Country {
     }
     isArchipielago(... islandsNames){
         this._archipielago = true;
-        this._islands = []
+        //this._islands = [] // the variable is set in the constructor
         this._islands.push(islandsNames);
     }
     get archipielago(){
@@ -451,9 +454,54 @@ const Tonga = new OceaniaIsland("Tonga", "Kingdom of Tonga", "Nukuʻalofa", "Pol
   NewCaledonia.addRefURI("plainCountryMap","https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Carte_de_la_Nouvelle-Caledonie.svg/618px-Carte_de_la_Nouvelle-Caledonie.svg.png");
   NewCaledonia.addRefURI("regionMapFile","https://commons.wikimedia.org/wiki/File:New_Caledonia_in_Oceania.svg");
   NewCaledonia.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/New_Caledonia_in_Oceania.svg/560px-New_Caledonia_in_Oceania.svg.png");
-  console.log(NewCaledonia._URIs);
-  myCountry = NewCaledonia;
+  //console.log(NewCaledonia._URIs);
+  //myCountry = NewCaledonia;
+  
+  const Palau = new Island("Palau", "Republic of Palau", "Ngerulmud", "Palauan", "Pacific");
+  Palau.addAKA("Beluu er a Belau","Belau", "Palaos", "Pelew");
+  //Palau.addCities("Koror", "Test"); // TEST IS NOT ADDED, Check method up there
+  Palau.cities.push("Koror");
+  Palau.setwikiURI("https://en.wikipedia.org/wiki/Palau");
+  Palau.addSpecificRegion("Caroline Islands");
+  Palau.isArchipielago("Angaur", "Babeldaob", "Koror", "Peleliu");
+  //Palau.addLanguages("English", "Japanese", "Sonsorolese", "Tobian"); // Add them as an array. 
+  Palau.languages.push("English", "Japanese", "Sonsorolese", "Tobian");
+  Palau.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Palau.svg/320px-Flag_of_Palau.svg.png");
+  Palau.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/7/74/Palau-CIA_WFB_Map.png");
+  Palau.setRegionMap("https://i.postimg.cc/x1kR40Bp/Palau-region-Map.jpg");
+  //URIs section:
+  Palau.addRefURI("geographyOf" ,"https://en.wikipedia.org/wiki/Geography_of_Palau");
+  Palau.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Palau.svg");
+  Palau.addRefURI("blueCountryMap","https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Palau_-_Location_Map_%282013%29_-_PLW_-_UNOCHA.svg/480px-Palau_-_Location_Map_%282013%29_-_PLW_-_UNOCHA.svg.png");
+  Palau.addRefURI("blueCountryMapFile", "https://en.wikipedia.org/wiki/File:Palau_-_Location_Map_(2013)_-_PLW_-_UNOCHA.svg");
+  Palau.addRefURI("countryMapFile","https://en.wikipedia.org/wiki/File:Palau-CIA_WFB_Map.png");
+  Palau.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_Palau");
+  Palau.addRefURI("SVG_locator","https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Palau_(location_map_scheme)");
+  Palau.addRefURI("ciaFactBook", "https://www.cia.gov/library/publications/the-world-factbook/geos/ps.html");
+  Palau.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:Palau_in_Oceania.svg");
+  //myCountry = Palau;
+  //console.log(Palau);
 
+  const Niue = new Island("Niue", "Niue", "Alofi", "English", "South Pacific Ocean");
+  Niue.languages.push("Niuean");
+  Niue.setRegion("Polynesia");
+  Niue.addAKA("Rock of Polynesia");
+  Niue.isTerritory("New Zealand (free associated state)");
+  Niue.setwikiURI("https://en.wikipedia.org/wiki/Niue");
+  Niue.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/c/cb/Niue-cia-world-factbook-map.png");
+  Niue.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_Niue.svg/320px-Flag_of_Niue.svg.png");
+  Niue.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Niue_in_New_Zealand_%28zomm%29.svg/640px-Niue_in_New_Zealand_%28zomm%29.svg.png");
+  // URIS section
+  Niue.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:Niue_in_New_Zealand_(zomm).svg");
+  Niue.addRefURI("SVG_locator","https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Niue_(location_map_scheme)");
+  Niue.addRefURI("countryMapFile", "https://en.wikipedia.org/wiki/File:Niue-cia-world-factbook-map.png");
+  Niue.addRefURI("ciaFactBook", "https://www.cia.gov/library/publications/the-world-factbook/geos/ne.html");
+  Niue.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_Niue");
+  Niue.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Niue.svg");
+  Niue.addRefURI("geographyOf", "https://en.wikipedia.org/wiki/Geography_of_Niue");
+  //countries.unshift(Niue);
+  //myCountry = Niue;
+  //console.log(Niue._URIs);
 
   const arrOceania = ["Tonga", "Tuvalu", "Vanuatu", "Fiji"];
 
@@ -469,6 +517,13 @@ const Tonga = new OceaniaIsland("Tonga", "Kingdom of Tonga", "Nukuʻalofa", "Pol
     countries : ["Fiji", "Vanuatu", "SolomonIslands", "PapuaNewGuinea", "EastTimor", "NewCaledonia", "Indonesia"],
 };
 
+
+    const Polynesia = {
+        description : "is a subregion of Oceania, made up of more than 1,000 islands scattered over the central and southern Pacific Ocean. The indigenous people who inhabit the islands of Polynesia are termed Polynesians, sharing many similar traits including language family, culture, and beliefs. They had a strong tradition of sailing and using stars to navigate at night. The largest country in Polynesia is New Zealand.",
+        countries : ["Samoa", "Cook Islands", "Easter Island", "French Polynesia", "Hawaii", "New Zealand", "Niue", "Norfolk Island", "Pitcairn Island", "American Samoa", "Tokelau", "Tonga", "Tuvalu", "Wallis and Fortuna", "Rotuma"],
+        wikiURI : "https://en.wikipedia.org/wiki/Polynesia",
+    }
+
     const Overseas_France = {
         AKAs: ["France d'outre-mer"],
         countries: ["NewCaledonia", 
@@ -477,8 +532,7 @@ const Tonga = new OceaniaIsland("Tonga", "Kingdom of Tonga", "Nukuʻalofa", "Pol
         Martinique: 4
         French Polynesia: 3
         French Guiana: 2
-        Mayotte: 2
-        New Caledonia: 2
+        Mayotte
         Saint Barthélemy and Saint Martin: 1
         Saint Pierre and Miquelon: 1
         Wallis and Futuna: */],
@@ -486,13 +540,18 @@ const Tonga = new OceaniaIsland("Tonga", "Kingdom of Tonga", "Nukuʻalofa", "Pol
         description : "consists of all the French-administered territories outside Europe, mostly remains of the French colonial empire. These territories have varying legal status and different levels of autonomy, although all (except those with no permanent inhabitants) have representation in both France's National Assembly and Senate, which together make up the French Parliament. Their citizens have French nationality and vote for the president of France. They have the right to vote in elections to the European Parliament (French citizens living overseas currently vote in the Overseas constituency). Overseas France includes island territories in the Atlantic, Pacific and Indian Oceans, French Guiana on the South American continent, and several periantarctic islands as well as a claim in Antarctica.",
     }
 
+    const Caroline_Islands = {
+        name : "Caroline Islands",
+        AKAs : ["Carolines", "Nuevas Filipinas", "New Philippines"],
+        wikiURI : "https://en.wikipedia.org/wiki/Caroline_Islands",
+        countries : ["Federate States of Micronesia", "Palau"],
+        description : "are a widely scattered archipelago of tiny islands in the western Pacific Ocean, to the north of New Guinea. Politically they are divided between the Federated States of Micronesia in the eastern part of the group, and Palau at the extreme western end. Historically, this area was also called Nuevas Filipinas or New Philippines[1] as they were part of the Spanish East Indies and governed from Manila in the Philippines. \n\nThe Carolines span a distance of approximately 3540 kilometers (2200 miles), from Tobi, Palau at the westernmost point to Kosrae at the easternmost.",
+    }
+    //console.log(Caroline_Islands.description);
+    //myCountry = Caroline_Islands;
+
 
   /*
-  
-
-  const Palaos;
- 
-
   const Gales;
   const Ukraine;
   const Argentina;
