@@ -1181,18 +1181,7 @@ PuertoRico.countryMap = PuertoRico.URIs.countryMap;
         Nepal.countryMap = Nepal.URIs.countryMap;
         //myCountry = Nepal;
 
-        const EastTimor = new anySpeakingCountry("East Timor", "Democratic Republic of Timor-Leste", "Dili", "Asia", "Tetum");
-        EastTimor.island = true;
-        EastTimor.region = "Southeast Asia";
-        EastTimor.nickname = ["Timor-Leste"];
-        EastTimor.islands = ["Timor", "Atauro", "Jaco", "Oecusse"];
-        EastTimor.wikiURI = "https://en.wikipedia.org/wiki/East_Timor";
-        EastTimor.URIs = {
-            countryMap : "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/East_Timor_-_Location_Map_%282013%29_-_TLS_-_UNOCHA.svg/480px-East_Timor_-_Location_Map_%282013%29_-_TLS_-_UNOCHA.svg.png",
-            countryMapFile : "https://en.wikipedia.org/wiki/File:East_Timor_-_Location_Map_(2013)_-_TLS_-_UNOCHA.svg",
-        };
-        EastTimor.countryMap = EastTimor.URIs.countryMap;
-        //myCountry = EastTimor;
+
 
         const Turkey = new anySpeakingCountry("Turkey", "Republic of Turkey", "Ankara", "Asia", "Turkish");
         Turkey.cities.push("Istambul");
@@ -1202,12 +1191,6 @@ PuertoRico.countryMap = PuertoRico.URIs.countryMap;
         Turkey.specificRegion = "Anatolian Peninsula";
         Turkey.wikiURI = "https://en.wikipedia.org/wiki/Turkey";
 
-        const Japan = new anySpeakingCountry("Japan", "Japan", "Tokyo", "Asia", "Japanese");
-        Japan.island = true;
-        Japan.ocean = "Pacific";
-        Japan.region = "Eastern Asia";
-        Japan.islands = ["Hokkaido", "Honshu", "Kyushu", "Shikoku", "Okinawa"];
-        Japan.wikiURI= "https://en.wikipedia.org/wiki/Japan";
 
         const India = new anySpeakingCountry("India", "Republic of India", "New Delhi","Asia", "Hindi");
         India.languages.push("English","Assamese","Bengali","Bodo","Dogri","Gujarati","Hindi","Kannada","Kashmiri","Kokborok","Konkani","Maithili","Malayalam","Manipuri","Marathi","MizoNepali","Odia","Punjabi","Sanskrit","Santali","Sindhi","Tamil","TeluguUrdu");

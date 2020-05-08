@@ -230,28 +230,6 @@ class OceaniaIsland extends Island {  ///// NOT USING AT THE MOMENT. I don't thi
 /*  -------  Instances   ----------- */
 
 // ASIA
-
-
-
-const China = new Country("China", "People's Republic of China", "Beijing", "Standard Chinese");
-China.languages.push("Mongolian", "Uyghur", "Tibetan", "Zhuang");
-China.setRegion("East Asia");
-China.cities.push("Shangai", "Chongqing");
-China._URIs = {
-    countryMapFile : "https://ast.wikipedia.org/wiki/Ficheru:China_CIA_map.png",
-    flag : "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/320px-Flag_of_the_People%27s_Republic_of_China.svg.png",
-    flagFile : "https://en.wikipedia.org/wiki/File:Flag_of_the_People%27s_Republic_of_China.svg",
-};
-China.setwikiURI("https://en.wikipedia.org/wiki/China");
-China.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/7/7f/China_CIA_map.png"); 
-China.addRefURI("globeFile", "https://commons.wikimedia.org/wiki/File:CHN_orthographic.svg");
-China.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/CHN_orthographic.svg/480px-CHN_orthographic.svg.png");
-China.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_China_(location_map_scheme)");
-//console.log(China);
-//myCountry = China;
-//asianCountriesArray.push(China);
-//console.log(China._URIs);
-
 const Cambodia = new Country("Cambodia", "Kingdom of Cambodia", "Phnom Penh", "Khmer");
 Cambodia.addAKA("Kampuchea");
 Cambodia.languages.push("French", "English");
@@ -314,9 +292,94 @@ const Thailand = new Country("Thailand", "Kingdom of Thailand", "Bangkok", "Thai
   //myCountry = Singapore;
   //console.log(Singapore._URIs);
 
-  const arrAsia = [China, Cambodia, Thailand, Singapore];  
+  const China = new Country("China", "People's Republic of China", "Beijing", "Standard Chinese"); 
+  China.languages.push("Mongolian", "Uyghur", "Tibetan", "Zhuang");
+  China.cities.push("Shangai", "Chongqing");
+  China._URIs = {
+    countryMapFile : "https://ast.wikipedia.org/wiki/Ficheru:China_CIA_map.png",
+    flag : "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/320px-Flag_of_the_People%27s_Republic_of_China.svg.png",
+    flagFile : "https://en.wikipedia.org/wiki/File:Flag_of_the_People%27s_Republic_of_China.svg",
+  };
+  China.setwikiURI("https://en.wikipedia.org/wiki/China");
+  China.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/7/7f/China_CIA_map.png"); 
+  China.addRefURI("globeFile", "https://commons.wikimedia.org/wiki/File:CHN_orthographic.svg");
+  China.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/CHN_orthographic.svg/480px-CHN_orthographic.svg.png");
+  China.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_China_(location_map_scheme)");
+  //console.log(China);
+  //myCountry = China;
+  //console.log(China._URIs);
+
+  const Japan = new Island("Japan", "Japan", "Tokyo", "Japanese", "Pacific", "Sea of Japan");
+  Japan.isArchipielago("Hokkaido", "Honshu", "Kyushu", "Shikoku", "Okinawa");
+  Japan.wikiURI= "https://en.wikipedia.org/wiki/Japan";
+
+  Japan.addRefURI("SVG_locator","https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Japan_(location_map_scheme)");
+  Japan.setFlag("https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/320px-Flag_of_Japan.svg.png");
+  Japan.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Japan.svg");
+  Japan.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/2/2c/Japan_sea_map.png");
+  Japan.addRefURI("countryMapFile", "https://commons.wikimedia.org/wiki/File:Japan_sea_map.png");
+  Japan.addRefURI("geographyOf", "https://en.wikipedia.org/wiki/Geography_of_Japan");
+  Japan.addRefURI("ciaFactBook", "https://www.cia.gov/library/publications/the-world-factbook/geos/ja.html");
+  Japan.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Japan_in_its_region_%28de-facto%29.svg/640px-Japan_in_its_region_%28de-facto%29.svg.png");
+  Japan.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:Japan_in_its_region_(de-facto).svg");
+  //console.log(Japan);
+  //myCountry = Japan;
 
 
+
+
+
+
+   
+
+
+
+
+const EastAsia = {
+    _name : "East Asia",
+    _wikiURI: "https://en.wikipedia.org/wiki/East_Asia",
+    _countries : [China.name, Japan.name, "Hong Kong, Macau, Mongolia, South Korea, North Korea, Taiwan"],
+
+    get name()      {   return this._name;      },
+    get wikiURI()   {   return this._wikiURI;   },
+    get countries() {   return this._countries; },
+
+};
+
+
+const Asia = {
+    _name: "Asia",
+    _wikiURI : "https://en.wikipedia.org/wiki/Asia",
+    _regions : [EastAsia.name,
+        
+        /*
+        North Asia (Siberia)
+        Central Asia (The 'stans)
+        Western Asia (The Middle East or Near East)
+        South Asia (Indian subcontinent)
+        East Asia (Far East)
+        Southeast Asia (East Indies and Indochina)
+    */],
+    get name()      {   return this._name;      },
+    get wikiURI()   {   return this._wikiURI;   },
+    get regions()   {   return this._regions; },
+}
+
+const RingofFire = {
+    _name : "Ring of Fire",
+    _akas : ["Rim of Fire", "Circum-Pacific belt)"],
+    _wikiURI : "https://en.wikipedia.org/wiki/Ring_of_Fire",
+    _countries : ["Bolivia, Chile, Ecuador, Peru, Costa Rica, Guatemala, Mexico, United States, Canada, Russia, Phillippines, Indonesia, Antartica", Japan.name, NewZealand.name],
+    _description: " is a major area in the basin of the Pacific Ocean where many earthquakes and volcanic eruptions occur. In a large 40,000 km (25,000 mi) horseshoe shape, it is associated with a nearly continuous series of oceanic trenches, volcanic arcs, and volcanic belts and plate movements. It has 452 volcanoes (more than 75% of the world's active and dormant volcanoes). \n\nAbout 90% of the world's earthquakes and about 81% of the world's largest earthquakes occur along the Ring of Fire. All but three of the world's 25 largest volcanic eruptions of the last 11,700 years occurred at volcanoes in the Ring of Fire. The Ring of Fire is a direct result of plate tectonics: the movement and collisions of lithospheric plates, especially subduction in the northern portion. The western portion is more complex, with a number of smaller tectonic plates in collision with the Pacific Plate from the Mariana Islands, the Philippines, Bougainville, Tonga, and New Zealand.",
+
+    get name()      {   return this._name;      },
+    get wikiURI()   {   return this._wikiURI;   },
+    get countries() {   return this._countries; },
+    get akas()      {   return this._akas;      },
+    get description()   {   return this._description },
+
+
+}
 
 
 
@@ -410,7 +473,6 @@ const Tonga = new OceaniaIsland("Tonga", "Kingdom of Tonga", "Nukuʻalofa", "Pol
   Fiji.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/a/a8/Fiji_and_oceania.jpg");
   Fiji.addRefURI("globeFile", "https://commons.wikimedia.org/wiki/File:Fiji_(orthographic_projection).svg");
   Fiji.addRefURI("globe", "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Fiji_%28orthographic_projection%29.svg/480px-Fiji_%28orthographic_projection%29.svg.png");
-
   //console.log(Fiji);
   //console.log(Fiji._URIs);
   //myCountry = Fiji;
@@ -535,9 +597,32 @@ const Tonga = new OceaniaIsland("Tonga", "Kingdom of Tonga", "Nukuʻalofa", "Pol
   WallisandFutuna.setwikiURI("https://en.wikipedia.org/wiki/Wallis_and_Futuna");
   WallisandFutuna.isArchipielago("Wallis", "Futuna", "Hoorn Islands (Futuna and Alofi)", "Fugalei", "Luaniva","Nukuhifala", "Alofi", "Faioa");
 
-
   //myCountry = WallisandFutuna;
   //console.log(WallisandFutuna);
+  
+  
+  const EastTimor = new Island("East Timor", "Democratic Republic of Timor-Leste", "Dili", "Tetum", "Pacific", "Timor Sea");
+  EastTimor.setRegion("Southeast Asia");
+  EastTimor.addAKA=("Timor-Leste");
+  EastTimor.addLanguages("Portuguese", "Atauru", "Baikeno", "Bekais", "Bunak", "Fataluku", "Galoli", "Habun", "Idalaka", "Kawaimina", "Kemak", "Makalero", "Makasae", "Makuva", "Mambai", "Tokodede");
+  EastTimor.isArchipielago("Timor (half)", "Atauro", "Jaco", "Oecusse");
+  EastTimor.setwikiURI("https://en.wikipedia.org/wiki/East_Timor");
+  EastTimor.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/5/50/Osttimor.png");
+  EastTimor.addRefURI("countryMapFile", "https://upload.wikimedia.org/wikipedia/commons/5/50/Osttimor.png");
+  EastTimor.addRefURI("blueCountryMap", "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/East_Timor_-_Location_Map_%282013%29_-_TLS_-_UNOCHA.svg/480px-East_Timor_-_Location_Map_%282013%29_-_TLS_-_UNOCHA.svg.png");
+  EastTimor.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Flag_of_East_Timor.svg/320px-Flag_of_East_Timor.svg.png");
+  EastTimor.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_East_Timor.svg");
+  EastTimor.addRefURI("blueCountryMapFile","https://en.wikipedia.org/wiki/File:East_Timor_-_Location_Map_(2013)_-_TLS_-_UNOCHA.svg");
+  EastTimor.addRefURI("ciaFactBook", "https://www.cia.gov/library/publications/the-world-factbook/geos/tt.html");
+  EastTimor.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_East_Timor");
+  EastTimor.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_East_Timor_(location_map_scheme)");
+  EastTimor.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/East_Timor_in_its_region.svg/640px-East_Timor_in_its_region.svg.png");
+  EastTimor.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:East_Timor_in_its_region.svg");
+  EastTimor.addRefURI("geographyOf", "https://en.wikipedia.org/wiki/Geography_of_East_Timor");
+  EastTimor.addRefURI("redLocationMap", "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/LocationEastTimor.svg/640px-LocationEastTimor.svg.png");
+  EastTimor.addRefURI("redLocationMapFile", "https://commons.wikimedia.org/wiki/File:LocationEastTimor.svg");
+  //console.log(EastTimor._URIs);
+  //myCountry = EastTimor;
 
 
 
@@ -546,11 +631,8 @@ const Tonga = new OceaniaIsland("Tonga", "Kingdom of Tonga", "Nukuʻalofa", "Pol
 
 
 
-
-
-
-
-  const arrOceania = ["Tonga", "Tuvalu", "Vanuatu", "Fiji"];
+  const arrOceania = [Tonga.name, Tuvalu.name, Vanuatu.name, Fiji.name];
+  console.log(arrOceania);
 
   const Oceania = {
       description : "is a geographic region that includes Australasia, Melanesia, Micronesia and Polynesia. Spanning the eastern and western hemispheres, Oceania has a land area of 8,525,989 square kilometres (3,291,903 sq mi) and a population of over 47 million. Situated in the southeast of the Asia-Pacific region, Oceania, when compared to continental regions, is the smallest in land area and the second smallest in population after Antarctica.",
@@ -561,7 +643,7 @@ const Tonga = new OceaniaIsland("Tonga", "Kingdom of Tonga", "Nukuʻalofa", "Pol
   const Melanesia = {
     description : "a subregion of Oceania extending from New Guinea island in the southwestern Pacific Ocean to the Arafura Sea, and eastward to Tonga. The region includes the five independent countries of Fiji, Vanuatu, Solomon Islands, Papua New Guinea, East Timor as well as the French special collectivity of New Caledonia, and parts of Indonesia – particularly Western New Guinea, East Nusa Tenggara, and Maluku. Most of the region is in the Southern Hemisphere, most of North Maluku and a few small northwestern islands of Western New Guinea are in the Northern Hemisphere.", 
     wikiURI : "https://en.wikipedia.org/wiki/Melanesia",
-    countries : ["Fiji", "Vanuatu", "Solomon Islands", "PapuaNewGuinea", "EastTimor", "NewCaledonia", "Indonesia"],
+    countries : [Fiji.name, Vanuatu.name, SolomonIslands.name, "PapuaNewGuinea", "EastTimor", NewCaledonia.name, "Indonesia"],
 };
 
 
@@ -571,9 +653,19 @@ const Tonga = new OceaniaIsland("Tonga", "Kingdom of Tonga", "Nukuʻalofa", "Pol
         wikiURI : "https://en.wikipedia.org/wiki/Polynesia",
     }
 
+
+
+
+
+
+
+
+
+
+
     const Overseas_France = {
         AKAs: ["France d'outre-mer"],
-        countries: ["NewCaledonia", 
+        countries: [NewCaledonia.name, WallisandFutuna.name  
         /*Réunion: 7
         Guadeloupe: 4
         Martinique: 4
@@ -581,8 +673,7 @@ const Tonga = new OceaniaIsland("Tonga", "Kingdom of Tonga", "Nukuʻalofa", "Pol
         French Guiana: 2
         Mayotte
         Saint Barthélemy and Saint Martin: 1
-        Saint Pierre and Miquelon: 1
-        Wallis and Futuna: */],
+        Saint Pierre and Miquelon: 1*/],
         wikiURI: "https://en.wikipedia.org/wiki/Overseas_France",
         description : "consists of all the French-administered territories outside Europe, mostly remains of the French colonial empire. These territories have varying legal status and different levels of autonomy, although all (except those with no permanent inhabitants) have representation in both France's National Assembly and Senate, which together make up the French Parliament. Their citizens have French nationality and vote for the president of France. They have the right to vote in elections to the European Parliament (French citizens living overseas currently vote in the Overseas constituency). Overseas France includes island territories in the Atlantic, Pacific and Indian Oceans, French Guiana on the South American continent, and several periantarctic islands as well as a claim in Antarctica.",
     }
