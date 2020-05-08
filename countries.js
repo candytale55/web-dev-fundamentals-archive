@@ -503,6 +503,53 @@ const Tonga = new OceaniaIsland("Tonga", "Kingdom of Tonga", "Nukuʻalofa", "Pol
   //myCountry = Niue;
   //console.log(Niue._URIs);
 
+  const SolomonIslands = new Island("Solomon Islands", "Solomon Islands", "Honiara", "English", "Pacific");
+  SolomonIslands.setwikiURI("https://en.wikipedia.org/wiki/Solomon_Islands");
+  SolomonIslands.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_the_Solomon_Islands.svg");
+  SolomonIslands.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Flag_of_the_Solomon_Islands.svg/320px-Flag_of_the_Solomon_Islands.svg.png");
+  SolomonIslands.isArchipielago("Choiseul", "Shortland Islands", "New Georgia Islands", "Santa Isabel", "Russell Islands", "Nggela (the Florida Islands)", "Malaita", "Guadalcanal", "Sikaiana", "Maramasike", "Ulawa", "Uki", "Makira (San Cristobal)", "Santa Ana", "Rennell and Bellona", "Santa Cruz Islands", "Tikopia", "Anuta", "Fatutaka");
+  SolomonIslands.addRefURI("geographyOf","https://en.wikipedia.org/wiki/Geography_of_the_Solomon_Islands");
+  SolomonIslands.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_the_Solomon_Islands_(location_map_scheme)");
+  SolomonIslands.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:Solomon_Islands_in_its_region_(special_marker).svg");
+  SolomonIslands.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Solomon_Islands_in_its_region_%28special_marker%29.svg/640px-Solomon_Islands_in_its_region_%28special_marker%29.svg.png");
+  SolomonIslands.addRefURI("countryMapFile","https://commons.wikimedia.org/wiki/File:Solomon_Islands-CIA_WFB_Map.png");
+  SolomonIslands.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/a/ac/Solomon_Islands-CIA_WFB_Map.png");
+  SolomonIslands.setRegion("Melanesia");
+  SolomonIslands.addRefURI("ciaFactBook", "https://www.cia.gov/library/publications/the-world-factbook/geos/bp.html");
+  //myCountry = SolomonIslands;
+  //console.log(SolomonIslands);
+
+  const WallisandFutuna = new Island("Wallis and Futuna", "Territory of the Wallis and Futuna Islands", "Matā'Utu", "French", "Pacific");
+  WallisandFutuna.addLanguages("Wallisian", "Futunan");
+  WallisandFutuna.addAKA("Wallis-et-Futuna");
+  WallisandFutuna.addAKA("Uvea mo Futuna (Wallisian and Futunan)");
+  WallisandFutuna.setFlag("https://en.wikipedia.org/wiki/File:Flag_of_Wallis_and_Futuna.svg");
+  WallisandFutuna.addRefURI("flagFile", "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Flag_of_Wallis_and_Futuna.svg/320px-Flag_of_Wallis_and_Futuna.svg.png");
+  WallisandFutuna.addRefURI("ciaFactBook", "https://www.cia.gov/library/publications/the-world-factbook/geos/wf.html");
+  WallisandFutuna.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_Wallis_and_Futuna");
+  WallisandFutuna.addRefURI("countryMapFile", "https://commons.wikimedia.org/wiki/File:Wallis_and_Futuna-CIA_WFB_Map.png");
+  WallisandFutuna.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/f/f4/Wallis_and_Futuna-CIA_WFB_Map.png");
+  WallisandFutuna.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Wallis_and_Futuna_in_France_%28zoomed%29.svg/640px-Wallis_and_Futuna_in_France_%28zoomed%29.svg.png");
+  WallisandFutuna.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:Wallis_and_Futuna_in_France_(zoomed).svg");
+  WallisandFutuna.isTerritory("France");
+  WallisandFutuna.setwikiURI("https://en.wikipedia.org/wiki/Wallis_and_Futuna");
+  WallisandFutuna.isArchipielago("Wallis", "Futuna", "Hoorn Islands (Futuna and Alofi)", "Fugalei", "Luaniva","Nukuhifala", "Alofi", "Faioa");
+
+
+  //myCountry = WallisandFutuna;
+  //console.log(WallisandFutuna);
+
+
+
+
+
+
+
+
+
+
+
+
   const arrOceania = ["Tonga", "Tuvalu", "Vanuatu", "Fiji"];
 
   const Oceania = {
@@ -514,7 +561,7 @@ const Tonga = new OceaniaIsland("Tonga", "Kingdom of Tonga", "Nukuʻalofa", "Pol
   const Melanesia = {
     description : "a subregion of Oceania extending from New Guinea island in the southwestern Pacific Ocean to the Arafura Sea, and eastward to Tonga. The region includes the five independent countries of Fiji, Vanuatu, Solomon Islands, Papua New Guinea, East Timor as well as the French special collectivity of New Caledonia, and parts of Indonesia – particularly Western New Guinea, East Nusa Tenggara, and Maluku. Most of the region is in the Southern Hemisphere, most of North Maluku and a few small northwestern islands of Western New Guinea are in the Northern Hemisphere.", 
     wikiURI : "https://en.wikipedia.org/wiki/Melanesia",
-    countries : ["Fiji", "Vanuatu", "SolomonIslands", "PapuaNewGuinea", "EastTimor", "NewCaledonia", "Indonesia"],
+    countries : ["Fiji", "Vanuatu", "Solomon Islands", "PapuaNewGuinea", "EastTimor", "NewCaledonia", "Indonesia"],
 };
 
 
