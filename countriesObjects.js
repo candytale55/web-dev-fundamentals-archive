@@ -176,11 +176,12 @@ function SpanishSpeakingCountry(name, officialName, capital, continent){
 
 
   const Indonesia = new anySpeakingCountry("Indonesia", "Republic of Indonesia", "Jakarta", "Asia", "Indonesian");
+  Indonesia.wikiURI = "https://en.wikipedia.org/wiki/Indonesia";
   Indonesia.island = true;
   Indonesia.islands = ["Sumatra", "Java", "Borneo (Kalimantan)", "Sulawesi", "New Guinea (Papua)"];
   Indonesia.region = "Southeast Asia";
   Indonesia.ocean = "Pacific";
-  Indonesia.wikiURI = "https://en.wikipedia.org/wiki/Indonesia";
+
 
 
 
@@ -188,12 +189,13 @@ function SpanishSpeakingCountry(name, officialName, capital, continent){
 
 
   const Singapore = new anySpeakingCountry("Singapore", "Republic of Singapore", "Singapore", "Asia", "English");
+  Singapore.wikiURI = "https://en.wikipedia.org/wiki/Singapore";
   Singapore.languages = [Singapore.language, "Malay", "Chinese", "Tamil"];
   Singapore.region = "South East Asia";
   Singapore.island = true;
   Singapore.sea = "South China Sea";
   Singapore.nickname = ["Pulau Ujong", "Temasek", "Singapura"];
-  Singapore.wikiURI = "https://en.wikipedia.org/wiki/Singapore";
+
   //countries.unshift(Singapore);
   //console.log(Singapore);
   
@@ -1294,7 +1296,6 @@ const Ukraine;
 const Vanuatu;
 const Argentina;
 const NewCaledonia;
-const Laos;
 const Armenia;
 const Palaos;
 

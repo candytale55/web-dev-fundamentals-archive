@@ -558,6 +558,17 @@ const Thailand = new Country("Thailand", "Kingdom of Thailand", "Bangkok", "Thai
   //console.log(Japan);
   //myCountry = Japan;
 
+  
+const Cambodia = new Country("Cambodia", "Kingdom of Cambodia", "Phnom Penh", "Khmer");
+Cambodia.setwikiURI("https://en.wikipedia.org/wiki/Cambodia");
+
+const Thailand = new Country("Thailand", "Kingdom of Thailand", "Bangkok", "Thai");
+Thailand.setwikiURI("https://en.wikipedia.org/wiki/Thailand");
+
+const Singapore = new Island("Singapore", "Republic of Singapore", "Singapore", "English", "Indian", "South China Sea");
+Singapore.setwikiURI("https://en.wikipedia.org/wiki/Singapore");
+
+
 
   const Mongolia = new Country("Mongolia", "Mongolia", "Ulaanbaatar", "Mongolian");
   Mongolia.addAKA("Mongolië (Dutch)");
