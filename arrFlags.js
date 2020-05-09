@@ -1,6 +1,6 @@
     // FLAGS
 
-    const flagsManyWithStars = [Angola, BurkinaFasso, Burundi, Vietnam, UnitedStates, Chile, FrenchGuiana, EastTimor, Uzbekistan, China, UnitedStates, Venezuela];
+    const flagsManyWithStars = [Angola, BurkinaFasso, Burundi, Vietnam, UnitedStates, Chile, FrenchGuiana, EastTimor, Uzbekistan, China, UnitedStates, Venezuela.name, SouthKorea.name];
     const flagsWithFewStars = [Chile.name, Morocco.name, Cameroon.name, Nauru.name, Cuba.name, EastTimor.name];
 
     const flagMoonAndStar = [Uzbekistan];
@@ -13,7 +13,10 @@
 
     const flagsCommonwealth = [Fiji, Tasmania, Fiji, NewZealand, Niue];
 
-    const flagsWithCircles = [Palaos.name, Japan.name, India.name, Mexico.name, NorthMacedonia.name, Laos.name, Argentina.name, NewCaledonia.name];
+    const flagsWithCircles = [Palaos.name, Japan.name, India.name, Mexico.name, NorthMacedonia.name, Laos.name, Argentina.name, NewCaledonia.name, Taiwan.name, SouthKorea];
+
+    const flagsWithFlowers = [HongKong.name, Macau.name];
+
 
     const flagsWithCroces = [Greece, Finland];
 
@@ -25,7 +28,7 @@
     const flagsRedYellowBlue = [Armenia, Venezuela, ]
 
     const flagsRedWhite = [Laos.name, Austria.name, Libano.name.name, Japan.name];
-    const flagsRedWhiteBlue = [Laos, CostaRica, DominicanRepublic, Cuba, Slovakia, Chile, France, Mongolia, Paraguay];
+    const flagsRedWhiteBlue = [Laos.name, CostaRica.name, DominicanRepublic.name, Cuba.name, Slovakia.name, Chile.name, France.name, Mongolia.name, Paraguay.name, Taiwan.name];
     const flagRedWhiteGreen = [Bulgaria];
     
     const flagsBlueWhite = [Finland, Argentina, Nicaragua, Uruguay];

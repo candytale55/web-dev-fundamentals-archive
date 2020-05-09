@@ -1,3 +1,9 @@
+09/05/2020
+Volví a mover todo. Dejé a countries solo con las propiedades del constructor + la wikiURI para poder darle forma al programa, si no nunca voy a acabar. Necesito crear ya las clases para las regiones geográficas. Casí todo ASIA quedó hecho (paises son objetos, pues).
+
+08/05/2020
+no puedo usar isArchipielago con objetos de la classe Country. Tengo que replantear la propiedad.
+
 06-05-2020
 Problems pushing stuff with spread operator like here:
 

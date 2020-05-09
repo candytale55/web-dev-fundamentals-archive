@@ -161,8 +161,6 @@ function SpanishSpeakingCountry(name, officialName, capital, continent){
   //console.log(Thailand);
 
   const Turkmenistan = new anySpeakingCountry("Turkmenistan", "Republic of Turkmenistan", "Ashgabat", "Asia", "Turkmen");
-  Turkmenistan.region = "Central Asia";
-  countries.unshift(Turkmenistan);
   //console.log(Turkmenistan);
   //countries.unshift(Turkmenistan);
 
@@ -511,11 +509,7 @@ PuertoRico.countryMap = PuertoRico.URIs.countryMap;
 
 
 
-  const Egypt = new ArabSpeakingCountries("Egypt", "Arab Republic of Egypt", "Cairo", "Africa");
-  Egypt.transcontinental = true;
-  Egypt.region = "North Africa";
-  Egypt.geoRegion = "Middle East";
-  Egypt.wikiURI = "https://en.wikipedia.org/wiki/Egypt";
+  
 
   const Madagascar = new islandCountry("Madagascar", "Republic of Madagascar", "Antananarivo", "Africa", "Malagasy", "Indian", "Mozambique Channel");
   Madagascar.languages.push("French");
@@ -1114,30 +1108,12 @@ PuertoRico.countryMap = PuertoRico.URIs.countryMap;
 
         // EURASIA - WEST ASIA - EAST EUROPE
 
-        const Georgia = new anySpeakingCountry("Georgia", "Georgia", "Tbilisi", "Asia", "Georgian");
-        Georgia.specificRegion ="Western Asia";
-        Georgia.languages = [Georgia.language, "Abkhazian"];
-        //countries.unshift(Georgia);
-        //console.log(Georgia);
+
 
  
 
-        const Yemen = new ArabSpeakingCountries("Yemen", "Republic of Yemen", "Sana'a", "Asia");
-        Yemen.nickname = ["Yaman"];
-        Yemen.region = "Western Asia";
-        Yemen.specificRegion = "Arabic Peninsula";
-        Yemen.cities = [Yemen.capital, "Aden", "Taiz"];
-        Yemen.wikiURI = "https://en.wikipedia.org/wiki/Yemen";
-        Yemen.URIs = {
-            countryMap : "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Yemen_-_Location_Map_%282013%29_-_YEM_-_UNOCHA.svg/480px-Yemen_-_Location_Map_%282013%29_-_YEM_-_UNOCHA.svg.png",
-            countryMapFile : "https://en.wikipedia.org/wiki/File:Yemen_-_Location_Map_(2013)_-_YEM_-_UNOCHA.svg",
-        };
-        Yemen.countryMap = Yemen.URIs.countryMap;
-        //countries.unshift(Yemen);
-        //console.log(Yemen);
-        //myCountry = Yemen;
 
-        const Iraq = new ArabSpeakingCountries("Iraq", "Republic of Iraq", "Baghdad", "Asia");
+        const Iraq = new AraFSpeakingCountries("Iraq", "Republic of Iraq", "Baghdad", "Asia");
         Iraq.languages.push("Kurdish","Mandaic", "Shabaki", "Persian");
         Iraq.region = "Western Asia";
         Iraq.geoRegion = "Middle East";
@@ -1154,17 +1130,7 @@ PuertoRico.countryMap = PuertoRico.URIs.countryMap;
         Jordan.countryMap = Jordan.URIs.countryMap;
         //myCountry = Jordan;
 
-        const Kuwait = new ArabSpeakingCountries("Kuwait", "State of Kuwait", "Kuwait City","Asia");
-        Kuwait.geoRegion = "Middle East";
-        Kuwait.region = "Western Asia";
-        Kuwait.wikiURI = "https://en.wikipedia.org/wiki/Kuwait";
-        Kuwait.URIs = {
-            countryMap : "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Kuwait_-_Location_Map_%282013%29_-_KWT_-_UNOCHA.svg/480px-Kuwait_-_Location_Map_%282013%29_-_KWT_-_UNOCHA.svg.png",
-            countryMapFile : "https://en.wikipedia.org/wiki/File:Kuwait_-_Location_Map_(2013)_-_KWT_-_UNOCHA.svg",
-        };
-        Kuwait.countryMap = Kuwait.URIs.countryMap;
-        //myCountry = Kuwait;
-
+  
         const Malaysia = new anySpeakingCountry("Malaysia", "Malaysia", "Kuala Lumpur", "Asia", "Malay");
         Malaysia.region = "Southern Asia";
         Malaysia.cities.push("Putrajaya");
@@ -1183,15 +1149,6 @@ PuertoRico.countryMap = PuertoRico.URIs.countryMap;
 
 
 
-        const Turkey = new anySpeakingCountry("Turkey", "Republic of Turkey", "Ankara", "Asia", "Turkish");
-        Turkey.cities.push("Istambul");
-        Turkey.languages.push("Kurmanji", "Zaza", "Laz", "Kabardian-Cherkess", "Bosnian", "Syrian Arabic");
-        Turkey.transcontinental = true;
-        Turkey.region = "Western Asia";
-        Turkey.specificRegion = "Anatolian Peninsula";
-        Turkey.wikiURI = "https://en.wikipedia.org/wiki/Turkey";
-
-
         const India = new anySpeakingCountry("India", "Republic of India", "New Delhi","Asia", "Hindi");
         India.languages.push("English","Assamese","Bengali","Bodo","Dogri","Gujarati","Hindi","Kannada","Kashmiri","Kokborok","Konkani","Maithili","Malayalam","Manipuri","Marathi","MizoNepali","Odia","Punjabi","Sanskrit","Santali","Sindhi","Tamil","TeluguUrdu");
         India.cities.push("Mumbai");
@@ -1199,30 +1156,59 @@ PuertoRico.countryMap = PuertoRico.URIs.countryMap;
         India.wikiURI = "https://en.wikipedia.org/wiki/India";
         
 
-        const Syria = new ArabSpeakingCountries("Syria", "Syrian Arab Republic", "Damascus", "Asia");
-        Syria.region = "Western Asia";
-        Syria.wikiURI = "https://en.wikipedia.org/wiki/Syria";
+
+
+
+
+
+//  ANATOLIA AND ARABIC PENINSULA Turkey Yemen.name, Oman.name, Qatar.name, Bahrain.name, Kuwait.name, SaudiArabia.name, ArabEmirates.name
+
+
+/*
+        Kuwait.URIs = {
+            countryMap : "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Kuwait_-_Location_Map_%282013%29_-_KWT_-_UNOCHA.svg/480px-Kuwait_-_Location_Map_%282013%29_-_KWT_-_UNOCHA.svg.png",
+            countryMapFile : "https://en.wikipedia.org/wiki/File:Kuwait_-_Location_Map_(2013)_-_KWT_-_UNOCHA.svg",
+        };
+        Kuwait.countryMap = Kuwait.URIs.countryMap;
+        //myCountry = Kuwait;
+
+*/
+
+
+/*
+        Turkey.cities.push("Istambul");
+        Turkey.languages.push("Kurmanji", "Zaza", "Laz", "Kabardian-Cherkess", "Bosnian", "Syrian Arabic");
+        Turkey.transcontinental = true;
+
+*/
+
+/*
+        Yemen.nickname = ["Yaman"];
+        Yemen.region = "Western Asia";
+        Yemen.specificRegion = "Arabic Peninsula";
+        Yemen.cities = [Yemen.capital, "Aden", "Taiz"];
+        Yemen.wikiURI = "https://en.wikipedia.org/wiki/Yemen";
+        Yemen.URIs = {
+            countryMap : "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Yemen_-_Location_Map_%282013%29_-_YEM_-_UNOCHA.svg/480px-Yemen_-_Location_Map_%282013%29_-_YEM_-_UNOCHA.svg.png",
+            countryMapFile : "https://en.wikipedia.org/wiki/File:Yemen_-_Location_Map_(2013)_-_YEM_-_UNOCHA.svg",
+        };
+        Yemen.countryMap = Yemen.URIs.countryMap;
+        //countries.unshift(Yemen);
+        //console.log(Yemen);
+        //myCountry = Yemen;
+*/
+
+
+
+
+
+
+
+
+
 
     // Mediterranean Countries
 
-    
-    const France = "";
-    const Monaco = "";
-    const Italy = "";
-    const Croatia = "";
-    const Bosnia = "";
-    const Montenegro = "";
-    const Albania = "";
-    const Greece = "";
-    
-    
-    const Lebannon = "";
-    const Israel = "";
-    
-    const Cyprus = "";
-    const Gaza = "";
-    const Gibraltar = "";
-    const Lybia = "";
 
     const Malta = new anySpeakingCountry("Malta", "Republic of Malta", "Valletta", "Europe", "Maltese");
     Malta.island = true;
