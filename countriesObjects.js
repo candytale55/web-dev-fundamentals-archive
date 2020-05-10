@@ -135,12 +135,6 @@ function SpanishSpeakingCountry(name, officialName, capital, continent){
 
   // ASIA
 
-  const China = new anySpeakingCountry("China", "People's Republic of China", "Beijing", "Asia", "Standard Chinese");
-  China.languages.push("Mongolian", "Uyghur", "Tibetan", "Zhuang");
-  China.region = "East Asia";
-  China.cities.push("Shangai", "Chongqing");
-  China.wikiURI = "https://en.wikipedia.org/wiki/China";
-  myCountry = China;
 
   const Cambodia = new anySpeakingCountry("Cambodia", "Kingdom of Cambodia", "Phnom Penh",  "Asia", "Khmer");
   Cambodia.nickname =["Kampuchea"];
@@ -151,55 +145,28 @@ function SpanishSpeakingCountry(name, officialName, capital, continent){
   //countries.push(Cambodia);
   //console.log(Cambodia);
   
-  const Thailand = new anySpeakingCountry("Thailand", "Kingdom of Thailand", "Bangkok", "Asia", "Thai");
   Thailand.nickname =["Siam"];
-  Thailand.region = "Southeast Asia";
-  Thailand.specificRegion = "Indochine Peninsula";
   Thailand.languages = [Thailand.language, "Isan", "Kam Mueang", "Pak Tai"];
-  Thailand.wikiURI = "https://en.wikipedia.org/wiki/Thailand";
-  //countries.unshift(Thailand);
-  //console.log(Thailand);
+
 
   const Turkmenistan = new anySpeakingCountry("Turkmenistan", "Republic of Turkmenistan", "Ashgabat", "Asia", "Turkmen");
   //console.log(Turkmenistan);
   //countries.unshift(Turkmenistan);
 
-  const Vietnam = new anySpeakingCountry("Vietnam", "Socialist Republic of Vietnam", "Hanoi", "Asia", "Vietnamese");
-  Vietnam.region = "Southeast Asia";
-  Vietnam.specificRegion = "Indochine Peninsula";
-  Vietnam.cities = [Vietnam.capital, "Ho Chi Minh City (Saigon)"];
-  Vietnam.wikiURI = "https://en.wikipedia.org/wiki/Vietnam";
-  //countries.unshift(Vietnam);
-  //console.log(Vietnam);
-
-
-
-
-  const Indonesia = new anySpeakingCountry("Indonesia", "Republic of Indonesia", "Jakarta", "Asia", "Indonesian");
-  Indonesia.wikiURI = "https://en.wikipedia.org/wiki/Indonesia";
-  Indonesia.island = true;
+  Vietnam.cities = ["Ho Chi Minh City (Saigon)"];
   Indonesia.islands = ["Sumatra", "Java", "Borneo (Kalimantan)", "Sulawesi", "New Guinea (Papua)"];
-  Indonesia.region = "Southeast Asia";
-  Indonesia.ocean = "Pacific";
+ 
 
 
 
 
 
 
-
-  const Singapore = new anySpeakingCountry("Singapore", "Republic of Singapore", "Singapore", "Asia", "English");
-  Singapore.wikiURI = "https://en.wikipedia.org/wiki/Singapore";
   Singapore.languages = [Singapore.language, "Malay", "Chinese", "Tamil"];
-  Singapore.region = "South East Asia";
-  Singapore.island = true;
   Singapore.sea = "South China Sea";
   Singapore.nickname = ["Pulau Ujong", "Temasek", "Singapura"];
 
-  //countries.unshift(Singapore);
-  //console.log(Singapore);
-  
-     //
+
   // AMERICA
 
   const Nicaragua = new SpanishSpeakingCountry("Nicaragua", "República de Nicaragua", "Managua", "America");
@@ -1087,27 +1054,16 @@ PuertoRico.countryMap = PuertoRico.URIs.countryMap;
         //countries.push(Uzbekistan);
         //console.log(Uzbekistan);
 
-        const Pakistan = new anySpeakingCountry("Pakistan", "Islamic Republic of Pakistan", "Islamabad", "Asia", "English");
         Pakistan.cities =[Pakistan.capital, "Karachi"];
         Pakistan.languages =[Pakistan.language, "Urdu", "Punjabi", "Pashto", "Sindhi", "Balochi"];
-        Pakistan.region = "South Asia";
-        Pakistan.wikiURI = "https://en.wikipedia.org/wiki/Pakistan";
-        //countries.push(Pakistan);
-        //console.log(Pakistan);
-
-        const SriLanka = new islandCountry("Sri Lanka", "Democratic Socialist Republic of Sri Lanka", "Sri Jayawardenepura Kotte", "Asia", "Sinhala", "Indian");
+    
+        
         SriLanka.cities = [SriLanka.capital, "Colombo"];
         SriLanka.languages.push("Tamil");
-        SriLanka.wikiURI = "https://en.wikipedia.org/wiki/Sri_Lanka";
         SriLanka.URIs = {
             countryMap : "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Sri_Lanka_-_Location_Map_%282011%29_-_LKA_-_UNOCHA.svg/480px-Sri_Lanka_-_Location_Map_%282011%29_-_LKA_-_UNOCHA.svg.png",
             countryMapFile : "https://en.wikipedia.org/wiki/File:Sri_Lanka_-_Location_Map_(2011)_-_LKA_-_UNOCHA.svg",
         };
-        SriLanka.countryMap = SriLanka.URIs.countryMap;
-        //countries.unshift(SriLanka);
-        //console.log(SriLanka);
-        //myCountry = SriLanka;
-
         // EURASIA - WEST ASIA - EAST EUROPE
 
 
@@ -1133,11 +1089,8 @@ PuertoRico.countryMap = PuertoRico.URIs.countryMap;
         //myCountry = Jordan;
 
   
-        const Malaysia = new anySpeakingCountry("Malaysia", "Malaysia", "Kuala Lumpur", "Asia", "Malay");
-        Malaysia.region = "Southern Asia";
         Malaysia.cities.push("Putrajaya");
-        Malaysia.wikiURI = "https://en.wikipedia.org/wiki/Malaysia";
-
+    
         const Nepal = new anySpeakingCountry("Nepal", " Federal Democratic Republic of Nepal", "Kathmandu", "Asia", "Nepali");
         Nepal.region = "South Asia";
         Nepal.landlocked = true;
@@ -1150,12 +1103,8 @@ PuertoRico.countryMap = PuertoRico.URIs.countryMap;
         //myCountry = Nepal;
 
 
-
-        const India = new anySpeakingCountry("India", "Republic of India", "New Delhi","Asia", "Hindi");
         India.languages.push("English","Assamese","Bengali","Bodo","Dogri","Gujarati","Hindi","Kannada","Kashmiri","Kokborok","Konkani","Maithili","Malayalam","Manipuri","Marathi","MizoNepali","Odia","Punjabi","Sanskrit","Santali","Sindhi","Tamil","TeluguUrdu");
         India.cities.push("Mumbai");
-        India.region = "South Asia";
-        India.wikiURI = "https://en.wikipedia.org/wiki/India";
         
 
 
@@ -1291,13 +1240,6 @@ PuertoRico.countryMap = PuertoRico.URIs.countryMap;
         regionMapFile: "https://en.wikipedia.org/wiki/File:LocationAntilles.svg",
     };
 
-const Gales;
-const Ukraine;
-const Vanuatu;
-const Argentina;
-const NewCaledonia;
-const Armenia;
-const Palaos;
 
 
     /* *****************************  ***************************   */

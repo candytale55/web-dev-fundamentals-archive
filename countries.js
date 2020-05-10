@@ -1,4 +1,5 @@
 let myCountry;
+let countries = []; // Holds all the countries names.
 
 class Country {
     constructor(name, officialName, capital, language){ //removed continent as parameter
@@ -10,6 +11,7 @@ class Country {
         this._languages = [language];
         this._cities = [capital];
         this._URIs = {};
+        countries.push(this._name);
     } // constructor end.
 
     get name(){
@@ -195,7 +197,6 @@ class Island extends Country {
     get islands(){
         return this._islands;
     }
-
 }
 
 // ASIA
@@ -228,7 +229,7 @@ SouthKorea.setwikiURI("https://en.wikipedia.org/wiki/South_Korea");
 const NorthKorea = new Country("North Korea", "Democratic People's Republic of Korea", "Pyongyang", "Korean");
 NorthKorea.setwikiURI("https://en.wikipedia.org/wiki/North_Korea");
 
-  /*/ ------------------------ WESTERN ASIA: ---------------------------------------- /*/
+/*/ ------------------------ WESTERN ASIA: ---------------------------------------- /*/
 
   //  ANATOLIA AND ARABIC PENINSULA
   const Turkey = new Country("Turkey", "Republic of Turkey", "Ankara", "Turkish");
@@ -415,7 +416,7 @@ NorthKorea.setwikiURI("https://en.wikipedia.org/wiki/North_Korea");
   Russia.setwikiURI("https://en.wikipedia.org/wiki/Russia");
 
   const Egypt = new Country("Egypt", "Arab Republic of Egypt", "Cairo", "Arabic");
-  Egypt.wikiURI = "https://en.wikipedia.org/wiki/Egypt";
+  Egypt.setwikiURI("https://en.wikipedia.org/wiki/Egypt");
 
 
 
@@ -531,12 +532,383 @@ const Asia = {
 
 
 
-myCountry = Singapore;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+console.log(countries);
+
+
+/* ------------------------------------------------------------------------------------*/
+
+//FLAGS:
+
+
+
+China.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/320px-Flag_of_the_People%27s_Republic_of_China.svg.png");
+China.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_the_People%27s_Republic_of_China.svg");
+
+Japan.setFlag("https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/320px-Flag_of_Japan.svg.png");
+Japan.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Japan.svg");
+
+Mongolia.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Mongolia.svg/320px-Flag_of_Mongolia.svg.png");
+Mongolia.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Mongolia.svg");
+
+Taiwan.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Flag_of_the_Republic_of_China.svg/320px-Flag_of_the_Republic_of_China.svg.png");
+Taiwan.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_the_Republic_of_China.svg");
+
+Macau.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Flag_of_Macau.svg/320px-Flag_of_Macau.svg.png");
+Macau.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Macau.svg");
+
+HongKong.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Flag_of_Hong_Kong.svg/320px-Flag_of_Hong_Kong.svg.png");
+HongKong.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Hong_Kong.svg");
+
+SouthKorea.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/320px-Flag_of_South_Korea.svg.png");
+SouthKorea.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_South_Korea.svg");
+
+
+NorthKorea.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Flag_of_North_Korea.svg/320px-Flag_of_North_Korea.svg.png");
+NorthKorea.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_North_Korea.svg");
+
+Turkey.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/320px-Flag_of_Turkey.svg.png");
+Turkey.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Turkey.svg");
+
+
+Yemen.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Flag_of_Yemen.svg/320px-Flag_of_Yemen.svg.png");
+Yemen.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Yemen.svg");
+
+Qatar.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Qatar.svg/320px-Flag_of_Qatar.svg.png");
+Qatar.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Qatar.svg");
+
+Bahrain.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Bahrain.svg/320px-Flag_of_Bahrain.svg.png");
+Bahrain.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Bahrain.svg");
+
+Kuwait.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Flag_of_Kuwait.svg/320px-Flag_of_Kuwait.svg.png");
+Kuwait.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Kuwait.svg");
+
+
+SaudiArabia.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/320px-Flag_of_Saudi_Arabia.svg.png");
+SaudiArabia.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Saudi_Arabia.svg");
+
+ArabEmirates.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_United_Arab_Emirates.svg/320px-Flag_of_the_United_Arab_Emirates.svg.png");
+ArabEmirates.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_the_United_Arab_Emirates.svg");
+
+Oman.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Oman.svg/320px-Flag_of_Oman.svg.png");
+Oman.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Oman.svg");
+
+
+Philippines.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_the_Philippines.svg/320px-Flag_of_the_Philippines.svg.png");
+Philippines.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_the_Philippines.svg");
+
+EastTimor.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Flag_of_East_Timor.svg/320px-Flag_of_East_Timor.svg.png");
+EastTimor.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_East_Timor.svg");
+
+Indonesia.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/320px-Flag_of_Indonesia.svg.png");
+Indonesia.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Indonesia.svg");
+
+Brunei.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Brunei.svg/320px-Flag_of_Brunei.svg.png");
+Brunei.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Brunei.svg");
+
+Vietnam.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/320px-Flag_of_Vietnam.svg.png");
+Vietnam.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Vietnam.svg");
+
+Thailand.setwikiURI("flagFile","https://en.wikipedia.org/wiki/File:Flag_of_Thailand.svg");
+Thailand.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Thailand.svg/320px-Flag_of_Thailand.svg.png");
+
+Malaysia.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Flag_of_Malaysia.svg/320px-Flag_of_Malaysia.svg.png");
+Malaysia.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Malaysia.svg");
+
+Myanmar.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Flag_of_Myanmar.svg/320px-Flag_of_Myanmar.svg.png");
+Myanmar.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Myanmar.svg");
+
+Laos.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Flag_of_Laos.svg/320px-Flag_of_Laos.svg.png");
+Laos.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Laos.svg");
+
+Cambodia.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_Cambodia.svg/320px-Flag_of_Cambodia.svg.png");
+Cambodia.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Cambodia.svg");
+
+SriLanka.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Flag_of_Sri_Lanka.svg/320px-Flag_of_Sri_Lanka.svg.png");
+SriLanka.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Sri_Lanka.svg");
+
+Pakistan.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Flag_of_Pakistan.svg/320px-Flag_of_Pakistan.svg.png");
+Pakistan.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Pakistan.svg");
+
+India.setFlag("https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/320px-Flag_of_India.svg.png");
+India.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_India.svg");
+
+Nepal.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Flag_of_Nepal.svg/197px-Flag_of_Nepal.svg.png");
+Nepal.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Nepal.svg");
+
+Maldives.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Maldives.svg/320px-Flag_of_Maldives.svg.png");
+Maldives.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Maldives.svg");
+
+Bhutan.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Flag_of_Bhutan.svg/320px-Flag_of_Bhutan.svg.png");
+Bhutan.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Bhutan.svg");
+
+Bangladesh.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Flag_of_Bangladesh.svg/320px-Flag_of_Bangladesh.svg.png");
+Bangladesh.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Bangladesh.svg");
+
+
+Kazakhstan.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Flag_of_Kazakhstan.svg/320px-Flag_of_Kazakhstan.svg.png");
+Kazakhstan.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Kazakhstan.svg");
+
+
+
+Afghanistan.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Afghanistan.svg/320px-Flag_of_Afghanistan.svg.png");
+Afghanistan.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Afghanistan.svg");
+
+
+Tajikistan.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Flag_of_Tajikistan.svg/320px-Flag_of_Tajikistan.svg.png");
+Tajikistan.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Tajikistan.svg");
+
+
+
+
+Georgia.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Georgia.svg/320px-Flag_of_Georgia.svg.png");
+Georgia.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Georgia.svg");
+
+
+Armenia.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Flag_of_Armenia.svg/320px-Flag_of_Armenia.svg.png");
+Armenia.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Armenia.svg");
+
+Azerbaijan.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Azerbaijan.svg/320px-Flag_of_Azerbaijan.svg.png");
+Azerbaijan.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Azerbaijan.svg");
+
+Abkhazia.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Flag_of_the_Republic_of_Abkhazia.svg/320px-Flag_of_the_Republic_of_Abkhazia.svg.png");
+Abkhazia.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_the_Republic_of_Abkhazia.svg");
+
+
+
+
+
+Artsakh.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Flag_of_Artsakh.svg/320px-Flag_of_Artsakh.svg.png");
+Artsakh.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Artsakh.svg");
+
+
+
+
+
+SouthOssetia.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Flag_of_South_Ossetia.svg/320px-Flag_of_South_Ossetia.svg.png");
+SouthOssetia.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_South_Ossetia.svg");
+
+
+
+Iraq.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Flag_of_Iraq.svg/320px-Flag_of_Iraq.svg.png");
+Iraq.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Iraq.svg");
+
+Jordan.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Flag_of_Jordan.svg/320px-Flag_of_Jordan.svg.png");
+Jordan.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Jordan.svg");
+
+
+
+Israel.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Israel.svg/320px-Flag_of_Israel.svg.png");
+Israel.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Israel.svg");
+
+
+
+Lebanon.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Flag_of_Lebanon.svg/320px-Flag_of_Lebanon.svg.png");
+Lebanon.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Lebanon.svg");
+
+
+
+
+
+
+Palestine.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_Palestine.svg/320px-Flag_of_Palestine.svg.png");
+Palestine.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Palestine.svg");
+
+
+Syria.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Flag_of_Syria.svg/320px-Flag_of_Syria.svg.png");
+Syria.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Syria.svg");
+
+
+Iran.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/320px-Flag_of_Iran.svg.png");
+Iran.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Iran.svg");
+
+
+
+
+NorthernCyprus.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Flag_of_the_Turkish_Republic_of_Northern_Cyprus.svg/320px-Flag_of_the_Turkish_Republic_of_Northern_Cyprus.svg.png");
+NorthernCyprus.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_the_Turkish_Republic_of_Northern_Cyprus.svg");
+
+
+
+Egypt.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Egypt.svg/320px-Flag_of_Egypt.svg.png");
+Egypt.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Egypt.svg");
+
+Russia.setFlag("https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/320px-Flag_of_Russia.svg.png");
+Russia.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Russia.svg");
+
+Singapore.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Singapore.svg/320px-Flag_of_Singapore.svg.png");
+Singapore.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Singapore.svg");
+
+
+
+
+
+Cyprus.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Cyprus.svg/320px-Flag_of_Cyprus.svg.png");
+Cyprus.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Cyprus.svg");
+
+
+Kyrgyzstan.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Flag_of_Kyrgyzstan.svg/320px-Flag_of_Kyrgyzstan.svg.png");
+Kyrgyzstan.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Kyrgyzstan.svg");
+
+Uzbekistan.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Flag_of_Uzbekistan.svg/320px-Flag_of_Uzbekistan.svg.png");
+Uzbekistan.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Uzbekistan.svg");
+
+Turkmenistan.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Turkmenistan.svg/320px-Flag_of_Turkmenistan.svg.png");
+Turkmenistan.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Turkmenistan.svg");
+
+
+
+/*
+.setFlag("");
+.addRefURI("flagFile", "");
+/*
+
+.setFlag("");
+.addRefURI("flagFile", "");
+/*
+
+.setFlag("");
+.addRefURI("flagFile", "");
+/*
+
+.setFlag("");
+.addRefURI("flagFile", "");
+*/
+
+
+
+
+
+// COUNTRY MAPS
+
+/*
+.setCountryMap("");
+.addRefURI("CountryMapFile", "");
+*/
+
+
+// CHINA
+China.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/7/7f/China_CIA_map.png");
+China.addRefURI("countryMapFile", "https://ast.wikipedia.org/wiki/Ficheru:China_CIA_map.png");
+
+
+
+
+
+
+
+
+
+
+//SVG LOCATORS
+China.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_China_(location_map_scheme)");
+Japan.addRefURI("SVG_locator","https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Japan_(location_map_scheme)");
+Mongolia.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Mongolia_(location_map_scheme)");
+Taiwan.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_the_Republic_of_China_(location_map_scheme)");
+Macau.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Macau_(location_map_scheme)");
+HongKong.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Hong_Kong_(location_map_scheme)");
+SouthKorea.addRefURI("SVG_locator","https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_South_Korea_(location_map_scheme)");
+NorthKorea.addRefURI("SVG_locator","https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_North_Korea_(location_map_scheme)");
+Turkey.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Turkey_(location_map_scheme)");
+
+
+
+/*
+.addRefURI("SVG_locator", "");
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+*/
+
+
+
+Turkey.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Turkey_in_its_region.svg/640px-Turkey_in_its_region.svg.png");
+Turkey.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:Turkey_in_its_region.svg");
+
+
+
+// REGION MAPS
+
+China.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/CHN_orthographic.svg/480px-CHN_orthographic.svg.png");
+
+
+/*
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+
+.setFlag("");
+.addRefURI("flagFile", "");
+
+.addRefURI("SVG_locator", "");
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.setCountryMap("");
+.addRefURI("CountryMapFile", "");
+
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+
+.setFlag("");
+.addRefURI("flagFile", "");
+
+.addRefURI("SVG_locator", "");
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+*/
+
+
+
+
+
+
+/* -------------------------------------------------------------------------------------*/
+// TRIVIA DATA:
+
+China.languages.push("Mongolian", "Uyghur", "Tibetan", "Zhuang");
+China.cities.push("Shangai", "Chongqing");
+China.addRefURI("globeFile", "https://commons.wikimedia.org/wiki/File:CHN_orthographic.svg");
+
+
+
+
 
 
 /* --------------------------------------------------------------------------------- */
 
 document.getElementById("name").innerHTML = myCountry.name;
+document.getElementById("flag").src = myCountry.flag;
+document.getElementById("flag").alt = myCountry.name + " flag";
+
 document.getElementById("officialName").innerHTML = myCountry.officialName;
 document.getElementById("capital").innerHTML = myCountry.capital;
 document.getElementById("continent").innerHTML = myCountry.continent;

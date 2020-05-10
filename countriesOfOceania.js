@@ -1,4 +1,5 @@
 let myCountry;
+let countries = [];
 
 class Country {
     constructor(name, officialName, capital, language){ //removed continent as parameter
@@ -132,6 +133,8 @@ class Country {
     get AKAs(){
         return this._akas;
     }
+
+    countries.push(this._name);
 }
 
 /*  -------  Island SUBCLASS    ----------- */

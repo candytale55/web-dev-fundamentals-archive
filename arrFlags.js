@@ -27,7 +27,7 @@
     const flagsRedYellow = [Spain];
     const flagsRedYellowBlue = [Armenia, Venezuela, ]
 
-    const flagsRedWhite = [Laos.name, Austria.name, Libano.name.name, Japan.name];
+    const flagsRedWhite = [Laos.name, Austria.name, Libano.name.name, Japan.name, Indonesia.name];
     const flagsRedWhiteBlue = [Laos.name, CostaRica.name, DominicanRepublic.name, Cuba.name, Slovakia.name, Chile.name, France.name, Mongolia.name, Paraguay.name, Taiwan.name];
     const flagRedWhiteGreen = [Bulgaria];
 

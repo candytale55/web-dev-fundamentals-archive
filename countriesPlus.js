@@ -429,13 +429,10 @@ const Tonga = new OceaniaIsland("Tonga", "Kingdom of Tonga", "Nukuʻalofa", "Pol
   EastTimor.addAKA=("Timor-Leste");
   EastTimor.addLanguages("Portuguese", "Atauru", "Baikeno", "Bekais", "Bunak", "Fataluku", "Galoli", "Habun", "Idalaka", "Kawaimina", "Kemak", "Makalero", "Makasae", "Makuva", "Mambai", "Tokodede");
   EastTimor.isArchipielago("Timor (half)", "Atauro", "Jaco", "Oecusse");
-  EastTimor.setwikiURI("https://en.wikipedia.org/wiki/East_Timor");
   EastTimor.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/5/50/Osttimor.png");
   EastTimor.addRefURI("countryMapFile", "https://upload.wikimedia.org/wikipedia/commons/5/50/Osttimor.png");
   EastTimor.addRefURI("blueCountryMap", "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/East_Timor_-_Location_Map_%282013%29_-_TLS_-_UNOCHA.svg/480px-East_Timor_-_Location_Map_%282013%29_-_TLS_-_UNOCHA.svg.png");
-  EastTimor.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Flag_of_East_Timor.svg/320px-Flag_of_East_Timor.svg.png");
-  EastTimor.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_East_Timor.svg");
-  EastTimor.addRefURI("blueCountryMapFile","https://en.wikipedia.org/wiki/File:East_Timor_-_Location_Map_(2013)_-_TLS_-_UNOCHA.svg");
+   EastTimor.addRefURI("blueCountryMapFile","https://en.wikipedia.org/wiki/File:East_Timor_-_Location_Map_(2013)_-_TLS_-_UNOCHA.svg");
   EastTimor.addRefURI("ciaFactBook", "https://www.cia.gov/library/publications/the-world-factbook/geos/tt.html");
   EastTimor.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_East_Timor");
   EastTimor.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_East_Timor_(location_map_scheme)");
@@ -460,8 +457,6 @@ Cambodia.setRegion("Southeast Asia");
 //Cambodia.addSpecificRegion("Indochina Peninsula");
 Cambodia._URIs = {
     countryMapFile :"https://commons.wikimedia.org/wiki/File:Cb-map.png",
-    flag : "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_Cambodia.svg/320px-Flag_of_Cambodia.svg.png",
-    flagFile : "https://en.wikipedia.org/wiki/File:Flag_of_Cambodia.svg",
 }
 Cambodia.setwikiURI("https://en.wikipedia.org/wiki/Cambodia");
 Cambodia.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/1/12/Cb-map.png");
@@ -476,19 +471,15 @@ Cambodia.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b
 const Thailand = new Country("Thailand", "Kingdom of Thailand", "Bangkok", "Thai");
   Thailand.addAKA("Siam");
   Thailand.setRegion("Southeast Asia");
-  //Thailand.addSpecificRegion("Indochine Peninsula");
   Thailand.languages.push("Isan", "Kam Mueang", "Pak Tai");
   Thailand._URIs = {
       countryMapFile : "https://commons.wikimedia.org/wiki/File:Thailand_map_CIA.png",
-      regionMapFile: "https://ast.wikipedia.org/wiki/Ficheru:LocationThailand.svg",
-      flagFile: "https://en.wikipedia.org/wiki/File:Flag_of_Thailand.svg",
-      wikiAtlas: "https://commons.wikimedia.org/wiki/Atlas_of_Thailand",
+      regionMapFile: "https://ast.wikipedia.org/wiki/Ficheru:LocationThailand.svg",      wikiAtlas: "https://commons.wikimedia.org/wiki/Atlas_of_Thailand",
       ciaFactBook : "https://www.cia.gov/library/publications/the-world-factbook/geos/th.html",
   }
-  Thailand.setwikiURI("https://en.wikipedia.org/wiki/Thailand");
   Thailand.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Thailand_map_CIA.png/276px-Thailand_map_CIA.png");
   Thailand.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/LocationThailand.svg/640px-LocationThailand.svg.png");
-  Thailand.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Thailand.svg/320px-Flag_of_Thailand.svg.png");
+
   Thailand.addRefURI("SVG_locator","https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Thailand_(location_map_scheme)");
   //countries.unshift(Thailand);
   //console.log(Thailand);
@@ -502,12 +493,10 @@ const Thailand = new Country("Thailand", "Kingdom of Thailand", "Bangkok", "Thai
   Singapore.addAKA("Pulau Ujong","Temasek", "Singapura"); // ONLY THE FIRST ONE IS ADDED
   Singapore.AKAs.push("Temasek", "Singapura");
   Singapore._URIs = {
-      flagFile : "https://en.wikipedia.org/wiki/File:Flag_of_Singapore.svg",
       regionMapFile: "https://commons.wikimedia.org/wiki/File:Singapore_in_its_region_(zoom).svg",
       countryMapFile : "https://en.wikipedia.org/wiki/File:CIA_World_Factbook_map_of_Singapore_(English).png",
   };
   Singapore.setwikiURI("https://en.wikipedia.org/wiki/Singapore");
-  Singapore.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Singapore.svg/320px-Flag_of_Singapore.svg.png");
   Singapore.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Singapore_in_its_region_%28zoom%29.svg/640px-Singapore_in_its_region_%28zoom%29.svg.png");
   Singapore.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/0/07/CIA_World_Factbook_map_of_Singapore_%28English%29.png");
   //countries.unshift(Singapore);
@@ -520,35 +509,9 @@ const Thailand = new Country("Thailand", "Kingdom of Thailand", "Bangkok", "Thai
 
 
 
-
-
-
-
-
-  const China = new Country("China", "People's Republic of China", "Beijing", "Standard Chinese"); 
-  China.languages.push("Mongolian", "Uyghur", "Tibetan", "Zhuang");
-  China.cities.push("Shangai", "Chongqing");
-  China._URIs = {
-    countryMapFile : "https://ast.wikipedia.org/wiki/Ficheru:China_CIA_map.png",
-    flag : "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/320px-Flag_of_the_People%27s_Republic_of_China.svg.png",
-    flagFile : "https://en.wikipedia.org/wiki/File:Flag_of_the_People%27s_Republic_of_China.svg",
-  };
-  China.setwikiURI("https://en.wikipedia.org/wiki/China");
-  China.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/7/7f/China_CIA_map.png"); 
-  China.addRefURI("globeFile", "https://commons.wikimedia.org/wiki/File:CHN_orthographic.svg");
-  China.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/CHN_orthographic.svg/480px-CHN_orthographic.svg.png");
-  China.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_China_(location_map_scheme)");
-  //console.log(China);
-  //myCountry = China;
-  //console.log(China._URIs);
-
   const Japan = new Island("Japan", "Japan", "Tokyo", "Japanese", "Pacific", "Sea of Japan");
   Japan.isArchipielago("Hokkaido", "Honshu", "Kyushu", "Shikoku", "Okinawa");
-  Japan.wikiURI= "https://en.wikipedia.org/wiki/Japan";
 
-  Japan.addRefURI("SVG_locator","https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Japan_(location_map_scheme)");
-  Japan.setFlag("https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/320px-Flag_of_Japan.svg.png");
-  Japan.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Japan.svg");
   Japan.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/2/2c/Japan_sea_map.png");
   Japan.addRefURI("countryMapFile", "https://commons.wikimedia.org/wiki/File:Japan_sea_map.png");
   Japan.addRefURI("geographyOf", "https://en.wikipedia.org/wiki/Geography_of_Japan");
@@ -575,7 +538,6 @@ Singapore.setwikiURI("https://en.wikipedia.org/wiki/Singapore");
   Mongolia.addAKA("Mongòlia (Catalan)");
   Mongolia.isLandlocked();
   Mongolia.setwikiURI("https://en.wikipedia.org/wiki/Mongolia");
-  Mongolia.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Mongolia_(location_map_scheme)");
   Mongolia.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Mongolia.svg/320px-Flag_of_Mongolia.svg.png");
   Mongolia.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Mongolia.svg");
   Mongolia.addRefURI("ciaFactBook", "https://www.cia.gov/library/publications/the-world-factbook/geos/mg.html");
@@ -593,16 +555,12 @@ Singapore.setwikiURI("https://en.wikipedia.org/wiki/Singapore");
   Taiwan.addAKA("Formosa");
   Taiwan.addAKA("ROC");
   Taiwan.cities.push("Kaohsiung", "Taichung", "Tainan", "Taoyuan");
-  Taiwan.setwikiURI("https://en.wikipedia.org/wiki/Taiwan");
-  Taiwan.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_the_Republic_of_China_(location_map_scheme)");
   Taiwan.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Taiwan_in_its_region.svg/640px-Taiwan_in_its_region.svg.png");
   Taiwan.addRefURI("regionMapFile","https://commons.wikimedia.org/wiki/File:Taiwan_in_its_region.svg");
   Taiwan.addRefURI("geographyOf","https://en.wikipedia.org/wiki/Geography_of_Taiwan");
   Taiwan.addRefURI("ciaFactBook", "https://www.cia.gov/library/publications/the-world-factbook/geos/tw.html");
   Taiwan.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/7/71/Taiwan-CIA_WFB_Map.png");
   Taiwan.addRefURI("countryMapFile","https://commons.wikimedia.org/wiki/File:Taiwan-CIA_WFB_Map.png");
-  Taiwan.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_the_Republic_of_China.svg");
-  Taiwan.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Flag_of_the_Republic_of_China.svg/320px-Flag_of_the_Republic_of_China.svg.png");
   Taiwan.addRefURI("redLocationMapFile", "https://en.wikipedia.org/wiki/File:Locator_map_of_the_ROC_Taiwan.svg");
   Taiwan.addRefURI("redLocationMap","https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Locator_map_of_the_ROC_Taiwan.svg/640px-Locator_map_of_the_ROC_Taiwan.svg.png");
   Taiwan.addRefURI("plainCountryMapFile", "https://commons.wikimedia.org/wiki/File:Taiwan_location_map.svg");
@@ -612,17 +570,13 @@ Singapore.setwikiURI("https://en.wikipedia.org/wiki/Singapore");
 
   const Macau = new Country ("Macau", "Macao Special Administrative Region of the People's Republic of China", "Macau", "Cantonese");
   Macau.languages.push("Portuguese", "Traditional Chinese", );
-  Macau.setwikiURI("https://en.wikipedia.org/wiki/Macau");
   Macau.isTerritory("China (special administrative region)")
-  Macau.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Flag_of_Macau.svg/320px-Flag_of_Macau.svg.png");
-  Macau.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Macau.svg");
   Macau.addRefURI("regionMapFile", "https://en.wikipedia.org/wiki/File:Macau_locator_map.svg");
   Macau.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Macau_locator_map.svg/565px-Macau_locator_map.svg.png");
   Macau.addRefURI("ciaFactBook", "https://www.cia.gov/library/publications/the-world-factbook/geos/mc.html");
   Macau.addRefURI("geographyOf", "https://en.wikipedia.org/wiki/Geography_of_Macau");
   Macau.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_Macau");
   //Macau.addRefURI("plainCountryMapFile", "");
-  Macau.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Macau_(location_map_scheme)");
   Macau.addRefURI("locator_mapsOf","https://commons.wikimedia.org/wiki/Category:Maps_of_Macau");
   Macau.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/a/a7/Macau-CIA_WFB_Map.png");
   Macau.addRefURI("countryMapFile", "https://commons.wikimedia.org/wiki/File:Macau-CIA_WFB_Map.png");
@@ -634,9 +588,9 @@ Singapore.setwikiURI("https://en.wikipedia.org/wiki/Singapore");
   HongKong.languages.push("English", "Traditional Chinese");
   HongKong.isTerritory("China (special administrative region )");
   HongKong.setwikiURI("https://en.wikipedia.org/wiki/Hong_Kong");
-  HongKong.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Flag_of_Hong_Kong.svg/320px-Flag_of_Hong_Kong.svg.png");
-  HongKong.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Hong_Kong.svg");
-  HongKong.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Hong_Kong_(location_map_scheme)");
+  
+
+  
   HongKong.addRefURI("locator_mapsOf", "https://commons.wikimedia.org/wiki/Category:Locator_maps_of_Hong_Kong");
   HongKong.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:Hong_Kong_in_China_(zoomed)_(%2Ball_claims_hatched).svg");
   HongKong.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Hong_Kong_in_China_%28zoomed%29_%28%2Ball_claims_hatched%29.svg/603px-Hong_Kong_in_China_%28zoomed%29_%28%2Ball_claims_hatched%29.svg.png");
@@ -657,9 +611,7 @@ Singapore.setwikiURI("https://en.wikipedia.org/wiki/Singapore");
   const SouthKorea = new Country("South Korea", "Republic of Korea", "Seoul", "Korean");
   SouthKorea.addAKA("ROK");
   SouthKorea.setwikiURI("https://en.wikipedia.org/wiki/South_Korea");
-  SouthKorea.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/320px-Flag_of_South_Korea.svg.png");
-  SouthKorea.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_South_Korea.svg");
-  SouthKorea.addRefURI("SVG_locator","https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_South_Korea_(location_map_scheme)");
+
   SouthKorea.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/South_Korea_in_its_region.svg/640px-South_Korea_in_its_region.svg.png");
   SouthKorea.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:South_Korea_in_its_region.svg");
 
@@ -674,11 +626,6 @@ Singapore.setwikiURI("https://en.wikipedia.org/wiki/Singapore");
   //console.log(SouthKorea);
 
   const NorthKorea = new Country("North Korea", "Democratic People's Republic of Korea", "Pyongyang", "Korean");
-
-  NorthKorea.setwikiURI("https://en.wikipedia.org/wiki/North_Korea");
-  NorthKorea.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Flag_of_North_Korea.svg/320px-Flag_of_North_Korea.svg.png");
-  NorthKorea.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_North_Korea.svg");
-  NorthKorea.addRefURI("SVG_locator","https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_North_Korea_(location_map_scheme)");
   NorthKorea.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/North_Korea_in_its_region.svg/640px-North_Korea_in_its_region.svg.png");
   NorthKorea.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:North_Korea_in_its_region.svg");
   NorthKorea.addRefURI("ciaFactBook", "https://www.cia.gov/library/publications/the-world-factbook/geos/kn.html");
