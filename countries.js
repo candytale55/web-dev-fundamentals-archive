@@ -199,225 +199,92 @@ class Island extends Country {
     }
 }
 
-// ASIA
+/*
+  ************************************************************************************************************************************************************************************
+*/
 
+// NORTH AMERICA
 
-  /*/ ------------------------  EAST ASIA: ---------------------------------------- /*/
 
+const Canada = new Country("Canada", "Canada", "Ottawa", "English");
+Canada.setwikiURI("https://en.wikipedia.org/wiki/Canada");
 
-const China = new Country("China", "People's Republic of China", "Beijing", "Standard Chinese"); 
-China.setwikiURI("https://en.wikipedia.org/wiki/China");
+const UnitedStates = new Country("United States", "United States of America", "Washington, D.C.", "English");
+UnitedStates.setwikiURI("https://en.wikipedia.org/wiki/United_States");
 
-const Japan = new Island("Japan", "Japan", "Tokyo", "Japanese", "Pacific", "Sea of Japan");
-Japan.wikiURI= "https://en.wikipedia.org/wiki/Japan";
+const Mexico = new Country("México", "Estados Unidos Mexicanos", "Ciudad de México", "Spanish");
+Mexico.setwikiURI("https://en.wikipedia.org/wiki/Mexico");
 
-const Mongolia = new Country("Mongolia", "Mongolia", "Ulaanbaatar", "Mongolian");
-Mongolia.setwikiURI("https://en.wikipedia.org/wiki/Mongolia");
 
-const Taiwan = new Island("Taiwan", "Republic of China", "Taipei", "Taiwanese Mandarin", "Pacific", "South China Sea");
-Taiwan.setwikiURI("https://en.wikipedia.org/wiki/Taiwan");
 
-const Macau = new Country ("Macau", "Macao Special Administrative Region of the People's Republic of China", "Macau", "Cantonese");
-Macau.setwikiURI("https://en.wikipedia.org/wiki/Macau");
+const Belize = new Country("Belize", "Belize", "Belmopan", "English");
+Belize.setwikiURI("https://en.wikipedia.org/wiki/Belize");
 
-const HongKong = new Country("Hong Kong", "Hong Kong Special Administrative Region of the People's Republic of China", "Hong Kong", "Cantonese");
-HongKong.setwikiURI("https://en.wikipedia.org/wiki/Hong_Kong");
 
-const SouthKorea = new Country("South Korea", "Republic of Korea", "Seoul", "Korean");
-SouthKorea.setwikiURI("https://en.wikipedia.org/wiki/South_Korea");
+const CostaRica = new Country("Costa Rica", "República de Costa Rica", "San José", "Spanish");
+CostaRica.setwikiURI("https://en.wikipedia.org/wiki/Costa_Rica");
 
-const NorthKorea = new Country("North Korea", "Democratic People's Republic of Korea", "Pyongyang", "Korean");
-NorthKorea.setwikiURI("https://en.wikipedia.org/wiki/North_Korea");
 
-/*/ ------------------------ WESTERN ASIA: ---------------------------------------- /*/
+const Cuba = new Country("Cuba", "República de Cuba", "Havana", "Spanish");
+Cuba.setwikiURI("https://en.wikipedia.org/wiki/Cuba");
 
-  //  ANATOLIA AND ARABIC PENINSULA
-  const Turkey = new Country("Turkey", "Republic of Turkey", "Ankara", "Turkish");
-  Turkey.setwikiURI("https://en.wikipedia.org/wiki/Turkey");
 
-  const Yemen = new Country("Yemen", "Republic of Yemen", "Sana'a", "Arabic");
-  Yemen.setwikiURI("https://en.wikipedia.org/wiki/Yemen");
 
-  const Qatar = new Country("Qatar", "State of Qatar", "Doha", "Arabic");
-  Qatar.setwikiURI("https://en.wikipedia.org/wiki/Qatar");
 
-  const Bahrain = new Country("Barhain", "Kingdom of Bahrain", "Manama", "Arabic");
-  Bahrain.setwikiURI("https://en.wikipedia.org/wiki/Bahrain");
+const AntiguaandBarbuda = new Country("Antigua and Barbuda", "Antigua and Barbuda", "St. John's", "English");
+AntiguaandBarbuda.setwikiURI("https://en.wikipedia.org/wiki/Antigua_and_Barbuda");
 
-  const Kuwait = new Country("Kuwait", "State of Kuwait", "Kuwait City","Arabic");
-  Kuwait.setwikiURI("https://en.wikipedia.org/wiki/Kuwait");
+const Bahamas = new Country("The Bahamas", "Commonwealth of The Bahamas", "Nassau", "English");
+Bahamas.setwikiURI("https://en.wikipedia.org/wiki/The_Bahamas");
 
-  const SaudiArabia = new Country("Saudi Arabia", "Kingdom of Saudi Arabia", "Riyadh", "Arabic");
-  SaudiArabia.setwikiURI("https://en.wikipedia.org/wiki/Saudi_Arabia");
+const Barbados = new Country("Barbados", "Barbados", "Bridgetown", "English");
+Barbados.setwikiURI("https://en.wikipedia.org/wiki/Barbados");
 
-  const ArabEmirates = new Country("United Arab Emirates", "United Arab Emirates", "Abu Dhabi", "Arabic");
-  ArabEmirates.setwikiURI("https://en.wikipedia.org/wiki/United_Arab_Emirates");
+// Barbados CostaRica Cuba Dominica Dominican RepublicEl SalvadorGrenadaGuatemalaHaitiHondurasJamaicaMexicoNicaraguaPanamaSaint Kitts and NevisSaint LuciaSaint Vincent and the GrenadinesTrinidad and Tobago UnitedStates Canada Mexico  Bahamas Belize AntiguaandBarbuda
 
-  const Oman = new Country("Oman","Sultanate of Oman", "Muscat", "Arabic");
-  Oman.setwikiURI("https://en.wikipedia.org/wiki/Oman");
-
-  //  ANATOLIA AND ARABIC PENINSULA Turkey Yemen.name, Oman.name, Qatar.name, Bahrain.name, Kuwait.name, SaudiArabia.name, ArabEmirates.name
-
-
-
-// CAUCASUS
-   const Georgia = new Country("Georgia", "Georgia", "Tbilisi", "Georgian");
-   Georgia.setwikiURI("https://en.wikipedia.org/wiki/Georgia_(country)");
-
-   const Armenia = new Country("Armenia", "Republic of Armenia", "Yerevan", "Armenian");
-   Armenia.setwikiURI("https://en.wikipedia.org/wiki/Armenia");
-
-   const Azerbaijan = new Country("Azerbaijan", "Republic of Azerbaijan", "Baku", "	Azerbaijani");
-   Azerbaijan.setwikiURI("https://en.wikipedia.org/wiki/Azerbaijan");
-
-   const Abkhazia = new Country("Abkhazia", "Republic of Abkhazia", "Sukhumi", "Abkhaz");
-   Abkhazia.setwikiURI("https://en.wikipedia.org/wiki/Abkhazia");
-
-   const Artsakh = new Country("Artsakh", "Republic of Artsakh", "Stepanakert", "Armenian");
-   Artsakh.setwikiURI("https://en.wikipedia.org/wiki/Republic_of_Artsakh");
-
-   const SouthOssetia = new Country("South Ossetia", "Republic of South Ossetia – The Free State of Alania", "Tskhinvali", "Ossetian");
-   SouthOssetia.setwikiURI("https://en.wikipedia.org/wiki/South_Ossetia");
-
-   // Armenia.name, Azerbaijan.name, Georgia.name, Russia.name, Abkhazia.name, Artsakh.name, SouthOssetia.name
-
-
-   // FERTILE CRESCENT
-
-   const Iraq = new Country("Iraq", "Republic of Iraq", "Baghdad", "Arabic");
-   Iraq.setwikiURI("https://en.wikipedia.org/wiki/Iraq");
-   
-   const Jordan = new Country("Jordan", "Hashemite Kingdom of Jordan", "Amman", "Arabic");
-   Jordan.setwikiURI("https://en.wikipedia.org/wiki/Jordan");
-
-   const Israel = new Country("Israel", "State of Israel", "Jerusalem", "Hebrew");
-   Israel.setwikiURI("https://en.wikipedia.org/wiki/Israel");
-
-   const Lebanon = new Country("Lebanon", "Lebanese Republic", "Beirut", "Arabic");
-   Lebanon.setwikiURI("https://en.wikipedia.org/wiki/Lebanon");
-
-   const Palestine = new Country("Palestine", "State of Palestine", "Jerusalem", "Arabic");
-   Palestine.setwikiURI("https://en.wikipedia.org/wiki/State_of_Palestine");
-
-   const Syria = new Country("Syria", "Syrian Arab Republic", "Damascus", "Arabic");
-   Syria.setwikiURI("https://en.wikipedia.org/wiki/Syria");
-
-   // Iraq.name, Israel.name, Jordan.name, Lebanon.name, Palestine.name, Syria.name
-
-   // OTHER: IRANIAN PLATEAU AND MEDITERRANEAN COUNTRIES
-
-   // Iran.name, Cyprus.name, NorthernCyprus.name, Akrotiri.name
-
-   const Iran = new Country("Iran", "Islamic Republic of Iran", "Teheran", "Persian");
-   Iran.setwikiURI("https://en.wikipedia.org/wiki/Iran");
-
-   const Akrotiri = new Country("Akrotiri and Dhekelia", "Sovereign Base Areas of Akrotiri and Dhekelia", "	Episkopi", "English");
-   Akrotiri.setwikiURI("https://en.wikipedia.org/wiki/Akrotiri_and_Dhekelia");
-
-   const NorthernCyprus = new Country("Northern Cyprus", "Turkish Republic of Northern Cyprus", "North Nicosia", "Turkish");
-   NorthernCyprus.setwikiURI("https://en.wikipedia.org/wiki/Northern_Cyprus");
-
-   const Cyprus = new Country("Cyprus", "Republic of Cyprus", "Nicosia", "Greek");
-   Cyprus.setwikiURI("https://en.wikipedia.org/wiki/Cyprus");
-
-// THE STANS - CENTRAL ASIA
-
-    const Kyrgyzstan = new Country("Kyrgyzstan", "Kyrgyz Republic", "Bishkek", "Kyrgyz")
-    Kyrgyzstan.setwikiURI("https://en.wikipedia.org/wiki/Kyrgyzstan");
-
-    const Uzbekistan = new Country("Uzbekistan", "Republic of Uzbekistan", "Tashkent", "Uzbek");
-    Uzbekistan.setwikiURI("https://en.wikipedia.org/wiki/Uzbekistan");
-
-    const Turkmenistan = new Country("Turkmenistan", "Republic of Turkmenistan", "Ashgabat",  "Turkmen");
-    Turkmenistan.setwikiURI("https://en.wikipedia.org/wiki/Turkmenistan");
-
-    const Tajikistan = new Country("Tajikistan", "Republic of Tajikistan", "Dushanbe", "Tajik");
-    Tajikistan.setwikiURI("https://en.wikipedia.org/wiki/Tajikistan");
-
-    const Kazakhstan = new Country("Kazakhstan", "Republic of Kazakhstan", "Nur-Sultan", "Kazakh");
-    Kazakhstan.setwikiURI("https://en.wikipedia.org/wiki/Kazakhstan");
-
-
-    // SOUTH ASIA
-
-    /* Afghanistan.name, Bangladesh.name, Bhutan.name, Maldives.name, Nepal.name, India.name, Pakistan.name, SriLanka.name */
-
-    const Afghanistan = new Country("Afghanistan", "Islamic Republic of Afghanistan", "Kabul", "Pashto");
-    Afghanistan.setwikiURI("https://en.wikipedia.org/wiki/Afghanistan");
-
-    const Bangladesh = new Country("Bangladesh", "People's Republic of Bangladesh", "Dhaka", "Bengali");
-    Bangladesh.setwikiURI("https://en.wikipedia.org/wiki/Bangladesh");
-
-    const Bhutan = new Country("Bhutan", "Kingdom of Bhutan", "Thimphu", "Bhutanese");
-    Bhutan.setwikiURI("https://en.wikipedia.org/wiki/Bhutan");
-
-    //const Maldives= new Island("Maldives", "Republic of Maldives", "Malé", "Dhivehi", "Indian", "Arabian Sea");
-    const Maldives= new Country("Maldives", "Republic of Maldives", "Malé", "Dhivehi");
-    Maldives.setwikiURI("https://en.wikipedia.org/wiki/Maldives");
-
-    const Nepal = new Country("Nepal", " Federal Democratic Republic of Nepal", "Kathmandu", "Nepali");
-    Nepal.setwikiURI("https://en.wikipedia.org/wiki/Nepal");
-
-    const India = new Country("India", "Republic of India", "New Delhi","Hindi");
-    India.setwikiURI("https://en.wikipedia.org/wiki/India");
-
-    const Pakistan = new Country("Pakistan", "Islamic Republic of Pakistan", "Islamabad", "English");
-    Pakistan.setwikiURI("https://en.wikipedia.org/wiki/Pakistan");
-
-    const SriLanka = new Country("Sri Lanka", "Democratic Socialist Republic of Sri Lanka", "Sri Jayawardenepura Kotte", "Sinhala");
-    //const SriLanka = new Island("Sri Lanka", "Democratic Socialist Republic of Sri Lanka", "Sri Jayawardenepura Kotte", "Sinhala", "Indian");
-    SriLanka.setwikiURI("https://en.wikipedia.org/wiki/Sri_Lanka");
-
-
-    // SOUTHEAST ASIA
-
-
-    const Cambodia = new Country("Cambodia", "Kingdom of Cambodia", "Phnom Penh", "Khmer");
-    Cambodia.setwikiURI("https://en.wikipedia.org/wiki/Cambodia");
-
-    const Laos = new Country("Laos", "Lao People's Democratic Republic", "Vientiane", "Lao");
-    Laos.setwikiURI("https://en.wikipedia.org/wiki/Laos");
-
-    const Myanmar = new Country("Myanmar", "Republic of the Union of Myanmar", "Naypyidaw", "Burmese");
-    Myanmar.setwikiURI("https://en.wikipedia.org/wiki/Myanmar");
-
-    const Malaysia = new Country("Malaysia", "Malaysia", "Kuala Lumpur", "Malay");
-    Malaysia.setwikiURI("https://en.wikipedia.org/wiki/Malaysia");
-
-    const Thailand = new Country("Thailand", "Kingdom of Thailand", "Bangkok", "Thai");
-    Thailand.setwikiURI("https://en.wikipedia.org/wiki/Thailand");
-  
-    const Vietnam = new Country("Vietnam", "Socialist Republic of Vietnam", "Hanoi", "Vietnamese");
-    Vietnam.setwikiURI("https://en.wikipedia.org/wiki/Vietnam");
-
-    const Brunei = new Country("Brunei", "Nation of Brunei, the Abode of Peace", "Bandar Seri Begawan", "English");
-    Brunei.setwikiURI("https://en.wikipedia.org/wiki/Brunei");
-
-    const EastTimor = new Country("East Timor", "Democratic Republic of Timor-Leste", "Dili", "Tetum");
-    //const EastTimor = new Island("East Timor", "Democratic Republic of Timor-Leste", "Dili", "Tetum", "Pacific", "Timor Sea");
-    EastTimor.setwikiURI("https://en.wikipedia.org/wiki/East_Timor");
+const Dominica = new Country("Dominica", "Commonwealth of Dominica", "Roseau", "English");
+Dominica.setwikiURI("https://en.wikipedia.org/wiki/Dominica");
     
-    const Indonesia = new Country("Indonesia", "Republic of Indonesia", "Jakarta", "Indonesian");
-    Indonesia.setwikiURI("https://en.wikipedia.org/wiki/Indonesia");
+const SaintKitts = new Country("Saint Kitts and Nevis", "Federation of Saint Christopher and Nevis", "Basseterre", "English");
+SaintKitts.setwikiURI("https://en.wikipedia.org/wiki/Saint_Kitts_and_Nevis");
 
-    const Philippines = new Country("Philippines", "Republic of the Philippines", "Manila", "Filipino");
-    Philippines.setwikiURI("https://en.wikipedia.org/wiki/Philippines");
+const SaintVincentGrenadines = new Country("Saint Vincent and the Grenadines", "Saint Vincent and the Grenadines", "Kingstown", "English");
+SaintVincentGrenadines.setwikiURI("https://en.wikipedia.org/wiki/Saint_Vincent_and_the_Grenadines");
+
+const VirginIslandsUK = new Country("Virgin Islands", "British Virgin Islands", "Road Town", "English");
+VirginIslandsUK.setwikiURI("https://en.wikipedia.org/wiki/British_Virgin_Islands");
+
+const VirginIslandsUSA = new Country("Virgin Islands", "Virgin Islands of the United States", "Charlotte Amalie", "English");
+VirginIslandsUSA.setwikiURI("https://en.wikipedia.org/wiki/United_States_Virgin_Islands");    
     
-    const Singapore = new Country("Singapore", "Republic of Singapore", "Singapore", "English");
-    Singapore.setwikiURI("https://en.wikipedia.org/wiki/Singapore");
+const Guadeloupe = new Country("Guadeloupe", "Département d’Outre-Mer de la Guadeloupe", "Basse-Terre", "French");
+Guadeloupe.setwikiURI("https://en.wikipedia.org/wiki/Guadeloupe");
+
+const Martinique = new Country("Martinique", "Martinique", "Fort-de-France", "French");
+Martinique.setwikiURI("https://en.wikipedia.org/wiki/Martinique");
+
+const Montserrat = new Country("Montserrat", "Montserrat", "Plymouth", "English");
+Montserrat.setwikiURI("https://en.wikipedia.org/wiki/Montserrat");
+
+const Saba = new Country("Saba", "Saba", "The Bottom", "Dutch");
+Saba.setwikiURI("https://en.wikipedia.org/wiki/Saba");
+
+const StBarths = new Country("Saint Barthélemy", "Collectivité territoriale de Saint-Barthélemy", "Gustavia", "French");
+StBarths.setwikiURI("https://en.wikipedia.org/wiki/Saint_Barth%C3%A9lemy");
+
+const SaintMartin = new Country("Saint Martin", "Collectivity of Saint Martin", "Marigot", "French");
+SaintMartin.setwikiURI("https://en.wikipedia.org/wiki/Collectivity_of_Saint_Martin");
 
 
 
-    //Cambodia.name, Laos.name, Myanmar.name, Malaysia.name, Thailand.name, Vietnam.name, Brunei.name, Indonesia.name, Philippines.name, Singapore.name, EastTimor.name
 
-    //  TRANSCONTINENTAL
+myCountry = SaintMartin;
 
-  const Russia = new Country("Russia", "Russian Federation", "Moscow", "Russian");
-  Russia.setwikiURI("https://en.wikipedia.org/wiki/Russia");
 
-  const Egypt = new Country("Egypt", "Arab Republic of Egypt", "Cairo", "Arabic");
-  Egypt.setwikiURI("https://en.wikipedia.org/wiki/Egypt");
-
+/*
+.setFlag("");
+.addRefURI("flagFile", "");
+*/
 
 
 
@@ -425,6 +292,200 @@ NorthKorea.setwikiURI("https://en.wikipedia.org/wiki/North_Korea");
 
 
 
+
+
+
+// SOUTH AMERICA
+
+
+
+
+const Argentina = new Country("Argentina", "Argentine Republic", "Buenos Aires", "Spanish");
+Argentina.setwikiURI("https://en.wikipedia.org/wiki/Argentina");
+
+const Bolivia = new Country("Bolivia", "Plurinational State of Bolivia", "Sucre", "Spanish");
+Bolivia.setwikiURI("https://en.wikipedia.org/wiki/Bolivia");
+
+
+const Brazil = new Country("Brazil", "Federative Republic of Brazil", "Brasilia", "Portuguese" );
+Brazil.setwikiURI("https://en.wikipedia.org/wiki/Brazil");
+
+const Chile = new Country("Chile", "República de Chile", "Santiago", "Spanish");
+Chile.setwikiURI("https://en.wikipedia.org/wiki/Chile");
+
+const Colombia = new Country("Colombia", "República de Colombia", "Bogotá", "Spanish");
+Colombia.setwikiURI("https://en.wikipedia.org/wiki/Colombia");
+
+const Ecuador = new Country("Ecuador", "Republic of Ecuador", "Quito", "Spanish");
+Ecuador.setwikiURI("https://en.wikipedia.org/wiki/Ecuador");
+
+const Guyana = new Country("Guyana", "Co-operative Republic of Guyana", "Georgetown", "English");
+Guyana.setwikiURI("https://en.wikipedia.org/wiki/Guyana");
+
+const Paraguay = new Country("Paraguay", "Republic of Paraguay", "Asunción", "Spanish");
+Paraguay.setwikiURI("https://en.wikipedia.org/wiki/Paraguay");
+
+const Peru = new Country("Peru", "República del Perú ", "Lima", "Spanish");
+Peru.setwikiURI("https://en.wikipedia.org/wiki/Peru");
+
+const Suriname = new Country("Suriname", "Republic of Suriname", "Paramaribo", "Dutch");
+Suriname.setwikiURI("https://en.wikipedia.org/wiki/Suriname");
+
+const Uruguay = new Country("Uruguay", "República Oriental del Uruguay", "Montevideo", "Spanish");
+Uruguay.setwikiURI("https://en.wikipedia.org/wiki/Uruguay");
+
+const FrenchGuiana = new Country("French Guiana", "Department of French Guiana", "Cayenne", "French");
+FrenchGuiana.setwikiURI("https://en.wikipedia.org/wiki/French_Guiana");
+
+// Argentina.name, Bolivia.name, Brazil.name, Chile.name, Colombia.name, Ecuador.name, Guyana.name, Paraguay.name, Peru.name, Suriname.name, Uruguay.name, Venezuela.name, FrenchGuiana.name, Aruba.name, Bonaire.name, Curacao.name,  FalklandIslands.name, TrinidadAndTobago.name
+
+
+
+// CARIBE 
+
+const Aruba = new Country("Aruba", "Aruba", "Oranjestad", "Dutch");
+Aruba.setwikiURI("https://en.wikipedia.org/wiki/Aruba");
+
+const Bonaire = new Country("Bonaire", "Bonaire", "Kralendijk", "Dutch");
+Bonaire.setwikiURI("https://en.wikipedia.org/wiki/Bonaire");
+
+const Curacao = new Country("Curaçao", "Curaçao", "Willemstad", "Dutch");
+Curacao.setwikiURI("https://en.wikipedia.org/wiki/Cura%C3%A7ao");
+
+
+
+
+
+
+//FLAGS:
+
+// NORTH AMERICA
+Canada.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/320px-Flag_of_Canada_%28Pantone%29.svg.png");
+Canada.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Canada_(Pantone).svg");
+
+UnitedStates.setFlag("https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/320px-Flag_of_the_United_States.svg.png");
+UnitedStates.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_the_United_States.svg");
+
+Mexico.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/320px-Flag_of_Mexico.svg.png");
+Mexico.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Mexico.svg");
+
+
+
+
+Belize.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Flag_of_Belize.svg/320px-Flag_of_Belize.svg.png");
+Belize.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Belize.svg");
+
+
+
+
+CostaRica.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Costa_Rica_%28state%29.svg/320px-Flag_of_Costa_Rica_%28state%29.svg.png");
+CostaRica.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Costa_Rica_(state).svg");
+
+
+
+
+Cuba.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Flag_of_Cuba.svg/320px-Flag_of_Cuba.svg.png");
+Cuba.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Cuba.svg");
+
+
+
+
+
+
+
+
+Argentina.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/320px-Flag_of_Argentina.svg.png");
+Argentina.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Argentina.svg");
+
+Bolivia.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Bandera_de_Bolivia_%28Estado%29.svg/320px-Bandera_de_Bolivia_%28Estado%29.svg.png");
+Bolivia.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Bandera_de_Bolivia_(Estado).svg");
+
+Brazil.setFlag("https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/320px-Flag_of_Brazil.svg.png");
+Brazil.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Brazil.svg");
+
+Chile.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Flag_of_Chile.svg/320px-Flag_of_Chile.svg.png");
+Chile.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Chile.svg");
+
+Colombia.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/320px-Flag_of_Colombia.svg.png");
+Colombia.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Colombia.svg");
+
+Ecuador.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Flag_of_Ecuador.svg/320px-Flag_of_Ecuador.svg.png");
+Ecuador.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Ecuador.svg");
+
+Guyana.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_Guyana.svg/320px-Flag_of_Guyana.svg.png");
+Guyana.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Guyana.svg");
+
+Paraguay.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Paraguay.svg/320px-Flag_of_Paraguay.svg.png");
+Paraguay.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Paraguay.svg");
+
+Peru.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Flag_of_Peru.svg/320px-Flag_of_Peru.svg.png");
+Peru.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Peru.svg");
+
+Suriname.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Flag_of_Suriname.svg/320px-Flag_of_Suriname.svg.png");
+Suriname.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Suriname.svg");
+
+
+Uruguay.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Uruguay.svg/320px-Flag_of_Uruguay.svg.png");
+Uruguay.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Uruguay.svg");
+
+FrenchGuiana.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Flag_of_French_Guiana.svg/320px-Flag_of_French_Guiana.svg.png");
+FrenchGuiana.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_French_Guiana.svg");
+
+
+
+// CARIBEAN
+
+Aruba.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Flag_of_Aruba.svg/320px-Flag_of_Aruba.svg.png");
+Aruba.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Aruba.svg");
+
+Bonaire.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Flag_of_Bonaire.svg/320px-Flag_of_Bonaire.svg.png");
+Bonaire.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Bonaire.svg");
+
+Curacao.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Flag_of_Cura%C3%A7ao.svg/320px-Flag_of_Cura%C3%A7ao.svg.png");
+Curacao.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Cura%C3%A7ao.svg");
+
+
+Bahamas.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Flag_of_the_Bahamas.svg/320px-Flag_of_the_Bahamas.svg.png");
+Bahamas.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_the_Bahamas.svg");
+
+AntiguaandBarbuda.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Flag_of_Antigua_and_Barbuda.svg/320px-Flag_of_Antigua_and_Barbuda.svg.png");
+AntiguaandBarbuda.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Antigua_and_Barbuda.svg");
+
+Barbados.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Flag_of_Barbados.svg/320px-Flag_of_Barbados.svg.png");
+Barbados.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Barbados.svg");
+
+SaintKitts.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Saint_Kitts_and_Nevis.svg/320px-Flag_of_Saint_Kitts_and_Nevis.svg.png");
+SaintKitts.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Saint_Kitts_and_Nevis.svg");
+
+SaintVincentGrenadines.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Flag_of_Saint_Vincent_and_the_Grenadines.svg/320px-Flag_of_Saint_Vincent_and_the_Grenadines.svg.png");
+SaintVincentGrenadines.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Saint_Vincent_and_the_Grenadines.svg");
+
+VirginIslandsUK.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Flag_of_the_British_Virgin_Islands.svg/320px-Flag_of_the_British_Virgin_Islands.svg.png");
+VirginIslandsUK.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_the_British_Virgin_Islands.svg");
+
+VirginIslandsUSA.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Flag_of_the_United_States_Virgin_Islands.svg/320px-Flag_of_the_United_States_Virgin_Islands.svg.png");
+VirginIslandsUSA.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_the_United_States_Virgin_Islands.svg");
+
+Dominica.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Flag_of_Dominica.svg/320px-Flag_of_Dominica.svg.png");
+Dominica.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Dominica.svg");
+
+Saba.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Flag_of_Saba.svg/320px-Flag_of_Saba.svg.png");
+Saba.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Saba.svg");
+
+Montserrat.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Flag_of_Montserrat.svg/320px-Flag_of_Montserrat.svg.png");
+Montserrat.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Montserrat.svg");
+
+Martinique.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Snake_Flag_of_Martinique.svg/320px-Snake_Flag_of_Martinique.svg.png");
+Martinique.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Snake_Flag_of_Martinique.svg");
+
+Guadeloupe.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Unofficial_flag_of_Guadeloupe_%28local%29.svg/320px-Unofficial_flag_of_Guadeloupe_%28local%29.svg.png");
+Guadeloupe.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Unofficial_flag_of_Guadeloupe_(local).svg");
+
+StBarths.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Flag_of_Saint_Barthelemy_%28local%29.svg/320px-Flag_of_Saint_Barthelemy_%28local%29.svg.png");
+StBarths.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Saint_Barthelemy_(local).svg");
+
+SaintMartin.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Saint-Martin_%28fictional%29.svg/320px-Flag_of_Saint-Martin_%28fictional%29.svg.png");
+SaintMartin.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Saint-Martin_(fictional).svg");
 
 
 
@@ -433,10 +494,13 @@ NorthKorea.setwikiURI("https://en.wikipedia.org/wiki/North_Korea");
   ************************************************************************************************************************************************************************************
 */
 
+console.log(countries);
+
+
 const EastAsia = {
     _name : "East Asia",
     _wikiURI: "https://en.wikipedia.org/wiki/East_Asia",
-    _countries : [China.name, Japan.name, Mongolia.name, Taiwan.name, Macau.name, HongKong.name, SouthKorea.name, NorthKorea.name],
+    _countries : [],
     _akas : ["Far East"],
 
     get name()      {   return this._name;      },
@@ -449,7 +513,7 @@ const EastAsia = {
 const WesternAsia = {
     _name : "Western Asia",
     _wikiURI: "https://en.wikipedia.org/wiki/Western_Asia",
-    _countries : [Iraq.name, Israel.name, Jordan.name, Lebanon.name, Palestine.name, Syria.name, Egypt.name, Turkey.name, Armenia.name, Azerbaijan.name, Georgia.name, Russia.name, Abkhazia.name, Artsakh.name, SouthOssetia.name, Yemen.name, Oman.name, Qatar.name, Bahrain.name, Kuwait.name, SaudiArabia.name, ArabEmirates.name],
+    _countries : [],
     _akas : ["Western Asia", "West Asia", "Southwestern Asia", "Southwest Asia"],
 
     get name()      {   return this._name;      },
@@ -459,21 +523,33 @@ const WesternAsia = {
 
 };
 
-const NorthAsia ={
-    _name : "North Asia",
-    _wikiURI : "https://en.wikipedia.org/wiki/North_Asia",
-    _countries : [ Russia.name ,/*Russia.siberia*/],
+const NorthAmerica ={
+    _name : "North America",
+    _wikiURI : "https://en.wikipedia.org/wiki/North_America",
+    _countries : [/*Antigua and BarbudaThe BahamasBarbadosBelizeCanadaCosta RicaCubaDominicaDominican RepublicEl SalvadorGrenadaGuatemalaHaitiHondurasJamaicaMexicoNicaraguaPanamaSaint Kitts and NevisSaint LuciaSaint Vincent and the GrenadinesTrinidad and TobagoUnited States  	
+        Greenland
+        France	
+        Clipperton IslandSt. BarthélemySt. MartinSt. Pierre and Miquelon
+        Netherlands	
+        ArubaCuraçaoSint Maarten
+        United Kingdom	
+        AnguillaBermudaBritish Virgin IslandsCayman IslandsMontserratTurks and Caicos Islands
+        United States	
+        Puerto RicoUnited States Virgin Islands
+        Venezuela	
+        Federal Dependencies*/],
+    _description : "",
 
     get name()      {   return this._name;      },
     get wikiURI()   {   return this._wikiURI;   },
     get countries() {   return this._countries; },
-
+    get _description(){   return this._description},
 }
 
 const CentralAsia = {
     _name : "Central Asia",
     _wikiURI: "https://en.wikipedia.org/wiki/Western_Asia",
-    _countries : [Kazakhstan.name, Kyrgyzstan.name, Tajikistan.name, Turkmenistan.name, Uzbekistan.name],
+    _countries : [],
     //_akas : ["The 'stans"],
 
     get name()      {   return this._name;      },
@@ -482,14 +558,11 @@ const CentralAsia = {
     //get akas()      {   return this._akas;      },
 
 };
-//myCountry = Russia;
-
-
 
 const SouthAsia = {
     _name : "South Asia",
     _wikiURI: "https://en.wikipedia.org/wiki/South_Asia",
-    _countries : [Afghanistan.name, Bangladesh.name, Bhutan.name, Maldives.name, Nepal.name, India.name, Pakistan.name, SriLanka.name],
+    _countries : [],
     _akas : ["Southern Asia","Indian Subcontinent"],
 
     get name()      {   return this._name;      },
@@ -499,15 +572,17 @@ const SouthAsia = {
 
 }
 
-const SoutheastAsia = {
-    _name : "Southeast Asia",
-    _wikiURI: "https://en.wikipedia.org/wiki/Southeast_Asia",
-    _countries : [Cambodia.name, Laos.name, Myanmar.name, Malaysia.name, Thailand.name, Vietnam.name, Brunei.name, Indonesia.name, Malaysia.name, Philippines.name, Singapore.name, EastTimor.name],
-    _akas : ["Southeastern Asia"],
+const SouthAmerica = {
+    _name : "South America",
+    _wikiURI: "https://en.wikipedia.org/wiki/South_America",
+    //_countries : [Argentina.name, Bolivia.name, Brazil.name, Chile.name, Colombia.name, Ecuador.name, Guyana.name, Paraguay.name, Peru.name, Suriname.name, Uruguay.name, Venezuela.name, FrenchGuiana.name, Aruba.name, Bonaire.name, Curacao.name,  FalklandIslands.name, TrinidadAndTobago.name],
+    //_territories : [Aruba.name, Bonaire.name, Curacao.name,  FalklandIslands.name, TrinidadAndTobago.name],
+    _akas : [""],
 
     get name()      {   return this._name;      },
     get wikiURI()   {   return this._wikiURI;   },
     get countries() {   return this._countries; },
+    get territories() { return this._territories},
     get akas()      {   return this._akas;      },
 }
 
@@ -515,263 +590,144 @@ const SoutheastAsia = {
 
 
 
-const Asia = {
-    _name: "Asia",
-    _wikiURI : "https://en.wikipedia.org/wiki/Asia",
-    _regions : [EastAsia.name, WesternAsia.name, NorthAsia.name, CentralAsia.name, SouthAsia.name, SoutheastAsia.name
-        
-        /*
-        SoutheastAsia (East Indies and Indochina)
-    */],
+const America = {
+    _name: "America",
+    _wikiURI : "https://en.wikipedia.org/wiki/Americas",
+    _regions : [SouthAmerica],
+    _akas : ["The Americas"],
     get name()      {   return this._name;      },
     get wikiURI()   {   return this._wikiURI;   },
     get regions()   {   return this._regions; },
+    get akas()      {   return this._akas;      },
 }
 
 
 
 
 
+const WestIndies = {
+    _name : "",
+    _wikiURI: "",
+    _countries : [],
+    _akas : [""],
+
+    get name()      {   return this._name;      },
+    get wikiURI()   {   return this._wikiURI;   },
+    get countries() {   return this._countries; },
+    get akas()      {   return this._akas;      },
+
+}
 
 
 
+const CaribbeanRegion = {
+    _name : "Caribbean",
+    _wikiURI: "https://en.wikipedia.org/wiki/Caribbean",
+    _countries : [],
+    _akas : [""],
+
+    get name()      {   return this._name;      },
+    get wikiURI()   {   return this._wikiURI;   },
+    get countries() {   return this._countries; },
+    get akas()      {   return this._akas;      },
+
+}
+
+const WindwardIslands = {
+    _name : "Windward Islands",
+    _wikiURI: "https://en.wikipedia.org/wiki/Windward_Islands",
+    _countries : [/*Saint Lucia, Saint Vincent, the Grenadines, Grenada, Dominica*/],
+    _akas : ["Islands of Barlovento"],
+    _description : "",
+
+    get name()      {   return this._name;      },
+    get wikiURI()   {   return this._wikiURI;   },
+    get countries() {   return this._countries; },
+    get akas()      {   return this._akas;      },
+    get _description() {return this._description},
+
+}
+
+const LeewardIslands = {
+    _name : "Leeward Islands",
+    _wikiURI: "https://en.wikipedia.org/wiki/Leeward_Islands",
+    _countries : [],
+    _akas : [""],
+    _description : "",
+
+    get name()      {   return this._name;      },
+    get wikiURI()   {   return this._wikiURI;   },
+    get countries() {   return this._countries; },
+    get akas()      {   return this._akas;      },
+    get _description() {return this._description},
+}
+
+const LeewardAntilles = {
+    _name : "Leeward Antilles",
+    _wikiURI: "https://en.wikipedia.org/wiki/Leeward_Antilles",
+    _countries : [Curacao.name, Aruba.name, Bonaire.name],
+    _akas : [""],
+    _description : "",
+
+    get name()      {   return this._name;      },
+    get wikiURI()   {   return this._wikiURI;   },
+    get countries() {   return this._countries; },
+    get akas()      {   return this._akas;      },
+    get _description() {  return this._description},
+}
+
+
+const GreaterAntilles = {
+    _name : "Greater Antilles",
+    _wikiURI: "https://en.wikipedia.org/wiki/Greater_Antilles",
+    _countries : [],
+    _akas : [""],
+    _description : "is a grouping of the larger islands in the Caribbean Sea, including Cuba, Hispaniola, Puerto Rico, Jamaica, and the Cayman Islands. Six island states share the region of the Greater Antilles in total, with Haiti and the Dominican Republic sharing the island of Hispaniola. Geologically, the Virgin Islands and Sombrero Island are also part of the Greater Antilles, though politically they are considered part of the Lesser Antilles. The Lucayan Archipelago is not considered to be a part of the Antilles archipelagos but rather of the North Atlantic. The Greater Antilles is considered to be a part of Latin America. With a population of 38 million, it makes up 6% of Latin America's total population. ",
+
+    get name()      {   return this._name;      },
+    get wikiURI()   {   return this._wikiURI;   },
+    get countries() {   return this._countries; },
+    get akas()      {   return this._akas;      },
+    get _description(){ return this._description},
+
+}
+
+const LesserAntilles = {
+    _name : "Lesser Antilles",
+    _wikiURI: "https://en.wikipedia.org/wiki/Lesser_Antilles",
+    _countries : [Curacao.name, Aruba.name, Bonaire.name],
+    _akas : ["Pequeñas Antillas (Spanish)", "Petites Antilles (French)", "Antias Menor (Papiamento)", "Kleine Antillen (Dutch)"],
+    _description : "is a group of islands in the Caribbean Sea. Most form a long, partly volcanic island arc between the Greater Antilles to the north-west and the continent of South America.[1] The islands form the eastern boundary of the Caribbean Sea with the Atlantic Ocean. Together, the Lesser Antilles and the Greater Antilles compose the Antilles (or the Caribbean in its narrowest definition). When combined with the Lucayan Archipelago, all three are known as the West Indies.",
+
+    get name()      {   return this._name;      },
+    get wikiURI()   {   return this._wikiURI;   },
+    get countries() {   return this._countries; },
+    get akas()      {   return this._akas;      },
+    get _description(){ return this._description},
+}
+
+
+const Antilles = {
+    _name : "Antilles",
+    _wikiURI: "https://en.wikipedia.org/wiki/Antilles",
+    _regions : [LesserAntilles.name, GreaterAntilles.name],
+    _akas : [""],
+    _description : "is an archipelago bordered by the Caribbean Sea to the south and west, the Gulf of Mexico to the northwest, and the Atlantic Ocean to the north and east. \n\nThe Antillean islands are divided into two smaller groupings: the Greater Antilles and the Lesser Antilles. The Greater Antilles includes the larger islands of Cuba, Jamaica, Puerto Rico, Hispaniola (subdivided into the nations of Haiti and the Dominican Republic) and the Cayman Islands. The Lesser Antilles contains the northerly Leeward Islands and the southeasterly Windward Islands. The Leeward Antilles just north of Venezuela and the Lucayan Archipelago (consisting of the Bahamas and Turks and Caicos Islands), though part of the West Indies, are generally not included among the Antillean islands.\n\n Geographically, the Antillean islands are generally considered a subregion of North America. Culturally speaking, Cuba, the Dominican Republic, and Puerto Rico – and sometimes the whole of the Antilles – are included in Latin America, although some sources avoid this socio-economic oversimplification by using the phrase 'Latin America and the Caribbean' instead",
+
+    get name()      {   return this._name;      },
+    get wikiURI()   {   return this._wikiURI;   },
+    get regions() {   return this._regions; },
+    get akas()      {   return this._akas;      },
+    get _description(){ return this._description},
+}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-console.log(countries);
 
 
 /* ------------------------------------------------------------------------------------*/
 
 //FLAGS:
-
-
-
-China.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/320px-Flag_of_the_People%27s_Republic_of_China.svg.png");
-China.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_the_People%27s_Republic_of_China.svg");
-
-Japan.setFlag("https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/320px-Flag_of_Japan.svg.png");
-Japan.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Japan.svg");
-
-Mongolia.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Mongolia.svg/320px-Flag_of_Mongolia.svg.png");
-Mongolia.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Mongolia.svg");
-
-Taiwan.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Flag_of_the_Republic_of_China.svg/320px-Flag_of_the_Republic_of_China.svg.png");
-Taiwan.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_the_Republic_of_China.svg");
-
-Macau.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Flag_of_Macau.svg/320px-Flag_of_Macau.svg.png");
-Macau.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Macau.svg");
-
-HongKong.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Flag_of_Hong_Kong.svg/320px-Flag_of_Hong_Kong.svg.png");
-HongKong.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Hong_Kong.svg");
-
-SouthKorea.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/320px-Flag_of_South_Korea.svg.png");
-SouthKorea.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_South_Korea.svg");
-
-
-NorthKorea.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Flag_of_North_Korea.svg/320px-Flag_of_North_Korea.svg.png");
-NorthKorea.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_North_Korea.svg");
-
-Turkey.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/320px-Flag_of_Turkey.svg.png");
-Turkey.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Turkey.svg");
-
-
-Yemen.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Flag_of_Yemen.svg/320px-Flag_of_Yemen.svg.png");
-Yemen.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Yemen.svg");
-
-Qatar.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Qatar.svg/320px-Flag_of_Qatar.svg.png");
-Qatar.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Qatar.svg");
-
-Bahrain.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Bahrain.svg/320px-Flag_of_Bahrain.svg.png");
-Bahrain.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Bahrain.svg");
-
-Kuwait.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Flag_of_Kuwait.svg/320px-Flag_of_Kuwait.svg.png");
-Kuwait.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Kuwait.svg");
-
-
-SaudiArabia.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/320px-Flag_of_Saudi_Arabia.svg.png");
-SaudiArabia.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Saudi_Arabia.svg");
-
-ArabEmirates.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_United_Arab_Emirates.svg/320px-Flag_of_the_United_Arab_Emirates.svg.png");
-ArabEmirates.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_the_United_Arab_Emirates.svg");
-
-Oman.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Oman.svg/320px-Flag_of_Oman.svg.png");
-Oman.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Oman.svg");
-
-
-Philippines.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_the_Philippines.svg/320px-Flag_of_the_Philippines.svg.png");
-Philippines.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_the_Philippines.svg");
-
-EastTimor.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Flag_of_East_Timor.svg/320px-Flag_of_East_Timor.svg.png");
-EastTimor.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_East_Timor.svg");
-
-Indonesia.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/320px-Flag_of_Indonesia.svg.png");
-Indonesia.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Indonesia.svg");
-
-Brunei.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Brunei.svg/320px-Flag_of_Brunei.svg.png");
-Brunei.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Brunei.svg");
-
-Vietnam.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/320px-Flag_of_Vietnam.svg.png");
-Vietnam.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Vietnam.svg");
-
-Thailand.setwikiURI("flagFile","https://en.wikipedia.org/wiki/File:Flag_of_Thailand.svg");
-Thailand.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Thailand.svg/320px-Flag_of_Thailand.svg.png");
-
-Malaysia.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Flag_of_Malaysia.svg/320px-Flag_of_Malaysia.svg.png");
-Malaysia.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Malaysia.svg");
-
-Myanmar.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Flag_of_Myanmar.svg/320px-Flag_of_Myanmar.svg.png");
-Myanmar.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Myanmar.svg");
-
-Laos.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Flag_of_Laos.svg/320px-Flag_of_Laos.svg.png");
-Laos.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Laos.svg");
-
-Cambodia.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_Cambodia.svg/320px-Flag_of_Cambodia.svg.png");
-Cambodia.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Cambodia.svg");
-
-SriLanka.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Flag_of_Sri_Lanka.svg/320px-Flag_of_Sri_Lanka.svg.png");
-SriLanka.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Sri_Lanka.svg");
-
-Pakistan.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Flag_of_Pakistan.svg/320px-Flag_of_Pakistan.svg.png");
-Pakistan.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Pakistan.svg");
-
-India.setFlag("https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/320px-Flag_of_India.svg.png");
-India.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_India.svg");
-
-Nepal.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Flag_of_Nepal.svg/197px-Flag_of_Nepal.svg.png");
-Nepal.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Nepal.svg");
-
-Maldives.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Maldives.svg/320px-Flag_of_Maldives.svg.png");
-Maldives.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Maldives.svg");
-
-Bhutan.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Flag_of_Bhutan.svg/320px-Flag_of_Bhutan.svg.png");
-Bhutan.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Bhutan.svg");
-
-Bangladesh.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Flag_of_Bangladesh.svg/320px-Flag_of_Bangladesh.svg.png");
-Bangladesh.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Bangladesh.svg");
-
-
-Kazakhstan.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Flag_of_Kazakhstan.svg/320px-Flag_of_Kazakhstan.svg.png");
-Kazakhstan.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Kazakhstan.svg");
-
-
-
-Afghanistan.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Afghanistan.svg/320px-Flag_of_Afghanistan.svg.png");
-Afghanistan.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Afghanistan.svg");
-
-
-Tajikistan.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Flag_of_Tajikistan.svg/320px-Flag_of_Tajikistan.svg.png");
-Tajikistan.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Tajikistan.svg");
-
-
-
-
-Georgia.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Georgia.svg/320px-Flag_of_Georgia.svg.png");
-Georgia.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Georgia.svg");
-
-
-Armenia.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Flag_of_Armenia.svg/320px-Flag_of_Armenia.svg.png");
-Armenia.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Armenia.svg");
-
-Azerbaijan.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Azerbaijan.svg/320px-Flag_of_Azerbaijan.svg.png");
-Azerbaijan.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Azerbaijan.svg");
-
-Abkhazia.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Flag_of_the_Republic_of_Abkhazia.svg/320px-Flag_of_the_Republic_of_Abkhazia.svg.png");
-Abkhazia.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_the_Republic_of_Abkhazia.svg");
-
-
-
-
-
-Artsakh.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Flag_of_Artsakh.svg/320px-Flag_of_Artsakh.svg.png");
-Artsakh.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Artsakh.svg");
-
-
-
-
-
-SouthOssetia.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Flag_of_South_Ossetia.svg/320px-Flag_of_South_Ossetia.svg.png");
-SouthOssetia.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_South_Ossetia.svg");
-
-
-
-Iraq.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Flag_of_Iraq.svg/320px-Flag_of_Iraq.svg.png");
-Iraq.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Iraq.svg");
-
-Jordan.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Flag_of_Jordan.svg/320px-Flag_of_Jordan.svg.png");
-Jordan.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Jordan.svg");
-
-
-
-Israel.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Israel.svg/320px-Flag_of_Israel.svg.png");
-Israel.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Israel.svg");
-
-
-
-Lebanon.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Flag_of_Lebanon.svg/320px-Flag_of_Lebanon.svg.png");
-Lebanon.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Lebanon.svg");
-
-
-
-
-
-
-Palestine.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_Palestine.svg/320px-Flag_of_Palestine.svg.png");
-Palestine.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Palestine.svg");
-
-
-Syria.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Flag_of_Syria.svg/320px-Flag_of_Syria.svg.png");
-Syria.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Syria.svg");
-
-
-Iran.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/320px-Flag_of_Iran.svg.png");
-Iran.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Iran.svg");
-
-
-
-
-NorthernCyprus.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Flag_of_the_Turkish_Republic_of_Northern_Cyprus.svg/320px-Flag_of_the_Turkish_Republic_of_Northern_Cyprus.svg.png");
-NorthernCyprus.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_the_Turkish_Republic_of_Northern_Cyprus.svg");
-
-
-
-Egypt.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Egypt.svg/320px-Flag_of_Egypt.svg.png");
-Egypt.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Egypt.svg");
-
-Russia.setFlag("https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/320px-Flag_of_Russia.svg.png");
-Russia.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Russia.svg");
-
-Singapore.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Singapore.svg/320px-Flag_of_Singapore.svg.png");
-Singapore.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Singapore.svg");
-
-
-
-
-
-Cyprus.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Cyprus.svg/320px-Flag_of_Cyprus.svg.png");
-Cyprus.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Cyprus.svg");
-
-
-Kyrgyzstan.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Flag_of_Kyrgyzstan.svg/320px-Flag_of_Kyrgyzstan.svg.png");
-Kyrgyzstan.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Kyrgyzstan.svg");
-
-Uzbekistan.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Flag_of_Uzbekistan.svg/320px-Flag_of_Uzbekistan.svg.png");
-Uzbekistan.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Uzbekistan.svg");
-
-Turkmenistan.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Turkmenistan.svg/320px-Flag_of_Turkmenistan.svg.png");
-Turkmenistan.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Turkmenistan.svg");
 
 
 
@@ -791,9 +747,6 @@ Turkmenistan.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag
 .setFlag("");
 .addRefURI("flagFile", "");
 */
-
-
-
 
 
 // COUNTRY MAPS
@@ -805,28 +758,69 @@ Turkmenistan.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag
 
 
 // CHINA
-China.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/7/7f/China_CIA_map.png");
-China.addRefURI("countryMapFile", "https://ast.wikipedia.org/wiki/Ficheru:China_CIA_map.png");
 
 
 
 
 
 
+/*
+
+.addRefURI("wikiAtlas", "");
+.setCountryMap("");
+.addRefURI("CountryMapFile", "");
+
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+/*
+.addRefURI("wikiAtlas", "");
+.setCountryMap("");
+.addRefURI("CountryMapFile", "");
+
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+/*
+.addRefURI("wikiAtlas", "");
+.setCountryMap("");
+.addRefURI("CountryMapFile", "");
+
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+/*
+.addRefURI("wikiAtlas", "");
+.setCountryMap("");
+.addRefURI("CountryMapFile", "");
+
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+/*
+.addRefURI("wikiAtlas", "");
+.setCountryMap("");
+.addRefURI("CountryMapFile", "");
+
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+/*
+.addRefURI("wikiAtlas", "");
+.setCountryMap("");
+.addRefURI("CountryMapFile", "");
+
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+
+/*
+.addRefURI("wikiAtlas", "");
+.setCountryMap("");
+.addRefURI("CountryMapFile", "");
+
+Egypt.addRefURI("redLocationMap", "");
+Egypt.addRefURI("redLocationMapFile", "");
+*/
 
 
 
 
 //SVG LOCATORS
-China.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_China_(location_map_scheme)");
-Japan.addRefURI("SVG_locator","https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Japan_(location_map_scheme)");
-Mongolia.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Mongolia_(location_map_scheme)");
-Taiwan.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_the_Republic_of_China_(location_map_scheme)");
-Macau.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Macau_(location_map_scheme)");
-HongKong.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Hong_Kong_(location_map_scheme)");
-SouthKorea.addRefURI("SVG_locator","https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_South_Korea_(location_map_scheme)");
-NorthKorea.addRefURI("SVG_locator","https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_North_Korea_(location_map_scheme)");
-Turkey.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Turkey_(location_map_scheme)");
 
 
 
@@ -838,20 +832,59 @@ Turkey.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG
 
 
 
-Turkey.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Turkey_in_its_region.svg/640px-Turkey_in_its_region.svg.png");
-Turkey.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:Turkey_in_its_region.svg");
-
-
-
-// REGION MAPS
-
-China.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/CHN_orthographic.svg/480px-CHN_orthographic.svg.png");
-
 
 /*
 .setRegionMap("");
 .addRefURI("regionMapFile", "");
 
+.setFlag("");
+.addRefURI("flagFile", "");
+
+.addRefURI("SVG_locator", "");
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+*/
+
+
+
+
+
+
+
+
+Aruba.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Aruba_in_its_region.svg/640px-Aruba_in_its_region.svg.png");
+Aruba.addRefURI("regionMapFile", "https://en.wikipedia.org/wiki/File:Aruba_in_its_region.svg");
+
+
+Bonaire.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Bonaire_in_its_region.svg/640px-Bonaire_in_its_region.svg.png");
+Bonaire.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:Bonaire_in_its_region.svg");
+
+Curacao.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Curacao_in_its_region.svg/640px-Curacao_in_its_region.svg.png");
+Curacao.addRefURI("regionMapFile", "https://en.wikipedia.org/wiki/File:Curacao_in_its_region.svg");
+
+
+
+/*
+.setCountryMap("");
+.addRefURI("CountryMapFile", "");
+
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+
+.setFlag("");
+.addRefURI("flagFile", "");
+
+.addRefURI("SVG_locator", "");
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+*/
+
+
+
+
+// REGION MAPS
+
+/*
 .setFlag("");
 .addRefURI("flagFile", "");
 
@@ -894,9 +927,6 @@ China.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/CH
 /* -------------------------------------------------------------------------------------*/
 // TRIVIA DATA:
 
-China.languages.push("Mongolian", "Uyghur", "Tibetan", "Zhuang");
-China.cities.push("Shangai", "Chongqing");
-China.addRefURI("globeFile", "https://commons.wikimedia.org/wiki/File:CHN_orthographic.svg");
 
 
 

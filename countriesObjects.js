@@ -184,15 +184,10 @@ Honduras.wikiURI = "https://en.wikipedia.org/wiki/Honduras"
 //countries.unshift(Honduras);
 //myCountry=Honduras;
 
-const Belize = new EnglishSpeakingCountries("Belize", "Belize", "Belmopan", "America");
 Belize.languages = [Belize.language, "Kriol", "Spanish", "Mayan languages","German", "Garifuna", "Chinese"];
-Belize.region ="Central America";
 Belize.countryMap = "https://i.postimg.cc/J42FVPqS/Belize-country-Map.png";
 Belize.regionMap = "https://i.postimg.cc/W3qy4r1X/Belize-region-Map.png";
-Belize.wikiURI="https://en.wikipedia.org/wiki/Belize";
-//countries.unshift(Belize);
-//console.log(Belize);
-//myCountry = Belize;
+
 
 const Guatemala = new SpanishSpeakingCountry("Guatemala", "República de Guatemala", "Guatemala City", "America");
 Guatemala.region ="Central America";
@@ -218,28 +213,19 @@ Panama.URIs = [{
 //myCountry = Panama;
 
 
-const CostaRica = new SpanishSpeakingCountry("Costa Rica", "República de Costa Rica", "San José", "America");
-CostaRica.region = "Central America";
-CostaRica.wikiURI = "https://en.wikipedia.org/wiki/Costa_Rica";
+
 CostaRica.countryMap = "https://i.postimg.cc/3RVPNfF4/Costa-Rica-country-Map.png";
 CostaRica.regionMap = "https://i.postimg.cc/mZd0PD8f/Costa-Rica-Region.png";
 CostaRica.URIs = [{
     SVG_locator : "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Costa_Rica_(location_map_scheme)",
     regionMap : "https://commons.wikimedia.org/wiki/File:Costa_Rica_in_its_region.svg",
 }];
-//console.log(CostaRica);
-//countries.unshift(CostaRica);
-//myCountry = CostaRica;
-
-const Mexico = new SpanishSpeakingCountry("México", "Estados Unidos Mexicanos", "Ciudad de México");
-//console.log(Mexico);
 
 
 
-const Cuba = new antillesCountry("Cuba", "República de Cuba", "Havana", "Spanish", "Greater Antilles");
+
 Cuba.countryMap = "https://i.postimg.cc/L8ZB9v67/Cuba-country-map.png";
 Cuba.regionMap = "https://i.postimg.cc/h42FF8jT/Cuba-region-Map.png";
-Cuba.wikiURI = "https://en.wikipedia.org/wiki/Cuba";
 Cuba.URIs = [{
     SVG_locator : "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Cuba_(location_map_scheme)",
 }];
@@ -273,54 +259,35 @@ Venezuela.wikiURI = "https://en.wikipedia.org/wiki/Venezuela";
 
 
 
-const Suriname = new anySpeakingCountry("Suriname", "Republic of Suriname", "Paramaribo", "America", "Dutch");
+
 Suriname.languages = [Suriname.language, "Sranan Tongo", "English", "Caribbean Hindustani", "Javanese", "Maroon", "Carib", "Arawak", "Hakka", "Cantonese"];
-Suriname.region = "South America";
 Suriname.countryMap = "https://i.postimg.cc/02XYvZ3R/Surinam-country-Map.png";
-Suriname.wikiURI = "https://en.wikipedia.org/wiki/Suriname";
-//countries.unshift(Suriname);
-//console.log(Suriname);
-//myCountry = Suriname;
 
 
-const Paraguay = new SpanishSpeakingCountry("Paraguay", "Republic of Paraguay", "Asunción");
+
 Paraguay.nickname= ["República del Paraguay"];
-Paraguay.region = "South America";
 Paraguay.landlocked = true;
 Paraguay.cities.push("Ciudad del Este");
-Paraguay.wikiURI = "https://en.wikipedia.org/wiki/Paraguay";
 Paraguay.URIs = {
 
     countryMap : "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Paraguay_-_Location_Map_%282012%29_-_PRY_-_UNOCHA.svg/480px-Paraguay_-_Location_Map_%282012%29_-_PRY_-_UNOCHA.svg.png",
     countryMapFile : "https://en.wikipedia.org/wiki/File:Paraguay_-_Location_Map_(2012)_-_PRY_-_UNOCHA.svg",
 };
-Paraguay.countryMap = Paraguay.URIs.countryMap;
-//console.log(Paraguay);
-//myCountry = Paraguay;
 
 
 
-const Peru = new SpanishSpeakingCountry("Peru", "República del Perú ", "Lima" );
-Peru.region = "South America";
-Peru.wikiURI = "https://en.wikipedia.org/wiki/Peru";
 Peru.cities.push("Arequipa");
 Peru.nickname = ["Piruw Republika (Quechua)", "Piruw Suyu (Aymara)"];
 Peru.URIs = {
     countryMap : "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Peru_-_Location_Map_%282011%29_-_PER_-_UNOCHA.svg/480px-Peru_-_Location_Map_%282011%29_-_PER_-_UNOCHA.svg.png",
     countryMapFile : "https://en.wikipedia.org/wiki/File:Peru_-_Location_Map_(2011)_-_PER_-_UNOCHA.svg",
 };
-Peru.countryMap = Peru.URIs.countryMap;
-//console.log(Peru);
-//myCountry = Peru;
 
-
-const Bolivia = new SpanishSpeakingCountry("Bolivia", "Plurinational State of Bolivia", "Sucre");
 Bolivia.nickname = ["Estado Plurinacional de Bolivia"];
 Bolivia.landlocked = true;
 Bolivia.region = "South America";
 Bolivia.cities.push("La Paz", "Santa Cruz de la Sierra");
 Bolivia.languages.push(" Guarani", "Aymara", "Quechua");
-Bolivia.wikiURI = "https://en.wikipedia.org/wiki/Bolivia";
 Bolivia.URIs = {
     countryMap : "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Bolivia_-_Location_Map_%282011%29_-_BOL_-_UNOCHA.svg/480px-Bolivia_-_Location_Map_%282011%29_-_BOL_-_UNOCHA.svg.png",
     countryMapFile : "https://en.wikipedia.org/wiki/File:Bolivia_-_Location_Map_(2011)_-_BOL_-_UNOCHA.svg",
@@ -329,84 +296,56 @@ Bolivia.countryMap = Bolivia.URIs.countryMap;
 //console.log(Bolivia);
 //myCountry = Bolivia;
 
-const Ecuador = new SpanishSpeakingCountry("Ecuador", "Republic of Ecuador", "Quito");
+
 Ecuador.nickname = ["República del Ecuador", "Ikwadur Ripuwlika (Quechua)", "Ekuatur Nunka (Shuar)"];
-Ecuador.region = "South America";
 Ecuador.languages.push("Quechua", "Shuar");
-Ecuador.wikiURI = "https://en.wikipedia.org/wiki/Ecuador";
 Ecuador.URIs = {
     countryMap : "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ecuador_-_Location_Map_%282013%29_-_ECU_-_UNOCHA.svg/480px-Ecuador_-_Location_Map_%282013%29_-_ECU_-_UNOCHA.svg.png",
     countryMapFile : "https://en.wikipedia.org/wiki/File:Ecuador_-_Location_Map_(2013)_-_ECU_-_UNOCHA.svg",
 };
-Ecuador.countryMap = Ecuador.URIs.countryMap;
-//console.log(Ecuador);
-//myCountry = Ecuador;
 
 
 
-const Uruguay = new SpanishSpeakingCountry("Uruguay", "República Oriental del Uruguay", "Montevideo");
+
 Uruguay.nickname = ["República Oriental del Uruguay"];
-Uruguay.region = "South America";
-Uruguay.wikiURI = "https://en.wikipedia.org/wiki/Uruguay";
 Uruguay.URIs = {
     countryMap : "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Uruguay_-_Location_Map_%282013%29_-_URY_-_UNOCHA.svg/480px-Uruguay_-_Location_Map_%282013%29_-_URY_-_UNOCHA.svg.png",
     countryMapFile : "https://en.wikipedia.org/wiki/File:Uruguay_-_Location_Map_(2013)_-_URY_-_UNOCHA.svg",
 };
-Uruguay.countryMap = Uruguay.URIs.countryMap;
-//console.log(Uruguay);
 
-const Colombia = new SpanishSpeakingCountry("Colombia", "República de Colombia", "Bogotá");
-Colombia.wikiURI = "https://en.wikipedia.org/wiki/Colombia";
+
 Colombia.cities.push("Cartagena", "Medellín", "Barranquilla", "Cali");
-Colombia.region = "South America";
 Colombia.URIs = {
     countryMap: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Colombia_-_Location_Map_%282013%29_-_COL_-_UNOCHA.svg/480px-Colombia_-_Location_Map_%282013%29_-_COL_-_UNOCHA.svg.png",
     countryMapFile: "https://en.wikipedia.org/wiki/File:Colombia_-_Location_Map_(2013)_-_COL_-_UNOCHA.svg",
 };
-Colombia.countryMap = Colombia.URIs.countryMap;
-//console.log(Colombia);
-//myCountry = Colombia;
 
-const Brazil = new anySpeakingCountry("Brazil", "Federative Republic of Brazil", "Brasilia", "America", "Portuguese" );
 Brazil.geoRegion = "Latin America";
-Brazil.region = "South America";
 Brazil.cities.push("Sao Paulo");
 Brazil.languages.push("Tucano", "Nheengatu", "Baniwa");
-Brazil.wikiURI = "https://en.wikipedia.org/wiki/Brazil";
 
 
-const Chile = new SpanishSpeakingCountry("Chile", "República de Chile", "Santiago");
-//console.log(Chile);
-Chile.region = "South America";
-Chile.wikiURI = "https://en.wikipedia.org/wiki/Chile";
 
-const UnitedStates = new EnglishSpeakingCountries("United States", "United States of America", "Washington, D.C.", "America");
-UnitedStates.region = "North America";
-UnitedStates.wikiURI = "https://en.wikipedia.org/wiki/United_States";
 
-const FrenchGuiana = new FrenchSpeakingCountries("French Guiana", "Department of French Guiana", "Cayenne", "America");
-FrenchGuiana.region = "South America";
+
+
 FrenchGuiana.territory = true;
-FrenchGuiana.wikiURI = "https://en.wikipedia.org/wiki/French_Guiana";
 
 
-const Guyana = new anySpeakingCountry("Guyana", "Co-operative Republic of Guyana", "Georgetown", "America", "English");
+
 Guyana.languages.push("Guyanese Creole", "Akawaio", "Macushi", "Waiwai", "Arawak (Lokono)", "Patamona", "Warrau", "Carib", "Wapishana", "Pemon (Arekuna)", "Mawayana");
-Guyana.region = "South America";
 Guyana.geoRegion = "Anglophone-Caribbean";
-Guyana.wikiURI = "https://en.wikipedia.org/wiki/Guyana";
+
 Guyana.URIs = {
     countryMap : "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Guyana_-_Location_Map_%282013%29_-_GUY_-_UNOCHA.svg/480px-Guyana_-_Location_Map_%282013%29_-_GUY_-_UNOCHA.svg.png",
     countryMapFile : "https://en.wikipedia.org/wiki/File:Guyana_-_Location_Map_(2013)_-_GUY_-_UNOCHA.svg",
 };
-Guyana.countryMap = Guyana.URIs.countryMap;
-//myCountry = Guyana;
 
-const Canada = new anySpeakingCountry("Canada", "Canada", "	Ottawa", "America", "English");
+
 Canada.languages.push("French");
 Canada.region = "North America";
 Canada.cities.push("Toronto", "Quebec City");
-Canada.wikiURI = "https://en.wikipedia.org/wiki/Canada";
+
 
 const Jamaica = new antillesCountry("Jamaica", "Jamaica", "Kingston", "English", "Greater Antilles");
 Jamaica.languages = [Jamaica.language, "Jamaican Patois"];
@@ -802,15 +741,10 @@ PuertoRico.countryMap = PuertoRico.URIs.countryMap;
     //countries.unshift(CaymanIslands);
 
 
-    const Aruba = new EnglishSpeakingCountries("Aruba", "Aruba", "Oranjestad", "America");
-    Aruba.language = "Dutch";
-    Aruba.island = true;
     Aruba.territory = "Neatherlands";
     Aruba.ocean = "Atlantic";
     Aruba.sea = "Caribean";
     Aruba.specificRegion = "Lesser Antilles";
-    //console.log(Aruba);
-    //countries.unshift(Aruba);
 
     const SaintLucia = new islandCountry("Saint Lucia", "Saint Lucia", "Castries", "America", "English", "Atlantic", "Caribean");
     SaintLucia.specificRegion ="Lesser Antilles";
@@ -829,7 +763,6 @@ PuertoRico.countryMap = PuertoRico.URIs.countryMap;
     //console.log(Grenada);
     //countries.unshift(Grenada);
 
-    const AntiguaandBarbuda = new EnglishSpeakingCountries("Antigua and Barbuda", "Antigua and Barbuda", "St. John's", "America");
     AntiguaandBarbuda.region = "Antillas"
     AntiguaandBarbuda.specificRegion = "Lesser Antilles";
     AntiguaandBarbuda.island = true;
@@ -837,14 +770,9 @@ PuertoRico.countryMap = PuertoRico.URIs.countryMap;
     AntiguaandBarbuda.ocean = "Atlantic";
     AntiguaandBarbuda.sea = "Caribean";
     AntiguaandBarbuda.languages = [AntiguaandBarbuda.language, "Creole"];
-    //console.log(AntiguaandBarbuda);
-    //countries.unshift(AntiguaandBarbuda);
 
-    const Bahamas = new antillesCountry("The Bahamas", "Commonwealth of The Bahamas", "Nassau", "English");
     Bahamas.languages = [Bahamas.language, "Bahamian Creole"];
-    //console.log(Bahamas);
-    //countries.unshift(Bahamas);
-
+  
     const TrinidadandTobago = new islandCountry("Trinidad and Tobago", "Republic of Trinidad and Tobago", "Port of Spain", "America", "English", "Atlantic", "Caribean");
     TrinidadandTobago.cities = ["Chaguanas"];
     TrinidadandTobago.islands = ["Trinidad", "Tobago", "Monos", "Huevos", "Gaspar Grande (Gasparee)", "Little Tobago", "St. Giles Island"];
@@ -852,97 +780,59 @@ PuertoRico.countryMap = PuertoRico.URIs.countryMap;
     //console.log(TrinidadandTobago);
     //countries.unshift(TrinidadandTobago);
 
-    const Barbados = new antillesCountry("Barbados", "Barbados", "Bridgetown", "English", "Lesser Antilles");
+    
     Barbados.languages= [Barbados.language, "Bajan Creole"];
-    //console.log(Barbados);
-    //countries.unshift(Barbados);
 
-    const Dominica = new antillesCountry("Dominica", "Commonwealth of Dominica", "Roseau", "English", "Lesser Antilles");
     Dominica.languages = [Dominica.language, "Dominican Creole", "French"];
-    //console.log(Dominica);    
-    //countries.unshift(Dominica);
 
-    const SaintKitts = new antillesCountry("Saint Kitts and Nevis", "Federation of Saint Christopher and Nevis", "Basseterre", "English", "Lesser Antilles");
     SaintKitts.cities = [SaintKitts.capital, "Charlestown"];
     SaintKitts.languages = [SaintKitts.language, "Saint Kitts Creole"];
     SaintKitts.islands = ["Saint Kitts", "Nevis"];
-    //console.log(SaintKitts);
-    //countries.unshift(SaintKitts);
-
-    const SaintVincentGrenadines = new antillesCountry("Saint Vincent and the Grenadines", "Saint Vincent and the Grenadines", "Kingstown", "English", "Lesser Antilles");
+    
     SaintVincentGrenadines.islands = ["Saint Vincent", "Young Island", "Bequia", "Mustique", "Canouan", "Union Island", "Mayreau", "Petit St Vincent", "Palm Island", "Petit Nevis", "Petit Mustique"];
     SaintVincentGrenadines.languages = [SaintVincentGrenadines.language, "Vincentian Creole"];
-    //console.log(SaintVincentGrenadines);
-    //countries.unshift(SaintVincentGrenadines);
-
+    
     const Anguilla = new antillesCountry("Anguilla", "Anguilla", "The Valley", "English", "Lesser Antilles");
     Anguilla.territory = "United Kingdom";
-    //console.log(Anguilla);
-    //countries.unshift(Anguilla);
-
+    
     const Bonaire = new antillesCountry("Bonaire", "Bonaire", "Kralendijk", "Dutch", "Lesser Antilles");
     Bonaire.territory = "Neatherlands";
     Bonaire.languages = [Bonaire.language, "Papiamento"];
-    //console.log(Bonaire);
-    //countries.unshift(Bonaire);
+  
 
-    const VirginIslandsUK = new antillesCountry("Virgin Islands", "British Virgin Islands", "Road Town", "English", "Lesser Antilles" );
     VirginIslandsUK.territory = "United Kingdom";
-    //console.log(VirginIslandsUK);
-    //countries.unshift(VirginIslandsUK);
-
-    const VirginIslandsUSA = new antillesCountry("Virgin Islands", "Virgin Islands of the United States", "Charlotte Amalie", "English", "Lesser Antilles");
+    
     VirginIslandsUSA.territory = "United States of America";
     VirginIslandsUSA.languages = [VirginIslandsUSA.language, "Virgin Islands Creole English"];
     VirginIslandsUSA.nickname = ["U.S. Virgin Islands", "American Virgin Islands"];
-    //console.log(VirginIslandsUSA);
-    //countries.unshift(VirginIslandsUSA);
-
-    const Curacao = new antillesCountry("Curaçao", "Curaçao", "Willemstad", "Dutch", "Lesser Antilles");
+    
     Curacao.territory = "Neatherlands";
     Curacao.languages = [Curacao.language, "Papiamento", "English"];
-    //console.log(Curacao);
-    //countries.unshift(Curacao);
 
-    const Guadeloupe = new antillesCountry("Guadeloupe", "Département d’Outre-Mer de la Guadeloupe", "Basse-Terre", "French", "Lesser Antilles");
+
     Guadeloupe.islands = ["Basse-Terre", "Grande-Terre", "Marie-Galante", "La Désirade","Îles des Saintes"];
     Guadeloupe.territory = "France";
     Guadeloupe.languages = [Guadeloupe.language ,"Guadeloupean Creole", "Antillean Creole"];
-    //console.log(Guadeloupe);
-    //countries.unshift(Guadeloupe);
 
-    const Martinique = new antillesCountry("Martinique", "Martinique", "Fort-de-France", "French", "Lesser Antilles");
     Martinique.territory = "France";
     Martinique.languages = [Martinique.language, "Antillean Creole", "Créole Martiniquais"];
     Martinique.territory = "United Kingdom";
-    //console.log(Martinique);
-    //countries.unshift(Martinique);
 
-    const Montserrat = new antillesCountry("Montserrat", "Montserrat", "Plymouth", "English", "Lesser Antilles");
-    Montserrat.territory = "United Kingdom";
-    Montserrat.cities = [Montserrat.capital, "Brades", "Little Bay"];
-    //console.log(Montserrat);
-    //countries.unshift(Montserrat);
-
-    const Saba = new antillesCountry("Saba", "Saba", "The Bottom", "Dutch", "Lesser Antilles");
     Saba.languages =  [Saba.language, "English"];
     Saba.territory = "Neatherlands";
     //console.log(Saba);
     //countries.unshift(Saba);
 
-    const StBarths = new antillesCountry("Saint Barthélemy", "Collectivité territoriale de Saint-Barthélemy", "Gustavia", "French", "Lesser Antilles");
+    Montserrat.territory = "United Kingdom";
+    Montserrat.cities = [Montserrat.capital, "Brades", "Little Bay"];
+    
     StBarths.nickname = ["St-Barth", "St. Barths","St. Barts"];
     StBarths.territory = "France";
     StBarths.languages = [StBarths.language, "Saint-Barthélemy French", "Antillean Creole"];
-    //console.log(StBarths);
-    //countries.unshift(StBarths);
+    
 
-    const SaintMartin = new antillesCountry("Saint Martin", "Saint Martin", "Marigot", "French", "Lesser Antilles");
     SaintMartin.territory = "France";
     SaintMartin.nickname = ["Sint Maarten", "The Friendly Island"];
-    //console.log(SaintMartin);
-    //countries.unshift(SaintMartin);
-
     const SintMaartin = new antillesCountry("Sint Maarten", "Sint Maarten" ,"Philipsburg", "Dutch", "Lesser Antilles");
     SintMaartin.territory = "Netherlands";
     SintMaartin.languages = [SintMaartin.language, "English"];
