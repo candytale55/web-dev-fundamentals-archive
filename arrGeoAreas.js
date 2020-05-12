@@ -3,11 +3,13 @@ const REGION = {
     _wikiURI: "",
     _countries : [],
     _akas : [""],
+    _description : "",
 
     get name()      {   return this._name;      },
     get wikiURI()   {   return this._wikiURI;   },
     get countries() {   return this._countries; },
     get akas()      {   return this._akas;      },
+    get description()   {   return this._description;   };
 
 }
 

@@ -199,6 +199,13 @@ class Island extends Country {
     }
 }
 
+
+
+
+
+
+
+
 /*
   ************************************************************************************************************************************************************************************
 */
@@ -217,39 +224,48 @@ Mexico.setwikiURI("https://en.wikipedia.org/wiki/Mexico");
 
 
 
-const Belize = new Country("Belize", "Belize", "Belmopan", "English");
-Belize.setwikiURI("https://en.wikipedia.org/wiki/Belize");
-
-
-const CostaRica = new Country("Costa Rica", "República de Costa Rica", "San José", "Spanish");
-CostaRica.setwikiURI("https://en.wikipedia.org/wiki/Costa_Rica");
-
-
+// GREATER ANTILLES
 const Cuba = new Country("Cuba", "República de Cuba", "Havana", "Spanish");
 Cuba.setwikiURI("https://en.wikipedia.org/wiki/Cuba");
 
+const DominicanRepublic = new Country("Dominican Republic", "República Dominicana", "Santo Domingo", "Spanish");
+DominicanRepublic.setwikiURI("https://en.wikipedia.org/wiki/Dominican_Republic");
+
+const Haiti = new Country("Haiti", "Republic of Haiti", "Port-au-Prince", "French");
+Haiti.setwikiURI("https://en.wikipedia.org/wiki/Haiti");
+
+const PuertoRico = new Country("Puerto Rico", "Commonwealth of Puerto Rico", "San Juan", "Spanish");
+PuertoRico.setwikiURI("https://en.wikipedia.org/wiki/Puerto_Rico");
+
+const Jamaica = new Country("Jamaica", "Jamaica", "Kingston", "English");
+Jamaica.setwikiURI("https://en.wikipedia.org/wiki/Jamaica");
+
+const CaymanIslands = new Country("Cayman Islands", "Cayman Islands", "George Town", "English");
+CaymanIslands.setwikiURI("https://en.wikipedia.org/wiki/Cayman_Islands");
 
 
 
-const AntiguaandBarbuda = new Country("Antigua and Barbuda", "Antigua and Barbuda", "St. John's", "English");
-AntiguaandBarbuda.setwikiURI("https://en.wikipedia.org/wiki/Antigua_and_Barbuda");
+/* LESSER ANTILLES */
 
-const Bahamas = new Country("The Bahamas", "Commonwealth of The Bahamas", "Nassau", "English");
-Bahamas.setwikiURI("https://en.wikipedia.org/wiki/The_Bahamas");
+/* WAYWARD ISLANDS Saint Lucia, Saint Vincent, the Grenadines, Grenada, Dominica*/
+
+const SaintLucia = new Country("Saint Lucia", "Saint Lucia", "Castries", "America", "English");
+SaintLucia.setwikiURI("https://en.wikipedia.org/wiki/Saint_Lucia");
+
+const Grenada = new Country("Grenada", "Grenada","St. George's", "English");
+Grenada.setwikiURI("https://en.wikipedia.org/wiki/Grenada");
+
+const Dominica = new Country("Dominica", "Commonwealth of Dominica", "Roseau", "English");
+Dominica.setwikiURI("https://en.wikipedia.org/wiki/Dominica");
+
+const SaintVincentGrenadines = new Country("Saint Vincent and the Grenadines", "Saint Vincent and the Grenadines", "Kingstown", "English");
+SaintVincentGrenadines.setwikiURI("https://en.wikipedia.org/wiki/Saint_Vincent_and_the_Grenadines");
 
 const Barbados = new Country("Barbados", "Barbados", "Bridgetown", "English");
 Barbados.setwikiURI("https://en.wikipedia.org/wiki/Barbados");
 
-// Barbados CostaRica Cuba Dominica Dominican RepublicEl SalvadorGrenadaGuatemalaHaitiHondurasJamaicaMexicoNicaraguaPanamaSaint Kitts and NevisSaint LuciaSaint Vincent and the GrenadinesTrinidad and Tobago UnitedStates Canada Mexico  Bahamas Belize AntiguaandBarbuda
 
-const Dominica = new Country("Dominica", "Commonwealth of Dominica", "Roseau", "English");
-Dominica.setwikiURI("https://en.wikipedia.org/wiki/Dominica");
-    
-const SaintKitts = new Country("Saint Kitts and Nevis", "Federation of Saint Christopher and Nevis", "Basseterre", "English");
-SaintKitts.setwikiURI("https://en.wikipedia.org/wiki/Saint_Kitts_and_Nevis");
-
-const SaintVincentGrenadines = new Country("Saint Vincent and the Grenadines", "Saint Vincent and the Grenadines", "Kingstown", "English");
-SaintVincentGrenadines.setwikiURI("https://en.wikipedia.org/wiki/Saint_Vincent_and_the_Grenadines");
+// LEEWARD ISLANDS
 
 const VirginIslandsUK = new Country("Virgin Islands", "British Virgin Islands", "Road Town", "English");
 VirginIslandsUK.setwikiURI("https://en.wikipedia.org/wiki/British_Virgin_Islands");
@@ -257,30 +273,223 @@ VirginIslandsUK.setwikiURI("https://en.wikipedia.org/wiki/British_Virgin_Islands
 const VirginIslandsUSA = new Country("Virgin Islands", "Virgin Islands of the United States", "Charlotte Amalie", "English");
 VirginIslandsUSA.setwikiURI("https://en.wikipedia.org/wiki/United_States_Virgin_Islands");    
     
+const Anguilla = new Country("Anguilla", "Anguilla", "The Valley", "English");
+Anguilla.setwikiURI("https://en.wikipedia.org/wiki/Anguilla");
+
+const SaintMartin = new Country("Saint Martin", "Collectivity of Saint Martin", "Marigot", "French");
+SaintMartin.setwikiURI("https://en.wikipedia.org/wiki/Collectivity_of_Saint_Martin");
+
+const SintMaartin = new Country("Sint Maarten", "Sint Maarten" ,"Philipsburg", "Dutch");
+SintMaartin.setwikiURI("https://en.wikipedia.org/wiki/Sint_Maarten");
+
+const StBarths = new Country("Saint Barthélemy", "Collectivité territoriale de Saint-Barthélemy", "Gustavia", "French");
+StBarths.setwikiURI("https://en.wikipedia.org/wiki/Saint_Barth%C3%A9lemy");
+
+const Saba = new Country("Saba", "Saba", "The Bottom", "Dutch");
+Saba.setwikiURI("https://en.wikipedia.org/wiki/Saba");
+
+const SintEustatius = new Country("Sint Eustatius", "Sint Eustatius", "Oranjestad", "Dutch");
+SintEustatius.setwikiURI("https://en.wikipedia.org/wiki/Sint_Eustatius");
+
+const AntiguaandBarbuda = new Country("Antigua and Barbuda", "Antigua and Barbuda", "St. John's", "English");
+AntiguaandBarbuda.setwikiURI("https://en.wikipedia.org/wiki/Antigua_and_Barbuda");
+
+const SaintKitts = new Country("Saint Kitts and Nevis", "Federation of Saint Christopher and Nevis", "Basseterre", "English");
+SaintKitts.setwikiURI("https://en.wikipedia.org/wiki/Saint_Kitts_and_Nevis");
+
+const Montserrat = new Country("Montserrat", "Montserrat", "Plymouth", "English");
+Montserrat.setwikiURI("https://en.wikipedia.org/wiki/Montserrat");
+
 const Guadeloupe = new Country("Guadeloupe", "Département d’Outre-Mer de la Guadeloupe", "Basse-Terre", "French");
 Guadeloupe.setwikiURI("https://en.wikipedia.org/wiki/Guadeloupe");
 
 const Martinique = new Country("Martinique", "Martinique", "Fort-de-France", "French");
 Martinique.setwikiURI("https://en.wikipedia.org/wiki/Martinique");
 
-const Montserrat = new Country("Montserrat", "Montserrat", "Plymouth", "English");
-Montserrat.setwikiURI("https://en.wikipedia.org/wiki/Montserrat");
-
-const Saba = new Country("Saba", "Saba", "The Bottom", "Dutch");
-Saba.setwikiURI("https://en.wikipedia.org/wiki/Saba");
-
-const StBarths = new Country("Saint Barthélemy", "Collectivité territoriale de Saint-Barthélemy", "Gustavia", "French");
-StBarths.setwikiURI("https://en.wikipedia.org/wiki/Saint_Barth%C3%A9lemy");
-
-const SaintMartin = new Country("Saint Martin", "Collectivity of Saint Martin", "Marigot", "French");
-SaintMartin.setwikiURI("https://en.wikipedia.org/wiki/Collectivity_of_Saint_Martin");
 
 
+/*
+.setFlag("");
+.addRefURI("flagFile", "");
+/*
+.setFlag("");
+.addRefURI("flagFile", "");
+/*
+.setFlag("");
+.addRefURI("flagFile", "");
+/*
+.setFlag("");
+.addRefURI("flagFile", "");
+/*
+.setFlag("");
+.addRefURI("flagFile", "");
+/*
+.setFlag("");
+.addRefURI("flagFile", "");
+/*
+.setFlag("");
+.addRefURI("flagFile", "");
+/*
+.setFlag("");
+.addRefURI("flagFile", "");
+/*
+.setFlag("");
+.addRefURI("flagFile", "");
+/*
+.setFlag("");
+.addRefURI("flagFile", "");
+/*
+.setFlag("");
+.addRefURI("flagFile", "");
+/*
+.setFlag("");
+.addRefURI("flagFile", "");
+*/
 
 
-myCountry = SaintMartin;
+
+/*
+        Greenland
+        France	
+        Clipperton IslandSt. BarthélemySt. MartinSt. Pierre and Miquelon
+        Netherlands	
+        ArubaCuraçaoSint Maarten
+        United Kingdom	
+        AnguillaBermudaBritish Virgin IslandsCayman IslandsMontserratTurks and Caicos Islands
+        United States	
+        Puerto RicoUnited States Virgin Islands
+        Venezuela	
+        Federal Dependencies*/
 
 
+
+
+const Bahamas = new Country("The Bahamas", "Commonwealth of The Bahamas", "Nassau", "English");
+Bahamas.setwikiURI("https://en.wikipedia.org/wiki/The_Bahamas");
+
+
+
+
+
+// Barbados CostaRica Cuba Dominica Dominican RepublicEl SalvadorGrenadaGuatemalaHaitiHondurasJamaicaMexicoNicaraguaPanamaSaint Kitts and NevisSaint LuciaSaint Vincent and the GrenadinesTrinidad and Tobago UnitedStates Canada Mexico  Bahamas Belize AntiguaandBarbuda
+
+
+
+
+
+/*  CENTRAL AMERICA  */
+//  El Salvador, Costa Rica, Belize, Guatemala, Honduras, Nicaragua and Panama
+
+
+const Guatemala = new Country("Guatemala", "República de Guatemala", "Guatemala City", "Spanish");
+Guatemala.setwikiURI("https://en.wikipedia.org/wiki/Guatemala");
+
+const Belize = new Country("Belize", "Belize", "Belmopan", "English");
+Belize.setwikiURI("https://en.wikipedia.org/wiki/Belize");
+
+const Honduras = new Country("Honduras", "República de Honduras", "Tegucigalpa", "Spanish");
+Honduras.setwikiURI("https://en.wikipedia.org/wiki/Honduras");
+
+const ElSalvador = new Country("El Salvador", "República de El Salvador", "San Salvador", "Spanish");
+ElSalvador.setwikiURI("https://en.wikipedia.org/wiki/El_Salvador");
+
+const Nicaragua = new Country("Nicaragua", "República de Nicaragua", "Managua", "Spanish");
+Nicaragua.setwikiURI("https://en.wikipedia.org/wiki/Nicaragua");
+
+const CostaRica = new Country("Costa Rica", "República de Costa Rica", "San José", "Spanish");
+CostaRica.setwikiURI("https://en.wikipedia.org/wiki/Costa_Rica");
+
+const Panama = new Country("Panama", "República de Panamá", "Panama City", "Spanish");
+Panama.setwikiURI("https://en.wikipedia.org/wiki/Panama");
+
+const TrinidadandTobago = new Country("Trinidad and Tobago", "Republic of Trinidad and Tobago", "Port of Spain", "English");
+
+
+
+/*
+.setFlag("");
+.addRefURI("flagFile", "");
+/*
+.setFlag("");
+.addRefURI("flagFile", "");
+/*
+.setFlag("");
+.addRefURI("flagFile", "");
+/*
+.setFlag("");
+.addRefURI("flagFile", "");
+/*
+.setFlag("");
+.addRefURI("flagFile", "");
+/*
+.setFlag("");
+.addRefURI("flagFile", "");
+/*
+.setFlag("");
+.addRefURI("flagFile", "");
+/*
+.setFlag("");
+.addRefURI("flagFile", "");
+/*
+.setFlag("");
+.addRefURI("flagFile", "");
+/*
+.setFlag("");
+.addRefURI("flagFile", "");
+/*
+.setFlag("");
+.addRefURI("flagFile", "");
+/*
+.setFlag("");
+.addRefURI("flagFile", "");
+/*
+.setFlag("");
+.addRefURI("flagFile", "");
+/*
+.setFlag("");
+.addRefURI("flagFile", "");
+/*
+.setFlag("");
+.addRefURI("flagFile", "");
+/*
+.setFlag("");
+.addRefURI("flagFile", "");
+/*
+.setFlag("");
+.addRefURI("flagFile", "");
+/*
+.setFlag("");
+.addRefURI("flagFile", "");
+/*
+.setFlag("");
+.addRefURI("flagFile", "");
+/*
+.setFlag("");
+.addRefURI("flagFile", "");
+/*
+.setFlag("");
+.addRefURI("flagFile", "");
+/*
+.setFlag("");
+.addRefURI("flagFile", "");
+/*
+.setFlag("");
+.addRefURI("flagFile", "");
+/*
+.setFlag("");
+.addRefURI("flagFile", "");
+/*
+.setFlag("");
+.addRefURI("flagFile", "");
+/*
+.setFlag("");
+.addRefURI("flagFile", "");
+/*
+.setFlag("");
+.addRefURI("flagFile", "");
+/*
+.setFlag("");
+.addRefURI("flagFile", "");
 /*
 .setFlag("");
 .addRefURI("flagFile", "");
@@ -298,7 +507,8 @@ myCountry = SaintMartin;
 // SOUTH AMERICA
 
 
-
+const Venezuela = new Country("Venezuela", "Bolivarian Republic of Venezuela", "Caracas", "Spanish");
+Venezuela.setwikiURI("https://en.wikipedia.org/wiki/Venezuela");
 
 const Argentina = new Country("Argentina", "Argentine Republic", "Buenos Aires", "Spanish");
 Argentina.setwikiURI("https://en.wikipedia.org/wiki/Argentina");
@@ -372,11 +582,26 @@ Mexico.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Me
 
 
 
+/*CENTRAL AMERICA*/
+
 Belize.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Flag_of_Belize.svg/320px-Flag_of_Belize.svg.png");
 Belize.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Belize.svg");
 
 
+ElSalvador.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Flag_of_El_Salvador.svg/320px-Flag_of_El_Salvador.svg.png");
+ElSalvador.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_El_Salvador.svg");
 
+Nicaragua.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Nicaragua.svg/320px-Flag_of_Nicaragua.svg.png");
+Nicaragua.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Nicaragua.svg");
+
+Guatemala.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Flag_of_Guatemala.svg/320px-Flag_of_Guatemala.svg.png");
+Guatemala.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Guatemala.svg");
+
+Honduras.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Flag_of_Honduras_%28darker_variant%29.svg/320px-Flag_of_Honduras_%28darker_variant%29.svg.png");
+Honduras.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Honduras_(darker_variant).svg");
+
+Panama.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Flag_of_Panama.svg/320px-Flag_of_Panama.svg.png");
+Panama.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Panama.svg");
 
 CostaRica.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Costa_Rica_%28state%29.svg/320px-Flag_of_Costa_Rica_%28state%29.svg.png");
 CostaRica.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Costa_Rica_(state).svg");
@@ -388,11 +613,51 @@ Cuba.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Flag_of_
 Cuba.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Cuba.svg");
 
 
+Haiti.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Flag_of_Haiti.svg/320px-Flag_of_Haiti.svg.png");
+Haiti.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Haiti.svg");
+
+DominicanRepublic.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_the_Dominican_Republic.svg/320px-Flag_of_the_Dominican_Republic.svg.png");
+DominicanRepublic.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_the_Dominican_Republic.svg");
+
+PuertoRico.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Flag_of_Puerto_Rico.svg/320px-Flag_of_Puerto_Rico.svg.png");
+PuertoRico.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Puerto_Rico.svg");
+
+Jamaica.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Flag_of_Jamaica.svg/320px-Flag_of_Jamaica.svg.png");
+Jamaica.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Jamaica.svg");
+
+CaymanIslands.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_the_Cayman_Islands.svg/320px-Flag_of_the_Cayman_Islands.svg.png");
+CaymanIslands.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_the_Cayman_Islands.svg");
+
+
+
+// ANTILLES
+
+
+SaintLucia.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Saint_Lucia.svg/320px-Flag_of_Saint_Lucia.svg.png");
+SaintLucia.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Saint_Lucia.svg");
+
+Grenada.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Grenada.svg/320px-Flag_of_Grenada.svg.png");
+Grenada.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Grenada.svg");
+
+
+Anguilla.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Anguilla.svg/320px-Flag_of_Anguilla.svg.png");
+Anguilla.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Anguilla.svg");
+
+SintMaartin.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Flag_of_Sint_Maarten.svg/320px-Flag_of_Sint_Maarten.svg.png");
+SintMaartin.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Sint_Maarten.svg");
+
+SintEustatius.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Flag_of_Sint_Eustatius.svg/320px-Flag_of_Sint_Eustatius.svg.png");
+SintEustatius.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Sint_Eustatius.svg");
 
 
 
 
 
+
+
+
+Venezuela.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Flag_of_Venezuela.svg/320px-Flag_of_Venezuela.svg.png");
+Venezuela.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Venezuela.svg");
 
 Argentina.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/320px-Flag_of_Argentina.svg.png");
 Argentina.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Argentina.svg");
@@ -497,32 +762,6 @@ SaintMartin.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_
 console.log(countries);
 
 
-const EastAsia = {
-    _name : "East Asia",
-    _wikiURI: "https://en.wikipedia.org/wiki/East_Asia",
-    _countries : [],
-    _akas : ["Far East"],
-
-    get name()      {   return this._name;      },
-    get wikiURI()   {   return this._wikiURI;   },
-    get countries() {   return this._countries; },
-    get akas()      {   return this._akas;      },
-
-};
-
-const WesternAsia = {
-    _name : "Western Asia",
-    _wikiURI: "https://en.wikipedia.org/wiki/Western_Asia",
-    _countries : [],
-    _akas : ["Western Asia", "West Asia", "Southwestern Asia", "Southwest Asia"],
-
-    get name()      {   return this._name;      },
-    get wikiURI()   {   return this._wikiURI;   },
-    get countries() {   return this._countries; },
-    get akas()      {   return this._akas;      },
-
-};
-
 const NorthAmerica ={
     _name : "North America",
     _wikiURI : "https://en.wikipedia.org/wiki/North_America",
@@ -546,29 +785,18 @@ const NorthAmerica ={
     get _description(){   return this._description},
 }
 
-const CentralAsia = {
-    _name : "Central Asia",
-    _wikiURI: "https://en.wikipedia.org/wiki/Western_Asia",
-    _countries : [],
-    //_akas : ["The 'stans"],
-
-    get name()      {   return this._name;      },
-    get wikiURI()   {   return this._wikiURI;   },
-    get countries() {   return this._countries; },
-    //get akas()      {   return this._akas;      },
-
-};
-
-const SouthAsia = {
-    _name : "South Asia",
-    _wikiURI: "https://en.wikipedia.org/wiki/South_Asia",
-    _countries : [],
-    _akas : ["Southern Asia","Indian Subcontinent"],
+const CentralAmerica = {
+    _name : "Central America",
+    _wikiURI: "https://en.wikipedia.org/wiki/Central_America",
+    _countries : [/* El Salvador, Costa Rica, Belize, Guatemala, Honduras, Nicaragua and Panama*/],
+    _akas : [""],
+    _description : "is a region in the southern tip of North America and is sometimes defined as a subregion of the Americas. This region is bordered by Mexico to the north, Colombia to the southeast, the Caribbean Sea to the east and the Pacific Ocean to the west and south. Central America consists of seven countries: El Salvador, Costa Rica, Belize, Guatemala, Honduras, Nicaragua and Panama.",
 
     get name()      {   return this._name;      },
     get wikiURI()   {   return this._wikiURI;   },
     get countries() {   return this._countries; },
     get akas()      {   return this._akas;      },
+    get description()   {   return this._description;   },
 
 }
 
@@ -585,23 +813,6 @@ const SouthAmerica = {
     get territories() { return this._territories},
     get akas()      {   return this._akas;      },
 }
-
-
-
-
-
-const America = {
-    _name: "America",
-    _wikiURI : "https://en.wikipedia.org/wiki/Americas",
-    _regions : [SouthAmerica],
-    _akas : ["The Americas"],
-    get name()      {   return this._name;      },
-    get wikiURI()   {   return this._wikiURI;   },
-    get regions()   {   return this._regions; },
-    get akas()      {   return this._akas;      },
-}
-
-
 
 
 
@@ -645,7 +856,6 @@ const WindwardIslands = {
     get countries() {   return this._countries; },
     get akas()      {   return this._akas;      },
     get _description() {return this._description},
-
 }
 
 const LeewardIslands = {
@@ -665,7 +875,7 @@ const LeewardIslands = {
 const LeewardAntilles = {
     _name : "Leeward Antilles",
     _wikiURI: "https://en.wikipedia.org/wiki/Leeward_Antilles",
-    _countries : [Curacao.name, Aruba.name, Bonaire.name],
+    _countries : [Curacao.name, Aruba.name, Bonaire.name, VirginIslandsUSA.name, VirginIslandsUK.name, Anguilla.name, SaintMartin.name, SintMaartin.name, StBarths.name, Saba.name, SintEustatius.name, SaintKitts.name, AntiguaandBarbuda.name, Montserrat.name, Guadeloupe.name],
     _akas : [""],
     _description : "",
 
@@ -677,10 +887,25 @@ const LeewardAntilles = {
 }
 
 
+const ABCIslands = {
+    _name : "ABC islands",
+    _wikiURI: "https://en.wikipedia.org/wiki/ABC_islands_(Leeward_Antilles)",
+    _countries : [Aruba.name, Bonaire.name, Curacao.name],
+    _akas : [""],
+    _description : "The ABC islands are the three western-most islands of the Leeward Antilles in the Caribbean Sea that lie north of Falcón State, Venezuela.[1] In order alphabetically they are Aruba, Bonaire and Curaçao. All three islands are part of the Kingdom of the Netherlands, although they remain outside the European Union. Aruba and Curaçao are autonomous, self-governing constituent countries of the Kingdom of the Netherlands, while Bonaire is a special municipality of the Netherlands.",
+
+    get name()      {   return this._name;      },
+    get wikiURI()   {   return this._wikiURI;   },
+    get countries() {   return this._countries; },
+    get akas()      {   return this._akas;      },
+    get _description() {return this._description},
+}
+
+
 const GreaterAntilles = {
     _name : "Greater Antilles",
     _wikiURI: "https://en.wikipedia.org/wiki/Greater_Antilles",
-    _countries : [],
+    _countries : [Cuba.name, DominicanRepublic.name, Haiti.name, PuertoRico.name, Jamaica.name, CaymanIslands.name],
     _akas : [""],
     _description : "is a grouping of the larger islands in the Caribbean Sea, including Cuba, Hispaniola, Puerto Rico, Jamaica, and the Cayman Islands. Six island states share the region of the Greater Antilles in total, with Haiti and the Dominican Republic sharing the island of Hispaniola. Geologically, the Virgin Islands and Sombrero Island are also part of the Greater Antilles, though politically they are considered part of the Lesser Antilles. The Lucayan Archipelago is not considered to be a part of the Antilles archipelagos but rather of the North Atlantic. The Greater Antilles is considered to be a part of Latin America. With a population of 38 million, it makes up 6% of Latin America's total population. ",
 
@@ -697,7 +922,7 @@ const LesserAntilles = {
     _wikiURI: "https://en.wikipedia.org/wiki/Lesser_Antilles",
     _countries : [Curacao.name, Aruba.name, Bonaire.name],
     _akas : ["Pequeñas Antillas (Spanish)", "Petites Antilles (French)", "Antias Menor (Papiamento)", "Kleine Antillen (Dutch)"],
-    _description : "is a group of islands in the Caribbean Sea. Most form a long, partly volcanic island arc between the Greater Antilles to the north-west and the continent of South America.[1] The islands form the eastern boundary of the Caribbean Sea with the Atlantic Ocean. Together, the Lesser Antilles and the Greater Antilles compose the Antilles (or the Caribbean in its narrowest definition). When combined with the Lucayan Archipelago, all three are known as the West Indies.",
+    _description : "is a group of islands in the Caribbean Sea. Most form a long, partly volcanic island arc between the Greater Antilles to the north-west and the continent of South America. The islands form the eastern boundary of the Caribbean Sea with the Atlantic Ocean. Together, the Lesser Antilles and the Greater Antilles compose the Antilles (or the Caribbean in its narrowest definition). When combined with the Lucayan Archipelago, all three are known as the West Indies.",
 
     get name()      {   return this._name;      },
     get wikiURI()   {   return this._wikiURI;   },
@@ -720,6 +945,23 @@ const Antilles = {
     get akas()      {   return this._akas;      },
     get _description(){ return this._description},
 }
+
+
+
+
+
+const America = {
+    _name: "America",
+    _wikiURI : "https://en.wikipedia.org/wiki/Americas",
+    _regions : [NorthAmerica.name, CentralAmerica.name, CaribbeanRegion.name, SouthAmerica.name],
+    _akas : ["The Americas"],
+    get name()      {   return this._name;      },
+    get wikiURI()   {   return this._wikiURI;   },
+    get regions()   {   return this._regions; },
+    get akas()      {   return this._akas;      },
+}
+
+
 
 
 
@@ -751,24 +993,234 @@ const Antilles = {
 
 // COUNTRY MAPS
 
+
+
 /*
 .setCountryMap("");
 .addRefURI("CountryMapFile", "");
 */
+/*
+UK Virgin Islands: Vieques, Culebra (U.S.)
+U.S. Virgin Islands: St. Thomas, St. John, St. Croix, Water Island (U.S.)
+British Virgin Islands: Jost Van Dyke, Tortola, Virgin Gorda, Anegada (U.K.)
+Anguilla (U.K.)
+Saint Martin/Sint Maarten (Fr./Neth.)
+Saint-Barthélemy (Fr.)
+Saba (Neth.)
+Sint Eustatius (Neth.)
+Saint Kitts (forms a sovereign state (a Commonwealth Realm) with Nevis; see Nevis)
+Nevis (Commonwealth; see St. Kitts)
+Barbuda (Commonwealth; see Antigua)
+Antigua (forms a sovereign state (a Commonwealth Realm) with Barbuda)
+Redonda (uninhabited part of Antigua & Barbuda; see above)
+Montserrat (U.K.)
+Guadeloupe (Fr. overseas department)
+*/
 
 
-// CHINA
+
+
+VirginIslandsUSA.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_the_United_States_Virgin_Islands");
+VirginIslandsUK.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_the_British_Virgin_Islands");
+Anguilla.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_Anguilla");
 
 
 
 
+SaintMartin.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_Saint-Martin");
+SintMaartin.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_Sint_Maarten");
 
+SaintMartin.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/2/28/Saint_Martin-CIA_WFB_Map.png");
+SaintMartin.addRefURI("CountryMapFile", "https://en.wikipedia.org/wiki/File:Saint_Martin-CIA_WFB_Map.png");
+
+SaintMartin.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Saint_Martin_in_its_region.svg/640px-Saint_Martin_in_its_region.svg.png");
+SaintMartin.addRefURI("regionMapFile", "https://en.wikipedia.org/wiki/File:Saint_Martin_in_its_region.svg");
+
+SintMaartin.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/5/51/Sint_Maarten-CIA_WFB_Map.png");
+SintMaartin.addRefURI("CountryMapFile", "https://commons.wikimedia.org/wiki/File:Sint_Maarten-CIA_WFB_Map.png");
+
+//.addRefURI("SVG_locator", "");
+SintMaartin.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Sint_Maarten_in_its_region.svg/640px-Sint_Maarten_in_its_region.svg.png");
+SintMaartin.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:Sint_Maarten_in_its_region.svg");
+
+
+
+
+myCountry = Guadeloupe;
+
+StBarths.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_Saint-Barth%C3%A9lemy");
+SaintKitts.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_Saint_Kitts_and_Nevis");
+
+StBarths.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/8/82/Saint_Barthelemy-CIA_WFB_Map.png");
+StBarths.addRefURI("CountryMapFile", "https://commons.wikimedia.org/wiki/File:Saint_Barthelemy-CIA_WFB_Map.png");
+
+Saba.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/4/40/Nt-map.png");
+Saba.addRefURI("CountryMapFile", "https://commons.wikimedia.org/wiki/File:Nt-map.png");
+
+SintEustatius.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/4/40/Nt-map.png");
+SintEustatius.addRefURI("CountryMapFile", "https://commons.wikimedia.org/wiki/File:Nt-map.png");
+
+SaintKitts.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/9/96/Saint_Kitts_and_Nevis-CIA_WFB_Map.png");
+SaintKitts.addRefURI("CountryMapFile", "https://commons.wikimedia.org/wiki/File:Saint_Kitts_and_Nevis-CIA_WFB_Map.png");
+
+
+AntiguaandBarbuda.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_Antigua_and_Barbuda");
+AntiguaandBarbuda.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/9/9e/Antigua_and_Barbuda-CIA_WFB_Map_%282004%29.png");
+AntiguaandBarbuda.addRefURI("CountryMapFile", "https://commons.wikimedia.org/wiki/File:Antigua_and_Barbuda-CIA_WFB_Map_(2004).png");
+
+Montserrat.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_Montserrat");
+Montserrat.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/5/5e/Montserrat-CIA_WFB_Map.png");
+Montserrat.addRefURI("CountryMapFile", "https://commons.wikimedia.org/wiki/File:Montserrat-CIA_WFB_Map.png");
+
+Guadeloupe.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_Guadeloupe");
+Guadeloupe.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/a/a5/Guadeloupe_map.png");
+Guadeloupe.addRefURI("CountryMapFile", "https://commons.wikimedia.org/wiki/File:Guadeloupe_map.png");
+
+Guadeloupe.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Guadeloupe_(location_map_scheme)");
+Guadeloupe.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Guadeloupe_in_its_region.svg/640px-Guadeloupe_in_its_region.svg.png");
+Guadeloupe.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:Guadeloupe_in_its_region.svg");
+
+/*
+
+/*
+.addRefURI("SVG_locator", "");
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+
+/*
+
+.addRefURI("SVG_locator", "");
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
 
 /*
 
 .addRefURI("wikiAtlas", "");
 .setCountryMap("");
 .addRefURI("CountryMapFile", "");
+/*
+.addRefURI("SVG_locator", "");
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+
+/*
+
+.addRefURI("wikiAtlas", "");
+.setCountryMap("");
+.addRefURI("CountryMapFile", "");
+/*
+.addRefURI("SVG_locator", "");
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+
+/*
+
+.addRefURI("wikiAtlas", "");
+.setCountryMap("");
+.addRefURI("CountryMapFile", "");
+/*
+.addRefURI("SVG_locator", "");
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+
+/*
+
+.addRefURI("wikiAtlas", "");
+.setCountryMap("");
+.addRefURI("CountryMapFile", "");
+/*
+.addRefURI("SVG_locator", "");
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+
+/*
+
+.addRefURI("wikiAtlas", "");
+.setCountryMap("");
+.addRefURI("CountryMapFile", "");
+/*
+.addRefURI("SVG_locator", "");
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+
+/*
+
+.addRefURI("wikiAtlas", "");
+.setCountryMap("");
+.addRefURI("CountryMapFile", "");
+/*
+.addRefURI("SVG_locator", "");
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+
+/*
+
+.addRefURI("wikiAtlas", "");
+.setCountryMap("");
+.addRefURI("CountryMapFile", "");
+/*
+.addRefURI("SVG_locator", "");
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+
+/*
+
+.addRefURI("wikiAtlas", "");
+.setCountryMap("");
+.addRefURI("CountryMapFile", "");
+/*
+.addRefURI("SVG_locator", "");
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+
+/*
+
+.addRefURI("wikiAtlas", "");
+.setCountryMap("");
+.addRefURI("CountryMapFile", "");
+/*
+.addRefURI("SVG_locator", "");
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+
+/*
+
+.addRefURI("wikiAtlas", "");
+.setCountryMap("");
+.addRefURI("CountryMapFile", "");
+/*
+.addRefURI("SVG_locator", "");
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+
+/*
+/*
+.addRefURI("SVG_locator", "");
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+
+.addRefURI("wikiAtlas", "");
+.setCountryMap("");
+.addRefURI("CountryMapFile", "");
+/*
+.addRefURI("SVG_locator", "");
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+
+/*
+
+.addRefURI("wikiAtlas", "");
+.setCountryMap("");
+.addRefURI("CountryMapFile", "");
+/*
+.addRefURI("SVG_locator", "");
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+
+/*
+.addRefURI("SVG_locator", "");
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
 
 .setRegionMap("");
 .addRefURI("regionMapFile", "");
@@ -819,10 +1271,101 @@ Egypt.addRefURI("redLocationMapFile", "");
 
 
 
+VirginIslandsUSA.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/c/c5/Virgin_Islands-CIA_WFB_Map.png");
+VirginIslandsUSA.addRefURI("countryMapFile", "https://en.wikipedia.org/wiki/File:Virgin_Islands-CIA_WFB_Map.png");
 
-//SVG LOCATORS
+
+VirginIslandsUK.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/f/ff/BritishVirginIsland_map.png");
+VirginIslandsUK.addRefURI("CountryMapFile", "https://commons.wikimedia.org/wiki/File:BritishVirginIsland_map.png");
+
+Anguilla.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/9/9e/Anguilla-CIA_WFB_Map.png");
+Anguilla.addRefURI("CountryMapFile", "https://commons.wikimedia.org/wiki/File:Anguilla-CIA_WFB_Map.png");
 
 
+
+
+
+
+
+
+VirginIslandsUK.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/British_Virgin_Islands_in_its_region_%28zoom%29.svg/640px-British_Virgin_Islands_in_its_region_%28zoom%29.svg.png");
+VirginIslandsUK.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:British_Virgin_Islands_in_its_region_(zoom).svg");
+
+Anguilla.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Anguilla_(location_map_scheme)");
+Anguilla.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Anguilla_in_its_region_%28zoom%29.svg/640px-Anguilla_in_its_region_%28zoom%29.svg.png");
+Anguilla.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:Anguilla_in_its_region_(zoom).svg");
+
+
+
+
+
+// juar SVG LOCATORS
+
+VirginIslandsUSA.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_the_United_States_Virgin_Islands_(location_map_scheme)");
+
+VirginIslandsUK.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_British_Virgin_Islands_(location_map_scheme)");
+
+
+/*
+.addRefURI("SVG_locator", "");
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+
+/*
+.addRefURI("SVG_locator", "");
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+
+/*
+.addRefURI("SVG_locator", "");
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+
+
+/*
+.addRefURI("SVG_locator", "");
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+
+/*
+.addRefURI("SVG_locator", "");
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+
+/*
+.addRefURI("SVG_locator", "");
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+
+/*
+.addRefURI("SVG_locator", "");
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+
+/*
+.addRefURI("SVG_locator", "");
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+
+/*
+.addRefURI("SVG_locator", "");
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+
+/*
+.addRefURI("SVG_locator", "");
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+
+/*
+.addRefURI("SVG_locator", "");
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+
+/*
+.addRefURI("SVG_locator", "");
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
 
 /*
 .addRefURI("SVG_locator", "");
@@ -847,6 +1390,8 @@ Egypt.addRefURI("redLocationMapFile", "");
 
 
 
+VirginIslandsUSA.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/United_States_Virgin_Islands_in_its_region_%28zoom%29.svg/640px-United_States_Virgin_Islands_in_its_region_%28zoom%29.svg.png");
+VirginIslandsUSA.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:United_States_Virgin_Islands_in_its_region_(zoom).svg");
 
 
 
