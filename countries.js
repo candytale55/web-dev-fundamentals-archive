@@ -999,23 +999,6 @@ const America = {
 .setCountryMap("");
 .addRefURI("CountryMapFile", "");
 */
-/*
-UK Virgin Islands: Vieques, Culebra (U.S.)
-U.S. Virgin Islands: St. Thomas, St. John, St. Croix, Water Island (U.S.)
-British Virgin Islands: Jost Van Dyke, Tortola, Virgin Gorda, Anegada (U.K.)
-Anguilla (U.K.)
-Saint Martin/Sint Maarten (Fr./Neth.)
-Saint-Barthélemy (Fr.)
-Saba (Neth.)
-Sint Eustatius (Neth.)
-Saint Kitts (forms a sovereign state (a Commonwealth Realm) with Nevis; see Nevis)
-Nevis (Commonwealth; see St. Kitts)
-Barbuda (Commonwealth; see Antigua)
-Antigua (forms a sovereign state (a Commonwealth Realm) with Barbuda)
-Redonda (uninhabited part of Antigua & Barbuda; see above)
-Montserrat (U.K.)
-Guadeloupe (Fr. overseas department)
-*/
 
 
 
@@ -1023,291 +1006,312 @@ Guadeloupe (Fr. overseas department)
 VirginIslandsUSA.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_the_United_States_Virgin_Islands");
 VirginIslandsUK.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_the_British_Virgin_Islands");
 Anguilla.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_Anguilla");
-
-
-
-
-SaintMartin.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_Saint-Martin");
-SintMaartin.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_Sint_Maarten");
-
-SaintMartin.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/2/28/Saint_Martin-CIA_WFB_Map.png");
-SaintMartin.addRefURI("CountryMapFile", "https://en.wikipedia.org/wiki/File:Saint_Martin-CIA_WFB_Map.png");
-
-SaintMartin.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Saint_Martin_in_its_region.svg/640px-Saint_Martin_in_its_region.svg.png");
-SaintMartin.addRefURI("regionMapFile", "https://en.wikipedia.org/wiki/File:Saint_Martin_in_its_region.svg");
-
-SintMaartin.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/5/51/Sint_Maarten-CIA_WFB_Map.png");
-SintMaartin.addRefURI("CountryMapFile", "https://commons.wikimedia.org/wiki/File:Sint_Maarten-CIA_WFB_Map.png");
-
-//.addRefURI("SVG_locator", "");
-SintMaartin.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Sint_Maarten_in_its_region.svg/640px-Sint_Maarten_in_its_region.svg.png");
-SintMaartin.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:Sint_Maarten_in_its_region.svg");
-
-
-
-
-myCountry = Guadeloupe;
-
 StBarths.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_Saint-Barth%C3%A9lemy");
 SaintKitts.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_Saint_Kitts_and_Nevis");
-
-StBarths.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/8/82/Saint_Barthelemy-CIA_WFB_Map.png");
-StBarths.addRefURI("CountryMapFile", "https://commons.wikimedia.org/wiki/File:Saint_Barthelemy-CIA_WFB_Map.png");
-
-Saba.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/4/40/Nt-map.png");
-Saba.addRefURI("CountryMapFile", "https://commons.wikimedia.org/wiki/File:Nt-map.png");
-
-SintEustatius.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/4/40/Nt-map.png");
-SintEustatius.addRefURI("CountryMapFile", "https://commons.wikimedia.org/wiki/File:Nt-map.png");
-
-SaintKitts.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/9/96/Saint_Kitts_and_Nevis-CIA_WFB_Map.png");
-SaintKitts.addRefURI("CountryMapFile", "https://commons.wikimedia.org/wiki/File:Saint_Kitts_and_Nevis-CIA_WFB_Map.png");
-
-
 AntiguaandBarbuda.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_Antigua_and_Barbuda");
-AntiguaandBarbuda.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/9/9e/Antigua_and_Barbuda-CIA_WFB_Map_%282004%29.png");
-AntiguaandBarbuda.addRefURI("CountryMapFile", "https://commons.wikimedia.org/wiki/File:Antigua_and_Barbuda-CIA_WFB_Map_(2004).png");
-
 Montserrat.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_Montserrat");
-Montserrat.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/5/5e/Montserrat-CIA_WFB_Map.png");
-Montserrat.addRefURI("CountryMapFile", "https://commons.wikimedia.org/wiki/File:Montserrat-CIA_WFB_Map.png");
-
 Guadeloupe.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_Guadeloupe");
-Guadeloupe.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/a/a5/Guadeloupe_map.png");
-Guadeloupe.addRefURI("CountryMapFile", "https://commons.wikimedia.org/wiki/File:Guadeloupe_map.png");
-
-Guadeloupe.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Guadeloupe_(location_map_scheme)");
-Guadeloupe.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Guadeloupe_in_its_region.svg/640px-Guadeloupe_in_its_region.svg.png");
-Guadeloupe.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:Guadeloupe_in_its_region.svg");
-
-/*
-
-/*
-.addRefURI("SVG_locator", "");
-.setRegionMap("");
-.addRefURI("regionMapFile", "");
-
-/*
-
-.addRefURI("SVG_locator", "");
-.setRegionMap("");
-.addRefURI("regionMapFile", "");
-
-/*
-
-.addRefURI("wikiAtlas", "");
-.setCountryMap("");
-.addRefURI("CountryMapFile", "");
-/*
-.addRefURI("SVG_locator", "");
-.setRegionMap("");
-.addRefURI("regionMapFile", "");
-
-/*
-
-.addRefURI("wikiAtlas", "");
-.setCountryMap("");
-.addRefURI("CountryMapFile", "");
-/*
-.addRefURI("SVG_locator", "");
-.setRegionMap("");
-.addRefURI("regionMapFile", "");
-
-/*
-
-.addRefURI("wikiAtlas", "");
-.setCountryMap("");
-.addRefURI("CountryMapFile", "");
-/*
-.addRefURI("SVG_locator", "");
-.setRegionMap("");
-.addRefURI("regionMapFile", "");
-
-/*
-
-.addRefURI("wikiAtlas", "");
-.setCountryMap("");
-.addRefURI("CountryMapFile", "");
-/*
-.addRefURI("SVG_locator", "");
-.setRegionMap("");
-.addRefURI("regionMapFile", "");
-
-/*
-
-.addRefURI("wikiAtlas", "");
-.setCountryMap("");
-.addRefURI("CountryMapFile", "");
-/*
-.addRefURI("SVG_locator", "");
-.setRegionMap("");
-.addRefURI("regionMapFile", "");
-
-/*
-
-.addRefURI("wikiAtlas", "");
-.setCountryMap("");
-.addRefURI("CountryMapFile", "");
-/*
-.addRefURI("SVG_locator", "");
-.setRegionMap("");
-.addRefURI("regionMapFile", "");
-
-/*
-
-.addRefURI("wikiAtlas", "");
-.setCountryMap("");
-.addRefURI("CountryMapFile", "");
-/*
-.addRefURI("SVG_locator", "");
-.setRegionMap("");
-.addRefURI("regionMapFile", "");
-
-/*
-
-.addRefURI("wikiAtlas", "");
-.setCountryMap("");
-.addRefURI("CountryMapFile", "");
-/*
-.addRefURI("SVG_locator", "");
-.setRegionMap("");
-.addRefURI("regionMapFile", "");
-
-/*
-
-.addRefURI("wikiAtlas", "");
-.setCountryMap("");
-.addRefURI("CountryMapFile", "");
-/*
-.addRefURI("SVG_locator", "");
-.setRegionMap("");
-.addRefURI("regionMapFile", "");
-
-/*
-
-.addRefURI("wikiAtlas", "");
-.setCountryMap("");
-.addRefURI("CountryMapFile", "");
-/*
-.addRefURI("SVG_locator", "");
-.setRegionMap("");
-.addRefURI("regionMapFile", "");
-
-/*
-/*
-.addRefURI("SVG_locator", "");
-.setRegionMap("");
-.addRefURI("regionMapFile", "");
-
-.addRefURI("wikiAtlas", "");
-.setCountryMap("");
-.addRefURI("CountryMapFile", "");
-/*
-.addRefURI("SVG_locator", "");
-.setRegionMap("");
-.addRefURI("regionMapFile", "");
-
-/*
-
-.addRefURI("wikiAtlas", "");
-.setCountryMap("");
-.addRefURI("CountryMapFile", "");
-/*
-.addRefURI("SVG_locator", "");
-.setRegionMap("");
-.addRefURI("regionMapFile", "");
-
-/*
-.addRefURI("SVG_locator", "");
-.setRegionMap("");
-.addRefURI("regionMapFile", "");
-
-.setRegionMap("");
-.addRefURI("regionMapFile", "");
-/*
-.addRefURI("wikiAtlas", "");
-.setCountryMap("");
-.addRefURI("CountryMapFile", "");
-
-.setRegionMap("");
-.addRefURI("regionMapFile", "");
-/*
-.addRefURI("wikiAtlas", "");
-.setCountryMap("");
-.addRefURI("CountryMapFile", "");
-
-.setRegionMap("");
-.addRefURI("regionMapFile", "");
-/*
-.addRefURI("wikiAtlas", "");
-.setCountryMap("");
-.addRefURI("CountryMapFile", "");
-
-.setRegionMap("");
-.addRefURI("regionMapFile", "");
-/*
-.addRefURI("wikiAtlas", "");
-.setCountryMap("");
-.addRefURI("CountryMapFile", "");
-
-.setRegionMap("");
-.addRefURI("regionMapFile", "");
-/*
-.addRefURI("wikiAtlas", "");
-.setCountryMap("");
-.addRefURI("CountryMapFile", "");
-
-.setRegionMap("");
-.addRefURI("regionMapFile", "");
-
-/*
-.addRefURI("wikiAtlas", "");
-.setCountryMap("");
-.addRefURI("CountryMapFile", "");
-
-Egypt.addRefURI("redLocationMap", "");
-Egypt.addRefURI("redLocationMapFile", "");
-*/
 
 
 
 VirginIslandsUSA.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/c/c5/Virgin_Islands-CIA_WFB_Map.png");
 VirginIslandsUSA.addRefURI("countryMapFile", "https://en.wikipedia.org/wiki/File:Virgin_Islands-CIA_WFB_Map.png");
 
-
 VirginIslandsUK.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/f/ff/BritishVirginIsland_map.png");
-VirginIslandsUK.addRefURI("CountryMapFile", "https://commons.wikimedia.org/wiki/File:BritishVirginIsland_map.png");
+VirginIslandsUK.addRefURI("countryMapFile", "https://commons.wikimedia.org/wiki/File:BritishVirginIsland_map.png");
 
 Anguilla.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/9/9e/Anguilla-CIA_WFB_Map.png");
-Anguilla.addRefURI("CountryMapFile", "https://commons.wikimedia.org/wiki/File:Anguilla-CIA_WFB_Map.png");
+Anguilla.addRefURI("countryMapFile", "https://commons.wikimedia.org/wiki/File:Anguilla-CIA_WFB_Map.png");
+
+SaintMartin.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_Saint-Martin");
+SintMaartin.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_Sint_Maarten");
+
+SaintMartin.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/2/28/Saint_Martin-CIA_WFB_Map.png");
+SaintMartin.addRefURI("countryMapFile", "https://en.wikipedia.org/wiki/File:Saint_Martin-CIA_WFB_Map.png");
+
+SintMaartin.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/5/51/Sint_Maarten-CIA_WFB_Map.png");
+SintMaartin.addRefURI("countryMapFile", "https://commons.wikimedia.org/wiki/File:Sint_Maarten-CIA_WFB_Map.png");
+
+StBarths.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/8/82/Saint_Barthelemy-CIA_WFB_Map.png");
+StBarths.addRefURI("countryMapFile", "https://commons.wikimedia.org/wiki/File:Saint_Barthelemy-CIA_WFB_Map.png");
+
+Saba.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/4/40/Nt-map.png");
+Saba.addRefURI("countryMapFile", "https://commons.wikimedia.org/wiki/File:Nt-map.png");
 
 
+SintEustatius.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/4/40/Nt-map.png");
+SintEustatius.addRefURI("countryMapFile", "https://commons.wikimedia.org/wiki/File:Nt-map.png");
+
+SaintKitts.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/9/96/Saint_Kitts_and_Nevis-CIA_WFB_Map.png");
+SaintKitts.addRefURI("countryMapFile", "https://commons.wikimedia.org/wiki/File:Saint_Kitts_and_Nevis-CIA_WFB_Map.png");
+
+AntiguaandBarbuda.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/9/9e/Antigua_and_Barbuda-CIA_WFB_Map_%282004%29.png");
+AntiguaandBarbuda.addRefURI("countryMapFile", "https://commons.wikimedia.org/wiki/File:Antigua_and_Barbuda-CIA_WFB_Map_(2004).png");
+
+Montserrat.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/5/5e/Montserrat-CIA_WFB_Map.png");
+Montserrat.addRefURI("countryMapFile", "https://commons.wikimedia.org/wiki/File:Montserrat-CIA_WFB_Map.png");
+
+Guadeloupe.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/a/a5/Guadeloupe_map.png");
+Guadeloupe.addRefURI("countryMapFile", "https://commons.wikimedia.org/wiki/File:Guadeloupe_map.png");
 
 
+/*
+.addRefURI("SVG_locator", "");
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+
+/*
+
+.addRefURI("SVG_locator", "");
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+
+/*
+
+.addRefURI("wikiAtlas", "");
+.setCountryMap("");
+.addRefURI("countryMapFile", "");
+/*
+.addRefURI("SVG_locator", "");
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+
+/*
+
+.addRefURI("wikiAtlas", "");
+.setCountryMap("");
+.addRefURI("countryMapFile", "");
+/*
+.addRefURI("SVG_locator", "");
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+
+/*
+
+.addRefURI("wikiAtlas", "");
+.setCountryMap("");
+.addRefURI("countryMapFile", "");
+/*
+.addRefURI("SVG_locator", "");
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+
+/*
+
+.addRefURI("wikiAtlas", "");
+.setCountryMap("");
+.addRefURI("countryMapFile", "");
+/*
+.addRefURI("SVG_locator", "");
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+
+/*
+
+.addRefURI("wikiAtlas", "");
+.setCountryMap("");
+.addRefURI("countryMapFile", "");
+/*
+.addRefURI("SVG_locator", "");
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+
+/*
+
+.addRefURI("wikiAtlas", "");
+.setCountryMap("");
+.addRefURI("countryMapFile", "");
+/*
+.addRefURI("SVG_locator", "");
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+
+/*
+
+.addRefURI("wikiAtlas", "");
+.setCountryMap("");
+.addRefURI("countryMapFile", "");
+/*
+.addRefURI("SVG_locator", "");
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+
+/*
+
+.addRefURI("wikiAtlas", "");
+.setCountryMap("");
+.addRefURI("countryMapFile", "");
+/*
+.addRefURI("SVG_locator", "");
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+
+/*
+
+.addRefURI("wikiAtlas", "");
+.setCountryMap("");
+.addRefURI("countryMapFile", "");
+/*
+.addRefURI("SVG_locator", "");
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+
+/*
+
+.addRefURI("wikiAtlas", "");
+.setCountryMap("");
+.addRefURI("countryMapFile", "");
+/*
+.addRefURI("SVG_locator", "");
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+
+/*
+/*
+.addRefURI("SVG_locator", "");
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+
+.addRefURI("wikiAtlas", "");
+.setCountryMap("");
+.addRefURI("countryMapFile", "");
+/*
+.addRefURI("SVG_locator", "");
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+
+/*
+
+.addRefURI("wikiAtlas", "");
+.setCountryMap("");
+.addRefURI("countryMapFile", "");
+/*
+.addRefURI("SVG_locator", "");
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+
+/*
+.addRefURI("SVG_locator", "");
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+/*
+.addRefURI("wikiAtlas", "");
+.setCountryMap("");
+.addRefURI("countryMapFile", "");
+
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+/*
+.addRefURI("wikiAtlas", "");
+.setCountryMap("");
+.addRefURI("countryMapFile", "");
+
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+/*
+.addRefURI("wikiAtlas", "");
+.setCountryMap("");
+.addRefURI("countryMapFile", "");
+
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+/*
+.addRefURI("wikiAtlas", "");
+.setCountryMap("");
+.addRefURI("countryMapFile", "");
+
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+/*
+.addRefURI("wikiAtlas", "");
+.setCountryMap("");
+.addRefURI("countryMapFile", "");
+
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+
+/*
+.addRefURI("wikiAtlas", "");
+.setCountryMap("");
+.addRefURI("countryMapFile", "");
+
+Egypt.addRefURI("redLocationMap", "");
+Egypt.addRefURI("redLocationMapFile", "");
+*/
 
 
+StBarths.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Saint_Barthelemy_in_its_region_%28zoom%29.svg/640px-Saint_Barthelemy_in_its_region_%28zoom%29.svg.png");
+StBarths.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:Saint_Barthelemy_in_its_region_(zoom).svg");
 
+Saba.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Saba_in_its_region_%28zoom%29.svg/640px-Saba_in_its_region_%28zoom%29.svg.png");
+Saba.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:Saba_in_its_region_(zoom).svg");
+
+SintEustatius.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Sint_Eustatius_in_its_region_%28zoom%29.svg/640px-Sint_Eustatius_in_its_region_%28zoom%29.svg.png");
+SintEustatius.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:Sint_Eustatius_in_its_region_(zoom).svg");
+
+SaintKitts.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Saint_Kitts_and_Nevis_in_its_region_%28zoomed%29.svg/640px-Saint_Kitts_and_Nevis_in_its_region_%28zoomed%29.svg.png");
+SaintKitts.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:Saint_Kitts_and_Nevis_in_its_region_(zoomed).svg");
+
+
+AntiguaandBarbuda.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Antigua_and_Barbuda_in_its_region_%28zoomed%29.svg/640px-Antigua_and_Barbuda_in_its_region_%28zoomed%29.svg.png");
+AntiguaandBarbuda.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:Antigua_and_Barbuda_in_its_region_(zoomed).svg");
+
+Montserrat.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Montserrat_location_detail.svg/640px-Montserrat_location_detail.svg.png");
+Montserrat.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:Montserrat_location_detail.svg");
+
+
+/*
+.addRefURI("SVG_locator", "");
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+*/
+/*
+.addRefURI("SVG_locator", "");
+.setRegionMap("");
+.addRefURI("regionMapFile", "");
+*/
+
+VirginIslandsUSA.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/United_States_Virgin_Islands_in_its_region_%28zoom%29.svg/640px-United_States_Virgin_Islands_in_its_region_%28zoom%29.svg.png");
+VirginIslandsUSA.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:United_States_Virgin_Islands_in_its_region_(zoom).svg");
 
 VirginIslandsUK.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/British_Virgin_Islands_in_its_region_%28zoom%29.svg/640px-British_Virgin_Islands_in_its_region_%28zoom%29.svg.png");
 VirginIslandsUK.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:British_Virgin_Islands_in_its_region_(zoom).svg");
 
 Anguilla.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Anguilla_(location_map_scheme)");
 Anguilla.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Anguilla_in_its_region_%28zoom%29.svg/640px-Anguilla_in_its_region_%28zoom%29.svg.png");
-Anguilla.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:Anguilla_in_its_region_(zoom).svg");
 
+SaintMartin.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Saint_Martin_in_its_region_%28zoom%29.svg/640px-Saint_Martin_in_its_region_%28zoom%29.svg.png");
+SaintMartin.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:Saint_Martin_in_its_region_(zoom).svg");
 
+SintMaartin.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Sint_Maarten_in_its_region_%28zoom%29.svg/640px-Sint_Maarten_in_its_region_%28zoom%29.svg.png");
+SintMaartin.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:Sint_Maarten_in_its_region_(zoom).svg");
 
+Guadeloupe.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Guadeloupe_in_its_region.svg/640px-Guadeloupe_in_its_region.svg.png");
+Guadeloupe.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:Guadeloupe_in_its_region.svg");
 
 
 // juar SVG LOCATORS
 
 VirginIslandsUSA.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_the_United_States_Virgin_Islands_(location_map_scheme)");
-
 VirginIslandsUK.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_British_Virgin_Islands_(location_map_scheme)");
+Anguilla.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:Anguilla_in_its_region_(zoom).svg");
+SaintMartin.addRefURI("https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Saint-Martin_(France)_(location_map_scheme)");
+SintMaartin.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Sint_Maarten_(location_map_scheme)");
+Guadeloupe.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Guadeloupe_(location_map_scheme)");
+StBarths.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Saint-Barth%C3%A9lemy_(location_map_scheme)");
+Saba.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Saba_(location_map_scheme)");
+SintEustatius.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Sint_Eustatius_(location_map_scheme)");
+SaintKitts.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Saint_Kitts_and_Nevis_(location_map_scheme)");
+AntiguaandBarbuda.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Antigua_and_Barbuda_(location_map_scheme)");
+Montserrat.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Montserrat_(location_map_scheme)");
+
+
 
 
 /*
-.addRefURI("SVG_locator", "");
 .setRegionMap("");
 .addRefURI("regionMapFile", "");
 
@@ -1390,8 +1394,6 @@ VirginIslandsUK.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Cat
 
 
 
-VirginIslandsUSA.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/United_States_Virgin_Islands_in_its_region_%28zoom%29.svg/640px-United_States_Virgin_Islands_in_its_region_%28zoom%29.svg.png");
-VirginIslandsUSA.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:United_States_Virgin_Islands_in_its_region_(zoom).svg");
 
 
 
