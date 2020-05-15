@@ -587,7 +587,6 @@ Mexico.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Me
 Belize.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Flag_of_Belize.svg/320px-Flag_of_Belize.svg.png");
 Belize.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Belize.svg");
 
-
 ElSalvador.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Flag_of_El_Salvador.svg/320px-Flag_of_El_Salvador.svg.png");
 ElSalvador.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_El_Salvador.svg");
 
@@ -638,7 +637,6 @@ SaintLucia.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_o
 
 Grenada.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Grenada.svg/320px-Flag_of_Grenada.svg.png");
 Grenada.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Grenada.svg");
-
 
 Anguilla.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Anguilla.svg/320px-Flag_of_Anguilla.svg.png");
 Anguilla.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Anguilla.svg");
@@ -765,7 +763,9 @@ console.log(countries);
 const NorthAmerica ={
     _name : "North America",
     _wikiURI : "https://en.wikipedia.org/wiki/North_America",
-    _countries : [/*Antigua and BarbudaThe BahamasBarbadosBelizeCanadaCosta RicaCubaDominicaDominican RepublicEl SalvadorGrenadaGuatemalaHaitiHondurasJamaicaMexicoNicaraguaPanamaSaint Kitts and NevisSaint LuciaSaint Vincent and the GrenadinesTrinidad and TobagoUnited States  	
+    _countries : [Canada.name, UnitedStates.name, Mexico.name, Belize.name, ElSalvador.name, Nicaragua.name, Guatemala.name, Honduras.name, Panama.name, CostaRica.name, Cuba.name, Haiti.name, DominicanRepublic.name, PuertoRico.name, Jamaica.name, CaymanIslands.name, 
+
+        /*Antigua and BarbudaThe BahamasBarbadosBelizeCanadaCosta RicaCubaDominicaDominican RepublicEl SalvadorGrenadaGuatemalaHaitiHondurasJamaicaMexicoNicaraguaPanamaSaint Kitts and NevisSaint LuciaSaint Vincent and the GrenadinesTrinidad and TobagoUnited States  	
         Greenland
         France	
         Clipperton IslandSt. BarthélemySt. MartinSt. Pierre and Miquelon
@@ -788,7 +788,7 @@ const NorthAmerica ={
 const CentralAmerica = {
     _name : "Central America",
     _wikiURI: "https://en.wikipedia.org/wiki/Central_America",
-    _countries : [/* El Salvador, Costa Rica, Belize, Guatemala, Honduras, Nicaragua and Panama*/],
+    _countries : [ElSalvador.name, CostaRica.name, Belize.name, Guatemala.name, Honduras.name, Nicaragua.name, Panama.name],
     _akas : [""],
     _description : "is a region in the southern tip of North America and is sometimes defined as a subregion of the Americas. This region is bordered by Mexico to the north, Colombia to the southeast, the Caribbean Sea to the east and the Pacific Ocean to the west and south. Central America consists of seven countries: El Salvador, Costa Rica, Belize, Guatemala, Honduras, Nicaragua and Panama.",
 
@@ -844,10 +844,11 @@ const CaribbeanRegion = {
 
 }
 
+
 const WindwardIslands = {
     _name : "Windward Islands",
     _wikiURI: "https://en.wikipedia.org/wiki/Windward_Islands",
-    _countries : [/*Saint Lucia, Saint Vincent, the Grenadines, Grenada, Dominica*/],
+    _countries : [SaintLucia.name, SaintVincentGrenadines.name, Grenada.name, Martinique.name, Dominica.name],
     _akas : ["Islands of Barlovento"],
     _description : "",
 
@@ -861,7 +862,7 @@ const WindwardIslands = {
 const LeewardIslands = {
     _name : "Leeward Islands",
     _wikiURI: "https://en.wikipedia.org/wiki/Leeward_Islands",
-    _countries : [],
+    _countries : [VirginIslandsUSA.name, VirginIslandsUK.name, Anguilla.name, SaintMartin.name, SintMaartin.name, StBarths.name, Saba.name, SintEustatius, SaintKitts.name, AntiguaandBarbuda.name, Montserrat.name, Guadeloupe.name,],
     _akas : [""],
     _description : "",
 
@@ -920,7 +921,7 @@ const GreaterAntilles = {
 const LesserAntilles = {
     _name : "Lesser Antilles",
     _wikiURI: "https://en.wikipedia.org/wiki/Lesser_Antilles",
-    _countries : [Curacao.name, Aruba.name, Bonaire.name],
+    _countries : [VirginIslandsUSA.name, VirginIslandsUK.name, Anguilla.name, SaintMartin.name, SintMaartin.name, StBarths.name, Saba.name, SintEustatius.name, SaintKitts.name, AntiguaandBarbuda.name, Montserrat.name, Guadeloupe.name, Dominica.name, Martinique.name, SaintLucia.name, Barbados.name, SaintVincentGrenadines.name, Grenada.name, TrinidadandTobago, Curacao.name, Aruba.name, Bonaire.name],
     _akas : ["Pequeñas Antillas (Spanish)", "Petites Antilles (French)", "Antias Menor (Papiamento)", "Kleine Antillen (Dutch)"],
     _description : "is a group of islands in the Caribbean Sea. Most form a long, partly volcanic island arc between the Greater Antilles to the north-west and the continent of South America. The islands form the eastern boundary of the Caribbean Sea with the Atlantic Ocean. Together, the Lesser Antilles and the Greater Antilles compose the Antilles (or the Caribbean in its narrowest definition). When combined with the Lucayan Archipelago, all three are known as the West Indies.",
 
@@ -963,9 +964,24 @@ const America = {
 
 
 
+const Commonwealth = {
+    _name : "Commonwealth realm",
+    _wikiURI: "https://en.wikipedia.org/wiki/Commonwealth_realm",
+    _countries : [AntiguaandBarbuda.name, /*Australia.name,*/ Bahamas.name, Barbados.name, Belize.name, Canada.name, Grenada.name, Jamaica.name, /*NewZealand.name, PapuaNewGuinea.name*/ SaintKitts.name, SaintLucia.name, SaintVincentGrenadines.name, /* SolomonIslands.name, Tuvalu.name, UnitedKingdom.name */ ],
+    _akas : [""],
+    _description : "A Commonwealth realm is a sovereign state in which Queen Elizabeth II is the reigning constitutional monarch and head of state. Each realm functions as an independent co-equal kingdom from the other realms. As of 2020, there are 16 Commonwealth realms: Antigua and Barbuda, Australia, the Bahamas, Barbados, Belize, Canada, Grenada, Jamaica, New Zealand, Papua New Guinea, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, Solomon Islands, Tuvalu, and the United Kingdom. All 16 Commonwealth realms are members of the Commonwealth of Nations, an intergovernmental organisation of 54 member states. Elizabeth II is head of the Commonwealth.",
+    _URIs : [
+        "https://www.royal.uk/commonwealth-and-overseas",
+    ],
 
+    get name()      {   return this._name;      },
+    get wikiURI()   {   return this._wikiURI;   },
+    get countries() {   return this._countries; },
+    get akas()      {   return this._akas;      },
+    get description()   {   return this._description;   },
+    get URIs()      {   return this._URIs;      },
 
-
+}
 
 /* ------------------------------------------------------------------------------------*/
 
@@ -1055,10 +1071,88 @@ Guadeloupe.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/a/a5/Gu
 Guadeloupe.addRefURI("countryMapFile", "https://commons.wikimedia.org/wiki/File:Guadeloupe_map.png");
 
 
+
+
+Dominica.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_Dominica");
+Dominica.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/a/ad/Do-map.png");
+Dominica.addRefURI("countryMapFile", "https://commons.wikimedia.org/wiki/File:Do-map.png");
+
+
+Dominica.addRefURI("redLocationMap", "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/LocationDominica.svg/640px-LocationDominica.svg.png");
+Dominica.addRefURI("redLocationMapFile", "https://commons.wikimedia.org/wiki/File:LocationDominica.svg");
+
+
+Martinique.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_Martinique");
+Martinique.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/f/fd/Martinique-Map.png");
+Martinique.addRefURI("CountryMapFile", "https://commons.wikimedia.org/wiki/File:Martinique-Map.png");
+
+SaintLucia.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_Saint_Lucia");
+SaintLucia.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/d/d9/Saint_Lucia-CIA_WFB_Map.png");
+SaintLucia.addRefURI("CountryMapFile", "https://commons.wikimedia.org/wiki/File:Saint_Lucia-CIA_WFB_Map.png");
+
+
+
+Barbados.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_Barbados");
+Barbados.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/e/ed/Bb-map.png");
+Barbados.addRefURI("CountryMapFile", "https://commons.wikimedia.org/wiki/File:Bb-map.png");
+
+
+SaintVincentGrenadines.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_Saint_Vincent_and_the_Grenadines");
+SaintVincentGrenadines.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/9/92/Saint_Vincent_and_the_Grenadines-CIA_WFB_Map.png");
+SaintVincentGrenadines.addRefURI("CountryMapFile", "https://commons.wikimedia.org/wiki/File:Saint_Vincent_and_the_Grenadines-CIA_WFB_Map.png");
+
+
+Grenada.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_Grenada");
+Grenada.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/e/e5/Gj-map.gif");
+Grenada.addRefURI("CountryMapFile", "https://commons.wikimedia.org/wiki/File:Gj-map.gif");
+
+TrinidadandTobago.addRefURI("wikiAtlas","https://commons.wikimedia.org/wiki/Atlas_of_Trinidad_and_Tobago");
+TrinidadandTobago.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/8/8a/Td-map.png");
+TrinidadandTobago.addRefURI("CountryMapFile", "https://commons.wikimedia.org/wiki/File:Td-map.png");
+
+
+/*VirginIslandsUSA.name, VirginIslandsUK.name, Anguilla.name, SaintMartin.name, SintMaartin.name, StBarths.name, Saba.name, SintEustatius.name, SaintKitts.name, AntiguaandBarbuda.name, Montserrat.name, Guadeloupe.name, Dominica.name, Martinique.name, SaintLucia.name, Barbados.name, SaintVincentGrenadines.name, Grenada.name, TrinidadandTobago, Curacao.name, Aruba.name, Bonaire.name*/
+
+myCountry = Bonaire;
+
+Curacao.addRefURI("wikiAtlas","https://commons.wikimedia.org/wiki/Atlas_of_Cura%C3%A7ao");
+Curacao.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/a/a5/Curacao-CIA_WFB_Map.png");
+Curacao.addRefURI("CountryMapFile", "https://commons.wikimedia.org/wiki/File:Curacao-CIA_WFB_Map.png");
+
+Aruba.addRefURI("wikiAtlas","https://commons.wikimedia.org/wiki/Atlas_of_Aruba");
+Aruba.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/1/1b/Aruba_map.png");
+Aruba.addRefURI("CountryMapFile", "https://commons.wikimedia.org/wiki/File:Aruba_map.png");
+
+Bonaire.addRefURI("SVG_locator","https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Bonaire_(location_map_scheme)");
+
+Bonaire.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Bonaire_island.png/300px-Bonaire_island.png");
+Bonaire.addRefURI("CountryMapFile", "https://commons.wikimedia.org/wiki/File:Bonaire_island.png");
+
 /*
-.addRefURI("SVG_locator", "");
-.setRegionMap("");
-.addRefURI("regionMapFile", "");
+.addRefURI("wikiAtlas",);
+.setCountryMap("");
+.addRefURI("CountryMapFile", "");
+/*
+.setCountryMap("");
+.addRefURI("CountryMapFile", "");
+*/
+
+
+Dominica.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Dominica_in_its_region.svg/640px-Dominica_in_its_region.svg.png");
+Dominica.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:Dominica_in_its_region.svg");
+Martinique.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Martinique_in_its_region.svg/640px-Martinique_in_its_region.svg.png");
+Martinique.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:Martinique_in_its_region.svg");
+SaintLucia.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Saint_Lucia_in_its_region.svg/640px-Saint_Lucia_in_its_region.svg.png");
+SaintLucia.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:Saint_Lucia_in_its_region.svg");
+SaintVincentGrenadines.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Saint_Vincent_and_the_Grenadines_in_its_region.svg/640px-Saint_Vincent_and_the_Grenadines_in_its_region.svg.png");
+SaintVincentGrenadines.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:Saint_Vincent_and_the_Grenadines_in_its_region.svg");
+Grenada.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Grenada_in_its_region.svg/640px-Grenada_in_its_region.svg.png");
+Grenada.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:Grenada_in_its_region.svg");
+
+
+Barbados.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Barbados_(location_map_scheme)");
+Barbados.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Barbados_in_its_region.svg/640px-Barbados_in_its_region.svg.png");
+Barbados.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:Barbados_in_its_region.svg");
 
 /*
 
@@ -1307,7 +1401,11 @@ SintEustatius.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Categ
 SaintKitts.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Saint_Kitts_and_Nevis_(location_map_scheme)");
 AntiguaandBarbuda.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Antigua_and_Barbuda_(location_map_scheme)");
 Montserrat.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Montserrat_(location_map_scheme)");
-
+Dominica.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Dominica_(location_map_scheme)");
+Martinique.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Martinique_(location_map_scheme)");
+SaintLucia.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Saint_Lucia_(location_map_scheme)");
+SaintVincentGrenadines.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Saint_Vincent_and_the_Grenadines_(location_map_scheme)");
+Grenada.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Grenada_(location_map_scheme)");
 
 
 
