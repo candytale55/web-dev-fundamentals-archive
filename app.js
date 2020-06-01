@@ -73,13 +73,19 @@ document.addEventListener('DOMContentLoaded', () => {
   // make the tetrominos move down every second.
   timerId = setInterval(moveDown, 1000);
 
-  // Assign functions to keyCodes.
+  // Assign functions to keyCodes. e stands for "event". To get keyCodes try keyCode.info
   function control(e){
     if (e.keyCode === 37) {
       moveLeft();
+    } else if (e.keyCode === 38) { //up arrow
+      rotate();
+    } else if (e.keyCode === 39){
+      moveRight();
+    } else if (e.keyCode === 40) { // down arrow
+      //moveDown() but faster
     }
-  }
-  document.addEventListener('keyup', control);
+  } //end control(e)
+  document.addEventListener('keyup', control); // (event, function)
 
   function moveDown(){
     undraw();
@@ -103,26 +109,36 @@ document.addEventListener('DOMContentLoaded', () => {
   // The tetrominoes shouldn't go farther left
   function moveLeft(){
     undraw();
-    const isAtLeftEdge = current.some( index => (currentPosition + index) % width === 0);
+    const isAtLeftEdge = current.some( index => (currentPosition + index) % width === 0); //divided by 10 has no remainder = it is at index 10,20,30, etc.
     if(!isAtLeftEdge) currentPosition -=1;
     if(current.some(index => squares [currentPosition + index].classList.contains('taken'))){
-    currentPosition +=1;}
+    currentPosition +=1;} // if some of the squares goes into a space with class "taken" it will go back one space and therefore it seems it didn't move.
     draw();
   } // end moveLeft()
 
+  // The tetrominoes move right, except for the edge or blockages by other tetrominoes
+  function moveRight(){
+    undraw();
+    const isAtRightEdge = current.some( index => (currentPosition + index) % width === width-1); // if the remainder is equal to the width -1 then it is at the right edge ()
+    if (!isAtRightEdge) currentPosition += 1;
+
+    if( current.some (index => squares[ currentPosition + index].classList.contains('taken'))) {
+      currentPosition -=1;
+    }
+    draw();
+  } // end moveRight()
+
+
+    // ROTATE THE TETROMINOES
+    function rotate() {
+      undraw();
+      currentRotation ++; // moves through the index of rotations.
+      if (currentRotation === current.length) {
+        currentRotation = 0;
+      }
+      current = theTetrominoes[random][currentRotation];
+      draw();
+    } // rotate()
+
 
 })
-
-
-/*
-
-const lTetromino = [
-  [],[],[],[]
-];
-
-
-  function showAlert() {
-    alert('You have been alerted');
-  }
-  showAlert();
-*/
