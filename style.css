@@ -1,4 +1,4 @@
-.container {
+.container {  /* Separates the two grids*/
   display: flex;
 }
 
@@ -15,20 +15,22 @@
   width: 20px;
 }
 
-.tetromino {
-  background-color: blue;
-}
 
 .mini-grid {
-  margin-left: 50px;
-  height: 80px;
-  width : 80px;
+  background-color: pink;
   display: flex;
   flex-wrap: wrap;
-  background-color: pink;
+  height: 80px;
+  margin-left: 50px;
+  width : 80px;
 }
 
 .mini-grid div {
   height: 80px;
   width: 20px;
+}
+
+
+.tetromino {
+  background-color: blue;
 }
