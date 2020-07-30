@@ -1,4 +1,3 @@
 # form_a_story
-This is a madlibs style exercise to do a story with fill-in values in an HTML form. From CodeCademy exercises.
-
-Still incomplete (It still doesn't work locally. Need to fix the links between main.js and story.html)
+Still incomplete (It still doesn't work locally. Need to fix the links between main.js and story.html) <br><br>
+<img src='https://i.postimg.cc/wtndG4nH/form-a-story-thumbnail.png' border='0' alt='form-a-story-thumbnail'/>
