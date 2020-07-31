@@ -1,0 +1,18 @@
+
+
+  /*Color variables*/
+/*
+  --darker-blue: #7DA6B5;
+  --very-light-blue: #D1F3FF;
+  --medium-blue: #B8ECFF;
+  --darker-brown: #B38759;
+  --light-brown: #FFBA72;
+*/
+
+
+https://www.youtube.com/watch?v=siPJf98Rp4w
+
+
+Other resources:
+
+https://color.adobe.com/es/create
