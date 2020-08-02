@@ -6,6 +6,7 @@ body {
   color: #2e3738;
 }
 
+
 #landscape {
   /*background-color: blue;*/
   background-image: url("https://s3.amazonaws.com/codecademy-content/projects/sass/landscape.jpg");
