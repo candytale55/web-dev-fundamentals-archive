@@ -10,16 +10,15 @@ The point of the <BusinessList /> component is to simulate what a returned list 
 class BusinessList extends React.Component {
     render() {
         return (
-            <div class="BusinessList">
+            <div className="BusinessList">
                 {
                     this.props.businesses.map( business => {
-                        return <Business business={business}/>
+                        return <Business business={business} />
                     })
                 }
             </div>
-        )
+        );
     } // fin render()
-
 } // fin class BusinessList extends ...
 
 export default BusinessList;
