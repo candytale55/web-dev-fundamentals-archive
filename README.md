@@ -1,5 +1,2 @@
 # codebrainery
-
-Fictional Learning to Code App - Codecademy Bootstrap Exercise
-
-Youtube video: https://www.youtube.com/watch?v=Uhl3q7-b6Ug
+[![codebrainary.png](https://i.postimg.cc/j5bvXj9x/codebrainary.png)](https://postimg.cc/QBfpNjhw)
