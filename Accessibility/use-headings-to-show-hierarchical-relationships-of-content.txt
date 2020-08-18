@@ -1,0 +1,28 @@
+<h1>How to Become a Ninja</h1>
+<main>
+  <h2>Learn the Art of Moving Stealthily</h2>
+  <h3>How to Hide in Plain Sight</h3>
+  <h3>How to Climb a Wall</h3>
+
+  <h2>Learn the Art of Battle</h2>
+  <h3>How to Strengthen your Body</h3>
+  <h3>How to Fight like a Ninja</h3>
+
+  <h2>Learn the Art of Living with Honor</h2>
+  <h3>How to Breathe Properly</h3>
+  <h3>How to Simplify your Life</h3>
+</main>
+
+<!--
+Headings (h1 - h6 ) help provide structure and labeling to content. Screen readers can be set to read only the headings on a page to get a summary. 
+
+It is important for the heading tags to have semantic meaning and relate to each other, not be picked merely for their size values.
+
+Each page should always have only one h1 element, which is the main subject.
+
+The heading tags need to go in order and indicate the hierarchical relationship in thecontent. 
+
+Headings with equal (or higher) rank start new implied sections, headings with lower rank start subsections of the previous ones.
+
+A page with an h2 element followed by several subsections labelled with h4 tags would confuse a screen reader user. 
+-->
