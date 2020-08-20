@@ -1,0 +1,30 @@
+<!--
+The type attribute on input elements indicates what kind to create.
+
+If you choose a date field, depending on browser support, a date picker shows up in the input field when it's in focus.
+
+For older browsers, the type will default to text, so it helps to show an expected date format in the label or as placeholder.
+-->
+
+
+<body>
+  <header>
+    <h1>Tournaments</h1>
+  </header>
+  <main>
+    <section>
+      <h2>Mortal Kombat Tournament Survey</h2>
+      <form>
+        <p>Tell us the best date for the competition</p>
+        <label for="pickdate">Preferred Date:</label>
+
+    
+        <input id="pickdate" name="date" type="date" >
+        
+
+        <input type="submit" name="submit" value="Submit">
+      </form>
+    </section>
+  </main>
+  <footer>&copy; 2018 Camper Cat</footer>
+</body>
