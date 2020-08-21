@@ -4,6 +4,8 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+// NOTA GHP: el punto de entrada a la aplicación es el fichero scr/index.js, en este se inicializa el componente principal App.js, a través del método ReactDOM.Render. 
+
 ReactDOM.render(
   <React.StrictMode>
     <App />

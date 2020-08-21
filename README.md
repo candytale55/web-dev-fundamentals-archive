@@ -1,3 +1,12 @@
+
+Componentes: 
+User: 
+UserList: su objetivo es renderizar una lista de componentes User.
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
