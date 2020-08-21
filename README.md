@@ -1,9 +1,4 @@
 
-Componentes: 
-User: 
-UserList: su objetivo es renderizar una lista de componentes User.
-
-
 
 
 
