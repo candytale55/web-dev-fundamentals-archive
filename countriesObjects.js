@@ -170,28 +170,9 @@ function SpanishSpeakingCountry(name, officialName, capital, continent){
   // AMERICA
 
 
-  Nicaragua.specificRegion = "Central America";
-  Nicaragua.languages = [Nicaragua.language, "English", "Miskito", "Rama", "Sumo", "Miskito Coastal Creole", "Garifuna", "Rama", "Cay Creole"];
-  //countries.unshift(Nicaragua);
-  //console.log(Nicaragua);
 
 
 
-
-
-Honduras.languages=[Honduras.language, "Garifuna","Miskito", "Mayangna", "Pech/Paya", "Tol", "Ch'orti' (Mayan)","Bay Islands Creole English"];
-Honduras.countryMap ="https://i.postimg.cc/j5WNrF9D/Honduras-country-Map.png";
-
-Belize.languages = [Belize.language, "Kriol", "Spanish", "Mayan languages","German", "Garifuna", "Chinese"];
-Belize.countryMap = "https://i.postimg.cc/J42FVPqS/Belize-country-Map.png";
-Belize.regionMap = "https://i.postimg.cc/W3qy4r1X/Belize-region-Map.png";
-
-
-
-
-Guatemala.region ="Central America";
-Guatemala.countryMap ="https://i.postimg.cc/dtP4r6vK/Guatemala-country-Map.png";
-Guatemala.regionMap = "https://i.postimg.cc/bvm2NyYv/Guatemala-region-Map.png";
 
 
 
@@ -201,46 +182,13 @@ Panama.languages = [Panama.language, "English"];
 Panama.countryMap = "https://i.postimg.cc/MpKjYyNT/Panama-country-Map.png";
 Panama.regionMap = "https://i.postimg.cc/tgd3SXDR/Panama-Region.png";
 
-Panama.URIs = [{
-    SVG_locator : "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Panama_(location_map_scheme)",
-    regionMap : "https://commons.wikimedia.org/wiki/File:Panama_in_its_region.svg",
-}];
-//countries.unshift(Panama);
-//console.log(Panama);
-//myCountry = Panama;
-
-
-
-CostaRica.countryMap = "https://i.postimg.cc/3RVPNfF4/Costa-Rica-country-Map.png";
-CostaRica.regionMap = "https://i.postimg.cc/mZd0PD8f/Costa-Rica-Region.png";
-CostaRica.URIs = [{
-    SVG_locator : "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Costa_Rica_(location_map_scheme)",
-    regionMap : "https://commons.wikimedia.org/wiki/File:Costa_Rica_in_its_region.svg",
-}];
 
 
 
 
-Cuba.countryMap = "https://i.postimg.cc/L8ZB9v67/Cuba-country-map.png";
-Cuba.regionMap = "https://i.postimg.cc/h42FF8jT/Cuba-region-Map.png";
-Cuba.URIs = [{
-    SVG_locator : "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Cuba_(location_map_scheme)",
-}];
-//console.log(Cuba);
-//countries.unshift(Cuba);
-//myCountry = Cuba;
 
 
-ElSalvador.languages = [ElSalvador.language, "Caliche","Nawat", "Maya"]
-ElSalvador.region = "Central America";
-ElSalvador.countryMap = "https://upload.wikimedia.org/wikipedia/commons/9/98/El_Salvador-CIA_WFB_Map.png";
-ElSalvador.regionMap = "https://i.postimg.cc/C13ZX6cF/El-Salvador-Region.png";
-ElSalvador.URIs = [{
-    countryMapFile : "https://ca.wikipedia.org/wiki/Fitxer:El_Salvador-CIA_WFB_Map.png",
 
-    locationMap : "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/El_Salvador_-_Location_Map_%282013%29_-_SLV_-_UNOCHA.svg/480px-El_Salvador_-_Location_Map_%282013%29_-_SLV_-_UNOCHA.svg.png",
-    locationMapFile : "https://en.wikipedia.org/wiki/File:El_Salvador_-_Location_Map_(2013)_-_SLV_-_UNOCHA.svg",
-}];
 
 
 
@@ -340,17 +288,7 @@ Canada.cities.push("Toronto", "Quebec City");
 
 
 
-Jamaica.languages = [Jamaica.language, "Jamaican Patois"];
-Jamaica.regionMap = "https://i.postimg.cc/8CpxdKH0/Jamaica-Region.png";
-Jamaica.countryMap = "https://upload.wikimedia.org/wikipedia/commons/d/dd/Jm-map.png";
-Jamaica.URIs = [{
-    SVG_locator: "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Jamaica_(location_map_scheme)",
 
-    regionMapFile: "https://commons.wikimedia.org/wiki/File:Jamaica_in_its_region.svg",
-    
-    locationMap: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Jamaica_-_Location_Map_%282013%29_-_JAM_-_UNOCHA.svg/480px-Jamaica_-_Location_Map_%282013%29_-_JAM_-_UNOCHA.svg.png",
-    locationMapFile: "https://en.wikipedia.org/wiki/File:Jamaica_-_Location_Map_(2013)_-_JAM_-_UNOCHA.svg",
-}];
 
 
 Haiti.languages= [Haiti.language, "Haitian Creole"];
@@ -367,31 +305,6 @@ Haiti.URIs = [{
 //console.log(Haiti);
 //countries.unshift(Haiti);
 //myCountry = Haiti;
-
-
-PuertoRico.territory = "United States of America";
-PuertoRico.languages.push("English");
-PuertoRico.nickname = ["Porto Rico", "PR", "Estado Libre Asociado de Puerto Rico"];
-PuertoRico.URIs = {
-    SVG_locator: "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Puerto_Rico_(location_map_scheme)",
-
-    locationMap: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Puerto_Rico_in_its_region.svg/640px-Puerto_Rico_in_its_region.svg.png",
-    locationMapFile : "https://commons.wikimedia.org/wiki/File:Puerto_Rico_in_its_region.svg",
-
-    countryMap: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Puerto_Rico_-_Location_Map_%282013%29_-_PRI_-_UNOCHA.svg/480px-Puerto_Rico_-_Location_Map_%282013%29_-_PRI_-_UNOCHA.svg.png",
-    countryMapFile: "https://en.wikipedia.org/wiki/File:Puerto_Rico_-_Location_Map_(2013)_-_PRI_-_UNOCHA.svg",
-
-    worldMap: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Puerto_Rico_on_the_globe_%28Caribbean_special%29_%28Americas_centered%29.svg/480px-Puerto_Rico_on_the_globe_%28Caribbean_special%29_%28Americas_centered%29.svg.png",
-    worldMapFile: "https://de.wikipedia.org/wiki/Datei:Puerto_Rico_on_the_globe_(Caribbean_special)_(Americas_centered).svg",
-
-    wikimediaAtlas: "https://commons.wikimedia.org/wiki/Atlas_of_Puerto_Rico",
-};
-PuertoRico.regionMap = PuertoRico.URIs.locationMap;
-PuertoRico.countryMap = PuertoRico.URIs.countryMap;
-//console.log(PuertoRico);
-//countries.unshift(PuertoRico);
-//myCountry = PuertoRico;
-
 
 
 
@@ -716,26 +629,7 @@ PuertoRico.countryMap = PuertoRico.URIs.countryMap;
 
     // American Islands
 
-    
-    CaymanIslands.territory = "United Kingdom";
-    CaymanIslands.islands = ["Grand Cayman", "Cayman Brac", "Little Cayman,"];
-    //console.log(CaymanIslands);
-    //countries.unshift(CaymanIslands);
 
-
-    Aruba.territory = "Neatherlands";
-    Aruba.ocean = "Atlantic";
-    Aruba.sea = "Caribean";
-    Aruba.specificRegion = "Lesser Antilles";
-
-    SaintLucia.specificRegion ="Lesser Antilles";
-    SaintLucia.region = "Antilles";
-
-    Grenada.island = true;
-    Grenada.islands = ["Carriacou", "Petite Martinique", "Ronde Island", "Caille Island", "Diamond Island", "Large Island", "Saline Island", "Frigate Island"];
-    Grenada.ocean = "Atlantic";
-    Grenada.sea = "Caribean";
-    Grenada.languages = [Grenada.language, "Grenadian Creole English", "Grenadian Creole French"];
 
     AntiguaandBarbuda.region = "Antillas"
     AntiguaandBarbuda.specificRegion = "Lesser Antilles";
@@ -751,30 +645,20 @@ PuertoRico.countryMap = PuertoRico.URIs.countryMap;
     TrinidadandTobago.islands = ["Trinidad", "Tobago", "Monos", "Huevos", "Gaspar Grande (Gasparee)", "Little Tobago", "St. Giles Island"];
     TrinidadandTobago.specificRegion = "Lesser Antilles";
     
-    Barbados.languages= [Barbados.language, "Bajan Creole"];
-
-    Dominica.languages = [Dominica.language, "Dominican Creole", "French"];
-
+    
     SaintKitts.cities = [SaintKitts.capital, "Charlestown"];
     SaintKitts.languages = [SaintKitts.language, "Saint Kitts Creole"];
     SaintKitts.islands = ["Saint Kitts", "Nevis"];
     
-    SaintVincentGrenadines.islands = ["Saint Vincent", "Young Island", "Bequia", "Mustique", "Canouan", "Union Island", "Mayreau", "Petit St Vincent", "Palm Island", "Petit Nevis", "Petit Mustique"];
-    SaintVincentGrenadines.languages = [SaintVincentGrenadines.language, "Vincentian Creole"];
     
     
-    Anguilla.territory = "United Kingdom";
+    
     
     const Bonaire = new antillesCountry("Bonaire", "Bonaire", "Kralendijk", "Dutch", "Lesser Antilles");
     Bonaire.territory = "Neatherlands";
     Bonaire.languages = [Bonaire.language, "Papiamento"];
   
 
-    VirginIslandsUK.territory = "United Kingdom";
-    
-    VirginIslandsUSA.territory = "United States of America";
-    VirginIslandsUSA.languages = [VirginIslandsUSA.language, "Virgin Islands Creole English"];
-    VirginIslandsUSA.nickname = ["U.S. Virgin Islands", "American Virgin Islands"];
     
     Curacao.territory = "Neatherlands";
     Curacao.languages = [Curacao.language, "Papiamento", "English"];
@@ -801,12 +685,7 @@ PuertoRico.countryMap = PuertoRico.URIs.countryMap;
     StBarths.languages = [StBarths.language, "Saint-Barthélemy French", "Antillean Creole"];
     
 
-    SaintMartin.territory = "France";
-    SaintMartin.nickname = ["Sint Maarten", "The Friendly Island"];
 
-    SintMaartin.territory = "Netherlands";
-    SintMaartin.languages = [SintMaartin.language, "English"];
-    SintMaartin.cities = [SintMaartin.capital, "Lower Prince's Quarter"]
 
     SintEustatius.languages = [SintEustatius.language, "English"];
     SintEustatius.territory = "Netherlands";
@@ -821,7 +700,10 @@ PuertoRico.countryMap = PuertoRico.URIs.countryMap;
 
 
 
-
+    Aruba.territory = "Neatherlands";
+    Aruba.ocean = "Atlantic";
+    Aruba.sea = "Caribean";
+    Aruba.specificRegion = "Lesser Antilles";
 
 
     // Europe

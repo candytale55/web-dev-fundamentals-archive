@@ -362,8 +362,8 @@ Mexico.addRefURI("countryMapFile", "https://commons.wikimedia.org/wiki/File:Mx-m
 Mexico.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_Mexico");
 Mexico.addRefURI("ciaFactbook", "https://www.cia.gov/library/publications/the-world-factbook/geos/mx.html");
 
-myCountry = Mexico;
-console.log(Mexico);
+//myCountry = Mexico;
+//console.log(Mexico);
 
 
 

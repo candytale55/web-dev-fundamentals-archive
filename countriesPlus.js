@@ -231,6 +231,10 @@ Tuvalu.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/T
 //console.log(Tuvalu._URIs);
 
 
+
+
+
+
 const Tonga = new OceaniaIsland("Tonga", "Kingdom of Tonga", "Nukuʻalofa", "Polynesia");
   Tonga.languages.push("Tongan");
   Tonga.islands = ["Tongatapu"];

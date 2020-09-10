@@ -2,15 +2,16 @@ let myCountry;
 let countries = []; // Holds all the countries names.
 
 class Country {
-    constructor(name, officialName, capital, language){ //removed continent as parameter
+    constructor(name, officialName, capital, language){
         this._name = name;
         this._officialName = officialName;
         this._capital = capital;
-        //this._continent = continent;
+        this._continent;
         this._language = language;
-        this._languages = [language];
-        this._cities = [capital];
+        this._languages;
+        this._cities;
         this._URIs = {};
+        this._limits;
         countries.push(this._name);
     } // constructor end.
 
@@ -23,28 +24,32 @@ class Country {
     get capital(){
         return this._capital;
     }
-    /*
+
+    get limits(){
+        return this._limits;
+    }
+
+    
     get continent(){
         return this._continent;
-    }*/
+    }
+
     get language(){
         return this._language;
     }
-    addLanguages(...newLanguage){ // spread operator gets all the items as an array, still have to work how to solve it.
-        if(languages){
-            this._languages.push(newLanguage);
-        } else{
-            this._languages = [newLanguage];
-        }
+    addLanguages(...languages){
+            this._languages = [...languages];
     }
     get languages(){
         return this._languages;
     }
+
+
     get cities(){
         return this._cities;
     }
-    addCities(cities){
-        this._cities.push(cities);
+    addCities(...cities){
+            this._cities=[...cities];
     }
 
     isLandlocked(){
@@ -53,10 +58,11 @@ class Country {
     get landlocked(){
         return this._landlocked;
     }
-    isTrancontinental(names){
+    
+    isTrancontinental(...names){
         this._transcontinental = true;
         this._continents = [];
-        this._continents.push(names);
+        this._continents.push(...names);
     }
     get transcontinental(){
         return this._transcontinental;
@@ -74,11 +80,7 @@ class Country {
 
 
     setRegion(worldRegion){
-        if (this._region){
-            this._region.push(worldRegion);
-        } else {
-            this._region = [worldRegion];
-        }
+        this._region = worldRegion;
     }
     get region(){
         return this._region;
@@ -137,17 +139,14 @@ class Country {
 
     hasIsland(island){
         this._islands = [island];
-        /*
-        if (this._islands!==[]){
-            this._islands.push(island);
-        } else {
-            this._islands = [island];
-        }*/
     }
     get islands(){
         return this._islands;
     }
 }
+
+Country.prototype._continent = "America";
+Country.prototype._landlocked = false;
 
 
 class Island {
@@ -189,13 +188,42 @@ class Island {
 // NORTH AMERICA
 
 const Canada = new Country("Canada", "Canada", "Ottawa", "English");
+Canada.setRegion("North America");
+Canada.addCities(Canada.capital,"Québec", "Winnipeg", "Calgary", "Vancouver", "Toronto", "Montreal");
+Canada.addLanguages(Canada.language, "French");
+
 Canada.setwikiURI("https://en.wikipedia.org/wiki/Canada");
+Canada.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/320px-Flag_of_Canada_%28Pantone%29.svg.png");
+Canada.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/7/77/Ca-map.png");
+Canada.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/CAN_orthographic.svg/240px-CAN_orthographic.svg.png");
+
+Canada.addRefURI("wikiAtlas","https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Canada_(location_map_scheme)");
+Canada.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Canada_(Pantone).svg");
+
+Canada.addRefURI("wikiAtlas","https://commons.wikimedia.org/wiki/Atlas_of_Canada");
+
+myCountry = Canada;
+console.log(Canada);
+
+
+
+/*
+.setCountryMap("");
+.setRegionMap("");
+*/
+
 
 const UnitedStates = new Country("United States", "United States of America", "Washington, D.C.", "English");
+UnitedStates.setFlag("https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/320px-Flag_of_the_United_States.svg.png");
 UnitedStates.setwikiURI("https://en.wikipedia.org/wiki/United_States");
+UnitedStates.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_the_United_States.svg");
+
 
 const Mexico = new Country("México", "Estados Unidos Mexicanos", "Ciudad de México", "Spanish");
 Mexico.setwikiURI("https://en.wikipedia.org/wiki/Mexico");
+Mexico.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/320px-Flag_of_Mexico.svg.png");
+Mexico.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Mexico.svg");
+
 
 // LUYCAN ARCHIPIELAGO
 const Bahamas = new Country("The Bahamas", "Commonwealth of The Bahamas", "Nassau", "English");
@@ -203,25 +231,42 @@ Bahamas.setwikiURI("https://en.wikipedia.org/wiki/The_Bahamas");
 
 const TurksandCaicosIslands = new Country("Turks and Caicos Islands", "Turks and Caicos Islands", "Cockburn Town", "English");
 TurksandCaicosIslands.setwikiURI("https://en.wikipedia.org/wiki/Turks_and_Caicos_Islands");
+TurksandCaicosIslands.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Turks_and_Caicos_Islands_(location_map_scheme)");
+
+
 
 // GREATER ANTILLES
 const Cuba = new Country("Cuba", "República de Cuba", "Havana", "Spanish");
 Cuba.setwikiURI("https://en.wikipedia.org/wiki/Cuba");
-
-const DominicanRepublic = new Country("Dominican Republic", "República Dominicana", "Santo Domingo", "Spanish");
-DominicanRepublic.setwikiURI("https://en.wikipedia.org/wiki/Dominican_Republic");
+Cuba.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Flag_of_Cuba.svg/320px-Flag_of_Cuba.svg.png");
+Cuba.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Cuba.svg");
 
 const Haiti = new Country("Haiti", "Republic of Haiti", "Port-au-Prince", "French");
 Haiti.setwikiURI("https://en.wikipedia.org/wiki/Haiti");
+Haiti.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Flag_of_Haiti.svg/320px-Flag_of_Haiti.svg.png");
+Haiti.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Haiti.svg");
+
+
+const DominicanRepublic = new Country("Dominican Republic", "República Dominicana", "Santo Domingo", "Spanish");
+DominicanRepublic.setwikiURI("https://en.wikipedia.org/wiki/Dominican_Republic");
+DominicanRepublic.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_the_Dominican_Republic.svg/320px-Flag_of_the_Dominican_Republic.svg.png");
+DominicanRepublic.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_the_Dominican_Republic.svg");
 
 const PuertoRico = new Country("Puerto Rico", "Commonwealth of Puerto Rico", "San Juan", "Spanish");
 PuertoRico.setwikiURI("https://en.wikipedia.org/wiki/Puerto_Rico");
+PuertoRico.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Flag_of_Puerto_Rico.svg/320px-Flag_of_Puerto_Rico.svg.png");
+PuertoRico.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Puerto_Rico.svg");
 
 const Jamaica = new Country("Jamaica", "Jamaica", "Kingston", "English");
 Jamaica.setwikiURI("https://en.wikipedia.org/wiki/Jamaica");
+Jamaica.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Flag_of_Jamaica.svg/320px-Flag_of_Jamaica.svg.png");
+Jamaica.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Jamaica.svg");
 
 const CaymanIslands = new Country("Cayman Islands", "Cayman Islands", "George Town", "English");
 CaymanIslands.setwikiURI("https://en.wikipedia.org/wiki/Cayman_Islands");
+CaymanIslands.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_the_Cayman_Islands.svg/320px-Flag_of_the_Cayman_Islands.svg.png");
+CaymanIslands.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_the_Cayman_Islands.svg");
+
 
 
 /* LESSER ANTILLES */
@@ -229,35 +274,135 @@ CaymanIslands.setwikiURI("https://en.wikipedia.org/wiki/Cayman_Islands");
 
 const SaintLucia = new Country("Saint Lucia", "Saint Lucia", "Castries", "America", "English");
 SaintLucia.setwikiURI("https://en.wikipedia.org/wiki/Saint_Lucia");
+SaintLucia.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_Saint_Lucia");
+SaintLucia.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Saint_Lucia.svg/320px-Flag_of_Saint_Lucia.svg.png");
+SaintLucia.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Saint_Lucia.svg");
+SaintLucia.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/d/d9/Saint_Lucia-CIA_WFB_Map.png");
+SaintLucia.addRefURI("CountryMapFile", "https://commons.wikimedia.org/wiki/File:Saint_Lucia-CIA_WFB_Map.png");
+SaintLucia.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Saint_Lucia_in_its_region.svg/640px-Saint_Lucia_in_its_region.svg.png");
+SaintLucia.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:Saint_Lucia_in_its_region.svg");
+SaintLucia.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Saint_Lucia_(location_map_scheme)");
 
 const Grenada = new Country("Grenada", "Grenada","St. George's", "English");
 Grenada.setwikiURI("https://en.wikipedia.org/wiki/Grenada");
+Grenada.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Grenada_(location_map_scheme)");
+Grenada.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_Grenada");
+Grenada.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Grenada.svg/320px-Flag_of_Grenada.svg.png");
+Grenada.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Grenada.svg");
+Grenada.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/e/e5/Gj-map.gif");
+Grenada.addRefURI("CountryMapFile", "https://commons.wikimedia.org/wiki/File:Gj-map.gif");
+Grenada.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Grenada_in_its_region.svg/640px-Grenada_in_its_region.svg.png");
+Grenada.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:Grenada_in_its_region.svg");
+Grenada.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Grenada_(location_map_scheme)");
 
-const Dominica = new Country("Dominica", "Commonwealth of Dominica", "Roseau", "English");
-Dominica.setwikiURI("https://en.wikipedia.org/wiki/Dominica");
+
+
 
 const SaintVincentGrenadines = new Country("Saint Vincent and the Grenadines", "Saint Vincent and the Grenadines", "Kingstown", "English");
 SaintVincentGrenadines.setwikiURI("https://en.wikipedia.org/wiki/Saint_Vincent_and_the_Grenadines");
+SaintVincentGrenadines.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Saint_Vincent_and_the_Grenadines_(location_map_scheme)");
+
+SaintVincentGrenadines.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Saint_Vincent_and_the_Grenadines_in_its_region.svg/640px-Saint_Vincent_and_the_Grenadines_in_its_region.svg.png");
+SaintVincentGrenadines.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:Saint_Vincent_and_the_Grenadines_in_its_region.svg");
+
+SaintVincentGrenadines.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/9/92/Saint_Vincent_and_the_Grenadines-CIA_WFB_Map.png");
+SaintVincentGrenadines.addRefURI("CountryMapFile", "https://commons.wikimedia.org/wiki/File:Saint_Vincent_and_the_Grenadines-CIA_WFB_Map.png");
+SaintVincentGrenadines.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Flag_of_Saint_Vincent_and_the_Grenadines.svg/320px-Flag_of_Saint_Vincent_and_the_Grenadines.svg.png");
+SaintVincentGrenadines.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Saint_Vincent_and_the_Grenadines.svg");
+SaintVincentGrenadines.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_Saint_Vincent_and_the_Grenadines");
+SaintVincentGrenadines.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Saint_Vincent_and_the_Grenadines_(location_map_scheme)");
+
+
 
 const Barbados = new Country("Barbados", "Barbados", "Bridgetown", "English");
 Barbados.setwikiURI("https://en.wikipedia.org/wiki/Barbados");
+Barbados.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Barbados_(location_map_scheme)");
+Barbados.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Barbados_(location_map_scheme)");
+Barbados.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Barbados_in_its_region.svg/640px-Barbados_in_its_region.svg.png");
+Barbados.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:Barbados_in_its_region.svg");
+Barbados.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/e/ed/Bb-map.png");
+Barbados.addRefURI("CountryMapFile", "https://commons.wikimedia.org/wiki/File:Bb-map.png");
+Barbados.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Flag_of_Barbados.svg/320px-Flag_of_Barbados.svg.png");
+Barbados.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Barbados.svg");
+Barbados.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_Barbados");
+
 
 // LEEWARD ISLANDS
 
 const VirginIslandsUK = new Country("Virgin Islands", "British Virgin Islands", "Road Town", "English");
 VirginIslandsUK.setwikiURI("https://en.wikipedia.org/wiki/British_Virgin_Islands");
 
+VirginIslandsUK.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_British_Virgin_Islands_(location_map_scheme)");
+VirginIslandsUK.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/British_Virgin_Islands_in_its_region_%28zoom%29.svg/640px-British_Virgin_Islands_in_its_region_%28zoom%29.svg.png");
+VirginIslandsUK.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:British_Virgin_Islands_in_its_region_(zoom).svg");
+VirginIslandsUK.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/f/ff/BritishVirginIsland_map.png");
+VirginIslandsUK.addRefURI("countryMapFile", "https://commons.wikimedia.org/wiki/File:BritishVirginIsland_map.png");
+
+VirginIslandsUK.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Flag_of_the_British_Virgin_Islands.svg/320px-Flag_of_the_British_Virgin_Islands.svg.png");
+VirginIslandsUK.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_the_British_Virgin_Islands.svg");
+
+VirginIslandsUK.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_the_British_Virgin_Islands");
+
+
+
+
 const VirginIslandsUSA = new Country("Virgin Islands", "Virgin Islands of the United States", "Charlotte Amalie", "English");
 VirginIslandsUSA.setwikiURI("https://en.wikipedia.org/wiki/United_States_Virgin_Islands");    
-    
+VirginIslandsUSA.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_the_United_States_Virgin_Islands_(location_map_scheme)");
+VirginIslandsUSA.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/United_States_Virgin_Islands_in_its_region_%28zoom%29.svg/640px-United_States_Virgin_Islands_in_its_region_%28zoom%29.svg.png");
+VirginIslandsUSA.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:United_States_Virgin_Islands_in_its_region_(zoom).svg");
+
+VirginIslandsUSA.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/c/c5/Virgin_Islands-CIA_WFB_Map.png");
+VirginIslandsUSA.addRefURI("countryMapFile", "https://en.wikipedia.org/wiki/File:Virgin_Islands-CIA_WFB_Map.png");
+
+VirginIslandsUSA.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Flag_of_the_United_States_Virgin_Islands.svg/320px-Flag_of_the_United_States_Virgin_Islands.svg.png");
+VirginIslandsUSA.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_the_United_States_Virgin_Islands.svg");
+VirginIslandsUSA.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_the_United_States_Virgin_Islands");
+   
+
+
 const Anguilla = new Country("Anguilla", "Anguilla", "The Valley", "English");
 Anguilla.setwikiURI("https://en.wikipedia.org/wiki/Anguilla");
+Anguilla.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:Anguilla_in_its_region_(zoom).svg");
+Anguilla.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Anguilla_(location_map_scheme)");
+Anguilla.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Anguilla_in_its_region_%28zoom%29.svg/640px-Anguilla_in_its_region_%28zoom%29.svg.png");
+Anguilla.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/9/9e/Anguilla-CIA_WFB_Map.png");
+Anguilla.addRefURI("countryMapFile", "https://commons.wikimedia.org/wiki/File:Anguilla-CIA_WFB_Map.png");
+Anguilla.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Anguilla.svg/320px-Flag_of_Anguilla.svg.png");
+Anguilla.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Anguilla.svg");
+Anguilla.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_Anguilla");
+
+
+
 
 const SaintMartin = new Country("Saint Martin", "Collectivity of Saint Martin", "Marigot", "French");
 SaintMartin.setwikiURI("https://en.wikipedia.org/wiki/Collectivity_of_Saint_Martin");
 
+SaintMartin.addRefURI("https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Saint-Martin_(France)_(location_map_scheme)");
+SaintMartin.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Saint_Martin_in_its_region_%28zoom%29.svg/640px-Saint_Martin_in_its_region_%28zoom%29.svg.png");
+SaintMartin.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:Saint_Martin_in_its_region_(zoom).svg");
+SaintMartin.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_Saint-Martin");
+SintMaartin.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_Sint_Maarten");
+SaintMartin.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Saint-Martin_%28fictional%29.svg/320px-Flag_of_Saint-Martin_%28fictional%29.svg.png");
+SaintMartin.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Saint-Martin_(fictional).svg");
+
+SaintMartin.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/2/28/Saint_Martin-CIA_WFB_Map.png");
+SaintMartin.addRefURI("countryMapFile", "https://en.wikipedia.org/wiki/File:Saint_Martin-CIA_WFB_Map.png");
+
+
 const SintMaartin = new Country("Sint Maarten", "Sint Maarten" ,"Philipsburg", "Dutch");
 SintMaartin.setwikiURI("https://en.wikipedia.org/wiki/Sint_Maarten");
+
+SintMaartin.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/5/51/Sint_Maarten-CIA_WFB_Map.png");
+SintMaartin.addRefURI("countryMapFile", "https://commons.wikimedia.org/wiki/File:Sint_Maarten-CIA_WFB_Map.png");
+
+SintMaartin.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Sint_Maarten_in_its_region_%28zoom%29.svg/640px-Sint_Maarten_in_its_region_%28zoom%29.svg.png");
+SintMaartin.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:Sint_Maarten_in_its_region_(zoom).svg");
+
+SintMaartin.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Sint_Maarten_(location_map_scheme)");
+
+
+
 
 const StBarths = new Country("Saint Barthélemy", "Collectivité territoriale de Saint-Barthélemy", "Gustavia", "French");
 StBarths.setwikiURI("https://en.wikipedia.org/wiki/Saint_Barth%C3%A9lemy");
@@ -299,28 +444,55 @@ Curacao.setwikiURI("https://en.wikipedia.org/wiki/Cura%C3%A7ao");
 
 const Guatemala = new Country("Guatemala", "República de Guatemala", "Guatemala City", "Spanish");
 Guatemala.setwikiURI("https://en.wikipedia.org/wiki/Guatemala");
+Guatemala.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Flag_of_Guatemala.svg/320px-Flag_of_Guatemala.svg.png");
+Guatemala.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Guatemala.svg");
+
 
 const Belize = new Country("Belize", "Belize", "Belmopan", "English");
 Belize.setwikiURI("https://en.wikipedia.org/wiki/Belize");
+Belize.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Flag_of_Belize.svg/320px-Flag_of_Belize.svg.png");
+Belize.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Belize.svg");
+
 
 const Honduras = new Country("Honduras", "República de Honduras", "Tegucigalpa", "Spanish");
 Honduras.setwikiURI("https://en.wikipedia.org/wiki/Honduras");
+Honduras.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Flag_of_Honduras_%28darker_variant%29.svg/320px-Flag_of_Honduras_%28darker_variant%29.svg.png");
+Honduras.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Honduras_(darker_variant).svg");
+
 
 const ElSalvador = new Country("El Salvador", "República de El Salvador", "San Salvador", "Spanish");
 ElSalvador.setwikiURI("https://en.wikipedia.org/wiki/El_Salvador");
+ElSalvador.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Flag_of_El_Salvador.svg/320px-Flag_of_El_Salvador.svg.png");
+ElSalvador.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_El_Salvador.svg");
+
 
 const Nicaragua = new Country("Nicaragua", "República de Nicaragua", "Managua", "Spanish");
 Nicaragua.setwikiURI("https://en.wikipedia.org/wiki/Nicaragua");
+Nicaragua.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Nicaragua.svg/320px-Flag_of_Nicaragua.svg.png");
+Nicaragua.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Nicaragua.svg");
+
 
 const CostaRica = new Country("Costa Rica", "República de Costa Rica", "San José", "Spanish");
 CostaRica.setwikiURI("https://en.wikipedia.org/wiki/Costa_Rica");
+CostaRica.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Costa_Rica_%28state%29.svg/320px-Flag_of_Costa_Rica_%28state%29.svg.png");
+CostaRica.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Costa_Rica_(state).svg");
+
 
 const Panama = new Country("Panama", "República de Panamá", "Panama City", "Spanish");
 Panama.setwikiURI("https://en.wikipedia.org/wiki/Panama");
+Panama.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Flag_of_Panama.svg/320px-Flag_of_Panama.svg.png");
+Panama.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Panama.svg");
 
-const TrinidadandTobago = new Country("Trinidad and Tobago", "Republic of Trinidad and Tobago", "Port of Spain", "English");
+
+
+
+
+
+
 
 // SOUTH AMERICA
+
+const TrinidadandTobago = new Country("Trinidad and Tobago", "Republic of Trinidad and Tobago", "Port of Spain", "English");
 
 const Venezuela = new Country("Venezuela", "Bolivarian Republic of Venezuela", "Caracas", "Spanish");
 Venezuela.setwikiURI("https://en.wikipedia.org/wiki/Venezuela");
@@ -680,20 +852,13 @@ const Commonwealth = {
 */
 
 
-VirginIslandsUSA.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_the_United_States_Virgin_Islands");
-VirginIslandsUK.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_the_British_Virgin_Islands");
-Anguilla.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_Anguilla");
 StBarths.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_Saint-Barth%C3%A9lemy");
 SaintKitts.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_Saint_Kitts_and_Nevis");
 AntiguaandBarbuda.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_Antigua_and_Barbuda");
 Montserrat.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_Montserrat");
 Guadeloupe.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_Guadeloupe");
-Dominica.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_Dominica");
 Martinique.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_Martinique");
-SaintLucia.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_Saint_Lucia");
-Barbados.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_Barbados");
-SaintVincentGrenadines.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_Saint_Vincent_and_the_Grenadines");
-Grenada.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_Grenada");
+
 TrinidadandTobago.addRefURI("wikiAtlas","https://commons.wikimedia.org/wiki/Atlas_of_Trinidad_and_Tobago");
 Curacao.addRefURI("wikiAtlas","https://commons.wikimedia.org/wiki/Atlas_of_Cura%C3%A7ao");
 Aruba.addRefURI("wikiAtlas","https://commons.wikimedia.org/wiki/Atlas_of_Aruba");
@@ -762,77 +927,15 @@ TurksandCaicosIslands.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki
 
 //FLAGS:
 
-// NORTH AMERICA
-Canada.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/320px-Flag_of_Canada_%28Pantone%29.svg.png");
-Canada.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Canada_(Pantone).svg");
-
-UnitedStates.setFlag("https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/320px-Flag_of_the_United_States.svg.png");
-UnitedStates.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_the_United_States.svg");
-
-Mexico.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/320px-Flag_of_Mexico.svg.png");
-Mexico.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Mexico.svg");
-
-/*CENTRAL AMERICA*/
-
-Belize.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Flag_of_Belize.svg/320px-Flag_of_Belize.svg.png");
-Belize.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Belize.svg");
-
-ElSalvador.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Flag_of_El_Salvador.svg/320px-Flag_of_El_Salvador.svg.png");
-ElSalvador.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_El_Salvador.svg");
-
-Nicaragua.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Nicaragua.svg/320px-Flag_of_Nicaragua.svg.png");
-Nicaragua.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Nicaragua.svg");
-
-Guatemala.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Flag_of_Guatemala.svg/320px-Flag_of_Guatemala.svg.png");
-Guatemala.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Guatemala.svg");
-
-Honduras.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Flag_of_Honduras_%28darker_variant%29.svg/320px-Flag_of_Honduras_%28darker_variant%29.svg.png");
-Honduras.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Honduras_(darker_variant).svg");
-
-Panama.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Flag_of_Panama.svg/320px-Flag_of_Panama.svg.png");
-Panama.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Panama.svg");
-
-CostaRica.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Costa_Rica_%28state%29.svg/320px-Flag_of_Costa_Rica_%28state%29.svg.png");
-CostaRica.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Costa_Rica_(state).svg");
-
-
-
-
-Cuba.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Flag_of_Cuba.svg/320px-Flag_of_Cuba.svg.png");
-Cuba.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Cuba.svg");
-
-
-Haiti.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Flag_of_Haiti.svg/320px-Flag_of_Haiti.svg.png");
-Haiti.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Haiti.svg");
-
-DominicanRepublic.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_the_Dominican_Republic.svg/320px-Flag_of_the_Dominican_Republic.svg.png");
-DominicanRepublic.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_the_Dominican_Republic.svg");
-
-PuertoRico.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Flag_of_Puerto_Rico.svg/320px-Flag_of_Puerto_Rico.svg.png");
-PuertoRico.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Puerto_Rico.svg");
-
-Jamaica.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Flag_of_Jamaica.svg/320px-Flag_of_Jamaica.svg.png");
-Jamaica.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Jamaica.svg");
-
-CaymanIslands.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_the_Cayman_Islands.svg/320px-Flag_of_the_Cayman_Islands.svg.png");
-CaymanIslands.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_the_Cayman_Islands.svg");
 
 
 
 // ANTILLES
 
 
-SaintLucia.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Saint_Lucia.svg/320px-Flag_of_Saint_Lucia.svg.png");
-SaintLucia.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Saint_Lucia.svg");
 
-Grenada.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Grenada.svg/320px-Flag_of_Grenada.svg.png");
-Grenada.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Grenada.svg");
 
-Anguilla.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Anguilla.svg/320px-Flag_of_Anguilla.svg.png");
-Anguilla.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Anguilla.svg");
 
-SintMaartin.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Flag_of_Sint_Maarten.svg/320px-Flag_of_Sint_Maarten.svg.png");
-SintMaartin.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Sint_Maarten.svg");
 
 SintEustatius.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Flag_of_Sint_Eustatius.svg/320px-Flag_of_Sint_Eustatius.svg.png");
 SintEustatius.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Sint_Eustatius.svg");
@@ -907,23 +1010,16 @@ TurksandCaicosIslands.addRefURI("flagFile","https://commons.wikimedia.org/wiki/F
 AntiguaandBarbuda.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Flag_of_Antigua_and_Barbuda.svg/320px-Flag_of_Antigua_and_Barbuda.svg.png");
 AntiguaandBarbuda.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Antigua_and_Barbuda.svg");
 
-Barbados.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Flag_of_Barbados.svg/320px-Flag_of_Barbados.svg.png");
-Barbados.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Barbados.svg");
+
 
 SaintKitts.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Saint_Kitts_and_Nevis.svg/320px-Flag_of_Saint_Kitts_and_Nevis.svg.png");
 SaintKitts.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Saint_Kitts_and_Nevis.svg");
 
-SaintVincentGrenadines.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Flag_of_Saint_Vincent_and_the_Grenadines.svg/320px-Flag_of_Saint_Vincent_and_the_Grenadines.svg.png");
-SaintVincentGrenadines.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Saint_Vincent_and_the_Grenadines.svg");
 
-VirginIslandsUK.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Flag_of_the_British_Virgin_Islands.svg/320px-Flag_of_the_British_Virgin_Islands.svg.png");
-VirginIslandsUK.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_the_British_Virgin_Islands.svg");
 
-VirginIslandsUSA.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Flag_of_the_United_States_Virgin_Islands.svg/320px-Flag_of_the_United_States_Virgin_Islands.svg.png");
-VirginIslandsUSA.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_the_United_States_Virgin_Islands.svg");
 
-Dominica.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Flag_of_Dominica.svg/320px-Flag_of_Dominica.svg.png");
-Dominica.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Dominica.svg");
+
+
 
 Saba.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Flag_of_Saba.svg/320px-Flag_of_Saba.svg.png");
 Saba.addRefURI("flagFile", "https://en.wikipedia.org/wiki/File:Flag_of_Saba.svg");
@@ -940,8 +1036,6 @@ Guadeloupe.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Unoffi
 StBarths.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Flag_of_Saint_Barthelemy_%28local%29.svg/320px-Flag_of_Saint_Barthelemy_%28local%29.svg.png");
 StBarths.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Saint_Barthelemy_(local).svg");
 
-SaintMartin.setFlag("https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Saint-Martin_%28fictional%29.svg/320px-Flag_of_Saint-Martin_%28fictional%29.svg.png");
-SaintMartin.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_of_Saint-Martin_(fictional).svg");
 
 
 
@@ -963,23 +1057,8 @@ SaintMartin.addRefURI("flagFile", "https://commons.wikimedia.org/wiki/File:Flag_
 
 
 
-VirginIslandsUSA.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/c/c5/Virgin_Islands-CIA_WFB_Map.png");
-VirginIslandsUSA.addRefURI("countryMapFile", "https://en.wikipedia.org/wiki/File:Virgin_Islands-CIA_WFB_Map.png");
 
-VirginIslandsUK.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/f/ff/BritishVirginIsland_map.png");
-VirginIslandsUK.addRefURI("countryMapFile", "https://commons.wikimedia.org/wiki/File:BritishVirginIsland_map.png");
 
-Anguilla.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/9/9e/Anguilla-CIA_WFB_Map.png");
-Anguilla.addRefURI("countryMapFile", "https://commons.wikimedia.org/wiki/File:Anguilla-CIA_WFB_Map.png");
-
-SaintMartin.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_Saint-Martin");
-SintMaartin.addRefURI("wikiAtlas", "https://commons.wikimedia.org/wiki/Atlas_of_Sint_Maarten");
-
-SaintMartin.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/2/28/Saint_Martin-CIA_WFB_Map.png");
-SaintMartin.addRefURI("countryMapFile", "https://en.wikipedia.org/wiki/File:Saint_Martin-CIA_WFB_Map.png");
-
-SintMaartin.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/5/51/Sint_Maarten-CIA_WFB_Map.png");
-SintMaartin.addRefURI("countryMapFile", "https://commons.wikimedia.org/wiki/File:Sint_Maarten-CIA_WFB_Map.png");
 
 StBarths.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/8/82/Saint_Barthelemy-CIA_WFB_Map.png");
 StBarths.addRefURI("countryMapFile", "https://commons.wikimedia.org/wiki/File:Saint_Barthelemy-CIA_WFB_Map.png");
@@ -1002,29 +1081,14 @@ Montserrat.addRefURI("countryMapFile", "https://commons.wikimedia.org/wiki/File:
 Guadeloupe.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/a/a5/Guadeloupe_map.png");
 Guadeloupe.addRefURI("countryMapFile", "https://commons.wikimedia.org/wiki/File:Guadeloupe_map.png");
 
-Dominica.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/a/ad/Do-map.png");
-Dominica.addRefURI("countryMapFile", "https://commons.wikimedia.org/wiki/File:Do-map.png");
 
-Dominica.addRefURI("redLocationMap", "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/LocationDominica.svg/640px-LocationDominica.svg.png");
-Dominica.addRefURI("redLocationMapFile", "https://commons.wikimedia.org/wiki/File:LocationDominica.svg");
+
 
 Martinique.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/f/fd/Martinique-Map.png");
 Martinique.addRefURI("CountryMapFile", "https://commons.wikimedia.org/wiki/File:Martinique-Map.png");
 
 
-SaintLucia.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/d/d9/Saint_Lucia-CIA_WFB_Map.png");
-SaintLucia.addRefURI("CountryMapFile", "https://commons.wikimedia.org/wiki/File:Saint_Lucia-CIA_WFB_Map.png");
 
-Barbados.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/e/ed/Bb-map.png");
-Barbados.addRefURI("CountryMapFile", "https://commons.wikimedia.org/wiki/File:Bb-map.png");
-
-
-SaintVincentGrenadines.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/9/92/Saint_Vincent_and_the_Grenadines-CIA_WFB_Map.png");
-SaintVincentGrenadines.addRefURI("CountryMapFile", "https://commons.wikimedia.org/wiki/File:Saint_Vincent_and_the_Grenadines-CIA_WFB_Map.png");
-
-
-Grenada.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/e/e5/Gj-map.gif");
-Grenada.addRefURI("CountryMapFile", "https://commons.wikimedia.org/wiki/File:Gj-map.gif");
 
 TrinidadandTobago.setCountryMap("https://upload.wikimedia.org/wikipedia/commons/8/8a/Td-map.png");
 TrinidadandTobago.addRefURI("CountryMapFile", "https://commons.wikimedia.org/wiki/File:Td-map.png");
@@ -1063,25 +1127,16 @@ TurksandCaicosIslands.setRegionMap("https://upload.wikimedia.org/wikipedia/commo
 TurksandCaicosIslands.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:Turks_and_Caicos_Islands_in_its_region.svg");
 
 
-Dominica.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Dominica_in_its_region.svg/640px-Dominica_in_its_region.svg.png");
-Dominica.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:Dominica_in_its_region.svg");
-
 Martinique.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Martinique_in_its_region.svg/640px-Martinique_in_its_region.svg.png");
 Martinique.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:Martinique_in_its_region.svg");
 
-SaintLucia.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Saint_Lucia_in_its_region.svg/640px-Saint_Lucia_in_its_region.svg.png");
-SaintLucia.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:Saint_Lucia_in_its_region.svg");
-
-SaintVincentGrenadines.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Saint_Vincent_and_the_Grenadines_in_its_region.svg/640px-Saint_Vincent_and_the_Grenadines_in_its_region.svg.png");
-SaintVincentGrenadines.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:Saint_Vincent_and_the_Grenadines_in_its_region.svg");
 
 
-Grenada.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Grenada_in_its_region.svg/640px-Grenada_in_its_region.svg.png");
-Grenada.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:Grenada_in_its_region.svg");
 
 
-Barbados.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Barbados_in_its_region.svg/640px-Barbados_in_its_region.svg.png");
-Barbados.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:Barbados_in_its_region.svg");
+
+
+
 
 
 Aruba.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Aruba_in_its_region.svg/640px-Aruba_in_its_region.svg.png");
@@ -1115,19 +1170,11 @@ AntiguaandBarbuda.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki
 Montserrat.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Montserrat_location_detail.svg/640px-Montserrat_location_detail.svg.png");
 Montserrat.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:Montserrat_location_detail.svg");
 
-VirginIslandsUSA.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/United_States_Virgin_Islands_in_its_region_%28zoom%29.svg/640px-United_States_Virgin_Islands_in_its_region_%28zoom%29.svg.png");
-VirginIslandsUSA.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:United_States_Virgin_Islands_in_its_region_(zoom).svg");
 
-VirginIslandsUK.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/British_Virgin_Islands_in_its_region_%28zoom%29.svg/640px-British_Virgin_Islands_in_its_region_%28zoom%29.svg.png");
-VirginIslandsUK.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:British_Virgin_Islands_in_its_region_(zoom).svg");
 
-Anguilla.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Anguilla_in_its_region_%28zoom%29.svg/640px-Anguilla_in_its_region_%28zoom%29.svg.png");
 
-SaintMartin.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Saint_Martin_in_its_region_%28zoom%29.svg/640px-Saint_Martin_in_its_region_%28zoom%29.svg.png");
-SaintMartin.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:Saint_Martin_in_its_region_(zoom).svg");
 
-SintMaartin.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Sint_Maarten_in_its_region_%28zoom%29.svg/640px-Sint_Maarten_in_its_region_%28zoom%29.svg.png");
-SintMaartin.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:Sint_Maarten_in_its_region_(zoom).svg");
+
 
 Guadeloupe.setRegionMap("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Guadeloupe_in_its_region.svg/640px-Guadeloupe_in_its_region.svg.png");
 Guadeloupe.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:Guadeloupe_in_its_region.svg");
@@ -1426,14 +1473,26 @@ Egypt.addRefURI("redLocationMapFile", "");
 
 // juar SVG LOCATORS
 
-TurksandCaicosIslands.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Turks_and_Caicos_Islands_(location_map_scheme)");
-Anguilla.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Anguilla_(location_map_scheme)");
+
+
+
+
+
 Bonaire.addRefURI("SVG_locator","https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Bonaire_(location_map_scheme)");
-VirginIslandsUSA.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_the_United_States_Virgin_Islands_(location_map_scheme)");
-VirginIslandsUK.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_British_Virgin_Islands_(location_map_scheme)");
-Anguilla.addRefURI("regionMapFile", "https://commons.wikimedia.org/wiki/File:Anguilla_in_its_region_(zoom).svg");
-SaintMartin.addRefURI("https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Saint-Martin_(France)_(location_map_scheme)");
-SintMaartin.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Sint_Maarten_(location_map_scheme)");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Guadeloupe.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Guadeloupe_(location_map_scheme)");
 StBarths.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Saint-Barth%C3%A9lemy_(location_map_scheme)");
 Saba.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Saba_(location_map_scheme)");
@@ -1441,12 +1500,9 @@ SintEustatius.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Categ
 SaintKitts.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Saint_Kitts_and_Nevis_(location_map_scheme)");
 AntiguaandBarbuda.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Antigua_and_Barbuda_(location_map_scheme)");
 Montserrat.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Montserrat_(location_map_scheme)");
-Dominica.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Dominica_(location_map_scheme)");
+
+
 Martinique.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Martinique_(location_map_scheme)");
-SaintLucia.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Saint_Lucia_(location_map_scheme)");
-SaintVincentGrenadines.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Saint_Vincent_and_the_Grenadines_(location_map_scheme)");
-Grenada.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Grenada_(location_map_scheme)");
-Barbados.addRefURI("SVG_locator", "https://commons.wikimedia.org/wiki/Category:SVG_locator_maps_of_Barbados_(location_map_scheme)");
 
 
 
@@ -1622,7 +1678,7 @@ const GrandTurkIsland = new Island("Grand Turk Island", TurksandCaicosIslands, "
 const SaltCay = new Island("Salt Cay", TurksandCaicosIslands, "test");
 //SaltCay.setwikiURI("https://en.wikipedia.org/wiki/Salt_Cay,_Turks_Islands");
 
-myCountry = SaltCay;
+//myCountry = SaltCay;
 TurksandCaicosIslands.hasIsland(GrandTurkIsland.name);
 TurksandCaicosIslands.islands.push(GrandTurkIsland.name);
 TurksandCaicosIslands.islands.push(SaltCay.name);
@@ -1638,18 +1694,18 @@ document.getElementById("name").innerHTML = myCountry.name;
 document.getElementById("flag").src = myCountry.flag;
 document.getElementById("flag").alt = myCountry.name + " flag";
 
-//document.getElementById("officialName").innerHTML = myCountry.officialName;
-//document.getElementById("capital").innerHTML = myCountry.capital;
-//document.getElementById("continent").innerHTML = myCountry.continent;
-//document.getElementById("region").innerHTML = myCountry.region;
+document.getElementById("officialName").innerHTML = myCountry.officialName;
+document.getElementById("capital").innerHTML = myCountry.capital;
+document.getElementById("continent").innerHTML = myCountry.continent;
+document.getElementById("region").innerHTML = myCountry.region;
 document.getElementById("language").innerHTML = myCountry.language;
 document.getElementById("languages").innerHTML = JSON.stringify(myCountry.languages);
-//document.getElementById("cities").innerHTML = JSON.stringify(myCountry.cities);
+document.getElementById("cities").innerHTML = JSON.stringify(myCountry.cities);
 document.getElementById("countryMap").src = myCountry.countryMap;
 document.getElementById("wiki").href = myCountry.wikiURI;
 document.getElementById("wiki").innerHTML = " on " + myCountry.name;
-//document.getElementById("regionMap").src = myCountry.regionMap;
-//document.getElementById("ocean").innerHTML = myCountry.ocean;
+document.getElementById("regionMap").src = myCountry.regionMap;
+document.getElementById("ocean").innerHTML = myCountry.ocean;
 document.getElementById("sea").innerHTML = myCountry.sea;
 document.getElementById("islands").innerHTML = JSON.stringify(myCountry.islands);
-//document.getElementById("URIs").innerHTML = JSON.stringify(myCountry.URIs);
+document.getElementById("URIs").innerHTML = JSON.stringify(myCountry.URIs);
