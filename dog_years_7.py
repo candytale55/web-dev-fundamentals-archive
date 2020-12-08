@@ -1,3 +1,5 @@
+# Say 1 year in human life is equivalent to 7 years in a dog's life.
+
 # dog_years() takes two parameters:name and age.
 # The function should compute the age of a dog in dog years (how old it would be if it was a person) and return the following string:
 # "{name}, you are {age} years old in dog years"
