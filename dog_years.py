@@ -1,9 +1,9 @@
-# Say that every one year of a human’s life is equivalent to seven years of a dog’s life.
+# dog_years() takes two parameters:name and age.
+# The function should compute the age of a dog in dog years (how old it would be if it was a person) and return the following string:
+# "{name}, you are {age} years old in dog years"
 
-# Write your dog_years function here:
 def dog_years(name, age):
-  return  name +", you are "+ str(age*7)+" years old in dog years"
-
+  return  name + ", you are " + str(age * 7)+ " years old in dog years"
 
 # Uncomment these function calls to test your dog_years function:
 print(dog_years("Lola", 16))
