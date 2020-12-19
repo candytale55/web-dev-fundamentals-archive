@@ -4,7 +4,7 @@ The words inside a string (story) are compared to a list of words and counted.
 ## Technologies
 * JavaScript ES6
 
-###To-do list:
+### To-do list:
 * Fix issues with punctuation recognition.
 
 ## Status
