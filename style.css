@@ -51,12 +51,12 @@ h5 {}
 a:link { 
 	font-weight: bold; 
 	text-decoration: none; 
-	color: #B7A5DF;
+	color: darkred;
 	}
 a:visited { 
 	font-weight: bold; 
 	text-decoration: none; 
-	color: #D4CDDC;
+	color: darkred;
 	}
 a:hover, a:focus, a:active { 
 	text-decoration: underline; 
@@ -122,7 +122,7 @@ blockquote, quote {
 }
 
 .author {                   /* used with h2 */
-    /*display: none;*/      /* This line is added in case that a larger work with a series of stories by the same author are included - uncommenting this line will remove the author's name.*/      
+    display: none;      /* This line is added in case that a larger work with a series of stories by the same author are included - uncommenting this line will remove the author's name.*/      
 }                       
 
 /* dofp (date of first publication) */
@@ -209,33 +209,30 @@ blockquote, quote {
 
 .center { text-align: center;}
 .right { text-align: right;}
-
 .italics{ font-style: italic;}
+.capitalized {  text-transform: capitalize; }
+.uppercase { text-transform: uppercase;}
+.lowercase { text-transform: lowercase;}
 
 
 
 
-
-/* INFORMATION SECTION */
-/*Sección que contiene información de la historia, del autor etc*/
-
-.info {/* Used with section */}
-
-.info-links /*dentro de .info, contiene enlaces a recursos externos*/
-
-
-
+/* -------------------------  SECTIONS ------------------------------*/
 
 
 /* FOOTNOTE SECTION */
+/* Use this section if there are footnotes and you want them to display at the bottom. 
+If you want to have links back and forth from this section to the text use <a> elements
+There are pre-added id for #note-X for the footnote and #text-X for the text that originates
+the footnote. PLEASE NOTE: It may be a better idea to use notes that display when the 
+text is hovered (Wikipedia style)*/
 
-
-/* If there are footnotes, they are added to this section. This is intended to be a link to a footnote section in the boot*/
-.footnotes-section { /*Used with section */
-    display: none;  /* If the story has this section remove or comment this rule*/    
+section.footnotes-section, section.footnotes-section > * { 
+    display: none;  /* If the text has this section remove or comment this rule*/
+    font-size: smaller;    
 } 
 /*cada uno de los párrafos que contiene un footnote*/
-.footnote{}
+.footnote{}/*Used with section */
 #note-1 {}
 #text-1 {}
 
@@ -243,7 +240,8 @@ blockquote, quote {
 /* Each .footnote must have a unique #id="note-ID"  that will be used to navegate
  to the footnote and each footnote will have a link that will take back to the text where
  the footnote was included . The text will have a unique #id too, with format id="text-ID
- ID should be substituted by a unique number or word, the same in both note-ID and text-ID */
+ ID should be substituted by a unique number or word, the same in both note-ID and text-ID 
+ */
 
 
 
@@ -251,12 +249,21 @@ blockquote, quote {
 
 
 
-/* sections */
+
+/* INFORMATION SECTION (.info)*/
+/* This section is intended to provide information about the autor, the story, and provide
+relevant links to other sources. There is a specifici section to link to audiobook sources.*/
+
+section.info, section.info > * {
+    display: none;  /* If the text has this section remove or comment this rule*/    
+}
+
+.info {/* Used with section */}
+.info-links /*dentro de .info, contiene enlaces a recursos externos*/
 
 
 
-/* INFORMATION SECTION */
-
+/* Author subsection inside the INFORMATION SECTION */
 
 .author-bio {}  /*used with div, contains .author-bio-text and .author-img */
 .author-bio-text {}
@@ -328,26 +335,26 @@ figcaption{
 
 
 /* GLOSSARY SECTION */
+section.glossary, section.glossary > * {
+    display: none;  /* If this text has this section remove or comment this rule*/
+    font-size: smaller;      
+}
 .glossary {}  /* used with section */
 #ashtophet {}      /*the word that links to the glossary*/
 #ashtophet-def {}  /*the definition of the word in the glossary*/
-.glos  /*Used with a, para darle formato a este tipo de palabras */
+.glos {}  /*Used with a, para darle formato a este tipo de palabras */
 
 
 
 
 
 
-
-.credits{
-    display: none;  /* If the story has this section remove or comment this rule*/    
+/* CREDITS SECTION */
+section.credits, section.credits > * {
+    display: none;  /* If this text has this section remove or comment this rule*/
+    font-size: smaller;    
 }
+.credits {}
 #cr-img {}   /*used within figcaption to credit the author image*/
 #img-1  {}   /*Used to credit additional images*/
 #text-img-1 {}  /*Used to return to the section where the image is*/
-
-
-
-
-
-
