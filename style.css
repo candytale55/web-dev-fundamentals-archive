@@ -80,7 +80,9 @@ img {
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
-
+blockquote, quote {
+    font-style: italic;
+}
 
 
 /* ------- SECTIONS --------------*/
@@ -115,7 +117,7 @@ img {
     margin-bottom: .5em;
 }
 
-.story-subtitle {           /* used with h1 */
+.story-subtitle {           /* used with h2 */
     margin-bottom: 1em;
 }
 
@@ -135,7 +137,9 @@ img {
     display: none;
 }                       
 
-
+.chapter {
+    text-align: center;
+}
 
 
 
@@ -164,8 +168,13 @@ img {
 }
 
 /* For poetry -  .verse elements will be found within .poem elements*/
-.poem {}
-.verse {}
+.poem {
+    margin: 0 auto;
+    width: 50%;
+}
+.verse {
+    text-indent: 0;
+}
 
 /* For letter or notes within the story. The .letter element will contain all the other elements */
 .letter {}  /*text in form of a letter*/
@@ -193,13 +202,15 @@ img {
     margin-bottom: 3em;
 }
 
-.half-right {}   /*block of text set right width 50%*/
-.third-right{}   /*block of text set right width 50%*/
+.half-right {padding: 0 20%;}   /*block of text set right width 50%*/
+.third-right{
+    padding: 0 30%;
+}   /*block of text set right width 30%*/
 
 .center { text-align: center;}
 .right { text-align: right;}
 
-
+.italics{ font-style: italic;}
 
 
 
@@ -334,8 +345,6 @@ figcaption{
 #cr-img {}   /*used within figcaption to credit the author image*/
 #img-1  {}   /*Used to credit additional images*/
 #text-img-1 {}  /*Used to return to the section where the image is*/
-
-
 
 
 
