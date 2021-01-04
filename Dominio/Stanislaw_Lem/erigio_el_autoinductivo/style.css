@@ -286,8 +286,8 @@ h2.story-subtitle {
 .capitalized {  text-transform: capitalize; }
 .uppercase { text-transform: uppercase;}
 .lowercase { text-transform: lowercase;}
-.no-indent{ text-indent: 0;}
-.hide {display: none;}
+.smaller {font-size: smaller;}
+
 
 /* -------------------------  SECTIONS ------------------------------*/
 
