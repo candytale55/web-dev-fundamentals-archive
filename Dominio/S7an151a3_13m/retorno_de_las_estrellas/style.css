@@ -81,6 +81,88 @@ blockquote, q {
 /* ------- SECTIONS --------------*/
 
 
+
+
+/* ------- Navigation Bar --------------*/
+
+ul.nav-bar span + span {
+  float: right;
+}
+
+
+
+
+
+
+
+/*  STORY TOP (Title, subtitle, author's name, etc.) */
+
+
+/*.story-top contains all the other elements */
+.story-top, .story-header {  /* Used with section*/ }   
+
+.story-top p, .story-header p {
+  display: none;
+}
+
+.story-title, .story-subtitle, .author {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.original-title, .original_title{          
+  font-style: italic;
+  font-weight: 400;
+  text-indent: 0;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+}
+
+.story-title {
+  margin-top: 1em;
+  margin-bottom: .5em;
+  text-align: center;
+}
+
+.story-subtitle {           /* used with h2 */
+  margin-bottom: 1em;
+  display: none;
+}
+
+h2.story-subtitle {
+  font-style: italic;
+  font-size: .9em;
+}
+
+
+.author, .story-author {                   /* used with h2 */
+  display: none;      /* This line is added in case that a larger work with a series of stories by the same author are included - uncommenting this line will remove the author's name.*/      
+}                       
+
+.author.display{
+  display:contents;
+}
+
+/* dofp (date of first publication) */
+.year, .story-year {                     /* used with h3 */
+  display: none;
+}                 
+
+
+/* If the story has a number within a book or the author's works*/
+.story-number {         /* used with p */ 
+  display: none;
+}                       
+
+
+
+.chapter {
+  text-align: center;
+  font-weight: bold;
+}
+
+
+
+
 /* INDEX, Main BOOK-TITLE and COVER */
 /*Comment display:none if you want it to show*/
 
@@ -151,71 +233,6 @@ ul.dotted-list span + span {
   padding-left: 0.33em;
   background: white}
 
-/*  STORY TOP (Title, subtitle, author's name, etc.) */
-
-
-/*.story-top contains all the other elements */
-.story-top, .story-header {  /* Used with section*/ }   
-
-.story-top p, .story-header p {
-  display: none;
-}
-
-.story-title, .story-subtitle, .author {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
-}
-
-.original-title, .original_title{          
-  font-style: italic;
-  font-weight: 400;
-  text-indent: 0;
-  margin-top: 1.5em;
-  margin-bottom: 1em;
-}
-
-.story-title {
-  margin-top: 1em;
-  margin-bottom: .5em;
-}
-
-.story-subtitle {           /* used with h2 */
-  margin-bottom: 1em;
-}
-
-h2.story-subtitle {
-  font-style: italic;
-  font-size: .9em;
-}
-
-
-.author, .story-author {                   /* used with h2 */
-  display: none;      /* This line is added in case that a larger work with a series of stories by the same author are included - uncommenting this line will remove the author's name.*/      
-}                       
-
-.author.display{
-  display:contents;
-}
-
-/* dofp (date of first publication) */
-.year, .story-year {                     /* used with h3 */
-  display: none;
-}                 
-
-
-/* If the story has a number within a book or the author's works*/
-.story-number {         /* used with p */ 
-  display: none;
-}                       
-
-
-
-.chapter {
-  text-align: center;
-  font-weight: bold;
-}
-
-
-
 
 
 /*  STORY Section (Include's the text of the story, it may have subsections like chapters, or text that is formated differently - like text intended to read as letters) */
@@ -224,6 +241,7 @@ h2.story-subtitle {
 .story { /*used with main*/ }
 
 #story { /* set on the main element, next to class .story */}
+
 
 /*Página de transición, de poco texto entre historias - May be used instead of .story, with main*/
 .interior-page{ } 
@@ -390,6 +408,12 @@ figcaption{
 section.story-info, section.story-info >* {
   display: none;
 } 
+
+
+
+
+
+
 
 
 
