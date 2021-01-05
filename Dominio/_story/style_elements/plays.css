@@ -1,0 +1,8 @@
+
+/* For plays or screenplays with class="play" set at the container element */
+.play p {
+  text-indent: 0;
+}
+.play b {
+  color: darkred;
+}
