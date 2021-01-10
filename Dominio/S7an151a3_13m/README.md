@@ -16,6 +16,8 @@ Un online reader para libros muy básico para utilizar en las obras de Stanislaw
 
 ESTE ES EL LECTOR MAS SENCILLO QUE HE HECHO. La siguiente iteracción será con otro autor y espero yo que más compleja. (Hacerlos por autor me facilita acordarme de las cosas.)
 
+La siguiente iteracción del lector se encuentra en I5a8311_a113nd3 : https://github.com/candytale55/fapnom-793851/tree/main/Dominio/I5a8311_a113nd3
+
 ## Screenshots
 ![Example screenshot](./img/screenshot.png)
 
