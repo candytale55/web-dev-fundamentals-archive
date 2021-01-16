@@ -38,7 +38,7 @@ h5 {
 
 
 main {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -192,11 +192,20 @@ ul.no-bullet li {
 
 /*///   FRAGMENTED STORIES /// */
 
-h1.story-subtitle {
+h1.story-subtitle, h1.subtitle {
   font-size: 3.2rem;
   text-align: center;
   text-transform: uppercase;
 }
+
+h2.subtitle, h2.story-subtitle {
+  font-size: 1em;
+  font-style: italic;
+  margin-top: 3em;
+  text-align: right;
+  padding-right: 2em;
+}
+
 
 
 /* NAVIGATION BARS */
