@@ -1,5 +1,5 @@
 
-# Nodes_JS
+# Nodes_JS_DataStructs
 >Getting_Started_DataStructs
 
 ## General info
