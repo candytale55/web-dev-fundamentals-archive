@@ -7,7 +7,7 @@ Nodes are the building blocks for many of the data structures to follow. The mot
 
 
 ### Node.js 
-Create a basic node that contains data and one link to another node. The node’s data will be specified when creating the node and immutable (can’t be updated). A node’s link to the next node is null when there are no nodes to traverse.
+A JavaScript class to create a basic node that contains data and one link to another node. The node’s data will be specified when creating the node and immutable (can’t be updated). A node’s link to the next node is null when there are no nodes to traverse.
 
 
 ### Node_Class_Ice_Cream_Shop.js
@@ -16,34 +16,16 @@ A file with a practical example. Description is as follows: _ice cream shop that
 
 ## Table of contents
 * [General info](#general-info)
-* [Screenshots](#screenshots)
 * [Technologies](#technologies)
-* [Setup](#setup)
-* [Features](#features)
 * [Status](#status)
 * [References](#references)
 
-## Screenshots
-na
 
 ## Technologies
 * JavaScript 6
 
-## Setup
-na
-
-## Code Examples
-na
-
-## Features
-List of features ready and TODOs for future development
-* Node class that creates a basic node that contains data and one link to another node.
-
-To-do list:
-* na
-
 ## Status
-Project is: _finished_. Will be used in other repositories.
+Project is: _finished_. Node.js will pop-up in other repositories.
 
 ## Inspiration
 Based on exercises from Codecademy course _Pass the Technical Interview with JavaScript_ 
