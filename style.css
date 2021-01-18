@@ -11,10 +11,17 @@ body {
   margin: 0 auto;
 }
 
+
+
+
+
+/* MAIN SECTION (Contains nav)*/
+
 .main {
   height: 30rem;
   padding-top: 1rem;
   background-image:url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tsunami-coffee/images/bg-photo.png");
+  /*background-image: url("./img/bg-photo.webp");*/ /*Use in case the above link is broken*/
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -27,10 +34,14 @@ body {
   margin-top: 5rem;
 }
 
+
+/* Navigation section */
+
 nav {
   background-color: OrangeRed;
   color: White;
 }
+
 
 ul {
   list-style: none;
@@ -42,12 +53,16 @@ li {
   padding: 0.75rem 1.25rem;
   }
 
+
+  
+/*  SECTIONS */  
 .supporting,
 .rating,
 .gallery,
 .location {
   margin: 4em auto;
 }
+
 
 .supporting {
   display: flex;
@@ -60,6 +75,8 @@ li {
   width: 10%;
   margin-right: 5%;
 }
+
+
 
 .rating {
   background-color: OrangeRed;
@@ -74,7 +91,26 @@ li {
 .rating h1 {
   font-size: 2.5rem;
 }
+.rating p {
+  text-align: right;
+  font-size: 1.5rem;
+}
 
+
+
+.gallery {
+  display: flex;
+}
+
+.gallery img {
+  display: block;
+  width: 33.33%;
+  margin: 0 auto;
+  float: left;
+  flex-shrink: 1;
+}
+
+/*
 .gallery img {
   display: block;
   width: 100;
@@ -82,9 +118,12 @@ li {
   float: left;
   margin: 0 auto;
 }
+*/
 
 .clearfix {
+  content: "";
   clear: both;
+  display: table;
 }
 
 .location {
