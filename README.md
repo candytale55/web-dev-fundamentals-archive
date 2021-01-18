@@ -78,5 +78,7 @@ https://www.w3schools.com/howto/howto_css_clearfix.asp
 https://www.w3schools.com/css/css_float_clear.asp
 
 ## Credits
+
 Project based on _Codecademy_ course _Learn Responsive Design_ here: https://www.codecademy.com/learn/learn-responsive-design
-Used reset.css from github.com/necolas/normalize.css 
+
+Used reset.css from https://github.com/necolas/normalize.css 
