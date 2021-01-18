@@ -1,7 +1,10 @@
 # tsunami_coffee
 
+
+
 ## General info
 The purpose of this project is to edit an existing _Tsunami Coffee_ website code using relative units and responsive web design so that the website appears correctly on varying screen sizes. 
+
 
 ## Features
 List of features ready:
@@ -22,7 +25,9 @@ Followed by 4 div sections (_.supporting_, _.rating_, _.gallery_, _.location_)
 
 **_footer_**: Includes a copyright and the navigation menu at the bottom of the page. 
 
-To-do list for future development
+
+
+### To-do list for future development
 * Add link interaction (hover, active, etc.)
 * Fix those media queries for gallery in smaller sizes.
 * Maybe add menu items. 
@@ -36,14 +41,17 @@ To-do list for future development
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [Status](#status)
-* [Inspiration](#inspiration)
 * [References](#references)
 * [Credits](#credits)
 
 ## Screenshots
 ![Example screenshot](./img/screenshot.png)
+
 ![Example screenshot](./img/screenshot_2.png)
+
 ![Example screenshot](./img/screenshot_3.png)
+
+
 
 ### Historic: 
 <img src='https://i.postimg.cc/njDbhBPK/Tsunami-Coffee.png' border='0' alt='Tsunami-Coffee'/>
@@ -57,15 +65,16 @@ To-do list for future development
 na
 
 ## Code Examples
-Show examples of usage:
-`put-your-code-here`
+`na`
 
 ## Status
 Project is: _in progress_
 
-## Reference:
+## References
 This project uses clearfix which I don't yet understand completely. For reference:
+
 https://www.w3schools.com/howto/howto_css_clearfix.asp
+
 https://www.w3schools.com/css/css_float_clear.asp
 
 ## Credits
