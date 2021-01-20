@@ -6,7 +6,9 @@ You’ve become head librarian at your local Books-‘N-Stuff and  you realize y
 Books-‘N-Stuff carries three different types of media: books, CDs, and movies. 
 There will be a parent class named Media with three subclasses: Book, Movie, and CD. 
 
-All __Media__ entities will have the following:
+#### Class structures:
+
+__Media__ entities will have the following:
   + title (string), 
   + isCheckedOut (boolean, initially false)
   + ratings (array, initially empty)
@@ -18,13 +20,16 @@ Methods:
   + _.addRating()_ adds a rating value to _ratings_. Must be between 1 to 5. 
 
 
+
 __Book__ class extends Media and has these additonal values:
 + author (string)
 + pages (number)
 
+
 __Movie__ class extends Media and has these additonal values:
 + director (string) 
 + runTime (number)
+
 
 __CD__ class extends Media and has these additional values:
   + artist (string)
@@ -45,7 +50,8 @@ NA
 ## Status
 Project is: technically _finished_, there's still one item pending, but I think I'll leave it here.
 
-## To-Do (from the excercise requirements.)
+#### Pending To-Do's 
+From the excercise's extra work:
 * Create class called Catalog that holds all of the Media items in our library.
 * Add more properties to each class (movieCast, songTitles, etc.)
 
