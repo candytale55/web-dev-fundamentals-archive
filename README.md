@@ -7,14 +7,14 @@ Books-‘N-Stuff carries three different types of media: books, CDs, and movies.
 There will be a parent class named Media with three subclasses: Book, Movie, and CD. 
 
 All _Media_ entities have the following:
-+ title (string), 
-+ isCheckedOut (boolean, initially false)
-+ ratings (array, initially empty)
-+ Getters: all properties have a getter
+  + title (string), 
+  + isCheckedOut (boolean, initially false)
+  + ratings (array, initially empty)
+  + Getters: all properties have a getter
 Methods: 
-+ __.getAverageRating()__  Gets the average of ratigs by using reduce() to sum the values in _ratings_ dividiving it by _ratings.length_ and returning it.  
-+ __.toggleCheckOutStatus()__ toggles boolean on _isCheckedOut_  
-+ __.addRating()__ 
+  + _.getAverageRating()_  Gets the average of ratigs by using reduce() to sum the values in _ratings_ dividiving it by _ratings.length_ and returning it.  
+  + _.toggleCheckOutStatus()_ toggles boolean on _isCheckedOut_  
+  + _.addRating()_ adds a rating value to _ratings_. Must be between 1 to 5. 
 
 __Book__ class extends Media and has these additonal values:
 + author (string)
@@ -35,5 +35,3 @@ Project is: _in progress_, there are a couple of optional questions I did not an
 
 ## References
 Based on exercise on _Codecademy_'s course _Learn Javascript_
-
-
