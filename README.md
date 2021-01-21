@@ -45,7 +45,7 @@ Classes have the following properties, getters, setters, and methods:
 * Create an instance of SchoolCatalog for primary, middle, and high schools. <br>
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+![Example screenshot](./screenshot.png)
 
 ## Technologies
 * Javascript ES6
