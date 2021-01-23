@@ -3,7 +3,6 @@
 
 
 ## General info
-Add more general information about project. What the purpose of the project is? Motivation?
 The purpose of the project is just learning and practicing (I'm a newbie)
 
 ## Features
