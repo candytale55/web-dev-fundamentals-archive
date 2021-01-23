@@ -1,6 +1,6 @@
 # base_elements
 
-> The templates for my readers. 
+> The templates for my book browser readers different elements. 
 
 ## Table of contents
 * [General info](#general-info)
