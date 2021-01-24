@@ -3,7 +3,7 @@
 
 
 ## General info
-The purpose of the project is just learning and practicing (I'm a newbie)
+The purpose of the project is just personal learning. I may revisit this code to find different solutions or to apply it under other context. 
 
 ## Features
 List of features ready and TODOs for future development
@@ -40,8 +40,10 @@ NA - It's only coding examples, there's no setup.
 ## Status
 Project is: _in progress_, _finished_, - may come back and improve it, or not.
 
+
 ## References
 Add here credits. Project inspired by..., based on...
 Add links to other resources that help understand this repository.
 Based on Codecademy's _Web Development_ path courses, _Code Challenges: Intermediate JavaScript_ exercises
+Based on Codecademy's _Learn Python 3_ course, _Code Challenges_ exercises
 Based on FreeCodeCamp's excercises.
