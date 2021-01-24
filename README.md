@@ -75,7 +75,7 @@ Iterates through the list and finds the matching node with a while loop that run
 
 
 ## Technologies
-* Javascript 3
+* Javascript E6
 
 ## Setup
 NA - It's only coding examples, there's no setup.
