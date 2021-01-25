@@ -92,3 +92,5 @@ Here: https://www.codecademy.com/learn/paths/pass-the-technical-interview-with-j
 
 ## References
 This uses Node.js created here:https://github.com/candytale55/Nodes_JS_DataStructs
+
+Example of subway model using these classes here: https://github.com/candytale55/subdway_routes_with_doubly_linked_lists_JS
