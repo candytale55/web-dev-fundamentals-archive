@@ -84,7 +84,7 @@ NA - It's only coding examples, there's no setup.
 `na`
 
 ## Status
-Project is: _in progress_
+Project is: _finished_
 
 ## Credits
 Based on exercises from Codecademy course _Pass the Technical Interview with JavaScript_ 
