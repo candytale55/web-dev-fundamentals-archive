@@ -15,4 +15,4 @@ Project is: _finished_
 
 ## References
 Based on Codecademy's _Pass the Technical Interview with JavaScript_ course.
-This uses the classes from here: https://github.com/candytale55/Doubly-Linked-List_JS
+This uses the classes from here: https://github.com/candytale55/Doubly-Linked-List_JS and here https://github.com/candytale55/Nodes_JS_DataStructs
