@@ -6,9 +6,9 @@
 ### Introduction to HTML
 
   * Introduction to HTML Bookmarks: 
-    https://github.com/candytale55/My_Codecademy_Guide/blob/main/Themes/Learn_HTML/Bookmarks_Introduction_to_HTML.html (Needs cleanup) 
+    
   
-  * The Brown Bear:
+  * The Brown Bear: 
   
     https://github.com/candytale55/My_Codecademy_Guide/tree/main/Themes/Learn_HTML/Brown_Bear 
 
@@ -21,7 +21,9 @@
 ## Tables
 
 ### HTML Tables
+
 ### Wine Festival Schedule
+  * https://github.com/candytale55/wine_festival_table
 
 ## Forms
 ## HTML Forms
