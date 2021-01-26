@@ -33,12 +33,7 @@
 ## Semantic HTML
 
 ### Semantic HTML
-### New York City Blog
 
-## 
-## 
-## 
-## 
-## 
-## Credits
-Add here credits. Project inspired by..., based on...
+### New York City Blog
+  * https://github.com/candytale55/NewYorkCity_Blog
+  
