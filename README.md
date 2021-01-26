@@ -29,7 +29,7 @@ The class functionalities include:
 * find and remove a specific node by its data
 * print out the nodes in the list in order from head to tail
 
-The nodes are instances of the Node class in Node.js.
+The nodes are instances of the Node class in this repository's Node.js file.
 
 ## Methods
 
