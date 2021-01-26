@@ -3,7 +3,7 @@
 A guide full of hyperlinks to find all the stuff I'm doing in CodeCademy. 
 
 ## Table of contents
-* [General info](#general-info)
+* [HTML](#html)
 * [Features](#features)
 * [Screenshots](#screenshots)
 * [Technologies](#technologies)
@@ -15,8 +15,9 @@ A guide full of hyperlinks to find all the stuff I'm doing in CodeCademy.
 * [Contact](#credits)
 
 
-## General info
-Add more general information about project. What the purpose of the project is? Motivation?
+## HTML
+* Learn HTML: https://github.com/candytale55/My_Codecademy_Guide/edit/main/Themes/Learn_HTML.md 
+
 
 ## Features
 List of features ready and TODOs for future development
