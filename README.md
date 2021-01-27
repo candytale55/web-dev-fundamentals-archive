@@ -3,29 +3,23 @@
 A guide full of hyperlinks to find all the stuff I'm doing in CodeCademy. 
 
 ## Table of contents
-* [Learn HTML](#learn-html)
-  _Introduction to HTML, Tables, Forms, Semantic HTML_
 
 
-## HTML
-### Learn HTML
-* [Introduction to HTML](#introduction-to-html)
-* [Tables](#tables)
-* [Forms](#forms)
-* [Semantic HTML](#semantic-html)
+## Learn HTML
 
-#### Introduction to HTML
-  * Introduction to HTML Bookmarks: 
-  * The Brown Bear: https://github.com/candytale55/My_Codecademy_Guide/tree/main/Themes/Learn_HTML/Brown_Bear 
-##### HTML Document Standards
-##### Fashion Blog
-  * https://github.com/candytale55/Fashion_Blog_ISA 
+* [The Brown Bear](#the-brown-bear) _Introduction to HTM_
+  https://github.com/candytale55/My_Codecademy_Guide/tree/main/Themes/Learn_HTML/Brown_Bear
+* [Fashion Blog](#fashion-blog) _HTML Document Standards_
+, Tables, Forms, Semantic HTML_
 
-#### Tables
-##### HTML Tables
-##### Wine Festival Schedule
-  * https://github.com/candytale55/wine_festival_table
-##### Elements and Structure
+#### The Brown Bear
+     _Introduction to HTML_
+
+#### Fashion Blog
+  * https://github.com/candytale55/Fashion_Blog_ISA _HTML Document Standards_
+
+#### Wine Festival Schedule
+  * https://github.com/candytale55/wine_festival_table  _Tables_
 
 
 #### Forms
