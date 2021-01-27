@@ -5,15 +5,20 @@ A guide full of hyperlinks to find all the stuff I'm doing in CodeCademy.
 ## Table of contents
 
 
-### Learn HTML
-* The Brown Bear  (_Introduction to HTML_)
+### HTML
+* The Brown Bear  (_Learn HTML: Introduction to HTML_)
   https://github.com/candytale55/My_Codecademy_Guide/tree/main/Themes/Learn_HTML/Brown_Bear 
 
-#### Fashion Blog
-  * https://github.com/candytale55/Fashion_Blog_ISA _HTML Document Standards_
+* Fashion Blog (_Learn HTML: HTML Document Standards_)
+  https://github.com/candytale55/Fashion_Blog_ISA 
 
-#### Wine Festival Schedule
-  * https://github.com/candytale55/wine_festival_table  _Tables_
+* Wine Festival Schedule (_Learn HTML: Tables_)
+  https://github.com/candytale55/wine_festival_table  
+
+* New York City Blog (_Learn HTML:  Semantic HTML_)
+  https://github.com/candytale55/NewYorkCity_Blog
+
+Go back to [Table of contents](#table-of-contents)
 
 
 #### Forms
@@ -21,14 +26,6 @@ A guide full of hyperlinks to find all the stuff I'm doing in CodeCademy.
 ##### Form Validation
 ##### Form a Story
   
-#### Semantic HTML
-##### Semantic HTML
-##### New York City Blog
-  * https://github.com/candytale55/NewYorkCity_Blog
-
-Go back to [Table of contents](#table-of-contents)
-
-
 
 
 
