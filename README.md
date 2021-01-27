@@ -4,7 +4,7 @@ A guide full of hyperlinks to find all the stuff I'm doing in CodeCademy.
 
 ## Table of contents
 * [Learn HTML](#learn-html)
-
+  _Introduction to HTML, Tables, Forms, Semantic HTML_
 
 
 ## HTML
