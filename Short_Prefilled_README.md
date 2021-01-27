@@ -42,8 +42,6 @@ Project is: _in progress_, _finished_, - may come back and improve it, or not.
 
 
 ## References
-Add here credits. Project inspired by..., based on...
-Add links to other resources that help understand this repository.
 Based on Codecademy's _Web Development_ path courses, _Code Challenges: Intermediate JavaScript_ exercises
-Based on Codecademy's _Learn Python 3_ course, _Code Challenges_ exercises
+Based on Codecademy's _Learn Python 3_ course, _Code Challenges: String Methods_ exercises
 Based on FreeCodeCamp's excercises.
