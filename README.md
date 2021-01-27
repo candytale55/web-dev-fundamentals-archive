@@ -7,7 +7,7 @@ A guide full of hyperlinks to find all the stuff I'm doing in CodeCademy.
 
 ### HTML
 * The Brown Bear  (_Learn HTML: Introduction to HTML_)
-  https://github.com/candytale55/My_Codecademy_Guide/tree/main/Themes/Learn_HTML/Brown_Bear 
+  https://github.com/candytale55/My_Codecademy_Guide/tree/main/Projects/The_Brown_Bear
 
 * Fashion Blog (_Learn HTML: HTML Document Standards_)
   https://github.com/candytale55/Fashion_Blog_ISA 
