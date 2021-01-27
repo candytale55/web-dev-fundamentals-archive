@@ -1,11 +1,10 @@
 # Project Name
 > Here goes your awesome project description!
 
-
 ## General info
 The purpose of the project is just personal learning. I may revisit this code to find different solutions or to apply it under other context. 
 
-## Features
+## Description
 List of features ready and TODOs for future development
 * Awesome feature 1
 * Awesome feature 2
@@ -18,7 +17,7 @@ List of features ready and TODOs for future development
 
 ## Table of contents
 * [General info](#general-info)
-* [Features](#features)
+* [Description](#description)
 * [Screenshots](#screenshots)
 * [Technologies](#technologies)
 * [Setup](#setup)
