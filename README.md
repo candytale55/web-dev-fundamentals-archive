@@ -3,7 +3,8 @@
 A guide full of hyperlinks to find all the stuff I'm doing in CodeCademy. 
 
 ## Table of contents
-
+[HTML](#html)
+[PYTHON](#python)
 
 ### HTML
 * The Brown Bear  (_Learn HTML: Introduction to HTML_)
@@ -28,6 +29,8 @@ Go back to [Table of contents](#table-of-contents)
   
 
 
+### PYTHON
+* Python 3 - Code Challenges: String Methods : https://github.com/topics/string-challenges-codecademy
 
 Go back to [Table of contents](#table-of-contents)
 
