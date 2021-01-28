@@ -3,8 +3,8 @@
 A guide full of hyperlinks to find all the stuff I'm doing in CodeCademy. 
 
 ## Table of contents
-[HTML](#html)
-[PYTHON](#python)
+* [HTML](#html)
+* [PYTHON](#python)
 
 ### HTML
 * The Brown Bear  (_Learn HTML: Introduction to HTML_)
