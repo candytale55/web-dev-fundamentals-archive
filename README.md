@@ -30,7 +30,7 @@ Go back to [Table of contents](#table-of-contents)
 
 
 ### PYTHON
-* Python 3 - Code Challenges: String Methods : https://github.com/topics/string-challenges-codecademy
+* Python 3 - Code Challenges: **String Methods** : https://github.com/topics/string-challenges-codecademy
 
 Go back to [Table of contents](#table-of-contents)
 
