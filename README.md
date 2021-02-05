@@ -13,7 +13,9 @@ There are two index.html files. The one named index.html is my take on the proje
 
 #### To-do list:
 * Improve the header.
-* CSS3
+* The page doesn't extend to the whole viewport. 
+* The text shrinks badly. Must add responsive design.
+* Links (add changes of state)
 
 ## Table of contents
 * [General info](#general-info)
@@ -26,9 +28,6 @@ There are two index.html files. The one named index.html is my take on the proje
 
 
 ## Screenshots
-<a href="https://postimg.cc/FdJd2h2h" target="_blank"><img src="https://i.postimg.cc/cHFRtHht/Morocco-01.png" alt="Morocco-01"/></a><br/><br/>
-
-#### Historic
 
 * original_index.html (https://postimg.cc/gallery/NfwxGp8) - 2021-02-05
 
@@ -36,7 +35,8 @@ There are two index.html files. The one named index.html is my take on the proje
 
 * index.html (https://postimg.cc/gallery/TRbxsc2) 2021-02-05
 
-<a href="https://postimg.cc/RWRDHBpC" target="_blank"><img src="https://i.postimg.cc/RWRDHBpC/my-morocco-01.png" alt="my-
+<a href="https://postimg.cc/RWRDHBpC" target="_blank"><img src="https://i.postimg.cc/RWRDHBpC/my-morocco-01.png" alt="my-morocco-01"/></a> <a href="https://postimg.cc/67bbMhND" target="_blank"><img src="https://i.postimg.cc/67bbMhND/my-morocco-02.png" alt="my-morocco-02"/></a><br/><br/>
+
 
 ## Technologies
 * HTML5
