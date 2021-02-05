@@ -8,9 +8,8 @@ Practice project for HTML + CSS focused on typography. Modify the typography on 
 ## General info
 The purpose of the project is just personal learning.
 
-There are two index.html files. The one named index.html is my take on the project, using different images and working from scratch. The file original_index.html is the finished version as intended in the Codecademy exercise.
-
 ## Description
+There are two index.html files. The one named index.html is my take on the project, using different images and working from scratch. The file original_index.html is the finished version as intended in the Codecademy exercise.
 
 #### To-do list:
 * Improve the header.
@@ -27,7 +26,7 @@ There are two index.html files. The one named index.html is my take on the proje
 
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+![Example screenshot](./screenshot.png)
 
 ## Technologies
 * HTML5
@@ -40,6 +39,4 @@ NA - It's only a static webpage, there's no setup.
 Project is:  _finished_
 
 ## References
-Based on Codecademy's _Web Development_ path courses, _Code Challenges: Intermediate JavaScript_ exercises
-Based on Codecademy's _Learn Python 3_ course, _Code Challenges: String Methods_ exercises
-Based on FreeCodeCamp's excercises.
+Based on Codecademy's _Web Development_ path courses, _GETTING MORE ADVANCED WITH DESIGN >> Typography_ project (2020)
