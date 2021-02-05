@@ -26,7 +26,17 @@ There are two index.html files. The one named index.html is my take on the proje
 
 
 ## Screenshots
-![Example screenshot](./screenshot.png)
+<a href="https://postimg.cc/FdJd2h2h" target="_blank"><img src="https://i.postimg.cc/cHFRtHht/Morocco-01.png" alt="Morocco-01"/></a><br/><br/>
+
+#### Historic
+
+* original_index.html (https://postimg.cc/gallery/NfwxGp8) - 2021-02-05
+
+<a href="https://postimg.cc/FdJd2h2h" target="_blank"><img src="https://i.postimg.cc/FdJd2h2h/Morocco-01.png" alt="Morocco-01"/></a> <a href="https://postimg.cc/MXVf5K7D" target="_blank"><img src="https://i.postimg.cc/MXVf5K7D/Morocco-02.png" alt="Morocco-02"/></a> <a href="https://postimg.cc/RJ56mjBK" target="_blank"><img src="https://i.postimg.cc/RJ56mjBK/Morocco-03.png" alt="Morocco-03"/></a> <a href="https://postimg.cc/ctRKLXxj" target="_blank"><img src="https://i.postimg.cc/ctRKLXxj/Morocco-04.png" alt="Morocco-04"/></a><br/><br/>
+
+* index.html (https://postimg.cc/gallery/TRbxsc2) 2021-02-05
+
+<a href="https://postimg.cc/RWRDHBpC" target="_blank"><img src="https://i.postimg.cc/RWRDHBpC/my-morocco-01.png" alt="my-
 
 ## Technologies
 * HTML5
