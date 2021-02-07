@@ -3,6 +3,7 @@ Codecademy exercises - "Write a function named dog_years() that has two paramete
 
 ## Technologies
 * Javascript ES6
+* Python 2
 
 ## Setup
 NA - It's only coding examples, there's no setup.
