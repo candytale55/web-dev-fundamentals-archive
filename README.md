@@ -1,10 +1,9 @@
 # typography_practice_three_tabs
 
-
-> Here goes your awesome project description!
+> This is fake blog site that displays fonts of different sizes and styles. It shows four links in a navigation bar on top. The landing first part titled _"Favorite Fonts"_ is an introduction to what Typography is, and there are three additional links titled _SERIF_, _SANS-SERIF_ and _MONOSPACED_ that takes you to the section of the page where each different style is explained and examples are shown.  
 
 ## General info
-The purpose of the project is just personal learning. I may revisit this code to find different solutions or to apply it under other context. 
+The purpose of the project is just personal learning. The goal is learning to manipulate fonts to create engaging interfaces.
 
 ## Description
 List of features ready and TODOs for future development
