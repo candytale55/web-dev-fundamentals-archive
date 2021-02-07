@@ -7,30 +7,6 @@ This is fake blog site that displays fonts of different sizes and styles. It sho
 ## General info
 The purpose of the project is just personal learning. The goal is learning to manipulate fonts to create engaging interfaces.
 
-## Description
-List of features ready and TODOs for future development
-* Awesome feature 1
-* Awesome feature 2
-* Awesome feature 3
-
-
-
-
-#### To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
-
-
-## Table of contents
-* [General info](#general-info)
-* [Description](#description)
-* [Screenshots](#screenshots)
-* [Technologies](#technologies)
-* [Setup](#setup)
-* [Status](#status)
-* [References](#references)
-
-
 ## Screenshots
 <div style="display: inline;">
 <img src="https://i.postimg.cc/NLNwVcmH/3tabs-01.png" alt="3tabs-01"/>
@@ -47,7 +23,6 @@ NA - It's only coding examples, there's no setup.
 
 ## Status
 Project is: _finished_, - may come back and improve it, or not.
-
 
 ## References
 Based on Codecademy's _Web Development_ path courses, _CSS TYPOGRAPHY_
