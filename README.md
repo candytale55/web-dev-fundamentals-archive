@@ -35,17 +35,16 @@ List of features ready and TODOs for future development
 </div>
 
 ## Technologies
-* Javascript ES6
-* Python 2
-* Python 3
+* HTML5
+* CSS3
 
 ## Setup
 NA - It's only coding examples, there's no setup.
 
 ## Status
-Project is: _in progress_, _finished_, - may come back and improve it, or not.
+Project is: _finished_, - may come back and improve it, or not.
 
 
 ## References
-Based on Codecademy's _Web Development_ path courses,
+Based on Codecademy's _Web Development_ path courses, _CSS TYPOGRAPHY_
 
