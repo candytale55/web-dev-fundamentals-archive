@@ -32,6 +32,8 @@ List of features ready and TODOs for future development
 * Javascript ES6
 * Python 2
 * Python 3
+* HTML5
+* CSS3
 
 ## Setup
 NA - It's only coding examples, there's no setup.
@@ -41,6 +43,7 @@ Project is: _in progress_, _finished_, - may come back and improve it, or not.
 
 
 ## References
+Based on Codecademy's _Learn Python 3_ course, _CODE CHALLENGE: DICTIONARIES_ exercises
 Based on Codecademy's _Web Development_ path courses, _Code Challenges: Intermediate JavaScript_ exercises
-Based on Codecademy's _Learn Python 3_ course, _Code Challenges: String Methods_ exercises
+Based on Codecademy's _Learn Python 3_ course
 Based on FreeCodeCamp's excercises.
