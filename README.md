@@ -26,11 +26,10 @@ List of features ready and TODOs for future development
 
 
 ## Screenshots
-![Example screenshot](.screenshot.jpg)
+![Example screenshot](survey_screenshot.jpg)
 
-
+#### Historic
 <img src='https://i.postimg.cc/PNk0310Z/survey-thumbnail.png' border='0' alt='survey-thumbnail'/>
-
 
 ## Technologies
 * HTML5
@@ -41,7 +40,6 @@ NA - It's only coding examples, there's no setup.
 
 ## Status
 Project is:  _finished_, - may come back and improve it, or not.
-
 
 ## References
 Based on Codecademy's _Learn Navigation Design_ course
