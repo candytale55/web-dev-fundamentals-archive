@@ -7,9 +7,14 @@ Breadcrumbs are usually displayed as a horizontal list of pages and take up mini
 * Breadcrumbs shouldn't be underlined = **_text-decoration_** property of selector **_.breadcrumb a_** to value **_none_**. Underlines communicate that text within paragraph elements can be clicked, but we want that users recognize breadcrumbs as part of the site navigation instead of other clickable text.
 * Breadcrumbs should change when you hover over them = **_.breadcrumb a:hover_** selector is set to have the **_color: red_** and/or to **_text-decoration_** set to **_underline_**
 
+**Example:** Three html files that simulates asimple breadcrumb structure. The other pages are within the same directory as brownshoes.html and they link to : 
+shoes -> shoes.html
+flats -> flats.html
+brown -> leave this as '#' since we are already on that page 
+The shoes.html page is the starting breadcrumb, so this page will only have one breadcrumb that links to itself ('#'). This may not look useful but it keeps consistency.
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+![Example screenshot](screenshot.jpg)
 
 ## Languages
 * HTML5
