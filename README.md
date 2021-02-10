@@ -11,7 +11,7 @@ Breadcrumbs are usually displayed as a horizontal list of pages and take up mini
 ## Screenshots
 ![Example screenshot](./img/screenshot.png)
 
-## Technologies
+## Languages
 * HTML5
 * CSS3
 
@@ -20,7 +20,6 @@ NA - It's only coding examples, there's no setup.
 
 ## Status
 Project is:  _finished_, - Kept as reference.
-
 
 ## References
 Based on Codecademy's _Learn Navigation Design_ course
