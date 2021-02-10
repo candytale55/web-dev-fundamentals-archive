@@ -1,0 +1,90 @@
+
+/* GENERAL STYLE, ONLY FOR LOOKS */
+body{
+  padding:0px;
+  margin: 0px;
+  background-color: #1E1E24;
+  text-align: center;
+}
+
+a{
+  display: block;
+  font-family: 'Pontano Sans',sans-serif;
+  font-size: 16px;
+  padding: 14px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+li{
+  list-style: none;
+}
+/* ++++++++++++++++++++++++ */
+
+
+
+.breadcrumb ul {
+  display: inline;
+}
+
+.breadcrumb li {
+  float: left;
+}
+
+.breadcrumb a {
+  color: #fff;
+  background: darkcyan;
+  text-decoration: none;
+  position: relative;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  margin-right: 15px;
+  padding: 0 5px;
+}
+
+.breadcrumb a::before,
+.breadcrumb a::after {
+  content: "";
+  position: absolute;
+  border-color: darkcyan;
+  border-style: solid;
+  border-width: 15px 5px;
+}
+
+.breadcrumb a::before {
+  left: -10px;
+}
+.breadcrumb a::after {
+  left: 100%;
+}
+
+
+/*CSS TRICK*/
+.breadcrumb a::after {
+  left: 100%;
+  border-color: transparent;
+  border-left-color: darkcyan;
+}
+
+/* Style the before elements as “tails” by setting the border-left-color 
+to transparent for the :before elements. */
+.breadcrumb a::before {
+  left: -10px;
+  border-left-color: transparent;
+}
+
+
+
+/*HOVER STYLES*/
+.breadcrumb a:hover {
+  background-color: blue;
+}
+.breadcrumb a:hover::before {
+  border-color: blue;
+  border-left-color: transparent;
+}
+.breadcrumb a:hover::after {
+  border-left-color: blue;
+}
