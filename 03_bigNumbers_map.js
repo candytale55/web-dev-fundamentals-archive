@@ -13,6 +13,7 @@ const numberTimes2 = numbers.map(
 console.log(numberTimes2); // [ 2, 4, 6, 10, 14, 16, 20 ]
 
 
+ 
 
 
 const animals = ['Hen', 'elephant', 'llama', 'leopard', 'ostrich', 'Whale', 'octopus', 'rabbit', 'lion', 'dog'];
