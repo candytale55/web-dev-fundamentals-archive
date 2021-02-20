@@ -29,6 +29,7 @@ List of features ready and TODOs for future development
 ![Example screenshot](./img/screenshot.png)
 
 ## Technologies
+* Python 2
 * Javascript ES6
 * Python 2
 * Python 3
@@ -43,6 +44,7 @@ Project is: _in progress_, _finished_, - may come back and improve it, or not.
 
 
 ## References
+Based on Codecademy's _Learn Python 2_ course
 Based on Codecademy's _Learn Navigation Design_ course
 Based on Codecademy's _Learn Python 3_ course, _CODE CHALLENGE: DICTIONARIES_ exercises
 Based on Codecademy's _Web Development_ path courses, _Code Challenges: Intermediate JavaScript_ exercises
