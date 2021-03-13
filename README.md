@@ -23,6 +23,7 @@ If you find this repository because you are looking for help to pass the tests, 
 ## Technologies
 * npm
 * glitch
+* JS6
 
 ## Setup
 NA - It's only coding examples, there's no setup.
