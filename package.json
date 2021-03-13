@@ -1,6 +1,18 @@
 {
 	"name": "fcc-learn-npm-package-json",
 	"author": "candytale55",
+	"description": "This project is going to get me through the freeCodeCamp npm Backend challenges!",
+	"keywords": [
+		"descriptive",
+		"related",
+		"words",
+		"I",
+		"love",
+		"glitch",
+		"freecodecamp"
+	],
+	"license": "MIT",
+	"version": "1.2.0",
 	"dependencies": {
 		"express": "^4.14.0"
 	},
