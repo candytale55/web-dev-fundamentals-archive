@@ -17,10 +17,11 @@ You are get a JSON object **_collection_** representing a part of your musical a
 
 #### To-do list:
 * Do the same on Python
+* There's another possible solution [here](https://forum.freecodecamp.org/t/freecodecamp-challenge-guide-record-collection/18261) - must check it.
 
 ## Technologies
 * Javascript ES6
-* 
+ 
 ## Setup
 NA - It's only coding examples, there's no setup.
 
