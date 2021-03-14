@@ -11,7 +11,7 @@ You are get a JSON object **_collection_** representing a part of your musical a
 
 * Always return the entire object.
 * If _prop_ isn't _tracks_, and _value_ isn't an empty string, it updates or set that album's _prop_ to _value_.
-* If _prop_ is _tracks_ but the album doesn't have a tracks property, create an empty array and add _value_ to it.
+* If _prop_ is _tracks_ but the album doesn't have a tracks property, create an empty array and add _value_ to it. Uses _hasOwnProperty_ to check first if the album has property "tracks".
 * If _prop_ is _tracks_, and _value_ isn't an empty string, add _value_ to the end of the album's existing _tracks_ array.
 * If _value_ is an empty string, delete the given _prop_ property from the album.
 
