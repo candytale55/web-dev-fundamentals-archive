@@ -21,9 +21,9 @@ Each card is assigned a value according to the table below.
 
 The card counting function **_cc_** takes a _card_ parameter, which can be a number or a string. The function increments or decrements the global count variable according to the card's value on a table of values and returns a string with the current count and the string "Bet" if the count is positive, or "Hold" if the count is zero or negative. 
 
-Example Output
--3 Hold
- 5 Bet
+Example Output:  
+-3 Hold  
+ 5 Bet  
 
 ### Restrictions:
 * Do NOT reset count to 0 when value is 7, 8, or 9.
