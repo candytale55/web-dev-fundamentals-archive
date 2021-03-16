@@ -14,6 +14,7 @@ _lookUpProfile_ function takes _name_ and a property (_prop_) as arguments. The 
 
 #### To-do list:
 * Do the same in Python.
+* There're other possible solutions, one using for...in syntax - [ref here](https://forum.freecodecamp.org/t/freecodecamp-challenge-guide-profile-lookup/18259).
 
 ## Technologies
 * Javascript ES6
