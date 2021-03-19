@@ -1,0 +1,240 @@
+html {
+  font-size: 10px;
+  
+  --header-text-color: black;
+  --header-text-color-hover: blue;
+  --header-height: 7rem;
+  --price-box-color: white;
+  --price-tag-color: darkred;
+  --price-text-color: white;
+  --headers-color: darkred;
+}
+
+body {
+  padding: 0;
+  margin:  0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+#img-name {
+  font-size: 2.5rem;
+  padding-left: .5rem;
+}
+
+h1, h2 {
+  text-align: center;
+  color: var(--headers-color);
+}
+
+#company-name {
+  font-size: 5rem;
+}
+#company-slogan{
+  font-style: italic;
+  font-size: 2rem;
+}
+
+p { 
+  font-size: 1.6rem;
+}
+
+
+.title {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+       /* HEADER & NAVIGATION */
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: var(--header-height);
+  border-bottom: 1px solid black;
+  position: fixed;
+  top: 0px;
+  z-index: 5;
+  background-color: white;
+}
+
+@media (max-width: 767px) {
+header {
+  display: flex;
+  width: 100%;
+  border-bottom: none;
+}
+
+header #img-name {
+  display: none;
+}
+  
+  
+} /*media query*/
+
+
+header img {
+  height: 3rem;
+}
+
+#logo-container{
+  display: flex;
+  align-items: center;
+  font-size: 2.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--header-text-color);
+  text-transform: uppercase;
+}
+
+a:hover {
+  color: var(--header-text-color-hover);
+}
+
+li{
+  display: inline-flex;
+  padding: 1rem; 
+  font-size: 1.8rem;
+}
+
+section {
+  padding-top: 5rem;
+  padding-bottom: 10rem;
+  margin-bottom: 10rem;
+}
+
+.section {
+  position: relative;
+  top: var(--header-height);
+}
+
+#home {
+  padding-bottom: 0;
+  margin-bottom:0;
+}
+
+
+
+h2.title {
+  font-size: 2rem;
+}
+
+                  /* PRODUCTS SECTION GALLERY */
+
+
+#products {
+  margin-top: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.gallery-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery-box {
+  margin: 1rem;
+}
+
+#products img {
+  height: 200px;
+}
+
+/*   PROCESS SECTION (VIDEO) */
+
+
+#process {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+#process video {
+  margin: auto;
+}
+
+  /* PRICE SECTION */
+
+.banner {
+  background-image: url("https://i.postimg.cc/cHMMYjr2/muffins-853-1280.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+#prices {
+  display: flex;
+  flex-direction: column;
+  margin: 5rem 0;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+.price-box {
+  background-color: var(--price-box-color);
+  margin:  1rem 1.5rem;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.price {
+  font-weight: 700;
+  background-color: var(--price-tag-color);
+  color: var(--price-text-color);
+  padding: .85rem 1rem;
+}
+
+#prices h2 {
+  font-size: 4rem;
+  text-shadow: 2px -3px 10px white;
+}
+
+/*   FORM SECTION  */
+
+
+#form-container { /*The whole section*/
+  
+  width: 100%;
+  margin-top: 23rem;
+  align-text: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  display: flex;
+}
+
+
+#form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+}
+
+#form input {
+  margin: 1rem;
+}
+
+/*   FOOTER  */
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
