@@ -11,6 +11,7 @@ For example: 5! = 1 * 2 * 3 * 4 * 5 = 120
 
 #### To-do list:
 * Do the same in Python
+* Try using reduce() in JS: Reference https://forum.freecodecamp.org/t/freecodecamp-challenge-guide-factorialize-a-number/16013
 
 ## Technologies
 * Javascript ES6
