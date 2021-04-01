@@ -1,4 +1,26 @@
 
+function factorialize_shortest(num) {
+  for (var result = 1; num > 0 ; num--){
+    result *= num;
+  }
+  return result;
+}
+
+// TESTS
+console.log(factorialize_shortest(1));  // 1
+console.log(factorialize_shortest(0));  // 1
+console.log(factorialize_shortest(3));  // 6
+console.log(factorialize_shortest(5));  // 120
+console.log(factorialize_shortest(10)); // 3628800
+console.log(factorialize_shortest(20)); // 2432902008176640000
+
+
+
+
+
+
+
+
 function factorialize_for_loop(num) {
   let result = 1;
   if (num === 0 || num === 1){
