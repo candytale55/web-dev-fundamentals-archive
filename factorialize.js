@@ -6,6 +6,8 @@ function factorialize_shortest(num) {
   return result;
 }
 
+// The return values for the function will always be greater than or equal to 1, so result is initialized at one. 
+
 // TESTS
 console.log(factorialize_shortest(1));  // 1
 console.log(factorialize_shortest(0));  // 1
@@ -189,3 +191,32 @@ console.log(factorialize_setting_an_array(5));  // 120
 console.log(factorialize_setting_an_array(10)); // 3628800
 console.log(factorialize_setting_an_array(20)); // 2432902008176640000
 console.log(factorialize_setting_an_array(0));  // 1
+
+
+
+
+
+
+
+
+////// RECURSIVE SOLUTION
+
+function factorialize_recursion(num) {
+  if (num === 0){
+    return 1;
+  }   
+  return num * factorialize(num-1);
+}
+
+/* The terminal condition is the if statement "If(num === 0)". 
+When this is true we return 1, ending the recursion and 
+informing the stack to propagate this value to the upper levels. 
+*/
+
+// TESTS
+console.log(factorialize_recursion(1));  // 1
+console.log(factorialize_recursion(0));  // 1
+console.log(factorialize_recursion(3));  // 6
+console.log(factorialize_recursion(5));  // 120
+console.log(factorialize_recursion(10)); // 3628800
+console.log(factorialize_recursion(20)); // 2432902008176640000
