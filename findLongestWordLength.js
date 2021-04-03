@@ -181,3 +181,12 @@ console.log(findLongestWordLength_Rec("May the force be with you")); // 5
 console.log(findLongestWordLength_Rec("Google do a barrel roll")); // 6
 console.log(findLongestWordLength_Rec("What is the average airspeed velocity of an unladen swallow")); // 8
 console.log(findLongestWordLength_Rec("What if we try a super-long word such as otorhinolaryngology")); // 19
+
+
+
+/*Check these
+
+https://www.youtube.com/watch?v=R8SjM4DKK80
+https://www.youtube.com/watch?v=k7-N8R0-KY4
+
+*/
