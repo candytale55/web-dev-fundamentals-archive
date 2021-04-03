@@ -87,3 +87,19 @@ console.log(findLongestWordLength_reduce_MathMax("Google do a barrel roll")); //
 console.log(findLongestWordLength_reduce_MathMax("What is the average airspeed velocity of an unladen swallow")); // 8
 console.log(findLongestWordLength_reduce_MathMax("What if we try a super-long word such as otorhinolaryngology")); // 19
 
+/* 
+USING REDUCE and Math.max:  Simplify
+*/
+
+function findLongestWordLength_reduce_MathMax_shorter(str) {
+  return str.split(" ").reduce(function(longestSoFar, word){
+  return Math.max(longestSoFar, word.length)
+}, 0);}
+
+
+// TESTS: 
+console.log(findLongestWordLength_reduce_MathMax_shorter("The quick brown fox jumped over the lazy dog")); //6
+console.log(findLongestWordLength_reduce_MathMax_shorter("May the force be with you")); // 5
+console.log(findLongestWordLength_reduce_MathMax_shorter("Google do a barrel roll")); // 6
+console.log(findLongestWordLength_reduce_MathMax_shorter("What is the average airspeed velocity of an unladen swallow")); // 8
+console.log(findLongestWordLength_reduce_MathMax_shorter("What if we try a super-long word such as otorhinolaryngology")); // 19
