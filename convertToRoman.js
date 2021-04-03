@@ -1,6 +1,24 @@
+function separateUnits(num) { 
+    var number = num.toString().split('');
+    var multiplier = 1;  
+
+    for (var i = number.length - 1; i >= 0; i--) {
+        number[i] *= multiplier;
+        multiplier *= 10;
+    }
+    return number;
+}
+// console.log(separateUnits(12134));
+// This function came from here: https://stackoverflow.com/questions/34110725/convert-number-to-tens-hundreds-thousands
+
+
+
+
 function convertToRoman(num) {
-let numSplit = [90,1]
-let romanNum = [];
+  let numSplit = separateUnits(num); 
+  // console.log(numSplit); // Testing 
+
+  let romanNum = "";
 
 for (let i=0; i<numSplit.length; i++){
   switch(numSplit[i]){
@@ -26,7 +44,7 @@ for (let i=0; i<numSplit.length; i++){
     romanNum +="DC";
     break;
   case 500:
-    romanNum +="DCC";
+    romanNum +="D";
     break;
   case 400:
     romanNum +="CD";
@@ -98,12 +116,11 @@ for (let i=0; i<numSplit.length; i++){
 
 
 }
-console.log(romanNum);
 return romanNum;
 } // function
 
 
-console.log(convertToRoman(1));
+//console.log(convertToRoman(1));
 //console.log(convertToRoman(2));
 //console.log(convertToRoman(3));
 //console.log(convertToRoman(4));
@@ -120,8 +137,8 @@ console.log(convertToRoman(1));
 //console.log(convertToRoman(97));
 //console.log(convertToRoman(99));
 //console.log(convertToRoman(400));
-//console.log(convertToRoman(500));
-//console.log(convertToRoman(501));
+console.log(convertToRoman(500));
+console.log(convertToRoman(501));
 //console.log(convertToRoman(649));
 //console.log(convertToRoman(798));
 //console.log(convertToRoman(891));
@@ -130,7 +147,9 @@ console.log(convertToRoman(1));
 //console.log(convertToRoman(1006));
 //console.log(convertToRoman(1023));
 //console.log(convertToRoman(2014));
-//console.log(convertToRoman(3999));
+//console.log(convertToRoman(3999));     
+
+
 
 
 
