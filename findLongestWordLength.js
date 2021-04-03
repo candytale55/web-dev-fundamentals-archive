@@ -103,3 +103,46 @@ console.log(findLongestWordLength_reduce_MathMax_shorter("May the force be with 
 console.log(findLongestWordLength_reduce_MathMax_shorter("Google do a barrel roll")); // 6
 console.log(findLongestWordLength_reduce_MathMax_shorter("What is the average airspeed velocity of an unladen swallow")); // 8
 console.log(findLongestWordLength_reduce_MathMax_shorter("What if we try a super-long word such as otorhinolaryngology")); // 19
+
+
+
+
+
+
+
+
+/* 
+USING MAP and Math.max and Spread Operator
+
+Built-in map() method creates a new array populated with the results 
+of executing a callback function on each element in an array. 
+It returns a new array made up of the return values from the callback function.
+
+The original array does not get altered, and the returned array may contain different values.
+
+In this function we will make another array, made from the lengths of each element 
+of the str.split(" ") array with map() and then pass these elements to Math.max 
+to return the highest value (which is the lenght of the longest word).
+
+It uses the spread operator to pass the info to Math.max
+*/
+
+function findLongestWordLength_Map_MathMax_Spread(str) {
+  let lengthsArray = str.split(" ").map(
+    word => word.length
+  );
+return Math.max(...lengthsArray);
+}
+
+
+// Making it simpler
+function findLongestWordLength_Map_MathMax_Spread_Simpler(str) {
+  return Math.max( ...str.split(" ").map(
+    word => word.length));}
+
+// TESTS: 
+console.log(findLongestWordLength_Map_MathMax_Spread_Simpler("The quick brown fox jumped over the lazy dog")); //6
+console.log(findLongestWordLength_Map_MathMax_Spread_Simpler("May the force be with you")); // 5
+console.log(findLongestWordLength_Map_MathMax_Spread_Simpler("Google do a barrel roll")); // 6
+console.log(findLongestWordLength_Map_MathMax_Spread_Simpler("What is the average airspeed velocity of an unladen swallow")); // 8
+console.log(findLongestWordLength_Map_MathMax_Spread_Simpler("What if we try a super-long word such as otorhinolaryngology")); // 19
