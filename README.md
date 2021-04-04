@@ -28,4 +28,4 @@ Project is: _finished_, - but it's highly probable I'll come back to revist this
 
 
 ## References
-Based on FreeCodeCamp's excercises.
+Based on FreeCodeCamp's excercise [here](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/roman-numeral-converter). (Must be logged in)
