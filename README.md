@@ -16,6 +16,7 @@ Right now it includes examples of iterating arrays and especially nested arrays 
 #### To-do list:
 * Do the same with built-in methods.
 * Do the same in Python.
+* There are notes in some of the files to check particular to-dos.
 
 ## Technologies
 * Javascript ES6
