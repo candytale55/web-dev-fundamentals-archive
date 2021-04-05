@@ -4,6 +4,7 @@
 For simplicity, the provided array will contain exactly 4 sub-arrays. */
 // From FCC exercise here: 
 // https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/return-largest-numbers-in-arrays
+// There are two solutions that haven't been explored here: https://forum.freecodecamp.org/t/freecodecamp-challenge-guide-return-largest-numbers-in-arrays/16042
 
 
 
