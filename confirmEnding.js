@@ -37,11 +37,25 @@ function confirmEnding(str, target) {
 
 
 
+
+
 ////// In JUST ONE LINE: 
 
 function confirmEnding(str, target) {
   return str.slice(str.length - target.length) == target;
   }
+
+
+
+
+//// EVEN SHORTER
+// If a negative number is provided as the first parameter to slice() , the offset is taken backwards from the end of the string
+
+function confirmEnding(str, target) {
+  return str.slice(-target.length) === target
+}
+
+
 
 
 
