@@ -37,6 +37,13 @@ function confirmEnding(str, target) {
 
 
 
+////// In JUST ONE LINE: 
+
+function confirmEnding(str, target) {
+  return str.slice(str.length - target.length) == target;
+  }
+
+
 
 // TESTS:
 console.log(confirmEnding("Bastian", "n")); // true 
