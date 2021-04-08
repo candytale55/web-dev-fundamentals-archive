@@ -18,6 +18,15 @@ console.log(byDigits) // [ 'How', 'are', 'you', 'today' ]
 
 /*
 Since strings are immutable, the split method makes it easier to work with them.
+
+
+
+
+
+
+
+_splitify()_ function takes a string _str_ as parameter. It uses the split method to split str into an array of words. 
+It returns the array. The words are not always separated by spaces, and the array should not contain punctuation.
  */
 
 
@@ -25,6 +34,20 @@ function splitify(str) {
   let strArray = str.split(/\-|\.| |\,/);
   return strArray
 }
+
+
+
+
+/*  EASIER: 
+ /\W/ Matches any non-word character. This includes spaces and punctuation, but not underscores. It’s equivalent to /[^A-Za-z0-9_]/.
+*/
+
+function splitify(str) {
+  return str.split(/\W/);
+}
+splitify("Hello World,I-am code");
+
+
 
 console.log(splitify("Hello World,I-am code")); // [ 'How', 'are', 'you', 'today' ]
 [ 'Hello', 'World', 'I', 'am', 'code' ]
