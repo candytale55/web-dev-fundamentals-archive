@@ -10,6 +10,8 @@ The purpose of the project is just personal learning. These are my personal note
 * The **_sentensify_** function takes an argument _str_. The string is not divided by spaces, but for hyphens, points, commas, etc.  
 This uses the split method to get ridded by the non-word characters and the join method to make a sentence from the words in the string str. 
 
+* Function _findLongestWordLength_ takes one String argument _str_ and returns the length of the longest word in string. Different solutions using arrays + for loops, .split, reduce + Math.max, .map + Math.max + spread operator, and recursion.
+
 ### Note to self: if not here, check also these:
 * [Check_string_endings_JS](https://github.com/candytale55/Check_string_endings_JS)
 * [Capitalizing_Strings_JS_Py](https://github.com/candytale55/Capitalizing_Strings_JS_Py)
