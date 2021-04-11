@@ -12,6 +12,7 @@ This uses the split method to get ridded by the non-word characters and the join
 
 ### Note to self: if not here, check also these:
 * [Check_string_endings_JS](https://github.com/candytale55/Check_string_endings_JS)
+* [Capitalizing_Strings_JS_Py](https://github.com/candytale55/Capitalizing_Strings_JS_Py)
 
 
 
