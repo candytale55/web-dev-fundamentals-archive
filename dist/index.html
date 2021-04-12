@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Survey Form</title>
+  <title>Sample Survey Form</title>
+
+<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+
+<meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+
+
+<div class="container">
+  
+<header class="header">
+  <h1 id="title">Customer Survey</h1>
+
+  <h2>Instructions:</h2>
+  <p id="description">&nbsp;&nbsp;Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas rerum suscipit amet quidem autem ut perspiciatis soluta porro doloribus numquam, maiores ipsum, temporibus sint minus reiciendis nihil minima labore. Quam?</p>
+  
+</header>
+
+
+
+<form action="" 
+      id="survey-form">
+  
+         <!--   NAME    --> 
+<label for="name" 
+        id="name-label">Name: 
+<input type="text" 
+       id="name"
+       class="control-space"
+       name="name"
+       required
+       placeholder="Name">
+ </label>
+
+         <!--   EMAIL    --> 
+ 
+<label for="email" 
+         id="email-label">Email: 
+<input type="email" 
+       id="email" 
+       class="control-space"
+       name="email" 
+       required
+       placeholder="Email">
+  </label>
+  
+  
+  
+ <label for="number" 
+        id="number-label">Number:
+
+ <input type="number" 
+        id="number" 
+        class="control-space"
+        name="number" 
+        min="1" max="10"
+        placeholder="1">
+   
+</label>
+  
+         <!--   DROPDOWN    --> 
+<br>
+<label for="dropdown">What's for lunch?</label>
+      <select id="dropdown" 
+              name="dropdown">
+      <option value="pizza">Pizza</option>
+      <option value="curry">Curry</option>
+      <option value="salad">Salad</option>
+      <option value="ramen">Ramen</option>
+      <option value="tacos">Tacos</option>
+      </select>
+  
+  
+  
+  
+    <!--   RADIO BUTTON    --> 
+<br> 
+<div class="form-group">
+<p>Would you recommend our products to your friends and family?</p>
+<br>  
+
+  <div id="radio-container">
+   
+   
+  <div>  
+  <label for="yes" 
+         class="radio-label">
+         Yes</label>
+  <input type="radio" 
+       id="yes" 
+       class="input-radio"
+       name="answer" 
+       value="yes">
+
+    </div>  
+  <div> 
+  <label for="no" 
+         class="radio-label">
+         No</label>
+  <input type="radio" 
+       id="no" 
+       class="input-radio"
+       name="answer" 
+       value="no">
+  </div>  
+  <div> 
+   <label for="maybe" 
+         class="radio-label">
+         Maybe</label>
+  <input type="radio" 
+       id="maybe" 
+       class="input-radio"
+       name="answer" 
+       value="maybe">
+  
+    </div>
+  </div>  
+</div>
+
+  <!-- -->
+
+  
+         <!--   CHECKBOX    --> 
+
+<div class="form-group">
+  <p>Mark the products from our company that you have used:</p>
+  
+    <div>
+  
+<label for="cheese">
+  <input id="cheese"
+         class="input-checkbox"
+         name="product" 
+         type="checkbox" 
+         value="cheese">
+  Cheese
+</label>
+    </div>  
+  
+    <div>
+      <label for="cream"
+             class="label-checkbox">
+        <input id="cream"
+               class="input-checkbox"
+               name="product"
+               type="checkbox"
+               value="cream">
+         Cream
+      </label>
+    </div>  
+  
+    <div>
+       <label for="anchovy">
+          <input id="anchovy"
+                 class="input-checkbox"
+                 name="topping"
+                 type="checkbox"
+                 value="anchovy">
+         Anchovy
+      </label>
+    </div>  
+    
+</div>
+  <!-- for checkbox "form-group"-->
+  
+  
+         <!--   TEXTAREA    --> 
+
+  <div id="text-area-container">
+    <label for="blog">Comments: </label>
+<textarea id="blog" 
+          class="textarea"
+          name="blog" 
+          rows="5" 
+          cols="30">
+  You can add additional information here.
+</textarea>
+  </div> <!--TEXTAREA-->
+
+   <!--   SUBMIT BUTTON    --> 
+<div id="submit-container">
+<input type="submit" id="submit" value="Send">
+</div>
+  </form>
+
+</div> <!--class="container"-->
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
