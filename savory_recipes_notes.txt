@@ -1,0 +1,21 @@
+
+Screenshot Image links:
+
+Link:
+https://postimg.cc/dDnQcrdX
+Direct link:
+https://i.postimg.cc/vHw49vmQ/savory-screenshot.png
+ Markdown:
+[savory-screenshot.png](https://postimg.cc/dDnQcrdX)
+Github Markdown:
+[![savory-screenshot.png](https://i.postimg.cc/vHw49vmQ/savory-screenshot.png)](https://postimg.cc/dDnQcrdX)
+Thumbnail for forums:
+[url=https://postimg.cc/dDnQcrdX][img]https://i.postimg.cc/dDnQcrdX/savory-screenshot.png[/img][/url]
+Miniatura para webs:
+<a href='https://postimg.cc/dDnQcrdX' target='_blank'><img src='https://i.postimg.cc/dDnQcrdX/savory-screenshot.png' border='0' alt='savory-screenshot'/></a>
+Hotlink for forums:
+[url=https://postimg.cc/dDnQcrdX][img]https://i.postimg.cc/vHw49vmQ/savory-screenshot.png[/img][/url][url=https://postimages.org/]private image hosting[/url]
+Enlace directo para webs:
+<a href='https://postimg.cc/dDnQcrdX' target='_blank'><img src='https://i.postimg.cc/vHw49vmQ/savory-screenshot.png' border='0' alt='savory-screenshot'/></a><br /><a href='https://postimages.org/'>private image hosting</a><br />
+Removal link:
+https://postimg.cc/delete/x7nXP46M/fa0e7c39
