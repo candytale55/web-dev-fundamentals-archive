@@ -1,75 +1,159 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>OMG Studios</title>
+/*
+font-family: 'Julius Sans One', sans-serif;
+font-family: 'Montserrat', sans-serif;
+*/
 
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Montserrat&display=swap" rel="stylesheet">
-  </head>
-  <body>
+html {
+  font-size: 10px; /*for easier calculations in rems */
+  scroll-behavior: smooth;
+}
 
-    <header class="navbar">
-      <a href="#home" class="logo">OMG Studio</a>
-      <ul class="nav">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </header>
+body{
+  /*resets*/
+  margin: 0;
+  padding: 0;
 
-      <section id="home" class="banner-area">
-          <div class="text-area">
-            <h1>OMG Photo Studio</h1>
-          </div>
-      </section>
-
-      <section id="about" class="about-area">
-        <div class="text-area">
-          <h2>About Area</h2>
-          <p>
-          <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui voluptatem quaerat est minima vel ratione deleniti eius, dolores adipisci necessitatibus odit libero, atque ad laboriosam voluptate quos. Consequuntur, corrupti, quasi.</span>
-          <span>Voluptate ipsum earum architecto velit repudiandae, odio eligendi pariatur repellat molestias iure quis adipisci est voluptatibus reprehenderit totam molestiae rerum sed dicta dolorem debitis distinctio voluptatum. Impedit fugit, omnis. Quos.</span>
-          <span>Repudiandae quis, cupiditate harum suscipit ipsum excepturi quod libero, earum natus saepe consectetur neque magni laboriosam culpa voluptatem! Atque dolor, consectetur quos ipsam error. Quos commodi quaerat nemo ratione libero!</span>
-        </p>
-        </div>
-      </section>
-
-      <section id="portfolio" class="portfolio-area">
-        <div class="text-area">
-          <h2>Portfolio Area</h2>
-          <p>
-            <span>Tempora expedita, atque numquam culpa esse incidunt tempore! Dolorum consequatur, dicta natus veritatis inventore quibusdam, libero ratione unde similique perferendis eum nesciunt optio laudantium deleniti voluptatibus cupiditate assumenda tempora omnis?</span>
-            <span>Quas recusandae illo quaerat dolore iste, officiis fugit laboriosam itaque dolorum velit, nam quisquam, sequi eveniet. Aspernatur obcaecati illum pariatur dignissimos, ut ipsa aperiam delectus maxime repellendus, exercitationem, error optio!</span>
-            <span>Odio molestias, praesentium autem modi soluta velit! Officiis, rem neque eius eaque hic debitis assumenda? Eveniet odit eum, sint veritatis minima dolorum, assumenda excepturi, itaque amet sed vel ullam. Dolores?</span>
-          </p>
-        </div>
-      </section>
-
-      <section id="services" class="services-area">
-        <div class="text-area">
-          <h2>Services Area</h2>
-          <p>
-            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque nisi omnis deserunt pariatur nobis placeat, alias earum quas nesciunt veniam rerum ipsum distinctio quia, non odit laudantium magni laboriosam dignissimos.</span>
-            <span>Recusandae quas, sunt neque, numquam est dolorem labore non, ipsam blanditiis amet quam ipsum magni unde ullam animi perspiciatis? Nulla qui quaerat voluptatibus commodi dicta voluptatum rem, neque quasi accusantium!</span>
-            <span>Nesciunt quod repudiandae suscipit, doloremque ullam rerum amet libero sit dolorem beatae, exercitationem harum sunt. Fugit eligendi, reprehenderit sit, dolore eos dolorum facere earum ad, praesentium consequuntur cumque tenetur quam.</span>
-          </p>
-        </div>
-      </section>
-
-      <section id="contact" class="contact-area">
-        <div class="text-area">
-          <h2>Contact Area</h2>
-          <p>
-            <span>Alias ratione, perspiciatis, magni sequi dolores accusantium saepe assumenda itaque repellendus dolorum adipisci soluta mollitia vitae enim provident libero! Dolorum in itaque delectus accusamus atque, ab eligendi nostrum asperiores quibusdam.</span>
-            <span>In impedit atque ex, quibusdam, ab nobis enim ratione illum aut deleniti tempore maiores eos ipsa. Itaque vero officia non numquam soluta similique architecto, quod tenetur maxime, nesciunt ex sunt?</span>
-          </p>
-        </div>
-      </section>
+  font-size: 1.6rem;
+  font-family: 'Montserrat', sans-serif;
 
 
-  </body>
-</html>
+  --header-color: #d4d7de;
 
+  --bkg-color-1: #fefefe;  /*   About & Services Background     */
+  --bkg-color-2: #262626;  /*   Porfolio & Contact Background   */
+
+  --font-color:   #000;
+  --font-color-2: #fff;    /*   Porfolio & Contact Font   */
+  --title-font: 'Julius Sans One', sans-serif;
+  --navbar-height: 7rem;
+  --section-height: 70rem;
+}
+
+.navbar {  /*The header section*/
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: var(--header-color);
+  width: 100%;
+  height: var(--navbar-height);
+}
+
+.nav {   /* The  ul seciton with the nav links*/
+  display: flex;
+  justify-content: right;
+  list-style: none;
+  margin-right: 10%;
+}
+
+.logo{
+  flex: 1 1 auto;  /*CHECAR*/
+  margin-left: 2%;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  font-size: 3.5rem;
+  font-family: var(--title-font);
+}
+
+
+a{
+  margin: 1.5rem;
+  color: var(--font-color);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a:hover {
+  color: var(--font-color);
+  font-weight: bold;
+}
+
+
+
+
+/*  BANNER SECTION (Home) */
+
+.banner-area {
+  position: relative;
+  top: var(--navbar-height);
+  width: 100%;
+  height: 100vh;
+
+  background-image: url("img/banner-1.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  width: 100%;
+  height: 100vh;
+
+  display:flex;
+}
+
+.banner-area .text-area {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+
+
+h1 {
+  font-size: 7rem;
+  color: var(--header-color);
+  z-index: 5;
+  width: 100%;
+  margin: auto;
+  display: none;  /*Change if you want a logo over the banner*/
+}
+
+
+
+                  /*  SECTION AREAS */
+
+.about-area, .portfolio-area, .services-area, .contact-area {
+  position: relative;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+/*  height: var(--section-height); */
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.text-area {
+  width: 65%;
+  height: 80%;
+}
+
+
+h2 {   /* titles of each section */
+  font-size: 5rem;
+  font-family: var(--title-font);
+  margin-top: 18rem;
+
+}
+
+
+p {
+  font-size: 1.8rem;
+  line-height: 3.6rem;
+  margin-bottom: 8rem;
+}
+
+
+.about-area, .service-area {
+  background: var(--bkg-color-1);
+}
+
+.portfolio-area, .contact-area {
+  background: var(--bkg-color-2);
+  color: var(--font-color-2);
+}
