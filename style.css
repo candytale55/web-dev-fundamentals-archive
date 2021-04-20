@@ -8,6 +8,7 @@ html, body{
   --banner-height: 800px;
   --icon-size: 32px;
   --main-font: 'Raleway', sans-serif;
+  --btn-color: skyblue;
 
   margin: 0;
   padding:0;
@@ -46,6 +47,10 @@ nav li{
   font-size: 1rem;
 }
 
+nav li:hover{
+  color: var(--btn-color);
+}
+
 
 /*jumbotron Banner*/
 
@@ -77,7 +82,9 @@ nav li{
   padding: .5rem 1rem;
 }
 
-
+.btn-main:hover {
+  background-color: var(--btn-color);
+}
 
 #banner{
   background-image: url("img/bg.jpg");
@@ -126,6 +133,9 @@ nav li{
   text-transform: uppecase;
 }
 
+.btn:hover {
+  background-color: var(--btn-color);
+}
 
 /*Footer Section*/
 
