@@ -1,6 +1,6 @@
 # savory_recipes
 
-Landing page with recipe thumbnails set in a grid, uses grid auto-flow. Static HTML5 & CSS3 practice project
+Landing page for a fake recipe website. Recipes show thumbnails set in a grid and uses grid auto-flow. Static HTML5 & CSS3 practice project
 
 ## Screenshots
 [![savory-screenshot.png](https://i.postimg.cc/vHw49vmQ/savory-screenshot.png)](https://postimg.cc/dDnQcrdX)
