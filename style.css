@@ -11,6 +11,7 @@
 * {  /* General Reset */
    padding: 0;
    margin: 0;
+   box-sizing: border-box;
 }
 
 html {
@@ -36,7 +37,9 @@ h1, h2, h3, h4, h5, h6, p, a, li {
 
 .title {font-size: 4rem;}
 
-                    /* NAVBAR */
+
+
+                    /* HEADER  > LOGO & NAVBAR */
 
 header{
   position: fixed;
@@ -57,7 +60,6 @@ header{
   padding: 0 .95rem;  /* 69px - 50px (logo) = 19px / 2 (top+bottom)*/
   justify-content: flex-end;
 }
-
 
 
 #logo{
@@ -86,6 +88,13 @@ header{
 }
 
 
+/* Hover effects on nav elements */
+
+a:hover {
+  font-weight: bold;
+}
+
+
                     /* MISSION SECTION */
 
 #mission-section{
@@ -95,16 +104,16 @@ header{
 }
 
 #mission-section-banner {
-    //width: 120rem;
+    width: auto;
     height: 70rem;
     margin: 0 3rem;
 
-    background-image: url('img-mission-background.jpg');
+    background-image: url('./img/img-mission-background.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 
-    display: flex;
+    display: flex; /*Without this the middle banner wont work*/
 }
 
 #mission-section-banner div{
@@ -175,7 +184,7 @@ header{
 #locations-section {
     height: 60rem;
 
-    background-image:  url("img-locations-background.jpg");
+    background-image:  url("./img/img-locations-background.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -232,8 +241,6 @@ header{
   padding: 2rem;
   opacity: 1;
 }
-
-
 
 
                     /* FOOTER */
