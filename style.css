@@ -1,0 +1,17 @@
+body{
+  width: 360px;
+}
+
+
+
+h2 {
+  font-family: Lobster, Monospace;
+}
+
+
+.green-border {
+  border-color: green;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 50%;
+}
