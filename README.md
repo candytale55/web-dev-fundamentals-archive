@@ -50,3 +50,4 @@ Project is:  _finished_
 
 ## References
 Based on Codecademy's _Web Development_ path courses, _GETTING MORE ADVANCED WITH DESIGN >> Typography_ project (2020)
+Also on _Learn CSS_ **Typography**
