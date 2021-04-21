@@ -2,7 +2,7 @@
 > Here goes your awesome project description!
 
 ## General info
-The purpose of the project is just personal learning. I may revisit this code to find different solutions or to apply it under other context. 
+The purpose of the project is just personal learning. 
 
 ## Description
 List of features ready and TODOs for future development
@@ -29,7 +29,8 @@ List of features ready and TODOs for future development
 ![Example screenshot](./img/screenshot.png)
 
 ## Technologies
-* Python 2
+* Bootstrap
+* React
 * Javascript ES6
 * Python 2
 * Python 3
@@ -40,7 +41,7 @@ List of features ready and TODOs for future development
 NA - It's only coding examples, there's no setup.
 
 ## Status
-Project is: _in progress_, _finished_, - may come back and improve it, or not.
+Project is: _in progress_, _finished_, - kept for future reference.
 
 
 ## References
