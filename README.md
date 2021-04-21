@@ -1,10 +1,5 @@
 # paint_store
-This is a project for improving  a color-rich web page for a fake home paint business. The webpage displays info about using color in a home and color swatches with varying lightness, saturation, and hue.
-
-## General info
-The purpose of the project is just personal learning.
-
-## Description
+HTML5 & CSS3 - This is a project for improving a color-rich web page for a fake home paint business. The webpage displays info about using color in a home and color swatches with varying lightness, saturation, and hue. Uses transparencies and media queries. 
 
 ## Screenshots
 
@@ -26,4 +21,4 @@ NA - It's only coding examples, there's no setup.
 Project is: _finished_
 
 ## References
-Based on Codecademy's _Web Development_ path courses, _GETTING MORE ADVANCED WITH DESIGN_
+Based on Codecademy's _Web Development_ path courses, _GETTING MORE ADVANCED WITH DESIGN_ && _Learn CSS_ - **Color** (2020) 
