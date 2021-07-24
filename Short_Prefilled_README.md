@@ -31,20 +31,23 @@ List of features ready and TODOs for future development
 ## Technologies
 * Bootstrap
 * React
-* Javascript ES6
 * Python 2
 * Python 3
+* Sass
 * HTML5
 * CSS3
-
+* Javascript ES6
+* jQuery
+* 
 ## Setup
-NA - It's only coding examples, there's no setup.
+NA - It's only coding exercises, there's no setup.
 
 ## Status
 Project is: _in progress_, _finished_, - kept for future reference.
 
 
 ## References
+Based on Codecademy's projects. 
 Based on Codecademy's _Learn Python 2_ course
 Based on Codecademy's _Learn Navigation Design_ course
 Based on Codecademy's _Learn Python 3_ course, _CODE CHALLENGE: DICTIONARIES_ exercises
