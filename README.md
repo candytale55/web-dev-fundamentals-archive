@@ -27,3 +27,5 @@ Project is: technically _finished_, but it would be nice to add it the functiona
 
 ## References
 Based on Codecademy project. Reference Video: https://www.youtube.com/watch?v=VJ32N1SRh84
+
+I did a second try [here](https://github.com/candytale55/stuffed_animals_task_list) which actually adds new cards.
