@@ -13,7 +13,7 @@ The task cards should be arranged within the columns, so each card column is als
 Since projects will be added as cards to the Completed Projects column, it will be helpful to use implicit grid properties instead of explicit properties. The first row with the heading should be explicitly 20px, just as the other heading rows are. Every additional row, should be set to 100px.
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+![Example screenshot](./img/stuffed-animals-board.png)
 
 ## Technologies
 * HTML5
