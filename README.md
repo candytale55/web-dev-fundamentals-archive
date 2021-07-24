@@ -4,7 +4,7 @@
 The purpose of the project is just personal learning. 
 
 ## Description
-A simple static webpage done using Sass for a music band.
+A simple static webpage done using Sass for a music band. Refactor CSS to SCSS 
 
 #### To Do's
 * It would be a good idea to add hover effects and change the awful colors. The project was done as intended but it kinda sucks.
