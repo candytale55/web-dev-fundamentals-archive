@@ -24,4 +24,4 @@ NA - It's only coding examples, there's no setup.
 Project is: _in progress_ - kept for future reference.
 
 ## References
-Based on Codecademy's
+Based on Codecademy's exercises.
