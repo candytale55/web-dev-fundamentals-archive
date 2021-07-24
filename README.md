@@ -37,7 +37,4 @@ To-do list:
 Project is technicaly _finished_, as per project's requirement, but there's a lot of room for improvement.
 
 ## Inspiration
-This was a guided project from Codecademy from the **LEARN HTML** course. 
-
-## Contact
-n/a
+This was a guided project from Codecademy from the **LEARN HTML** course.  For reference: video: https://www.youtube.com/watch?v=iu_FBcP7j6g
