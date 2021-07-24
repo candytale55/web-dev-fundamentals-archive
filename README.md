@@ -7,8 +7,8 @@ The purpose of the project is just personal learning.
 Color contrast practice. HTML & CSS static webpage of an app webpage - Different CSS pages to change the color palette.
 
 ## Screenshots
-![Example screenshot](./img/look_up_01.png)
-![Example screenshot](./img/look_up_02.png)
+![Example screenshot](look_up_01.png)
+![Example screenshot](look_up_02.png)
 
 ## Technologies
 * HTML5
