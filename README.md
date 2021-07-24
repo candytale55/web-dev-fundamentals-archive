@@ -4,10 +4,10 @@
 The purpose of the project is just personal learning
 
 ## Description
-This project is aboard of to-do items organized into columns using grid property declarations. I did a first try project ![here](https://github.com/candytale55/task_board): 
+This project is aboard of to-do items organized into columns using grid property declarations. I did a first try project [here](https://github.com/candytale55/task_board).
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+![Example screenshot](stuffed_animals_screenshot.png)
 
 ## Technologies
 * HTML5
