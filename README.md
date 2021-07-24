@@ -9,7 +9,8 @@ jQuery Codecademy exercise - Use jQuery to make drop-down menus appear and disap
 
 #### To-do list:
 * The display menus takes too long to disapear.
-* Add hovering effects ofver the menus.
+* Add hovering effects over the menus.
+* I created another skeleton for a similar jQuery page [here](https://github.com/candytale55/marketplace). It would be good to also finish it. 
 
 ## Screenshots
 [![madison-square-market.png](https://i.postimg.cc/bNWpMFkQ/madison-square-market.png)](https://postimg.cc/0bYTKntQ)
@@ -21,7 +22,7 @@ jQuery Codecademy exercise - Use jQuery to make drop-down menus appear and disap
 * CSS3
 * Javascript ES6
 * jQuery
-* 
+
 ## Setup
 NA - It's only coding exercises, there's no setup.
 
