@@ -4,7 +4,7 @@
 The purpose of the project is just personal learning. 
 
 ## Description
-A studycard that flips when you click on it. Simple exercise to learn Sass. 
+A studycard that flips when you hover in it. Simple exercise to learn Sass. 
 
 #### To-do list:
 * Create real studycards to really test them.
