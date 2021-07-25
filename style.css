@@ -1,0 +1,63 @@
+body{
+  /* Variables */
+  --photo-border: #fff;
+margin: 0;
+
+}
+
+/* NAVBAR */
+
+
+header div{ /* navbar row*/
+  display:inline-flex;
+  align-items: center;
+  align-content: flex-end;
+}
+
+header h1{
+  align-items: center;
+  justify-content: flex-start;
+}
+
+header navbar{
+  display:inline-flex;
+  align-content: flex-end;
+}
+
+header navbar p{
+  padding: 2rem;
+}
+
+
+
+
+/* JUMBOTRON */
+
+#banner{
+  background-image: url("https://i.postimg.cc/wMgYChWL/christmas-1911637-1280.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+
+
+
+/*  GALLERY  */
+
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.gallery-item{
+  margin: 1.5rem;
+  border: .25rem solid var(--photo-border);
+  width: 100%;
+  height: auto;
+  display:flex;
+  flex-wrap: wrap;
+}
