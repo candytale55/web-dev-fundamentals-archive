@@ -17,5 +17,5 @@ The purpose of the project is just personal learning.
 NA - It's only coding exercises, there's no setup.
 
 ## Status
-Project is: _abandoned, - kept just in case.
+Project is: _abandoned_, - kept just in case.
 
