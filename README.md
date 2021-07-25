@@ -7,7 +7,7 @@ The purpose of the project is just personal learning.
 A simple grid (two wells and 6 targets) to practice Bootstrap. A section with notes on Bootstrap and Favicon. To tell you the truth I don't remember what does jQuery had to do with this grid.
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+![Example screenshot](jQuery_Playground.png)
 
 ## Technologies
 * Bootstrap
