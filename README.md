@@ -7,7 +7,7 @@ Karma Cafe HTML5, CSS3 UNFINISHED Static Website.
 The purpose of the project is just personal learning. 
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+![Example screenshot](./img/karma_cafe_screenshot.png)
 
 ## Technologies
 * HTML5
