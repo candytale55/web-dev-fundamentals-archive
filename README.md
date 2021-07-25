@@ -4,7 +4,7 @@
 The purpose of the project is just personal learning. 
 
 ## Description
-Codecademy HTML form practice - A Madlibs style exercise. Basic JS.
+Madlibs style exercise. You enter info into a form and you should get a story with said info.  Codecademy exercise for HTML form practice  and basic JS.
 
 #### To-do list:
 * Still incomplete (It still doesn't work locally. Need to fix the links between main.js and story.html)
