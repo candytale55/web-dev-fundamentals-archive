@@ -1,5 +1,4 @@
 # best_coffee_regions
-> Here goes your awesome project description!
 
 ## General info
 The purpose of the project is just personal learning. 
