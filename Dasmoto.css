@@ -3,7 +3,7 @@ body{
 }
 
 h1{
-  background-image: url("./pattern.jpeg");
+  background-image: url("./resources/pattern.jpeg");
   font-family: Helvetica;
   font-size: 100px;
   font-weight:bold;
