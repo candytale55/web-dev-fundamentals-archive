@@ -4,28 +4,14 @@
 The purpose of the project is just personal learning. 
 
 ## Description
-List of features ready and TODOs for future development
-* Awesome feature 1
-* Awesome feature 2
-* Awesome feature 3
-
-#### To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
-
-
-## Table of contents
-* [General info](#general-info)
-* [Description](#description)
-* [Screenshots](#screenshots)
-* [Technologies](#technologies)
-* [Setup](#setup)
-* [Status](#status)
-* [References](#references)
+Animated download button HTML & CSS with transitions. Two-color button with label "download" and arrow at the right. When hover, the arrow expands to the left.
 
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+<div style="display:inline">
+![Example screenshot](button_01.png)
+![Example screenshot](button_02.png)
+</div>
 
 ## Technologies
 * Font awesome
