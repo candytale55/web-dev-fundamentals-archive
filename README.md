@@ -10,8 +10,8 @@ HTML5, CSS3 + Boostrap UNFINISHED project - Static page for a (fake) Winter Vaca
 * Most of the work is pending.
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
-![Example screenshot](./img/screenshot.png)
+![Example screenshot](./img/Winter_Vac_01.png)
+![Example screenshot](./img/Winter_Vac_02.png)
 
 ## Technologies
 * Bootstrap
