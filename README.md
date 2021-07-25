@@ -1,5 +1,29 @@
 # jQuery_playground
 
+## General info
+The purpose of the project is just personal learning. 
+
+## Description
+A simple grid (two wells and 6 targets) to practice Bootstrap. A section with notes on Bootstrap and Favicon. To tell you the truth I don't remember what does jQuery had to do with this grid.
+
+## Screenshots
+![Example screenshot](./img/screenshot.png)
+
+## Technologies
+* Bootstrap
+* HTML5
+* CSS3
+
+## Setup
+NA - It's only a coding exercise, there's no setup.
+
+## Status
+Project is: _finished_, - kept for future reference.
+
+
+
+## Personal notes: 
+
 Notes:
                          Bootstrap Classes
 Most of Bootstrap's classes can be applied to a div element.
