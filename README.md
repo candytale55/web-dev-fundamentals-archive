@@ -7,7 +7,7 @@ An HTML, Bootstrap & CSS3 document with code examples for working with HTML form
 * Fix the spans of the range ends on the range section so that they appears in the conrners.
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+![Example screenshot](forms_elements_and_types.png)
 
 ## Technologies
 * Bootstrap
