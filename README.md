@@ -5,12 +5,12 @@ A HTML / CSS static webpage template with expected sections for a product / comp
 
 ## Screenshots
 #### webpage_template
-![Example screenshot](./img/screenshot.png)
-![Example screenshot](./img/screenshot.png)
+![Example screenshot](./img/product-page-template-01.png)
+![Example screenshot](./img/product-page-template-02.png)
 
 #### big_banner_website
-![Example screenshot](./img/screenshot.png)
-![Example screenshot](./img/screenshot.png)
+![Example screenshot](./img/big-banner-template-01.png)
+![Example screenshot](./img/big-banner-template-02.png)
 
 ## Technologies
 * HTML5
