@@ -1,0 +1,117 @@
+html {
+    scroll-behavior: smooth;
+
+    font-size: 10px;  /*To keep calculations simple*/
+    --font-color: black;
+    --font-color-1: white; /*For header and footer*/
+    --font-color-2: blue;
+
+      /*Color Variables*/
+      --main-bkg:   #ffffff;
+      --header-bkg: rgb(0, 174, 255);
+      --footer-bkg: white;
+      --section-bkg-1: white;
+      --section-bkg-2: white;
+
+      /*Font Variables*/
+      --main-font:   'Montserrat', sans-serif;
+      --title-font:  'Montserrat', sans-serif;
+
+      /*Size Variables*/
+      --header-height: 6rem; /*cambiar*/
+      --footer-height: 2rem; /*cambiar*/
+  }
+
+
+  body {
+    /* General Reset */
+      padding: 0;
+      margin: 0;
+
+    background-color: var(--main-bkg);
+    color: var(font-color);
+
+    font-family: var(--main-font);
+    font-size: 1.6rem;
+  }
+
+
+  header, footer {
+      background-color: var(--header-bkg);
+      height: var(--header-height);
+  }
+
+
+.banner{
+  height: 100vh;
+
+  background-image: url("img/candy_market.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+    /*   NAVIGATION    */
+
+.navbar{ /*The header section*/
+  position: fixed;
+  top: 0;
+  z-index: 5;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  /* height: var(--header-height); */
+  /* background-color: var(--header-bkg);*/
+}
+
+.nav{ /* The  ul seciton with the nav links*/
+  display: flex;
+  justify-content: right;
+  list-style: none;
+  margin-right: 10%;
+}
+
+.logo{
+  flex: 1 1 auto;
+  margin-left: 2%;
+  font-family: var(--title-font);
+  font-weight: bold;
+  font-size: 3rem;
+  color: var(--font-color-1);
+  text-decoration: none;
+  /*text-transform: capitalize;*/
+  /*If you want it different that the rest of the elements in the header*/
+}
+
+header a{
+  margin: 1.5rem;
+  color: var(--font-color-1);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+
+header ul a:hover {
+  color: var(--font-color-2);
+}
+
+/*  FOOTER */
+
+footer {
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-between;
+}
+
+footer p {
+  margin: 1.5rem;
+  color: var(--font-color-1);
+}
+
