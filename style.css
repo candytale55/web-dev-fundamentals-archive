@@ -13,6 +13,20 @@ pre code {
  }
 
 
+
+/*To be used when you set an image as background for an element*/
+.bkg-image {
+   background-image: url('#');
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+ }
+
+
+
+
+
+
 /*      HEADER SECTION     */
 
 /* Header structure is:  "
