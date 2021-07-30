@@ -1,4 +1,0 @@
-
-live version
-https://s3.amazonaws.com/codecademy-content/courses/learn-css-grid/project-iii/index.html
-https://www.youtube.com/watch?v=b_KsnFyy0DY
