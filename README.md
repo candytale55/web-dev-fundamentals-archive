@@ -2,7 +2,7 @@
 HTML & CSS file to create a 5 space Grid - Just that, nothing special. I keep it here to have it handy for reuse.
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+![Example screenshot](Grid-5.PNG)
 
 ## Technologies
 * HTML5
@@ -12,6 +12,4 @@ HTML & CSS file to create a 5 space Grid - Just that, nothing special. I keep it
 NA 
 
 ## Status
-Project is: _finished_, - kept for future reference.
-
-## References
+Project is: _finished_, - kept for reusing.
