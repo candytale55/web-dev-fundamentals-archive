@@ -7,7 +7,7 @@ The purpose was just have some practice with grids.
 A social media profile box w/follow me - Made with HTML & CSS-grid.
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+![Example screenshot](grid_01.png)
 
 ## Technologies
 * HTML5
