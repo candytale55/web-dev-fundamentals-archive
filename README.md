@@ -29,3 +29,7 @@ Licencia: MIT License.
 3. Importa el mazo: En la pantalla principal de Anki, haz clic en "Archivo" en la barra de menú superior y selecciona "Importar". Busca el archivo del mazo que descargaste y selecciónalo. Haz clic en "Abrir" para comenzar el proceso de importación.
 
 ## Capturas de pantalla
+
+![Captura parte frontal ejemplo](Screenshots/Front.jpg)
+![Captura teclear señal ejemplo](Screenshots/Type.jpg)
+![Captura parte posterior ejemplo](Screenshots/Type.jpg)
