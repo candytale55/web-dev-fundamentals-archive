@@ -32,4 +32,4 @@ Licencia: MIT License.
 
 ![Captura parte frontal ejemplo](Screenshots/Front.jpg)
 ![Captura teclear señal ejemplo](Screenshots/Type.jpg)
-![Captura parte posterior ejemplo](Screenshots/Type.jpg)
+![Captura parte posterior ejemplo](Screenshots/Back.jpg)
