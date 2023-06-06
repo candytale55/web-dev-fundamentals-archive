@@ -24,7 +24,7 @@ Licencia: MIT License.
 
 ## Instalación
 
-1. Descarga el mazo, es el archivo ".apkg". También puedes clonar todo el repositorio si lo prefieres aunque el resto de los archivos no son necesarios.
+1. Descarga el mazo, es el archivo "Señales de circulación en Espana - Comunidad Europea.apkg". También puedes clonar todo el repositorio si lo prefieres aunque el resto de los archivos no son necesarios.
 2. Abre Anki: Inicia la aplicación Anki en tu computadora.
 3. Importa el mazo: En la pantalla principal de Anki, haz clic en "Archivo" en la barra de menú superior y selecciona "Importar". Busca el archivo del mazo que descargaste y selecciónalo. Haz clic en "Abrir" para comenzar el proceso de importación.
 
