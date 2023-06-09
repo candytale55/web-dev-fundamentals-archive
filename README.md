@@ -52,3 +52,59 @@ Parte frontal: Presenta al usuario una imagen relacionada con una palabra y repr
 Parte posterior: Se muestra la palabra correcta y se realiza una comparación con lo que el usuario ha escrito. Las diferencias entre la palabra escrita por el usuario y la palabra correcta se resaltarán en rojo, mientras que las partes correctas se mostrarán en verde. Esto permite al usuario identificar rápidamente los errores en su respuesta. No es obligatorio que el usuario teclee la palabra si no lo desea.
 
 ## Lista de palabras
+
+| Palabra       | Traducción       | Pronunciación (IPA) |
+| ------------- | ---------------- | ------------------ |
+| bag           | mochila          | bæg                |
+| ball          | pelota           | bɔl                |
+| banana        | plátano          | bəˈnænə            |
+| bed           | cama             | bɛd                |
+| book          | libro            | bʊk                |
+| cat           | gato             | kæt                |
+| chair         | silla            | ʧɛr                |
+| chicken       | pollo            | ˈʧɪkən             |
+| chocolate     | chocolate        | ˈʧɑklət            |
+| coat          | abrigo           | koʊt               |
+| dog           | perro            | dɔg                |
+| elephant      | elefante         | ˈɛlɪfənt           |
+| fish          | pez              | fɪʃ                |
+| flower        | flor             | ˈflaʊər            |
+| fruit         | fruta            | frut               |
+| guitar        | guitarra         | gɪˈtɑr             |
+| hat           | sombrero         | hæt                |
+| house         | casa             | ˈhaʊs              |
+| ice cream     | helado           | aɪs krim           |
+| lion          | león             | ˈlaɪən             |
+| monkey        | mono             | ˈmʌŋki             |
+| moon          | luna             | mun                |
+| mountain      | montaña          | ˈmaʊntən           |
+| orange        | naranja          | ˈɔrɪndʒ            |
+| pencil        | lápiz            | ˈpɛnsəl             |
+| pizza         | pizza            | pitsə              |
+| rabbit        | conejo           | ˈræbɪt             |
+| rainy         | lluvioso         | ˈreɪni             |
+| river         | río              | ˈrɪvər             |
+| rock          | roca             | rɑk                |
+| school        | escuela          | skul               |
+| sea           | mar              | si                 |
+| sister        | hermana          | sɪstər             |
+| sleep         | dormir           | slip               |
+| snow          | nieve            | snoʊ               |
+| soccer        | fútbol           | sɑkər             |
+| soup          | sopa             | sup                |
+| spider        | araña            | ˈspaɪdər           |
+| spring        | primavera        | sprɪŋ              |
+| summer        | verano           | ˈsʌmər             |
+| sun           | sol              | sʌn                |
+| sunny         | soleado          | ˈsʌni              |
+| teacher       | maestra(o)       | tiʧər             |
+| tiger         | tigre            | ˈtaɪgər            |
+| train         | tren             | treɪn              |
+| tree          | árbol            | tri                |
+| trousers      | pantalón         | traʊzərz           |
+| turtle        | tortuga          | tɜrtl              |
+| vegetables    | verduras         | ˈvɛʤətəbəlz         |
+| watermelon    | sandía           | ˈwɔtərˌmɛlən        |
+| windy         | ventoso, con viento | ˈwɪndi          |
+| winter        | invierno         | ˈwɪntər            |
+| zoo           | zoológico        | zuː                |
