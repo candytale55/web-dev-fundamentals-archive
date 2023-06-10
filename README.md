@@ -11,16 +11,13 @@ Las imágenes y archivos de audio utilizados en este mazo se han obtenido de fue
 
 Este mazo se proporciona de forma gratuita para su uso exclusivamente con fines educativos y de aprendizaje. Puedes distribuirlo como material de enseñanza, siempre y cuando no tengas ningún objetivo comercial asociado.
 
-Licencia: MIT License.
-
-
 ## Requisitos
 
 - Anki: Version ⁨2.1.60 (última versión en que fue usado, debería funcionar también en versiones superiores)
 
 ## Instalación
 
-1. Descarga el mazo, es el archivo "[nombre del archivo].apkg". También puedes clonar todo el repositorio si lo prefieres.
+1. Descarga el mazo, es el archivo "Vocabulary - 2nd Grade - Rooftops.apkg". También puedes clonar todo el repositorio si lo prefieres.
 2. Abre Anki: Inicia la aplicación Anki en tu computadora.
 3. Importa el mazo: En la pantalla principal de Anki, haz clic en "Archivo" en la barra de menú superior y selecciona "Importar". Busca el archivo del mazo que descargaste y selecciónalo. Haz clic en "Abrir" para comenzar el proceso de importación.
 
@@ -34,8 +31,7 @@ En la segunda nota, se muestra la imagen que representa la palabra y la propia p
 ## Capturas de Pantalla
 
 ### Tarjeta (Card) 1: ¿Cómo deletreas esta palabra?
-![FrontTemplate 1"¿Cómo deletreas esta palabra?"](Screnshots/1-FrontTemplate.png)
-![BackTemplate 1"¿Cómo deletreas esta palabra?"](Screnshots/1-BackTemplate.png)
+![FrontTemplate 1"¿Cómo deletreas esta palabra?"](ScreenShots/SC01-Como Deletreas.gif)
 
 Parte frontal: Presenta al usuario la imagen de una palabra y le pregunta cómo se pronuncia. Además, se muestra la imagen que representa la palabra.
 
@@ -43,8 +39,7 @@ Parte posterior:
 En la parte posterior de la tarjeta, se muestra la traducción al español de la palabra, así como su transcripción fonética en el Alfabeto Fonético Internacional (IPA). Si hay disponible una grabación de la pronunciación de la palabra, se reproduce. Esto permite al usuario aprender la pronunciación correcta de la palabra y mejorar su habilidad auditiva en el idioma inglés.
 
 ### Tarjeta (Card) 2: ¿Cómo pronuncias esta palabra?
-![FrontTemplate 2 "¿Cómo pronuncias esta palabra?"](Screnshots/2-FrontTemplate.png)
-![BackTemplate 2 "¿Cómo pronuncias esta palabra?"](Screnshots/2-BackTemplate.png)
+![FrontTemplate 2 "¿Cómo pronuncias esta palabra?"](ScreenShots/SC02 - Como pronuncias.gif
 
 
 Parte frontal: Presenta al usuario una imagen relacionada con una palabra y reproduce la grabación de la pronunciación de esa palabra. El usuario tiene la opción de teclear la palabra que cree que corresponde a la imagen y la pronunciación.
