@@ -15,7 +15,6 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
-            /* Make the body take up the full viewport height */
             background-color: #f0f0f0;
         }
 
@@ -32,52 +31,57 @@
             position: absolute;
             width: 100%;
             height: calc(20% - 10px);
-            /* Height of each row */
             top: calc(80% - var(--index) * 20% - 5px);
-            /* Position each row accordingly */
             background-color: var(--color);
-            /* Set row background color */
         }
 
         .ball {
             position: absolute;
-            bottom: calc(20% - 15px);
-            /* Position the ball at the bottom of the first row */
+            bottom: calc(20% - 5px - 15px);
+            /* Position the ball half a row height up */
             left: 50%;
             transform: translateX(-50%);
-            width: 30px;
-            height: 30px;
-            background-color: #ff0000;
+            width: calc(20% - 10px);
+            /* Adjusted size of the ball */
+            height: calc(20% - 10px);
+            /* Adjusted size of the ball */
+            background-color: #add8e6;
+            /* Light blue color */
             border-radius: 50%;
-            animation: bounce 8s infinite linear;
+            animation: bounce 12s infinite linear;
         }
 
         @keyframes bounce {
             0% {
-                bottom: calc(20% - 15px);
+                bottom: calc(20% - 5px - 15px);
             }
 
-            /* Start position */
-            25% {
-                bottom: calc(40% - 15px);
+            16.67% {
+                bottom: calc(40% - 5px - 15px);
             }
 
-            /* Stop at the second row */
+            /* Pause at the middle of the first pink row */
+            33.33% {
+                bottom: calc(60% - 5px - 15px);
+            }
+
             50% {
-                bottom: calc(60% - 15px);
+                bottom: calc(80% - 5px - 15px);
             }
 
-            /* Stop at the third row */
-            75% {
-                bottom: calc(80% - 15px);
+            /* Pause at the middle of the second pink row */
+            66.67% {
+                bottom: calc(60% - 5px - 15px);
             }
 
-            /* Stop at the fourth row */
+            83.33% {
+                bottom: calc(40% - 5px - 15px);
+            }
+
+            /* Pause at the middle of the third pink row */
             100% {
-                bottom: calc(20% - 15px);
+                bottom: calc(20% - 5px - 15px);
             }
-
-            /* Back to the start position */
         }
     </style>
 </head>
@@ -86,9 +90,9 @@
 
     <div class="container">
         <div class="row" style="--index: 1; --color: white;"></div> <!-- First row (top) -->
-        <div class="row" style="--index: 2; --color: #ffcccc;"></div> <!-- Second row (pink) -->
-        <div class="row" style="--index: 3; --color: #ff99cc;"></div> <!-- Third row (pink) -->
-        <div class="row" style="--index: 4; --color: #ff66cc;"></div> <!-- Fourth row (pink) -->
+        <div class="row" style="--index: 2; --color: #ffcccc;" data-name="1er Nivel"></div> <!-- Second row (pink) -->
+        <div class="row" style="--index: 3; --color: #ff99cc;" data-name="2o Nivel"></div> <!-- Third row (pink) -->
+        <div class="row" style="--index: 4; --color: #ff66cc;" data-name="3er Nivel"></div> <!-- Fourth row (pink) -->
         <div class="row" style="--index: 5; --color: white;"></div> <!-- Fifth row (bottom) -->
         <div class="ball"></div>
     </div>
