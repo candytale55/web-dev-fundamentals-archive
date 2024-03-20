@@ -11,75 +11,73 @@
             padding: 0;
             font-family: Arial, sans-serif;
             overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            /* Make the body take up the full viewport height */
+            background-color: #f0f0f0;
         }
 
         .container {
             position: relative;
             width: 70%;
-            /* Adjusted width to fit 70% of the screen */
             height: 70vh;
-            /* Adjusted height to fit 70% of the viewport height */
-            background-color: #f0f0f0;
             display: flex;
             justify-content: center;
             align-items: center;
         }
 
-        .line {
-            position: absolute;
-            width: 100%;
-            height: 2px;
-            /* Reduced height of the lines */
-            background-color: #ccc;
-        }
-
         .row {
             position: absolute;
             width: 100%;
-            height: calc(33.33% - 10px);
-            /* Reduced height of each row */
-            top: calc(33.33% * var(--index) - 5px);
+            height: calc(20% - 10px);
+            /* Height of each row */
+            top: calc(80% - var(--index) * 20% - 5px);
             /* Position each row accordingly */
+            background-color: var(--color);
+            /* Set row background color */
         }
 
         .ball {
             position: absolute;
-            bottom: calc(33.33% - 20px);
-            /* Position the ball below the lowest line */
+            bottom: calc(20% - 15px);
+            /* Position the ball at the bottom of the first row */
             left: 50%;
             transform: translateX(-50%);
             width: 30px;
-            /* Adjusted size of the ball */
             height: 30px;
-            /* Adjusted size of the ball */
             background-color: #ff0000;
             border-radius: 50%;
-            animation: bounce 6s infinite linear;
+            animation: bounce 8s infinite linear;
         }
 
         @keyframes bounce {
-
-            0%,
-            100% {
-                bottom: calc(33.33% - 20px);
+            0% {
+                bottom: calc(20% - 15px);
             }
 
-            /* Start and end position */
+            /* Start position */
             25% {
-                bottom: calc(33.33% * 2 - 20px);
-            }
-
-            /* Stop at the first row */
-            50% {
-                bottom: calc(33.33% * 3 - 20px);
+                bottom: calc(40% - 15px);
             }
 
             /* Stop at the second row */
-            75% {
-                bottom: calc(33.33% * 4 - 20px);
+            50% {
+                bottom: calc(60% - 15px);
             }
 
             /* Stop at the third row */
+            75% {
+                bottom: calc(80% - 15px);
+            }
+
+            /* Stop at the fourth row */
+            100% {
+                bottom: calc(20% - 15px);
+            }
+
+            /* Back to the start position */
         }
     </style>
 </head>
@@ -87,12 +85,11 @@
 <body>
 
     <div class="container">
-        <div class="line" style="--index: 1;"></div>
-        <div class="line" style="--index: 2;"></div>
-        <div class="line" style="--index: 3;"></div>
-        <div class="row" style="--index: 1;"></div>
-        <div class="row" style="--index: 2;"></div>
-        <div class="row" style="--index: 3;"></div>
+        <div class="row" style="--index: 1; --color: white;"></div> <!-- First row (top) -->
+        <div class="row" style="--index: 2; --color: #ffcccc;"></div> <!-- Second row (pink) -->
+        <div class="row" style="--index: 3; --color: #ff99cc;"></div> <!-- Third row (pink) -->
+        <div class="row" style="--index: 4; --color: #ff66cc;"></div> <!-- Fourth row (pink) -->
+        <div class="row" style="--index: 5; --color: white;"></div> <!-- Fifth row (bottom) -->
         <div class="ball"></div>
     </div>
 
