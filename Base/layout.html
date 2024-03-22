@@ -62,56 +62,62 @@
             /* Animation for the bouncing effect */
         }
 
-        /* Keyframes for the bouncing animation */
-        @keyframes bounce {
-            0% {
-                bottom: calc(28% - 5px - 15px);
-                animation-timing-function: ease-out;
-                /* Start the animation by moving the ball upwards */
-            }
+@keyframes bounce {
+    0% {
+        bottom: calc(28% - 5px - 15px);
+        animation-timing-function: ease-out;
+        /* Start the animation by moving the ball upwards */
+    }
 
-            12.5% {
-                bottom: calc(48% - 5px - 15px);
-                animation-timing-function: steps(1, end);
-                /* Pause at the middle of the first level */
-            }
+    16.67% {
+        bottom: calc(48% - 5px - 15px);
+        animation-timing-function: steps(1, end);
+        /* Pause at the middle of the first level */
+    }
 
-            25% {
-                bottom: calc(48% - 5px - 15px);
-                animation-timing-function: ease-in;
-                /* Move the ball upwards */
-            }
+    33.33% {
+        bottom: calc(48% - 5px - 15px);
+        animation-timing-function: ease-in;
+        /* Move the ball upwards */
+    }
 
-            37.5% {
-                bottom: calc(68% - 5px - 15px);
-                animation-timing-function: steps(1, end);
-                /* Pause at the middle of the second level */
-            }
+    50% {
+        bottom: calc(68% - 5px - 15px);
+        animation-timing-function: steps(1, end);
+        /* Pause at the middle of the second level */
+    }
 
-            50% {
-                bottom: calc(68% - 5px - 15px);
-                animation-timing-function: ease-out;
-                /* Move the ball upwards */
-            }
+    66.67% {
+        bottom: calc(68% - 5px - 15px);
+        animation-timing-function: ease-out;
+        /* Move the ball upwards */
+    }
 
-            62.5% {
-                bottom: calc(88% - 5px - 15px);
-                animation-timing-function: steps(1, end);
-                /* Pause at the middle of the third level */
-            }
+    83.33% {
+        bottom: calc(88% - 5px - 15px);
+        animation-timing-function: steps(1, end);
+        /* Pause at the middle of the third level */
+    }
 
-            75% {
-                bottom: calc(88% - 5px - 15px);
-                animation-timing-function: ease-in;
-                /* Move the ball downwards (slower) */
-            }
+    85% {
+        bottom: calc(88% - 5px - 15px);
+        animation-timing-function: ease-in;
+        /* Hold the position in row 3 for one count */
+    }
 
-            100% {
-                bottom: calc(28% - 5px - 15px);
-                animation-timing-function: ease-in-out;
-                /* Move the ball downwards */
-            }
-        }
+    97.67% {
+        bottom: calc(28% - 5px - 15px);
+        animation-timing-function: ease-in-out;
+        /* Move the ball downwards */
+    }
+    
+    100% {
+        bottom: calc(28% - 5px - 15px);
+        animation-timing-function: steps(1, end);
+        /* Pause at the middle of the level zero */
+    }
+}
+
     </style>
 </head>
 
@@ -130,7 +136,10 @@
         <div class="row" style="--index: 4; --color: #ff66cc;"></div>
         <!-- Sixth row (bottom) -->
         <div class="row" style="--index: 5; --color: white;"></div>
+
         <!-- Ball for animation -->
         <div class="ball"></div>
     </div>
 </body>
+
+</html>
