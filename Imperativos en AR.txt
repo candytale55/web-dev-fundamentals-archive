@@ -1,0 +1,40 @@
+#separator:tab
+#html:true
+#tags column:17
+falar + imperativo (pres)	falar	imperativo (pres)	Fala	Não fales	Fale	Não fale	Falem	Não falem								Português::Curso::A1 Português::Palavras_term::-ar Português::Verbos::Presente::Imperativo
+morar + imperativo (pres)	morar	imperativo (pres)	Mora	Não more	More	Não more	Morem	Não morem								Português::Curso::A1 Português::Palavras_term::-ar Português::Verbos::Presente::Imperativo
+jogar + imperativo (pres)	jogar	imperativo (pres)	Joga	Não jogues	Jogue	Não jogue	Joguem	Não joguem								Português::Curso::A1 Português::Palavras_term::-ar Português::Verbos::Presente::Imperativo
+brincar + imperativo (pres)	brincar	imperativo (pres)	Brinca	Não brinques	Brinque	Não brinque	Brinquem	Não brinquem								Português::Curso::A1 Português::Palavras_term::-ar Português::Verbos::Presente::Imperativo
+almoçar + imperativo (pres)	almoçar	imperativo (pres)	Almoça	Não almoçes	Almoce	Não almoce	Almoçem	Não almoçem								Português::Curso::A1 Português::Palavras_term::-ar Português::Verbos::Presente::Imperativo
+jantar + imperativo (pres)	jantar	imperativo (pres)	Janta	Não jantes	Jante	Não jante	Jantem	Não jantem								Português::Curso::A1 Português::Palavras_term::-ar Português::Verbos::Presente::Imperativo
+fechar + imperativo (pres)	fechar	imperativo (pres)	Fecha	Não feches	Feche	Não feche	Fechem	Não fechem								Português::Curso::A1 Português::Palavras_term::-ar Português::Verbos::Presente::Imperativo
+trabalhar + imperativo (pres)	trabalhar	imperativo (pres)	Trabalha	Não trabalhes	Trabalhe	Não trabalhe	Trabalhem	Não trabalhem								Português::Curso::A1 Português::Palavras_term::-ar Português::Verbos::Presente::Imperativo
+praticar + imperativo (pres)	praticar	imperativo (pres)	Pratica	Não pratiques	Pratique	Não pratique	Pratiquem	Não pratiquem								Português::Curso::A1 Português::Palavras_term::-ar Português::Verbos::Presente::Imperativo
+ganhar + imperativo (pres)	ganhar	imperativo (pres)	Ganha	Não ganhes	Ganhe	Não ganhe	Ganhem	Não ganhem								Português::Curso::A1 Português::Palavras_term::-ar Português::Verbos::Presente::Imperativo
+acordar + imperativo (pres)	acordar	imperativo (pres)	Acorda	Não acordes	Acorde	Não acorde	Acordeem	Não acordeem								Português::Curso::A1 Português::Palavras_term::-ar Português::Verbos::Presente::Imperativo
+apanhar + imperativo (pres)	apanhar	imperativo (pres)	Apanha	Não apanhes	Apanhe	Não apanhe	Apanhem	Não apanhem								Português::Curso::A1 Português::Palavras_term::-ar Português::Verbos::Presente::Imperativo
+ficar + imperativo (pres)	ficar	imperativo (pres)	Fica	Não fiques	Fique	Não fique	Fiquem	Não fiquem								Português::Curso::A1 Português::Palavras_term::-ar Português::Verbos::Presente::Imperativo
+telefonar + imperativo (pres)	telefonar	imperativo (pres)	Telefona	Não telefonas	Telefone	Não telefone	Telefonem	Não telefonem								Português::Curso::A1 Português::Palavras_term::-ar Português::Verbos::Presente::Imperativo
+começar + imperativo (pres)	começar	imperativo (pres)	Começa	Não comeces	Comece	Não comece	Comecem	Não comecem								Português::Curso::A1 Português::Palavras_term::-ar Português::Verbos::Presente::Imperativo
+girar + imperativo (pres)	girar	imperativo (pres)	Gira	Não gires	Gire	Não gire	Girem	Não girem								Português::Curso::A1 Português::Palavras_term::-ar Português::Verbos::Presente::Imperativo
+usar + imperativo (pres)	usar	imperativo (pres)	Usa	Não uses	Use	Não use	Usem	Não usem								Português::Curso::A1 Português::Palavras_term::-ar Português::Verbos::Presente::Imperativo
+pagar + imperativo (pres)	pagar	imperativo (pres)	Paga	Não pagues	Pague	Não pague	Paguem	Não paguem								Português::Curso::A1 Português::Palavras_term::-ar Português::Verbos::Presente::Imperativo
+pegar + imperativo (pres)	pegar	imperativo (pres)	Pega	Não pegues	Pegue	Não pegue	Peguem	Não peguem								Português::Curso::A1 Português::Palavras_term::-ar Português::Verbos::Presente::Imperativo
+ensinar + imperativo (pres)	ensinar	imperativo (pres)	Ensina	Não ensines	Ensine	Não ensine	Ensinem	Não ensinem								Português::Curso::A1 Português::Palavras_term::-ar Português::Verbos::Presente::Imperativo
+levantar + imperativo (pres)	levantar	imperativo (pres)	Levanta	Não levantes	Levante	Não levante	Levantem	Não levantem								Português::Curso::A1 Português::Palavras_term::-ar Português::Verbos::Presente::Imperativo
+tocar + imperativo (pres)	tocar	imperativo (pres)	Toca	Não toques	Toque	Não toque	Toquem	Não toquem								Português::Curso::A1 Português::Palavras_term::-ar Português::Verbos::Presente::Imperativo
+andar + imperativo (pres)	andar	imperativo (pres)	Anda	Não andes	Ande	Não ande	Andem	Não andem								Português::Curso::A1 Português::Palavras_term::-ar Português::Verbos::Presente::Imperativo
+lavar + imperativo (pres)	lavar	imperativo (pres)	lava	Não laves	lave	Não lave	lavem	Não lavem								Português::Curso::A1 Português::Palavras_term::-ar Português::Verbos::Presente::Imperativo
+usar + imperativo (pres)	usar	imperativo (pres)	Usa	Não uses	Use	Não use	Usem	Não usem								Português::Curso::A1 Português::Palavras_term::-ar Português::Verbos::Presente::Imperativo
+acabar + imperativo (pres)	acabar	imperativo (pres)	Acaba	Não acabes	Acabe	Não acabe	Acabem	Não acabem								Português::Curso::A1 Português::Palavras_term::-ar Português::Verbos::Presente::Imperativo
+encontrar + imperativo (pres)	encontrar	imperativo (pres)	Encontra	Não encontres	Encontre	Não encontre	Encontrem	Não encontrem								Português::Curso::A1 Português::Palavras_term::-ar Português::Verbos::Presente::Imperativo
+pensar + imperativo (pres)	pensar	imperativo (pres)	Pensa	Não penses	Pense	Não pense	Pensem	Não pensem								Português::Curso::A1 Português::Palavras_term::-ar Português::Verbos::Presente::Imperativo
+viajar + imperativo (pres)	viajar	imperativo (pres)	Viaja	Não viajes	Viaje	Não viaje	Viajem	Não viajem								Português::Curso::A1 Português::Palavras_term::-ar Português::Verbos::Presente::Imperativo
+beijar + imperativo (pres)	beijar	imperativo (pres)	Beija	Não beijes	Beije	Não beije	Beijem	Não beijem								Português::Curso::A1 Português::Palavras_term::-ar Português::Verbos::Presente::Imperativo
+cantar + imperativo (pres)	cantar	imperativo (pres)	Canta	Não cantes	Cante	Não cante	Cantem	Não cantem								Português::Curso::A1 Português::Palavras_term::-ar Português::Verbos::Presente::Imperativo
+chamar + imperativo (pres)	chamar	imperativo (pres)	Chama	Não chames	Chame	Não chame	Chamem	Não chamem								Português::Curso::A1 Português::Palavras_term::-ar Português::Verbos::Presente::Imperativo
+costumar + imperativo (pres)	costumar	imperativo (pres)	Costuma	Não costumes	Costume	Não costume	Costumem	Não costumem								Português::Curso::A1 Português::Palavras_term::-ar Português::Verbos::Presente::Imperativo
+dançar + imperativo (pres)	dançar	imperativo (pres)	Dança	Não danças	Dançe	Não dançe	Dançem	Não dançem								Português::Curso::A1 Português::Palavras_term::-ar Português::Verbos::Presente::Imperativo
+deixar + imperativo (pres)	deixar	imperativo (pres)	Deixa	Não deixes	Deixe	Não deixe	Deixem	Não deixem								Português::Curso::A1 Português::Palavras_term::-ar Português::Verbos::Presente::Imperativo
+ligar + imperativo (pres)	ligar	imperativo (pres)	Liga	Não ligu es	Ligue	Não ligue	Liguem	Não liguem								Português::Curso::A1 Português::Palavras_term::-ar Português::Verbos::Presente::Imperativo
+marcar + imperativo (pres)	marcar	imperativo (pres)	Marca	Não marques	Marque	Não marque	Marquem	Não marquem								Português::Curso::A1 Português::Palavras_term::-ar Português::Verbos::Presente::Imperativo
