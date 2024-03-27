@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness App Animation</title>
+    <style>
+        /* Styles for the body */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+
+        /* Container holding the rows and the ball */
+        .container {
+            position: relative;
+            width: 70%;
+            height: 70vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Styling for each row */
+        .row {
+            position: absolute;
+            width: 100%;
+            height: calc(20% - 10px);
+            /* Adjusted height for each row */
+            top: calc(80% - var(--index) * 20% - 5px);
+            /* Position each row accordingly */
+            background-color: var(--color);
+            /* Dynamically set background color */
+        }
+
+        /* Ball representing the animation */
+        .ball {
+            position: absolute;
+            bottom: calc(20% - 5px - 15px);
+            /* Adjusted position of the ball */
+            left: 50%;
+            /* Center the ball horizontally */
+            transform: translateX(-50%);
+            /* Center the ball horizontally */
+            width: calc(10% - 10px);
+            /* Adjusted size of the ball */
+            height: calc(20% - 10px);
+            /* Adjusted size of the ball */
+            background-color: #add8e6;
+            /* Light blue color */
+            border-radius: 50%;
+            /* Ensure the ball is round */
+            animation: bounce 6s infinite linear;
+            /* Animation for the bouncing effect */
+        }
+
+        /* Keyframes for the bouncing animation */
+        @keyframes bounce {
+            0% {
+                bottom: calc(28% - 5px - 15px);
+                animation-timing-function: ease-out;
+                /* Start the animation by moving the ball upwards */
+            }
+
+            10% {
+                bottom: calc(28% - 5px - 15px);
+                animation-timing-function: steps(1, end);
+                /* Pause at level 0 for 1 second */
+            }
+
+            20% {
+                bottom: calc(88% - 5px - 15px);
+                animation-timing-function: ease-out;
+                /* Move the ball upwards to level 3 */
+            }
+
+            30% {
+                bottom: calc(88% - 5px - 15px);
+                animation-timing-function: steps(1, end);
+                /* Pause at level 3 for 1 second */
+            }
+
+            40% {
+                bottom: calc(28% - 5px - 15px);
+                animation-timing-function: ease-out;
+                /* Move the ball downwards to level 0 */
+            }
+
+            50% {
+                bottom: calc(28% - 5px - 15px);
+                animation-timing-function: steps(1, end);
+                /* Pause at level 0 for 1 second */
+            }
+
+            60% {
+                bottom: calc(88% - 5px - 15px);
+                animation-timing-function: ease-out;
+                /* Move the ball upwards to level 3 */
+            }
+
+            70% {
+                bottom: calc(88% - 5px - 15px);
+                animation-timing-function: steps(1, end);
+                /* Pause at level 3 for 1 second */
+            }
+
+            80% {
+                bottom: calc(28% - 5px - 15px);
+                animation-timing-function: ease-out;
+                /* Move the ball downwards to level 0 */
+            }
+
+            90% {
+                bottom: calc(28% - 5px - 15px);
+                animation-timing-function: steps(1, end);
+                /* Pause at level 0 for 1 second */
+            }
+
+            100% {
+                bottom: calc(88% - 5px - 15px);
+                animation-timing-function: ease-out;
+                /* Move the ball upwards to level 3 */
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Container for the rows and the ball -->
+    <div class="container">
+        <!-- First row (top) -->
+        <div class="row" style="--index: 0; --color: white;"></div>
+        <!-- Second row -->
+        <div class="row" style="--index: 1; --color: white;"></div>
+        <!-- Third row (pink) -->
+        <div class="row" style="--index: 2; --color: #ffcccc;"></div>
+        <!-- Fourth row (pink) -->
+        <div class="row" style="--index: 3; --color: #ff99cc;"></div>
+        <!-- Fifth row -->
+        <div class="row" style="--index: 4; --color: #ff66cc;"></div>
+        <!-- Sixth row (bottom) -->
+        <div class="row" style="--index: 5; --color: white;"></div>
+
+        <!-- Ball for animation -->
+        <div class="ball"></div>
+    </div>
+</body>
+
+</html>
