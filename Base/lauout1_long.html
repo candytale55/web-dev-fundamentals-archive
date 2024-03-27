@@ -58,7 +58,7 @@
             /* Light blue color */
             border-radius: 50%;
             /* Ensure the ball is round */
-            animation: bounce 6s infinite linear;
+            animation: bounce 8s infinite linear;
             /* Animation for the bouncing effect */
         }
 
@@ -70,27 +70,21 @@
                 /* Start the animation by moving the ball upwards */
             }
 
-            10% {
-                bottom: calc(28% - 5px - 15px);
-                animation-timing-function: steps(1, end);
-                /* Pause at level 0 for 1 second */
-            }
-
-            20% {
+            12.5% {
                 bottom: calc(88% - 5px - 15px);
-                animation-timing-function: ease-out;
+                animation-timing-function: ease-in-out;
                 /* Move the ball upwards to level 3 */
             }
 
-            30% {
+            25% {
                 bottom: calc(88% - 5px - 15px);
                 animation-timing-function: steps(1, end);
                 /* Pause at level 3 for 1 second */
             }
 
-            40% {
+            37.5% {
                 bottom: calc(28% - 5px - 15px);
-                animation-timing-function: ease-out;
+                animation-timing-function: ease-in-out;
                 /* Move the ball downwards to level 0 */
             }
 
@@ -100,34 +94,28 @@
                 /* Pause at level 0 for 1 second */
             }
 
-            60% {
+            62.5% {
                 bottom: calc(88% - 5px - 15px);
-                animation-timing-function: ease-out;
+                animation-timing-function: ease-in-out;
                 /* Move the ball upwards to level 3 */
             }
 
-            70% {
+            75% {
                 bottom: calc(88% - 5px - 15px);
                 animation-timing-function: steps(1, end);
                 /* Pause at level 3 for 1 second */
             }
 
-            80% {
+            87.5% {
                 bottom: calc(28% - 5px - 15px);
-                animation-timing-function: ease-out;
+                animation-timing-function: ease-in-out;
                 /* Move the ball downwards to level 0 */
             }
 
-            90% {
-                bottom: calc(28% - 5px - 15px);
-                animation-timing-function: steps(1, end);
-                /* Pause at level 0 for 1 second */
-            }
-
             100% {
-                bottom: calc(88% - 5px - 15px);
-                animation-timing-function: ease-out;
-                /* Move the ball upwards to level 3 */
+                bottom: calc(28% - 5px - 15px);
+                animation-timing-function: ease-in-out;
+                /* Move the ball downwards to level 0 */
             }
         }
     </style>
