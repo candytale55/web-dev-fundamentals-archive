@@ -1,0 +1,210 @@
+#separator:tab
+#html:true
+#tags column:15
+Abranger + passado (PPS)	Abranger	passado (pretérito perfeito simples)	Abrangi	Abrangeste	Abrangeu	Abrangemos	Abrangeram							Português::Curso::A1 Português::Termina::-er Português::Verbos::Passado(PPS)
+Abrir + passado (PPS)	Abrir	passado (pretérito perfeito simples)	Abri	Abriste	Abriu	Abrimos	Abriram							Português::Curso::A1 Português::Termina::-ir Português::Verbos::Passado(PPS)
+Acabar + passado (PPS)	Acabar	passado (pretérito perfeito simples)	Acabei	Acabaste	Acabou	Acabámos	Acabaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Acender + passado (PPS)	Acender	passado (pretérito perfeito simples)	Acendi	Acendeste	Acendeu	Acendemos	Acenderam							Português::Curso::A1 Português::Termina::-er Português::Verbos::Passado(PPS)
+Acompanhar + passado (PPS)	Acompanhar	passado (pretérito perfeito simples)	Acompanhei	Acompanhaste	Acompanhou	Acompanhámos	Acompanharam							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Acontecer + passado (PPS)	Acontecer	passado (pretérito perfeito simples)	Aconteci	Aconteceste	Aconteceu	Acontecemos	Aconteceram							Português::Curso::A1 Português::Termina::-er Português::Verbos::Passado(PPS)
+Acordar + passado (PPS)	Acordar (despertarse)	passado (pretérito perfeito simples)	Acordei	Acordaste	Acordou	Acordámos	Acordaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Acrescentar + passado (PPS)	Acrescentar	passado (pretérito perfeito simples)	Acrescentei	Acrescentaste	Acrescentou	Acrescentámos	Acrescentaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Admitir + passado (PPS)	Admitir	passado (pretérito perfeito simples)	Admiti	Admitiste	Admitiu	Admitimos	Admitiram							Português::Curso::A1 Português::Termina::-ir::-tir Português::Verbos::Passado(PPS)
+Agradecer + passado (PPS)	Agradecer	passado (pretérito perfeito simples)	Agradeci	Agradeceste	Agradeceu	Agradecemos	Agradeceram							Português::Curso::A1 Português::Termina::-er Português::Verbos::Passado(PPS)
+Ajudar + passado (PPS)	Ajudar	passado (pretérito perfeito simples)	Ajudei	Ajudaste	Ajudou	Ajudámos	Ajudaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Almoçar + passado (PPS)	Almoçar	passado (pretérito perfeito simples)	Almocei	Almoçaste	Almoçou	Almoçámos	Almoçaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Andar + passado (PPS)	Andar	passado (pretérito perfeito simples)	Andei	Andaste	Andou	Andámos	Andaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Apanhar + passado (PPS)	Apanhar (tomar medio transporte, enfermedad, etc.)	passado (pretérito perfeito simples)	Apanhei	Apanhaste	Apanhou	Apanhámos	Apanharam							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Apertar + passado (PPS)	Apertar	passado (pretérito perfeito simples)	Apertei	Apertaste	Apertou	Apertámos	Apertaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Aprender + passado (PPS)	Aprender	passado (pretérito perfeito simples)	Aprendi	Aprendeste	Aprendeu	Aprendemos	Aprenderam							Português::Curso::A1 Português::Termina::-er Português::Verbos::Passado(PPS)
+Aquecer + passado (PPS)	Aquecer	passado (pretérito perfeito simples)	Aqueci	Aqueceste	Aqueceu	Aquecemos	Aqueceram							Português::Curso::A1 Português::Termina::-er Português::Verbos::Passado(PPS)
+Assinar + passado (PPS)	Assinar	passado (pretérito perfeito simples)	Assinei	Assinaste	Assinou	Assinámos	Assinaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Assistir + passado (PPS)	Assistir	passado (pretérito perfeito simples)	Assisti	Assististe	Assistiu	Assistimos	Assistiram							Português::Curso::A1 Português::Termina::-ir::-tir Português::Verbos::Passado(PPS)
+Atender + passado (PPS)	Atender	passado (pretérito perfeito simples)	Atendi	Atendeste	Atendeu	Atendemos	Atenderam							Português::Curso::A1 Português::Termina::-er Português::Verbos::Passado(PPS)
+Atrapalhar + passado (PPS)	Atrapalhar	passado (pretérito perfeito simples)	Atrapalhei	Atrapalhaste	Atrapalhou	Atrapalhámos	Atrapalharam							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Atribuir + passado (PPS)	Atribuir	passado (pretérito perfeito simples)	Atribuí	Atribuíste	Atribuiu	Atribuímos	Atribuíram							Português::Verbos::Passado(PPS) Português::Curso::A1
+Bater + passado (PPS)	Bater	passado (pretérito perfeito simples)	Bati	Bateste	Bateu	Batemos	Bateram							Português::Verbos::Passado(PPS) Português::Curso::A1
+Beber + passado (PPS)	Beber	passado (pretérito perfeito simples)	Bebi	Bebeste	Bebeu	Bebemos	Beberam							Português::Verbos::Passado(PPS) Português::Curso::A1
+Beijar + passado (PPS)	Beijar	passado (pretérito perfeito simples)	Beijei	Beijaste	Beijou	Beijámos	Beijaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Brincar + passado (PPS)	Brincar (jugar s/reglas, e.g. a las muñecas)	passado (pretérito perfeito simples)	Brinquei	Brincaste	Brincou	Brincámos	Brincaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Cair + passado (PPS)	Cair	passado (pretérito perfeito simples)	Cai	Caíste	Caiu	Caímos	Caíram							Português::Verbos::Passado(PPS) Português::Curso::A1
+Calar + passado (PPS)	Calar	passado (pretérito perfeito simples)	Calei	Calaste	Calou	Calámos	Calaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Calar-se + passado (PPS)	Calar-se	passado (pretérito perfeito simples)	Calei-me	Calaste-te	Calou-se	Calámo-nos	Calaram-se							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS) Português::Verbos::Reflexos
+Cantar + passado (PPS)	Cantar	passado (pretérito perfeito simples)	Cantei	Cantaste	Cantou	Cantámos	Cantaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Chamar + passado (PPS)	Chamar	passado (pretérito perfeito simples)	Chamei	Chamaste	Chamou	Chamámos	Chamaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Colocar + passado (PPS)	Colocar	passado (pretérito perfeito simples)	Coloquei	Colocaste	Colocou	Colocámos	Colocaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Combinar + passado (PPS)	Combinar (acordar, pactar)	passado (pretérito perfeito simples)	Combinei	Combinaste	Combinou	Combinámos	Combinaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Começar + passado (PPS)	Começar	passado (pretérito perfeito simples)	Comecei	Começaste	Começou	Começámos	Começaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Comer + passado (PPS)	Comer	passado (pretérito perfeito simples)	Comi	Comeste	Comeu	Comemos	Comeram							Português::Verbos::Passado(PPS) Português::Curso::A1
+Compreender + passado (PPS)	Compreender	passado (pretérito perfeito simples)	Compreendi	Compreendeste	Compreendeu	Compreendemos	Compreenderam							Português::Verbos::Passado(PPS) Português::Curso::A1
+Conduzir + passado (PPS)	Conduzir	passado (pretérito perfeito simples)	Conduzi	Conduziste	Conduziu	Conduzimos	Conduziram							Português::Verbos::Passado(PPS) Português::Curso::A1
+Conhecer + passado (PPS)	Conhecer	passado (pretérito perfeito simples)	Conheci	Conheceste	Conheceu	Conhecemos	Conheceram							Português::Verbos::Passado(PPS) Português::Curso::A1
+Conseguir + passado (PPS)	Conseguir	passado (pretérito perfeito simples)	Consegui	Conseguiste	Conseguiu	Conseguimos	Conseguiram							Português::Verbos::Passado(PPS) Português::Curso::A1
+Conseguir + passado (PPS)	Conseguir	passado (pretérito perfeito simples)	Consegui	Conseguiste	Conseguiu	Conseguimos	Conseguiram							Português::Verbos::Passado(PPS) Português::Curso::A1
+Constituir + passado (PPS)	Constituir	passado (pretérito perfeito simples)	Constituí	Constituíste	Constituiu	Constituímos	Constituíram							Português::Verbos::Passado(PPS) Português::Curso::A1
+Construir + passado (PPS)	Construir	passado (pretérito perfeito simples)	Construí	Construíste	Construiu	Construímos	Construíram							Português::Verbos::Passado(PPS) Português::Curso::A1
+Convidar + passado (PPS)	convidar (invitar)	passado (pretérito perfeito simples)	Convidei	Convidaste	Convidou	Convidámos	Convidaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Correr + passado (PPS)	Correr	passado (pretérito perfeito simples)	Corri	Correste	Correu	Corremos	Correram							Português::Verbos::Passado(PPS) Português::Curso::A1
+Corrigir + passado (PPS)	Corrigir	passado (pretérito perfeito simples)	Corrigi	Corrigiste	Corrigiu	Corrigimos	Corrigiram							Português::Verbos::Passado(PPS) Português::Curso::A1
+Cortar + passado (PPS)	Cortar	passado (pretérito perfeito simples)	Cortei	Cortaste	Cortou	Cortámos	Cortaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Costumar + passado (PPS)	costumar (soler)	passado (pretérito perfeito simples)	Costumei	Costumaste	Costumou	Costumámos	Costumaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Crer + passado (PPS)	Crer	passado (pretérito perfeito simples)	Cri	Creste	Creu	Cremos	Creram							Português::Verbos::Passado(PPS) Português::Curso::A1
+Crescer + passado (PPS)	Crescer	passado (pretérito perfeito simples)	Cresci	Cresceste	Cresceu	Crescemos	Cresceram							Português::Verbos::Passado(PPS) Português::Curso::A1
+Crescer + passado (PPS)	Crescer	passado (pretérito perfeito simples)	Cresci	Cresceste	Cresceu	Crescemos	Cresceram							Português::Verbos::Passado(PPS) Português::Curso::A1
+Cruzar + passado (PPS)	Cruzar	passado (pretérito perfeito simples)	Cruzei	Cruzaste	Cruzou	Cruzámos	Cruzaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Cruzar-se + passado (PPS)	Cruzar-se	passado (pretérito perfeito simples)	Cruzei-me	Cruzaste-te	Cruzou-se	Cruzámo-nos	Cruzaram-se							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS) Português::Verbos::Reflexos
+Cumprir + passado (PPS)	cumprir (cumplir e.g. años)	passado (pretérito perfeito simples)	Cumpri	Cumpriste	Cumpriu	Cumprimos	Cumpriram							Português::Verbos::Passado(PPS) Português::Curso::A1
+Dançar + passado (PPS)	Dançar	passado (pretérito perfeito simples)	Dancei	Dançaste	Dançou	Dançámos	Dançaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Dar + passado (PPS)	Dar	passado (pretérito perfeito simples)	Dei	Deste	Deu	Demos	Deram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Decidir + passado (PPS)	Decidir	passado (pretérito perfeito simples)	Decidi	Decidiste	Decidiu	Decidimos	Decidiram							Português::Verbos::Passado(PPS) Português::Curso::A1
+Deitar + passado (PPS)	Deitar	passado (pretérito perfeito simples)	Deitei	Deitaste	Deitou	Deitámos	Deitaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Deitar-se + passado (PPS)	Deitar-se	passado (pretérito perfeito simples)	Deitei-me	Deitaste-te	Deitou-se	Deitamo-nos	Deitaram-se							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS) Português::Verbos::Reflexos
+Deixar + passado (PPS)	Deixar	passado (pretérito perfeito simples)	Deixei	Deixaste	Deixou	Deixámos	Deixaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Descer + passado (PPS)	Descer	passado (pretérito perfeito simples)	Desci	Deste	Desceu	Descemos	Desceram							Português::Verbos::Passado(PPS) Português::Curso::A1
+Desistir + passado (PPS)	Desistir	passado (pretérito perfeito simples)	Desisti	Desististe	Desistiu	Desistimos	Desistiram							Português::Verbos::Passado(PPS) Português::Curso::A1
+Despir (Desvestir) + passado (PPS)	Despir (Desvestir)	passado (pretérito perfeito simples)	Despi	Despiste	Despiu	Despimos	Despiram							Português::Verbos::Passado(PPS) Português::Curso::A1
+Despir-se + passado (PPS)	Despir-se	passado (pretérito perfeito simples)	Despi-me	Despiu-te	Despiu-se	Despimo-nos	Despiram-se							Português::Curso::A1 Português::Termina::-ir Português::Verbos::Passado(PPS) Português::Verbos::Reflexos
+Destruir + passado (PPS)	Destruir	passado (pretérito perfeito simples)	Destruí	Destruíste	Destruíu	Destruímos	Destruíram							Português::Curso::A1 Português::Termina::-ir Português::Verbos::Passado(PPS)
+Dever + passado (PPS)	Dever	passado (pretérito perfeito simples)	Devi	Deveste	Deveu	Devmos	Deveram							Português::Verbos::Passado(PPS) Português::Curso::A1
+Dirigir + passado (PPS)	Dirigir	passado (pretérito perfeito simples)	Dirigi	Dirigiste	Dirigiu	Dirigimos	Dirigiram							Português::Curso::A1 Português::Termina::-ir Português::Verbos::Passado(PPS)
+Discutir + passado (PPS)	Discutir	passado (pretérito perfeito simples)	Discuti	Discutiste	Discutiu	Discutimos	Discutiram							Português::Curso::A1 Português::Termina::-ir Português::Verbos::Passado(PPS)
+Dissolver + passado (PPS)	Dissolver	passado (pretérito perfeito simples)	Dissolvi	Dissolveste	Dissolveu	Dissolvemos	Dissolveram							Português::Verbos::Passado(PPS) Português::Curso::A1
+Distribuir + passado (PPS)	Distribuir	passado (pretérito perfeito simples)	Distribuí	Distribuíste	Distribuíu	Distribuímos	Distribuíram							Português::Curso::A1 Português::Termina::-ir Português::Verbos::Passado(PPS)
+Dizer + passado (PPS)	Dizer	passado (pretérito perfeito simples)	Disse	Disses	Disse	Dissemos	Disseram							Português::Verbos::Passado(PPS) Português::Curso::A1
+Doer + passado (PPS)	Doer	passado (pretérito perfeito simples)	Doeu	Doeste	Doeu	Doemos	Doeram							Português::Verbos::Passado(PPS) Português::Curso::A1
+Dormir + passado (PPS)	Dormir	passado (pretérito perfeito simples)	Dormi	Dormiste	Dormiu	Dormimos	Dormiram							Português::Curso::A1 Português::Termina::-ir Português::Verbos::Passado(PPS)
+Emprestar + passado (PPS)	Emprestar	passado (pretérito perfeito simples)	Emprestei	Emprestaste	Emprestou	Emprestámos	Emprestaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Encontrar + passado (PPS)	Encontrar	passado (pretérito perfeito simples)	Encontrei	Encontraste	Encontrou	Encontrámos	Encontraram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Ensinar + passado (PPS)	ensinar (enseñar)	passado (pretérito perfeito simples)	Ensinei	Ensinaste	Ensinou	Ensinámos	Ensinaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Entender + passado (PPS)	Entender	passado (pretérito perfeito simples)	Entendi	Entendeste	Entendeu	Entendemos	Entenderam							Português::Verbos::Passado(PPS) Português::Curso::A1
+Entrar + passado (PPS)	Entrar	passado (pretérito perfeito simples)	Entrei	Entraste	Entrou	Entrámos	Entraram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Escolher + passado (PPS)	Escolher	passado (pretérito perfeito simples)	Escolhi	Escolheste	Escolheu	Escolhemos	Escolheram							Português::Verbos::Passado(PPS) Português::Curso::A1
+Escrever + passado (PPS)	Escrever	passado (pretérito perfeito simples)	Escrevi	Ecreveste	Escreveu	Ecrevemos	Escreveram							Português::Verbos::Passado(PPS) Português::Curso::A1
+Esmagar + passado (PPS)	Esmagar (aplastar)	passado (pretérito perfeito simples)	Esmaguei	Esmagaste	Esmagou	Esmagámos	Esmagaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Esperar + passado (PPS)	Esperar	passado (pretérito perfeito simples)	Esperei	Esperaste	Esperou	Esperámos	Esperaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Esquecer + passado (PPS)	Esquecer	passado (pretérito perfeito simples)	Esqueci	Esqueceste	Esqueceu	Esquecemos	Esqueceram							Português::Verbos::Passado(PPS) Português::Curso::A1
+Esquecer-se + passado (PPS)	Esquecer-se	passado (pretérito perfeito simples)	Esqueci-me	Esqueceste-te	Esqueceu-se	Esquecemo-nos	Esqueceram-se							Português::Curso::A1 Português::Termina::-er Português::Verbos::Passado(PPS) Português::Verbos::Reflexos
+Esquentar + passado (PPS)	esquentar (calentar)	passado (pretérito perfeito simples)	Esquentei	Esquentaste	Esquentou	Esquentámos	Esquentaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Estar + passado (PPS)	Estar	passado (pretérito perfeito simples)	Estive	Estiveste	Esteve	Estivemos	Estiveram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Experimentar + passado (PPS)	Experimentar	passado (pretérito perfeito simples)	Experimentei	Experimentaste	Experimentou	Experimentámos	Experimentaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Falar + passado (PPS)	Falar	passado (pretérito perfeito simples)	Falei	Falaste	Falou	Falámos	Falaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Fazer + passado (PPS)	Fazer	passado (pretérito perfeito simples)	Fiz	Fizeste	Fez	Fizemos	Fizeram							Português::Verbos::Passado(PPS) Português::Curso::A1
+Fechar + passado (PPS)	Fechar	passado (pretérito perfeito simples)	Fechei	Fechaste	Fechou	Fechámos	Fecharam							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Ficar + passado (PPS)	Ficar	passado (pretérito perfeito simples)	Fiquei	Ficaste	Ficou	Ficámos	Ficaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Fugir + passado (PPS)	Fugir	passado (pretérito perfeito simples)	Fugi	Fugiste	Fugiu	Fugimos	Fugiram							Português::Curso::A1 Português::Termina::-ir Português::Verbos::Passado(PPS)
+Fumar + passado (PPS)	Fumar	passado (pretérito perfeito simples)	Fumei	Fumaste	Fumou	Fumámos	Fumaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Ganhar + passado (PPS)	Ganhar	passado (pretérito perfeito simples)	Ganhei	Ganhaste	Ganhou	Ganhámos	Ganharam							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Girar + passado (PPS)	Girar	passado (pretérito perfeito simples)	Girei	Giraste	Girou	Girámos	Giraram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Imprimir + passado (PPS)	Imprimir	passado (pretérito perfeito simples)	Imprimi	Imprimiste	Imprimiu	Imprimimos	Imprimiram							Português::Curso::A1 Português::Termina::-ir::-mir Português::Verbos::Passado(PPS)
+Insirar + passado (PPS)	Insirar (insertar)	passado (pretérito perfeito simples)	Insirei	Insiraste	Insirou	Insirámos	Insiraram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Insistir + passado (PPS)	Insistir	passado (pretérito perfeito simples)	Insisti	Insististe	Insistiu	Insistimos	Insistiram							Português::Curso::A1 Português::Termina::-ir::-tir Português::Verbos::Passado(PPS)
+Introduzir + passado (PPS)	Introduzir	passado (pretérito perfeito simples)	Introduzi	Introduziste	Introduziu	Introduzimos	Introduziram							Português::Curso::A1 Português::Termina::-ir::-zir Português::Verbos::Passado(PPS)
+Ir + passado (PPS)	Ir	passado (pretérito perfeito simples)	Fui	Foste	Foi	Fomos	Foram							Português::Curso::A1 Português::Termina::-ir Português::Verbos::Passado(PPS)
+Jantar + passado (PPS)	Jantar	passado (pretérito perfeito simples)	Jantei	Jantaste	Jantou	Jantámos	Jantaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Jogar + passado (PPS)	jogar (jugar c/reglas e.g. fútbol, ajedrez)	passado (pretérito perfeito simples)	Joguei	Jogaste	Jogou	Jogámos	Jogaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Juntar + passado (PPS)	Juntar	passado (pretérito perfeito simples)	Juntei	Juntaste	Juntou	Juntámos	Juntaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Lavar + passado (PPS)	Lavar	passado (pretérito perfeito simples)	Lavei	Lavaste	Lavou	Lavámos	Lavaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Lembrar-se + passado (PPS)	Lembrar-se	passado (pretérito perfeito simples)	Lembrei-me	Lembraste-te	Lembrou-se	Lembrámo-nos	Lembraram-se							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS) Português::Verbos::Reflexos
+Ler + passado (PPS)	Ler	passado (pretérito perfeito simples)	Li	Leste	Leu	Lemos	Leiram							Português::Curso::A1 Português::Termina::-er Português::Verbos::Passado(PPS)
+Levantar + passado (PPS)	Levantar	passado (pretérito perfeito simples)	Levantei	Levantaste	Levantou	Levantámos	Levantaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Ligar + passado (PPS)	Ligar	passado (pretérito perfeito simples)	Liguei	Ligaste	Ligou	Ligámos	Ligaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Marcar + passado (PPS)	Marcar	passado (pretérito perfeito simples)	Marquei	Marcaste	Marcou	Marcámos	Marcaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Medir + passado (PPS)	Medir	passado (pretérito perfeito simples)	Medi	Mediste	Mediu	Medimos	Mediram							Português::Curso::A1 Português::Termina::-ir Português::Verbos::Passado(PPS)
+Misturar + passado (PPS)	Misturar	passado (pretérito perfeito simples)	Misturei	Misturaste	Misturou	Misturámos	Misturaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Morar + passado (PPS)	Morar (residir)	passado (pretérito perfeito simples)	Morei	Moraste	Morou	Morámos	Moraram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Morrer + passado (PPS)	Morrer	passado (pretérito perfeito simples)	Morri	Morreste	Morreu	Morremos	Morreram							Português::Verbos::Passado(PPS) Português::Curso::A1
+Oferecer + passado (PPS)	Oferecer	passado (pretérito perfeito simples)	Ofereci	Ofereceste	Ofereceu	Oferecemos	Ofereceram							Português::Verbos::Passado(PPS) Português::Curso::A1
+Olhar + passado (PPS)	Olhar (mirar)	passado (pretérito perfeito simples)	Olhei	Olhaste	Olhou	Olhámos	Olharam							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Ouvir + passado (PPS)	Ouvir	passado (pretérito perfeito simples)	Ouvi	Ouviste	Ouviu	Ouvimos	Ouviram							Português::Curso::A1 Português::Termina::-ir Português::Verbos::Passado(PPS)
+Pagar + passado (PPS)	Pagar	passado (pretérito perfeito simples)	Paguei	Pagaste	Pagou	Pagámos	Pagaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Parecer + passado (PPS)	Parecer	passado (pretérito perfeito simples)	Pareci	Pareceste	Pareceu	Parecemos	Pareceram							Português::Curso::A1 Português::Termina::-er Português::Verbos::Passado(PPS)
+Partir + passado (PPS)	Partir	passado (pretérito perfeito simples)	Parti	Partiste	Partiu	Partimos	Partiram							Português::Curso::A1 Português::Termina::-ir Português::Termina::-ir::-tir Português::Verbos::Passado(PPS)
+Passar + passado (PPS)	Passar	passado (pretérito perfeito simples)	Passei	Passaste	Passou	Passámos	Passaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Pedir + passado (PPS)	Pedir	passado (pretérito perfeito simples)	Pedi	Pediste	Pediu	Pedimos	Pediram							Português::Curso::A1 Português::Termina::-ir Português::Verbos::Passado(PPS)
+Pegar + passado (PPS)	pegar (coger, tomar)	passado (pretérito perfeito simples)	Peguei	Pegaste	Pegou	Pegámos	Pegaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Perceber + passado (PPS)	Perceber	passado (pretérito perfeito simples)	Percebi	Percebeste	Percebeu	Percebemos	Perceberam							Português::Verbos::Passado(PPS) Português::Curso::A1
+Perder + passado (PPS)	Perder	passado (pretérito perfeito simples)	Perdi	Perdeste	Perdeu	Perdemos	Perderam							Português::Verbos::Passado(PPS) Português::Curso::A1
+Perguntar + passado (PPS)	Perguntar	passado (pretérito perfeito simples)	Perguntei	Perguntaste	Perguntou	Perguntámos	Perguntaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Permanecer + passado (PPS)	Permanecer	passado (pretérito perfeito simples)	Permaneci	Permaneceste	Permaneceu	Permanecemos	Permaneceram							Português::Verbos::Passado(PPS) Português::Curso::A1
+Permitir + passado (PPS)	Permitir	passado (pretérito perfeito simples)	Permiti	Permitiste	Permitiu	Permitimos	Permitiram							Português::Curso::A1 Português::Termina::-ir Português::Verbos::Passado(PPS)
+Pesquisar + passado (PPS)	Pesquisar	passado (pretérito perfeito simples)	Pesquisei	Pesquisaste	Pesquisou	Pesquisámos	Pesquisaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Picar + passado (PPS)	Picar (cortar)	passado (pretérito perfeito simples)	Piquei	Picaste	Picou	Picámos	Picaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Pisar + passado (PPS)	Pisar	passado (pretérito perfeito simples)	Pisei	Pisaste	Pisou	Pisámos	Pisaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Poder + passado (PPS)	Poder	passado (pretérito perfeito simples)	Pude	Pudeste	Pôde	Pudemos	Puderam							Português::Verbos::Passado(PPS) Português::Curso::A1
+Pôr + passado (PPS)	Pôr	passado (pretérito perfeito simples)	Pus	Puseste	Pôs	Pusemos	Puseram							Português::Verbos::Passado(PPS) Português::Curso::A1
+Praticar + passado (PPS)	Praticar	passado (pretérito perfeito simples)	Pratiquei	Praticaste	Praticou	Praticámos	Praticaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Precisar + passado (PPS)	precisar (necesitar)	passado (pretérito perfeito simples)	Precisei	Precisaste	Precisou	Precisámos	Precisaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Preencher + passado (PPS)	Preencher	passado (pretérito perfeito simples)	Preenchi	Preencheste	Preencheu	Preenchemos	Preencheram							Português::Verbos::Passado(PPS) Português::Curso::A1
+Preferir + passado (PPS)	Preferir	passado (pretérito perfeito simples)	Preferi	Preferiste	Preferiu	Preferimos	Preferiram							Português::Curso::A1 Português::Termina::-ir Português::Verbos::Passado(PPS)
+Prometer + passado (PPS)	Prometer	passado (pretérito perfeito simples)	Prometi	Prometeste	Prometeu	Prometemos	Prometeram							Português::Verbos::Passado(PPS) Português::Curso::A1
+Proteger + passado (PPS)	Proteger	passado (pretérito perfeito simples)	Protegi	Protegeste	Protegeu	Protegemos	Protegeram							Português::Verbos::Passado(PPS) Português::Curso::A1
+Querer + passado (PPS)	Querer	passado (pretérito perfeito simples)	Quis	Quiseste	Quis	Quisemos	Quiseram							Português::Verbos::Passado(PPS) Português::Curso::A1
+Receber + passado (PPS)	Receber	passado (pretérito perfeito simples)	Recebi	Recebeste	Recebeu	Recebemos	Receberam							Português::Verbos::Passado(PPS) Português::Curso::A1
+Registrar + passado (PPS)	Registrar	passado (pretérito perfeito simples)	Registrei	Registaste	Registou	Registámos	Registraram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Registrar + passado (PPS)	Registrar	passado (pretérito perfeito simples)	Registrei	Registraste	Registrou	Registramos	Registram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Repetir + passado (PPS)	Repetir	passado (pretérito perfeito simples)	Repeti	Repetiste	Repetiu	Repetimos	Repetiram							Português::Curso::A1 Português::Termina::-ir Português::Verbos::Passado(PPS)
+Resolver + passado (PPS)	Resolver	passado (pretérito perfeito simples)	Resolvi	Resolveste	Resolveu	Resolvemos	Resolveram							Português::Verbos::Passado(PPS) Português::Curso::A1
+Resumir + passado (PPS)	Resumir	passado (pretérito perfeito simples)	Resumi	Resumiste	Resumiu	Resumimos	Resumiram							Português::Curso::A1 Português::Termina::-ir Português::Verbos::Passado(PPS)
+Retirar + passado (PPS)	Retirar	passado (pretérito perfeito simples)	Retirei	Retiraste	Retirou	Retirámos	Retiraram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Retribuir + passado (PPS)	Retribuir	passado (pretérito perfeito simples)	Retribuí	Retribuíste	Retribuiu	Retribuímos	Retribuíram							Português::Curso::A1 Português::Termina::-ir Português::Verbos::Passado(PPS)
+Reunir + passado (PPS)	Reunir	passado (pretérito perfeito simples)	Reuni	Reuniste	Reuniu	Reunimos	Reuniram							Português::Curso::A1 Português::Termina::-ir Português::Verbos::Passado(PPS)
+Rir + passado (PPS)	Rir	passado (pretérito perfeito simples)	Ri	Riste	Riu	Rimos	Riram							Português::Curso::A1 Português::Termina::-ir Português::Verbos::Passado(PPS)
+Saber + passado (PPS)	Saber	passado (pretérito perfeito simples)	Soube	Soubeste	Soube	Soubemos	Souberam							Português::Verbos::Passado(PPS) Português::Curso::A1
+Sair + passado (PPS)	Sair	passado (pretérito perfeito simples)	Saí	Saíste	Saiu	Saímos	Saíram							Português::Curso::A1 Português::Termina::-ir Português::Verbos::Passado(PPS)
+Seguir + passado (PPS)	Seguir	passado (pretérito perfeito simples)	Segui	Seguiste	Seguiu	Seguimos	Seguiram							Português::Curso::A1 Português::Termina::-ir Português::Verbos::Passado(PPS)
+Sentir + passado (PPS)	Sentir	passado (pretérito perfeito simples)	Senti	Sentiste	Sentiu	Sentimos	Sentiram							Português::Curso::A1 Português::Termina::-ir Português::Verbos::Passado(PPS)
+Sentir-se + passado (PPS)	Sentir-se	passado (pretérito perfeito simples)	Senti-me	Sentiste-te	Sentiu-se	Sentimo-nos	Sentiram-se							Português::Curso::A1 Português::Termina::-ir Português::Verbos::Passado(PPS) Português::Verbos::Reflexos
+Ser + passado (PPS)	Ser	passado (pretérito perfeito simples)	Fui	Foste	Foi	Fomos	Foram							Português::Verbos::Passado(PPS) Português::Curso::A1
+Servir + passado (PPS)	Servir	passado (pretérito perfeito simples)	Servi	Serviste	Serviu	Servimos	Serviram							Português::Curso::A1 Português::Termina::-ir Português::Verbos::Passado(PPS)
+Subir + passado (PPS)	Subir	passado (pretérito perfeito simples)	Subi	Subiste	Subiu	Subimos	Subiram							Português::Curso::A1 Português::Termina::-ir Português::Verbos::Passado(PPS)
+Substituir + passado (PPS)	Substituir	passado (pretérito perfeito simples)	Substituí	Substituíste	Substituiu	Substituímos	Substituíram							Português::Curso::A1 Português::Termina::-ir Português::Verbos::Passado(PPS)
+Telefonar + passado (PPS)	Telefonar	passado (pretérito perfeito simples)	Telefonei	Telefonaste	Telefonou	Telefonámos	Telefonaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Temperar + passado (PPS)	Temperar	passado (pretérito perfeito simples)	Temperai	Temperaste	Temperou	Temperámos	Temperaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Tentar + passado (PPS)	Tentar	passado (pretérito perfeito simples)	Tentei	Tentaste	Tentou	Tentámos	Tentaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Ter + passado (PPS)	Ter	passado (pretérito perfeito simples)	Tive	Tiveste	Teve	Tivemos	Tiveram							Português::Verbos::Passado(PPS) Português::Curso::A1
+Tirar + passado (PPS)	tirar (qutar, sacar)	passado (pretérito perfeito simples)	Tirei	Tiraste	Tirou	Tirámos	Tiraram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Tocar + passado (PPS)	Tocar	passado (pretérito perfeito simples)	Toquei	Toqueste	Toqueou	Toqueámos	Toquearam							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Tomar + passado (PPS)	Tomar	passado (pretérito perfeito simples)	Tomei	Tomaste	Tomou	Tomámos	Tomaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Tomar + passado (PPS)	Tomar	passado (pretérito perfeito simples)	Tomei	Tomaste	Tomou	Tomámos	Tomaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Trabalhar + passado (PPS)	Trabalhar	passado (pretérito perfeito simples)	Trabalhei	Trabalhaste	Trabalhou	Trabalhámos	Trabalharam							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Traduzir + passado (PPS)	Traduzir	passado (pretérito perfeito simples)	Traduzi	Traduziste	Traduziu	Traduzimos	Traduziram							Português::Curso::A1 Português::Termina::-ir::-zir Português::Verbos::Passado(PPS)
+Tratar + passado (PPS)	Tratar	passado (pretérito perfeito simples)	Tratei	Trataste	Tratou	Tratámos	Trataram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Trazer + passado (PPS)	Trazer	passado (pretérito perfeito simples)	Trouxe	Trouxeste	Trouxe	Trouxemos	Trouxeram							Português::Verbos::Passado(PPS) Português::Curso::A1
+Usar + passado (PPS)	Usar	passado (pretérito perfeito simples)	Usei	Usaste	Usou	Usámos	Usaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Ver + passado (PPS)	Ver	passado (pretérito perfeito simples)	Vi	Viste	Viu	Vimos	Viram							Português::Curso::A1 Português::Termina::-er Português::Verbos::Passado(PPS)
+Vestir + passado (PPS)	Vestir	passado (pretérito perfeito simples)	Vesti	Vestiste	Vestiu	Vestimos	Vestiram							Português::Curso::A1 Português::Termina::-ir Português::Verbos::Passado(PPS)
+Vestir-se + passado (PPS)	Vestir-se	passado (pretérito perfeito simples)	Vesti-me	Vestiste-te	Vestiu-se	Vestimo-nos	Vestiram-se							Português::Curso::A1 Português::Termina::-ir Português::Verbos::Passado(PPS) Português::Verbos::Reflexos
+Viajar + passado (PPS)	Viajar	passado (pretérito perfeito simples)	Viajei	Viajaste	Viajou	Viajámos	Viajaram							Português::Verbos::Passado(PPS) Português::Curso::A1 Português::Termina::-ar
+Vir + passado (PPS)	Vir	passado (pretérito perfeito simples)	Vim	Vieste	Veio	Viemos	Vieram							Português::Verbos::Passado(PPS) Português::Curso::A1 Português::Termina::-ir
+Visitar + passado (PPS)	Visitar	passado (pretérito perfeito simples)	Visitei	Visitaste	Visitou	Visitámos	Visitaram							Português::Verbos::Passado(PPS) Português::Curso::A1 Português::Termina::-ar
+Viver + passado (PPS)	Viver	passado (pretérito perfeito simples)	Vivi	Viveste	Viveu	Vivemos	Viveram							Português::Verbos::Passado(PPS) Português::Curso::A1 Português::Termina::-er
+Xingar + passado (PPS)	Xingar (maldecir)	passado (pretérito perfeito simples)	Xinguei	Xingaste	Xingou	Xingámos	Xingaram							Português::Verbos::Passado(PPS) Português::Curso::A1 Português::Termina::-ar
+Zangar-se + passado (PPS)	Zangar-se (enfadarse)	passado (pretérito perfeito simples)	Zanguei-me	Zangaste-te	Zangou-se	Zangámo-nos	Zangaram-se							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS) Português::Verbos::Reflexos
+Aceitar + passado (PPS)	aceitar (aceptar)	passado (pretérito perfeito simples)	Aceitei	Aceitaste	Aceitou	Aceitámos	Aceitaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Achar + passado (PPS)	achar (pensar)	passado (pretérito perfeito simples)	Achei	Achaste	Achou	Achámos	Acharam							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Afagar + passado (PPS)	afagar (acariciar)	passado (pretérito perfeito simples)	Afaguei	Afagaste	Afagou	Afagámos	Afagaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Afastar-se + passado (PPS)	Afastar-se 	passado (pretérito perfeito simples)	Afastei-me	Afastaste-te	Afastou-se	Afastámo-nos	Afastaram-se							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS) Português::Verbos::Reflexos
+Arranjar + passado (PPS)	arranjar (ordenar)	passado (pretérito perfeito simples)	Arranjei	Arranjaste	Arranjou	Arranjámos	Arranjaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Arranjar-se + passado (PPS)	arranjar-se (arreglarse)	passado (pretérito perfeito simples)	Arranjei-me	Arranjaste-te	Arranjou-se	Arranjámo-nos	Arranjaram-se							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS) Português::Verbos::Reflexos
+Chamar-se + passado (PPS)	Chamar-se 	passado (pretérito perfeito simples)	Chamei-me	Chamaste-te	Chamou-se	Chamámo-nos	Chamaram-se							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS) Português::Verbos::Reflexos
+Comprar + passado (PPS)	Comprar	passado (pretérito perfeito simples)	Comprei	Compraste	Comprou	Comprámos	Compraram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Dividir + passado (PPS)	Dividir	passado (pretérito perfeito simples)	Dividi	Dividiste	Dividiu	Dividimos	Dividiram							Português::Curso::A1 Português::Termina::-ir Português::Verbos::Passado(PPS)
+Empurrar + passado (PPS)	empurrar (empujar)	passado (pretérito perfeito simples)	Empurrei	Empurraste	Empurrou	Empurrámos	Empurraram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Encontrar-se + passado (PPS)	Encontrar-se 	passado (pretérito perfeito simples)	Encontrei-me	Encontraste-te	Encontrou-se	Encontrámo-nos	Encontraram-se							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS) Português::Verbos::Reflexos
+Estudar + passado (PPS)	Estudar	passado (pretérito perfeito simples)	Estudei	Estudaste	Estudou	Estudámos	Estudaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Gostar + passado (PPS)	Gostar	passado (pretérito perfeito simples)	Gostei	Gostaste	Gostou	Gostámos	Gostaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Lanchar + passado (PPS)	Lanchar 	passado (pretérito perfeito simples)	Lanchei	Lanchaste	Lanchou	Lanchámos	Lancharam							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Lavar-se + passado (PPS)	Lavar-se 	passado (pretérito perfeito simples)	Lavei-me	Lavaste-te	Lavou-se	Lavámo-nos	Lavaram-se							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS) Português::Verbos::Reflexos
+Levantar-se + passado (PPS)	Levantar-se 	passado (pretérito perfeito simples)	Levantei-me	Levantaste-te	Levantou-se	Levantámo-nos	Levantaram-se							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS) Português::Verbos::Reflexos
+Machucar + passado (PPS)	machucar (lastimar)	passado (pretérito perfeito simples)	Machuquei	Machucaste	Machucou	Machucámos	Machucaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Machucar-se + passado (PPS)	machucar-se (lastimarse)	passado (pretérito perfeito simples)	Machuquei-me	Machucaste-te	Machucou-se	Machucámo-nos	Machucaram-se							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS) Português::Verbos::Reflexos
+Mudar + passado (PPS)	mudar (cambiar)	passado (pretérito perfeito simples)	Mudei	Mudaste	Mudou	Mudámos	Mudaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Ocupar + passado (PPS)	Ocupar 	passado (pretérito perfeito simples)	Ocupei	Ocupaste	Ocupou	Ocupámos	Ocuparam							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Pensar + passado (PPS)	Pensar 	passado (pretérito perfeito simples)	Pensei	Pensaste	Pensou	Pensámos	Pensaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Pintar + passado (PPS)	Pintar	passado (pretérito perfeito simples)	Pintei	Pintaste	Pintou	Pintámos	Pintaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Poupar + passado (PPS)	poupar (ahorrar, perdonar)	passado (pretérito perfeito simples)	Poupei	Poupaste	Poupou	Poupámos	Pouparam							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Poupar-se + passado (PPS)	poupar-se (escaquearse)	passado (pretérito perfeito simples)	Poupei-me	Poupaste-te	Poupou-se	Poupámo-nos	Pouparam-se							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS) Português::Verbos::Reflexos
+Puxar + passado (PPS)	puxar (tirar de, jalar)	passado (pretérito perfeito simples)	Puxei	Puxaste	Puxou	Puxámos	Puxaram							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS)
+Responder + passado (PPS)	Responder 	passado (pretérito perfeito simples)	Respondi	Respondeste	Respondeu	Respondemos	Responderam							Português::Verbos::Passado(PPS) Português::Curso::A1
+Sentar-se + passado (PPS)	Sentar-se	passado (pretérito perfeito simples)	Sentei-me	Sentaste-te	Sentou-se	Sentámo-nos	Sentaram-se							Português::Curso::A1 Português::Termina::-ar Português::Verbos::Passado(PPS) Português::Verbos::Reflexos
+Sumir + passado (PPS)	sumir (irse, desaparecer)	passado (pretérito perfeito simples)	Sumi	Sumiste	Sumiu	Sumimos	Sumiram							Português::Curso::A1 Português::Termina::-ar Português::Termina::-ir Português::Verbos::Passado(PPS)
