@@ -1,0 +1,81 @@
+#separator:tab
+#html:true
+#tags column:17
+abrir + imperativo	abrir	imperativo	Abre	Não abras	Abra	Não abra	Abram	Não abram								Português::Curso::A1 Português::Termina::-ir Português::Verbos::Dificiles
+admitir + imperativo	admitir	imperativo	Admite	Não admitas	Admita	Não admita	Admitam	Não admitam								Português::Curso::A1 Português::Termina::-ir::-tir Português::Verbos::Dificiles
+aquecer + imperativo	aquecer (calentar)	imperativo	Aquece	Não aqueças	Aqueça	Não aqueça	Aqueçam	Não aqueçam								Português::Curso::A1 Português::Termina::-er::-ecer Português::Verbos::Dificiles
+dar + imperativo	dar	imperativo	Dá	Não dês	Dê	Não dê	Dêem	Não dêem								Português::Curso::A1 Português::Termina::-ar Português::Termina::-ar::-dar Português::Verbos::Dificiles
+deitar-se + imperativo	deitar-se	imperativo	Deita-Te	Não te deites	Deite-Se	Não se deite	Deitem-Se	Não se deitem								Português::Curso::A1 Português::Termina::-ar Português::Termina::-ar::-tar::-eitar Português::Verbos::Dificiles Português::Verbos::Reflexos
+destruir + imperativo	destruir	imperativo	Destrói	Não destruas	Destrua	Não destrua	Destruam	Não destruam								Português::Curso::A1 Português::Termina::-ir Português::Verbos::Dificiles
+dirigir + imperativo	dirigir	imperativo	Dirige	Não dirijas	Dirija	Não dirija	Dirijam	Não dirijam								Português::Curso::A1 Português::Termina::-ir Português::Verbos::Dificiles
+discutir + imperativo	discutir	imperativo	Discute	Não discutas	Discuta	Não discuta	Discutam	Não discutam								Português::Curso::A1 Português::Termina::-ir Português::Verbos::Dificiles
+distribuir + imperativo	distribuir	imperativo	Distribui	Não distribuas	Distribua	Não distribua	Distribuam	Não distribuam								Português::Curso::A1 Português::Termina::-ir Português::Verbos::Dificiles
+dormir + imperativo	dormir	imperativo	Dorme	Não durmas	Durma	Não durma	Durmam	Não durmam								Português::Curso::A1 Português::Termina::-ir Português::Verbos::Dificiles
+esquecer-se + imperativo	esquecer-se	imperativo	Esquece-Te	Não te esqueças	Esqueça-Se	Não se esqueça	Esqueçam-Se	Não se esqueçam								Português::Curso::A1 Português::Termina::-er::-ecer Português::Verbos::Dificiles Português::Verbos::Reflexos
+estar + imperativo	estar	imperativo	Está	Não estejas	Esteja	Não esteja	Estejam	Não estejam								Português::Curso::A1 Português::Termina::-ar::-tar::-star Português::Verbos::Dificiles
+fugir + imperativo	fugir	imperativo	Foge	Não fujas	Fuja	Não fuja	Fujam	Não fujam								Português::Curso::A1 Português::Termina::-ir Português::Verbos::Dificiles
+introduzir + imperativo	introduzir	imperativo	Introduz	Não introduzas	Introduza	Não introduza	Introduzam	Não introduzam								Português::Curso::A1 Português::Termina::-ir::-uzir Português::Verbos::Dificiles
+ir + imperativo	ir	imperativo	Vai	Não vás	Vá	Não vá	Vão	Não vão								Português::Curso::A1 Português::Termina::-ir Português::Verbos::Dificiles
+ir + imperativo	ir	imperativo	Vai	Não vás	Vá	Não vá	Vão	Não vão								Português::Curso::A1 Português::Termina::-ir Português::Verbos::Dificiles
+medir + imperativo	medir	imperativo	Mede	Não meças	Meça	Não meça	Meçam	Não meçam								Português::Curso::A1 Português::Termina::-ir Português::Verbos::Dificiles
+ouvir + imperativo	ouvir	imperativo	Ouve	Não ouças	Ouça	Não ouça	Ouçam	Não ouçam								Português::Curso::A1 Português::Termina::-ir Português::Verbos::Dificiles
+parecer + imperativo	parecer	imperativo	Parece	Não pareças	Pareça	Não pareça	Pareçam	Não pareçam								Português::Curso::A1 Português::Termina::-er::-ecer Português::Verbos::Dificiles
+partir + imperativo	partir	imperativo	Parte	Não partas	Parta	Não parta	Partam	Não partam								Português::Curso::A1 Português::Termina::-ir Português::Termina::-ir::-tir Português::Verbos::Dificiles
+pedir + imperativo	pedir	imperativo	Pede	Não peças	Peça	Não peça	Peçam	Não peçam								Português::Curso::A1 Português::Termina::-ir Português::Verbos::Dificiles
+permitir + imperativo	permitir	imperativo	Permite	Não permits	Permita	Não permita	Permitam	Não permitam								Português::Curso::A1 Português::Termina::-ir Português::Verbos::Dificiles
+preferir + imperativo	preferir	imperativo	Prefere	Não prefiras	Prefira	Não prefira	Prefiram	Não prefiram								Português::Curso::A1 Português::Termina::-ir Português::Verbos::Dificiles
+querer + imperativo	querer	imperativo	Quer	Não queiras	Queira	Não queira	Queiram	Não queiram								Português::Curso::A1 Português::Termina::-er Português::Verbos::Dificiles
+repetir + imperativo	repetir	imperativo	Repete	Não repitas	Repita	Não repita	Repitam	Não repitam								Português::Curso::A1 Português::Termina::-ir Português::Verbos::Dificiles
+retribuir + imperativo	retribuir	imperativo	Retribui	Não retribuas	Retribua	Não retribua	Retribuam	Não retribuam								Português::Curso::A1 Português::Termina::-ir Português::Verbos::Dificiles
+reunir + imperativo	reunir	imperativo	Reúne	Não reúnas	Reúna	Não reúna	Reúnam	Não reúnam								Português::Curso::A1 Português::Termina::-ir Português::Verbos::Dificiles
+rir + imperativo	rir	imperativo	Ri	Não rias	Ria	Não ria	Riam	Não riam								Português::Curso::A1 Português::Termina::-ir Português::Verbos::Dificiles
+sair + imperativo	sair (salir)	imperativo	Sai	Não saias	Saia	Não saia	Saiam	Não saiam								Português::Curso::A1 Português::Termina::-ir Português::Verbos::Dificiles
+seguir + imperativo	seguir	imperativo	Segue	Não sigas	Siga	Não siga	Sigam	Não sigam								Português::Curso::A1 Português::Termina::-ir Português::Verbos::Dificiles
+sentir + imperativo	sentir	imperativo	Sente	Não sintas	Sinta	Não sinta	Sintam	Não sintam								Português::Curso::A1 Português::Termina::-ir Português::Verbos::Dificiles
+sentir-se + imperativo	sentir-se	imperativo	Sente-Te	Não te sintas	Sinta-Se	Não se sinta	Sintam-Se	Não se sintam								Português::Curso::A1 Português::Termina::-ir Português::Verbos::Dificiles Português::Verbos::Reflexos
+servir + imperativo	servir	imperativo	Serve	Não sirvas	Sirva	Não sirva	Sirvam	Não sirvam								Português::Curso::A1 Português::Termina::-ir Português::Verbos::Dificiles
+subir + imperativo	subir	imperativo	Sobe	Não subas	Suba	Não suba	Subam	Não subam								Português::Curso::A1 Português::Termina::-ir Português::Verbos::Dificiles
+substituir + imperativo	substituir	imperativo	Substitui	Não substituas	Substitua	Não substitua	Substituam	Não substituam								Português::Curso::A1 Português::Termina::-ir Português::Verbos::Dificiles
+traduzir + imperativo	traduzir	imperativo	Traduz	Não traduzas	Traduza	Não traduza	Traduzam	Não traduzam								Português::Curso::A1 Português::Termina::-ir::-uzir Português::Verbos::Dificiles
+trazer + imperativo	trazer (llevar, traer)	imperativo	Traz	Não tragas	Traga	Não traga	Tragam	Não tragam								Português::Curso::A1 Português::Termina::-er::-zer Português::Verbos::Dificiles
+vestir + imperativo	vestir	imperativo	Veste	Não vistas	Vista	Não vista	Vistam	Não vistam								Português::Curso::A1 Português::Termina::-ir Português::Verbos::Dificiles
+vestir-se + imperativo	vestir-se	imperativo	Veste-Te	Não te vistas	Vista-Se	Não se vista	Vistam-Se	Não se vistam								Português::Curso::A1 Português::Termina::-ir Português::Verbos::Dificiles Português::Verbos::Reflexos
+vir + imperativo	vir	imperativo	Vem	Não venhas	Venha	Não venha	Venham	Não venham								Português::Curso::A1 Português::Termina::-ir Português::Verbos::Dificiles
+viver + imperativo	viver	imperativo	Vive	Não vivas	Viva	Não viva	Vivam	Não vivam								Português::Curso::A1 Português::Termina::-er Português::Verbos::Dificiles
+falar + imperativo (pres)	falar	imperativo (pres)	Fala	Não fales	Fale	Não fale	Falem	Não falem								Português::Curso::A1 Português::Termina::-ar::-alar Português::Verbos::Imperativo(Pres)
+morar + imperativo (pres)	morar	imperativo (pres)	Mora	Não more	More	Não more	Morem	Não morem								Português::Curso::A1 Português::Termina::-ar::-rar::-orar Português::Verbos::Imperativo(Pres)
+jogar + imperativo (pres)	jogar	imperativo (pres)	Joga	Não jogues	Jogue	Não jogue	Joguem	Não joguem								Português::Curso::A1 Português::Termina::-ar Português::Termina::-ar::-gar Português::Verbos::Imperativo(Pres)
+brincar + imperativo (pres)	brincar	imperativo (pres)	Brinca	Não brinques	Brinque	Não brinque	Brinquem	Não brinquem								Português::Curso::A1 Português::Termina::-ar::-car Português::Verbos::Imperativo(Pres)
+almoçar + imperativo (pres)	almoçar	imperativo (pres)	Almoça	Não almoçes	Almoce	Não almoce	Almoçem	Não almoçem								Português::Curso::A1 Português::Termina::-ar::-çar Português::Verbos::Imperativo(Pres)
+jantar + imperativo (pres)	jantar	imperativo (pres)	Janta	Não jantes	Jante	Não jante	Jantem	Não jantem								Português::Curso::A1 Português::Termina::-ar::-tar::-antar Português::Verbos::Imperativo(Pres)
+fechar + imperativo (pres)	fechar	imperativo (pres)	Fecha	Não feches	Feche	Não feche	Fechem	Não fechem								Português::Curso::A1 Português::Termina::-ar::-char Português::Verbos::Imperativo(Pres)
+trabalhar + imperativo (pres)	trabalhar	imperativo (pres)	Trabalha	Não trabalhes	Trabalhe	Não trabalhe	Trabalhem	Não trabalhem								Português::Curso::A1 Português::Termina::-ar::-lhar Português::Verbos::Imperativo(Pres)
+praticar + imperativo (pres)	praticar	imperativo (pres)	Pratica	Não pratiques	Pratique	Não pratique	Pratiquem	Não pratiquem								Português::Curso::A1 Português::Termina::-ar::-car Português::Verbos::Imperativo(Pres)
+ganhar + imperativo (pres)	ganhar	imperativo (pres)	Ganha	Não ganhes	Ganhe	Não ganhe	Ganhem	Não ganhem								Português::Curso::A1 Português::Termina::-ar::-anhar Português::Verbos::Imperativo(Pres)
+acordar + imperativo (pres)	acordar	imperativo (pres)	Acorda	Não acordes	Acorde	Não acorde	Acordeem	Não acordeem								Português::Curso::A1 Português::Termina::-ar Português::Termina::-ar::-dar Português::Verbos::Imperativo(Pres)
+apanhar + imperativo (pres)	apanhar	imperativo (pres)	Apanha	Não apanhes	Apanhe	Não apanhe	Apanhem	Não apanhem								Português::Curso::A1 Português::Termina::-ar::-anhar Português::Verbos::Imperativo(Pres)
+ficar + imperativo (pres)	ficar	imperativo (pres)	Fica	Não fiques	Fique	Não fique	Fiquem	Não fiquem								Português::Curso::A1 Português::Termina::-ar::-car Português::Verbos::Imperativo(Pres)
+telefonar + imperativo (pres)	telefonar	imperativo (pres)	Telefona	Não telefonas	Telefone	Não telefone	Telefonem	Não telefonem								Português::Curso::A1 Português::Termina::-ar::-nar Português::Verbos::Imperativo(Pres)
+começar + imperativo (pres)	começar	imperativo (pres)	Começa	Não comeces	Comece	Não comece	Comecem	Não comecem								Português::Curso::A1 Português::Termina::-ar::-çar Português::Verbos::Imperativo(Pres)
+girar + imperativo (pres)	girar	imperativo (pres)	Gira	Não gires	Gire	Não gire	Girem	Não girem								Português::Curso::A1 Português::Termina::-ar::-rar::-irar Português::Verbos::Imperativo(Pres)
+usar + imperativo (pres)	usar	imperativo (pres)	Usa	Não uses	Use	Não use	Usem	Não usem								Português::Curso::A1 Português::Termina::-ar::-sar Português::Verbos::Imperativo(Pres)
+pagar + imperativo (pres)	pagar	imperativo (pres)	Paga	Não pagues	Pague	Não pague	Paguem	Não paguem								Português::Curso::A1 Português::Termina::-ar Português::Termina::-ar::-gar Português::Verbos::Imperativo(Pres)
+pegar + imperativo (pres)	pegar	imperativo (pres)	Pega	Não pegues	Pegue	Não pegue	Peguem	Não peguem								Português::Curso::A1 Português::Termina::-ar Português::Termina::-ar::-gar Português::Verbos::Imperativo(Pres)
+ensinar + imperativo (pres)	ensinar	imperativo (pres)	Ensina	Não ensines	Ensine	Não ensine	Ensinem	Não ensinem								Português::Curso::A1 Português::Termina::-ar::-nar Português::Verbos::Imperativo(Pres)
+levantar + imperativo (pres)	levantar	imperativo (pres)	Levanta	Não levantes	Levante	Não levante	Levantem	Não levantem								Português::Curso::A1 Português::Termina::-ar::-tar::-antar Português::Verbos::Imperativo(Pres)
+tocar + imperativo (pres)	tocar	imperativo (pres)	Toca	Não toques	Toque	Não toque	Toquem	Não toquem								Português::Curso::A1 Português::Termina::-ar::-car Português::Verbos::Imperativo(Pres)
+andar + imperativo (pres)	andar	imperativo (pres)	Anda	Não andes	Ande	Não ande	Andem	Não andem								Português::Curso::A1 Português::Termina::-ar Português::Termina::-ar::-dar Português::Verbos::Imperativo(Pres)
+lavar + imperativo (pres)	lavar	imperativo (pres)	lava	Não laves	lave	Não lave	lavem	Não lavem								Português::Curso::A1 Português::Termina::-ar Português::Verbos::Imperativo(Pres) Português::Verbos::Imperativo(Pres)
+usar + imperativo (pres)	usar	imperativo (pres)	Usa	Não uses	Use	Não use	Usem	Não usem								Português::Curso::A1 Português::Termina::-ar::-sar Português::Verbos::Imperativo(Pres)
+acabar + imperativo (pres)	acabar	imperativo (pres)	Acaba	Não acabes	Acabe	Não acabe	Acabem	Não acabem								Português::Curso::A1 Português::Termina::-ar Português::Verbos::Imperativo(Pres) Português::Verbos::Imperativo(Pres)
+encontrar + imperativo (pres)	encontrar	imperativo (pres)	Encontra	Não encontres	Encontre	Não encontre	Encontrem	Não encontrem								Português::Curso::A1 Português::Termina::-ar::-trar Português::Verbos::Imperativo(Pres)
+pensar + imperativo (pres)	pensar	imperativo (pres)	Pensa	Não penses	Pense	Não pense	Pensem	Não pensem								Português::Curso::A1 Português::Termina::-ar::-sar Português::Verbos::Imperativo(Pres)
+viajar + imperativo (pres)	viajar	imperativo (pres)	Viaja	Não viajes	Viaje	Não viaje	Viajem	Não viajem								Português::Curso::A1 Português::Termina::-ar::-jar Português::Verbos::Imperativo(Pres)
+beijar + imperativo (pres)	beijar	imperativo (pres)	Beija	Não beijes	Beije	Não beije	Beijem	Não beijem								Português::Curso::A1 Português::Termina::-ar::-jar Português::Verbos::Imperativo(Pres)
+cantar + imperativo (pres)	cantar	imperativo (pres)	Canta	Não cantes	Cante	Não cante	Cantem	Não cantem								Português::Curso::A1 Português::Termina::-ar::-tar::-antar Português::Verbos::Imperativo(Pres)
+chamar + imperativo (pres)	chamar	imperativo (pres)	Chama	Não chames	Chame	Não chame	Chamem	Não chamem								Português::Curso::A1 Português::Termina::-ar::-mar Português::Verbos::Imperativo(Pres)
+costumar + imperativo (pres)	costumar	imperativo (pres)	Costuma	Não costumes	Costume	Não costume	Costumem	Não costumem								Português::Curso::A1 Português::Termina::-ar::-mar Português::Verbos::Imperativo(Pres)
+dançar + imperativo (pres)	dançar	imperativo (pres)	Dança	Não danças	Dançe	Não dançe	Dançem	Não dançem								Português::Curso::A1 Português::Termina::-ar::-çar Português::Verbos::Imperativo(Pres)
+deixar + imperativo (pres)	deixar	imperativo (pres)	Deixa	Não deixes	Deixe	Não deixe	Deixem	Não deixem								Português::Curso::A1 Português::Termina::-ar Português::Termina::-ar::-xar Português::Verbos::Imperativo(Pres)
+ligar + imperativo (pres)	ligar	imperativo (pres)	Liga	Não ligu es	Ligue	Não ligue	Liguem	Não liguem								Português::Curso::A1 Português::Termina::-ar Português::Termina::-ar::-gar Português::Verbos::Imperativo(Pres)
+marcar + imperativo (pres)	marcar	imperativo (pres)	Marca	Não marques	Marque	Não marque	Marquem	Não marquem								Português::Curso::A1 Português::Termina::-ar::-car Português::Verbos::Imperativo(Pres)
