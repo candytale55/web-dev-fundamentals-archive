@@ -1,0 +1,119 @@
+<html>
+
+<head>
+<title>Hola Mundo</title>
+</head>
+
+<body>
+
+<script>
+   alert('Hola Mundo!'); 
+   <!--El signo de inicio no sale y no funciona  &#161;o bien &iexcl;-->
+</script>
+
+
+
+
+
+<h2>Caracteres de Control</h2>
+<p>JavaScript define un mecanismo para incluir de forma sencilla caracteres especiales y problemáticos dentro de una cadena de texto, son los <b>caracteres de control</b>.
+</p>
+<p>
+Se dice que se utiliza un mecanismo de escape. El mecanismo consiste en sustituir el carácter problemático por una combinación simple de caracteres.
+</p>
+<ul>
+<li>\n	Salto de línea</li>
+<li>\t	Tabulación</li>
+<li>\’	Comilla simple</li>
+<li>\”	Comillas dobles</li>
+<li>\\	Barra inclinada</li>
+</ul>
+
+<script>
+alert("Para dejar un espacio en blanco se usa &nbsp;");
+</script>
+
+
+<script>
+alert('Una de las características de JavaScript es que no es obligatorio declarar las variables. Por ejemplo, se podrá poner: var a=1 var b=2 resultado= a+b');
+</script>
+
+
+<script>
+alert('El nombre de una variable puede contener sólo caracteres alfanuméricos, es decir, letras de la A a la Z y números de 0 al 9.\n También son válidos los caracteres guion bajo y dólar.');
+</script>
+
+
+
+
+<h2>Objetos</h2>
+<p>
+Javascript posee algunos objetos predefinidos: Array, Boolean, Date, Function, Global, Math, Number, Object, RegExp, y String.
+</p>
+<p>
+Adicionalmente se pueden crear objetos nuevos, con sus propios métodos y propiedades.
+</p>
+<p>
+También se podrían decir que son tipos de datos: Null (nulo) o Undefined (dato no definido).
+</p>
+
+<script>
+alert("Se puede averiguar el tipo de dato que contiene una variable utilizando la función typeof.");
+</script>
+
+
+<h2>Operadores Lógicos</h2>
+
+<h3>AND lógico: símbolo &&</h3>
+
+<p>El resultado será true si todas las comparaciones son verdaderas.</p>
+
+<ul>
+<li>True&&true = true</li>
+<li>True&&false= false</li>
+<li>False&&true= false</li>
+</ul>
+
+<h3>OR lógico: símbolo ||</h3>
+<p>El resultado será true solamente con que se cumpla una de las comparaciones.</p>
+<ul>
+<li>True || false =true</li>
+<li>False|| true = true</li>
+</ul>
+
+<script>
+var resultado= true || true;
+alert (resultado)
+var resultado= true || false;
+alert (resultado)
+var resultado= false || true;
+alert (resultado)
+</script>
+
+
+<h3>Operador No (!)</h3>
+<p>Su función es la de invertir el valor que se le pasa, es decir, lo que era verdadero es falso y lo que era falso es verdadero.</p>
+
+<script>
+var resultado= false;
+resultado =! Resultado;
+alert (resultado);
+</script>
+
+
+<h3>Iguales: símbolo == / No iguales: símbolo !=</h3>
+<p>Compara dos valores y devuelve true si ambos son iguales.</p>
+<script>
+var x =2, var y= 2, z=4, resultado;
+resultado= x==y;
+alert(resultado);
+</script>
+
+<h3>Idénticos: símbolo ===</h3>
+<p>Compara dos valores y también el tipo de datos y devuelve true si ambos son idénticos en valor y en tipo de dato, por lo tanto si uno fuera un valor numérico y otro un carácter daría como resultado false.</p>
+
+<p>No idénticos: símbolo !==. Invierte el sentido de la comparación.</p>
+
+
+</body>
+</html>
