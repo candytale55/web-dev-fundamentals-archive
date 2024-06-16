@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validación de Email</title>
+</head>
+<body>
+    <script type="text/javascript" language="JavaScript">
+        function check(email) {
+            var ind1, ind2, ind3;
+            ind1 = email.indexOf('@');
+            ind2 = email.indexOf('.');
+            ind3 = email.lastIndexOf('@');
+            if ((ind1 <= 0) || (ind2 < ind1) || (ind3 != ind1))
+                return "No es correcto";
+            else
+                return "Correcto";
+        }
+
+        function checkMail(cadena) {
+            var plant = /[^\w^@^\.^-]+/gi;
+            if (plant.test(cadena))
+                alert(cadena + " contiene caracteres extraños.");
+            else {
+                plant = /(^\w+)(@{1})([\w\.-]+$)/i;
+                if (plant.test(cadena))
+                    alert(cadena + " es correcta.");
+                else
+                    alert(cadena + " no es válida.");
+            }
+        }
+    </script>
+
+    <form name="form1" method="post" action="">
+        Introduce tu e-mail:
+        <input type="text" name="email">
+        <input type="button" name="Button" value="Comprobar" onclick="alert(check(this.form.email.value))">
+    </form>
+
+    <script type="text/javascript" language="JavaScript">
+        var dire1 = "patatilla@javascript.com";
+        document.write(dire1 + "  " + check(dire1) + "<br>");
+        var dire2 = "ay@javascript@es";
+        document.write(dire2 + "  " + check(dire2) + "<br>");
+    </script>
+</body>
+</html>
