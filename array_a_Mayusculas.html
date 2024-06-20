@@ -19,60 +19,56 @@
 <body>
     <h1>Conversión de Cadenas a Mayúsculas</h1>
     <p>Por favor, ingrese una lista de palabras separadas por comas (por ejemplo: hola,mundo,JavaScript):</p>
-    
-     <!-- forma para ingresar un array y probar la función -->
     <form id="formulario">
-        <input type="text" id="inputPalabras" placeholder="Ingrese las palabras aquí que deben por lo menos contener una letra" required>
+        <input type="text" id="inputPalabras" placeholder="Ingrese las palabras aquí" required>
         <button type="submit">Convertir a Mayúsculas</button>
     </form>
     <div id="resultado"></div>
     
     <script>
-        
-	// Definición de la función 
+        // Definición de la función convertir
         function convertir(array) {
             // Inicialización de un nuevo array vacío
             let nuevoArray = [];
             
             // Bucle para recorrer cada elemento del array original
             for (let i = 0; i < array.length; i++) {
-                // Convierte cada elemento a mayúsculas y lo mete en un nuevo array
+                // Conversión del elemento actual a mayúsculas y adición al nuevo array
                 nuevoArray.push(array[i].toUpperCase());
             }
             
-            // Devuelve el nuevo array con los elementos en mayúsculas
+            // Devolución del nuevo array con elementos en mayúsculas
             return nuevoArray;
         }
 
-
-        // Función para validar que las palabras contienen al menos una letra, porque si no no podríamos saber si funciona o no.
+        // Función para validar que las palabras contienen al menos una letra
         function validarPalabras(palabras) {
             const regex = /[a-zA-Z]/;
             return palabras.every(palabra => regex.test(palabra));
         }
 
-        // Evento submit del formulario
+        // Manejo del evento submit del formulario
         document.getElementById('formulario').addEventListener('submit', function(event) {
             event.preventDefault();
             
             // Obtener el valor del input
             const inputPalabras = document.getElementById('inputPalabras').value;
-            
-	    // Separar el input en un array de palabras
+            // Separar el input en un array de palabras
             const palabrasArray = inputPalabras.split(',').map(palabra => palabra.trim());
             
-            // Si la función validarPalabras funcionó, corre la función convertir. 
+            // Validar las palabras
             if (validarPalabras(palabrasArray)) {
+                // Convertir las palabras a mayúsculas
                 const resultadoArray = convertir(palabrasArray);
-                // Muestra el resultado
+                // Mostrar el resultado en la página
                 document.getElementById('resultado').innerHTML = `
                     <p>Array original: [${palabrasArray.join(', ')}]</p>
                     <p>Array convertido a mayúsculas: [${resultadoArray.join(', ')}]</p>
                 `;
             } else {
-                // Si la validación de validarPalabras falla, regresa un error
+                // Mostrar un mensaje de error si la validación falla
                 document.getElementById('resultado').innerHTML = `
-                    <p style="color: red;">Error: Cada una de las palabras deben contener al menos una letra.</p>
+                    <p style="color: red;">Error: Todas las palabras deben contener al menos una letra.</p>
                 `;
             }
         });
