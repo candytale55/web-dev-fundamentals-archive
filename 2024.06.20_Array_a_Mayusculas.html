@@ -3,9 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <title>Conversión a Mayúsculas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        form {
+            margin-bottom: 20px;
+        }
+        input[type="text"] {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+            font-size: 16px;
+        }
+        input[type="submit"] {
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+        .resultado {
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
     <h1>Conversión de Cadenas a Mayúsculas</h1>
+    <p>Ingrese una lista de palabras separadas por comas y presione el botón para convertirlas a mayúsculas.</p>
+    <form id="formulario">
+        <input type="text" id="entrada" placeholder="Ejemplo: hola,mundo,programación">
+        <input type="submit" value="Convertir a Mayúsculas">
+    </form>
+    <div class="resultado" id="resultado"></div>
+
     <script>
         // Definición de la función convertir
         function convertir(array) {
@@ -22,12 +51,34 @@
             return nuevoArray;
         }
 
-        // Prueba de la función con el array ["hola", "mundo"]
-        console.log(convertir(["hola", "mundo"]));
+        // Función para validar si la primera letra es una letra
+        function esLetra(cadena) {
+            return /^[a-zA-Z]/.test(cadena.trim());
+        }
 
-        // Visualización en la página del resultado
-        document.write("<p>Array original: ['hola', 'mundo']</p>");
-        document.write("<p>Array convertido a mayúsculas: " + JSON.stringify(convertir(["hola", "mundo"])) + "</p>");
+        // Manejo del evento submit del formulario
+        document.getElementById('formulario').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const entrada = document.getElementById('entrada').value;
+            const palabras = entrada.split(',');
+
+            // Validación de las palabras ingresadas
+            let validas = true;
+            for (let i = 0; i < palabras.length; i++) {
+                if (!esLetra(palabras[i])) {
+                    validas = false;
+                    break;
+                }
+            }
+
+            if (validas) {
+                const resultado = convertir(palabras);
+                document.getElementById('resultado').innerHTML = `<p>Array original: [${palabras.join(', ')}]</p>
+                                                                  <p>Array convertido a mayúsculas: [${resultado.join(', ')}]</p>`;
+            } else {
+                document.getElementById('resultado').innerHTML = `<p style="color: red;">Error: Todas las palabras deben comenzar con una letra.</p>`;
+            }
+        });
     </script>
 </body>
 </html>
