@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Conversión a Mayúsculas</title>
+</head>
+<body>
+    <h1>Conversión de Cadenas a Mayúsculas</h1>
+    <script>
+        // Definición de la función convertir
+        function convertir(array) {
+            // Inicialización de un nuevo array vacío
+            let nuevoArray = [];
+            
+            // Bucle para recorrer cada elemento del array original
+            for (let i = 0; i < array.length; i++) {
+                // Conversión del elemento actual a mayúsculas y adición al nuevo array
+                nuevoArray.push(array[i].toUpperCase());
+            }
+            
+            // Devolución del nuevo array con elementos en mayúsculas
+            return nuevoArray;
+        }
+
+        // Prueba de la función con el array ["hola", "mundo"]
+        console.log(convertir(["hola", "mundo"]));
+
+        // Visualización en la página del resultado
+        document.write("<p>Array original: ['hola', 'mundo']</p>");
+        document.write("<p>Array convertido a mayúsculas: " + JSON.stringify(convertir(["hola", "mundo"])) + "</p>");
+    </script>
+</body>
+</html>
