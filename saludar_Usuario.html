@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<HTML> 
+
+<HEAD>
+  <META http-equiv=Content-Type content="text/html; charset=windows-1252"> 
+   <!--Comunica mediante metadatos, que es un documento de texto y que utiliza una codificación de caracteres latinos -->
+
+</HEAD>
+
+<BODY>
+
+ <!--Sección que contiene el código de JavaScript-->
+ <script language="JavaScript"> 
+
+  // Una ventana prompt pide el nombre del usuario
+  var name = prompt("Introduce tu nombre, por favor.", "nombre");
+
+  // Crea un nuevo objeto Date que contiene la fecha y hora en ese momento, que servirá para definir que responder.
+  var today = new Date();
+
+  // Obtiene la hora actual del objeto Date creado anteriormente, y lo agrega a una variable hrs
+  var hrs = today.getHours();
+
+  // Escribe una etiqueta <b> para que el texto aparezca en bold.
+  document.writeln("<b>");
+
+  // Utiliza condicionales if para determinar el saludo según la hora del día (actualmente en la variable hrs).
+  if (hrs <= 12) {
+
+    // Si la hora es menor o igual a 12, dice "Buenos días"
+    document.write("Buenos d&iacute;as " + name + '!');
+  } else if (hrs <= 22) {
+    // Si es mayor a 12 pero menor o igual a 22, dice "Buenas tardes"
+    document.write("Buenas tardes " + name + '!');
+  } else {
+    // Si la hora es mayor a 22, dice "Buenas noches"
+    document.write("Buenas noches " + name + '!');
+  }
+
+  // Escribe un salto de línea
+  document.writeln("<br>");
+
+</script>
+
+</BODY>
+</HTML>

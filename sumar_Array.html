@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suma de Números en un Array</title>
+    
+
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        #resultado {
+            font-weight: bold;
+            color: #007BFF;
+        }
+        form {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin: 5px 0;
+        }
+        input[type="text"] {
+            padding: 5px;
+            margin: 5px 0 15px;
+            width: 300px;
+        }
+        button {
+            padding: 5px 10px;
+        }
+    </style>
+</head>
+
+
+<body>
+    <h1>Suma de Números en un Array</h1>
+    <p>Introduce los números separados por comas:</p>
+    
+    <form id="sumaForm">
+        <label for="numeros">Números:</label>
+        <input type="text" id="numeros" name="numeros" required>
+        
+        <button type="submit">Calcular Suma</button>
+    </form>
+
+    <p>La suma de los números es: <span id="resultado"></span></p>
+    <p>El array introducido es: <span id="array"></span></p>
+
+    
+    <script>
+        // Función que toma un array de números y devuelve la suma de todos los números
+        function sumaArray(numeros) {
+            var suma = 0;
+            for (var i = 0; i < numeros.length; i++) {
+                suma += numeros[i]; // Suma cada número del array
+            }
+            return suma;
+        }
+
+        // Selecciona el formulario y añade un evento de envío
+        document.getElementById('sumaForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Evita el envío del formulario
+            
+            // Obtiene el valor del campo de entrada
+            const numerosString = document.getElementById('numeros').value;
+            
+            // Convierte la cadena de texto en un array de números
+            const numerosArray = numerosString.split(',').map(Number);
+            
+            // Validación para asegurar que se ingresen números válidos
+            if (numerosArray.some(isNaN)) {
+                alert("Por favor, ingrese solo números separados por comas.");
+                return;
+            }
+
+           
+            // Calcula la suma de los números y muestra el resultado
+            const resultado = sumaArray(numerosArray);
+            document.getElementById('resultado').textContent = resultado;
+
+	    // Muestra el array introducido en la página web
+            document.getElementById('array').textContent = '[' + numerosArray.join(', ') + ']';
+
+        });
+    </script>
+</body>
+</html>

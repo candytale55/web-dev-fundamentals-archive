@@ -38,6 +38,7 @@
     <h1>Calculadora de Potencias</h1>
     <p>Introduce la base y el exponente para calcular la potencia:</p>
     
+     <!-- Código de la forma -->	
     <form id="potenciaForm">
         <label for="base">Base:</label>
         <input type="number" id="base" name="base" required>
@@ -56,19 +57,13 @@
             return Math.pow(b, e); // Calcula la potencia mediante Math.pow (objeto predefinido)
         }
 
-        // Funcionamiento del formulario
+        // Funcionamiento del formulario usando el objeto document.
         document.getElementById('potenciaForm').addEventListener('submit', function(event) {
             event.preventDefault(); // Evita el envío del formulario
             
             // Obtiene los valores
             const base = parseFloat(document.getElementById('base').value);
             const exponente = parseFloat(document.getElementById('exponente').value);
-
-            // Valida que sean números
-            if (isNaN(base) || isNaN(exponente)) {
-                alert("Error: ingrese números válidos.");
-                return;
-            }
 
             // Calcula la potencia y muestra el resultado
             const resultado = operacion(base, exponente);
