@@ -1,0 +1,161 @@
+#separator:tab
+#html:true
+#tags column:15
+vestir + presente	Vestir	presente	Visto	Vestes	Veste	Vestimos	Vestem	/ˈviʃtu/	/ˈveʃtɨʃ/	/ˈveʃtɨ/	/vɨʃˈtimuʃ/	/ˈveʃtɐ̃j/		Portugues::Curso::2A2
+despir + presente	Despir (Desvestir)	presente	Dispo	Despes	Despe	Despimos	Despem	/ˈdiʃpu/	/ˈdeʃpɨʃ/	/ˈdeʃpɨ/	/dɨʃˈpimuʃ/	/ˈdeʃpɐ̃j/		Portugues::Curso::2A2
+sentir + presente	Sentir	presente	Sinto	Sentes	Sente	Sentimos	Sentem	/ˈsĩtu/	/ˈsẽtɨʃ/	/ˈsẽtɨ/	/sẽˈtimuʃ/	/ˈsẽtɐ̃j/		Portugues::Curso::2A2
+preferir + presente	Preferir	presente	Prefiro	Preferes	Prefere	Preferimos	Preferem	/pɾɨˈfiɾu/	/pɾɨˈfeɾɨʃ/	/pɾɨˈfeɾɨ/	/pɾɨfɨˈɾimuʃ/	/pɾɨˈfeɾɐ̃j/		Portugues::Curso::2A2
+conseguir + presente	Conseguir	presente	Consigo	Consegues	Consegue	Conseguimos	Conseguem	/kõˈsigu/	/kõˈsegɨʃ/	/kõˈsegɨ/	/kõsɨˈgimuʃ/	/kõˈsegɐ̃j/		Portugues::Curso::2A2
+seguir + presente	Seguir	presente	Sigo	Segues	Segue	Seguimos	Seguem	/ˈsigu/	/ˈsegɨʃ/	/ˈsegɨ/	/sɨˈgimuʃ/	/ˈsegɐ̃j/		Portugues::Curso::2A2
+corrigir + presente	Corrigir	presente	Corrijo	Corriges	Corrige	Corrigimos	Corrigem	/kuˈʁiʒu/	/kuˈʁiʒɨʃ/	/kuˈʁiʒɨ/	/kuʁɨˈʒimuʃ/	/kuˈʁiʒɐ̃j/		Portugues::Curso::2A2
+dirigir + presente	Dirigir	presente	Dirijo	Diriges	Dirige	Dirigimos	Dirigem	/dɨˈɾiʒu/	/dɨˈɾiʒɨʃ/	/dɨˈɾiʒɨ/	/dɨɾɨˈʒimuʃ/	/dɨˈɾiʒɐ̃j/		Portugues::Curso::2A2
+partir + presente	Partir	presente	Parto	Partes	Parte	Partimos	Partem	/ˈpaɾtu/	/ˈpaɾtɨʃ/	/ˈpaɾtɨ/	/paɾˈtimuʃ/	/ˈpaɾtɐ̃j/		Portugues::Curso::2A2
+servir + presente	Servir	presente	Sirvo	Serves	Serve	Servimos	Servem	/ˈsiɾvu/	/ˈseɾvɨʃ/	/ˈseɾvɨ/	/sɨɾˈvimuʃ/	/ˈseɾvɐ̃j/		Portugues::Curso::2A2
+admitir + presente	Admitir	presente	Admito	Admites	Admite	Admitimos	Admitem	/ɐdˈmitu/	/ɐdˈmitɨʃ/	/ɐdˈmitɨ/	/ɐdmɨˈtimuʃ/	/ɐdˈmitɐ̃j/		Portugues::Curso::2A2
+traduzir + presente	Traduzir	presente	Traduzo	Traduzes	Traduz	Traduzimos	Traduzem	/tɾɐˈduzu/	/tɾɐˈduzɨʃ/	/tɾɐˈduʃ/	/tɾɐduˈzimuʃ/	/tɾɐˈduzɐ̃j/		Portugues::Curso::2A2
+introduzir + presente	Introduzir	presente	Introduzo	Introduzes	Introduz	Introduzimos	Introduzem	/ĩtɾuˈduzu/	/ĩtɾuˈduzɨʃ/	/ĩtɾuˈduʃ/	/ĩtɾuduˈzimuʃ/	/ĩtɾuˈduzɐ̃j/		Portugues::Curso::2A2
+reunir + presente	Reunir	presente	Reúno	Reúnes	Reúne	Reunimos	Reúnem	/ʁiˈunu/	/ʁiˈunɨʃ/	/ʁiˈunɨ/	/ʁiuˈnimuʃ/	/ʁiˈunɐ̃j/		Portugues::Curso::2A2
+permitir + presente	Permitir	presente	Permito	Permites	Permite	Permitimos	Permitem	/pɨɾˈmitu/	/pɨɾˈmitɨʃ/	/pɨɾˈmitɨ/	/pɨɾmɨˈtimuʃ/	/pɨɾˈmitɐ̃j/		Portugues::Curso::2A2
+repetir + presente	Repetir	presente	Repito	Repetes	Repete	Repetimos	Repetem	/ʁɨˈpitu/	/ʁɨˈpetɨʃ/	/ʁɨˈpetɨ/	/ʁɨpɨˈtimuʃ/	/ʁɨˈpetɐ̃j/		Portugues::Curso::2A2
+abrir + presente	Abrir	presente	Abro	Abres	Abre	Abrimos	Abrem	/ˈabɾu/	/ˈabɾɨʃ/	/ˈabɾɨ/	/ɐˈbɾimuʃ/	/ˈabɾɐ̃j/		Portugues::Curso::2A2
+decidir + presente	Decidir	presente	Decido	Decides	Decide	Decidimos	Decidem	/dɨˈsidu/	/dɨˈsidɨʃ/	/dɨˈsidɨ/	/dɨsɨˈdimuʃ/	/dɨˈsidɐ̃j/		Portugues::Curso::2A2
+descer + presente	Descer (Bajar)	presente	Desço	Desces	Desce	Descemos	Descem	/ˈdeʃsu/	/ˈdeʃsɨʃ/	/ˈdeʃsɨ/	/dɨʃˈsemuʃ/	/ˈdeʃsɐ̃j/		Portugues::Curso::2A2
+esquecer + presente	Esquecer (Olvidar)	presente	Esqueço	Esqueces	Esquece	Esquecemos	Esquecem	/ʃˈkesu/	/ʃˈkesɨʃ/	/ʃˈkesɨ/	/ʃkɨˈsemuʃ/	/ʃˈkesɐ̃j/		Portugues::Curso::2A2
+aquecer + presente	Aquecer (Calentar)	presente	Aqueço	Aqueces	Aquece	Aquecemos	Aquecem	/ɐˈkesu/	/ɐˈkesɨʃ/	/ɐˈkesɨ/	/ɐkɨˈsemuʃ/	/ɐˈkesɐ̃j/		Portugues::Curso::2A2
+proteger + presente	Proteger	presente	Protejo	Proteges	Protege	Protegemos	Protegem	/pɾuˈtɐjʒu/	/pɾuˈteʒɨʃ/	/pɾuˈteʒɨ/	/pɾutɨˈʒemuʃ/	/pɾuˈteʒɐ̃j/		Portugues::Curso::2A2
+perceber + presente	Perceber (Percibir, notar)	presente	Percebo	Percebes	Percebe	Percebemos	Percebem	/pɨɾˈsebu/	/pɨɾˈsebɨʃ/	/pɨɾˈsebɨ/	/pɨɾsɨˈbemuʃ/	/pɨɾˈsebɐ̃j/		Portugues::Curso::2A2
+beber + presente	Beber	presente	Bebo	Bebes	Bebe	Bebemos	Bebem	/ˈbebu/	/ˈbebɨʃ/	/ˈbebɨ/	/bɨˈbemuʃ/	/ˈbebɐ̃j/		Portugues::Curso::2A2
+compreender + presente	Compreender (Comprender)	presente	Compreendo	Compreendes	Compreende	Compreendemos	Compreendem	/kõpɾiˈẽdu/	/kõpɾiˈẽdɨʃ/	/kõpɾiˈẽdɨ/	/kõpɾiẽˈdemuʃ/	/kõpɾiˈẽdɐ̃j/		Portugues::Curso::2A2
+aprender + presente	Aprender	presente	Aprendo	Aprendes	Aprende	Aprendemos	Aprendem	/ɐˈpɾẽdu/	/ɐˈpɾẽdɨʃ/	/ɐˈpɾẽdɨ/	/ɐpɾẽˈdemuʃ/	/ɐˈpɾẽdɐ̃j/		Portugues::Curso::2A2
+viver + presente	Viver (Vivir)	presente	Vivo	Vives	Vive	Vivemos	Vivem	/ˈvivu/	/ˈvivɨʃ/	/ˈvivɨ/	/viˈvemuʃ/	/ˈvivɐ̃j/		Portugues::Curso::2A2
+escrever + presente	Escrever (Escribir)	presente	Escrevo	Escreves	Escreve	Escrevemos	Escrevem	/ʃˈkɾevu/	/ʃˈkɾevɨʃ/	/ʃˈkɾevɨ/	/ʃkɾɨˈvemuʃ/	/ʃˈkɾevɐ̃j/		Portugues::Curso::2A2
+atender + presente	Atender	presente	Atendo	Atendes	Atende	Atendemos	Atendem	/ɐˈtẽdu/	/ɐˈtẽdɨʃ/	/ɐˈtẽdɨ/	/ɐtẽˈdemuʃ/	/ɐˈtẽdɐ̃j/		Portugues::Curso::2A2
+receber + presente	Receber (Recibir)	presente	Recebo	Recebes	Recebe	Recebemos	Recebem	/ʁɨˈsebu/	/ʁɨˈsebɨʃ/	/ʁɨˈsebɨ/	/ʁɨsɨˈbemuʃ/	/ʁɨˈsebɐ̃j/		Portugues::Curso::2A2
+dever + presente	Dever (Deber)	presente	Devo	Deves	Deve	Devemos	Devem	/ˈdevu/	/ˈdevɨʃ/	/ˈdevɨ/	/dɨˈvemuʃ/	/ˈdevɐ̃j/	Deber de obligación y de tener que pagar.	Portugues::Curso::2A2
+construir + presente	Construir	presente	Construo	Constróis	Constrói	Construímos	Constroem	/kõʃˈtɾuu/	/kõʃˈtɾɔjʃ/	/kõʃˈtɾɔj/	/kõʃtɾuˈimuʃ/	/kõʃˈtɾoɐ̃j/		Portugues::Curso::2A2
+destruir + presente	Destruir	presente	Destruo	Destróis	Destrói	Destruímos	Destroem	/dɨʃˈtɾuu/	/dɨʃˈtɾɔjʃ/	/dɨʃˈtɾɔj/	/dɨʃtɾuˈimuʃ/	/dɨʃˈtɾoɐ̃j/		Portugues::Curso::2A2
+falar + presente	Falar (Hablar)	presente	Falo	Falas	Fala	Falamos	Falam	/ˈfaɫu/	/ˈfaɫɐʃ/	/ˈfaɫɐ/	/fɐˈɫɐmuʃ/	/ˈfaɫɐ̃w/		Portugues::Curso::2A2
+morar + presente	Morar (Residir)	presente	Moro	Moras	Mora	Moramos	Moram	/ˈmoɾu/	/ˈmoɾɐʃ/	/ˈmoɾɐ/	/muˈɾɐmuʃ/	/ˈmoɾɐ̃w/		Portugues::Curso::2A2
+jogar + presente	Jogar (Jugar C/Reglas E.G. Fútbol, Ajedrez)	presente	Jogo	Jogas	Joga	Jogamos	Jogam	/ˈʒogu/	/ˈʒogɐʃ/	/ˈʒogɐ/	/ʒuˈgɐmuʃ/	/ˈʒogɐ̃w/		Portugues::Curso::2A2
+tomar + presente	Tomar	presente	Tomo	Tomas	Toma	Tomamos	Tomam	/ˈtomu/	/ˈtomɐʃ/	/ˈtomɐ/	/tuˈmɐmuʃ/	/ˈtomɐ̃w/		Portugues::Curso::2A2
+almoçar + presente	Almoçar (Comer, almorzar)	presente	Almoço	Almoças	Almoça	Almoçamos	Almoçam	/aɫˈmosu/	/aɫˈmosɐʃ/	/aɫˈmosɐ/	/aɫmuˈsɐmuʃ/	/aɫˈmosɐ̃w/		Portugues::Curso::2A2
+jantar + presente	Jantar (Cenar)	presente	Janto	Jantas	Janta	Jantamos	Jantam	/ˈʒɐ̃tu/	/ˈʒɐ̃tɐʃ/	/ˈʒɐ̃tɐ/	/ʒɐ̃ˈtɐmuʃ/	/ˈʒɐ̃tɐ̃w/		Portugues::Curso::2A2
+gostar + presente	Gostar (Gustar)	presente	Gosto	Gostas	Gosta	Gostamos	Gostam	/ˈgoʃtu/	/ˈgoʃtɐʃ/	/ˈgoʃtɐ/	/guʃˈtɐmuʃ/	/ˈgoʃtɐ̃w/		Portugues::Curso::2A2
+fechar + presente	Fechar (Cerrar)	presente	Fecho	Fechas	Fecha	Fechamos	Fecham	/ˈfɐjʃu/	/ˈfɐjʃɐʃ/	/ˈfɐjʃɐ/	/fɨˈʃɐmuʃ/	/ˈfɐjʃɐ̃w/		Portugues::Curso::2A2
+trabalhar + presente	Trabalhar (Trabajar)	presente	Trabalho	Trabalhas	Trabalha	Trabalhamos	Trabalham	/tɾɐˈbaʎu/	/tɾɐˈbaʎɐʃ/	/tɾɐˈbaʎɐ/	/tɾɐbɐˈʎɐmuʃ/	/tɾɐˈbaʎɐ̃w/		Portugues::Curso::2A2
+practicar + presente	Praticar (Practicar)	presente	Pratico	Praticas	Pratica	Praticamos	Praticam	/pɾɐˈtiku/	/pɾɐˈtikɐʃ/	/pɾɐˈtikɐ/	/pɾɐtiˈkɐmuʃ/	/pɾɐˈtikɐ̃w/		Portugues::Curso::2A2
+acordar + presente	Acordar (Despertarse)	presente	Acordo	Acordas	Acorda	Acordamos	Acordam	/ɐˈkoɾdu/	/ɐˈkoɾdɐʃ/	/ɐˈkoɾdɐ/	/ɐkuɾˈdɐmuʃ/	/ɐˈkoɾdɐ̃w/		Portugues::Curso::2A2
+apanhar + presente	Apanhar (Agarrar, Tomar)	presente	Apanho	Apanhas	Apanha	Apanhamos	Apanham	/ɐˈpɐɲu/	/ɐˈpɐɲɐʃ/	/ɐˈpɐɲɐ/	/ɐpɐˈɲɐmuʃ/	/ɐˈpɐɲɐ̃w/		Portugues::Curso::2A2
+estudar + presente	Estudar (Estudiar)	presente	Estudo	Estudas	Estuda	Estudamos	Estudam	/ʃˈtudu/	/ʃˈtudɐʃ/	/ʃˈtudɐ/	/ʃtuˈdɐmuʃ/	/ʃˈtudɐ̃w/		Portugues::Curso::2A2
+ficar + presente	Ficar (Quedarse)	presente	Fico	Ficas	Fica	Ficamos	Ficam	/ˈfiku/	/ˈfikɐʃ/	/ˈfikɐ/	/fiˈkɐmuʃ/	/ˈfikɐ̃w/		Portugues::Curso::2A2
+começar + presente	Começar (Empezar)	presente	Começo	Começas	Começa	Começamos	Começam	/kuˈmesu/	/kuˈmesɐʃ/	/kuˈmesɐ/	/kumɨˈsɐmuʃ/	/kuˈmesɐ̃w/		Portugues::Curso::2A2
+pagar + presente	Pagar	presente	Pago	Pagas	Paga	Pagamos	Pagam	/ˈpagu/	/ˈpagɐʃ/	/ˈpagɐ/	/pɐˈgɐmuʃ/	/ˈpagɐ̃w/		Portugues::Curso::2A2
+lavar + presente	Lavar	presente	Lavo	Lavas	Lava	Lavamos	Lavam	/ˈɫavu/	/ˈɫavɐʃ/	/ˈɫavɐ/	/ɫɐˈvɐmuʃ/	/ˈɫavɐ̃w/		Portugues::Curso::2A2
+usar + presente	Usar	presente	Uso	Usas	Usa	Usamos	Usam	/ˈuzu/	/ˈuzɐʃ/	/ˈuzɐ/	/uˈzɐmuʃ/	/ˈuzɐ̃w/		Portugues::Curso::2A2
+pensar + presente	Pensar	presente	Penso	Pensas	Pensa	Pensamos	Pensam	/ˈpẽsu/	/ˈpẽsɐʃ/	/ˈpẽsɐ/	/pẽˈsɐmuʃ/	/ˈpẽsɐ̃w/		Portugues::Curso::2A2
+viajar + presente	Viajar	presente	Viajo	Viajas	Viaja	Viajamos	Viajam	/viˈaʒu/	/viˈaʒɐʃ/	/viˈaʒɐ/	/viɐˈʒɐmuʃ/	/viˈaʒɐ̃w/		Portugues::Curso::2A2
+beijar + presente	Beijar (Besar)	presente	Beijo	Beijas	Beija	Beijamos	Beijam	/ˈbɐjʒu/	/ˈbɐjʒɐʃ/	/ˈbɐjʒɐ/	/bɐjˈʒɐmuʃ/	/ˈbɐjʒɐ̃w/		Portugues::Curso::2A2
+cantar + presente	Cantar	presente	Canto	Cantas	Canta	Cantamos	Cantam	/ˈkɐ̃tu/	/ˈkɐ̃tɐʃ/	/ˈkɐ̃tɐ/	/kɐ̃ˈtɐmuʃ/	/ˈkɐ̃tɐ̃w/		Portugues::Curso::2A2
+chamar + presente	Chamar (Llamar)	presente	Chamo	Chamas	Chama	Chamamos	Chamam	/ˈʃɐmu/	/ˈʃɐmɐʃ/	/ˈʃɐmɐ/	/ʃɐˈmɐmuʃ/	/ˈʃɐmɐ̃w/		Portugues::Curso::2A2
+achar + presente	Achar (Pensar)	presente	Acho	Achas	Acha	Achamos	Acham	/ˈaʃu/	/ˈaʃɐʃ/	/ˈaʃɐ/	/ɐˈʃɐmuʃ/	/ˈaʃɐ̃w/		Portugues::Curso::2A2
+costumar + presente	Costumar (Soler, i.e. hacer alguna cosa)	presente	Costumo	Costumas	Costuma	Costumamos	Costumam	/kuʃˈtumu/	/kuʃˈtumɐʃ/	/kuʃˈtumɐ/	/kuʃtuˈmɐmuʃ/	/kuʃˈtumɐ̃w/		Portugues::Curso::2A2
+dançar + presente	Dançar (Bailar)	presente	Danço	Danças	Dança	Dançamos	Dançam	/ˈdɐ̃su/	/ˈdɐ̃sɐʃ/	/ˈdɐ̃sɐ/	/dɐ̃ˈsɐmuʃ/	/ˈdɐ̃sɐ̃w/		Portugues::Curso::2A2
+deixar + presente	Deixar (Dejar)	presente	Deixo	Deixas	Deixa	Deixamos	Deixam	/ˈdɐjʃu/	/ˈdɐjʃɐʃ/	/ˈdɐjʃɐ/	/dɐjˈʃɐmuʃ/	/ˈdɐjʃɐ̃w/		Portugues::Curso::2A2
+ligar + presente	Ligar (Encender, Prender, Telefonear)	presente	Ligo	Ligas	Liga	Ligamos	Ligam	/ˈɫigu/	/ˈɫigɐʃ/	/ˈɫigɐ/	/ɫiˈgɐmuʃ/	/ˈɫigɐ̃w/		Portugues::Curso::2A2
+precisar + presente	Precisar (Necesitar)	presente	Preciso	Precisas	Precisa	Precisamos	Precisam	/pɾɨˈsizu/	/pɾɨˈsizɐʃ/	/pɾɨˈsizɐ/	/pɾɨsiˈzɐmuʃ/	/pɾɨˈsizɐ̃w/		Portugues::Curso::2A2
+ver + presente	Ver	presente	Vejo	Vês	Vê	Vemos	Veem	/ˈvɐjʒu/	/ˈveʃ/	/ˈve/	/ˈvemuʃ/	/ˈveɐ̃j/		Portugues::Curso::2A2
+saber + presente	Saber	presente	Sei	Sabes	Sabe	Sabemos	Sabem	/ˈsɐj/	/ˈsabɨʃ/	/ˈsabɨ/	/sɐˈbemuʃ/	/ˈsabɐ̃j/		Portugues::Curso::2A2
+estar + presente	Estar	presente	Estou	Estás	Está	Estamos	Estão	/ʃˈto/	/ʃˈtaʃ/	/ʃˈta/	/ʃˈtɐmuʃ/	/ʃˈtɐ̃w/		Portugues::Curso::2A2
+ter + presente	Ter (Tener)	presente	Tenho	Tens	Tem	Temos	Têm	/ˈtɐɲu/	/tɐ̃jʃ/	/tɐ̃j/	/ˈtemuʃ/	/ˈtɐ̃jɐ̃j/		Portugues::Curso::2A2
+dar + presente	Dar	presente	Dou	Dás	Dá	Damos	Dão	/ˈdo/	/ˈdaʃ/	/ˈda/	/ˈdɐmuʃ/	/ˈdɐ̃w/		Portugues::Curso::2A2
+chamar-se + presente	Chamar-se (Llamarse)	presente	Chamo-me	Chamas-te	Chama-se	Chamamo-nos	Chamam-se	/ˈʃɐmu-mɨ/	/ˈʃɐmɐʃ-tɨ/	/ˈʃɐmɐ-sɨ/	/ʃɐˈmɐmu-nuʃ/	/ˈʃɐmɐ̃w-sɨ/		Portugues::Curso::2A2
+levantar-se + presente	Levantar-se	presente	Levanto-me	Levantas-te	Levanta-se	Levantamo-nos	Levantam-se	/ɫɨˈvɐ̃tu-mɨ/	/ɫɨˈvɐ̃tɐʃ-tɨ/	/ɫɨˈvɐ̃tɐ-sɨ/	/ɫɨvɐ̃ˈtɐmu-nuʃ/	/ɫɨˈvɐ̃tɐ̃w-sɨ/		Portugues::Curso::2A2
+deitar-se + presente	Deitar-se (Acostarse)	presente	Deito-me	Deitas-te	Deita-se	Deitamo-nos	Deitam-se	/ˈdɐjtu-mɨ/	/ˈdɐjtɐʃ-tɨ/	/ˈdɐjtɐ-sɨ/	/dɐjˈtɐmu-nuʃ/	/ˈdɐjtɐ̃w-sɨ/		Portugues::Curso::2A2
+lembrar-se + presente	Lembrar-se  (Acordarse)	presente	Lembro-me	Lembras-te	Lembra-se	Lembramo-nos	Lembram-se	/ˈɫẽbɾu-mɨ/	/ˈɫẽbɾɐʃ-tɨ/	/ˈɫẽbɾɐ-sɨ/	/ɫẽˈbɾɐmu-nuʃ/	/ˈɫẽbɾɐ̃w-sɨ/		Portugues::Curso::2A2
+telefonar + presente	Telefonar	presente	Telefono	Telefonas	Telefona	Telefonamos	Telefonam	/tɨɫɨˈfonu/	/tɨɫɨˈfonɐʃ/	/tɨɫɨˈfonɐ/	/tɨɫɨfuˈnɐmuʃ/	/tɨɫɨˈfonɐ̃w/		Portugues::Curso::2A2
+combinar + presente	Combinar (Acordar, Pactar)	presente	Combino	Combinas	Combina	Combinamos	Combinam	/kõˈbinu/	/kõˈbinɐʃ/	/kõˈbinɐ/	/kõbiˈnɐmuʃ/	/kõˈbinɐ̃w/		Portugues::Curso::2A2
+convidar + presente	Convidar (Invitar)	presente	Convido	Convidas	Convida	Convidamos	Convidam	/kõˈvidu/	/kõˈvidɐʃ/	/kõˈvidɐ/	/kõviˈdɐmuʃ/	/kõˈvidɐ̃w/		Portugues::Curso::2A2
+empurrar + presente	Empurrar (Empujar)	presente	Empurro	Empurras	Empurra	Empurramos	Empurram	/ẽˈpuʁu/	/ẽˈpuʁɐʃ/	/ẽˈpuʁɐ/	/ẽpuˈʁɐmuʃ/	/ẽˈpuʁɐ̃w/		Portugues::Curso::2A2
+puxar + presente	Puxar (Tirar De, Jalar)	presente	Puxo	Puxas	Puxa	Puxamos	Puxam	/ˈpuʃu/	/ˈpuʃɐʃ/	/ˈpuʃɐ/	/puˈʃɐmuʃ/	/ˈpuʃɐ̃w/		Portugues::Curso::2A2
+mudar + presente	Mudar (Cambiar)	presente	Mudo	Mudas	Muda	Mudamos	Mudam	/ˈmudu/	/ˈmudɐʃ/	/ˈmudɐ/	/muˈdɐmuʃ/	/ˈmudɐ̃w/		Portugues::Curso::2A2
+correr + presente	Correr	presente	Corro	Corres	Corre	Corremos	Correm	/ˈkoʁu/	/ˈkoʁɨʃ/	/ˈkoʁɨ/	/kuˈʁemuʃ/	/ˈkoʁɐ̃j/		Portugues::Curso::2A2
+afagar + presente	Afagar (Acariciar)	presente	Afago	Afagas	Afaga	Afagamos	Afagam	/ɐˈfagu/	/ɐˈfagɐʃ/	/ɐˈfagɐ/	/ɐfɐˈgɐmuʃ/	/ɐˈfagɐ̃w/		Portugues::Curso::2A2
+pegar + presente	Pegar (Coger, Tomar)	presente	Pego	Pegas	Pega	Pegamos	Pegam	/ˈpegu/	/ˈpegɐʃ/	/ˈpegɐ/	/pɨˈgɐmuʃ/	/ˈpegɐ̃w/		Portugues::Curso::2A2
+Crer + presente	Crer (Creer)	presente	Creio	Crês	Crê	Cremos	Creem	/ˈkɾɐju/	/ˈkɾeʃ/	/ˈkɾe/	/ˈkɾemuʃ/	/ˈkɾeɐ̃j/		Portugues::Curso::2A2
+Ler + presente	Ler (Leer)	presente	Leio	Lês	Lê	Lemos	Leem	/ˈɫɐju/	/ˈɫeʃ/	/ˈɫe/	/ˈɫemuʃ/	/ˈɫeɐ̃j/		Portugues::Curso::2A2
+Querer + presente	Querer	presente	Quero	Queres	Quer	Queremos	Querem	/ˈkeɾu/	/ˈkeɾɨʃ/	/ˈkeɾ/	/kɨˈɾemuʃ/	/ˈkeɾɐ̃j/		Portugues::Curso::2A2
+Fazer + presente	Fazer (Hacer)	presente	Faço	Fazes	Faz	Fazemos	Fazem	/ˈfasu/	/ˈfazɨʃ/	/ˈfaʃ/	/fɐˈzemuʃ/	/ˈfazɐ̃j/		Portugues::Curso::2A2
+Dizer + presente	Dizer (Decir)	presente	Digo	Dizes	Diz	Dizemos	Dizem	/ˈdigu/	/ˈdizɨʃ/	/ˈdiʃ/	/diˈzemuʃ/	/ˈdizɐ̃j/		Portugues::Curso::2A2
+Trazer + presente	Trazer (Traer)	presente	Trago	Traes	Trae	Traemos	Traem	/ˈtɾagu/	/ˈtɾaɨʃ/	/ˈtɾai/	/tɾɐˈemuʃ/	/ˈtɾaɐ̃j/		Portugues::Curso::2A2
+Poder + presente	Poder	presente	Posso	Podes	Pode	Podemos	Podem	/ˈposu/	/ˈpodɨʃ/	/ˈpodɨ/	/puˈdemuʃ/	/ˈpodɐ̃j/		Portugues::Curso::2A2
+Perder + presente	Perder	presente	Perco	Perdes	Perde	Perdemos	Perdem	/ˈpeɾku/	/ˈpeɾdɨʃ/	/ˈpeɾdɨ/	/pɨɾˈdemuʃ/	/ˈpeɾdɐ̃j/		Portugues::Curso::2A2
+Ser + presente	Ser	presente	Sou	És	É	Somos	São	/ˈso/	/ˈɛʃ/	/ˈɛ/	/ˈsomuʃ/	/ˈsɐ̃w/		Portugues::Curso::2A2
+abranger + presente	Abranger (Cubrir, Abarcar)	presente	Abranjo	Abranges	Abrange	Abrangemos	Abrangem	/ɐˈbɾɐ̃ʒu/	/ɐˈbɾɐ̃ʒɨʃ/	/ɐˈbɾɐ̃ʒɨ/	/ɐbɾɐ̃ˈʒemuʃ/	/ɐˈbɾɐ̃ʒɐ̃j/		Portugues::Curso::2A2
+acabar + presente	Acabar	presente	Acabo	Acabas	Acaba	Acabamos	Acabam	/ɐˈkabu/	/ɐˈkabɐʃ/	/ɐˈkabɐ/	/ɐkɐˈbɐmuʃ/	/ɐˈkabɐ̃w/		Portugues::Curso::2A2
+aceitar + presente	Aceitar (Aceptar)	presente	Aceito	Aceitas	Aceita	Aceitamos	Aceitam	/ɐˈsɐjtu/	/ɐˈsɐjtɐʃ/	/ɐˈsɐjtɐ/	/ɐsɐjˈtɐmuʃ/	/ɐˈsɐjtɐ̃w/		Portugues::Curso::2A2
+afastar-se + presente	Afastar-se (Apartarse, Alejarse)	presente	Afasto-me	Afastas-te	Afasta-se	Afastamo-nos	Afastam-se	/ɐˈfaʃtu-mɨ/	/ɐˈfaʃtɐʃ-tɨ/	/ɐˈfaʃtɐ-sɨ/	/ɐfɐʃˈtɐmu-nuʃ/	/ɐˈfaʃtɐ̃w-sɨ/		Portugues::Curso::2A2
+andar + presente	Andar	presente	Ando	Andas	Anda	Andamos	Andam	/ˈɐ̃du/	/ˈɐ̃dɐʃ/	/ˈɐ̃dɐ/	/ɐ̃ˈdɐmuʃ/	/ˈɐ̃dɐ̃w/		Portugues::Curso::2A2
+arranjar + presente	Arranjar (Ordenar)	presente	Arranjo	Arranjas	Arranja	Arranjamos	Arranjam	/aˈʁɐ̃ʒu/	/aˈʁɐ̃ʒɐʃ/	/aˈʁɐ̃ʒɐ/	/aʁɐ̃ˈʒɐmuʃ/	/aˈʁɐ̃ʒɐ̃w/		Portugues::Curso::2A2
+arranjar-se + presente	Arranjar-se (Arreglarse)	presente	Arranjo-me	Arranjas-te	Arranja-se	Arranjamo-nos	Arranjam-se	/aˈʁɐ̃ʒu-mɨ/	/aˈʁɐ̃ʒɐʃ-tɨ/	/aˈʁɐ̃ʒɐ-sɨ/	/aʁɐ̃ˈʒɐmu-nuʃ/	/aˈʁɐ̃ʒɐ̃w-sɨ/		Portugues::Curso::2A2
+assistir + presente	Assistir (Asistir, Ayudar)	presente	Assisto	Assistes	Assiste	Assistimos	Assistem	/ɐˈsiʃtu/	/ɐˈsiʃtɨʃ/	/ɐˈsiʃtɨ/	/ɐsɨʃˈtimuʃ/	/ɐˈsiʃtɐ̃j/		Portugues::Curso::2A2
+assombrar + presente	Assombrar (perseguir, aparecerse, dejar pasmado)	presente	Assombro	Assombras	Assombra	Assombramos	Assombram	/ɐˈsõbɾu/	/ɐˈsõbɾɐʃ/	/ɐˈsõbɾɐ/	/ɐsõˈbɾɐmuʃ/	/ɐˈsõbɾɐ̃w/		Portugues::Curso::2A2
+atribuir + presente	Atribuir	presente	Atribuo	Atribuis	Atribui	Atribuímos	Atribuem	/ɐtɾiˈbuu/	/ɐtɾiˈbujʃ/	/ɐtɾiˈbuj/	/ɐtɾibuˈimuʃ/	/ɐtɾiˈbuɐ̃j/		Portugues::Curso::2A2
+brincar + presente	Brincar (Jugar s/reglas, por ejemplo a las muñecas)	presente	Brinco	Brincas	Brinca	Brincamos	Brincam	/ˈbɾĩku/	/ˈbɾĩkɐʃ/	/ˈbɾĩkɐ/	/bɾĩˈkɐmuʃ/	/ˈbɾĩkɐ̃w/		Portugues::Curso::2A2
+cair + presente	Cair (Caer)	presente	Caio	Cais	Cai	Caímos	Caem	/ˈkaju/	/ˈkajʃ/	/ˈkaj/	/kɐˈimuʃ/	/ˈkaɐ̃j/		Portugues::Curso::2A2
+comprar + presente	Comprar	presente	Compro	Compras	Compra	Compramos	Compram	/ˈkõpɾu/	/ˈkõpɾɐʃ/	/ˈkõpɾɐ/	/kõˈpɾɐmuʃ/	/ˈkõpɾɐ̃w/		Portugues::Curso::2A2
+conduzir + presente	Conduzir	presente	Conduzo	Conduzes	Conduz	Conduzimos	Conduzem	/kõˈduzu/	/kõˈduzɨʃ/	/kõˈduʃ/	/kõduˈzimuʃ/	/kõˈduzɐ̃j/		Portugues::Curso::2A2
+conhecer + presente	Conhecer (Conocer)	presente	Conheço	Conheces	Conhece	Conhecemos	Conhecem	/kuˈɲesu/	/kuˈɲesɨʃ/	/kuˈɲesɨ/	/kuɲɨˈsemuʃ/	/kuˈɲesɐ̃j/		Portugues::Curso::2A2
+constituir + presente	Constituir	presente	Constituo	Constituís	Constitui	Constituímos	Constituem	/kõʃtiˈtuu/	/kõʃtituˈiʃ/	/kõʃtiˈtuj/	/kõʃtituˈimuʃ/	/kõʃtiˈtuɐ̃j/		Portugues::Curso::2A2
+cumprir + presente	Cumprir (Cumplir por ejemplo, años)	presente	Cumpro	Cumpres	Cumpre	Cumprimos	Cumprem	/ˈkũpɾu/	/ˈkũpɾɨʃ/	/ˈkũpɾɨ/	/kũˈpɾimuʃ/	/ˈkũpɾɐ̃j/		Portugues::Curso::2A2
+debater + presente	Debater	presente	Debato	Debates	Debate	Debatemos	Debatem	/dɨˈbatu/	/dɨˈbatɨʃ/	/dɨˈbatɨ/	/dɨbɐˈtemuʃ/	/dɨˈbatɐ̃j/		Portugues::Curso::2A2
+desistir + presente	Desistir	presente	Desisto	Desistes	Desiste	Desistimos	Desistem	/dɨˈziʃtu/	/dɨˈziʃtɨʃ/	/dɨˈziʃtɨ/	/dɨzɨʃˈtimuʃ/	/dɨˈziʃtɐ̃j/		Portugues::Curso::2A2
+despir-se + presente	Despir-se (Desvestirse)	presente	Dispo-me	Despes-te	Despe-se	Despimo-nos	Despem-se	/ˈdiʃpu-mɨ/	/ˈdeʃpɨʃ-tɨ/	/ˈdeʃpɨ-sɨ/	/dɨʃˈpimu-nuʃ/	/ˈdeʃpɐ̃j-sɨ/		Portugues::Curso::2A2
+discutir + presente	Discutir	presente	Discuto	Discutes	Discute	Discutimos	Discutem	/dɨʃˈkutu/	/dɨʃˈkutɨʃ/	/dɨʃˈkutɨ/	/dɨʃkuˈtimuʃ/	/dɨʃˈkutɐ̃j/		Portugues::Curso::2A2
+distribuir + presente	Distribuir	presente	Distribuo	Distribuis	Distribui	Distribuímos	Distribuem	/dɨʃtɾiˈbuu/	/dɨʃtɾiˈbujʃ/	/dɨʃtɾiˈbuj/	/dɨʃtɾibuˈimuʃ/	/dɨʃtɾiˈbuɐ̃j/		Portugues::Curso::2A2
+dividir + presente	Dividir	presente	Divido	Divides	Divide	Dividimos	Dividem	/dɨˈvidu/	/dɨˈvidɨʃ/	/dɨˈvidɨ/	/dɨvɨˈdimuʃ/	/dɨˈvidɐ̃j/		Portugues::Curso::2A2
+dormir + presente	Dormir	presente	Durmo	Dormes	Dorme	Dormimos	Dormem	/ˈduɾmu/	/ˈdoɾmɨʃ/	/ˈdoɾmɨ/	/duɾˈmimuʃ/	/ˈdoɾmɐ̃j/		Portugues::Curso::2A2
+encontrar + presente	Encontrar	presente	Encontro	Encontras	Encontra	Encontramos	Encontram	/ẽˈkõtɾu/	/ẽˈkõtɾɐʃ/	/ẽˈkõtɾɐ/	/ẽkõˈtɾɐmuʃ/	/ẽˈkõtɾɐ̃w/		Portugues::Curso::2A2
+encontrar-se + presente	Encontrar-se	presente	Encontro-me	Encontras-te	Encontra-se	Encontramo-nos	Encontram-se	/ẽˈkõtɾu-mɨ/	/ẽˈkõtɾɐʃ-tɨ/	/ẽˈkõtɾɐ-sɨ/	/ẽkõˈtɾɐmu-nuʃ/	/ẽˈkõtɾɐ̃w-sɨ/		Portugues::Curso::2A2
+ensinar + presente	Ensinar (Enseñar)	presente	Ensino	Ensinas	Ensina	Ensinamos	Ensinam	/ẽˈsinu/	/ẽˈsinɐʃ/	/ẽˈsinɐ/	/ẽsiˈnɐmuʃ/	/ẽˈsinɐ̃w/		Portugues::Curso::2A2
+entender + presente	Entender	presente	Entendo	Entendes	Entende	Entendemos	Entendem	/ẽˈtẽdu/	/ẽˈtẽdɨʃ/	/ẽˈtẽdɨ/	/ẽtẽˈdemuʃ/	/ẽˈtẽdɐ̃j/		Portugues::Curso::2A2
+entrar + presente	Entrar	presente	Entro	Entras	Entra	Entramos	Entram	/ˈẽtɾu/	/ˈẽtɾɐʃ/	/ˈẽtɾɐ/	/ẽˈtɾɐmuʃ/	/ˈẽtɾɐ̃w/		Portugues::Curso::2A2
+esquecer-se + presente	Esquecer-se	presente	Esqueço-me	Esqueces-te	Esquece-se	Esquecemo-nos	Esquecem-se	/ʃˈkesu-mɨ/	/ʃˈkesɨʃ-tɨ/	/ʃˈkesɨ-sɨ/	/ʃkɨˈsemu-nuʃ/	/ʃˈkesɐ̃j-sɨ/		Portugues::Curso::2A2
+esquentar + presente	Esquentar (Calentar)	presente	Esquento	Esquentas	Esquenta	Esquentamos	Esquentam	/ʃˈkẽtu/	/ʃˈkẽtɐʃ/	/ʃˈkẽtɐ/	/ʃkẽˈtɐmuʃ/	/ʃˈkẽtɐ̃w/		Portugues::Curso::2A2
+fugir + presente	Fugir (Huir)	presente	Fujo	Fuges	Foge	Fugimos	Fugem	/ˈfuʒu/	/ˈfuʒɨʃ/	/ˈfoʒɨ/	/fuˈʒimuʃ/	/ˈfuʒɐ̃j/		Portugues::Curso::2A2
+ganhar + presente	Ganhar (Ganar)	presente	Ganho	Ganhas	Ganha	Ganhamos	Ganham	/ˈgɐɲu/	/ˈgɐɲɐʃ/	/ˈgɐɲɐ/	/gɐˈɲɐmuʃ/	/ˈgɐɲɐ̃w/		Portugues::Curso::2A2
+girar + presente	Girar	presente	Giro	Giras	Gira	Giramos	Giram	/ˈʒiɾu/	/ˈʒiɾɐʃ/	/ˈʒiɾɐ/	/ʒiˈɾɐmuʃ/	/ˈʒiɾɐ̃w/		Portugues::Curso::2A2
+imprimir + presente	Imprimir	presente	Imprimo	Imprimes	Imprime	Imprimimos	Imprimem	/ĩˈpɾimu/	/ĩˈpɾimɨʃ/	/ĩˈpɾimɨ/	/ĩpɾɨˈmimuʃ/	/ĩˈpɾimɐ̃j/		Portugues::Curso::2A2
+interpretar + presente	Interpretar	presente	Interpreto	Interpretas	Interpreta	Interpretamos	Interpretam	/ĩtɨɾˈpɾetu/	/ĩtɨɾˈpɾetɐʃ/	/ĩtɨɾˈpɾetɐ/	/ĩtɨɾpɾɨˈtɐmuʃ/	/ĩtɨɾˈpɾetɐ̃w/		Portugues::Curso::2A2
+investigar + presente	Investigar	presente	Investigo	Investigas	Investiga	Investigamos	Investigam	/ĩvɨʃˈtigu/	/ĩvɨʃˈtigɐʃ/	/ĩvɨʃˈtigɐ/	/ĩvɨʃtiˈgɐmuʃ/	/ĩvɨʃˈtigɐ̃w/		Portugues::Curso::2A2
+ir + presente	Ir	presente	Vou	Vais	Vai	Vamos	Vão	/ˈvo/	/ˈvajʃ/	/ˈvaj/	/ˈvɐmuʃ/	/ˈvɐ̃w/		Portugues::Curso::2A2
+lanchar + presente	Lanchar (Comer, Picar, viene de &quot;lunch&quot;)	presente	Lanço	Lanças	Lança	Lançamos	Lançam	/ˈɫɐ̃su/	/ˈɫɐ̃sɐʃ/	/ˈɫɐ̃sɐ/	/ɫɐ̃ˈsɐmuʃ/	/ˈɫɐ̃sɐ̃w/		Portugues::Curso::2A2
+lavar-se + presente	Lavar-se	presente	Lavo-me	Lavas-te	Lava-se	Lavamo-nos	Lavam-se	/ˈɫavu-mɨ/	/ˈɫavɐʃ-tɨ/	/ˈɫavɐ-sɨ/	/ɫɐˈvɐmu-nuʃ/	/ˈɫavɐ̃w-sɨ/		Portugues::Curso::2A2
+levantar + presente	Levantar	presente	Levanto	Levantas	Levanta	Levantamos	Levantam	/ɫɨˈvɐ̃tu/	/ɫɨˈvɐ̃tɐʃ/	/ɫɨˈvɐ̃tɐ/	/ɫɨvɐ̃ˈtɐmuʃ/	/ɫɨˈvɐ̃tɐ̃w/		Portugues::Curso::2A2
+machucar + presente	Machucar (Lastimar)	presente	Machuco	Machucas	Machuca	Machucamos	Machucam	/mɐˈʃuku/	/mɐˈʃukɐʃ/	/mɐˈʃukɐ/	/mɐʃuˈkɐmuʃ/	/mɐˈʃukɐ̃w/		Portugues::Curso::2A2
+machucar-se + presente	Machucar-se (Lastimarse)	presente	Machuco-me	Machucas-te	Machuca-se	Machucamo-nos	Machucam-se	/mɐˈʃuku-mɨ/	/mɐˈʃukɐʃ-tɨ/	/mɐˈʃukɐ-sɨ/	/mɐʃuˈkɐmu-nuʃ/	/mɐˈʃukɐ̃w-sɨ/		Portugues::Curso::2A2
+medir + presente	Medir	presente	Meço	Medes	Mede	Medimos	Medem	/ˈmesu/	/ˈmedɨʃ/	/ˈmedɨ/	/mɨˈdimuʃ/	/ˈmedɐ̃j/		Portugues::Curso::2A2
+morrer + presente	Morrer (Morir)	presente	Morro	Morres	Morre	Morremos	Morrem	/ˈmoʁu/	/ˈmoʁɨʃ/	/ˈmoʁɨ/	/muˈʁemuʃ/	/ˈmoʁɐ̃j/		Portugues::Curso::2A2
+ocupar + presente	Ocupar	presente	Ocupo	Ocupas	Ocupa	Ocupamos	Ocupam	/oˈkupu/	/oˈkupɐʃ/	/oˈkupɐ/	/okuˈpɐmuʃ/	/oˈkupɐ̃w/		Portugues::Curso::2A2
+ouvir + presente	Ouvir (Oir)	presente	Ouço / Oiço	Ouves	Ouve	Ouvimos	Ouvem	/ˈosu,ˈojsu/	/ˈovɨʃ/	/ˈovɨ/	/oˈvimuʃ/	/ˈovɐ̃j/		Portugues::Curso::2A2
+parecer + presente	Parecer	presente	Pareço	Pareces	Parece	Parecemos	Parecem	/pɐˈɾesu/	/pɐˈɾesɨʃ/	/pɐˈɾesɨ/	/pɐɾɨˈsemuʃ/	/pɐˈɾesɐ̃j/		Portugues::Curso::2A2
+pedir + presente	Pedir	presente	Peço	Pedes	Pede	Pedimos	Pedem	/ˈpesu/	/ˈpedɨʃ/	/ˈpedɨ/	/pɨˈdimuʃ/	/ˈpedɐ̃j/		Portugues::Curso::2A2
+pintar + presente	Pintar	presente	Pinto	Pintas	Pinta	Pintamos	Pintam	/ˈpĩtu/	/ˈpĩtɐʃ/	/ˈpĩtɐ/	/pĩˈtɐmuʃ/	/ˈpĩtɐ̃w/		Portugues::Curso::2A2
+Pôr + presente	Pôr (Poner)	presente	Ponho	Pões	Põe	Pomos	Põem	/ˈpoɲu/	/ˈpõjʃ/	/ˈpõj/	/ˈpomuʃ/	/ˈpõɐ̃j/		Portugues::Curso::2A2
+poupar + presente	Poupar (Ahorrar, Perdonar)	presente	Poupo	Poupas	Poupa	Poupamos	Poupam	/ˈpopu/	/ˈpopɐʃ/	/ˈpopɐ/	/poˈpɐmuʃ/	/ˈpopɐ̃w/		Portugues::Curso::2A2
+poupar-se + presente	Poupar-se (Escaquearse)	presente	Poupo-me	Poupas-te	Poupa-se	Poupamo-nos	Poupam-se	/ˈpopu-mɨ/	/ˈpopɐʃ-tɨ/	/ˈpopɐ-sɨ/	/poˈpɐmu-nuʃ/	/ˈpopɐ̃w-sɨ/		Portugues::Curso::2A2
+resolver + presente	Resolver	presente	Resolvo	Resolves	Resolve	Resolvemos	Resolvem	/ʁɨˈzɔɫvu/	/ʁɨˈzɔɫvɨʃ/	/ʁɨˈzɔɫvɨ/	/ʁɨzɔɫˈvemuʃ/	/ʁɨˈzɔɫvɐ̃j/		Portugues::Curso::2A2
+responder + presente	Responder	presente	Respondo	Respondes	Responde	Respondemos	Respondem	/ʁɨʃˈpõdu/	/ʁɨʃˈpõdɨʃ/	/ʁɨʃˈpõdɨ/	/ʁɨʃpõˈdemuʃ/	/ʁɨʃˈpõdɐ̃j/		Portugues::Curso::2A2
+resumir + presente	Resumir	presente	Resumo	Resumes	Resume	Resumimos	Resumem	/ʁɨˈzumu/	/ʁɨˈzumɨʃ/	/ʁɨˈzumɨ/	/ʁɨzuˈmimuʃ/	/ʁɨˈzumɐ̃j/		Portugues::Curso::2A2
+retribuir + presente	Retribuir	presente	Retribuo	Retribuis	Retribui	Retribuímos	Retribuem	/ʁɨtɾiˈbuu/	/ʁɨtɾiˈbujʃ/	/ʁɨtɾiˈbuj/	/ʁɨtɾibuˈimuʃ/	/ʁɨtɾiˈbuɐ̃j/		Portugues::Curso::2A2
+rir + presente	Rir (Reir)	presente	Rio	Ris	Ri	Rimos	Riem	/ˈʁiu/	/ˈʁiʃ/	/ˈʁi/	/ˈʁimuʃ/	/ˈʁiɐ̃j/		Portugues::Curso::2A2
+sair + presente	Sair (Salir)	presente	Saio	Sais	Sai	Saímos	Saem	/ˈsaju/	/ˈsajʃ/	/ˈsaj/	/sɐˈimuʃ/	/ˈsaɐ̃j/		Portugues::Curso::2A2
+sentar-se + presente	Sentar-se	presente	Sento-me	Sentas-te	Senta-se	Sentamo-nos	Sentam-se	/ˈsẽtu-mɨ/	/ˈsẽtɐʃ-tɨ/	/ˈsẽtɐ-sɨ/	/sẽˈtɐmu-nuʃ/	/ˈsẽtɐ̃w-sɨ/		Portugues::Curso::2A2
+sentir-se + presente	Sentir-se	presente	Sinto-me	Sentes-te	Sente-se	Sentimo-nos	Sentem-se	/ˈsĩtu-mɨ/	/ˈsẽtɨʃ-tɨ/	/ˈsẽtɨ-sɨ/	/sẽˈtimu-nuʃ/	/ˈsẽtɐ̃j-sɨ/		Portugues::Curso::2A2
+subir + presente	Subir	presente	Subo	Sobes	Sobe	Subimos	Sobem	/ˈsubu/	/ˈsobɨʃ/	/ˈsobɨ/	/suˈbimuʃ/	/ˈsobɐ̃j/		Portugues::Curso::2A2
+substituir + presente	Substituir	presente	Substituo	Substituis	Substitui	Substituímos	Substituem	/subʃtiˈtuu/	/subʃtiˈtujʃ/	/subʃtiˈtuj/	/subʃtituˈimuʃ/	/subʃtiˈtuɐ̃j/		Portugues::Curso::2A2
+sumir + presente	Sumir (Irse, Desaparecer)	presente	Sumo	Sumes	Some	Sumimos	Sumem	/ˈsumu/	/ˈsumɨʃ/	/ˈsomɨ/	/suˈmimuʃ/	/ˈsumɐ̃j/		Portugues::Curso::2A2
+tirar + presente	Tirar (Qutar, Sacar)	presente	Tiro	Tiras	Tira	Tiramos	Tiram	/ˈtiɾu/	/ˈtiɾɐʃ/	/ˈtiɾɐ/	/tiˈɾɐmuʃ/	/ˈtiɾɐ̃w/		Portugues::Curso::2A2
+tocar + presente	Tocar	presente	Toco	Tocas	Toca	Tocamos	Tocam	/ˈtoku/	/ˈtokɐʃ/	/ˈtokɐ/	/tuˈkɐmuʃ/	/ˈtokɐ̃w/		Portugues::Curso::2A2
+tratar + presente	Tratar	presente	Trato	Tratas	Trata	Tratamos	Tratam	/ˈtɾatu/	/ˈtɾatɐʃ/	/ˈtɾatɐ/	/tɾɐˈtɐmuʃ/	/ˈtɾatɐ̃w/		Portugues::Curso::2A2
+vestir-se + presente	Vestir-se	presente	Visto-me	Vestes-te	Veste-se	Vestimo-nos	Vestem-se	/ˈviʃtu-mɨ/	/ˈveʃtɨʃ-tɨ/	/ˈveʃtɨ-sɨ/	/vɨʃˈtimu-nuʃ/	/ˈveʃtɐ̃j-sɨ/		Portugues::Curso::2A2
+vir + presente	Vir (Venir)	presente	Venho	Vens	Vem	Vimos	Vêm	/ˈvɐɲu/	/vɐ̃jʃ/	/vɐ̃j/	/ˈvimuʃ/	/ˈvɐ̃jɐ̃j/		Portugues::Curso::2A2
