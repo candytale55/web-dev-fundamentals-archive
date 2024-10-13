@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bucket List de Portugal</title>
+    
+    <!-- CSS3 para el estilo de la página -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* Estilos para el título principal */
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-top: 20px;
+        }
+
+        /* Contenedor principal de la lista */
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Estilo para los elementos de la lista (ciudades) */
+        .city {
+            font-size: 1.2em;
+            color: #2980b9;
+            cursor: pointer;
+            margin: 10px 0;
+            font-weight: bold;
+        }
+
+        /* Estilo para las atracciones, ocultas por defecto */
+        .attractions {
+            display: none;
+            margin-left: 20px;
+            margin-top: 5px;
+        }
+
+        /* Estilo para las atracciones dentro de cada ciudad */
+        .attractions li {
+            font-size: 1em;
+            color: #34495e;
+            list-style-type: square;
+        }
+
+        /* Estilo responsive */
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+            h1 {
+                font-size: 1.5em;
+            }
+            .city {
+                font-size: 1.1em;
+            }
+            .attractions li {
+                font-size: 0.9em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Título principal -->
+    <h1>Bucket List de Ciudades de Portugal</h1>
+
+    <!-- Contenedor principal -->
+    <div class="container">
+        <!-- Lista de ciudades y atracciones -->
+        <div class="city" onclick="toggleAttractions('porto')">Porto</div>
+        <ul id="porto" class="attractions">
+            <li>Torre dos Clérigos</li>
+            <li>Ribeira</li>
+            <li>Livraria Lello</li>
+        </ul>
+
+        <div class="city" onclick="toggleAttractions('lisboa')">Lisboa</div>
+        <ul id="lisboa" class="attractions">
+            <li>Torre de Belém</li>
+            <li>Mosteiro dos Jerónimos</li>
+            <li>Castelo de São Jorge</li>
+        </ul>
+
+        <div class="city" onclick="toggleAttractions('coimbra')">Coimbra</div>
+        <ul id="coimbra" class="attractions">
+            <li>Universidade de Coimbra</li>
+            <li>Biblioteca Joanina</li>
+            <li>Mosteiro de Santa Clara-a-Velha</li>
+        </ul>
+
+        <div class="city" onclick="toggleAttractions('faro')">Faro</div>
+        <ul id="faro" class="attractions">
+            <li>Arco da Vila</li>
+            <li>Igreja do Carmo</li>
+            <li>Ilha Deserta</li>
+        </ul>
+
+        <div class="city" onclick="toggleAttractions('braga')">Braga</div>
+        <ul id="braga" class="attractions">
+            <li>Santuário do Bom Jesus do Monte</li>
+            <li>Catedral de Braga</li>
+            <li>Jardins de Santa Bárbara</li>
+        </ul>
+
+        <div class="city" onclick="toggleAttractions('aveiro')">Aveiro</div>
+        <ul id="aveiro" class="attractions">
+            <li>Moliceiros en los canales</li>
+            <li>Costa Nova</li>
+            <li>Museo de Aveiro</li>
+        </ul>
+
+        <div class="city" onclick="toggleAttractions('sintra')">Sintra</div>
+        <ul id="sintra" class="attractions">
+            <li>Palácio da Pena</li>
+            <li>Quinta da Regaleira</li>
+            <li>Castelo dos Mouros</li>
+        </ul>
+
+        <div class="city" onclick="toggleAttractions('guimaraes')">Guimarães</div>
+        <ul id="guimaraes" class="attractions">
+            <li>Castillo de Guimarães</li>
+            <li>Palacio de los Duques de Braganza</li>
+            <li>Iglesia de Nossa Senhora da Oliveira</li>
+        </ul>
+
+        <div class="city" onclick="toggleAttractions('evora')">Évora</div>
+        <ul id="evora" class="attractions">
+            <li>Templo de Diana</li>
+            <li>Capilla de los Huesos</li>
+            <li>Catedral de Évora</li>
+        </ul>
+
+        <div class="city" onclick="toggleAttractions('nazare')">Nazaré</div>
+        <ul id="nazare" class="attractions">
+            <li>Playa de Nazaré</li>
+            <li>Forte de São Miguel Arcanjo</li>
+            <li>Mirador de Suberco</li>
+        </ul>
+
+        <div class="city" onclick="toggleAttractions('obidos')">Óbidos</div>
+        <ul id="obidos" class="attractions">
+            <li>Castillo de Óbidos</li>
+            <li>Iglesia de Santa María</li>
+            <li>Puerta da Vila</li>
+        </ul>
+
+        <div class="city" onclick="toggleAttractions('viseu')">Viseu</div>
+        <ul id="viseu" class="attractions">
+            <li>Catedral de Viseu</li>
+            <li>Museo Grão Vasco</li>
+            <li>Igreja da Misericórdia</li>
+        </ul>
+
+        <div class="city" onclick="toggleAttractions('setubal')">Setúbal</div>
+        <ul id="setubal" class="attractions">
+            <li>Parque Natural da Arrábida</li>
+            <li>Fuerte de São Filipe</li>
+            <li>Playa de Galápos</li>
+        </ul>
+
+        <div class="city" onclick="toggleAttractions('ponta_delgada')">Ponta Delgada</div>
+        <ul id="ponta_delgada" class="attractions">
+            <li>Portas da Cidade</li>
+            <li>Lagoa das Sete Cidades</li>
+            <li>Gruta do Carvão</li>
+        </ul>
+
+        <div class="city" onclick="toggleAttractions('madeira')">Funchal (Madeira)</div>
+        <ul id="madeira" class="attractions">
+            <li>Jardín Botánico</li>
+            <li>Teleférico de Funchal</li>
+            <li>Mercado dos Lavradores</li>
+        </ul>
+    </div>
+
+    <!-- JavaScript para manejar la expansión de las atracciones -->
+    <script>
+        function toggleAttractions(cityId) {
+            var attractions = document.getElementById(cityId);
+            if (attractions.style.display === "none" || attractions.style.display === "") {
+                attractions.style.display = "block";
+            } else {
+                attractions.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>
