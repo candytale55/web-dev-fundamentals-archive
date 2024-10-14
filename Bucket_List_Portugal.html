@@ -32,7 +32,7 @@
         }
 
         /* Estilo para los elementos de la lista (ciudades) */
-        .city {
+        .city, .beach {
             font-size: 1.2em;
             color: #2980b9;
             cursor: pointer;
@@ -40,15 +40,15 @@
             font-weight: bold;
         }
 
-        /* Estilo para las atracciones, ocultas por defecto */
-        .attractions {
+        /* Estilo para las atracciones y playas, ocultas por defecto */
+        .attractions, .beaches {
             display: none;
             margin-left: 20px;
             margin-top: 5px;
         }
 
         /* Estilo para las atracciones dentro de cada ciudad */
-        .attractions li {
+        .attractions li, .beaches li {
             font-size: 1em;
             color: #34495e;
             list-style-type: square;
@@ -62,10 +62,10 @@
             h1 {
                 font-size: 1.5em;
             }
-            .city {
+            .city, .beach {
                 font-size: 1.1em;
             }
-            .attractions li {
+            .attractions li, .beaches li {
                 font-size: 0.9em;
             }
         }
@@ -73,7 +73,7 @@
 </head>
 <body>
     <!-- Título principal -->
-    <h1>Bucket List de Ciudades de Portugal</h1>
+    <h1>Bucket List de Ciudades y Playas de Portugal</h1>
 
     <!-- Contenedor principal -->
     <div class="container">
@@ -182,10 +182,19 @@
             <li>Teleférico de Funchal</li>
             <li>Mercado dos Lavradores</li>
         </ul>
+
+        <!-- Lista de playas -->
+        <div class="beach" onclick="toggleAttractions('beaches')">Praias</div>
+        <ul id="beaches" class="beaches">
+            <li>Praia da Nazaré (Nazaré)</li>
+            <li>Ilha de Porto Santo (Funchal)</li>
+            <!-- Agrega más playas aquí -->
+        </ul>
     </div>
 
-    <!-- JavaScript para manejar la expansión de las atracciones -->
+    <!-- JavaScript para manejar la expansión de las atracciones y playas -->
     <script>
+        // Función para mostrar u ocultar las atracciones o playas de una ciudad o sección
         function toggleAttractions(cityId) {
             var attractions = document.getElementById(cityId);
             if (attractions.style.display === "none" || attractions.style.display === "") {
