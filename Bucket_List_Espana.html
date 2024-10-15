@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bucket List de Ciudades y Provincias de España</title>
+    
+    <!-- CSS3 para el estilo de la página -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* Estilos para el título principal */
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-top: 20px;
+        }
+
+        /* Contenedor principal de la lista */
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Estilo para el contenedor de ciudades y provincias */
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        /* Estilo para cada elemento de ciudad y provincia */
+        .city, .province {
+            font-size: 1.2em;
+            color: #2980b9;
+            cursor: pointer;
+            font-weight: bold;
+            text-align: center;
+            padding: 10px;
+            background-color: #ecf0f1;
+            border-radius: 8px;
+        }
+
+        /* Estilo para las atracciones de cada ciudad/provincia, ocultas por defecto */
+        .attractions, .provinces {
+            display: none;
+            margin-top: 5px;
+        }
+
+        /* Estilo para las atracciones dentro de cada ciudad/provincia */
+        .attractions li, .provinces li {
+            font-size: 1em;
+            color: #34495e;
+            list-style-type: square;
+            margin-left: 20px;
+        }
+
+        /* Espacio entre la sección de ciudades y provincias */
+        .separator {
+            margin: 40px 0;
+            text-align: center;
+            font-size: 1.5em;
+            color: #34495e;
+        }
+
+        /* Estilo responsive para pantallas pequeñas (móviles) */
+        @media (max-width: 600px) {
+            .grid-container {
+                grid-template-columns: 1fr;
+            }
+            h1 {
+                font-size: 1.5em;
+            }
+            .city, .province {
+                font-size: 1.1em;
+            }
+            .attractions li, .provinces li {
+                font-size: 0.9em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Título principal -->
+    <h1>Bucket List de Ciudades y Provincias de España</h1>
+
+    <!-- Contenedor principal -->
+    <div class="container">
+
+        <!-- Ciudades principales (6 ciudades) -->
+        <div class="grid-container">
+            <div class="city" onclick="toggleRow('row1')">Madrid</div>
+            <div class="city" onclick="toggleRow('row1')">Barcelona</div>
+            <div class="city" onclick="toggleRow('row1')">Valencia</div>
+
+            <div class="city" onclick="toggleRow('row2')">Sevilla</div>
+            <div class="city" onclick="toggleRow('row2')">Bilbao</div>
+            <div class="city" onclick="toggleRow('row2')">Málaga</div>
+        </div>
+
+        <!-- Atracciones de las ciudades -->
+        <ul id="row1" class="attractions">
+            <li>Madrid: Palacio Real, Museo del Prado, Parque del Retiro</li>
+            <li>Barcelona: Sagrada Familia, Parque Güell, Casa Batlló</li>
+            <li>Valencia: Ciudad de las Artes y las Ciencias, Oceanogràfic, Catedral de Valencia</li>
+        </ul>
+
+        <ul id="row2" class="attractions">
+            <li>Sevilla: Plaza de España, Catedral de Sevilla, Real Alcázar</li>
+            <li>Bilbao: Museo Guggenheim, Casco Viejo, Puente Zubizuri</li>
+            <li>Málaga: Alcazaba, Catedral de Málaga, Museo Picasso</li>
+        </ul>
+
+        <!-- Separador entre ciudades y provincias -->
+        <div class="separator">Provincias de España</div>
+
+        <!-- Provincias (todas las provincias distribuidas en 3 columnas) -->
+        <div class="grid-container">
+            <div class="province" onclick="toggleRow('provincesRow1')">Ávila</div>
+            <div class="province" onclick="toggleRow('provincesRow1')">Cádiz</div>
+            <div class="province" onclick="toggleRow('provincesRow1')">La Coruña</div>
+
+            <div class="province" onclick="toggleRow('provincesRow2')">Granada</div>
+            <div class="province" onclick="toggleRow('provincesRow2')">Zaragoza</div>
+            <div class="province" onclick="toggleRow('provincesRow2')">León</div>
+
+            <div class="province" onclick="toggleRow('provincesRow3')">Girona</div>
+            <div class="province" onclick="toggleRow('provincesRow3')">Tenerife</div>
+            <div class="province" onclick="toggleRow('provincesRow3')">Toledo</div>
+        </div>
+
+        <!-- Atracciones de las provincias -->
+        <ul id="provincesRow1" class="provinces">
+            <li>Ávila: Murallas de Ávila, Catedral de Ávila, Basílica de San Vicente</li>
+            <li>Cádiz: Playa de la Caleta, Torre Tavira, Catedral de Cádiz</li>
+            <li>La Coruña: Torre de Hércules, Plaza de María Pita, Castillo de San Antón</li>
+        </ul>
+
+        <ul id="provincesRow2" class="provinces">
+            <li>Granada: La Alhambra, Albaicín, Catedral de Granada</li>
+            <li>Zaragoza: Basílica del Pilar, Palacio de la Aljafería, Parque Grande José Antonio Labordeta</li>
+            <li>León: Catedral de León, Casa Botines, Basílica de San Isidoro</li>
+        </ul>
+
+        <ul id="provincesRow3" class="provinces">
+            <li>Girona: Catedral de Girona, Barrio Judío, Casas del Onyar</li>
+            <li>Tenerife: Teide, Playa de las Américas, Auditorio de Tenerife</li>
+            <li>Toledo: Alcázar de Toledo, Catedral de Toledo, Sinagoga del Tránsito</li>
+        </ul>
+    </div>
+
+    <!-- JavaScript para manejar la expansión de las atracciones -->
+    <script>
+        // Función para mostrar u ocultar las atracciones por fila (ciudades/provincias)
+        function toggleRow(rowId) {
+            var attractions = document.getElementById(rowId);
+            if (attractions.style.display === "none" || attractions.style.display === "") {
+                attractions.style.display = "block";
+            } else {
+                attractions.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>
