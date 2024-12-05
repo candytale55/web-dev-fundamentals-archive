@@ -1,0 +1,11 @@
+#separator:tab
+#html:true
+#tags column:52
+puffin	"<img src=""_puffin.JPG"">"	papagaio-do-mar	o papagaio-do-mar	/u pɐpɐɡɐjuduˈmaɾ/	/u papaɡajodoˈmaʁ/	sm			puffin	/ˈpʰəfən/	/ˈpʰʌfɪn/				frailecillo						macareux						Papageitaucher						fraret						pulcinella di mare												English::Curso::1C1 English::Curso::1C1::U01 English::Vocabulary Vocabulary::Animals::Birds
+ID (FIELDS)	image	pt_word	pt_word_art	pt_ipa_PT	pt_ipa_BR	pt_type_gender	pt_notes	pt_marker	en_word	en_ipa_US	en_ipa_UK	en_type	en_notes	en_marker	es_word	es_ipa_ES	es_IPA_LA	es_type_gender	es_notes	es_marker	fr_word	fr_word_art	fr_ipa	fr_type_gender	fr_notes	fr_marker	de_word	de_word_art	de_ipa	de_type_gender	de_notes	de_marker	val_word	val_ipa	cat_ipa	val_type_gender	val_notes	val_marker	it_word	it_ipa	it_gender	it_notes	it_marker	en_pron	pt_pron	es_pron	fr_pron	de_pron	it_pron	val_pron	Tags
+borboleta	"<img src=""_borboleta_mariposa.JPG"">"	borboleta													"mariposa (com ""b"")"																																				Portugues::Curso::2A2 Portugues::Vocabulario::Animais::Insetos Vocabulary::Animals::Insects
+mariposa	"<img src=""_mariposa_.JPG"">"	mariposa																																																	Portugues::Curso::2A2 Portugues::Vocabulario::Animais::Insetos Vocabulary::Animals::Insects
+traça	"<img src=""_traca_polilla.JPG"">"	traça																																																	Portugues::Curso::2A2 Portugues::Vocabulario::Animais::Insetos Vocabulary::Animals::Insects
+weevils	"<img src=""_weevil_gorgojo.JPG"">"								weevils						gorgojos																																				Vocabulary::Animals::Insects
+esquilo	"<img src=""_esquilo_squirrel_ardilla.JPG"">"	esquilo																																																	Portugues::Curso::2A2 Portugues::Vocabulario::Animais Vocabulary::Animals::Cities Vocabulary::Animals::Rodents
+suricata	"<img src=""_suricata_meerkat.JPG"">"	suricata (rato do deserto)							meerkat						suricata																																				Portugues::Curso::2A2 Portugues::Vocabulario::Animais::Salvagens Vocabulary::Animals::Africa
