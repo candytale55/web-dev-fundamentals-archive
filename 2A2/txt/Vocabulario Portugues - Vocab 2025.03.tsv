@@ -1,14 +1,68 @@
-mexer		mexer	mexer	/mɨˈʃeɾ/	/meˈʃeʁ/	v	Movimentar ou misturar algo.
-caixa		caixa	a caixa	/ɐ ˈkajʃɐ/	/a ˈkajʃɐ/	sf	Recipiente usado para armazenar ou transportar objetos.
-baixo		baixo	baixo	/ˈbajʃu/	/ˈbajʃu/	adj m	Que tem pouca altura; que emite som grave.
-chuva		chuva	a chuva	/ɐ ˈʃuvɐ/	/a ˈʃuvɐ/	sf	Precipitação de água em gotas que cai das nuvens.
-mexicano, a		mexicano, mexicana	o mexicano, a mexicana	/ˈɔ mɨʃikɐˈnɔ/ , /ˈɐ mɨʃikɐˈnɐ/	/ˈɔ meʃikɐˈnɔ/, /ˈɐ meʃikɐˈnɐ/	adj m/f	Relativo ao México ou seu povo.
-chamar		chamar	chamar	/ʃɐˈmaɾ/	/ʃɐˈmaʁ/	v	Fazer com que alguém venha; dar um nome a algo.
-prancha (surf)		prancha	a prancha	/ɐ ˈpɾɐ̃ʃɐ/	/a ˈpɾɐ̃ʃɐ/	sf	Placa alongada usada para surfar ou como suporte.
-acho		acho	acho	/ˈaʃu/	/ˈaʃu/	v	Forma do verbo "achar", que significa crer ou supor.
-puxe		puxe	puxe	/ˈpuʃɨ/	/ˈpuʃi/	v	Forma do verbo "puxar", que significa atrair para si.
-mochila		mochila	a mochila	/ɐ muˈʃilɐ/	/a moˈʃilɐ/	sf	Bolsa usada para carregar objetos nas costas.
-cheio		cheio	cheio	/ˈʃɐju/	/ˈʃeju/	adj m	Que está completo ou ocupado até a capacidade máxima.
-embaixada		embaixada	a embaixada	/ɐ ẽbɐjˈʃadɐ/	/a ẽbajˈʃadɐ/	sf	Representação diplomática de um país em outro país.
-preencher		preencher	preencher	/pɾɨẽˈʃeɾ/	/pɾeẽˈʃeʁ/	v	Completar um espaço vazio com algo.
-xadrez		xadrez	o xadrez	/u ʃɐˈdɾɛʃ/	/u ʃaˈdɾɛʃ/	sm	Jogo de tabuleiro estratégico com peças brancas e pretas.
+ID (FIELDS)	image	pt_word	pt_word_art	pt_ipa_PT	pt_ipa_BR	pt_type_gender	pt_notes	pt_marker	en_word	en_ipa_US	en_ipa_UK	en_type	en_notes	en_marker	es_word	es_ipa_ES	es_IPA_LA	es_type_gender	es_notes	es_marker	fr_word	fr_word_art	fr_ipa	fr_type_gender	fr_notes	fr_marker	de_word	de_word_art	de_ipa	de_type_gender	de_notes	de_marker	val_word	val_ipa	cat_ipa	val_type_gender	val_notes	val_marker	it_word	it_ipa	it_gender	it_notes	it_marker	en_pron	pt_pron	es_pron	fr_pron	de_pron	it_pron	val_pron	tags
+dar boleia, dar carona		dar boleia (PT),  dar carona (Br)	dar boleia (PT),  dar carona (Br)	/ˈdaɾ buˈlɐjɐ | ˈdaɾ kɐˈɾonɐ/	/ˈdaʁ boˈlejɐ | ˈdaʁ kaˈɾonɐ/	exp	Levar alguém de carro gratuitamente (uso comum em Portugal)																																												
+dar boleia		dar boleia	dar boleia	/ˈdaɾ buˈlɐjɐ/	/ˈdaʁ boˈlejɐ/	exp	Levar alguém de carro gratuitamente (uso comum em Portugal)																																												
+dar carona		dar carona	dar carona	/ˈdaɾ kɐˈɾonɐ/	/ˈdaʁ kaˈɾonɐ/	exp	Levar alguém de carro gratuitamente (uso comum no Brasil)																																												
+daqui pra frente		daqui pra frente	daqui pra frente	/dɐˈki ˈpɾa ˈfɾẽtɨ/	/daˈki ˈpɾa ˈfɾẽtʃi/	adv	A partir do momento atual, no futuro																																												
+a partir de (temporal)		a partir de	a partir de	/ɐ pɐɾˈtiɾ dɨ/	/a paʁˈtʃiʁ dʒi/	prep	Indica um ponto inicial no tempo, como em "A partir de amanhã, começarei a dieta."																																												
+a partir de (espacial)		a partir de	a partir de	/ɐ pɐɾˈtiɾ dɨ/	/a paʁˈtʃiʁ dʒi/	prep	Indica um ponto inicial no espaço, como em "A partir da janela, avistava-se o mar."																																												
+desfazer		desfazer	desfazer	/dɨʃfɐˈzeɾ/	/desfaˈzeʁ/	v	Anular ou reverter algo feito anteriormente.																																												
+satisfazer		satisfazer	satisfazer	/sɐtiʃfɐˈzeɾ/	/satʃisfaˈzeʁ/	v	Atender às expectativas ou necessidades de algo ou alguém.																																												
+impor		impor	impor	/ĩˈpɔɾ/	/ĩˈpɔʁ/	v	Estabelecer regras ou exigências; obrigar a aceitação de algo.																																												
+dispor		dispor	dispor	/diˈʃpɔɾ/	/dʒisˈpɔʁ/	v	Organizar ou arranjar algo de determinada maneira.																																												
+compor		compor	compor	/kõˈpɔɾ/	/kõˈpɔʁ/	v	Formar ou constituir algo juntando partes.																																												
+supor		supor	supor	/suˈpɔɾ/	/suˈpɔʁ/	v	Considerar algo como verdadeiro sem certeza absoluta.																																												
+propor		propor	propor	/pɾuˈpɔɾ/	/pɾoˈpɔʁ/	v	Apresentar uma sugestão ou ideia para consideração.																																												
+repor		repor	repor	/ʁɨˈpɔɾ/	/ʁeˈpɔʁ/	v	Colocar de volta algo que foi removido ou gasto.																																												
+reter		reter	reter	/ʁɨˈteɾ/	/ʁeˈteʁ/	v	Segurar ou impedir que algo escape ou se perca.																																												
+deter		deter	deter	/dɨˈteɾ/	/deˈteʁ/	v	Parar ou interromper um movimento ou ação.																																												
+manter		manter	manter	/mɐ̃ˈteɾ/	/mɐ̃ˈteʁ/	v	Conservar algo em determinado estado ou condição.																																												
+obter		obter	obter	/oˈbteɾ/	/obˈteʁ/	v	Adquirir ou alcançar algo desejado.																																												
+conter		conter	conter	/kõˈteɾ/	/kõˈteʁ/	v	Guardar ou incluir algo dentro de si.																																												
+rever		rever	rever	/ʁɨˈveɾ/	/ʁeˈveʁ/	v	Examinar algo novamente; ver outra vez.																																												
+prever		prever	prever	/pɾɨˈveɾ/	/pɾeˈveʁ/	v	Antecipar ou calcular um evento futuro.																																												
+entrever		entrever	entrever	/ẽtɾɨˈveɾ/	/ẽtɾeˈveʁ/	v	Ver algo de forma parcial ou pouco nítida.																																												
+transver		transver	transver	/tɾɐ̃sˈveɾ/	/tɾɐ̃sˈveʁ/	v	Ver além da aparência ou da superfície.																																												
+intervir		intervir	intervir	/ĩtɨɾˈviɾ/	/ĩteʁˈviʁ/	v	Entrar em uma situação para modificar ou influenciar seu curso.																																												
+provir		provir	provir	/pɾuˈviɾ/	/pɾoˈviʁ/	v	Originar-se ou ter determinada procedência.																																												
+convir		convir	convir	/kõˈviɾ/	/kõˈviʁ/	v	Ser adequado ou vantajoso para alguém ou algo.																																												
+revir		revir	revir	/ʁɨˈviɾ/	/ʁeˈviʁ/	v	Retornar ou voltar a um lugar ou estado anterior.																																												
+experiência (experimentar)		experiência	o/a experiência	/ˈɔɐ iʃpɨɾiˈẽsiɐ/	/ˈɔɐ iʃpeɾiˈẽsiɐ/	sf	Conjunto de conhecimentos adquiridos através da prática ou vivência de determinada situação																																												
+indiano, a (nacionalidade)		indiano, indiana	o indiano, a indiana	/u ĩdiˈɐnu | ɐ ĩdiˈɐnɐ/	/u ĩdʒiˈɐnu | a ĩdʒiˈɐnɐ/	adj m/f	Relativo à Índia ou a seus habitantes																																												
+distância		distância	a distância	/ɐ diˈʃtɐ̃siɐ/	/a dʒisˈtɐ̃siɐ/	sf	Espaço entre dois pontos																																												
+viciado, a		viciado, viciada	o viciado, a viciada	/u visiˈadu | ɐ visiˈadɐ/	/u visiˈadu | a visiˈadɐ/	adj m/f	Que tem dependência de algo																																												
+maioria		maioria	a maioria	/ɐ mɐjuˈɾiɐ/	/a majoˈɾiɐ/	sf	Parte maior de um todo																																												
+pessoalmente		pessoalmente	pessoalmente	/pɨsuaɫˈmẽtɨ/	/pesoawˈmẽtʃi/	adv	De maneira pessoal																																												
+desenvolvido		desenvolvido	desenvolvido, desenvolvida	/dɨzẽvɔɫˈvidu | dɨzẽvɔɫˈvidɐ/	/dezẽvɔwˈvidu | dezẽvɔwˈvidɐ/	adj m/f	Que foi aperfeiçoado ou modernizado																																												
+divulgado, a		divulgado, divulgada	divulgado, divulgada	/divuɫˈɡadu | divuɫˈɡadɐ/	/dʒivuwˈɡadu | dʒivuwˈɡadɐ/	adj m/f	Tornado público																																												
+distúrbio alimentar		distúrbio alimentar	o distúrbio alimentar	/u diˈʃtuɾbiu ɐlimẽˈtaɾ/	/u dʒisˈtuʁbiu alimẽˈtaʁ/	sm	Problema relacionado à alimentação																																												
+metade		metade	a metade	/ɐ mɨˈtadɨ/	/a meˈtadʒi/	sf	Parte igual de um todo dividido por dois																																												
+ser expostos, estar expostos		ser expostos, estar expostos	ser exposto, estar exposto	/ˈseɾ iˈʃpɔʃtu | ˈʃtaɾ iˈʃpɔʃtu/	/ˈseʁ iʃˈpɔstu | isˈtaʁ iʃˈpɔstu/	exp	Ficar sujeito a algo																																												
+irrealista		irrealista	irrealista	/iʁiɐˈliʃtɐ/	/iʁiaˈlistɐ/	adj m/f	Que não é realista																																												
+inferior / superior à média		inferior / superior à média	inferior / superior à média	/ĩfɨɾiˈɔɾ | supɨɾiˈɔɾ ˈa ˈmɛdiɐ/	/ĩfeɾiˈɔʁ | supeɾiˈɔʁ ˈa ˈmɛdʒiɐ/	adj m/f	Abaixo ou acima da média																																												
+agiota, prestamista		agiota, prestamista	o agiota, o prestamista	/u ɐʒiˈɔtɐ | u pɾɨʃtɐˈmiʃtɐ/	/u aʒiˈɔtɐ | u pɾestɐˈmistɐ/	sm	Quem empresta dinheiro a juros altos																																												
+emprestador		emprestador	o emprestador	/u ẽpɾɨʃtɐˈdoɾ/	/u ẽpɾestaˈdoʁ/	sm	Quem concede empréstimos																																												
+casa de penhores		casa de penhores	a casa de penhores	/ɐ ˈkazɐ dɨ pɨˈɲɔɾɨʃ/	/a ˈkazɐ dʒi peˈɲɔɾes/	sf	Estabelecimento onde se deixam bens como garantia de empréstimos																																												
+gangoso, a		gangoso, gangosa	o gangoso, a gangosa	/u ɡɐ̃ˈɡɔzu | ɐ ɡɐ̃ˈɡɔzɐ/	/u ɡɐ̃ˈɡɔzu | a ɡɐ̃ˈɡɔzɐ/	adj m/f	Que fala com voz anasalada																																												
+região, regiões		região, regiões	a região, as regiões	/ɐ ʁɨʒiˈɐ̃w̃ | ɐʒ ʁɨʒiˈõj̃ʃ/	/a ʁeʒiˈɐ̃w̃ | aʒ ʁeʒiˈõj̃s/	sf	Área geográfica delimitada																																												
+prisioneiro, a		prisioneiro, prisioneira	o prisioneiro, a prisioneira	/u pɾiziuˈnɐjɾu | ɐ pɾiziuˈnɐjɾɐ/	/u pɾizioˈnejɾu | a pɾizioˈnejɾɐ/	sm	Fora da liberdade, preso																																												
+liberdade		liberdade	a liberdade	/ɐ libɨɾˈdadɨ/	/a libeʁˈdadʒi/	sf	Estado de não estar preso ou restrito																																												
+belíssimo, a		belíssimo, belíssima	belíssimo, belíssima	/bɨˈlisimu | bɨˈlisimɐ/	/beˈlisimu | beˈlisimɐ/	adj m/f	Superlativo de belo, muito bonito																																												
+espetáculo		espetáculo	o espetáculo	/u ʃpɨˈtakulu/	/u ispeˈtakulu/	sm	Apresentação artística ou visual impressionante																																												
+rainha		rainha	a rainha	/ɐ ˈʁajɲɐ/	/a ˈʁajɲɐ/	sf	Monarca do sexo feminino																																												
+saudades		saudades	as saudades	/ɐʃ sɐwˈdadɨʃ/	/aʃ sawˈdades/	sfp	Sentimento de falta de algo ou alguém																																												
+seguinte		seguinte	o seguinte, a seguinte	/u sɨˈɡĩtɨ | ɐ sɨˈɡĩtɨ/	/u seˈɡĩtʃi | a seˈɡĩtʃi/	adj m/f	Aquilo que vem depois																																												
+chover		chover	chover	/ʃuˈveɾ/	/ʃoˈveʁ/	v	Cair água em estado líquido do céu em forma de gotas																																												
+nevar		nevar	nevar	/nɨˈvaɾ/	/neˈvaʁ/	v	Cair água em estado sólido do céu em forma de flocos de neve																																												
+trovejar		trovejar	trovejar	/tɾuvɨˈʒaɾ/	/tɾoveˈʒaʁ/	v	Produzir trovões devido a descargas elétricas na atmosfera																																												
+relampejar		relampejar	relampejar	/ʁɨlɐ̃pɨˈʒaɾ/	/ʁelɐ̃peˈʒaʁ/	v	Produzir relâmpagos, clarões momentâneos causados por descargas elétricas																																												
+granizar		granizar	granizar	/ɡɾɐniˈzaɾ/	/ɡɾɐniˈzaʁ/	v	Cair pedras de gelo do céu em forma de granizo																																												
+garoar		garoar	garoar	/ɡɐɾuˈaɾ/	/ɡaɾoˈaʁ/	v	Cair uma chuva muito fina e contínua																																												
+ventilar		ventilar	ventilar	/vẽtiˈlaɾ/	/vẽtʃiˈlaʁ/	v	Movimentar o ar em um ambiente, permitindo a circulação de vento																																												
+ennevoar		ennevoar	ennevoar	/ẽnɨvuˈaɾ/	/ẽnevoˈaʁ/	v	Ficar coberto por nevoeiro ou névoa, reduzindo a visibilidade																																												
+ensolar		ensolar	ensolar	/ẽsuˈlaɾ/	/ẽsoˈlaʁ/	v	Ficar ensolarado, com céu limpo e presença intensa de sol																																												
+gelear		gelear	gelear	/ʒɨliˈaɾ/	/ʒeliˈaʁ/	v	Diminuir a temperatura a ponto de congelar líquidos ou superfícies																																												
+orvalhar		orvalhar	orvalhar	/oɾvɐˈʎaɾ/	/oʁvaˈʎaʁ/	v	Formar orvalho, pequenas gotas de água que se condensam sobre superfícies devido à diferença de temperatura																																												
+secar		secar	secar	/sɨˈkaɾ/	/seˈkaʁ/	v	Perder ou remover a umidade de algo																																												
+umidificar		umidificar	umidificar	/umidifiˈkaɾ/	/umidʒifiˈkaʁ/	v	Aumentar a umidade no ar ou em uma superfície																																												
+ressecar		ressecar	ressecar	/ʁɨsɨˈkaɾ/	/ʁeseˈkaʁ/	v	Perder toda a umidade, tornando-se extremamente seco																																												
+enxarcar		enxarcar	enxarcar	/ẽʃɐɾˈkaɾ/	/ẽʃaʁˈkaʁ/	v	Ficar completamente encharcado de água ou outro líquido																																												
