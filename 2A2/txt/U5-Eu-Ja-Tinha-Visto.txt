@@ -7,27 +7,25 @@ convidar	"<img src=""Funeral Sawne and Bean.jpg"">"	convidar	convidar	/kõviˈda
 ator, atriz	"<img src=""_10_Theater_Play_Stage.JPG"">"	ator, atriz	o ator, a atriz	/u ɐˈtoɾ | ɐ ɐˈtɾiʃ/	/u aˈtoʁ | a aˈtɾiʃ/	sm, sf	Profissional que interpreta papéis em teatro, cinema ou televisão.		actor, actress	/ˈæktə˞ | ˈæktɹəs/	/ˈæktə | ˈæktrəs/	n	A person who performs in plays, movies, or television shows.		actor, actriz						acteur, actrice						Schauspieler, Schauspielerin						actor, actriu						attore, attrice												arreglar Curso::1A2 Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes My_Mess::Multi Portugues::VOC Portugues::VOC::Trabalho::Profissoes Vocabulary::Work_n_Career Vocabulary::Work_n_Career::Profession
 cantor, a	"<img src=""_cantora-d268ad14a5f9bfb313b2e330e3f6597b9ca497e1.JPG"">"	cantor, cantora	o cantor, a cantora	/u kɐ̃ˈtoɾ | ɐ kɐ̃ˈtɔɾɐ/	/u kɐ̃ˈtoʁ | a kɐ̃ˈtɔɾɐ/	sm / sf	pessoa que utilza a voz para interpretar uma música. <!--Artista que canta músicas como profissão.-->		singer	/ˈsɪŋə˞/	/ˈsɪŋə/	n	A person who performs songs using their voice.		cantante						chanteur, chanteuse						Sänger, Sängerin						cantant						cantante												Curso::1A2 Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes My_Mess::Multi Portugues::VOC Portugues::VOC::Trabalho::Profissoes Portugues::VOC::Tricky Vocabulary::Sing Vocabulary::Theater Vocabulary::Work_n_Career Vocabulary::Work_n_Career::Profession
 maestro,trina	"<img src=""_maestro_director_orquesta.JPG""><img src=""_maestrina-c00f1911ae28953968bec15b38a4cfb3fc71b2f7.JPG"">"	maestro, maestrina	o maestro, a maestrina	/u mɐˈɛʃtɾu | ɐ mɐiʃˈtɾinɐ/	/u maˈɛstɾu | a maisˈtɾinɐ/	sm / sf	O responsável por dirigir uma orquestra ou coro.		conductor	/kənˈdəktə˞/	/kənˈdʌktə/	n	A person who directs an orchestra, choir, or other musical ensemble.		director, directora de orquesta						chef d’orchestre						Dirigent, Dirigentin						director, directora d'orquestra						direttore, direttrice d'orchestra												Curso::1A2 Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes My_Mess::Multi Portugues::Falso_Amigo Portugues::VOC Portugues::VOC::Trabalho::Profissoes Vocabulary::Carreer Vocabulary::Work_n_Career Vocabulary::Work_n_Career::Profession
-realizador, a (cinema)	"<img src=""_realizador.JPG"">"	realizador, realizadora	o realizador, a realizadora	/u ʁiɐlizɐˈdoɾ | ɐ ʁiɐlizɐˈdɔɾɐ/	/u ʁializaˈdoʁ | a ʁializaˈdɔɾɐ/	sm / sf	Dirige os atores num filme. <!--Responsável pela direção técnica e artística de uma obra audiovisual, como um filme.-->		film director	/ˈfɪlm də˞ˈɹɛktə˞/	/ˈfɪlm daɪˈrektə/	n	A person responsible for the artistic and technical aspects of a film.		director, directora de cine						réalisateur, réalisatrice						Regisseur, Regisseurin						director, directora de cinema						regista												Curso::1A2 Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes My_Mess::Multi Portugues::VOC Portugues::VOC::Trabalho::Profissoes Vocabulary::Work_n_Career Vocabulary::Work_n_Career::Profession
-cinema (arte)		cinema	o cinema	/u siˈnɛmɐ/	/u siˈnɛmɐ/	sm	Arte ou indústria de produção de filmes; sala de projeção de filmes.		cinema	/ˈsɪnəmə/	/ˈsɪnəmə/				cine						cinéma						Kino						cinema						cinema	/ˈtʃinema/											Curso::1A2 Curso::2A2 Curso::2A2::U3-Como-Era-a-Tua-Escola Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes Portugues::Ortografia Portugues::Ortografia::Sibilantes Portugues::VOC Portugues::VOC::Cidade::Locais Portugues::VOC::Pessoas::Tempo_livre Vocabulary::City Vocabulary::Film Vocabulary::Work_n_Career::Workplace
-teatro	"<img src=""_10_Theater_Play_Stage.JPG"">"	teatro	o teatro	/u tiˈatɾu/	/u tʃiˈatɾu/	sm	Local onde se apresentam peças ou espetáculos cênicos.		theater	/ˈθiətə˞/	/ˈθɪətə/	n	A place where plays, films, or other performances take place.		teatro						théâtre						Theater						teatre						teatro	/teˈatro/											Curso::1A2 Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes My_Mess::Multi Portugues::VOC Portugues::VOC::Cidade::Locais Vocabulary::City Vocabulary::Work_n_Career::Workplace
-mês		mês	o mês	/u ˈmeʃ/	/u ˈmes/	sm	Unidade de tempo correspondente a 30 ou 31 dias.		month	/ˈmənθ/	/ˈmʌnθ/	n	One of the twelve divisions of a calendar year.		mes	/ˈmes/	/ˈmes/				mois		/mwa/				Monat		/ˈmoːnat/				mes						mese	/ˈmeze/											Curso::2A2::U5-Eu-Ja-Tinha-Visto::Festival-Flores-Madeira Portugues::VOC Portugues::VOC::Basicos Portugues::VOC::Basicos::Tempo Portugues::VOC::Basicos::Tempo::Meses Portugues::VOC::Basicos::Tempo::Unidades Vocabulary::Basic::Time::Months Vocabulary::Basic::Time::Units Vocabulary::Time::Months
+realizador, a (cinema)	"<img src=""_diretora_de_cinema.JPG""><img src=""_realizador.JPG"">"	realizador, realizadora (de cinema, de televisão)	o realizador, a realizadora	/u ʁiɐlizɐˈdoɾ | ɐ ʁiɐlizɐˈdɔɾɐ | dɨ siˈnɛmɐ | dɨ tɨlɨviˈzɐ̃w̃ /	/u ʁializaˈdoʁ | a ʁializaˈdɔɾɐ | dɨ siˈnɛmɐ | dɨ tɨlɨviˈzɐ̃w̃ |/	sm / sf	Dirige os atores num filme (em Portugal)		film director	/ˈfɪlm də˞ˈɹɛktə˞/	/ˈfɪlm daɪˈrektə/	n	A person responsible for the artistic and technical aspects of a film.		director, directora de cine						réalisateur, réalisatrice						Regisseur, Regisseurin						director, directora de cinema						regista												Curso::1A2 Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes My_Mess::Multi Portugues::Falso_Amigo Portugues::VOC Portugues::VOC::Trabalho::Profissoes Vocabulary::Film Vocabulary::Work_n_Career Vocabulary::Work_n_Career::Profession
+cinema (arte)	"<img src=""_cinema-91a3161effa80ed7e3acef4928b948eb7041de7a.JPG""><img src=""_cinema_.JPG"">"	cinema	o cinema	/u siˈnɛmɐ/	/u siˈnɛmɐ/	sm	Arte ou indústria de produção de filmes; sala de projeção de filmes.		cinema	/ˈsɪnəmə/	/ˈsɪnəmə/				cine						cinéma						Kino						cinema						cinema	/ˈtʃinema/											Curso::1A2 Curso::2A2 Curso::2A2::U3-Como-Era-a-Tua-Escola Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes Portugues::Ortografia Portugues::Ortografia::Sibilantes Portugues::VOC Portugues::VOC::Cidade::Locais Portugues::VOC::Pessoas::Tempo_livre Vocabulary::City Vocabulary::Film Vocabulary::Work_n_Career::Workplace
+teatro	"<img src=""_10_Theater_Play_Stage.JPG"">"	teatro	o teatro	/u tiˈatɾu/	/u tʃiˈatɾu/	sm	Local onde se apresentam peças ou espetáculos cênicos.		theater	/ˈθiətə˞/	/ˈθɪətə/	n	A place where plays, films, or other performances take place.		teatro						théâtre						Theater						teatre						teatro	/teˈatro/											Curso::1A2 Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes My_Mess::Multi Portugues::Mesma_palavra_em_Espanhol Portugues::VOC Portugues::VOC::Cidade::Locais Vocabulary::City Vocabulary::Work_n_Career::Workplace
 desempregado,a	"<img src=""_desempregada.JPG"">"	desempregado, desempregada	o desempregado, a desempregada	/u dɨzẽpɾɨˈɡadu | ɐ dɨzẽpɾɨˈɡadɐ/	/u dezẽpɾeˈɡadu | a dezẽpɾeˈɡadɐ/	sm, sf	Aquele que está sem trabalho ou emprego.		unemployed	/ˌənɪmˈplɔɪd/	/ˌʌnɪmˈplɔɪd/	adj	Describing someone who does not have a job.		desempleado, desempleada						chômeur, chômeuse						Arbeitsloser, Arbeitslose						aturat, aturada						disoccupato, disoccupata												Curso::2A2 Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes My_Mess::Multi Portugues::Falso_Amigo Portugues::VOC Portugues::VOC::Trabalho Portugues::VOC::Trabalho::Profissoes Vocabulary::Profession Vocabulary::Work_n_Career::Profession
 estilísta (Voc-Cards-Special)	"<img src=""_estilista.JPG"">"	estilísta	o/a estilista	/ˈɔɐ ʃtiˈliʃtɐ/	/ˈɔɐ istʃiˈlistɐ/	s m/f	Profissional que cria, desenha ou seleciona roupas e acessórios, atuando na moda.		stylist	/ˈstaɪlɪst/	/ˈstaɪlɪst/				diseñador de ropa						styliste						Stylist						estilista						stilista												Curso::1A2 Curso::2A2 Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes Portugues::Adjetivos Portugues::Falso_Amigo Portugues::VOC Portugues::VOC::Trabalho Portugues::VOC::Trabalho::Profissoes Vocabulary::People::Description
 encenador,a (teatro)	"<img src=""_ecenador.JPG"">"	encenador, encenadora	o encenador, a encenadora	/u ẽsɨnɐˈdoɾ | ɐ ẽsɨnɐˈdɔɾɐ/	/u ẽsenaˈdoʁ | a ẽsenaˈdɔɾɐ/	sm	"É quem ensaia os atores no teatro. O equivalente a ""realizador"" no teatro. <!--Que ou aquele que põe em cena; ensaiador;-->"		theater director	/ˈθiətə˞ də˞ˈɹɛktə˞/	/ˈθɪətə daɪˈrektə/	n	A person who oversees and guides the artistic aspects of a theater production.		director, directora de teatro						metteur en scène						Theaterregisseur, Theaterregisseurin						director, directora de teatre						regista teatrale												arreglar Curso::2A2 Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes My_Mess::Multi Portugues::Falso_Amigo Portugues::VOC Portugues::VOC::Trabalho Portugues::VOC::Trabalho::Profissoes Vocabulary::Film Vocabulary::Profession Vocabulary::Theater Vocabulary::Work_n_Career Vocabulary::Work_n_Career::Profession
-diretor,a de cinema (BR)		diretor de cinema, diretora de cinema	o diretor de cinema, a diretora de cinema	/u diɾɨˈtoɾ dɨ siˈnɛmɐ | ɐ diɾɨˈtɔɾɐ dɨ siˈnɛmɐ/	/u dʒiɾeˈtoʁ dʒi siˈnɛmɐ | a dʒiɾeˈtɔɾɐ dʒi siˈnɛmɐ/	sm	Quem dirige a produção de filmes.		film director	/ˈfɪlm də˞ˈɹɛktə˞/	/ˈfɪlm daɪˈrektə/	n	The person responsible for the production of films.		director de cine						réalisateur, réalisatrice						Regisseur,in						director, directora						regista												arreglar Curso::2A2 Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes Lugares::Brasil Portugues::Falso_Amigo Portugues::VOC Portugues::VOC::Trabalho Portugues::VOC::Trabalho::Profissoes Vocabulary::Work_n_Career Vocabulary::Work_n_Career::Profession
+diretor,a de cinema (BR)	"<img src=""_diretora_de_cinema.JPG"">"	diretor de cinema, diretora de cinema	o diretor de cinema, a diretora de cinema	/u diɾɨˈtoɾ dɨ siˈnɛmɐ | ɐ diɾɨˈtɔɾɐ dɨ siˈnɛmɐ/	/u dʒiɾeˈtoʁ dʒi siˈnɛmɐ | a dʒiɾeˈtɔɾɐ dʒi siˈnɛmɐ/	sm	Quem dirige a produção de filmes em Brasil.		film director	/ˈfɪlm də˞ˈɹɛktə˞/	/ˈfɪlm daɪˈrektə/	n	The person responsible for the production of films.		director de cine						réalisateur, réalisatrice						Regisseur,in						director, directora						regista												Curso::2A2 Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes Lugares::Brasil Portugues::Falso_Amigo Portugues::VOC Portugues::VOC::Trabalho Portugues::VOC::Trabalho::Profissoes Vocabulary::Work_n_Career Vocabulary::Work_n_Career::Profession
 tradição, tradições	"<img src=""_costume_tradicoes_valencianas.JPG"">"	tradição, tradições	a tradição, as tradições	/ɐ tɾɐdiˈsɐ̃w̃ | ɐʃ tɾɐdiˈsõj̃ʃ/	/a tɾadʒiˈsɐ̃w̃ | aʃ tɾadʒiˈsõj̃s/	sf	Costumes e práticas transmitidos ao longo do tempo.														tradition, traditions						Tradition, Traditionen						tradició, tradicions						tradizione, tradizioni												Curso::2A2 Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::vocabulario_em_clase Lugares::Portugal Portugues::VOC Portugues::VOC::Festas::Natal Vocabulary::Christmas
-igrega		igreja	a igreja	/ɐ iˈɡɾɐʒɐ/	/a iˈɡɾeʒɐ/	sf	Edifício destinado ao culto religioso cristão.		church	/ˈtʃɜ˞tʃ/	/ˈtʃɜːtʃ/				iglesia						église						Kirche						església						chiesa												Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes Curso::2A2::vocabulario_em_clase Portugues::VOC Portugues::VOC::Cidade::Locais Vocabulary::City
+igrega	"<img src=""_91_Mass_Priest_Grandfather_Church.JPG"">"	igreja	a igreja	/ɐ iˈɡɾɐʒɐ/	/a iˈɡɾeʒɐ/	sf	Edifício destinado ao culto religioso cristão.		church	/ˈtʃɜ˞tʃ/	/ˈtʃɜːtʃ/				iglesia						église						Kirche						església						chiesa												Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes Curso::2A2::vocabulario_em_clase Portugues::VOC Portugues::VOC::Cidade::Locais Vocabulary::City
 peça (de teatro)	"<img src=""_10_Theater_Play_Stage.JPG"">"	peça (de teatro)	a peça	/ɐ ˈpɛsɐ/	/a ˈpɛsɐ/	sf	"Obra teatral apresentada em palco. "" a ........"""		play	/ˈpleɪ/	/ˈpleɪ/	n	A dramatic work performed on a stage.		obra de teatro						pièce de théâtre						Theaterstück						obra de teatre						opera teatrale												Curso::2A2 Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes My_Mess::Multi Portugues::VOC Portugues::VOC::Pessoas::Tempo_livre
 personagem, personagens	"<img src=""Film Cup 0.jpg""><img src=""Film Cup 00.jpg"">"	personagem, personagens	a personagem, as personagens	/ɐ pɨɾsuˈnaʒɐ̃j̃ | ɐʃ pɨɾsuˈnaʒẽʃ/	/a peʁsoˈnaʒẽj̃ | aʃ peʁsoˈnaʒẽs/	sf, sfp	Figura fictícia em uma história ou peça teatral.		character, characters	/ˈkʰɛrɪktə˞ | ˈkʰɛrɪktə˞z/	/ˈkʰærɪktə | ˈkʰærɪktəz/	n	A person, animal, or being in a story, play, or film.		personaje, personajes						personnage, personnages						Charakter, Charaktere						personatge, personatges						personaggio, personaggi												arreglar Curso::1C1 Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes My_Mess::Multi Portugues::VOC Vocabulary::Film Vocabulary::Theater
-importância		importância	a importância	/ɐ ĩpuɾˈtɐ̃siɐ/	/a ĩpoʁˈtɐ̃siɐ/	sf	Valor ou relevância de algo.		importance	/ɪmˈpʰɔrtn̩s/	/ɪmˈpʰɔːtᵊns/				importancia						importance						Bedeutung						importància						importanza												Curso::2A2::U2-Olha-Esta-Noticia::Noticias Curso::2A2::U2-Olha-Esta-Noticia::Vocabulario Curso::2A2::U4-Nao-Tinhamos-Redes-Sociais Curso::2A2::U5-Eu-Ja-Tinha-Visto::Festival-Flores-Madeira Portugues::Ortografia Portugues::VOC
+importância		importância	a importância	/ɐ ĩpuɾˈtɐ̃siɐ/	/a ĩpoʁˈtɐ̃siɐ/	sf	"Valor ou relevância de algo. Com ""I"""		importance	/ɪmˈpʰɔrtn̩s/	/ɪmˈpʰɔːtᵊns/				importancia						importance						Bedeutung						importància						importanza												Curso::2A2::U2-Olha-Esta-Noticia::Noticias Curso::2A2::U2-Olha-Esta-Noticia::Vocabulario Curso::2A2::U4-Nao-Tinhamos-Redes-Sociais Curso::2A2::U5-Eu-Ja-Tinha-Visto::Festival-Flores-Madeira Portugues::Ortografia Portugues::VOC
 apaixonar-se	"<img src=""_apaixonar-se__.JPG"">"	apaixonar-se	apaixonar-se	/ɐpɐjʃuˈnaɾsɨ/	/apajʃoˈnaʁsi/	v	Começar a sentir um amor intenso ou forte atração emocional por alguém, geralmente no início de um relacionamento.		fall in love	/ˈfɔl ˈɪn ˈləv/	/ˈfɔːl ɪn ˈlʌv/	exp	To develop romantic feelings for someone.		enamorarse						tomber amoureux						sich verlieben						enamorar-se						innamorarsi												Curso::2A2 Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes Curso::2A2::vocabulario_em_clase Portugues::VOC Portugues::VOC::Pessoas::Amor Portugues::VOC::Pessoas::Relações_entre_as_pessoas Vocabulary::Love
 documentário	"<img src=""_wildlife_documentary.PNG"">"	documentário	o documentário	/u dukumẽˈtaɾiu/	/u dokumẽˈtaɾiu/	sm	produção audiovisual informativa		documentary	/ˌdɑkjəˈmɛntɹi/	/ˌdɒkjʊˈmentᵊri/	n	A non-fiction film that presents factual information about a subject.		documental						documentaire						Dokumentarfilm						documentari						documentario												Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes Curso::2A2::vocabulario_em_clase My_Mess::Multi Portugues::VOC Portugues::VOC::Filme Vocabulary::Film Vocabulary::Film_Genres
-região, regiões		região, regiões	a região, as regiões	/ɐ ʁɨʒiˈɐ̃w̃ | ɐʒ ʁɨʒiˈõj̃ʃ/	/a ʁeʒiˈɐ̃w̃ | aʒ ʁeʒiˈõj̃s/	sf, sfp	Área geográfica delimitada		region	/ˈɹidʒən/	/ˈriːdʒᵊn/	n	A defined geographical area.		región						région						Region						regió						regione												Curso::2A2::U5-Eu-Ja-Tinha-Visto::Festival-Flores-Madeira Portugues::VOC Portugues::VOC::Verbos Vocabulary::My_Choice
+região, regiões		região, regiões	a região, as regiões	/ɐ ʁɨʒiˈɐ̃w̃ | ɐʒ ʁɨʒiˈõj̃ʃ/	/a ʁeʒiˈɐ̃w̃ | aʒ ʁeʒiˈõj̃s/	sf, sfp	Área geográfica delimitada		region	/ˈɹidʒən/	/ˈriːdʒᵊn/	n	A defined geographical area.		región						région						Region						regió						regione												Curso::2A2::U5-Eu-Ja-Tinha-Visto::Festival-Flores-Madeira Portugues::Ortografia Portugues::VOC Portugues::VOC::Verbos Vocabulary::My_Choice
 produtor,a (cinema)		produtor, produtora	o produtor, a produtora	/u pɾuduˈtoɾ | ɐ pɾuduˈtɔɾɐ/	/u pɾoduˈtoʁ | a pɾoduˈtɔɾɐ/	sm	Responsável pelos custos de um filme.		producer	/pɹəˈdusə˞/	/prəˈdjuːsə/	n	A person responsible for overseeing and financing a film, play, or show.		productor, productora (de cine)						producteur, productrice						Produzent, Produzentin						productor, productora (de cinema)						produttore, produttrice												change Curso::2A2 Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes My_Mess::Multi Portugues::VOC Portugues::VOC::00-DONE::Cancao::Supertrabalhador Portugues::VOC::Profissoes::Supertrabalhador Portugues::VOC::Trabalho Portugues::VOC::Trabalho::Profissoes Vocabulary::Work_n_Career::Profession
 bailarino,a	"<img src=""_danço.JPG"">"	bailarino, bailarina	o bailarino, a bailarina	/u bɐjlɐˈɾinu | ɐ bɐjlɐˈɾinɐ/	/u bajlaˈɾinu | a bajlaˈɾinɐ/	sm, sf	pessoa que dança como profissão.		dancer	/ˈdænsə˞/	/ˈdɑːnsə/	n	A person who performs dances as an art form or profession.		bailarín, bailarina						danseur, danseuse						Tänzer, Tänzerin						ballarí, ballarina						ballerino, ballerina												arreglar Curso::1A2 Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes My_Mess::Multi Portugues::VOC Portugues::VOC::Trabalho::Profissoes Vocabulary::Dance Vocabulary::Theater Vocabulary::Work_n_Career Vocabulary::Work_n_Career::Profession
 comédia negra	"<img src=""_rei_zarolho_comedia_negra.JPG"">"	comédia negra	a comédia negra	/ɐ kuˈmɛdiɐ ˈnɛɡɾɐ/	/a koˈmɛdʒiɐ ˈnɛɡɾɐ/	sf	Gênero teatral ou cinematográfico que trata temas sérios com humor ácido.		black comedy	/ˈblæk ˈkʰɑmədi/	/ˈblæk ˈkʰɒmədi/	n	A type of comedy that uses dark, morbid, or satirical humor.		comedia negra						comédie noire						Schwarze Komödie						comèdia negra						commedia nera												Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes My_Mess::Multi Portugues::VOC Vocabulary::Chamba Vocabulary::Film Vocabulary::Film_Genres
-compositor, a	"<img src=""_compositor.JPG"">"	compositor, compositora	o compositor, a compositora	/u kõpuziˈtoɾ | ɐ kõpuziˈtɔɾɐ/	/u kõpoziˈtoʁ | a kõpoziˈtɔɾɐ/	s m/f	Pessoa que cria músicas ou partituras.		composer	/kəmˈpʰoʊzə˞/	/kəmˈpʰəʊzə/	n	A person who writes music.		compositor, compositora						compositeur, compositrice						Komponist, Komponistin						compositor, compositora						compositore, compositrice												Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes My_Mess::Multi Portugues::VOC Portugues::VOC::Trabalho::Profissoes Vocabulary::Film Vocabulary::Music Vocabulary::Profession
-coreógrafo,a	"<img src=""_coreografo_Maurice_Bejart.JPG"">"	coreógrafo, coreógrafa	o coreógrafo, a coreógrafa	/u kuɾɨˈɔɡɾɐfu | ɐ kuɾɨˈɔɡɾɐfɐ/	/u koɾeˈɔɡɾafu | a koɾeˈɔɡɾafɐ/	s m/f	Pessoa que cria e dirige coreografias de dança.		choreographer	/ˌkɔriˈɑɡɹəfə˞/	/ˈkʰɒriəɡrɑːfə/	n	A person who creates and arranges dance movements.		coreógrafo, coreógrafa						chorégraphe						Choreograf, Choreografin						coreògraf, coreògrafa						coreografo, coreografa												Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes My_Mess::Multi Portugues::VOC Portugues::VOC::Trabalho::Profissoes Vocabulary::Dance Vocabulary::Film Vocabulary::Profession Vocabulary::Theater
+coreógrafo,a	"<img src=""_coreografo_Maurice_Bejart.JPG"">"	coreógrafo, coreógrafa	o coreógrafo, a coreógrafa	/u kuɾɨˈɔɡɾɐfu | ɐ kuɾɨˈɔɡɾɐfɐ/	/u koɾeˈɔɡɾafu | a koɾeˈɔɡɾafɐ/	s m/f	Pessoa que cria e dirige coreografias de dança.		choreographer	/ˌkɔriˈɑɡɹəfə˞/	/ˈkʰɒriəɡrɑːfə/	n	A person who creates and arranges dance movements.		coreógrafo, coreógrafa						chorégraphe						Choreograf, Choreografin						coreògraf, coreògrafa						coreografo, coreografa												Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes My_Mess::Multi Portugues::Mesma_palavra_em_Espanhol Portugues::VOC Portugues::VOC::Trabalho::Profissoes Vocabulary::Dance Vocabulary::Film Vocabulary::Profession Vocabulary::Theater
 escultor, escultora	"<img src=""_escultora_.JPG"">"	escultor, escultora	o escultor, a escultora	/u ʃkuɫˈtoɾ | ɐ ʃkuɫˈtɔɾɐ/	/u iskuwˈtoʁ | a iskuwˈtɔɾɐ/	s m/f	Artista que esculpe materiais como pedra, madeira ou metal.		sculptor	/ˈskəlptə˞/	/ˈskʌlptə/	n	An artist who creates three-dimensional works of art by carving or molding materials.		escultor, escultora						sculpteur, sculptrice						Bildhauer, Bildhauerin						escultor, escultora						scultore, scultrice												Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes My_Mess::Multi Portugues::VOC Portugues::VOC::Trabalho::Profissoes Vocabulary::Artists Vocabulary::Profession
 bailado (ballet)	"<img src=""_bailado.JPG"">"	bailado	o bailado	/u bɐjˈladu/	/u bajˈladu/	sm	Peça artística de dança acompanhada de música, geralmente&nbsp;ballet.		ballet	/bæˈleɪ/	/ˈbæleɪ/	n	A highly stylized and formalized type of dance.		ballet						ballet						Ballett						ballet						balletto												Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes My_Mess::Multi Portugues::Falso_Amigo Portugues::VOC Vocabulary::Dance Vocabulary::Theater
 ranchos folklóricos	"<img src=""_rancho_Folklorico.JPG"">"	ranchos folklóricos	os ranchos folklóricos	/uʒ ˈʁɐ̃ʃuʃ fɔɫˈlɔɾikuʃ/	/uʒ ˈʁɐ̃ʃus fɔwˈlɔɾikus/	smp	Grupos que preservam e apresentam danças e músicas tradicionais.		folkloric groups	/ˈfoʊkˌlɔrɪk ˈɡɹups/	"/#folkloric# ˈɡruːps/"	n	Cultural ensembles that perform traditional music and dances.		grupos folclóricos						groupes folkloriques						volkstümliche Gruppen						grups folklòrics						gruppi folcloristici												Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes My_Mess::Multi Portugues::Falso_Amigo Portugues::VOC Vocabulary::Dance
@@ -35,10 +33,9 @@ conceção, conceções		conceção, conceções	a conceção, as conceções	/�
 atravessar	"<img src=""_atravessar_passadeira.JPG"">"	atravessar	atravessar	/ɐtɾɐvɨˈsaɾ/	/atɾaveˈsaʁ/	v	"Passar de um lado para o outro; superar um obstáculo. Com <b>""A""</b>"		to cross	/tə ˈkɹɔs/	/tə ˈkrɒs/	v	"To move from one side to another; to overcome an obstacle. With an ""A""."		atravesar						traverser						überqueren						travessar						attraversare												Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes Portugues::VOC::Verbos Vocabulary::City
 esgotar	"<img src=""_entradas_esgotadas.JPG"">"	esgotar	esgotar	/ʒɡuˈtaɾ/	/iʒɡoˈtaʁ/	v	Consumir completamente; acabar um recurso ou ingressos.		to exhaust	/tu ɪɡˈzɔst/	/tu ɪɡˈzɔːst/	v	To completely use up; to run out of a resource or tickets.		agotar						épuiser						erschöpfen						esgotar						esaurire												Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes Portugues::VOC::Verbos
 ensaiar	"<img src=""_ensaio_ensaiar.JPG"">"	ensaiar	ensaiar	/ẽsɐjˈaɾ/	/ẽsajˈaʁ/	v	Praticar uma apresentação antes da exibição oficial.		rehearse	/ɹɪˈhɜ˞s/	/rɪˈhɜːs/	v	To practice a performance before presenting it to an audience.		ensayar						répéter						proben						assajar						provare												Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes My_Mess::Multi Portugues::VOC Vocabulary::Dance Vocabulary::Film Vocabulary::Theater
-namorar	"<img src=""_namorar.JPG"">"	namorar	namorar	/nɐmuˈɾaɾ/	/nɐmoˈɾaʁ/	v	Manter um relacionamento amoroso estável com alguém, como um casal de namorados.		to date	/tə ˈdeɪt/	/tə ˈdeɪt/	v	To be in a stable romantic relationship with someone.		salir con alguien						sortir avec						qm. daten						eixir amb algú						frequentare												Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes Portugues::VOC Portugues::VOC::Pessoas::Amor Vocabulary::Love
 manifestação, ões (na rua)	"<img src=""_manifestacao.JPG"">"	manifestação, manifestações	a manifestação, as manifestações	/ɐ mɐnifɨʃtɐˈsɐ̃w̃ | ɐʒ mɐnifɨʃtɐˈsõj̃ʃ/	/a mɐnifestaˈsɐ̃w̃ | aʒ mɐnifestaˈsõj̃s/	sf, sfp	Protesto ou evento onde um grupo expressa ideias publicamente.		protest, demonstrations	/pɹəˈtʰɛst | ˌdɛmənˈstɹeɪʃənz/	/ˈprəʊtest | ˌdemənˈstreɪʃᵊnz/	n	Public gatherings where people express their opinions or grievances.		manifestación, manifestaciones						manifestation, manifestations						Demonstration, Demonstrationen						manifestació, manifestacions						manifestazione, manifestazioni												Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes My_Mess::Multi Portugues::VOC Vocabulary::City
-ato		ato	o ato	/u ˈatu/	/u ˈatu/	sm	Cada uma das partes em que se divide uma peça teatral.		act	/ˈækt/	/ˈækt/	v	To perform a role in a play, film, or show.		acto						acte						Akt						acte						atto												Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes My_Mess::Multi Portugues::VOC
-dramaturgo, a	"<img src=""_vai_chatear_o_Camoes_.JPG"">"	dramaturgo, dramaturga	o dramaturgo, a dramaturga	/u dɾɐmɐˈtuɾɡu/, /ɐ dɾɐmɐˈtuɾɡɐ/	/u dɾɐmaˈtuʁɡu/, /a dɾɐmaˈtuʁɡɐ/	sm, sf	Escritor(a) de peças teatrais.		playwright	/ˈpleɪˌɹaɪt/	/ˈpleɪraɪt/	n	A person who writes plays.		dramaturgo						dramaturge						Dramaturg, Dramaturgin						dramaturg, dramaturga						drammaturgo												Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes My_Mess::Multi Portugues::VOC Vocabulary::Theater Vocabulary::Writing
+ato		ato, atos	o ato, os atos	/u ˈatu/, /uz ˈatuʃ/	/u ˈatu/, /uz ˈatus/	sm, smp	Cada uma das partes em que se divide uma peça teatral.		act	/ˈækt/	/ˈækt/	v	To perform a role in a play, film, or show.		acto						acte						Akt						acte						atto												Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes My_Mess::Multi Portugues::VOC Vocabulary::Theater
+dramaturgo, a	"<img src=""_vai_chatear_o_Camoes_.JPG"">"	dramaturgo, dramaturga	o dramaturgo, a dramaturga	/u dɾɐmɐˈtuɾɡu/, /ɐ dɾɐmɐˈtuɾɡɐ/	/u dɾɐmaˈtuʁɡu/, /a dɾɐmaˈtuʁɡɐ/	sm, sf	Escritor(a) de peças teatrais.		playwright	/ˈpleɪˌɹaɪt/	/ˈpleɪraɪt/	n	A person who writes plays.		dramaturgo						dramaturge						Dramaturg, Dramaturgin						dramaturg, dramaturga						drammaturgo												Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes My_Mess::Multi Portugues::Mesma_palavra_em_Espanhol Portugues::VOC Vocabulary::Theater Vocabulary::Writing
 zarolho, zarolha	"<img src=""Commander Hange and Levi.jpg""><img src=""_vai_chatear_o_Camoes_.JPG"">"	zarolho, zarolha	o zarolho, a zarolha	/u zɐˈɾɔʎu | ɐ zɐˈɾɔʎɐ/	/u zaˈɾɔʎu | a zaˈɾɔʎɐ/	adj m/f	Pessoa que tem um olho cego ou que vê mal de um olho.		one-eyed	/ˈwənˈaɪd/	/ˈwʌnˌaɪd/	adj	Having only one functional eye.		tuerto, tuerta						borgne						Einäugiger, Einäugige						borni, bornia						orbo, orba												Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes My_Mess::Multi Portugues::VOC
 visão, visões (do mundo)		visão, visões	a visão, as visões (do mundo)	/ɐ viˈzɐ̃w̃ du ˈmũdu | ɐʒ viˈzõj̃ʒ du ˈmũdu/	/a viˈzɐ̃w̃ du ˈmũdu | aʒ viˈzõj̃s du ˈmũdu/	sf, sfp	"Forma como uma pessoa ou sociedade interpreta a realidade. Com <b>""V""</b>"		worldview	/ˈwɜ˞ldˌvju/	"/#worldview#/"	n	"The way a person or society interprets reality. With a capital ""V""."		visión del mundo						vision du monde						Weltanschauung						visió del món						visione del mondo												Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes Portugues::VOC Portugues::VOC::Abstratos Vocabulary::Crazy_Difficult
 esgotado (entradas)	"<img src=""_entradas_esgotadas.JPG"">"	esgotado(s), esgotada(s)	esgotados, esgotadas	/ʒɡuˈtaduʃ | ʒɡuˈtadɐʃ/	/iʒɡoˈtadus | iʒɡoˈtadas/	adj mp, adj fp	Que se esgotou; que está exausto ou sem estoque.		sold out	/ˈsoʊld ˈaʊt/	/ˈsəʊld ˈaʊt/	adj	No longer available; out of stock.		agotado						épuisé						ausverkauft						esgotat,da						esaurito, a												Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes Portugues::VOC Vocabulary::Theater
@@ -49,52 +46,256 @@ encontro	"<img src=""Erwins Birthday - DYFM - 02.png"">"	encontro	o encontro	/u 
 infância	"<img src=""Chibis.jpg"">"	infância	a infância	/ɐ ĩˈfɐ̃siɐ/	/a ĩˈfɐ̃siɐ/	sf	Período da vida que vai do nascimento até a adolescência.		childhood	/ˈtʃaɪəldˌhʊd/	/ˈtʃaɪldhʊd/	n	The period of life from birth to adolescence.		infancia						enfance						Kindheit						infantesa						infanzia												Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes My_Mess::Multi Portugues::Ortografia Portugues::VOC Vocabulary::Family Vocabulary::People::Age
 vítima	"<img src=""_63_Murderer_Police_Victim_Crime.JPG"">"	vítima	a vítima	/ɐ ˈvitimɐ/	/a ˈvitʃimɐ/	sf	Pessoa que sofre dano, crime ou tragédia.		victim	/ˈvɪktəm/	/ˈvɪktɪm/	n	A person harmed, injured, or affected by an event or action.		víctima						victime						Opfer						víctima						vittima												Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes My_Mess::Multi Portugues::Ortografia Portugues::VOC Vocabulary::Crime
 violência	"<img src=""Levi_Kicking Eren.gif"">"	violência	a violência	/ɐ viuˈlẽsiɐ/	/a vioˈlẽsiɐ/	sf	Uso da força para causar dano físico ou psicológico.		violence	/ˈvaɪələns/	/ˈvaɪəlᵊns/	n	The use of physical force to cause harm or damage.		violencia						violence						Gewalt						violència						violenza												Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes My_Mess::Multi Portugues::Ortografia Portugues::VOC Vocabulary::Crime Vocabulary::Fighting
-casal	"<img src=""Trost_Jean_TItan_Couple.webp"">"	casal	o casal	/u kɐˈzaɫ/	/u kaˈzaw/	sm	Duas pessoas que mantêm uma relação romântica.		couple	/ˈkʰəpəl/	/ˈkʰʌpᵊl/	n	Two people who are romantically involved or paired together.		pareja						couple						Paar						parella						coppia												Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes My_Mess::Multi Portugues::VOC Portugues::VOC::Pessoas::Amor Portugues::VOC::Pessoas::Relações_entre_as_pessoas Vocabulary::Family Vocabulary::Love Vocabulary::People::Relationships
 parelha	"<img src=""_parelha_de_bois.JPG"">"	parelha	a parelha	/ɐ pɐˈɾɐʎɐ/	/a paˈɾeʎɐ/	sf	Par ou dupla de elementos ou pessoas semelhantes. Nunca usar para os parceiros o namorados.		pair	/ˈpʰɛr/	/ˈpʰeə/	n	Two things or people that are matched or associated together.		pareja						paire						Paar						parella						coppia												Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes My_Mess::Multi Portugues::Falso_Amigo Portugues::VOC
-noivo,a (com anel)	"<img src=""Eruri Proposal.jpg"">"	noivo, noiva	o noivo, a noiva	/u ˈnojvu | ɐ ˈnojvɐ/	/u ˈnojvu | a ˈnojvɐ/	s m/f	Pessoa que está prestes a casar ou comprometida.		fiancé, fiancée	/ˌfiˌɑnˈseɪ | ˌfiˌɑnˈseɪ/	/fiˈɒnseɪ | fiˈɒnseɪ/	nm, nf	A person engaged to be married.		novio, novia (comprometidos)						fiancé, fiancée						Verlobter, Verlobte						promés, promesa						fidanzato, fidanzata												Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes My_Mess::Multi Portugues::VOC Portugues::VOC::Pessoas::Amor Portugues::VOC::Pessoas::Relações_entre_as_pessoas Vocabulary::Love Vocabulary::People::Relationships
 estilista (moda)	"<img src=""_estilista-609428d13cf161356e128f79fe90a926f1a2e216.JPG"">"	estilísta	o/a estilista	/ˈɔɐ ʃtiˈliʃtɐ/	/ˈɔɐ istʃiˈlistɐ/	s m/f	Profissional que cria, desenha ou seleciona roupas e acessórios, atuando na moda.		fashion designer	/ˈfæʃən dɪˈzaɪnə˞/	/ˈfæʃᵊn dɪˈzaɪnə/	n	A person who creates clothing and accessory designs.		diseñador, diseñadora de moda						styliste						Modedesigner, Modedesignerin						dissenyador, dissenyadora de moda						stilista												Curso::1A2 Curso::2A2 Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes My_Mess::Multi Portugues::Adjetivos Portugues::Falso_Amigo Portugues::VOC Portugues::VOC::Trabalho Portugues::VOC::Trabalho::Profissoes Vocabulary::People::Description
-namorado,a	"<img src=""Green Tea - LeviHan - ByAllMeans - 06.jpg"">"	namorado, namorada	o namorado, a namorada	/u nɐmuˈɾadu | ɐ nɐmuˈɾadɐ/	/u nɐmoˈɾadu | a nɐmoˈɾadɐ/	sm, sf	Parceiro romântico em uma relação amorosa.		boyfriend, girlfriend	/ˈbɔɪˌfɹɛnd | ˈɡɜ˞lˌfɹɛnd/	/ˈbɔɪfrend | ˈɡɜːlfrend/	n	A romantic partner in a relationship.		novio, novia						petit ami, petite amie						Freund, Freundin						xicot, xicota						fidanzato, fidanzata												Curso::1A2 Curso::2A2 Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes My_Mess::Multi Portugues::Livros::2A2-Cinco-minutos Portugues::VOC Portugues::VOC::Pessoas::Amor Portugues::VOC::Pessoas::Relações_entre_as_pessoas Vocabulary::Family Vocabulary::Love Vocabulary::People::Relationships
+namorado,a	"<img src=""Green Tea - LeviHan - ByAllMeans - 06.jpg"">"	namorado, namorada	o namorado, a namorada	/u nɐmuˈɾadu | ɐ nɐmuˈɾadɐ/	/u nɐmoˈɾadu | a nɐmoˈɾadɐ/	sm, sf	Parceiro romântico em uma relação amorosa.		boyfriend, girlfriend	/ˈbɔɪˌfɹɛnd | ˈɡɜ˞lˌfɹɛnd/	/ˈbɔɪfrend | ˈɡɜːlfrend/	n	A romantic partner in a relationship.		novio, novia						petit ami, petite amie						Freund, Freundin						xicot, xicota						fidanzato, fidanzata												Curso::1A2 Curso::2A2 Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes My_Mess::Multi Portugues::Livros::2A2-Cinco-minutos Portugues::VOC Portugues::VOC::Favoritos Portugues::VOC::Pessoas::Amor Portugues::VOC::Pessoas::Relações_entre_as_pessoas Vocabulary::Family Vocabulary::Love Vocabulary::People::Relationships
 parceiro, a (amor)	"<img src=""Levi and Hange in Modern Clothing.jpg"">"	parceiro, parceira	o parceiro, a parceira	/u pɐɾˈsɐjɾu | ɐ pɐɾˈsɐjɾɐ/	/u paʁˈsejɾu | a paʁˈsejɾɐ/	s m/f	Pessoa com quem se mantém um relacionamento amoroso, sem necessariamente estarem casados.		partner	/ˈpʰɑrtnə˞/	/ˈpʰɑːtnə/	n	A person who shares in an activity, business, or relationship.		compañero, compañera (amor)						partenaire						Partner, Partnerin						parella						partner												Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes My_Mess::Multi Portugues::VOC
-<strong>Diogo Morgado</strong>&nbsp;(Ator)	"<div><img src=""_diogo_Morgado.JPG"" style=""float: right;""><strong>Diogo Morgado</strong> é um ator português nascido em <strong>Lisboa</strong> no <strong>17 de janeiro de 1981</strong>. Ele começou sua carreira na televisão e logo se destacou no cinema, tornando-se um dos atores mais conhecidos de Portugal. A sua carreira inclui tanto produções portuguesas como internacionais.</div>
-<h3><strong>Carreira</strong></h3>
-<div>Diogo Morgado iniciou a sua trajetória profissional ainda muito jovem, e ganhou notoriedade nas <strong>telenovelas</strong> portuguesas. No entanto, o grande destaque internacional veio com o seu papel de <strong>Jesus Cristo</strong> na série de televisão <strong>""The Bible""</strong> (2013), produzida por <strong>Mark Burnett</strong>. O seu desempenho como Jesus foi amplamente elogiado e o catapultou para a fama fora de Portugal.</div>
-<div>Em <strong>2014</strong>, Diogo Morgado também participou no filme <strong>""Son of God""</strong>, baseado na série <strong>""The Bible""</strong>, interpretando o mesmo papel de Jesus Cristo. Esta produção teve um grande sucesso, principalmente no mercado norte-americano.</div>
-<h3><strong>Obras e Filmes Mais Representativos:</strong></h3>
+Omitir + mais-que-perfeito + Ser	Omitir	"<b><span style=""color: rgb(255, 85, 0);"">Mais-que-Perfeito</span> + <span style=""color: rgb(0, 85, 255);"">Ser</span></b>"	fora omitido	foras omitido	fora omitido	fôramos omitidos	foram omitidos						/ˈfɔɾɐ omiˈtidu/	/ˈfɔɾɐz omiˈtidu/	/ˈfɔɾɐ omiˈtidu/	/ˈfoɾɐmuz omiˈtiduʃ/	/ˈfɔɾɐ̃w̃ omiˈtiduʃ/																																		Portugues::Verbos::Mais-Que-Perfeito Portugues::Verbos::Mais-Que-Perfeito::Irregulares::ser-estar
+Pôr + mais-que-perfeito + Ser	Pôr	"<b><span style=""color: rgb(255, 85, 0);"">Mais-que-Perfeito</span> + <span style=""color: rgb(0, 85, 255);"">Ser</span></b>"	fora posto	foras posto	fora posto	fôramos postos	foram postos						/ˈfɔɾɐ ˈpɔʃtu/	/ˈfɔɾɐʃ ˈpɔʃtu/	/ˈfɔɾɐ ˈpɔʃtu/	/ˈfoɾɐmuʃ ˈpɔʃtuʃ/	/ˈfɔɾɐ̃w̃ ˈpɔʃtuʃ/																																		Portugues::Verbos::Mais-Que-Perfeito Portugues::Verbos::Mais-Que-Perfeito::Irregulares::ser-estar
+Prender + mais-que-perfeito + Ser	Prender	"<b><span style=""color: rgb(255, 85, 0);"">Mais-que-Perfeito</span> + <span style=""color: rgb(0, 85, 255);"">Ser</span></b>"	fora preso	foras preso	fora preso	fôramos presos	foram presos						/ˈfɔɾɐ ˈpɾɛzu/	/ˈfɔɾɐʃ ˈpɾɛzu/	/ˈfɔɾɐ ˈpɾɛzu/	/ˈfoɾɐmuʃ ˈpɾɛzuʃ/	/ˈfɔɾɐ̃w̃ ˈpɾɛzuʃ/																																		Portugues::Verbos::Mais-Que-Perfeito Portugues::Verbos::Mais-Que-Perfeito::Irregulares::ser-estar
+Soltar + mais-que-perfeito + SER	Soltar	"<b><span style=""color: rgb(255, 85, 0);"">Mais-que-Perfeito</span> + <span style=""color: rgb(0, 85, 255);"">Ser</span></b>"	fora solto	foras solto	fora solto	fôramos soltos	foram soltos						/ˈfɔɾɐ ˈsɔɫtu/	/ˈfɔɾɐʃ ˈsɔɫtu/	/ˈfɔɾɐ ˈsɔɫtu/	/ˈfoɾɐmuʃ ˈsɔɫtuʃ/	/ˈfɔɾɐ̃w̃ ˈsɔɫtuʃ/																																		Portugues::Verbos::Mais-Que-Perfeito Portugues::Verbos::Mais-Que-Perfeito::Irregulares::ser-estar
+Vir + mais-que-perfeito	Vir	"<b><span style=""color: rgb(255, 85, 0);"">Mais-que-Perfeito</span></b>"	tinha vindo	tinhas vindo	tinha vindo	tínhamos vindo	tinham vindo						/ˈtiɲɐ ˈvĩdu/	/ˈtiɲɐʒ ˈvĩdu/	/ˈtiɲɐ ˈvĩdu/	/ˈtiɲɐmuʒ ˈvĩdu/	/ˈtiɲɐ̃w̃ ˈvĩdu/																																		Portugues::Verbos::Mais-Que-Perfeito Portugues::Verbos::Mais-Que-Perfeito::U5-Eu-Ja-Tinha-Visto
+Ver + mais-que-perfeito + Ser	Ver	"<b><span style=""color: rgb(255, 85, 0);"">Mais-que-Perfeito</span> + <span style=""color: rgb(0, 85, 255);"">Ser</span></b>"	fora visto	foras visto	fora visto	fôramos vistos	foram vistos						/ˈfɔɾɐ ˈviʃtu/	/ˈfɔɾɐʒ ˈviʃtu/	/ˈfɔɾɐ ˈviʃtu/	/ˈfoɾɐmuʒ ˈviʃtuʃ/	/ˈfɔɾɐ̃w̃ ˈviʃtuʃ/																																		Portugues::Verbos::Mais-Que-Perfeito Portugues::Verbos::Mais-Que-Perfeito::Irregulares::ser-estar
+<b>Sérgio Godinho</b> (cantor)	"<div><strong>Sérgio Godinho</strong> é um dos mais importantes cantores, compositores e poetas portugueses. Nascido no <strong>31 de agosto de 1945, no Porto</strong>, ele é uma figura central da <strong>música popular portuguesa</strong>, sendo conhecido pelo seu estilo inovador, pelas suas letras poéticas e pelo forte teor social e político das suas canções.</div>
+<h3><strong>Carreira e Influências</strong></h3>
+<div>Durante os anos 60 e 70, viveu no estrangeiro, passando por países como França, Canadá e Holanda. Nesse período, absorveu diversas influências musicais e culturais, incluindo a <strong>chanson francesa</strong>, a <strong>folk music norte-americana</strong> e o <strong>tropicalismo brasileiro</strong>.</div>
+<div>Regressou a Portugal em <strong>1974</strong>, pouco antes da Revolução dos Cravos, e tornou-se um dos músicos mais influentes da época, usando a sua música para expressar temas de liberdade, justiça e mudanças sociais.</div>
+<h3><strong>Obras Mais Representativas</strong></h3>
 <ul>
 <li>
-<div><strong>""A Outra"" (2008)</strong> – Uma telenovela portuguesa que foi muito popular. Diogo Morgado teve um papel importante, o que ajudou a consolidar a sua carreira.</div>
+<div><strong>""Os Sobreviventes"" (1971)</strong> – Álbum de estreia, um dos mais marcantes da música portuguesa.</div>
 </li>
 <li>
-<div><strong>""A Clave do Sol"" (2008)</strong> – Um filme baseado na obra de Isabel de Sá, onde o ator teve um papel de destaque.</div>
+<div><strong>""Pré-Histórias"" (1972)</strong> – Consolidou o seu estilo único, com letras inteligentes e críticas.</div>
 </li>
 <li>
-<div><strong>""The Bible"" (2013)</strong> – Diogo Morgado alcançou a fama internacional interpretando Jesus Cristo na minissérie que foi transmitida pelo canal History Channel.</div>
+<div><strong>""À Queima-Roupa"" (1974)</strong> – Um dos álbuns mais importantes do período pós-revolução.</div>
 </li>
 <li>
-<div><strong>""Son of God"" (2014)</strong> – Baseado na série <strong>""The Bible""</strong>, foi um grande sucesso nos cinemas, especialmente nos Estados Unidos, onde o ator continuou a ser associado ao papel de Jesus.</div>
+<div><strong>""Pano-Cru"" (1978)</strong> – Um dos seus trabalhos mais conhecidos, com músicas icônicas.</div>
 </li>
 <li>
-<div><strong>""Os Maias"" (2014)</strong> – Diogo Morgado também participou na adaptação da famosa obra de <strong>Eça de Queirós</strong>, interpretando o personagem de <strong>Carlos da Maia</strong>.</div>
+<div><strong>""Na Vida Real"" (1986)</strong> – Um disco mais introspectivo e sofisticado.</div>
 </li>
 <li>
-<div><strong>""O Candidato"" (2019)</strong> – Uma comédia dramática em que Diogo Morgado desempenha um papel de político, abordando temas de corrupção e os desafios de uma campanha eleitoral.</div>
+<div><strong>""Nação Valente"" (2018)</strong> – Um dos seus trabalhos mais recentes, mantendo a sua identidade e relevância.</div>
 </li>
 </ul>
-<div>Diogo Morgado tem-se destacado também por sua versatilidade como ator, participando de vários projetos tanto em Portugal quanto no exterior. Sua carreira é marcada pela habilidade em interpretar personagens complexos e profundos, com grande reconhecimento por sua atuação intensa.</div>"																																																		Curso::1A2 Curso::2A2::Pessoalidades Curso::2A2::U5-Eu-Ja-Tinha-Visto My_Mess::Tarjeta-Sola::Pessoalidades Portugues
+<div>Além da sua carreira musical, <strong>Sérgio Godinho também é escritor, ator e realizador</strong>, tendo participado em diversos projetos culturais ao longo das décadas.</div>
+<div>Com mais de <strong>50 anos de carreira</strong>, ele continua a ser uma referência na música portuguesa, influenciando novas gerações de artistas e mantendo-se fiel ao seu estilo único e à sua visão crítica do mundo. 🎶</div>"																																																		Curso::2A2::Pessoalidades Curso::2A2::vocabulario_em_clase My_Mess::Tarjeta-Sola::Pessoalidades Portugues::VOC
+<b>Tiago Bettencourt</b> (Cantor)	"<div><strong>Tiago Bettencourt</strong> é um cantor, compositor e músico português, conhecido pelo seu estilo único que mistura <strong>rock alternativo, folk e música popular portuguesa</strong>.</div>
+<strong>Infância e Início de Carreira</strong>
+<div>Nascido a <strong>16 de setembro de 1979, em Coimbra</strong>, Tiago cresceu em Lisboa e cedo demonstrou interesse pela música. Estudou arquitetura, mas a paixão pela arte sonora acabou por o levar a dedicar-se inteiramente à música.</div>
+<div>Nos anos 2000, fundou a banda <strong>Toranja</strong>, que rapidamente ganhou notoriedade em Portugal com canções como <strong>""Carta""</strong> e <strong>""Laços""</strong>. O álbum de estreia, <strong>""Esquissos"" (2003)</strong>, tornou-se um sucesso, consolidando o grupo como uma das referências da música portuguesa da época.</div>
+<strong>Carreira a Solo</strong>
+<div>Após o hiato de <strong>Toranja</strong>, Tiago Bettencourt lançou-se numa carreira a solo, explorando novas sonoridades e aprofundando a sua identidade artística. Trabalhou com diversos produtores e músicos, incluindo a banda <strong>Mantha</strong>, que o acompanhou nos primeiros anos do seu percurso individual.</div>
+<h3><strong>Álbuns e Canções Mais Conhecidas</strong></h3>
+<ul>
+<li>
+<div><strong>""O Jardim"" (2007)</strong> – Primeiro álbum a solo, com músicas como <strong>""Canção Simples""</strong> e <strong>""O Jogo""</strong>.</div>
+</li>
+<li>
+<div><strong>""Em Fuga"" (2010)</strong> – Inclui faixas marcantes como <strong>""Só Mais Uma Volta""</strong> e <strong>""Chocámos Tu e Eu""</strong>.</div>
+</li>
+<li>
+<div><strong>""Do Princípio"" (2014)</strong> – Destaca-se a canção <strong>""Aquilo Que Eu Não Fiz""</strong>, um dos seus maiores sucessos.</div>
+</li>
+<li>
+<div><strong>""A Procura"" (2017)</strong> – Traz temas como <strong>""Partimos a Pedra""</strong> e <strong>""Se Me Deixasses Ser""</strong>.</div>
+</li>
+<li>
+<div><strong>""2019 Rumo ao Eclipse"" (2021)</strong> – Trabalho mais recente, com letras introspectivas e sonoridade refinada.</div>
+</li>
+</ul>
+<strong>Estilo e Influência</strong>
+<div>Tiago Bettencourt é reconhecido pela sua <strong>poética sofisticada</strong>, pelo uso de <strong>metáforas intensas</strong> e pela capacidade de combinar <strong>sons contemporâneos com raízes da música portuguesa</strong>. A sua voz distinta e interpretação emotiva fazem dele uma referência no panorama musical nacional.</div>
+<div>Com uma carreira sólida e contínua, ele mantém-se como um dos mais respeitados cantautores de Portugal, influenciando novas gerações de músicos. 🎶</div>"																																																		Curso::2A2::Pessoalidades Curso::2A2::vocabulario_em_clase My_Mess::Tarjeta-Sola::Pessoalidades Portugues::VOC
+<b>Palácio Nacional de Sintra</b>	"<div>O <strong>Palácio Nacional de Sintra</strong>, também conhecido como <strong>Palácio da Vila</strong>, é um dos monumentos históricos mais emblemáticos de Portugal. Localizado no coração da vila de <strong>Sintra</strong>, é famoso pelas suas <strong>chaminés cônicas</strong>, pela sua mistura de estilos arquitetônicos e pela rica história ligada à monarquia portuguesa.</div><div><br></div>
+<strong>1. História e Origem</strong>
+<ul>
+<li>
+<div>As origens do palácio remontam à época <strong>moura</strong> (século X ou XI), quando existia um palácio islâmico no local.</div>
+</li>
+<li>
+<div>Após a <strong>Reconquista Cristã</strong>, o edifício foi transformado e ampliado pelos reis portugueses.</div>
+</li>
+<li>
+<div>Foi residência real contínua desde o século XIV até ao XIX, tornando-se um dos <strong>palácios medievais mais bem preservados</strong> de Portugal.</div>
+</li>
+</ul>
+<strong>2. Arquitetura e Estilos</strong>
+<ul>
+<li>
+<div>O palácio reflete uma fusão de estilos <strong>gótico, manuelino, mudéjar e renascentista</strong>.</div>
+</li>
+<li>
+<div>As <strong>duas chaminés gigantes</strong>, que pertencem à cozinha real, são um dos seus elementos mais icônicos.</div>
+</li>
+<li>
+<div>Destacam-se também os <strong>azulejos mudéjares</strong>, considerados dos mais importantes de Portugal.</div>
+</li>
+</ul>
+<strong>3. Salas e Elementos Notáveis</strong>
+<ul>
+<li>
+<div><strong>Sala dos Cisnes</strong> – Decorada com pinturas de cisnes no teto, símbolo de pureza e nobreza.</div>
+</li>
+<li>
+<div><strong>Sala das Pegas</strong> – O teto apresenta dezenas de pegas segurando fitas com a frase <strong>""Por Bem""</strong>, possivelmente relacionadas a um episódio da corte de D. João I.</div>
+</li>
+<li>
+<div><strong>Sala dos Brasões</strong> – Um dos espaços mais impressionantes, com uma cúpula decorada com os brasões das mais importantes famílias nobres de Portugal.</div>
+</li>
+<li>
+<div><strong>Quarto de D. Sebastião</strong> – O local onde, segundo a lenda, o rei teria dormido antes de desaparecer na Batalha de Alcácer Quibir.</div>
+</li>
+</ul>
+<strong>4. Curiosidades</strong>
+<ul>
+<li>
+<div>O Palácio Nacional de Sintra sobreviveu ao <strong>terremoto de 1755</strong>, ao contrário de muitos outros edifícios históricos.</div>
+</li>
+<li>
+<div>Foi um dos locais favoritos da <strong>rainha D. Maria Pia</strong>, esposa de D. Luís I, que o modernizou no século XIX.</div>
+</li>
+<li>
+<div>Faz parte da <strong>Paisagem Cultural de Sintra</strong>, classificada como <strong>Patrimônio Mundial da UNESCO</strong>.</div>
+</li>
+</ul>
+<div>Hoje, o Palácio Nacional de Sintra é um dos monumentos <strong>mais visitados de Portugal</strong>, atraindo turistas fascinados pela sua história, arquitetura e atmosfera única. 🏰✨</div>"																																																		Curso::2A2::Locais Curso::2A2::vocabulario_em_clase My_Mess::Tarjeta-Sola::Portugal::Sintra Portugues::VOC
+<b>Quinta da Regaleira</b> (Sintra)	"<div>A <strong>Quinta da Regaleira</strong>, localizada em <strong>Sintra</strong>, é um dos lugares mais misteriosos e fascinantes de Portugal. Com um <strong>palácio neomanuelino</strong>, jardins exuberantes, lagos, grutas e estruturas simbólicas, é um local cheio de referências <strong>esotéricas, alquímicas, templárias e maçônicas</strong>.</div>
+
+<h3><strong>1. História e Origem</strong></h3>
+<ul>
+<li>
+<div>A propriedade teve vários donos ao longo dos séculos, mas a sua configuração atual foi criada por <strong>António Augusto Carvalho Monteiro</strong>, um milionário e colecionador apaixonado por simbologia e misticismo.</div>
+</li>
+<li>
+<div>Entre <strong>1904 e 1910</strong>, ele encomendou ao arquiteto italiano <strong>Luigi Manini</strong> a transformação da quinta num lugar repleto de referências ocultistas e filosóficas.</div>
+</li>
+</ul>
+
+<h3><strong>2. O Palácio e os Jardins</strong></h3>
+<ul>
+<li>
+<div>O <strong>Palácio da Regaleira</strong> mistura estilos <strong>neomanuelino, neogótico e neorrenascentista</strong>, destacando-se pela sua fachada detalhada e interiores luxuosos.</div>
+</li>
+<li>
+<div>Os <strong>jardins</strong> estão cheios de elementos enigmáticos, como <strong>torres, grutas, lagos e caminhos subterrâneos</strong>.</div>
+</li>
+</ul>
+
+<h3><strong>3. Elementos Simbólicos e Místicos</strong></h3>
+<ul>
+<li>
+<div><strong>Poço Iniciático</strong> – Uma torre subterrânea em espiral, ligada a rituais da <strong>Maçonaria</strong> e dos <strong>Templários</strong>, simbolizando a jornada do conhecimento.</div>
+</li>
+<li>
+<div><strong>Poço Imperfeito</strong> – Outro poço misterioso, mas de menor profundidade.</div>
+</li>
+<li>
+<div><strong>Capela da Santíssima Trindade</strong> – Pequena capela decorada com símbolos alquímicos e templários.</div>
+</li>
+<li>
+<div><strong>Portal dos Guardiões</strong> – Uma estrutura imponente com escadarias secretas e entrada para túneis subterrâneos.</div>
+</li>
+<li>
+<div><strong>Grutas e túneis secretos</strong> – Conectam diversos pontos da quinta, remetendo a ritos iniciáticos.</div>
+</li>
+</ul>
+
+<h3><strong>4. Curiosidades</strong></h3>
+<ul>
+<li>
+<div>O nome <strong>""Regaleira""</strong> vem de uma antiga proprietária, <strong>Baronesa da Regaleira</strong>.</div>
+</li>
+<li>
+<div>Carvalho Monteiro, grande entusiasta do ocultismo, queria criar um <strong>“templo de sabedoria”</strong>, onde os visitantes pudessem explorar símbolos místicos.</div>
+</li>
+<li>
+<div>O local foi abandonado e restaurado várias vezes até ser adquirido pela <strong>Câmara Municipal de Sintra</strong> nos anos 90 e aberto ao público.</div>
+</li>
+<li>
+<div><strong>Hoje é um dos locais mais visitados de Sintra</strong>, sendo um dos <strong>principais símbolos do romantismo e do misticismo português</strong>.</div>
+</li>
+</ul>
+<div>A <strong>Quinta da Regaleira</strong> é um verdadeiro labirinto de símbolos e segredos, atraindo quem busca cultura, mistério e aventura. ✨🔮</div>"																																																		Curso::2A2::Locais Curso::2A2::vocabulario_em_clase My_Mess::Tarjeta-Sola::Portugal::Sintra Portugues::VOC
+As Doce (Banda)	"<div><strong>As Doce</strong> foram uma das <strong>bandas femininas mais icônicas da música portuguesa</strong>, especialmente durante os anos <strong>1980</strong>. Inspirado por grupos como as <strong>ABBA</strong>, o quarteto destacou-se pelo seu estilo pop-disco, figurinos ousados e uma forte presença no cenário musical português.</div>
+
+<h3><strong>1. Formação e Início da Carreira</strong></h3>
+<ul>
+<li>
+<div>O grupo foi criado em <strong>1979</strong> por <strong>Tozé Brito</strong>, um dos principais compositores e produtores da época.</div>
+</li>
+<li>
+<div>As integrantes originais eram <strong>Laura Diogo, Fátima Padinha, Teresa Miguel e Lena Coelho</strong>.</div>
+</li>
+<li>
+<div>Surgiram num período em que as girl bands eram uma novidade em Portugal e rapidamente conquistaram o público.</div>
+</li>
+</ul>
+
+<h3><strong>2. Sucesso e Principais Canções</strong></h3>
+<ul>
+<li>
+<div>Lançaram vários sucessos, como:</div>
+<ul>
+<li>
+<div><strong>""Amanhã de Manhã""</strong> (1980) – Um dos maiores êxitos da banda.</div>
+</li>
+<li>
+<div><strong>""Bem Bom""</strong> (1982) – Canção com a qual representaram Portugal no <strong>Festival Eurovisão da Canção</strong>.</div>
+</li>
+<li>
+<div><strong>""Ali Babá""</strong> e <strong>""OK KO""</strong> – Outros hits que marcaram a década.</div>
+</li>
+</ul>
+</li>
+<li>
+<div>As Doce eram conhecidas pelo seu som pop moderno, influenciado pela música disco e sintetizadores, além das letras cativantes.</div>
+</li>
+</ul>
+
+<h3><strong>3. Eurovisão e Impacto Cultural</strong></h3>
+<ul>
+<li>
+<div>Em <strong>1982</strong>, participaram no <strong>Festival Eurovisão da Canção</strong> com <strong>""Bem Bom""</strong>, alcançando o 13.º lugar.</div>
+</li>
+<li>
+<div>A banda teve uma grande influência na cultura pop portuguesa, sendo uma das primeiras formações femininas de sucesso no país.</div>
+</li>
+<li>
+<div>Seu estilo irreverente e figurinos coloridos marcaram a estética da época.</div>
+</li>
+</ul>
+
+<h3><strong>4. Separação e Legado</strong></h3>
+<ul>
+<li>
+<div>O grupo acabou por se dissolver em <strong>1986</strong>, com algumas das integrantes seguindo carreiras a solo.</div>
+</li>
+<li>
+<div>Em <strong>2021</strong>, foi lançado o filme <strong>""Bem Bom""</strong>, que conta a história da banda.</div>
+</li>
+<li>
+<div>Hoje, As Doce são lembradas como um <strong>fenômeno musical</strong> que ajudou a modernizar o pop português e a abrir caminho para futuras artistas femininas no país.</div>
+</li>
+</ul>
+<div>🎤✨ <strong>As Doce continuam a ser um símbolo dos anos 80 em Portugal, com músicas que ainda são lembradas e celebradas.</strong></div>"																																																		Curso::2A2::Pessoalidades Curso::2A2::vocabulario_em_clase My_Mess::Tarjeta-Sola::Pessoalidades Portugues::VOC Vocabulary::80s
 cinema (lugar)	"<img src=""_cinema.JPG"">"	cinema	o cinema	/u siˈnɛmɐ/	/u siˈnɛmɐ/	sm	Lugar onde se exibem filmes; a arte cinematográfica.		cinema, movie theater (US)	/ˈsɪnəmə | ˈmuvi ˈθiətə˞ /	/ˈsɪnəmə | ˈmuːvi ˈθɪətə /	n	A place where films are shown.		cine						cinéma						Kino						cinema						cinema												Curso::1C1 Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes Portugues::VOC::Cidade::Locais Vocabulary::City Vocabulary::Film
-calão		calão	o calão	/u kɐˈlɐ̃w̃/	/u kaˈlɐ̃w̃/	sm	Linguagem informal ou gíria, muitas vezes grosseira usada em certos grupos sociais ou região.		slang	/ˈslæŋ/	/ˈslæŋ/	n	Informal or colloquial language, often specific to a social group or region.		argot						argo						Jargon						argot						gergo												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::vocabulario_em_clase Portugues::VOC
+calão		calão	o calão	/u kɐˈlɐ̃w̃/	/u kaˈlɐ̃w̃/	sm	Linguagem informal ou gíria, muitas vezes grosseira usada em certos grupos sociais ou região.		slang	/ˈslæŋ/	/ˈslæŋ/	n	Informal or colloquial language, often specific to a social group or region.		argot						argo						Jargon						argot						gergo												Curso::2A2::U3-Como-Era-a-Tua-Escola::Cinderela-Calao Curso::2A2::vocabulario_em_clase Portugues::VOC
+Cinderella (conto)		Cinderella	Cinderella			sm	Nome próprio da personagem do conto de fadas.																																												Curso::2A2::U3-Como-Era-a-Tua-Escola::Cinderela-Calao Curso::2A2::vocabulario_em_clase Portugues::VOC
 velhotes		velhotes	os velhotes	/uʒ vɨˈʎɔtɨʃ/	/uʒ veˈʎɔtes/	smp	Pessoas idosas, muitas vezes usado de forma carinhosa.		old folks	/ˈoʊld ˈfoʊks/	/ˈəʊld ˈfəʊks/	n	Elderly people, often used affectionately.		ancianos						vieux						alte Leute						vells						anziani												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::vocabulario_em_clase Portugues::VOC Portugues::VOC::Pessoas::Descripçao Vocabulary::People::Age
-velhote, velhota		velhote, velhota	o velhote, a velhota	/u vɨˈʎɔtɨ | ɐ vɨˈʎɔtɐ/	/u veˈʎɔtʃi | a veˈʎɔtɐ/	s m/f	Pessoa idosa, pode ser usado de forma carinhosa ou pejorativa.		old man, old woman	/ˈoʊld ˈmæn | ˈoʊld ˈwʊmən/	/ˈəʊld ˈmæn | ˈəʊld ˈwʊmən/	n	An elderly person, can be used affectionately or pejoratively.		anciano, anciana						vieillard, vieille						alter Mann, alte Frau						vell, vella						anziano, anziana												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::vocabulario_em_clase Portugues::VOC Portugues::VOC::Pessoas::Descripçao Vocabulary::People::Age
-aos poucos		aos poucos	aos poucos	/ˈauʃ ˈpokuʃ/	/ˈaus ˈpokus/	adv	Gradualmente, pouco a pouco.																																												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::vocabulario_em_clase Portugues::VOC
-chulé		chulé	o chulé	/u ʃuˈlɛ/	/u ʃuˈlɛ/	sm	Cheiro desagradável dos pés suados.																																												Curso::2A2::U3-Como-Era-a-Tua-Escola::Cinderela-Calao Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::vocabulario_em_clase Portugues::VOC
-cheirava chulé		cheirava chulé	cheirava chulé	/ʃɐjˈɾavɐ ʃuˈlɛ/	/ʃejˈɾavɐ ʃuˈlɛ/	exp	Tinha um cheiro ruim semelhante ao de pés suados.																																												Curso::2A2::U3-Como-Era-a-Tua-Escola::Cinderela-Calao Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::vocabulario_em_clase Portugues::VOC
-Copenhaga		Copenhaga	Copenhaga	/kupɨˈɲaɡɐ/	/kopeˈɲaɡɐ/	sf	Capital da Dinamarca.		Copenhagen	/ˌkoʊpənˈheɪɡən/	/ˌkəʊpənˈheɪɡən/	n	The capital of Denmark.		Copenhague						Copenhague						Kopenhagen						Copenhaguen						Copenaghen												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::vocabulario_em_clase Portugues::VOC Vocabulary::City
-não me admira		não me admira	não me admira	/ˈnɐ̃w̃ ˈmɛ ɐˈdmiɾɐ/	/ˈnɐ̃w̃ ˈmɛ adʒiˈmiɾɐ/	exp	Não me surpreende.		it doesn’t surprise me	/ɪt ˈdəzn̩t sə˞ˈpɹaɪz ˈmi/	/ɪt ˈdʌzᵊnt səˈpraɪz ˈmiː/	exp	An expression meaning something is not unexpected.		no me sorprende						ça ne m’étonne pas						mich wundert es nicht						no em sorprén						non mi sorprende												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::vocabulario_em_clase Portugues::Falso_Amigo Portugues::VOC
-conto-me, conto para mim		conto-me, conto para mim	conto-me, conto para mim	/kõˈtɔmɨ | ˈkõtu pɐɾɐ ˈmĩ/	/kõˈtɔmi | ˈkõtu paɾɐ ˈmĩ/	exp	Explicação que faço para mim mesmo, reflexão pessoal.	História curta, narrativa fictícia ou real.																																											Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::vocabulario_em_clase Portugues::VOC
-responsável por (pelo, pela)		responsável por (pelo, pela)	responsável por (pelo, pela)	/ʁɨʃpõˈsavɛɫ puɾ | ˈpɛlu | ˈpɛlɐ |/	/ʁespõˈsavɛw puʁ | ˈpɛlu | ˈpɛlɐ |/	adj m/f	Que tem a responsabilidade sobre algo.		responsible for	/ɹɪˈspɑnsəbəl ˈfɔr/	/rɪˈspɒnsɪbᵊl ˈfɔː/	adj	Having responsibility for something.		responsable de						responsable de						verantwortlich für						responsable de						responsabile di												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::vocabulario_em_clase Portugues::VOC
+velhote, velhota		velhote, velhota	o velhote, a velhota	/u vɨˈʎɔtɨ | ɐ vɨˈʎɔtɐ/	/u veˈʎɔtʃi | a veˈʎɔtɐ/	sm, sf	Pessoa idosa, pode ser usado de forma carinhosa ou pejorativa.		old man, old woman	/ˈoʊld ˈmæn | ˈoʊld ˈwʊmən/	/ˈəʊld ˈmæn | ˈəʊld ˈwʊmən/	n	An elderly person, can be used affectionately or pejoratively.		anciano, anciana						vieillard, vieille						alter Mann, alte Frau						vell, vella						anziano, anziana												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::vocabulario_em_clase Portugues::VOC Portugues::VOC::Pessoas::Descripçao Vocabulary::People::Age
+aos poucos		aos poucos	aos poucos	/ˈauʃ ˈpokuʃ/	/ˈaus ˈpokus/	adv	Gradualmente, pouco a pouco.																																												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::vocabulario_em_clase Portugues::Frases::Pouco Portugues::VOC
+chulé		chulé	o chulé	/u ʃuˈlɛ/	/u ʃuˈlɛ/	sm	Cheiro desagradável dos pés suados.																																												Curso::2A2::U3-Como-Era-a-Tua-Escola::Cinderela-Calao Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::vocabulario_em_clase Portugues::Calao Portugues::VOC Vocabulary::Feet
+cheirava chulé		cheirava chulé	cheirava chulé	/ʃɐjˈɾavɐ ʃuˈlɛ/	/ʃejˈɾavɐ ʃuˈlɛ/	exp	Tinha um cheiro ruim semelhante ao de pés suados.																																												Curso::2A2::U3-Como-Era-a-Tua-Escola::Cinderela-Calao Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::vocabulario_em_clase Portugues::Calao Portugues::VOC
+Copenhaga	"<img src=""_Copenhaga.JPG"">"	Copenhaga	Copenhaga	/kupɨˈɲaɡɐ/	/kopeˈɲaɡɐ/	sf	Capital da Dinamarca.		Copenhagen	/ˌkoʊpənˈheɪɡən/	/ˌkəʊpənˈheɪɡən/	n	The capital of Denmark.		Copenhague						Copenhague						Kopenhagen						Copenhaguen						Copenaghen												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::vocabulario_em_clase Portugues::VOC Vocabulary::City
+não me admira		não me admira	não me admira	/ˈnɐ̃w̃ ˈmɛ ɐˈdmiɾɐ/	/ˈnɐ̃w̃ ˈmɛ adʒiˈmiɾɐ/	exp	"Não me surpreende. Com ""A"" ""n..... ...... .........."""		it doesn’t surprise me	/ɪt ˈdəzn̩t sə˞ˈpɹaɪz ˈmi/	/ɪt ˈdʌzᵊnt səˈpraɪz ˈmiː/	exp	An expression meaning something is not unexpected.		no me sorprende						ça ne m’étonne pas						mich wundert es nicht						no em sorprén						non mi sorprende												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::vocabulario_em_clase Portugues::Falso_Amigo Portugues::VOC Vocabulary::Give-a-Damn
+responsável por (pelo, pela)		responsável, responsáveis  por (pelo, pela)	responsável, responsáveis por (pelo, pela)	/ʁɨʃpõˈsavɛɫ | ʁɨʃpõˈsavɐjʃ puɾ /  / ˈpɛlu | ˈpɛlɐ |/	/ʁespõˈsavɛw  | ʁespõˈsavejs puʁ/  / ˈpɛlu | ˈpɛlɐ |/	adj m/f, adj pl	Que tem a responsabilidade sobre algo.		responsible for	/ɹɪˈspɑnsəbəl ˈfɔr/	/rɪˈspɒnsɪbᵊl ˈfɔː/	adj	Having responsibility for something.		responsable de						responsable de						verantwortlich für						responsable de						responsabile di												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::vocabulario_em_clase Portugues::Ortografia Portugues::VOC Vocabulary::Nice Vocabulary::Personality
 Não se importar (não me importo)		Não se importar (não me importo)	Não se importar (não me importo)	/ˈnɐ̃w̃ sɨ ĩpuɾˈtaɾ | ˈnɐ̃w̃ ˈmɛ ĩˈpɔɾtu |/	/ˈnɐ̃w̃ si ĩpoʁˈtaʁ | ˈnɐ̃w̃ ˈmɛ ĩˈpɔʁtu |/	exp	Não dar importância a algo.		not to care	/ˈnɑt tə ˈkʰɛr/	/ˈnɒt tə ˈkʰeə/	exp	To not give importance to something.		no importarle						ne pas se soucier						sich nicht kümmern						no importar-se						non importare												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::vocabulario_em_clase Portugues::VOC Vocabulary::Give-a-Damn
 importas-te?		importas-te?	importas-te?	/ĩpuɾˈtastɨ ‖/	/ĩpoʁˈtastʃi ‖/	exp	Pergunta para saber se algo incomoda alguém.		do you mind?	/ˈdu jə ˈmaɪnd ‖/	/ˈduː jə ˈmaɪnd ‖/	exp	A question used to ask if something is bothersome.		¿te importa?						ça te dérange?						stört es dich?						t’importa?						ti dispiace?												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::vocabulario_em_clase Portugues::VOC Vocabulary::Give-a-Damn
-não ligar		não ligar	não ligar	/ˈnɐ̃w̃ liˈɡaɾ/	/ˈnɐ̃w̃ liˈɡaʁ/	v	Não dar importância a algo ou alguém.																																												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::vocabulario_em_clase Portugues::VOC Vocabulary::Give-a-Damn
+não ligar		não ligar	não ligar	/ˈnɐ̃w̃ liˈɡaɾ/	/ˈnɐ̃w̃ liˈɡaʁ/	v	Não dar importância a algo ou alguém.																																												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::vocabulario_em_clase Portugues::Frases::Ligar-Desligar Portugues::VOC Vocabulary::Give-a-Damn
 ter uma branca		ter uma branca	ter uma branca	/ˈteɾ ˈumɐ ˈbɾɐ̃kɐ/	/ˈteʁ ˈumɐ ˈbɾɐ̃kɐ/	exp	Esquecer-se de algo repentinamente.								empanarse, quedó en blanco mucho rato																																				Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::vocabulario_em_clase Portugues::VOC Vocabulary::Give-a-Damn
 quedar desparassado		quedar desparassado	ficar atrapalhado	/fiˈkaɾ ɐtɾɐpɐˈʎadu/	/fiˈkaʁ atɾapaˈʎadu/	exp	Ficar confuso ou sem jeito.																																												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::vocabulario_em_clase Portugues::VOC Vocabulary::Give-a-Damn
 estar de olhos		estar de olhos	estar de olhos	/ˈʃtaɾ dɨ ˈɔʎuʃ/	/isˈtaʁ dʒi ˈɔʎus/	exp	Estar atento ou interessado em algo.		to be watching	/tə ˈbi ˈwɑtʃɪŋ/	/tə ˈbiː ˈwɒtʃɪŋ/	v	To be attentive or interested in something.		estar atento						être attentif						aufpassen						estar atent						essere attento												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::vocabulario_em_clase Portugues::Frases::Olhar Portugues::VOC Vocabulary::Give-a-Damn
@@ -171,31 +372,31 @@ a sós (a solas en español)		a sós	a sós	/ɐ ˈsɔʃ/	/a ˈsɔs/	adv	Estar so
 olha só! (mira)		olha só!	olha só!	/ˈɔʎɐ ˈsɔ ‖/	/ˈɔʎɐ ˈsɔ ‖/	int	Expressão usada para chamar a atenção para algo.		look!	/ˈlʊk ‖/	/ˈlʊk ‖/	interj	An expression used to draw attention to something.		¡mira!						regarde!						sieh mal!						mira!						guarda!												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::vocabulario_em_clase Portugues::Frases::Olhar Portugues::Frases::SO Portugues::VOC
 apenas (adv) 		apenas	apenas			adv	Somente, exclusivamente.																																												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::vocabulario_em_clase Portugues::Frases::SO Portugues::VOC
 somente (adv)		somente	somente	/suˈmẽtɨ/	/soˈmẽtʃi/	adv	Apenas, nada mais.		only	/ˈoʊnli/	/ˈəʊnli/	adj	Nothing more; just this.		solamente						seulement						nur						només						solo												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::vocabulario_em_clase Portugues::Frases::SO Portugues::VOC
-clássico, clássicos (clássicos de autores estrangeiros)		clássico, clássicos	clássico, clássicos	/ˈklasiku | ˈklasikuʃ/	/ˈklasiku | ˈklasikus/	adj m	Obra artística de grande valor e reconhecimento.		classic	/ˈklæsɪk/	/ˈklæsɪk/	adj	An artistic work of great value and recognition.		clásico						classique						klassisch						clàssic						classico												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes Curso::2A2::vocabulario_em_clase Portugues::VOC
+clássico, clássicos (clássicos de autores estrangeiros)	"<img src=""_livros_classicos-bd6b9cba1bf5928de50835b8bda3f3abdf032800.JPG""><img src=""_autos_classicos-0f2e5eb63a16450e5632c64945ce2c651d6c6066.JPG"">"	clássico, clássicos	clássico, clássicos	/ˈklasiku | ˈklasikuʃ/	/ˈklasiku | ˈklasikus/	adj m	Obra artística de grande valor e reconhecimento.		classic	/ˈklæsɪk/	/ˈklæsɪk/	adj	An artistic work of great value and recognition.		clásico						classique						klassisch						clàssic						classico												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes Curso::2A2::vocabulario_em_clase Portugues::VOC
 apresentados, apresentadas (peças teatrais são apresentadas)		apresentados, apresentadas	apresentados, apresentadas	/ɐpɾɨzẽˈtaduʃ | ɐpɾɨzẽˈtadɐʃ/	/apɾezẽˈtadus | apɾezẽˈtadas/	adj m/f	Que foram exibidos ou mostrados.		presented	/pɹɪˈzɛntəd/	/prɪˈzentɪd/	adj	Shown or exhibited.		presentados						présentés						präsentiert						presentats						presentati												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes Curso::2A2::vocabulario_em_clase Portugues::VOC
-teatral, teatrais		teatral, teatrais	teatral, teatrais	/tiɐˈtɾaɫ | tiɐˈtɾajʃ/	/tʃiaˈtɾaw | tʃiaˈtɾajs/	adj m/f	Relacionado ao teatro.		theatrical	/θiˈætɹɪkəl/	/θiˈætrɪkᵊl/	adj	Related to theater.		teatral						théâtral						theatralisch						teatral						teatrale												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes Curso::2A2::vocabulario_em_clase Portugues::VOC Vocabulary::Theater
-atual, atuais		atual, atuais	atual, atuais	/ɐtuˈaɫ | ɐtuˈajʃ/	/atuˈaw | atuˈajs/	adj m/f	Que pertence ao tempo presente.		current	/ˈkʰɜ˞ɹənt/	/ˈkʰʌrᵊnt/	adj	Belonging to the present time.		actual						actuel						aktuell						actual						actuale												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes Curso::2A2::vocabulario_em_clase Portugues::VOC
-passatempo		passatempo	o passatempo	/u pɐsɐˈtẽpu/	/u pasaˈtẽpu/	sm	Atividade para se entreter ou ocupar o tempo livre.		hobby	/ˈhɑbi/	/ˈhɒbi/	n	An activity for leisure or entertainment.		pasatiempo						passe-temps						Hobby						passatemps						passatempo												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::vocabulario_em_clase Portugues::VOC
-carpete (tapete)		carpete	a carpete	/ɐ kɐɾˈpɛtɨ/	/a kaʁˈpɛtʃi/	sf	Tapete grande que cobre o chão.		carpet	/ˈkʰɑrpət/	/ˈkʰɑːpɪt/	n	A large rug covering the floor.		alfombra						moquette						Teppich						carpeta						moquette												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::vocabulario_em_clase Portugues::Falso_Amigo Portugues::VOC Portugues::VOC::Tapetes
-naperom		naperom	o naperom	/u nɐpɨˈɾõ/	/u napeˈɾõ/	sm	Pequena toalha de renda ou bordada usada sobre móveis.		doily	/ˈdɔɪli/	/ˈdɔɪli/	n	A small lace or embroidered cloth used on furniture.		blonda						napperon						Deckchen						servilleta						centrino												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::vocabulario_em_clase Portugues::Falso_Amigo Portugues::VOC Portugues::VOC::Tapetes
-capacho		capacho	o capacho	/u kɐˈpaʃu/	/u kaˈpaʃu/	sm	Pequeno tapete colocado na entrada de uma casa.		doormat	/ˈdɔrˌmæt/	/ˈdɔːmæt/	n	A small mat placed at the entrance of a house.		felpudo						paillasson						Fußmatte						estora						zerbino												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::vocabulario_em_clase Portugues::Falso_Amigo Portugues::VOC Portugues::VOC::Tapetes
-cabaz		cabaz	o cabaz	/u kɐˈbaʃ/	/u kaˈbaʃ/	sm	Cesto grande para transportar frutas ou vegetais.		basket	/ˈbæskɪt/	/ˈbɑːskɪt/	n	A large container for carrying fruits or vegetables.		cesta						panier						Korb						cabàs						cesta												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::vocabulario_em_clase Portugues::Falso_Amigo Portugues::VOC Portugues::VOC::Tapetes
-alcatifa		alcatifa	a alcatifa	/ɐ aɫkɐˈtifɐ/	/a awkaˈtʃifɐ/	sf	Revestimento têxtil usado no chão, semelhante a um tapete.		carpet	/ˈkʰɑrpət/	/ˈkʰɑːpɪt/	n	Textile covering used on the floor, similar to a rug.		alfombra moqueta						moquette						Teppich						moqueta						moquette												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::vocabulario_em_clase Portugues::Falso_Amigo Portugues::VOC Portugues::VOC::Tapetes
-tapeçaria (paredes)		tapeçaria	a tapeçaria	/ɐ tɐpɨsɐˈɾiɐ/	/a tapesaˈɾiɐ/	sf	Peça decorativa tecida à mão ou em tear.		tapestry	/ˈtʰæpəstɹi/	/ˈtʰæpɪstri/	n	A decorative woven piece, often handmade.		tapiz						tapisserie						Wandteppich						tapís						arazzo												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::vocabulario_em_clase Portugues::Falso_Amigo Portugues::VOC Portugues::VOC::Tapetes
-estofo (auto,moveis)		estofo	o estofo	/u ˈʃtɔfu/	/u isˈtɔfu/	sm	Revestimento de móveis ou do interior de carros.		upholstery	/ˌəpˈhoʊlstə˞ɹi/	/ʌpˈhəʊlstᵊri/	n	The fabric covering furniture or car interiors.		tapicería						garnissage						Polsterung						tapisseria						tappezzeria												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::vocabulario_em_clase Portugues::Falso_Amigo Portugues::VOC Portugues::VOC::Tapetes
-filmar (v)		filmar	filmar	/fiɫˈmaɾ/	/fiwˈmaʁ/	v	Gravar imagens em movimento para cinema ou TV.		to film	/tə ˈfɪlm/	/tə ˈfɪlm/	v	To record moving images for cinema or television.		grabar						filmer						filmen						gravar						riprendere												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes Curso::2A2::vocabulario_em_clase Portugues::VOC
-filme (cinema)		filme	o filme	/u ˈfiɫmɨ/	/u ˈfiwmi/	sm	Obra cinematográfica; sequência de imagens em movimento.		movie	/ˈmuvi/	/ˈmuːvi/	n	A cinematographic work; a sequence of moving images.		película						film						Film						pel·lícula						film												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes Curso::2A2::vocabulario_em_clase Portugues::Falso_Amigo Portugues::VOC
-película (camada)		película	a película	/ɐ pɨˈlikulɐ/	/a peˈlikulɐ/	sf	Camada fina sobre um objeto; filme fotográfico.		coating	/ˈkʰoʊtɪŋ/	/ˈkʰəʊtɪŋ/	n	A thin layer over an object; photographic film.		capa						couche						Schicht						capa						pellicola												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes Curso::2A2::vocabulario_em_clase Portugues::Falso_Amigo Portugues::VOC
-rolo (película)		rolo	o rolo	/u ˈʁɔlu/	/u ˈʁɔlu/	sm	Cilindro de material enrolado, como um filme fotográfico.		roll	/ˈɹoʊl/	/ˈrəʊl/	n	A cylindrical material wound up, such as photographic film.		rollo						rouleau						Rolle						rotllo						rotolo												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes Curso::2A2::vocabulario_em_clase Portugues::Falso_Amigo Portugues::VOC
-film (cozinha)		film	o film	/u ˈfiɫm/	/u ˈfiwm/	sm	Material plástico usado para envolver alimentos ou objetos.		plastic wrap	/ˈplæstɪk ˈɹæp/	/ˈplæstɪk ˈræp/	n	A plastic material used to cover food or objects.		papel film						film alimentaire						Frischhaltefolie						pel·lícula alimentària						pellicola trasparente												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes Curso::2A2::vocabulario_em_clase Portugues::Falso_Amigo Portugues::VOC
-indicado para (está indicado para o Oscar)		indicado para	indicado para	/ĩdiˈkadu pɐɾɐ/	/ĩdʒiˈkadu paɾɐ/	exp	Que foi selecionado ou recomendado para algo.		nominated for	/ˈnɑməˌneɪtəd ˈfɔr/	/ˈnɒmɪˌneɪtɪd ˈfɔː/	adj	Selected or recommended for something.		indicado para						nommé pour						nominiert für						nominat per						indicato per												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes Curso::2A2::vocabulario_em_clase Portugues::VOC
-estar um espanto, ie. estás um espanto (en español estar deslumbrante)		estar um espanto	estar um espanto	/ˈʃtaɾ ˈũ ˈʃpɐ̃tu/	/isˈtaʁ ˈũ isˈpɐ̃tu/	exp	Estar deslumbrante ou impressionante.		to look stunning	/tə ˈlʊk ˈstənɪŋ/	/tə ˈlʊk ˈstʌnɪŋ/	v	To appear dazzling or impressive.		estar deslumbrante						être éblouissant						atemberaubend aussehen						estar espectacular						essere splendido												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::vocabulario_em_clase Portugues::Falso_Amigo::Palabrotas Portugues::VOC
-emfiado, emfiada (metido)		enfiado, enfiada	enfiado, enfiada	/ẽfiˈadu | ẽfiˈadɐ/	/ẽfiˈadu | ẽfiˈadɐ/	adj m/f	Que está metido ou inserido em algo.		stuck	/ˈstək/	/ˈstʌk/	adj	Being trapped or inserted into something.		metido						coincé						feststeckend						encaixat						infilato												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::vocabulario_em_clase Portugues::VOC
+teatral, teatrais	"<img src=""_teatro.JPG"">"	teatral, teatrais	teatral, teatrais	/tiɐˈtɾaɫ | tiɐˈtɾajʃ/	/tʃiaˈtɾaw | tʃiaˈtɾajs/	adj m/f	Relacionado ao teatro.		theatrical	/θiˈætɹɪkəl/	/θiˈætrɪkᵊl/	adj	Related to theater.		teatral						théâtral						theatralisch						teatral						teatrale												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes Curso::2A2::vocabulario_em_clase Portugues::VOC Vocabulary::Theater
+atual, atuais	"<img src=""_atuais.JPG"">"	atual, atuais	atual, atuais	/ɐtuˈaɫ | ɐtuˈajʃ/	/atuˈaw | atuˈajs/	adj m/f	Que pertence ao tempo presente.		current	/ˈkʰɜ˞ɹənt/	/ˈkʰʌrᵊnt/	adj	Belonging to the present time.		actual						actuel						aktuell						actual						actuale												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes Curso::2A2::vocabulario_em_clase Portugues::VOC
+passatempo	"<img src=""_passatempo.JPG"">"	passatempo	o passatempo	/u pɐsɐˈtẽpu/	/u pasaˈtẽpu/	sm	Atividade para se entreter ou ocupar o tempo livre.		hobby	/ˈhɑbi/	/ˈhɒbi/	n	An activity for leisure or entertainment.		pasatiempo						passe-temps						Hobby						passatemps						passatempo												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::vocabulario_em_clase Portugues::Ortografia Portugues::VOC Portugues::VOC::Pessoas::Tempo_livre Vocabulary::Hobbies
+carpete (tapete)	"<img src=""_carpete_tapete.JPG"">"	carpete	a carpete	/ɐ kɐɾˈpɛtɨ/	/a kaʁˈpɛtʃi/	sf	"Tapete grande que cobre o chão. Com <b>""C""</b>"		carpet	/ˈkʰɑrpət/	/ˈkʰɑːpɪt/	n	A large rug covering the floor.		alfombra						moquette						Teppich						carpeta						moquette												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::vocabulario_em_clase Portugues::Falso_Amigo Portugues::VOC Portugues::VOC::Tapetes
+naperom	"<img src=""_naperom.JPG"">"	naperom	o naperom	/u nɐpɨˈɾõ/	/u napeˈɾõ/	sm	Pequena toalha de renda ou bordada usada sobre móveis.		doily	/ˈdɔɪli/	/ˈdɔɪli/	n	A small lace or embroidered cloth used on furniture.		blonda, tapete (ESP), mantel tejido (MX)						napperon						Deckchen						servilleta						centrino												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::vocabulario_em_clase Portugues::Falso_Amigo Portugues::VOC Portugues::VOC::Tapetes
+capacho	"<img src=""_capacho.JPG"">"	capacho	o capacho	/u kɐˈpaʃu/	/u kaˈpaʃu/	sm	Pequeno tapete colocado na entrada de uma casa.		doormat	/ˈdɔrˌmæt/	/ˈdɔːmæt/	n	A small mat placed at the entrance of a house.		felpudo						paillasson						Fußmatte						estora						zerbino												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::vocabulario_em_clase Portugues::Falso_Amigo Portugues::VOC Portugues::VOC::Tapetes
+cabaz	"<img src=""_cabaz_de_natal.JPG"">"	cabaz	o cabaz	/u kɐˈbaʃ/	/u kaˈbaʃ/	sm	Cesto grande para transportar frutas ou vegetais.		basket	/ˈbæskɪt/	/ˈbɑːskɪt/	n	A large container for carrying fruits or vegetables.		cesta						panier						Korb						cabàs						cesta												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::vocabulario_em_clase Portugues::Falso_Amigo Portugues::VOC Portugues::VOC::Festas::Natal
+alcatifa	"<img src=""_alcatifa.JPG"">"	alcatifa	a alcatifa	/ɐ aɫkɐˈtifɐ/	/a awkaˈtʃifɐ/	sf	"Revestimento têxtil usado no chão, semelhante a um tapete. Com<b> ""A"",&nbsp;</b>rima con el hotel."		carpet	/ˈkʰɑrpət/	/ˈkʰɑːpɪt/	n	Textile covering used on the floor, similar to a rug.		alfombra moqueta						moquette						Teppich						moqueta						moquette												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::vocabulario_em_clase Portugues::Falso_Amigo Portugues::VOC Portugues::VOC::Tapetes
+tapeçaria (paredes)	"<img src=""_tapecaria_.JPG""><img src=""_tapecaria.JPG"">"	tapeçaria	a tapeçaria	/ɐ tɐpɨsɐˈɾiɐ/	/a tapesaˈɾiɐ/	sf	Peça decorativa tecida à mão ou em tear.		tapestry	/ˈtʰæpəstɹi/	/ˈtʰæpɪstri/	n	A decorative woven piece, often handmade.		tapiz						tapisserie						Wandteppich						tapís						arazzo												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::vocabulario_em_clase Portugues::Falso_Amigo Portugues::VOC Portugues::VOC::Tapetes
+estofo (auto,moveis)	"<img src=""_estofo_carro.JPG""><img src=""_estofo_moveis.JPG"">"	estofo	o estofo	/u ˈʃtɔfu/	/u isˈtɔfu/	sm	Revestimento de móveis ou do interior de carros.		upholstery	/ˌəpˈhoʊlstə˞ɹi/	/ʌpˈhəʊlstᵊri/	n	The fabric covering furniture or car interiors.		tapicería						garnissage						Polsterung						tapisseria						tappezzeria												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::vocabulario_em_clase Portugues::Falso_Amigo Portugues::VOC Portugues::VOC::Tapetes
+filmar (v)	"<img src=""_filmar.JPG"">"	filmar	filmar	/fiɫˈmaɾ/	/fiwˈmaʁ/	v	Gravar imagens em movimento para cinema ou TV.		to film	/tə ˈfɪlm/	/tə ˈfɪlm/	v	To record moving images for cinema or television.		grabar						filmer						filmen						gravar						riprendere												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes Curso::2A2::vocabulario_em_clase Portugues::Mesma_palavra_em_Espanhol Portugues::VOC
+filme (cinema)	"<img src=""_scary_movie.PNG""><img src=""_adventure_film.PNG""><img src=""_science_fiction_film.PNG"">"	filme	o filme	/u ˈfiɫmɨ/	/u ˈfiwmi/	sm	Obra cinematográfica; sequência de imagens em movimento.		movie	/ˈmuvi/	/ˈmuːvi/	n	A cinematographic work; a sequence of moving images.		película						film						Film						pel·lícula						film												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes Curso::2A2::vocabulario_em_clase Portugues::Falso_Amigo Portugues::VOC
+película (camada)	"<img src=""_pelicula_aderente.JPG"">"	película	a película	/ɐ pɨˈlikulɐ/	/a peˈlikulɐ/	sf	Camada fina sobre um objeto. Não <s>filme fotográfico</s>.		coating	/ˈkʰoʊtɪŋ/	/ˈkʰəʊtɪŋ/	n	A thin layer over an object; photographic film.		capa						couche						Schicht						capa						pellicola												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes Curso::2A2::vocabulario_em_clase Portugues::Falso_Amigo Portugues::VOC
+rolo (película)	"<img src=""_rolo_filme_fotografico.JPG"">"	rolo	o rolo	/u ˈʁɔlu/	/u ˈʁɔlu/	sm	Cilindro de material enrolado, como um filme fotográfico.		roll	/ˈɹoʊl/	/ˈrəʊl/	n	A cylindrical material wound up, such as photographic film.		rollo						rouleau						Rolle						rotllo						rotolo												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes Curso::2A2::vocabulario_em_clase Portugues::Falso_Amigo Portugues::VOC Vocabulary::80s Vocabulary::Vintage
+film, película aderente (cozinha)	"<img src=""_pelicula_aderente.JPG"">"	película aderente, film	a película aderente, o film	/pɨˈlikulɐ ɐdɨˈɾẽtɨ/ , /u ˈfiɫm/	/peˈlikulɐ adeˈɾẽtʃi/ , /u ˈfiwm/	sf, sm	Material plástico usado para envolver alimentos ou objetos.		plastic wrap	/ˈplæstɪk ˈɹæp/	/ˈplæstɪk ˈræp/	n	A plastic material used to cover food or objects.		papel film						film alimentaire						Frischhaltefolie						pel·lícula alimentària						pellicola trasparente												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes Curso::2A2::vocabulario_em_clase Portugues::Falso_Amigo Portugues::VOC Portugues::VOC::Casa::Cozinha Portugues::VOC::Casa::Cozinha::Utensílios::Utensílios Portugues::VOC::Cozinhar
+indicado para (está indicado para o Oscar)		indicado para	indicado para	/ĩdiˈkadu pɐɾɐ/	/ĩdʒiˈkadu paɾɐ/	exp	Que foi selecionado ou recomendado para algo.	<b></b> <i>Ainda estou aqui</i> é o primeiro filme em português indicado ao prêmio máximo do Oscar.	nominated for	/ˈnɑməˌneɪtəd ˈfɔr/	/ˈnɒmɪˌneɪtɪd ˈfɔː/	adj	Selected or recommended for something.		indicado para						nommé pour						nominiert für						nominat per						indicato per												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes Curso::2A2::vocabulario_em_clase Portugues::VOC
+estar um espanto, ie. estás um espanto		estar um espanto	estar um espanto	/ˈʃtaɾ ˈũ ˈʃpɐ̃tu/	/isˈtaʁ ˈũ isˈpɐ̃tu/	exp	Estar deslumbrante ou impressionante.		to look stunning	/tə ˈlʊk ˈstənɪŋ/	/tə ˈlʊk ˈstʌnɪŋ/	v	To appear dazzling or impressive.		estar deslumbrante						être éblouissant						atemberaubend aussehen						estar espectacular						essere splendido												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::vocabulario_em_clase Portugues::Falso_Amigo::Palabrotas Portugues::VOC
+emfiado, emfiada (metido)		enfiado, enfiada	enfiado, enfiada	/ẽfiˈadu | ẽfiˈadɐ/	/ẽfiˈadu | ẽfiˈadɐ/	adj m, adj f	Que está metido ou inserido em algo.		stuck	/ˈstək/	/ˈstʌk/	adj	Being trapped or inserted into something.		metido						coincé						feststeckend						encaixat						infilato												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::vocabulario_em_clase Portugues::VOC
 emfiar (meter)		enfiar	enfiar	/ẽfiˈaɾ/	/ẽfiˈaʁ/	v	Introduzir algo dentro de outro objeto.		to insert	/tu ɪnˈsɜ˞t/	/tu ɪnˈsɜːt/	v	To introduce something into another object.		meter						insérer						einführen						introduir						infilare												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::vocabulario_em_clase Portugues::VOC
 lazer		lazer	o lazer	/u lɐˈzeɾ/	/u laˈzeʁ/	sm	Tempo livre para atividades de descanso e diversão.		leisure	/ˈliʒə˞/	/ˈleʒə/	n	Free time for rest and entertainment.		ocio						loisir						Freizeit						oci						tempo libero												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::vocabulario_em_clase Portugues::VOC
 estilísta (Voc-Cards-Special)	"<img src=""_estilista.JPG"">"	estilísta	o/a estilista	/ˈɔɐ ʃtiˈliʃtɐ/	/ˈɔɐ istʃiˈlistɐ/	s m/f	Profissional que cria, desenha ou seleciona roupas e acessórios, atuando na moda.		stylist	/ˈstaɪlɪst/	/ˈstaɪlɪst/				diseñador de ropa						styliste						Stylist						estilista						stilista												Curso::1A2 Curso::2A2 Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::U5-Eu-Ja-Tinha-Visto::Falar-Obras-Filmes Portugues::Adjetivos Portugues::Falso_Amigo Portugues::VOC Portugues::VOC::Trabalho Portugues::VOC::Trabalho::Profissoes Vocabulary::People::Description
-apenas (adv)		apenas	apenas	/ɐˈpɛnɐʃ/	/aˈpɛnas/	adv	Somente, exclusivamente.		only	/ˈoʊnli/	/ˈəʊnli/	adv	Exclusively, solely.		solamente						seulement						nur						només						solo												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::vocabulario_em_clase Portugues::Frases::SO Portugues::VOC
-<b>Bia Caboz</b> (Cantora)	"<div><strong>Bia Caboz</strong> é uma cantora portuguesa emergente, conhecida pelo seu estilo musical que mistura elementos do pop contemporâneo com influências tradicionais portuguesas. A sua voz única e a capacidade de emocionar o público têm-lhe valido reconhecimento crescente no cenário musical português.</div>
+apenas (adv)		apenas	apenas	/ɐˈpɛnɐʃ/	/aˈpɛnas/	adv	"Somente, exclusivamente. Com ""A"""	Eu tenho apenas uma dúvida. (a pessoa tem uma única dúvida)	only	/ˈoʊnli/	/ˈəʊnli/	adv	Exclusively, solely.		solamente						seulement						nur						només						solo												Curso::2A2::U5-Eu-Ja-Tinha-Visto Curso::2A2::vocabulario_em_clase Portugues::Frases::SO Portugues::VOC
+<b>Bia Caboz</b> (Cantora)	"<div><img src=""_bia_caboz__.JPG"" style=""float: right;""><strong>Bia Caboz</strong> é uma cantora portuguesa emergente, conhecida pelo seu estilo musical que mistura elementos do pop contemporâneo com influências tradicionais portuguesas. A sua voz única e a capacidade de emocionar o público têm-lhe valido reconhecimento crescente no cenário musical português.</div>
 
 <h3><strong>1. Início da Carreira</strong></h3>
 <ul>
@@ -219,8 +420,8 @@ apenas (adv)		apenas	apenas	/ɐˈpɛnɐʃ/	/aˈpɛnas/	adv	Somente, exclusivamen
 <div><strong>""Sentir Saudade""</strong> – Destaca a expressividade vocal da artista.</div>
 </li>
 <li>
-<div><strong>""Alecrim""</strong> – Mostra a sua versatilidade musical.</div>
-</li>
+  <div><strong><s>""Alecrim""</s></strong> – Mostra a sua versatilidade musical.</div>
+</li><li><div>Piruka × Bia Caboz - <b>Fala-me A Verdade</b><br></div></li>
 </ul>
 </li>
 <li>
@@ -245,3 +446,121 @@ apenas (adv)		apenas	apenas	/ɐˈpɛnɐʃ/	/aˈpɛnas/	adv	Somente, exclusivamen
 </li>
 <li>
 <div>Tem sido reconhecida como uma das artistas promissoras da sua geração em Portugal, conquistando um público cada vez mais amplo.</div></li></ul>"																																																		Curso::2A2::Pessoalidades::Musica Curso::2A2::U5-Eu-Ja-Tinha-Visto My_Mess::Tarjeta-Sola::Pessoalidades
+<b>Rita Guerra</b>&nbsp;(Cantora)	"<div><img src=""_rita_guerra.JPG"" style=""float: right;""><strong>Rita Guerra</strong> é uma das cantoras mais reconhecidas de Portugal, destacando-se pela sua poderosa voz e pela versatilidade musical. Com uma carreira de várias décadas, conquistou o público com a sua interpretação emotiva e talento inquestionável.</div>
+
+<h3><strong>1. Início da Carreira</strong></h3>
+<ul>
+<li>
+<div>Nasceu a <strong>22 de outubro de 1967, em Lisboa, Portugal</strong>.</div>
+</li>
+<li>
+<div>Começou a sua carreira musical nos anos 80, atuando no <strong>Casino Estoril</strong>, onde rapidamente chamou a atenção pelo seu talento vocal.</div>
+</li>
+<li>
+<div>Em 1990, lançou o seu primeiro álbum, <strong>""Pormenores sem a Mínima Importância""</strong>, que marcou o início de uma carreira de sucesso.</div>
+</li>
+</ul>
+
+<h3><strong>2. Principais Sucessos e Álbuns</strong></h3>
+<ul>
+<li>
+<div>Ao longo dos anos, Rita Guerra lançou vários álbuns bem recebidos pelo público, entre eles:</div>
+<ul>
+<li>
+<div><strong>""Da Gama"" (1995)</strong> – Um dos seus trabalhos mais marcantes.</div>
+</li>
+<li>
+<div><strong>""No Meu Canto"" (2005)</strong> – Inclui algumas das suas músicas mais emblemáticas.</div>
+</li>
+<li>
+<div><strong>""Retrato"" (2014)</strong> – Uma coletânea que revisita grandes êxitos da sua carreira.</div>
+</li>
+</ul>
+</li>
+<li>
+<div>Representou Portugal no <strong>Festival Eurovisão da Canção 2003</strong> com a música <strong>""Deixa-me Sonhar""</strong>, tornando-se um dos nomes mais reconhecidos da música nacional.</div>
+</li>
+<li>
+<div>É também conhecida por interpretar versões em português de <strong>bandas sonoras da Disney</strong>, como ""Pocahontas"" e ""O Corcunda de Notre Dame"".</div>
+</li>
+</ul>
+
+<h3><strong>3. Estilo e Influências</strong></h3>
+<ul>
+<li>
+<div>A sua música abrange vários géneros, incluindo <strong>pop, soul e baladas românticas</strong>.</div>
+</li>
+<li>
+<div>É elogiada pela sua interpretação emocional e pela capacidade de transmitir sentimentos profundos através da sua voz.</div>
+</li>
+</ul>
+
+<h3><strong>4. Reconhecimento e Impacto</strong></h3>
+<ul>
+<li>
+<div>Rita Guerra mantém uma carreira sólida, sendo uma das artistas mais respeitadas do panorama musical português.</div>
+</li>
+<li>
+<div>Continua a dar <strong>concertos</strong> e a lançar novos projetos musicais, mantendo-se ativa na indústria.</div>
+</li>
+<li>
+<div>Possui uma base de fãs fiel e uma presença marcante na música portuguesa.</div>
+</li>
+</ul>
+<div>🎤✨ <strong>Com uma carreira marcada por grandes sucessos e interpretações memoráveis, Rita Guerra continua a ser uma referência na música em Portugal.</strong></div>"																																																		Curso::2A2::Pessoalidades Curso::2A2::Pessoalidades::Musica
+<b>The Gift&nbsp;</b>(Banda)	"<div><strong>The Gift</strong> é uma das bandas mais renomadas de Portugal, conhecida pelo seu estilo musical único que mistura pop, rock alternativo e elementos eletrônicos. Com uma carreira sólida e internacionalmente reconhecida, a banda tem conquistado fãs ao redor do mundo com suas letras poéticas e sonoridade inovadora.</div>
+
+<h3><strong>1. Formação e Início da Carreira</strong></h3>
+<ul>
+<li>
+<div>Fundada em <strong>1994</strong> na cidade de <strong>Almada, Portugal</strong>, a banda começou a sua trajetória com <strong>Nuno Gonçalves</strong> (voz e guitarra), <strong>Miguel Ribeiro</strong> (guitarra), <strong>Bárbara Tinoco</strong> (baixo) e outros membros ao longo dos anos.</div>
+</li>
+<li>
+<div>O nome da banda, ""The Gift"", reflete a ideia de algo precioso e único, o que é refletido na música da banda.</div>
+</li>
+<li>
+<div>Em 1998, a banda lançou o seu primeiro álbum, <strong>""The Gift""</strong>, mas foi com o álbum <strong>""Film"" (2004)</strong> que atingiram maior notoriedade, consolidando-se como uma das maiores bandas do cenário musical português.</div>
+</li>
+</ul>
+
+<h3><strong>2. Principais Álbuns e Sucessos</strong></h3>
+<ul>
+<li>
+<div><strong>""Film"" (2004)</strong> foi um marco para a banda, incluindo o sucesso <strong>""Fazer o Melhor""</strong>, que se tornou um dos maiores êxitos da sua carreira.</div>
+</li>
+<li>
+<div><strong>""Altar"" (2007)</strong>, um álbum com sonoridade mais experimental, também recebeu aclamação da crítica e consolidou o grupo como inovadores no cenário musical.</div>
+</li>
+<li>
+<div>Outros álbuns notáveis incluem:</div>
+<ul>
+<li>
+<div><strong>""Explode"" (2010)</strong> – Um trabalho que continuou a explorar sonoridades eletrônicas e experimentais.</div>
+</li>
+<li>
+<div><strong>""AM-FM"" (2015)</strong> – Uma fusão de estilos e influências que se tornou um grande sucesso em Portugal.</div>
+</li>
+</ul>
+</li>
+</ul>
+
+<h3><strong>3. Estilo e Influências</strong></h3>
+<ul>
+<li>
+<div>A música de The Gift mistura <strong>rock alternativo, música eletrônica e pop</strong>, com uma forte presença de atmosferas sonoras e letras introspectivas.</div>
+</li>
+<li>
+<div>A banda é frequentemente elogiada pela sua capacidade de inovar e explorar diferentes gêneros musicais, mantendo sempre uma identidade própria e distinta.</div>
+</li>
+</ul>
+
+<h3><strong>4. Reconhecimento e Impacto</strong></h3>
+<ul>
+<li>
+<div>The Gift tem uma base de fãs global e uma carreira que inclui não só o sucesso nacional, mas também a apreciação em <strong>países como Espanha, Brasil e outros países europeus</strong>.</div>
+</li>
+<li>
+<div>A banda tem se apresentado em grandes palcos e festivais internacionais, consolidando sua posição como uma das principais bandas do cenário musical moderno.</div>
+</li>
+</ul>
+<div>🎤✨ <strong>Com uma carreira marcada pela inovação e uma sonoridade única, The Gift continua a ser uma das maiores bandas da música portuguesa e a conquistar novos públicos a cada novo projeto.</strong></div>"																																																		Curso::2A2::Pessoalidades Curso::2A2::Pessoalidades::Musica
