@@ -1,34 +1,50 @@
-								
-aceitar, aceito		aceitar, aceito	aceitar, aceito					Basta ser honesto e eu aceito propostas
-aflito, aflita		aflito, aflita	aflito, aflita					Ainda o mês vai a meio já eu 'tou aflito
-apertar, aperte		apertar, aperte	apertar, aperte					Querem que aperte o cinto mas nem calças tenho
-bolha		bolha	bolha					Mas qualquer dia a bolha rebenta
-bonito, bonita		bonito, bonita	bonito, bonita					Oh mãe fazias-me era rico em vez de bonito
-brincadeira		brincadeira	brincadeira					Quero ir para a brincadeira
-calças		calças	calças					Querem que aperte o cinto mas nem calças tenho
-combustivel, combustiveis		combustivel, combustiveis	combustivel, combustiveis					Tive que o vender para ter o combustível
-condição, condições		condição, condições	condição, condições					Não tenho condições nem pa alugar uma tenda
-da treta		da treta	da treta					Ou num emprego da treta, mal pago
-em greve		em greve	em greve					Tenho o passe da Carris mas hoje estão em greve
-empenho		empenho	empenho					Não é por falta de empenho
-emprego		emprego	emprego					Alguém me arranje emprego
-enguiço		enguiço	enguiço					Vou jogar Euromilhões a ver se acaba o enguiço
-enterrar, enterram		enterrar, enterram	enterrar, enterram					Eles enterram o País o povo aguenta
-gorjeta		gorjeta	gorjeta					E receber uma gorjeta que chamam salário
-impossível,  impossíveis		impossível,  impossíveis	impossível,  impossíveis					Ter carro é impossível
-jornal, jornais		jornal, jornais	jornal, jornais					Ouvem-se verdades que não vêm nos jornais
-mal pago		mal pago	mal pago					Ou num emprego da treta, mal pago
-meio, meia		meio, meia	meio, meia					Ainda o mês vai a meio já eu 'tou aflito
-otário, otária		otário, otária	otário, otária					Não tirei o Curso Superior de Otário
-passe da carris		passe da carris	passe da carris					Tenho o passe da Carris mas hoje estão em greve
-proposta, propostas		proposta, propostas	proposta, propostas					Basta ser honesto e eu aceito propostas
-qualquer dia		qualquer dia	qualquer dia					Mas qualquer dia a bolha rebenta
-querem ver pelas costas		querem ver pelas costas	querem ver pelas costas					Os cotas já me querem ver pelas costas
-rebentar, rebenta		rebentar, rebenta	rebentar, rebenta					Mas qualquer dia a bolha rebenta
-renda		renda	renda					Onde vou arranjar dinheiro para uma renda?
-rico, rica		rico, rica	rico, rica					Oh mãe fazias-me era rico em vez de bonito
-semana		semana	semana					Suei a semana inteira
-sexta-feira		sexta-feira	sexta-feira					É sexta-feira. Suei a semana inteira
-suar, suei		suar, suei	suar, suei					Suei a semana inteira
-tirar um curso		tirar um curso	tirar um curso					Não tirei o Curso Superior de Otário
-tostão, tostões 		tostão, tostões 	tostão, tostões 					No bolso não trago um tostão
+ID (FIELDS)	image	pt_word	pt_word_art	pt_ipa_PT	pt_ipa_BR	pt_type_gender	pt_notes	pt_marker	en_word	en_ipa_US	en_ipa_UK	en_type	en_notes	en_marker	es_word	es_ipa_ES	es_IPA_LA	es_type_gender	es_notes	es_marker	fr_word	fr_word_art	fr_ipa	fr_type_gender	fr_notes	fr_marker	de_word	de_word_art	de_ipa	de_type_gender	de_notes	de_marker	val_word	val_ipa	cat_ipa	val_type_gender	val_notes	val_marker	it_word	it_ipa	it_gender	it_notes	it_marker	en_pron	pt_pron	es_pron	fr_pron	de_pron	it_pron	val_pron	Portugues::Vocabulario::Animais Tags Vocabulary::Animals Vocabulary::Animals::Basic
+caingá	Caingá candeia, é o matita-pereira	caingá	caingá					Caingá candeia, é o matita-pereira																																											
+matita-pereira	Caingá candeia, é o matita-pereira	matita-pereira	matita-pereira					Caingá candeia, é o matita-pereira																																											
+candeia	Caingá candeia, é o matita-pereira	candeia	candeia					Caingá candeia, é o matita-pereira																																											
+canseira	Das águas de março, é o fim da canseira	canseira	canseira					Das águas de março, é o fim da canseira																																											
+conversa	É a chuva chovendo, é conversa ribeira	conversa	conversa					É a chuva chovendo, é conversa ribeira																																											
+ribeira	É a chuva chovendo, é conversa ribeira	ribeira	ribeira					É a chuva chovendo, é conversa ribeira																																											
+garrafa de cana	É a garrafa de cana, o estilhaço na estrada	garrafa de cana	garrafa de cana					É a garrafa de cana, o estilhaço na estrada																																											
+estilhaço	É a garrafa de cana, o estilhaço na estrada	estilhaço	estilhaço					É a garrafa de cana, o estilhaço na estrada																																											
+lenha	É a lenha, é o dia, é o fim da picada	lenha	lenha					É a lenha, é o dia, é o fim da picada																																											
+picada	É a lenha, é o dia, é o fim da picada	picada	picada					É a lenha, é o dia, é o fim da picada																																											
+tijolo	É a luz da manha, é o tijolo chegando	tijolo	tijolo					É a luz da manha, é o tijolo chegando																																											
+laço	É a noite, é a morte, é um laço, é o anzol	laço	laço					É a noite, é a morte, é um laço, é o anzol																																											
+anzol, anzois	É a noite, é a morte, é um laço, é o anzol	anzol, anzois	anzol, anzois					É a noite, é a morte, é um laço, é o anzol																																											
+promessa	É a promessa de vida no teu coração	promessa	promessa					É a promessa de vida no teu coração																																											
+viga	É a viga, é o vão, festa da cumeeira	viga	viga					É a viga, é o vão, festa da cumeeira																																											
+vão	É a viga, é o vão, festa da cumeeira	vão	vão					É a viga, é o vão, festa da cumeeira																																											
+cumeeira, festa da cumeeira	É a viga, é o vão, festa da cumeeira	cumeeira, festa da cumeeira	cumeeira, festa da cumeeira					É a viga, é o vão, festa da cumeeira																																											
+madeira	É madeira de vento, tombo da ribanceira	madeira	madeira					É madeira de vento, tombo da ribanceira																																											
+enguiçado	É o carro enguiçado, é a lama, é a lama	enguiçado	enguiçado					É o carro enguiçado, é a lama, é a lama																																											
+poço	É o fundo do poço, é o fim do caminho	poço	poço					É o fundo do poço, é o fim do caminho																																											
+o queira ou não queira	É o mistério profundo, é o queira ou não queira	o queira ou não queira	o queira ou não queira					É o mistério profundo, é o queira ou não queira																																											
+pau, paus	É o pau, é a pedra, é o fim do caminho	pau, paus	pau, paus					É o pau, é a pedra, é o fim do caminho																																											
+estradeira	É o pé, é o chão, é a marcha estradeira	estradeira	estradeira					É o pé, é o chão, é a marcha estradeira																																											
+marcha	É o pé, é o chão, é a marcha estradeira	marcha	marcha					É o pé, é o chão, é a marcha estradeira																																											
+projeto da casa	É o projeto da casa, é o corpo na cama	projeto da casa	projeto da casa					É o projeto da casa, é o corpo na cama																																											
+vetando	É o vento vetando, é o fim da ladeira	vetando	vetando					É o vento vetando, é o fim da ladeira																																											
+ladeira	É o vento vetando, é o fim da ladeira	ladeira	ladeira					É o vento vetando, é o fim da ladeira																																											
+pedra	É pau, é pedra, é o fim do caminho	pedra	pedra					É pau, é pedra, é o fim do caminho																																											
+peroba	É peroba no campo, é o nó da madeira	peroba	peroba					É peroba no campo, é o nó da madeira																																											
+nó (da madeira)	É peroba no campo, é o nó da madeira	nó (da madeira)	nó (da madeira)					É peroba no campo, é o nó da madeira																																											
+horizonte	É um belo horizonte, é uma febre terça	horizonte	horizonte					É um belo horizonte, é uma febre terça																																											
+terça	É um belo horizonte, é uma febre terça	terça	terça					É um belo horizonte, é uma febre terça																																											
+caco (de vidro)	É um caco de vidro, é a vida, é o sol	caco (de vidro)	caco (de vidro)					É um caco de vidro, é a vida, é o sol																																											
+espinho	É um espinho na mão, é um corte no pé	espinho	espinho					É um espinho na mão, é um corte no pé																																											
+estepe	É um estepe, é um prego, é uma conta, é um conto	estepe	estepe					É um estepe, é um prego, é uma conta, é um conto																																											
+prego	É um estepe, é um prego, é uma conta, é um conto	prego	prego					É um estepe, é um prego, é uma conta, é um conto																																											
+passo	É um passo, é uma ponte, é um sapo, é uma rã	passo	passo					É um passo, é uma ponte, é um sapo, é uma rã																																											
+ponte	É um passo, é uma ponte, é um sapo, é uma rã	ponte	ponte					É um passo, é uma ponte, é um sapo, é uma rã																																											
+prata	É um peixe, é um gesto, é uma prata brilhando	prata	prata					É um peixe, é um gesto, é uma prata brilhando																																											
+pingando	É um pingo pingando, é uma conta, é um ponto	pingando	pingando					É um pingo pingando, é uma conta, é um ponto																																											
+conta	É um pingo pingando, é uma conta, é um ponto	conta	conta					É um pingo pingando, é uma conta, é um ponto																																											
+pedaço	É um regato, é uma fonte, é um pedaço de pão	pedaço	pedaço					É um regato, é uma fonte, é um pedaço de pão																																											
+regato	É um regato, é uma fonte, é um pedaço de pão	regato	regato					É um regato, é uma fonte, é um pedaço de pão																																											
+fonte	É um regato, é uma fonte, é um pedaço de pão	fonte	fonte					É um regato, é uma fonte, é um pedaço de pão																																											
+resto de mato	É um resto de mato na luz da manhã	resto de mato	resto de mato					É um resto de mato na luz da manhã																																											
+manhã, de manhã, amanhã	É um resto de mato na luz da manhã	manhã, de manhã, amanhã	manhã, de manhã, amanhã					É um resto de mato na luz da manhã																																											
+resto, resto de toco	É um resto de toco, é um pouco sozinho	resto, resto de toco	resto, resto de toco					É um resto de toco, é um pouco sozinho																																											
+toco	É um resto de toco, é um pouco sozinho	toco	toco					É um resto de toco, é um pouco sozinho																																											
+atiradera	Passarinho na mão, pedra de atiradeira	atiradera	atiradera					Passarinho na mão, pedra de atiradeira																																											
