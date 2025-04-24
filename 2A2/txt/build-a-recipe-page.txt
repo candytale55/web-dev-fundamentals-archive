@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Pancakes from Scratch</title>
+  </head>
+  <body>
+    <h1>Pancakes from Scratch</h1>
+    <p>There's nothing better than homemade pancakes made with simple, fresh ingredients. This easy recipe makes light, fluffy pancakes—perfect for a cozy breakfast or brunch.</p>
+    <h2>Ingredients</h2>
+    <ul>
+      <li>1 cup all-purpose flour</li>
+      <li>1 tablespoon baking powder</li>
+      <li>1 tablespoon honey</li>
+      <li>1/4 teaspoon salt</li>
+      <li>1 cup milk</li>
+      <li>1 egg</li>
+      <li>2 tablespoons melted butter</li>
+    </ul>
+    <h2>Instructions</h2>
+    
+    <ol>
+      <li>In a large bowl, whisk together the flour, baking powder, and salt.</li>
+      <li>In a separate bowl, beat the egg and mix in the milk, melted butter, and honey.</li>
+      <li>Pour the wet ingredients into the dry ingredients and stir just until combined. Do not overmix—it's okay if the batter is a little lumpy.</li>
+      <li>Heat a non-stick skillet or griddle over medium heat and lightly grease it with butter.</li>
+      <li>Pour about 1/4 cup of batter onto the skillet for each pancake.</li>
+      <li>Cook until bubbles form on the surface and the edges look set, about 2–3 minutes.</li>
+      <li>Flip and cook for another 1–2 minutes, until golden brown and cooked through.</li>
+      <li>Serve warm with your favorite toppings—like fruit, syrup, or extra honey.</li>
+    </ol>
+
+    <img src="https://cdn.freecodecamp.org/curriculum/labs/recipe.jpg" alt="Eggs, flower, milk and a whisk">
+  </body>
+
+</html>
