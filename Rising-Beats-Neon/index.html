@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rising Beats Music Festival</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <button id="modeToggle">🌙 Dark Mode</button>
+
+    <header>
+        <h1>Annual Rising Beats Music Festival</h1>
+    </header>
+
+    <div class="container">
+        <div class="intro">
+            <h2>Feel the Beat. Live the Music.</h2>
+            <p>Join us for an unforgettable weekend of rhythm, energy, and connection. The Rising Beats Music Festival
+                is where young hearts gather to dance, discover new sounds, and vibe under the Mediterranean sun.</p>
+        </div>
+
+        <div class="countdown" id="countdown">
+            Countdown to the festival: Loading...
+        </div>
+
+        <div class="info">
+            <p><strong>📍 Location:</strong> Valencia, Spain</p>
+            <p><strong>📅 Dates:</strong> <time datetime="2025-08-23/2025-08-24">August 23–24, 2025</time></p>
+            <p><strong>🕒 Time:</strong> Gates open at <time datetime="11:00">11:00 AM</time> each day</p>
+        </div>
+
+
+        <table>
+            <caption class="day-label">🎧 Saturday – August 23, 2025</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Time</th>
+                    <th scope="col">Event</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <h3>12:00 PM</h3>
+                    </td>
+                    <td>Festival Kickoff & DJ Intro</td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>01:00 PM</h3>
+                    </td>
+                    <td>Indie Band Showcase</td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>02:00 PM</h3>
+                    </td>
+                    <td>Street Food & Chill Beats</td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>03:00 PM</h3>
+                    </td>
+                    <td>Local Talent Open Mic</td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>04:00 PM</h3>
+                    </td>
+                    <td>EDM Hour with Guest DJ</td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>05:00 PM</h3>
+                    </td>
+                    <td>Dance Workshop: Hip Hop & Shuffle</td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>06:00 PM</h3>
+                    </td>
+                    <td>Sunset Acoustic Session</td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>07:00 PM</h3>
+                    </td>
+                    <td>Headliner Performance</td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>08:30 PM</h3>
+                    </td>
+                    <td>Glow Party & Silent Disco</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+        <table>
+            <caption class="day-label">🎶 Sunday – August 24, 2025</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Time</th>
+                    <th scope="col">Event</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <h3>11:30 AM</h3>
+                    </td>
+                    <td>Yoga & Ambient Beats</td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>12:30 PM</h3>
+                    </td>
+                    <td>Emerging Artist Stage</td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>02:00 PM</h3>
+                    </td>
+                    <td>Techno Brunch Vibes</td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>03:30 PM</h3>
+                    </td>
+                    <td>Beatbox & Freestyle Battles</td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>05:00 PM</h3>
+                    </td>
+                    <td>Latin Fusion Jam</td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>06:30 PM</h3>
+                    </td>
+                    <td>Sunset Chillwave Set</td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>08:00 PM</h3>
+                    </td>
+                    <td>Closing Headliner Show</td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>09:30 PM</h3>
+                    </td>
+                    <td>Finale: Neon Sky Laser Show</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="cta">
+            <h3>🎟️ Get Your Tickets Now!</h3>
+            <p>Tickets are selling fast—don’t miss out!</p>
+            <a href="#">Register & Buy Tickets</a>
+        </div>
+
+        <div class="social">
+            <h3>📱 Follow Us Online</h3>
+            <p>Catch artist reveals, behind-the-scenes content, giveaways, and more.</p>
+            <p>Follow us on Instagram, TikTok, and Twitter: <strong>@RisingBeatsFest</strong></p>
+        </div>
+    </div>
+
+    <footer>
+        <div>Contact</div>
+        <div>Location</div>
+        <div>Privacy Policy</div>
+    </footer>
+
+    <script>
+        // Countdown Timer
+        const countdownEl = document.getElementById("countdown");
+        const eventDate = new Date("August 23, 2025 11:00:00").getTime();
+
+        function updateCountdown() {
+            const now = new Date().getTime();
+            const distance = eventDate - now;
+
+            if (distance < 0) {
+                countdownEl.innerHTML = "🎉 The Festival Has Started!";
+                return;
+            }
+
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            countdownEl.innerHTML = `Countdown to the festival: ${days}d ${hours}h ${minutes}m ${seconds}s`;
+        }
+
+        setInterval(updateCountdown, 1000);
+        updateCountdown();
+
+        // Light/Dark Mode Toggle
+        const toggleBtn = document.getElementById("modeToggle");
+        toggleBtn.addEventListener("click", () => {
+            document.body.classList.toggle("light-mode");
+            toggleBtn.textContent = document.body.classList.contains("light-mode") ? "🌞 Light Mode" : "🌙 Dark Mode";
+        });
+    </script>
+</body>
+
+</html>
