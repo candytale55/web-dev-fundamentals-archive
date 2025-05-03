@@ -32,8 +32,44 @@ const recipe3 = {
 
 recipes.push(recipe1, recipe2, recipe3);
 
-function getAverageRating (arr){
-  let average = (arr.reduce((total, amount)=> total + amount))/arr.length;
-  return average;
+function getAverageRating(ratings) {
+  const total = ratings[0] + ratings[1] + ratings[2] + ratings[3];
+  return total / ratings.length;
 }
-console.log(getAverageRating([1,2,3,4])); //2.5
+
+function getTotalIngredients(ingredients) {
+  return ingredients.length;
+}
+
+function getDifficultyLevel(cookingTime) {
+  if (cookingTime <= 30) {
+    return 'easy';
+  } else if (cookingTime <= 60) {
+    return 'medium';
+  } else {
+    return 'hard';
+  }
+}
+
+const recipe1AverageRating = getAverageRating(recipe1.ratings);
+console.log(recipe1AverageRating);
+
+const recipe1TotalIngredients = getTotalIngredients(recipe1.ingredients);
+console.log(recipe1TotalIngredients);
+
+const recipe1DifficultyLevel = getDifficultyLevel(recipe1.cookingTime);
+console.log(recipe1DifficultyLevel);
+
+recipe1.averageRating = getAverageRating(recipe1.ratings);
+recipe1.totalIngredients = getTotalIngredients(recipe1.ingredients);
+recipe1.difficultyLevel = getDifficultyLevel(recipe1.cookingTime);
+
+recipe2.averageRating = getAverageRating(recipe2.ratings);
+recipe2.totalIngredients = getTotalIngredients(recipe2.ingredients);
+recipe2.difficultyLevel = getDifficultyLevel(recipe2.cookingTime);
+
+recipe3.averageRating = getAverageRating(recipe3.ratings);
+recipe3.totalIngredients = getTotalIngredients(recipe3.ingredients);
+recipe3.difficultyLevel = getDifficultyLevel(recipe3.cookingTime);
+
+console.log(recipes);
