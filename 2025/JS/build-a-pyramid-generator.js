@@ -1,4 +1,6 @@
 
+// Exercise from: // https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/#learn-introductory-javascript-by-building-a-pyramid-generator
+
 const character = "#";
 const count = 8;
 const rows = [];
@@ -11,8 +13,7 @@ function padRow(rowNumber, rowCount) {
 for (let i = 1; i <= count; i++) {
   rows.push(padRow(i, count));
 }
-// Check 70, 75 on 
-// https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/#learn-introductory-javascript-by-building-a-pyramid-generator
+// Check Steps 70 - 75 on 
 
 /*
 // Does the same, check 75 i <=:
@@ -30,3 +31,20 @@ for (const row of rows) {
 
 console.log(result);
   
+// ---------------------------- With WHILE LOOP ------------------------
+
+// See Step 91 - 92
+// let continueLoop = false;
+let done = 0;
+
+while (done <= count) { // 91- parameter continueLoop Step 94
+  done++;
+  rows.push(padRow(done, count));
+  /*if (done === count) {
+    continueLoop = false;
+  } */
+}
+
+// -------------------------- USING ARRAYS -----------------------
+
+
