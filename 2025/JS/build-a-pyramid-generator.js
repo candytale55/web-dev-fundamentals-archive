@@ -53,3 +53,13 @@ REMOVE THIS  */
 while (rows.length < count) {
   rows.push(padRow(rows.length + 1, count));
 }
+
+// ------------------------------ UPSIDE DOWN PYRAMID --------------------------------
+
+// Steps 100 onward
+// conditions that also work for the iteration:  i = i-1, i -= 1, 
+
+for (let i = count; i > 0; i--) {
+  rows.push(padRow(i, count));  // the loop needs to run while i is greater than 0.
+}
+
