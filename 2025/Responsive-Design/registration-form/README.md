@@ -40,7 +40,7 @@ Fill out the form with the required information. Press the **Submit** button to 
 
 ### Desktop View
 
-![Registration Form - Desktop View](./screenshots/registration-form-screenshot)
+![Registration Form - Desktop View](./screenshots/registration-form-screenshot.png)
 
 ### Mobile View
 
