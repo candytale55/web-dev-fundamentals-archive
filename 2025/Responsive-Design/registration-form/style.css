@@ -1,0 +1,112 @@
+/* General layout and theme */
+body {
+    width: 100%;
+    height: 100vh;
+    /* Uses full viewport height */
+    margin: 0;
+    /* Removes default browser margin */
+    background-color: #1b1b32;
+    /* Dark theme background */
+    color: #f5f6f7;
+    /* Light text for contrast */
+    font-family: Tahoma;
+    font-size: 16px;
+}
+
+/* Centered heading and paragraph */
+h1,
+p {
+    margin: 1em auto;
+    /* Top and bottom margin, centered horizontally */
+    text-align: center;
+}
+
+/* Form layout and responsiveness */
+form {
+    width: 60vw;
+    /* Responsive width relative to viewport */
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    /* Centers the form */
+    padding-bottom: 2em;
+    /* Adds space below last field */
+}
+
+/* Fieldset styles for cleaner layout */
+fieldset {
+    border: none;
+    /* Removes default box border */
+    padding: 2rem 0;
+    /* Vertical padding only */
+    border-bottom: 3px solid #3b3b4f;
+    /* Visual section divider */
+}
+
+/* Removes last border to avoid unnecessary line */
+fieldset:last-of-type {
+    border-bottom: none;
+}
+
+/* Each label on its own line, with spacing */
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+/* Inputs, textareas, and dropdowns all styled uniformly */
+input,
+textarea,
+select {
+    margin: 10px 0 0 0;
+    /* Top margin only */
+    width: 100%;
+    /* Full width of container */
+    min-height: 2em;
+    /* Makes inputs taller and easier to use */
+}
+
+/* Inputs and textareas use dark background and white text to match theme */
+input,
+textarea {
+    background-color: #0a0a23;
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+}
+
+/* Inline elements (radio + checkbox) override default block behavior */
+.inline {
+    width: unset;
+    /* Resets full width */
+    margin: 0 0.5em 0 0;
+    /* Right margin for spacing text */
+    vertical-align: middle;
+    /* Aligns input with text */
+}
+
+/* Submit button styled separately using attribute selector */
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    /* Responsive width */
+    margin: 1em auto;
+    /* Top/bottom spacing and centering */
+    height: 2em;
+    /* Matches input height */
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    /* Matches section borders */
+    border-color: white;
+    min-width: 300px;
+    /* Avoids tiny buttons on narrow screens */
+}
+
+/* Makes file input match others in size */
+input[type="file"] {
+    padding: 1px 2px;
+}
+
+/* Link color override to match theme */
+a {
+    color: #dfdfe2;
+}
