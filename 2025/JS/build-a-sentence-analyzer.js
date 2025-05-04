@@ -63,7 +63,7 @@ console.log(`Consonant Count: ${consonantCount}`);
 
 
 // --------------- PUNCTUATION SIGNS ------------
-// Eliminates whitespaces and then compares with a strings of all the letters
+// My version: eliminates whitespaces, compares to a string with letters and counts if the letter is not in there.
 
 function getPunctuationCount(sentence){
   const letters = "abcdefghijklmnopqrstuvwxyz";
@@ -80,4 +80,53 @@ console.log(getPunctuationCount("Hello World!"));
 
 let punctuationCount = getPunctuationCount("WHAT?!?!?!?!?");
 console.log(`Punctuation Count: ${punctuationCount}`);
+
+
+// ------------- With a list of punctuation signs - FCC version ------------
+
+const consonantCount = getConsonantCount("Coding is fun");
+console.log(`Consonant Count: ${consonantCount}`);
+
+function getPunctuationCount(sentence) {
+  const punctuations = ".,!?;:-()[]{}\"'–";
+  let count = 0;
+
+  for (const char of sentence) {
+    if (punctuations.includes(char)) {
+      count++;
+    }
+  }
+  return count;
+}
+
+const punctuationCount = getPunctuationCount("WHAT?!?!?!?!?");
+console.log(`Punctuation Count: ${punctuationCount}`);
+
+
+// ---------------- WORD COUNT ---------------------
+// Si solo tiene espacios, los junta todos y compara con una cadena vacía (""), regresando 0.
+// Si tiene palabras, el contador empieza en 1 y suma cada vez que encuentra un espacio en blanco
+
+function getWordCount(sentence){
+  let count = 0;
+
+  if (sentence.trim()===""){
+    return count;
+  } else {
+      count = 1;
+      for (const char of sentence) {
+      if (char.includes(" ")) {
+        count++;
+      }
+    }
+  }
+  
+  return count;
+}
+console.log(getWordCount("   ")); //0
+console.log(getWordCount("Un osito pachoncito")); //3
+
+let wordCount = getWordCount("I love freeCodeCamp");
+console.log(`Word Count: ${wordCount}`);
+
 
