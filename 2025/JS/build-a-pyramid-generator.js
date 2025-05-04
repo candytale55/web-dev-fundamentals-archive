@@ -33,6 +33,7 @@ console.log(result);
   
 // ---------------------------- With WHILE LOOP ------------------------
 
+/* REMOVE THIS
 // See Step 91 - 92
 // let continueLoop = false;
 let done = 0;
@@ -40,11 +41,15 @@ let done = 0;
 while (done <= count) { // 91- parameter continueLoop Step 94
   done++;
   rows.push(padRow(done, count));
-  /*if (done === count) {
-    continueLoop = false;
-  } */
+  //if (done === count) {
+  //  continueLoop = false;
+  // } 
 }
+REMOVE THIS  */  
+// -------------------------- USING ARRAY METHODS AND PROPERTIES -----------------------
 
-// -------------------------- USING ARRAYS -----------------------
+// Step 95 - 98
 
-
+while (rows.length < count) {
+  rows.push(padRow(rows.length + 1, count));
+}
