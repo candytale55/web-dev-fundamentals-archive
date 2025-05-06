@@ -38,10 +38,10 @@ A small browser-based role-playing game built with JavaScript as part of a FreeC
 ## 🖼️ Screenshots
 
 ### Desktop View
-![Sample Screenshot 01](img/IMG-01.jpg)
-![Sample Screenshot 02](img/IMG-02.jpg)
-![Sample Screenshot 03](img/IMG-03.jpg)
-![Sample Screenshot 04](img/IMG-04.jpg)
+![Sample Screenshot 01](img/IMG-01.JPG)
+![Sample Screenshot 02](img/IMG-02.JPG)
+![Sample Screenshot 03](img/IMG-03.JPG)
+![Sample Screenshot 04](img/IMG-04.JPG)
 
 ### Mobile View
 Not provided
