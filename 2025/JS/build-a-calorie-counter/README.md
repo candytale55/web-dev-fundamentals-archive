@@ -40,4 +40,4 @@ A simple web-based app for tracking your daily calorie intake and calories burne
 
 ## Acknowledgements
 
-- Exercise concept from [FreeCodeCamp](https://www.freecodecamp.org/)
+- Exercise concept from [FreeCodeCamp]([https://www.freecodecamp.org/](https://www.freecodecamp.org/learn/full-stack-developer/workshop-calorie-counter/))
