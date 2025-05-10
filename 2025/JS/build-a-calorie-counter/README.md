@@ -1,3 +1,4 @@
+📄 [Lee esto en español](./README.es.md) _(optional – remove if not using a Spanish version)_
 
 # Calorie Counter
 
@@ -5,9 +6,9 @@ A simple web-based app for tracking your daily calorie intake and calories burne
 
 ## Technologies Used
 
-- HTML
-- CSS (Flexbox, CSS variables)
-- JavaScript (DOM manipulation, form handling)
+- **HTML5** – Semantic structure, forms, and accessibility tags
+- **CSS3** – Flexbox layout, custom properties (CSS variables), and responsive design
+- **JavaScript (ES6+)** – DOM manipulation, event listeners, template literals, form handling
 
 ## Main Features
 
@@ -16,22 +17,24 @@ A simple web-based app for tracking your daily calorie intake and calories burne
 - Log exercise to subtract burned calories
 - Calculate remaining calories dynamically
 - Clear button to reset all input fields
+- Dynamic message display for calorie surplus or deficit
 
 ## Setup Instructions
 
 1. Download or clone this repository.
-2. Open the `index.html` file in a web browser.
+2. Open the `index.html` file in a modern web browser.
 
 ## How to Use It
 
-- Enter your daily calorie budget in the input field.
-- Use the dropdown to choose a category (meal or exercise), then click **"Add Entry"** to input calorie values.
-- Click **"Calculate Remaining Calories"** to view a summary.
-- If needed, click **"Clear"** to start over.
+- Enter your daily calorie budget.
+- Use the dropdown to select a category (meal or exercise), then click **"Add Entry"**.
+- Input item names and their calorie values.
+- Click **"Calculate Remaining Calories"** to view a summary of your intake vs. budget.
+- Use **"Clear"** to reset the form and start over.
 
 ## Project Status
 
-✅ Completed for personal learning, based on the [FreeCodeCamp Calorie Counter workshop](https://www.freecodecamp.org/learn/full-stack-developer/workshop-calorie-counter/).
+✅ Completed for personal learning and reference, based on the [FreeCodeCamp Calorie Counter workshop](https://www.freecodecamp.org/learn/full-stack-developer/workshop-calorie-counter/).
 
 ## Screenshots
 
@@ -40,4 +43,5 @@ A simple web-based app for tracking your daily calorie intake and calories burne
 
 ## Acknowledgements
 
-- Exercise concept from [FreeCodeCamp](https://www.freecodecamp.org/learn/full-stack-developer/workshop-calorie-counter/)
+- Guided by an exercise from [FreeCodeCamp](https://www.freecodecamp.org/)
+
