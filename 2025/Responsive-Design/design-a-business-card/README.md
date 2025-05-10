@@ -36,4 +36,4 @@ A simple responsive HTML5/CSS3 business card layout displaying personal and prof
 
 ## Acknowledgements
 
-- Based on a web development exercise inspired by FreeCodeCamp-style projects.
+- Based on a [freeCodeCamp exercise](https://www.freecodecamp.org/learn/full-stack-developer/lab-business-card/)
