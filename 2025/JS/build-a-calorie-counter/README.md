@@ -1,4 +1,4 @@
-📄 [Lee esto en español](./README.es.md) _(optional – remove if not using a Spanish version)_
+
 
 # Calorie Counter
 
