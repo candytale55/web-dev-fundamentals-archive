@@ -187,10 +187,13 @@ Changes the visual order of the items. By default, all items have an `order` of 
 | Align items vertically             | Use `align-items` on the container               |
 | Control the direction              | Use `flex-direction` to change row/column layout |
 | Make items flexible                | Use `flex: 1` on each child                      |
+| Add spacing between items          | Use `gap` or margins on items                    |
 | Allow items to wrap                | Use `flex-wrap: wrap` on the container           |
 | Change the visual order            | Use `order` on items                             |
 | Align an individual item           | Use `align-self` on a specific item              |
+| Fit images and avoid distortion    | Use `object-fit` (see bonus below)               |
 | Avoid: Misapplying `display: flex` | Don’t apply `display: flex` to the children      |
+| Best for                           | 1D layouts (horizontal OR vertical)              |
 
 ---
 
@@ -214,10 +217,81 @@ Changes the visual order of the items. By default, all items have an `order` of 
 
 Flexbox is best used for **1D layouts** (horizontal **OR** vertical). For more complex 2D layouts, consider using CSS Grid instead.
 
+
+---
+
+## 🖼️ Bonus: `object-fit` for Media in Flexbox Layouts
+
+Use `object-fit` when placing images or videos inside a Flexbox layout — like cards or galleries — to control how they fill their containers.
+
+### 🎨 What It Does
+
+`object-fit` defines how the media fits inside its container when the aspect ratios don't match. Think of it like `background-size`, but for images and videos.
+
+### 🔧 Common Values
+
+| Value        | Description                                              |
+| ------------ | -------------------------------------------------------- |
+| `fill`       | Stretches to fill container (may **distort**)            |
+| `contain`    | Fits within container without cropping (may leave space) |
+| `cover`      | Fills container and **crops** excess content             |
+| `none`       | Shows original size                                      |
+| `scale-down` | Uses `none` or `contain`, whichever is smaller           |
+
+### ✅ Example: Flexbox Gallery
+
+```html
+<div class="flex-container">
+  <div class="image-box">
+    <img src="photo.jpg" alt="Gallery image" />
+  </div>
+</div>
+```
+
+```css
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.image-box {
+  width: 200px;
+  height: 150px;
+  overflow: hidden;
+}
+
+.image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+```
+
+### ❗ Common Mistakes
+
+* ❌ **Not setting width/height** on media or container → `object-fit` won’t work.
+* ❌ **Using on non-media elements** → Only works on `<img>`, `<video>`, `<iframe>`, etc.
+* ❌ **Forgetting `object-position`** → Use `center` to crop symmetrically.
+
+---
+
+### 💡 When to Use
+
+| Scenario                            | Use `object-fit` with: |
+| ----------------------------------- | ---------------------- |
+| Gallery Grid                        | `cover`                |
+| Responsive Image Cards              | `cover` or `contain`   |
+| Full-width Hero Images              | `cover`                |
+| Keeping Whole Image Visible         | `contain`              |
+| Show native image only when smaller | `scale-down`           |
+
+
 ---
 ---
 
-## 🧱 Order for properties
+## 🧱 Order: 
 
 While there isn't a strict requirement for the order of properties in CSS, there are some best practices and conventions that can help keep your CSS organized, maintainable, and readable. The order you use can depend on your team's style guide or personal preference, but generally, the following order is widely recommended for Flexbox:
 
