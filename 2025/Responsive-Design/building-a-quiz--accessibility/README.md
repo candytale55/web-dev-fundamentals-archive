@@ -35,7 +35,9 @@ A practice project that builds an accessible quiz form using semantic HTML and r
 ## Screenshots
 
 ![Accessibility Quiz Screenshot 1](img/quiz-scsh-01.png)  
-![Accessibility Quiz Screenshot 2](img/quiz-scsh-02.png)
+<br/>
+<img src="img/quiz-scsh-02.png" alt="Accessibility Quiz Screenshot 2" width="30%" />
+<!--![Accessibility Quiz Screenshot 2](img/quiz-scsh-02.png)-->
 
 ## Acknowledgements
 
