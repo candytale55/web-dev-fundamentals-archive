@@ -38,6 +38,7 @@ A structured HTML/CSS project that recreates a classic Nutrition Label using typ
 ## Acknowledgements
 
 - Inspired by [freeCodeCamp’s Typography Project](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-typography-by-building-a-nutrition-label/)
+  
 
 ### Quick Reference Steps
 
@@ -59,3 +60,6 @@ A structured HTML/CSS project that recreates a classic Nutrition Label using typ
   </tr>
 </table>
 
+## Other references:
+
+- Also check: https://github.com/candytale55/my-snippets/blob/main/MD-Notes/Inline-Flex-Alignment-CheatSheet.md
