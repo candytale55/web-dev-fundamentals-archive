@@ -213,3 +213,152 @@ Changes the visual order of the items. By default, all items have an `order` of 
 ## 🎯 Tip
 
 Flexbox is best used for **1D layouts** (horizontal **OR** vertical). For more complex 2D layouts, consider using CSS Grid instead.
+
+---
+---
+
+## 🧱 Order for properties
+
+While there isn't a strict requirement for the order of properties in CSS, there are some best practices and conventions that can help keep your CSS organized, maintainable, and readable. The order you use can depend on your team's style guide or personal preference, but generally, the following order is widely recommended for Flexbox:
+
+### **Container CSS Rules (Flex Container)**
+
+1. **Display & Layout Basics**
+
+   * `display: flex;` or `display: inline-flex;` should be the first property because it activates Flexbox on the container.
+   * `flex-direction: row | column | ...;` — Controls the main axis direction.
+   * `flex-wrap: wrap | nowrap | wrap-reverse;` — Decides if items should wrap or stay in a single line.
+
+   Example:
+
+   ```css
+   .flex-container {
+     display: flex;             /* Always first */
+     flex-direction: row;       /* Defines the main axis direction */
+     flex-wrap: wrap;           /* Enables wrapping of items */
+   }
+   ```
+
+2. **Alignment and Distribution**
+
+   * `justify-content: flex-start | center | space-between | ...;` — Aligns items horizontally (main axis).
+   * `align-items: flex-start | center | stretch | ...;` — Aligns items vertically (cross-axis).
+   * `align-content: flex-start | center | space-between | ...;` — If wrapping, aligns the lines of items.
+
+   Example:
+
+   ```css
+   .flex-container {
+     justify-content: center;  /* Aligns items horizontally */
+     align-items: center;      /* Aligns items vertically */
+     align-content: center;    /* Aligns lines of items if they wrap */
+   }
+   ```
+
+3. **Other Properties (If Needed)**
+
+   * `gap: 10px;` (or `row-gap`, `column-gap`) — Defines spacing between items (used with `flex-wrap`).
+   * `order: value;` (for reordering the flex items in the container)
+
+   Example:
+
+   ```css
+   .flex-container {
+     gap: 10px;  /* Space between items */
+     order: 2;   /* (Only applies if using 'order' on container) */
+   }
+   ```
+
+---
+
+### **Item CSS Rules (Flex Items)**
+
+1. **Flex Properties (Mainly for Flexibility)**
+
+   * `flex: value;` — A shorthand for `flex-grow`, `flex-shrink`, and `flex-basis`. Controls item growth and shrinkage.
+   * `flex-grow`, `flex-shrink`, `flex-basis` — When not using the shorthand `flex`, you can specify these individually.
+
+   Example:
+
+   ```css
+   .item {
+     flex: 1;  /* Make items take equal space */
+   }
+   ```
+
+2. **Alignment**
+
+   * `align-self: auto | flex-start | center | ...;` — Allows overriding `align-items` on a specific item.
+   * `order: value;` — Controls the visual order of the item.
+
+   Example:
+
+   ```css
+   .item {
+     align-self: center;  /* Aligns the item vertically based on its container */
+     order: 1;            /* Defines the visual order */
+   }
+   ```
+
+3. **Styling (Padding, Margin, Background, etc.)**
+
+   * Properties like `padding`, `margin`, `background-color`, `width`, `height`, and others generally come after Flex properties to define the appearance of items.
+
+   Example:
+
+   ```css
+   .item {
+     margin: 5px;              /* Space between items */
+     padding: 20px;            /* Padding inside the item */
+     background-color: #add8e6; /* Background color */
+   }
+   ```
+
+---
+
+### **General Best Practices:**
+
+1. **Logical Grouping:**
+   Group related properties together. For example, `display` and `flex-direction` are part of the layout, so they should come first. Follow with alignment properties (`justify-content`, `align-items`, etc.) and then spacing properties (`gap`, `margin`, etc.).
+
+2. **Consistency:**
+   Whatever order you choose, be consistent throughout your project. If you start with layout properties in your container and flex properties in your items, try to keep this pattern throughout your CSS.
+
+3. **Shorthand Properties:**
+   Use shorthand properties where possible (like `flex` for `flex-grow`, `flex-shrink`, and `flex-basis`).
+
+---
+
+### **Example of Container and Item Best Practices:**
+
+#### Flex Container
+
+```css
+.flex-container {
+  display: flex;             /* 1. Display */
+  flex-direction: row;       /* 2. Direction */
+  flex-wrap: wrap;           /* 3. Wrap */
+  
+  justify-content: center;   /* 4. Horizontal alignment */
+  align-items: center;       /* 5. Vertical alignment */
+  align-content: center;     /* 6. Line alignment (if wrapping) */
+  
+  gap: 20px;                 /* 7. Spacing between items */
+}
+```
+
+#### Flex Item
+
+```css
+.item {
+  flex: 1;                   /* 1. Flex grow/shrink/basis */
+  align-self: center;        /* 2. Vertical alignment (overrides container) */
+  order: 2;                  /* 3. Visual order */
+  
+  margin: 10px;              /* 4. Spacing around the item */
+  padding: 20px;             /* 5. Padding inside the item */
+  background-color: #f0f0f0; /* 6. Styling */
+}
+```
+
+By following these simple conventions, your CSS will be easier to read, maintain, and debug in the future.
