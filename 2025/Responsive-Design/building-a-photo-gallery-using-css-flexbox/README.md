@@ -34,9 +34,10 @@ A simple and responsive photo gallery created with HTML and CSS using the Flexbo
 
 ## Screenshots
 
-- ![Gallery Screenshot 1](img/gallery-scsh-1.png)
-- ![Gallery Screenshot 2](img/gallery-scsh-2.png)
-- ![Gallery Screenshot 3](img/gallery-scsh-3.png)
+ ![Gallery Screenshot 1](img/gallery-scsh-1.png)
+ ![Gallery Screenshot 2](img/gallery-scsh-2.png)
+ <img src="img/gallery-scsh-3.png" alt="Gallery Screenshot 3" style="width:40%;" />
+<!-- ![Gallery Screenshot 3](img/gallery-scsh-3.png) -->
 
 ## Exercise URL
 
