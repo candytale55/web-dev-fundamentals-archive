@@ -27,3 +27,28 @@
   text-align: center;
   border: 2px solid #333;
 }
+
+
+/* -------------------------------------- */
+
+.flex-container {
+  display: flex;             /* 1. Display */
+  flex-direction: row;       /* 2. Direction */
+  flex-wrap: wrap;           /* 3. Wrap */
+  
+  justify-content: center;   /* 4. Horizontal alignment */
+  align-items: center;       /* 5. Vertical alignment */
+  align-content: center;     /* 6. Line alignment (if wrapping) */
+  
+  gap: 20px;                 /* 7. Spacing between items */
+}
+
+.item {
+  flex: 1;                   /* 1. Flex grow/shrink/basis */
+  align-self: center;        /* 2. Vertical alignment (overrides container) */
+  order: 2;                  /* 3. Visual order */
+  
+  margin: 10px;              /* 4. Spacing around the item */
+  padding: 20px;             /* 5. Padding inside the item */
+  background-color: #f0f0f0; /* 6. Styling */
+}
