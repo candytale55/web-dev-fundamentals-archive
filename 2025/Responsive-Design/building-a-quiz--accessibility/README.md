@@ -44,3 +44,39 @@ A practice project that builds an accessible quiz form using semantic HTML and r
 - Based on [freeCodeCamp’s Accessibility Quiz Project](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-accessibility-by-building-a-quiz/)
 - Accessibility principles from [W3C’s Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/standards-guidelines/wcag/)
 
+
+### Steps Guide:
+
+<table>
+  <tr>
+    <td><strong>Step 8</strong><br>Set the image size</td>
+    <td><strong>Step 10</strong><br>Make the header take up full width</td>
+    <td><strong>Step 13</strong><br>Child combinator selector <code>nav &gt; li</code><br>(Styling: Step 45)</td>
+  </tr>
+  <tr>
+    <td><strong>Step 15</strong><br>Use the <code>role</code> attribute (WAI)</td>
+    <td><strong>Step 16</strong><br>Use the <code>aria-labelledby</code> attribute</td>
+    <td><strong>Step 26</strong><br>Text for screen readers<br>(Steps 24–26)</td>
+  </tr>
+  <tr>
+    <td><strong>Step 34</strong><br>Use <code>::before</code> with <code>content</code> property</td>
+    <td><strong>Step 37</strong><br>Dropdown menu with <code>&lt;select&gt;</code> and <code>&lt;option&gt;</code></td>
+    <td><strong>Step 43</strong><br><code>&lt;address&gt;</code> element</td>
+  </tr>
+  <tr>
+    <td><strong>Steps 46–48</strong><br>Style nav links (colors, cursor, etc.)</td>
+    <td><strong>Step 50</strong><br>Fix <code>nav ul</code> overflow with <code>flex-wrap</code></td>
+    <td><strong>Step 55</strong><br>Info section styling</td>
+  </tr>
+  <tr>
+    <td><strong>Step 57</strong><br>Align inputs</td>
+    <td><strong>Step 60</strong><br>Style <code>&lt;fieldset&gt;</code> and <code>&lt;li&gt;</code> – no borders or bullets</td>
+    <td><strong>Step 62</strong><br>Submit button styling</td>
+  </tr>
+  <tr>
+    <td><strong>Steps 63–64</strong><br>Footer</td>
+    <td><strong>Step 65</strong><br><code>&lt;address&gt;</code> element styling</td>
+    <td><strong>Step 66</strong><br>Smooth scroll behavior</td>
+  </tr>
+</table>
+
