@@ -73,3 +73,34 @@ The order of `<link>` elements in the `<head>` matters for **maintainability, pe
 * Always place **custom styles last** to ensure they can override previous rules.
 * Use `rel="preconnect"` or `rel="dns-prefetch"` for external fonts to speed things up.
 * Avoid duplicate or unnecessary stylesheets to reduce load times and conflicts.
+
+
+---
+---
+
+## What about the title tag?
+
+Good observation — the `<title>` element **does not have to be last**, but it’s often placed **near the end of the `<head>` section** out of convention.
+
+### ✅ Best Practice
+
+Place `<title>` **after meta and before styles/scripts**, like this:
+
+```html
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>My Page Title</title>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+```
+
+### 🔍 Why not first?
+
+The browser doesn’t require a specific order for most head elements (except `<meta charset>` which must be first if present). The `<title>` just needs to be inside the `<head>` — but placing it early ensures it’s parsed quickly, and placing it before styles ensures it doesn’t get lost in a sea of link/script tags.
+
+So while it’s **fine at the end**, putting it **right after meta tags** is clearer and slightly better practice.
+
+Want me to suggest a perfectly ordered `<head>` block for your current project?
