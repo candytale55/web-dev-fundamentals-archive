@@ -1,0 +1,30 @@
+.card {
+  /* 1. Positioning */
+  position: relative;
+  display: flex;
+  z-index: 10;
+
+  /* 2. Box Model */
+  box-sizing: border-box;
+  width: 300px;
+  padding: 16px;
+  margin: 24px auto;
+
+  /* 3. Visual */
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+
+  /* 4. Typography */
+  color: #333;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  text-align: center;
+
+  /* 5. UX */
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+}
+
+/* Check  */
