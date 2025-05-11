@@ -1,0 +1,29 @@
+/* See: https://github.com/candytale55/my-snippets/blob/main/MD-Notes/Flexbox_Cheatsheet.md */
+
+/*    HTML:
+<div class="flex-container">
+  <div class="item">Item 1</div>
+  <div class="item">Item 2</div>
+  <div class="item">Item 3</div>
+</div>
+*/
+
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row; /* Change to column for vertical layout */
+  flex-wrap: wrap; /* Allow wrapping */
+  height: 150px;
+  background-color: #f2f2f2;
+}
+
+.item {
+  flex: 1;
+  margin: 0 10px;
+  padding: 20px;
+  background-color: #add8e6;
+  text-align: center;
+  border: 2px solid #333;
+}
