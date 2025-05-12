@@ -78,5 +78,14 @@ A practice project that builds an accessible quiz form using semantic HTML and r
     <td><strong>Step 65</strong><br><code>&lt;address&gt;</code> element styling</td>
     <td><strong>Step 66</strong><br>Smooth scroll behavior</td>
   </tr>
+
+
 </table>
 
+
+
+  ## References
+
+  There's also an "Questions I had building this" doc here:
+  
+  📄 [Questions I Had Building This](https://github.com/candytale55/FCC-Code-Basics-Notes/blob/master/2025/Responsive-Design/building-a-quiz--accessibility/img/notes-to-self-building-a-quiz.md)
