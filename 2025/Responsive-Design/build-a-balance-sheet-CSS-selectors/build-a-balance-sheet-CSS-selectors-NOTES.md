@@ -12,6 +12,8 @@
 - [🧲 What is `position: sticky`?](#-what-is-position-sticky)
 - [`calc()`](#calc)
 - [🔥 What is `!important` in CSS?](#-what-is-important-in-css)
+- [🔍 What is `border-collapse`?](#-what-is-border-collapse)
+
 
 
 ---
@@ -716,4 +718,110 @@ Even if `.button` is targeted elsewhere with higher specificity, the red backgro
 * Use **CSS layers** (in newer CSS: `@layer`)
 
 ---
+
+
+Great question! `border-collapse` is a CSS property used when styling **HTML tables**, and it's important for controlling how table borders are rendered.
+
+---
+
+## 🔍 What is `border-collapse`?
+
+`border-collapse` defines **how the borders of table cells interact with each other**.
+
+It has two main values:
+
+### 1. `separate` (default)
+
+* Each `<td>` and `<th>` has **its own individual borders**.
+* There is space between adjacent borders.
+* The table uses the `border-spacing` property for spacing.
+
+```css
+table {
+  border-collapse: separate;
+  border-spacing: 10px;
+}
+```
+
+### 2. `collapse`
+
+* Adjacent cell borders are **merged (collapsed)** into a single border.
+* If two cells share a border, **the one with higher border weight or style wins**.
+* Looks cleaner and more "spreadsheet-like."
+
+```css
+table {
+  border-collapse: collapse;
+}
+```
+
+---
+
+## 🧠 Why and when to use `border-collapse: collapse`
+
+| Use Case                          | Why `collapse` is useful                                    |
+| --------------------------------- | ----------------------------------------------------------- |
+| Clean table design                | Removes double borders between cells                        |
+| Better control of cell alignment  | Prevents spacing inconsistencies                            |
+| Email templates or printed tables | Tighter, more compact layout                                |
+| CSS resets                        | Many CSS resets set `border-collapse: collapse;` by default |
+
+---
+
+## ❌ Common mistakes
+
+| Mistake                                                 | Why it's problematic                                                                        |
+| ------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| Using `collapse` and expecting `border-spacing` to work | `border-spacing` **only works** with `separate`                                             |
+| Forgetting to add borders to both `table` and `td`      | With `collapse`, only one visible border will be shown — use the stronger one intentionally |
+| Applying padding and not seeing spacing                 | Padding works fine with both modes, but don’t confuse it with border spacing                |
+
+---
+
+## ✅ Best practices
+
+| Practice                                                 | Reason                            |
+| -------------------------------------------------------- | --------------------------------- |
+| Use `collapse` for compact, clean data tables            | Prevents double borders           |
+| Use `separate` when you want spacing between cells       | Allows custom `border-spacing`    |
+| Use consistent `border` rules on `th`, `td`, and `table` | Avoids rendering issues           |
+| Test on multiple browsers                                | Table rendering can vary slightly |
+
+---
+
+## 🧪 Example
+
+### HTML:
+
+```html
+<table class="collapsed-table">
+  <tr>
+    <th>Year</th>
+    <th>Sales</th>
+  </tr>
+  <tr>
+    <td>2023</td>
+    <td>$100K</td>
+  </tr>
+</table>
+```
+
+### CSS:
+
+```css
+.collapsed-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.collapsed-table th,
+.collapsed-table td {
+  border: 1px solid #333;
+  padding: 8px;
+  text-align: left;
+}
+```
+
+---
+
 
