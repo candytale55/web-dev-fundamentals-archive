@@ -104,4 +104,7 @@ Each animation includes a sample `@keyframes` block and recommended use cases.
 
 ---
 
-Also check the CSS-Animation-Cheatsheet.md 
+Also check the [CSS-Animation-Cheatsheet.md](https://github.com/candytale55/my-snippets/blob/main/MD-Notes/CSS-Animation-Cheatsheet.md)
+
+
+
