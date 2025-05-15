@@ -35,7 +35,6 @@ A visually engaging HTML/CSS project that simulates a spinning Ferris wheel usin
 
 - Inspired by [freeCodeCamp’s CSS Animation Course](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-css-animation-by-building-a-ferris-wheel/)
 
-> "You can use CSS animation to draw attention to specific sections of your webpage and make it more engaging. In this course, you'll build a Ferris wheel and learn how to animate elements, transform them, and adjust their speed."
 
 ## For Reference
 
