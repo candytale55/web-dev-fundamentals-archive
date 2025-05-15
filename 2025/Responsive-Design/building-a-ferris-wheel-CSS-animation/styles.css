@@ -1,0 +1,124 @@
+/* -------------------------------
+   Container: Ferris Wheel
+---------------------------------*/
+.wheel {
+  border: 2px solid black;      /* Outer border of the wheel */
+  border-radius: 50%;           /* Make it perfectly circular */
+  margin-left: 50px;            /* Offset from left edge */
+  position: absolute;           /* Positioned relative to viewport */
+  height: 55vw;                 /* Responsive height based on viewport width */
+  width: 55vw;                  /* Responsive width based on viewport width */
+  max-width: 500px;             /* Limit max size */
+  max-height: 500px;            /* Limit max size */
+  
+  /* Animation for rotating the wheel */
+  animation-name: wheel;        
+  animation-duration: 10s;      /* Duration of one full rotation */
+  animation-iteration-count: infinite; /* Loop animation endlessly */
+  animation-timing-function: linear;   /* Constant speed rotation */
+}
+
+/* -------------------------------
+   Wheel Spokes
+---------------------------------*/
+.line {
+  background-color: black;      /* Color of spokes */
+  width: 50%;                  /* Half the width of wheel container */
+  height: 2px;                 /* Thin line for spoke */
+  position: absolute;           /* Positioned relative to .wheel */
+  top: 50%;                    /* Vertically centered */
+  left: 50%;                   /* Horizontally centered */
+  transform-origin: 0% 0%;     /* Rotation pivot at the start of the line */
+}
+
+/* Rotate each spoke to evenly space around the wheel */
+.line:nth-of-type(2) {
+  transform: rotate(60deg);
+}
+.line:nth-of-type(3) {
+  transform: rotate(120deg);
+}
+.line:nth-of-type(4) {
+  transform: rotate(180deg);
+}
+.line:nth-of-type(5) {
+  transform: rotate(240deg);
+}
+.line:nth-of-type(6) {
+  transform: rotate(300deg);
+}
+
+/* -------------------------------
+   Wheel Cabins
+---------------------------------*/
+.cabin {
+  background-color: red;        /* Cabin color */
+  width: 20%;                  /* Relative size to wheel */
+  height: 20%;                 /* Square cabins */
+  position: absolute;           /* Position within wheel */
+  border: 2px solid;            /* Border to define cabin edges */
+  transform-origin: 50% 0%;     /* Pivot at center top of cabin */
+  
+  /* Animation for cabin rotation and color change */
+  animation: cabins 10s ease-in-out infinite;
+}
+
+/* Positioning each cabin around the wheel */
+/* Uses left/right and top to place cabins at appropriate points */
+.cabin:nth-of-type(1) {
+  right: -8.5%;
+  top: 50%;
+}
+.cabin:nth-of-type(2) {
+  right: 17%;
+  top: 93.5%;
+}
+.cabin:nth-of-type(3) {
+  right: 67%;
+  top: 93.5%;
+}
+.cabin:nth-of-type(4) {
+  left: -8.5%;
+  top: 50%;
+}
+.cabin:nth-of-type(5) {
+  left: 17%;
+  top: 7%;
+}
+.cabin:nth-of-type(6) {
+  right: 17%;
+  top: 7%;
+}
+
+/* -------------------------------
+   Keyframes Animations
+---------------------------------*/
+
+/* Rotates the entire wheel 360 degrees infinitely */
+@keyframes wheel {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Animates cabin rotation and background color transitions */
+@keyframes cabins {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    background-color: yellow;  /* Color change halfway */
+  }
+  50% {
+    background-color: purple;  /* Another color */
+  }
+  75% {
+    background-color: yellow;  /* Return to yellow */
+  }
+  100% {
+    transform: rotate(-360deg); /* Rotate cabins in opposite direction */
+  }
+}
