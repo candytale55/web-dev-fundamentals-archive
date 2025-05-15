@@ -62,3 +62,10 @@ A responsive HTML/CSS project that visually recreates a stylized piano using lay
     <td></td>
   </tr>
 </table>
+
+
+### Other References:
+
+📘 **Notes:** [View detailed notes for this project](https://github.com/candytale55/FCC-Code-Basics-Notes/blob/master/2025/Responsive-Design/building-a-piano-responsive-design/img/building-a-piano-NOTES.md)
+
+
