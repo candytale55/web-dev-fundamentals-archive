@@ -25,11 +25,6 @@ Built as part of [freeCodeCamp’s CSS Variables Project](https://www.freecodeca
 
 ---
 
-## 🧱 Building Guide
-
-![City Skyline with Building Labels](img/SCSH-09-City-Skyline-Colored-Buildings-w-Building-Labels.PNG)
-
-
 ## ⚙️ Setup Instructions
 
 1. Download or clone this repository.
@@ -66,6 +61,10 @@ Project is complete — created as a **layout, gradients, and responsive styling
 📘 **Notes:** [Notes for Building a City Skyline](https://github.com/candytale55/FCC-Code-Basics-Notes/blob/master/2025/Responsive-Design/building-a-city-skyline-with-CSS/img/Notes-for-Building-a-City-Skyline-with-CSS.md)  
 🧾 **CSS Cheatsheet:** [CSS Variables / Custom Properties Cheatsheet](https://github.com/candytale55/my-snippets/blob/main/MD-Notes/CSS-Variables-Custom-Properties-Cheatsheet.md)
 
+
+### 🧱 Building Guide
+
+![City Skyline with Building Labels](img/SCSH-09-City-Skyline-Colored-Buildings-w-Building-Labels.PNG)
 ---
 
 ## ℹ️ Acknowledgements
