@@ -56,8 +56,7 @@ Project is complete — created as a **layout, gradients, and responsive styling
 
 | Day Theme (Over 1000px) | Night Theme (Under 1000px) |
 |-------------------------|----------------------------|
-| ![](img/SCSH-08-City-Skyline-Clear-Sky-Colored-Buildings.png) | ![](img/SCSH-07-City-Skyline-Buildings-All-Dark.png) |
-
+| ![](img/SCSH-08-City-Skyline-Clear-Sky.png) | ![](img/SCSH-07-City-Skyline-Dark-Sky.png) |
 
 
 ---
