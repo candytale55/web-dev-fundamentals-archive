@@ -3,14 +3,15 @@
 
 ## 📚 Index
 
-- [Step 51: What’s Happening in This Gradient? (Hard Stops)](#step-51-whats-happening-in-this-gradient-hard-stops)
-- [Step 52: `repeating-linear-gradient`](#step-52-repeating-linear-gradient)
-- [Step 55: Full Explanation of `.bb2a`](#step-55-full-explanation-of-bb2a)
-- [Steps 56–58 (Triangle Shape)](#steps-5658-triangle-shape)
-- [Step 79: Using borders to create shapes – Moving the building (fb1) down](#step-79-using-borders-to-create-shapes--moving-the-building-fb1-down)
-- [Step 80: Using Borders to Create Triangles in CSS](#step-80-using-borders-to-create-triangles-in-css)
-- [Step 103 – Code Breakdown for half triangle on `.fb4a`](#step-103--code-breakdown-for-half-triangle-on-fb4a)
-- [Step 112 – Sky `radial-gradient` with `circle closest-corner`](#step-112--sky-radial-gradient-with-circle-closest-corner)
+- [Step 51 What’s Happening in This Gradient  Hard Stops](#step-51-whats-happening-in-this-gradient--hard-stops)
+- [Step 52 `repeating-linear-gradient`](#step-52-repeating-linear-gradient)
+- [Step 55 Full Explanation of `.bb2a`](#step-55-full-explanation-of-bb2a)
+- [Steps 56-58 Triangle Shape](#steps-56-58-triangle-shape)
+- [Step 79 Using borders to create shapes  - Moving the building (fb1) down](#step-79-using-borders-to-create-shapes--moving-the-building-fb1-down)
+- [Step 80 Using Borders to Create Triangles in CSS](#step-80-using-borders-to-create-triangles-in-css)
+- [Step 103 Code Breakdown for half triangle on `.fb4a`](#step-103-code-breakdown-for-half-triangle-on-fb4a)
+- [Step 112 Sky `radial-gradient` with `circle closest-corner`](#step-112-sky-radial-gradient-with-circle-closest-corner)
+
 
 
 
@@ -590,7 +591,7 @@ Here’s a visual reference:
 
 ##  Step 112 - Sky `radial-gradient` with `circle closest-corner`
 
-Absolutely! Let's break down the CSS you're asking about:
+
 
 ```css
 .sky {
@@ -627,6 +628,13 @@ This tells the browser how to draw the gradient:
 * `at 15% 15%`: the **center** of the circle is positioned near the **top-left** corner — specifically, at 15% from the left and 15% from the top of the element.
 
 Think of it like the sun rising near the horizon in the upper left corner.
+
+| Without `circle closest-corner at 15% 15%` | With `circle closest-corner at 15% 15%` |
+|--------------------------------------------|-----------------------------------------|
+| ![](img/SCSH-03-City-Skyline-Colored-Buildings-w-sky1.png) | ![](img/SCSH-04-City-Skyline-Colored-Buildings-w-sky2.png) |
+
+
+
 
 #### 3. Color Stops:
 
