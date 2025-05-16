@@ -25,6 +25,11 @@ Built as part of [freeCodeCamp’s CSS Variables Project](https://www.freecodeca
 
 ---
 
+## 🧱 Building Guide
+
+![City Skyline with Building Labels](img/SCSH-09-City-Skyline-Colored-Buildings-w-Building-Labels.PNG)
+
+
 ## ⚙️ Setup Instructions
 
 1. Download or clone this repository.
