@@ -51,4 +51,4 @@ All other symbols are stripped before the actual palindrome comparison.
 
 
 ## References:
-Old project (2020): https://github.com/candytale55/2020-palindrome-checker-js 
+Old project (2020): [https://github.com/candytale55/2020-palindrome-checker-js ](https://github.com/candytale55/FCC-Code-Basics-Notes/tree/master/2020-palindrome-checker-JS)
