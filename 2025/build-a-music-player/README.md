@@ -57,10 +57,11 @@ Tested with modern browsers supporting ES6+ (Chrome, Firefox, Edge, Safari).
 
 ## Screenshots
 
-| Desktop View                                   | Mobile Views                                         |
-|------------------------------------------------|------------------------------------------------------|
-| ![Wide Player](img/scsh-01-Player-Wide.png)    | ![Song List](img/scsh-02-Player-Mobile.png)          |
-|  ![Playing Song](img/scsh-03-Playing-Song.png) |  ![Reset Playlist](img/scsh-04-Reset-Song-List.png)  |
+| Desktop View                                  | Mobile Views                                           |
+|-----------------------------------------------|-------------------------------------------------------|
+| ![Wide Player](img/scsh-01-Player-Wide.png)  | ![Song List](img/scsh-02-Player-Mobile.png)           |
+|                                               | ![Playing Song](img/scsh-03-Playing-Song.png)         |
+|                                               | ![Reset Playlist](img/scsh-04-Reset-Song-List.png)    |
 
 
 ---
