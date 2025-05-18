@@ -1,7 +1,8 @@
-# choore_door_game
+# choore-door-game
 
+> JS, html & css game project. Three doors, you have to chose and open them, and you lose if you get the chore bot.
 
-
+_Codecademy_ project.
 
 playDoor() 
 decreases the numClosedDoors variable each time you click a door and checks if the game-winning condition (numClosedDoors === 0) has been met and if so, calls a gameOver() function
