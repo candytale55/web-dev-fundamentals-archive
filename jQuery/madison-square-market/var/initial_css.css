@@ -1,0 +1,39 @@
+html {
+    /* General Reset */
+      padding: 0;
+      margin: 0;
+  
+    scroll-behavior: smooth;
+  
+    font-size: 10px;  /*To keep calculations simple*/
+    --font-color: black;
+    --font-color-1: black;
+    --font-color-2: black;
+  
+      /*Color Variables*/
+      --main-bkg:   white;
+      --header-bkg: white;
+      --footer-bkg: white;
+      --section-bkg-1: white;
+      --section-bkg-2: white;
+  
+      /*Font Variables*/
+      --main-font:   'Montserrat', sans-serif;
+      --title-font:  'Montserrat', sans-serif;
+  
+      /*Size Variables*/
+      --header-height: 2rem; /*cambiar*/
+      --footer-height: 2rem; /*cambiar*/
+  }
+  
+  
+  body {
+    background-color: var(--main-bkg);
+    color: var(font-color);
+  
+    font-family: var(--main-font);
+    font-size: 1.6rem;
+  }
+  
+  
+  
