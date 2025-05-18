@@ -1,0 +1,59 @@
+
+html {
+    font-size: 10px; /*To ease calculations*/
+    box-sizing: border-box;
+  }
+
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+*{
+    /*Initial Reset*/
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    padding: 5%;
+}
+
+
+h1, h2 {
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+h1{
+  color: darkcyan;
+}
+
+h3{
+    font-family: monospace;
+    font-size: 1.6rem;
+    font-weight: normal;
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid darkblue;
+    margin: auto;
+    padding: .5rem 1.5rem;
+    border-collapse: collapse;
+}
+
+
+th {
+    background-color: darkcyan;
+    color: blanchedalmond;
+    font-weight: lighter;
+}
+
+footer, section{
+    margin-top: 2rem;
+    text-align: center;
+}
