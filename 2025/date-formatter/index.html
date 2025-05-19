@@ -1,0 +1,80 @@
+<!-- 
+    🗓️ Date Formatter Web App
+    Displays today's date and updates its format based on user selection.
+    Built using vanilla HTML, CSS, and JavaScript.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Character encoding for proper text rendering -->
+    <meta charset="UTF-8" />
+
+    <!-- Compatibility mode for older versions of Internet Explorer -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Responsive layout on mobile and desktop devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Page title shown in browser tab -->
+    <title>Learn the Date Object by Building a Date Formatter</title>
+
+    <!-- Link to external CSS stylesheet -->
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+    <main>
+        <!-- Title section with an SVG calendar icon -->
+        <div class="title-container">
+            <h1 class="title">Today's Date</h1>
+
+            <!-- Decorative SVG calendar icon -->
+            <svg class="date-svg" xmlns="http://www.w3.org/2000/svg" version="1.0" width="512.000000pt"
+                height="512.000000pt" viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet">
+                <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" fill="#fff" stroke="none">
+                    <!-- Icon path data (calendar-like visual) -->
+                    <path d="..." />
+                </g>
+            </svg>
+        </div>
+
+        <!-- Optional divider for visual separation -->
+        <div class="divider"></div>
+
+        <!-- Dropdown menu for selecting date format -->
+        <div class="dropdown-container">
+            <select name="date-options" id="date-options">
+                <!-- Default display format -->
+                <option value="dd-mm-yyyy">Day, Month, Year</option>
+
+                <!-- ISO-style format -->
+                <option value="yyyy-mm-dd">Year, Month, Day</option>
+
+                <!-- Format with time info -->
+                <option value="mm-dd-yyyy-h-mm">
+                    Month, Day, Year, Hours, Minutes
+                </option>
+            </select>
+
+            <!-- Custom dropdown icon (down arrow) -->
+            <div class="select-icon">
+                <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="25" height="35" viewBox="0 0 24 24">
+                    <rect x="0" fill="none" width="24" height="24" />
+                    <g>
+                        <path d="M7 10l5 5 5-5" /> <!-- Downward arrow -->
+                    </g>
+                </svg>
+            </div>
+        </div>
+
+        <!-- Paragraph where the formatted date will be injected via JS -->
+        <p id="current-date"></p>
+    </main>
+
+    <!-- Link to external JavaScript for dynamic behavior -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
