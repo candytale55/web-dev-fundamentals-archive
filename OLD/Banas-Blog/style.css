@@ -1,0 +1,119 @@
+html{
+  font-size: 16px; /* root */
+}
+
+body{
+  /*IMAGES*/
+  /* Images - HTTP */
+  --background-image: url("https://i.postimg.cc/kXy3w5dV/baggage-large.jpg");
+  /*
+  --background-small: "https://i.postimg.cc/ZYFqN40R/baggage-small.jpg";
+  --background-image: "https://i.postimg.cc/kXy3w5dV/baggage-large.jpg";
+  --dock: "https://i.postimg.cc/SsKf0DXF/dock.jpg"
+  --fireplace:"https://i.postimg.cc/HsGpJYqJ/fireplace.jpg"
+  --footer-image: url("https://i.postimg.cc/KjcqsgVq/frozen-sunset.jpg)"
+  --map: "https://upload.wikimedia.org/wikipedia/commons/a/a0/Location_map_Norway_Oslo.png"
+ /*
+  /* Images - Project Path*/
+  /*
+  --background-small: "img/baggage_small.jpg"
+  --background-image:"img/baggage_large.jpg"
+  --dock: "img/dock.jpg"
+  --fireplace: img/fireplace.jpg
+  --footer-image: img/frozen_sunset.jpg
+  */
+   /* Colors */
+  --background-color: #fff; /*white*/
+  --banner-text-color: #fff; /*white*/
+  /*--article-width: 100%;*/
+  --fonts-article: 'Merriweather', Garamond, serif;
+  --fonts-titles: 'Roboto', sans-serif;
+  --min-width: 240px;
+  background-color: var(--background-color);
+} /* End of body Selector*/
+
+
+/* HEADER BANNER */
+
+#banner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /*background-image: url("./img/baggage_large.jpg");*/
+  /*background-image: url("https://i.postimg.cc/kXy3w5dV/baggage-large.jpg");*/
+  background-image: var(--background-image);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 40vh;
+}
+
+#banner h1{
+  color: var(--banner-text-color);
+  font-size: 4rem;
+
+}
+
+/* NAVBAR */
+.list a{
+  display: block;
+  text-align: center;
+}
+
+
+/*BLOG ENTRY*/
+
+.blog-entry .post{
+/*main section, container*/
+/*  display: flex; */
+  display:block;
+  width: var(--article-width);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: var(--fonts-article);
+}
+
+#post-header{
+  width: var(--article-width);
+}
+
+time {/*Blog post date, inside a h3*/}
+.post{ /*contains all the blog post*/}
+article .image-container{
+/*the div that contains the img*/}
+
+
+p {
+  font-size: 1.25rem;
+  text-align: justify;
+}
+
+/*  Images  */
+
+.image-container{
+  max-width: 100%;
+  min-width: var(--min-width);
+  overflow: hidden;
+}
+
+.images .image-container{
+  display: inline-block;
+  width: 50%;
+}
+
+.image-container img {
+   max-width: 100%;
+   height:auto;
+   display: block;
+}
+
+/* MAP SECTION */
+
+#map-section{
+  width: var(--article-width);
+  min-width: 290px;
+  overflow: hidden;
+  max-height: 426px;
+}
