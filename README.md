@@ -1,5 +1,6 @@
 # tsunami_coffee
 
+> Static CSS & HTML Codecademy exercise . The purpose of this project is to edit an existing Tsunami Coffee website code using relative units and responsive web design so that the website appears correctly on varying screen sizes.
 
 
 ## General info
