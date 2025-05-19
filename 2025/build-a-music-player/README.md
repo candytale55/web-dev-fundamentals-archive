@@ -57,11 +57,10 @@ Tested with modern browsers supporting ES6+ (Chrome, Firefox, Edge, Safari).
 
 ## Screenshots
 
-| Desktop View                                  | Mobile Views                                           |
-|-----------------------------------------------|-------------------------------------------------------|
-| ![Wide Player](img/scsh-01-Player-Wide.png)  | ![Song List](img/scsh-02-Player-Mobile.png)           |
-|                                               | ![Playing Song](img/scsh-03-Playing-Song.png)         |
-|                                               | ![Reset Playlist](img/scsh-04-Reset-Song-List.png)    |
+|                                               |                    Mobile Views               |                                                    |
+|-----------------------------------------------|-----------------------------------------------|----------------------------------------------------|
+| ![Song List](img/scsh-02-Player-Mobile.png)   | ![Playing Song](img/scsh-03-Playing-Song.png) | ![Reset Playlist](img/scsh-04-Reset-Song-List.png) |
+
 
 
 ---
@@ -102,3 +101,9 @@ Built following the freeCodeCamp exercise:
 
 - Inspired by and built to complete the freeCodeCamp JavaScript course project on strings and arrays.  
 - Thanks to freeCodeCamp for providing detailed curriculum and project guidelines.
+
+## Desktop Screenshot
+
+| Desktop View                                  |
+|-----------------------------------------------|
+| ![Wide Player](img/scsh-01-Player-Wide.png)  |
