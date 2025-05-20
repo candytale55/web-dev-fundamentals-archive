@@ -1,7 +1,7 @@
 /*
 Rock paper scissors is two player game where each player chooses either rock, paper, or scissors. The items are compared, and the one with the more powerful item wins.
 - Rock beats scissors.
-- Scissors cut paper.
+- Scissors cut paper
 - Paper covers rock.
 If there’s a tie, then the game ends in a draw.
 */
