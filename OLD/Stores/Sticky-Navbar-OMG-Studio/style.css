@@ -1,0 +1,159 @@
+/*
+font-family: 'Julius Sans One', sans-serif;
+font-family: 'Montserrat', sans-serif;
+*/
+
+html {
+  font-size: 10px; /*for easier calculations in rems */
+  scroll-behavior: smooth;
+}
+
+body{
+  /*resets*/
+  margin: 0;
+  padding: 0;
+
+  font-size: 1.6rem;
+  font-family: 'Montserrat', sans-serif;
+
+
+  --header-color: #d4d7de;
+
+  --bkg-color-1: #fefefe;  /*   About & Services Background     */
+  --bkg-color-2: #262626;  /*   Porfolio & Contact Background   */
+
+  --font-color:   #000;
+  --font-color-2: #fff;    /*   Porfolio & Contact Font   */
+  --title-font: 'Julius Sans One', sans-serif;
+  --navbar-height: 7rem;
+  --section-height: 70rem;
+}
+
+.navbar {  /*The header section*/
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: var(--header-color);
+  width: 100%;
+  height: var(--navbar-height);
+}
+
+.nav {   /* The  ul seciton with the nav links*/
+  display: flex;
+  justify-content: right;
+  list-style: none;
+  margin-right: 10%;
+}
+
+.logo{
+  flex: 1 1 auto;  /*CHECAR*/
+  margin-left: 2%;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  font-size: 3.5rem;
+  font-family: var(--title-font);
+}
+
+
+a{
+  margin: 1.5rem;
+  color: var(--font-color);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a:hover {
+  color: var(--font-color);
+  font-weight: bold;
+}
+
+
+
+
+/*  BANNER SECTION (Home) */
+
+.banner-area {
+  position: relative;
+  top: var(--navbar-height);
+  width: 100%;
+  height: 100vh;
+
+  background-image: url("img/banner-1.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  width: 100%;
+  height: 100vh;
+
+  display:flex;
+}
+
+.banner-area .text-area {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+
+
+h1 {
+  font-size: 7rem;
+  color: var(--header-color);
+  z-index: 5;
+  width: 100%;
+  margin: auto;
+  display: none;  /*Change if you want a logo over the banner*/
+}
+
+
+
+                  /*  SECTION AREAS */
+
+.about-area, .portfolio-area, .services-area, .contact-area {
+  position: relative;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+/*  height: var(--section-height); */
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.text-area {
+  width: 65%;
+  height: 80%;
+}
+
+
+h2 {   /* titles of each section */
+  font-size: 5rem;
+  font-family: var(--title-font);
+  margin-top: 18rem;
+
+}
+
+
+p {
+  font-size: 1.8rem;
+  line-height: 3.6rem;
+  margin-bottom: 8rem;
+}
+
+
+.about-area, .service-area {
+  background: var(--bkg-color-1);
+}
+
+.portfolio-area, .contact-area {
+  background: var(--bkg-color-2);
+  color: var(--font-color-2);
+}
