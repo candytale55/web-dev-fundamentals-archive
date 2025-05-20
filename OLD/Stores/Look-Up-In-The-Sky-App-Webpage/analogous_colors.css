@@ -1,0 +1,428 @@
+/*
+Analogous Color Schemes
+Analogous color schemes apply three or more colors that are adjacent to each other on the color wheel. Typically, there is one dominant color (or hue), combined with a second to support, and a third to accent the color palette.
+
+Image of the color wheel
+
+Analogous color schemes create a visually pleasing and calming display. For instance, the color blue can pair nicely with both teal and green. However, analogous color schemes provide a low-contrast experience, since all colors fall in line with one another.
+
+They shouldn’t be used for content that needs the user’s direct attention, but they can be used to create backgrounds that do not compete with the main content of the site.
+
+Let’s adjust some of the colors on our website to see how an analogous scheme would look!
+*/
+
+
+
+/* Site Stylesheet
+  1. Global Styles
+  2. Typography Styles
+  3. Structure Styles
+  4. Module Styles
+  5. Component Styles
+  6. Page Styles
+======================================== */
+
+/* 1. Global Styles
+======================================== */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0 auto;
+  overflow-x: hidden;
+  width: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0 auto;
+  overflow-x: hidden;
+  width: 100%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  color: #333;
+}
+.clearfix::after {
+  content: " ";
+  clear: both;
+  display: table;
+}
+.float-right {
+  float: right;
+}
+
+/* 2. Typography Styles
+======================================== */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Barlow Condensed', Helvetica, sans-serif;
+  font-weight: 700;
+  line-height: 1.25;
+  margin-bottom: 15px;
+  transition: font-size 0.25s ease;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: calc(100px / 1.25);
+  line-height: 0.85;
+}
+h2 {
+  font-size: calc(65px / 1.25);
+  margin-top: 10px;
+  line-height: 0.85;
+}
+@media(min-width: 1024px) {
+  h1 {
+    font-size: 100px;
+  }
+  h2 {
+    font-size: 60px;
+  }
+}
+p {
+  font-family: 'Barlow', Georgia, serif;
+  font-size: 16px;
+  line-height: 23px;
+  margin: 0 0 15px;
+}
+a {
+  font-family: 'Barlow', Helvetica, sans-serif;
+  font-size: 16px;
+  color: #0D1C32;
+  /*
+Notice the insufficient contrast around the gray links and buttons. Because this gray is a medium tint, neither white or black shows up on top of it with enough contrast.
+Change the color of the <a> tag from #333 to #0D1C32.
+This will change the “About” link (at the top of the page) and the links in the footer to a dark navy blue (you might need to scroll to notice these changes).
+
+This will change the “About” link (at the top of the page) and the links in the footer to a dark navy blue (you might need to scroll to notice these changes).
+  */
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+li {
+  font-family: 'Barlow', Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 23px;
+  list-style: none;
+}
+img {
+  width: 100%;
+}
+
+/* 3. Structure Styles
+======================================== */
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+  padding: 0 15px;
+}
+.container:before, .container:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+.mobile-hide {
+  display: none;
+}
+.mobile-show {
+  display: block;
+}
+@media(min-width: 720px) {
+  .mobile-hide {
+    display: block;
+  }
+
+  .mobile-show {
+    display: none;
+  }
+}
+/* 4. Modules Styles
+======================================== */
+
+/* Site Navigation */
+.site-header {
+  background-color: #FFFFFF;
+  padding: 30px 15px;
+}
+.site-navigation {
+  margin: 0 auto;
+  max-width: 1280px;
+}
+.site-header-left,
+.footer-left {
+  display: inline-block;
+}
+.site-header-left li {
+  line-height: 0;
+}
+.site-header-right,
+.footer-right {
+  display: inline-block;
+  float: right;
+}
+.site-header-right li,
+.footer-right li {
+  display: inline;
+}
+.site-header-right li a {
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+/* Site Footer */
+.footer {
+/*
+3. Update the background color of the .footer (currently #E8E8E8) to follow the blue monochromatic color scheme.
+Because there are dark navy blue links within the footer, let’s use a light periwinkle blue. Use the hex code #ECF3FF.
+*/
+  background-color: #ECF3FF;
+  padding: 30px;
+}
+
+.footer-navigation {
+  margin: 0 auto;
+  max-width: 1280px;
+}
+.footer-right {
+  float: none;
+  margin-top: 15px;
+}
+
+@media(min-width: 720px) {
+  .footer-right {
+    float: right;
+    margin-top: 0;
+  }
+}
+.footer li {
+  line-height: 0;
+}
+.footer li a {
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+/* 5. Component Styles
+======================================== */
+button {
+  border: none;
+}
+button:hover {
+  cursor: pointer;
+}
+.button {
+  border-radius: 100px;
+  display: inline-block;
+  font-family: 'Barlow', Helvetica, sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: normal;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  transition: opacity 0.5s ease;
+}
+.button:hover {
+  opacity: 0.75;
+}
+.button-primary {
+/*  1.
+  update the .button-primary background color to #60B3BD
+  #60B3BD   aqua-ish blue
+  #DB9A11   yellow (complementary_colors.css)
+  #A1A1A1   grayish (starting_style.css)
+  #0D1C32   navy blue (blue_contrast.css)
+  */
+
+  background-color: #60B3BD;
+  color: #fff;
+}
+
+.button-secondary {
+/* 4:
+  The main buttons on this site are prompting the user to download the application. But there’s a second type of button, that prompts the user to subscribe. We should use a different shade of blue to differentiate this button from the other.
+
+Change the background color of the .button-secondary class from #A1A1A1 to #627FB0, which is a slate blue.
+  */
+  background-color: #627FB0;
+  color: #FFFFFF;
+}
+input {
+  border-radius: 100px;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: none;
+  box-shadow: none;
+  transition: border-color 0.5s ease;
+  width: 100%;
+}
+
+/* 6. Page Styles
+======================================== */
+.page-hero-header {
+/*
+  Let’s use this royal blue as an accent color elsewhere. The “page hero” is a design term that refers to the banner (image, often paired with text and a background) that is placed front and center on the page.
+
+Change the background color within the .page-hero-header class to use the slate blue (#627FB0) instead of current light gray #BFBFBF.
+*/
+  background:  #627FB0 url('images/saturn-background.svg') center no-repeat;
+  background-size: cover;
+  max-height: 600px;
+  overflow: hidden;
+}
+
+.page-hero-header-left, .page-hero-header-right {
+  width: 100%;
+  text-align: center;
+  display: block;
+}
+
+.page-hero-header-left {
+  padding: 0px 40px;
+  color: #FFFFFF;
+}
+
+.main-content-benefits {
+  /* 6. Make the background color of the .main-content-benefits class from #F3F3F3 to #F5F9FF. This will be the lightest shade of blue that we use, which will improve the legibility of the text in front of it.
+  */
+  padding: 80px 0;
+  background-color: #F5F9FF;
+}
+
+.main-content-benefits h2 {
+  /*
+2. Update the .main-content-benefits h2 text color to #65A3C7.
+     #65A3C7  aqua bluish  analogous_colors.css
+     #DB9A11  yellow   complementary_colors.css
+     #0D1C32  blue     blue_contrast.css.
+     #9B9B9B  grayish  starting_style.css
+  */
+  color: #65A3C7;
+}
+
+.main-content-info {
+  /*It’s often helpful to give distinct sections of content their own background color, to create visual groupings that convey how information is grouped.
+
+Change the .main-content-info class background color from #BFBFBF to #627FB0.*/
+  background-color: #627FB0;
+  text-align: center;
+}
+
+.main-content-info-left {
+  max-height: 300px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.main-content-info-right {
+  padding: 60px;
+  color: #FFFFFF;
+  width: 100%;
+}
+
+.main-content-cta-left, .main-content-cta-right {
+  width: 100%;
+  padding: 0 30px;
+  text-align: center;
+}
+
+.main-content-cta {
+  /*This is the background color that surrounds the call-to-action for the user to subscribe.
+
+  Update the background color of the .main-content-cta to #65A3C7.
+  #65A3C7 blue aqua-ish  analogous_colors.css
+  #0D1C32 Dark navy   blue_contrast.css and
+                      complementary_colors.css
+  #3C3C3C Dark gray   starting_styles.css
+*/
+  background-color: #65A3C7;
+  color: #FFFFFF;
+  padding: 80px 0;
+}
+
+.cta-container {
+  position: relative;
+}
+
+.cta-container input {
+  width: 100%;
+  padding: 23px 30px;
+  font-size: 1em;
+}
+
+.cta-container button {
+  position: absolute;
+  right: 10px;
+  top: 7px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: none;
+}
+
+/* Items */
+.item {
+  margin-bottom: 30px;
+  width: 100%;
+  padding: 0 2%;
+  text-align: center;
+}
+.item .item-image {
+  background: #FFFFFF;
+  box-shadow: 0 5px 20px 0 rgba(0,0,0,0.05);
+  border-radius: 10px;
+  width: 100%;
+  height: 250px;
+}
+@media(min-width: 720px) {
+  .page-hero-header-left, .page-hero-header-right {
+    width: 50%;
+    text-align: left;
+    display: inline-block;
+    float: left;
+  }
+  .page-hero-header-left {
+    padding: 80px;
+  }
+  .page-hero-header-left p {
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0 0 20px;
+  }
+  .main-content-info {
+    background-image: url('images/space-image.jpg');
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size:50%;
+    text-align: left;
+  }
+  .main-content-info-right {
+    padding: 80px;
+    width: 50%;
+    float: right;
+    display: inline-block;
+  }
+  .main-content-cta-left, .main-content-cta-right {
+    width: 50%;
+    float: left;
+    display: inline-block;
+    padding: 0 30px;
+    text-align: left;
+  }
+  .item {
+    float: left;
+    margin-bottom: 0;
+    width: calc(95%/3);
+  }
+
+  .item:not(:last-child) {
+    margin-right: 2.5%;
+  }
+}
