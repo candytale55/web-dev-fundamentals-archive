@@ -1,6 +1,9 @@
 # New York City Blog
 > A simple HTML + CSS static webpage from a guided project. 
 
+Basic HTML static blog webpage - Codecademy excercise for semantic tags use (HTML5). Description "After researching New York City, you decide to create a blog for your viewers who want to know more about the city."
+
+
 ## Table of contents
 n/a
 
