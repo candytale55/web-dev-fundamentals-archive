@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validación de Email</title>
+</head>
+<body>
+
+<h1>Validación de Email</h1>
+
+<p>Valida que solo se utilice una @, que haya por lo menos un caracter antes de la @ y que el punto aparezca después de la @</p>
+
+<p>Esto quiere decir que los siguientes ejemplos serán válidos:
+
+<p><i>pedrito@fakeaddress.com  &nbsp;&nbsp;   _@fakeaddress.com  &nbsp;&nbsp; pio@fake.jejejejeje</i></p>
+
+<p>Pero las siguientes direcciones serán inválidas:</p>
+
+<p><i>pedrito.sanchez@fakeaddress.com   &nbsp;&nbsp; pedrito@sanchez@fakeaddress.com  &nbsp;&nbsp;  @fakeaddress.com</i></p>
+
+<br>
+<br>
+
+    <script type="text/javascript" language="JavaScript">
+        function check(email) {
+            var ind1, ind2, ind3;
+            ind1 = email.indexOf('@');
+            ind2 = email.indexOf('.');
+            ind3 = email.lastIndexOf('@');
+            if ((ind1 <= 0) || (ind2 < ind1) || (ind3 != ind1))
+                return "No es correcto";
+            else
+                return "Correcto";
+        }
+
+
+    </script>
+
+    <form name="form1" method="post" action="">
+        Introduce tu e-mail:
+        <input type="text" name="email">
+        <input type="button" name="Button" value="Comprobar" onclick="alert(check(this.form.email.value))">
+    </form>
+
+
+</body>
+</html>

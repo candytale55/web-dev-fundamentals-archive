@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Estructuras de Ruptura</title>
+<head>
+
+
+
+<body>
+
+<h1>Expresiones de Ruptura en JavaScript</h1>
+
+<p>Se utilizan en las estructuras de decisión. Las dos expresiones de ruptura son:</p>
+
+<ul>
+<li><b><code>break</code></b>: La instrucción break pone fin al bloque y hace que el programa salte a la instrucción siguiente a la sentencia.</li>
+
+<li><b><code>default</code></b>: La instrucción default es opcional, su finalidad es que se ejecute algún código cuando ninguna de las condiciones se cumple.</li>
+</ul>
+
+
+
+<p>Ejemplo con <code>switch</code></p>
+
+
+<pre><code>
+Switch (día de la semana) {
+case 1:
+  document.write (“¡Es lúnes. Iniciamos la semana!”)
+break
+case 2:
+  document.write (“¡Es Martes!”)
+break
+case 3:
+  document.write (“¡Es miércoles. Medio de la semana!”)
+break
+case 4:
+  document.write (“¡Es jueves!”)
+break
+case 5:
+  document.write (“¡Por fín es viernes!”)
+break
+case 6:
+  document.write (“¡Es fin de semana!”)
+break
+case 7:
+  document.write (“¡Es fin de semana!”)
+break
+default:
+  document.write (“Ese día no existe”)
+}
+</code></pre>
+
+<p>Dependiendo del día de la semana se va a ejecutar una acción diferente. Cada día es un caso diferente.  Se utiliza <code>break</code> (romper) para cambiar de caso (es opcional, pero es mejor). Y por si acaso no escribió bien el día de la semana está la expresión por defecto <code>default</code> para los demás casos (default es opcional también).</p>
+
+</body>
+</html>

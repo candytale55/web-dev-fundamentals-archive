@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validación de Número</title>
+    <script type="text/javascript">
+
+	// Este código se utiliza para validar si el valor ingresado en un campo de texto de un formulario HTML es un número. 
+
+        function validarNumero() {
+            var valor = document.getElementById("campo").value;
+
+		/* document.getElementById("campo")   busca en el documento HTML un elemento con el id "campo".
+		después de que encuentra el elemento, .value obtiene el valor que el usuario introdujo y la asigna a la variable valor (valor=)*/
+
+            if (isNaN(valor)) {
+                alert("El valor ingresado no es un número.");
+                return false;
+            } else {
+                alert("El valor ingresado es un número válido.");
+                return true;
+            }
+        }
+
+	/*  isNaN ("is Not a Number") verifica si el valor de la variable valor es o no un número, y genera un mensaje confirmando el resultado */
+
+    </script>
+</head>
+<body>
+    <h1>Validación de Número</h1>
+    <form onsubmit="return validarNumero();">
+        <label for="campo">Ingrese un número:</label>
+        <input type="text" id="campo" name="campo">
+        <input type="submit" value="Validar">
+    </form>
+
+    <p>Sólo serán válidos los números, ej: 1, 200, 34.3, -99. Todos los demás serán inválidos, ej: "99", cinco, @correo . El formato en fracciones. ej "1/4" es considerado incorrecto </p>
+</body>
+</html>
+

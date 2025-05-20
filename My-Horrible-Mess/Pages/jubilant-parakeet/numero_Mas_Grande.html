@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Aleatorio y Máximo</title>
+    <style>
+        /* Estilos simples para la página */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            font-size: 16px;
+        }
+        #array, #maximo {
+            font-weight: bold;
+            color: #007BFF;
+        }
+    </style>
+</head>
+<body>
+    <h1>Generar Array Aleatorio y Encontrar el Máximo</h1>
+    <p>Array generado: <span id="array"></span></p>
+    <p>El número más grande del array es: <span id="maximo"></span></p>
+    
+    <script>
+        // Función para generar un array de 7 elementos con números aleatorios entre 0 y 20
+        function generarArrayAleatorio() {
+            let array = [];
+            for (let i = 0; i < 7; i++) {
+                array.push(Math.floor(Math.random() * 21)); // Genera un número aleatorio entre 0 y 20
+            }
+            return array; // Devuelve el array generado
+        }
+
+        // Función para encontrar el número más grande en un array
+        function encontrarMaximo(array) {
+            let maximo = array[0]; // Inicializa el máximo con el primer elemento del array
+            for (let i = 1; i < array.length; i++) {
+                if (array[i] > maximo) { // Compara cada elemento con el actual máximo
+                    maximo = array[i]; // Actualiza el máximo si encuentra un número mayor
+                }
+            }
+            return maximo; // Devuelve el número más grande del array
+        }
+
+        // Genera un array aleatorio y encuentra el número más grande
+        const arrayAleatorio = generarArrayAleatorio();
+        const maximo = encontrarMaximo(arrayAleatorio);
+
+        // Muestra los resultados en la consola
+        console.log("Array generado:", arrayAleatorio);
+        console.log("Número más grande del array:", maximo);
+
+        // Muestra los resultados en la página web
+        document.getElementById('array').textContent = arrayAleatorio.join(', ');
+        document.getElementById('maximo').textContent = maximo;
+    </script>
+</body>
+</html>

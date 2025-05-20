@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Estructuras de Ruptura</title>
+<head>
+
+
+
+<body>
+
+<h1>Estructuras de Ruptura en JavaScript</h1>
+
+<p>Son estructuras de control. En JavaScript se pueden tomar decisiones utilizando tres tipos de estructuras:</p>
+
+<ol>
+<li><code>If</code></li>
+<li><code>If...else</code></li>
+<li><code>Switch</code></li>
+</ol>
+
+
+<p>Una sentencia condicional es una instrucción en la que se hace una comparación y según el resultado verdadero o falso (<code>true</code> or <code>false</code>) de la misma, el programa seguirá ejecutando una u otra instrucción.</p>
+
+<p>La estructura de decisión más simple que se puede tomar es la condicional.</p>
+
+<ul>
+
+<h2><code>If</code></h2>
+
+<p>Es un condicional que sirve para realizar unas u otras operaciones en función de una expresión.</p>
+
+<p>La estructura <code>If</code> ejecuta u omite una serie de sentencias dependiendo de si la comprobación da verdadero o falso.</p>
+
+<p>La sintaxis es:</p>
+
+<pre><code>
+if (expresión que debe cumplirse) {
+   acción que se realizará
+  }
+</code></pre>
+
+<p><u><b>Solo si se cumple la expresión</b></u>  la acción se realizará.</p>
+
+<pre><code>
+if (“llueve”) { 
+  alert(“me quedo en casa”);
+}
+</code></pre>
+
+<p>Nota: Las llaves que incluyen la acción son opcionales, y lo mismo el sangrado. Si encontráis código que no los tenga, no quiere decir que sea incorrecto, pero es muy recomendable ponerlos.</p>
+</li>
+
+
+<h2><code>If else</code></h2>
+
+<p>A diferencia de la estructura <code>if</code> donde sólo se tiene en cuenta si una expresión es cierta; en la estructura if else, se tiene en cuenta <b><u>tanto si es cierta como si no lo es</u></b>.</p>
+
+
+<p>Sintaxis:</p>
+
+<pre><code>
+if (expresión que debe cumplirse) {
+ acción que se realizará
+}
+else {
+Acción que se realizará en caso de que la anterior no se realice
+}
+</code></pre>
+
+<p>Ejemplo:</p>
+
+<pre><code>
+if( dia == “domingo”) { 
+  document.write (“¡Feliz día!”);
+  }
+else { 
+  Document.write (“¡Día de trabajo!”)
+  } 
+</code></pre>
+
+<p>Si en este ejemplo quisiera poner un mensaje diferente para cada día de la semana, ni el <code>If</code> ni el <code>If ... else</code> me valen pero sí si utilizo la estructura <code>switch</code>.</p>
+
+</code></pre>
+
+
+
+
+
+
+<h2><code>Switch</code></h2>
+
+<p>Se utiliza esta estructura cuando se quieren <b>poner acciones diferentes</b> en función del resultado que sale.</p>
+
+<pre><code>
+switch (expresión) {
+case 1:
+  sentencia
+break
+case2:
+  sentencia
+break
+.
+.
+.
+default:
+  sentencia en caso de que no se cumpla las anteriores
+}
+</code></pre>
+
+<h3><code>break</code> y <code>default</code></h3>
+
+<p>En las estructuras de decisión hay dos expresiones de ruptura:</p>
+
+<ul>
+<li><b><code>break</code></b>: La instrucción break pone fin al bloque y hace que el programa salte a la instrucción siguiente a la sentencia.</li>
+
+<li><b><code>default</code></b>: La instrucción default es opcional, su finalidad es que se ejecute algún código cuando ninguna de las condiciones se cumple.</li>
+</ul>
+
+
+
+<p>Ejemplo con <code>switch</code></p>
+
+
+<pre><code>
+Switch (día de la semana) {
+case 1:
+  document.write (“¡Es lúnes. Iniciamos la semana!”)
+break
+case 2:
+  document.write (“¡Es Martes!”)
+break
+case 3:
+  document.write (“¡Es miércoles. Medio de la semana!”)
+break
+case 4:
+  document.write (“¡Es jueves!”)
+break
+case 5:
+  document.write (“¡Por fín es viernes!”)
+break
+case 6:
+  document.write (“¡Es fin de semana!”)
+break
+case 7:
+  document.write (“¡Es fin de semana!”)
+break
+default:
+  document.write (“Ese día no existe”)
+}
+</code></pre>
+
+<p>Dependiendo del día de la semana se va a ejecutar una acción diferente. Cada día es un caso diferente.  Se utiliza <code>break</code> (romper) para cambiar de caso (es opcional, pero es mejor). Y por si acaso no escribió bien el día de la semana está la expresión por defecto <code>default</code> para los demás casos (default es opcional también).</p>
+
+</body>
+</html>
