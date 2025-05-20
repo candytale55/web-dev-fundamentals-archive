@@ -1,0 +1,127 @@
+/* Global Reset and Box Model Setup */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* CSS Variables for Theme */
+:root {
+    --dark-grey: #0a0a23;
+    --light-grey: #f5f6f7;
+    --white: #ffffff;
+    --black: #000;
+}
+
+/* Base Body Styling */
+body {
+    background-color: var(--dark-grey);
+    color: var(--white);
+    text-align: center;
+    padding: 10px;
+    line-height: 1.6;
+}
+
+/* Title Heading */
+.title {
+    font-size: 2rem;
+    margin: 1.3rem 0;
+    color: var(--white);
+}
+
+/* Team Info Section */
+.team-stats {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 1.3rem;
+    margin: 1.2rem 0;
+    background-color: #1d1e26;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+/* Filter Label Styling */
+.options-label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: block;
+    margin: 1rem 0 0.5rem;
+    color: var(--white);
+}
+
+/* Dropdown Styles */
+select {
+    padding: 8px 12px;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-bottom: 1.5rem;
+}
+
+/* Player Cards Container */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+/* Individual Player Card */
+.player-card {
+    background-color: var(--light-grey);
+    color: var(--black);
+    padding: 1.3rem;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.player-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Player Name Heading */
+.player-card h2 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+}
+
+/* Player Info Text */
+.player-card p {
+    margin: 5px 0;
+    font-size: 1rem;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 10px 0;
+    font-size: 0.9rem;
+    background-color: #1c1c2b;
+    color: var(--white);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .team-stats {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .cards {
+        gap: 1rem;
+    }
+
+    .player-card {
+        width: 90%;
+    }
+}
