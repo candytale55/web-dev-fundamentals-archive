@@ -1,0 +1,33 @@
+
+:root {
+  --col-1 :#3BD2EB;
+  --col-2 :#3DABF5;
+  --col-3 :#4376DE;
+  --col-4 :#3D4AF5;
+  --col-5 :#5E3BEB;
+
+  --col-6 :#1C325E;
+  --col-7 :#D0D8E8;
+  --col-8 :#88A7E3;
+  --col-9 :#5A5D63;
+  --col-10 :#6A81B0;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+#content-1{ background-color: var(--col-6); color: whitesmoke; }
+#content-2{ background-color: var(--col-7);}
+#content-3{ background-color: var(--col-8);}
+#content-4{ background-color: var(--col-9); color: whitesmoke;}
+#content-5{ background-color: var(--col-10);}
+#content-6{ background-color: var(--col-1);}
+#content-7{ background-color: var(--col-2);}
+#content-8{ background-color: var(--col-3);}
+#content-9{ background-color: var(--col-4);}
+#content-10{ background-color: var(--col-5);}
