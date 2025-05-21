@@ -1,0 +1,54 @@
+html {
+  font-size: 10px;
+}
+
+body {
+	height: 100%;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+  background-color: #A4A199;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+	font-size: 3.6rem;
+  font-family: Palatino, 'Palatino Linotype', serif;
+  color:#345F53;
+}
+
+h2 {
+	font-size: 7.2rem;
+  text-transform: uppercase;
+  letter-spacing: 4.5rem;
+  text-shadow: 2px 2px black;
+}
+
+
+.hero {
+	padding: 250px 0;
+	margin: 30px;
+  font-family:'Trebuchet MS', Helvetica, sans-serif;
+  background-image: url("banner_large.jpg");
+  background-size:cover;
+  color: #ffffff;
+  border-radius: 30px;
+}
+
+
+p {
+  font-size: 2rem;
+  text-shadow: 2px 2px black;
+}
+
+.hero a {
+	color: #00FFAA;
+	font-size: 1.25px;
+	text-decoration: none;
+}
+
+#footer{
+  font-size: 1.6rem;
+  margin: 2rem 0 3rem 0;
+}
