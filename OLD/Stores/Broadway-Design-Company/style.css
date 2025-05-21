@@ -1,0 +1,159 @@
+html, body{
+  /*Variables*/
+  --header-color: #333;
+  --footer-color: var(--header-color);
+  --background-color: #fff;
+  --header-text: var(--background-color);
+  --footer-text: #fff;
+  --banner-height: 800px;
+  --icon-size: 32px;
+  --main-font: 'Raleway', sans-serif;
+  --btn-color: skyblue;
+
+  margin: 0;
+  padding:0;
+  font-family: var(--main-font);
+}
+
+
+header{
+  background-color: var(--header-color);
+  color: var(--background-color);
+  width: 100%;
+  position: fixed;
+  margin-top: -20px;
+  z-index: 5;
+}
+
+
+.container{
+  max-width: 940px;
+  margin: auto;
+  padding: 0 10px;
+  text-align: center;
+}
+
+/* Navigation Header*/
+
+nav{
+  margin: 0;
+  padding: 20px 0;
+}
+
+nav li{
+  display: inline-block;
+  width: 80px;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+nav li:hover{
+  color: var(--btn-color);
+}
+
+
+/*jumbotron Banner*/
+
+.jumbotron {
+  display:flex;
+}
+
+.jumbotron div{
+  margin: auto;
+}
+
+.jumbotron h1{
+  color: var(--header-color);
+  font-size: 2.5rem;
+  font-weight: 700;
+  padding-top: 80px;
+  margin-bottom: 80px;
+  text-transform: uppercase;
+}
+
+.btn-main{
+  background-color: var(--header-color);
+  color: var(--background-color);
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 1.3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: .5rem 1rem;
+}
+
+.btn-main:hover {
+  background-color: var(--btn-color);
+}
+
+#banner{
+  background-image: url("img/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: var(--banner-height);
+}
+
+
+/* Supporting Section */
+
+.supporting{
+  text-align: center;
+  position: relative;
+  top: 3rem;
+}
+
+.supporting .col{
+  display: inline-block;
+  margin: 2rem 4rem;
+}
+
+.supporting img {
+  height: var(--icon-size);
+}
+
+.col h2{
+  font-weight: 600;
+  font-size: 2rem;
+  margin-top: 0px;
+  text-transform: uppercase;
+}
+
+.col p{
+  width: 10rem;
+  margin:auto;
+  margin-bottom: 1rem;
+}
+
+.btn{
+  background-color: var(--header-color);
+  padding: 0.5rem 1rem;
+  color: var(--background-color);
+  text-decoration: none;
+  text-transform: uppecase;
+}
+
+.btn:hover {
+  background-color: var(--btn-color);
+}
+
+/*Footer Section*/
+
+footer{
+  background-color: var(--footer-color);
+  color: var(--footer-text);
+  text-align: center;
+  justify-content: center;
+  padding: 30px 0;
+  position:relative;
+  top: 5rem;
+}
+
+
+@media (max-width: 500px){
+
+  .supporting .col{
+    padding-top: 3rem;
+  }
+
+}
