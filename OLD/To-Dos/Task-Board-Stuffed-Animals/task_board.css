@@ -1,0 +1,204 @@
+
+/* NPI, revisar*/
+@font-face {
+	font-family: WorkSans;
+	src: url("https://s3.amazonaws.com/codecademy-content/courses/learn-css-grid/project-ii/Resources/Work_Sans/WorkSans-Regular.ttf");
+}
+@font-face {
+	font-family: Poppins;
+	src: url("https://s3.amazonaws.com/codecademy-content/courses/learn-css-grid/project-ii/Resources/Poppins/Poppins-Regular.ttf");
+}
+
+
+/* Estilos Generales */
+html{
+  height: 100%;
+}
+
+body{
+  height: 100%;
+  margin: 0;
+  background-image: linear-gradient(359deg, #3023ae, #eb7f7b);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1, h2{
+  text-transform: uppercase;
+}
+
+
+/* Navbar */
+.navbar{
+  display: grid;
+  position: absolute;
+  grid-template-columns: 10px 1fr 3fr 1fr;
+  width: 100%;
+  height: 60px;
+  background-color: rgba(120,70,154, 0.2);
+  text-align: center;
+  top: 0;
+  left: 0;
+  justify-content: space-around;
+}
+
+.navbar h1{
+  font-family: Poppins;
+  color: #fff;
+  margin: 0;
+  align-self: center;
+}
+
+.search-bar{
+  display: inline-block;
+  position: absolute;
+  width: 23%;
+  height: 40px;
+  background-color: rgba(255,255,255, 0.35);
+  left: 50px;
+  top:   8px;
+  position: absolute;
+}
+
+.search-icon{
+  float: left;
+  margin-top:  9px;
+  margin-left: 7px;
+}
+
+/* Alineación de elementos */
+
+.site-body{
+  position: absolute;
+  top:100px;
+  margin-left: 50px;
+}
+
+.container{
+  width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  grid-auto-rows: 100px;
+  /**/
+}
+
+
+.card-column{
+  background-color: #fff;
+  min-height: 700px;
+  display:grid;
+  grid-template-rows: 20px repeat(5, 100px);
+  align-content: space-between;
+}
+
+.taskgroup-heading{
+  margin-left: 15px;
+  margin-top: 7px;
+  /* Hace que los títulos de cada columna tengan márgen.
+     Que se vean bonitos, pues
+     Nota: el de izq es el mismo margen que en .card */
+}
+
+.ellipsis-icon{
+  display: inline-block;
+  /* .ellipsis-icon contiene 3 imagenes oval-copy.svg
+     que hacen el elemento de los 3 puntos "on top" de cada columna*/
+  float: right;
+  margin-right: 15px; /*mismo margen der. que en .card */
+}
+
+.card-column h2{
+  padding: 0;
+  margin: 0 auto;
+  font-family: WorkSans;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #2f2f2f;
+  display: inline-block;
+}
+
+
+/*  Tarjetas */
+
+.card{  /*recuadro gris que contiene cada tarjeta*/
+  margin-right: 15px;
+  margin-left: 15px;
+  background-color: rgba(216, 216, 216, 0.21);
+  border: solid 1px rgba(151, 151, 151, 0.21);
+  position: relative;
+}
+
+.rectangle{ /*Pequeños rectángulos de colores dentro tarjeta*/
+  width: 57px;
+  height: 6px;
+  position:relative;
+  display: inline-block;
+  margin-left: 7px;
+}
+ /* Colores de los rectángulos */
+.yellow { 	background-color: #fdcb1e; }
+.orange { 	background-color: #ff7700; }
+.green  { 	background-color: #50e3c2; }
+.blue   { 	background-color: #3343e5; }
+
+.list-icon{ /*imagen de lista dentro de las tarjetas, inf. izq.*/
+  display: inline-block;
+  margin-left:   7px;
+  margin-bottom: 5px;
+  position: absolute;
+  bottom: 0; /*NPI, revisar*/
+}
+
+.task-date{
+  display: inline-block;
+  position: absolute;
+  font-family: WorkSans;
+  font-size: 10px;
+  letter-spacing: 0.1px;
+  text-align: left;
+	color: #9b9b9b;
+  bottom: 0;
+  margin-bottom: 5px;
+  margin-left:  25px;
+}
+
+.task-description{
+  margin-left: 7px;
+  margin-top: 0;
+  font-family: WorkSans;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #2f2f2f;
+}
+
+/*  INPUTS  */
+
+input{
+    display: inline-block;
+    border: none;
+    font-size: 14px;
+    background: transparent;
+}
+
+.search-bar input{
+  float: left;
+  height: 18px;
+  margin-top:  9px;
+  margin-left: 7px;
+}
+
+.add-card-button{
+  background-color: rgba(216, 216, 216, 0.21);
+  border: solid 1px rgba(151,151,151,0.21);
+  color: #2f2f2f;
+}
+
+.card-column input{ /*Define el input de la columna completed*/
+  height: 18px;
+  margin-left: 15px;
+  border: 1px lightgray solid;
+}
