@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title>***ENTER PAGE TAB-TITLE***</title>
+    <!--LINKS Section -->
+    <!--For example, google fonts: -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:700,300' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <!--External Libraries -->
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
+    <!-- Local Stylesheets & files -->
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+
+  <body>
+
+    <form action="#"
+          method="POST"
+          id="personal-info-form"
+          class="container">
+
+          <!-- Intro Section-->
+          <h1>Fill in this form!</h1>
+          <p><strong>Instructions:</strong>
+            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, quibusdam porro sapiente recusandae quia qui minima ea libero asperiores placeat, eum harum corporis! Consequuntur soluta, unde repellat recusandae, tempore explicabo!</span><span>Quia magni qui, ex placeat? Rem expedita modi rerum voluptates blanditiis, sed, officiis tempora sequi tempore assumenda ipsum iure. Quae rem iste, nesciunt ab! Modi delectus, laborum at repellendus hic.</span></p>
+          <!-- End Intro Section-->
+
+
+
+          <!--Names section-->
+          <label for="name">First Name:</label>
+          <input type="text"
+                  id="name"
+                  name="name"
+                  class="form-control"
+                  placeholder="Enter your first name">
+          <label for="last-name">Last Name</label>
+          <input type="text"
+                  id="last-name"
+                  name="last-name"
+                  class="form-control"
+                  placeholder="Enter your last name">
+          <label for="second-last-name">Second last name</label>
+          <input type="text"
+                  id="second-last-name"
+                  name="last-name"
+                  class="form-control"
+                  placeholder="If applicable, enter your second last name">
+          <!--End Names section-->
+
+
+
+          <!--End Address Section -->
+          <div id="address-section">
+            <h3>Address</h3>
+
+            <label for="address">Street Address:</label>
+            <input id="address"
+                   type="address"
+                   name="address"
+                   class="form-control">
+
+            <label for="address">Street Address Line 2:</label>
+            <input id="address2"
+                   type="address"
+                   name="address2"
+                   class="form-control">
+
+            <label for="city">City:</label>
+            <input id="city"
+                    type="text"
+                    name="city"
+                    class="form-control">
+
+            <label for="province">State / Province:</label>
+            <input type="text"
+                        id="province"
+                        name="province">
+            <label for="zip-code">Zip Code: </label>
+            <input type="text"
+                    id="zip-code"
+                    name="zip-code">
+            <label for="country">Country: </label>
+            <label for="email">Email: </label>
+            <label for="phone">Phone:</label>
+
+          </div>
+          <!--End Address Section -->
+
+
+
+        <div id="name-right"
+              class="col-md-4">
+          <div id="gender-section"
+               class="container subsection">
+
+     <!-- Radio - Gender section-->
+     <h4>Gender:</h4>
+     <label for="female">Female:</label>
+     <input type="radio"
+             id="female"
+             name="gender"
+             value="female">
+     <label for="male">Male:</label>
+     <input type="radio"
+             id="male"
+             name="gender"
+             value="male">
+     <label for="other">Other:</label>
+     <input type="radio"
+             id="other"
+             name="gender"
+             value="other">
+     <!-- Radio Gender section-->
+
+
+
+     <!-- Date of Birth section-->
+      <label for="date-of-birth">Date of Birth:</label>
+        <input type="date"
+                   id="date-of-birth"
+                   name="date-of-birth">
+      <!-- Date of Birth section-->
+
+
+
+
+
+    </form>
+
+  </body>
+</html>
