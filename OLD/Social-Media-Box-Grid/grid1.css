@@ -1,0 +1,94 @@
+:root {
+    --color-button: #651fff;
+    --color-text: #37474f;
+    --color-light-gray: #b0bec5;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 2rem;
+    color: var(--color-text);
+  }
+
+
+/* Wrapper of the grid - contains each card (.container) */  
+.wrapper-grid {
+    display: grid;
+    grid-template-columns: minmax(300px, 1fr);
+    grid-gap: 2rem;
+    justify-content: center;
+  }
+
+  /* profile card */
+  .container {
+    overflow: hidden;
+    box-shadow: 0px 2px 8px 0px var(--color-light-gray);
+    background-color: white;
+    text-align: center;
+    border-radius: 1rem;
+    position: relative;
+  }
+
+/* background image in card */
+.banner-img {
+  position: absolute;
+  background-image: url(https://images.unsplash.com/photo-1582727657635-c771002bdada?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+  height: 10rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* circle profile image on top */
+.profile-img {
+  width: 8rem;
+  clip-path: circle(60px at center);
+  margin-top: 4.5rem;
+}
+
+/* Card name */
+.name {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  /* Card description */
+  .description {
+    margin: 1rem 2rem;
+    height: 60vh;
+  }
+  
+/* Card Follow Me button*/
+.btn {
+  width: 100%;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  padding: 1rem;
+  background-color: var(--color-button);
+}
+
+
+/* Responsive Tablet */
+@media screen and (min-width: 500px) {
+    .wrapper-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  /* Responsive Desktop */
+  @media screen and (min-width: 760px) {
+    .wrapper-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  
