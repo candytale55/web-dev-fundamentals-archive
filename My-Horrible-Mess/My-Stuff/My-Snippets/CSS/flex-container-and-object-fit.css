@@ -1,0 +1,92 @@
+/* See: https://github.com/candytale55/my-snippets/blob/main/MD-Notes/Flexbox_Cheatsheet.md */
+
+/*    HTML:
+<div class="flex-container">
+  <div class="item">Item 1</div>
+  <div class="item">Item 2</div>
+  <div class="item">Item 3</div>
+</div>
+*/
+
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row; /* Change to column for vertical layout */
+  flex-wrap: wrap; /* Allow wrapping */
+  height: 150px;
+  background-color: #f2f2f2;
+}
+
+.item {
+  flex: 1;
+  margin: 0 10px;
+  padding: 20px;
+  background-color: #add8e6;
+  text-align: center;
+  border: 2px solid #333;
+}
+
+
+/* -------------------------------------- */
+
+.flex-container {
+  display: flex;             /* 1. Display */
+  flex-direction: row;       /* 2. Direction */
+  flex-wrap: wrap;           /* 3. Wrap */
+  
+  justify-content: center;   /* 4. Horizontal alignment */
+  align-items: center;       /* 5. Vertical alignment */
+  align-content: center;     /* 6. Line alignment (if wrapping) */
+  
+  gap: 20px;                 /* 7. Spacing between items */
+}
+
+.item {
+  flex: 1;                   /* 1. Flex grow/shrink/basis */
+  align-self: center;        /* 2. Vertical alignment (overrides container) */
+  order: 2;                  /* 3. Visual order */
+  
+  margin: 10px;              /* 4. Spacing around the item */
+  padding: 20px;             /* 5. Padding inside the item */
+  background-color: #f0f0f0; /* 6. Styling */
+}
+
+
+/* ----------- Using object-fit ----------------------*/
+
+/*  HTML:
+<div class="flex-container">
+  <div class="item">
+    <img src="example.jpg" alt="Example" />
+  </div>
+</div>
+*/
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f2f2f2;
+  height: 150px;
+}
+
+.item {
+  flex: 1;
+  margin: 0 10px;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #333;
+  background-color: #add8e6;
+  overflow: hidden; /* Often used with object-fit for proper cropping */
+}
+
+.item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center; /* Optional but helpful */
+}
