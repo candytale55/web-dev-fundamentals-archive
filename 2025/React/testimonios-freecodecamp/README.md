@@ -19,8 +19,6 @@ The UI is responsive and adapts seamlessly from mobile to desktop, employing mod
 - **React 18.x** — Frontend framework  
 - **JavaScript (ES6+)** — Application logic, JSX  
 - **CSS3** — Styling and responsive layouts  
-- **Create React App (via `npx create-react-app [folder-name]`)** — Project bootstrapper  
-- Tested on modern browsers: Chrome, Firefox, Edge, Safari
 
 ---
 
@@ -93,6 +91,7 @@ See more in the official [Create React App documentation](https://facebook.githu
 - GitHub repository for Proyecto 1:  
   https://github.com/estefaniacn/testimonios-freecodecamp
 
+- **Note to self:**  I used `Create React App` (via `npx create-react-app [folder-name]`) 'cause Old Tutorial.  
 ---
 
 ## Acknowledgements
