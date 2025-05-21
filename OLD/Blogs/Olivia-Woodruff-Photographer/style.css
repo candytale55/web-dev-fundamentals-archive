@@ -1,0 +1,49 @@
+
+body{
+ font-family: Georgia, serif;
+ width: 60%;
+ margin: 0 auto;
+ justify-content: center;
+}
+
+h1 { font-size: 2em;
+      color: azure;}
+h2 { font-size: 1.5em; }
+h3 { font-size: 1em; }
+
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+.about-me {
+  font-size: 1.5em;
+  opacity: 0.5;
+}
+
+.image{
+  position: relative;
+  top:30px;
+  box-sizing: border-box;
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+  border: 15px solid azure;
+}
+
+.blue-box{
+  position:relative;
+  background-color: CornflowerBlue;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/*
+.photo-phrame{
+  border: 20px
+  background-color: white;
+  padding: 20px 20px;
+  height: auto;
+  margin: 0 auto;
+}
+*/
