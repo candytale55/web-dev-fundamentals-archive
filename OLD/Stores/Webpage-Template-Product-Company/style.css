@@ -1,0 +1,64 @@
+body {
+
+}
+
+/*Styling the Code Block*/
+/*You still need to use shorthand to
+display HTML, otherwise it will not display*/
+pre code {
+  background-color: #eee;
+  border: 1px solid #999;
+  display: block;
+  padding: 20px;
+ }
+
+
+
+/*To be used when you set an image as background for an element*/
+.bkg-image {
+   background-image: url('#');
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+ }
+
+
+
+
+
+
+/*      HEADER SECTION     */
+
+/* Header structure is:  "
+   -- HEADER
+      -- div row (puts all logo and navbar in one line)
+        -- div col 2 (contains logo)
+           -- h1 element : Title or Logo of the page
+        -- div col 10 (contains the navbar )
+           -- navbar
+              (contains a ul element + (li>a) internal links)
+ */
+
+
+
+ /* HOME OR WELCOME SECTION */
+
+/* PRODUCTS SECTION */
+
+/* SERVICES SECTION */
+
+/* PRICES SECTION */
+
+/* GALLERY SECTION */
+
+/* FORM SECTION */
+   /*Structure:
+      - login-form
+      - sign-in-form
+   */
+
+   /*<!-- Login form - Username and password -->*/
+
+/* ABOUT SECTION */
+
+/* CONTACT SECTION */
