@@ -1,0 +1,131 @@
+<style>
+
+/* Links: These styles or very similar ones must be included in the general styles.css file */
+a:link { 
+font-weight: 400; 
+text-decoration: none; 
+color: darkslategrey;
+}
+a:visited { 
+font-weight: 400; 
+text-decoration: none; 
+  color: darkblue;
+}
+a:hover, a:focus, a:active { 
+  text-decoration: underline; 
+  color: darkslategrey;
+}
+
+a sup {
+  font-weight: 400;
+  font-size: .9rem;
+}
+
+
+/* Usually with h5: Used for section titles (Credits, Footnotes, Glossary, etc.)*/
+.credits h5 {  
+  text-transform: uppercase;
+   margin: 2.5rem 0 1rem 0;
+} 
+
+.footnotes h5 {  
+  text-transform: uppercase;
+   margin: 2.5rem 0 1rem 0;
+} 
+
+
+/* FOOTNOTES SECTION */
+section.footnotes, section.footnotes > * {
+  /* display: none; */
+}
+
+/* CREDITS SECTION */
+section.credits, section.credits > * {
+  /* display: none; */
+}
+
+/* CREDITS SECTION */
+section.footnotes, section.footnotes > * {
+  /* display: none; */
+}
+
+</style>
+
+
+
+
+<!--CREDITS SECTION -->
+<!--this section is intended for crediting images or other works.-->
+    <section class="credits">
+      <hr>
+      <h5>Credits:</h5>
+      <p id="cr-img-X">
+          <a href="#img/txt-X">[X]</a>. [TEXT]
+        </p>
+      
+        <!--Copiar esta sección en el texto o imagen para que el enlace regrese a ella-->
+        <sup id="img/txt-X" class="glos" title="[TEXT]"> <a href="#cr-img-X">[X]</a></sup>
+      
+  </section> <!-- fin .credits-->
+
+
+
+  <!--FOOTNOTES SECTION -->
+  <section class="footnotes">
+    <hr>
+    <h5>Notas al pie:</h5>
+    <p id="note-viajes-X">
+      <a href="#text-viajes-X">[X]</a>. COPIAR
+    </p>
+  
+    <!--Copiar esta sección en el texto para que de la nota al pie regrese a ella-->
+    <sup id="text-viajes-X" class="glos" title="COPIAR."> <a href="#note-viajes-X">[X]</a></sup>
+  
+  </section>
+
+
+
+
+
+
+  
+<!--EXAMPLE: DO NOT COPY -->
+
+<hr>
+<hr>
+<br>
+<section class="example">
+  <h1>Example Paragraph</h1>
+  <p>
+    <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate repellendus veritatis placeat hic! Tenetur repudiandae consectetur unde tempore quaerat eaque quos error? Consequuntur, pariatur quam. Veritatis incidunt voluptates doloribus nobis.</span>
+    <span>Nostrum architecto voluptates animi aperiam, est quos reiciendis voluptas inventore quis adipisci debitis repellat deleniti qui asperiores dolore possimus quae! Impedit labore inventore adipisci a ea, nobis fugit optio dolorum.</span>
+    <span><strong>Esse molestias maiores iure pariatur,<sup id="txt-example" title="Example link to credits section"><a href="#cr-txt-example">[A]</a></sup> optio reiciendis voluptate commodi facere!</strong> Veniam laborum autem pariatur in reiciendis est optio eius sed doloribus officia quod corrupti aut, veritatis nam nemo. Fuga, quod?</span>
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, aliquid aspernatur. Consectetur, doloribus libero nesciunt commodi error sit officia a ipsam delectus! Possimus ad quasi sapiente id ducimus! Modi, qui.
+    Atque labore mollitia iste, rerum ad nihil vitae eius. Fuga est illo similique velit blanditiis ea, esse eos iste, maiores mollitia minima! Odio, quis molestiae? Quisquam et pariatur eum assumenda.
+    Veritatis hic earum esse odio ipsa deleniti magnam tempora ut unde velit quia facilis voluptatum minus necessitatibus tenetur et impedit aperiam corporis sapiente, odit id reprehenderit aut a. Ipsa, distinctio.
+    Voluptate perspiciatis veritatis quas? Voluptas commodi minus assumenda eaque optio impedit suscipit perferendis voluptatibus recusandae dolore, laudantium eveniet vero illo neque accusantium quas, rerum fuga doloremque. Perspiciatis ex aliquam quas.
+  </p>
+  <p>
+    <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil est cumque accusantium commodi quibusdam molestias illum laudantium quia atque, unde libero, omnis suscipit explicabo aperiam, harum numquam? Dolorem, exercitationem soluta.</span>
+    <span>Dolore, cumque nostrum dicta doloribus illo maiores vitae quo rem blanditiis consectetur magni, temporibus eius vero aspernatur ducimus dignissimos nobis. Sit, dignissimos. Accusantium vitae, unde voluptate architecto possimus provident? Dicta.</span>
+    <span>Tempore, rem ut reprehenderit autem laborum voluptatum voluptatem aperiam quo? Magnam molestias, suscipit velit cum impedit reprehenderit dicta ad ut recusandae voluptatum, amet saepe officia corrupti aliquam soluta nesciunt dolorum?</span>
+    <span>Dolore voluptate enim, neque non quod voluptatem fugit ad aperiam sunt unde dignissimos veritatis, fugiat mollitia dolorum minus officia, voluptas pariatur a eligendi corporis deserunt ipsum tempore ratione? Numquam, molestias!</span>
+    <span>Pariatur expedita magni sapiente minima possimus natus fuga error ut. Non ipsum aliquam voluptatem facilis reiciendis doloribus dolore consectetur mollitia corrupti placeat iusto consequuntur praesentium nisi debitis, nihil ad sed.</span>
+    <span>Rem quaerat, soluta praesentium dolor libero eveniet odio. Maxime quia possimus minus necessitatibus voluptas dolor temporibus ullam rerum? Ipsum aperiam iusto illum veritatis et, eius minima doloremque quidem facere magni.</span>
+  </p>
+</section>
+
+<section class="credits">
+  <hr>
+  <h5>Credits:</h5>
+  <p id="cr-txt-example">
+      <a href="#txt-example">[A]</a>. [You enter the information and/or sources here.] Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus vero nemo quae corporis dolore deserunt perspiciatis rerum suscipit inventore minima! Similique quod ullam impedit amet delectus voluptatum dignissimos quibusdam mollitia.
+      Quis maxime et dolor adipisci optio sint non laudantium inventore, eos unde reprehenderit ipsum laborum quaerat repellendus? Ab dicta reiciendis quo quam voluptatum magni quasi fuga, nesciunt eos, tempora dolor.
+      Quia necessitatibus dicta quam aliquid dignissimos odit velit unde. Quaerat et quibusdam quas corporis mollitia velit sed minus. Quo obcaecati mollitia, vero nisi vitae autem eos blanditiis eveniet? Quod, quam.
+      Error recusandae eveniet quam laboriosam corporis fugit dolor, maxime maiores delectus quaerat doloribus sint ullam eum incidunt quod ipsa at sed et, ratione ducimus totam, magnam velit sapiente! Voluptates, porro!
+      Blanditiis, perferendis aliquam. Obcaecati, dolores cum officia natus accusamus voluptates et repudiandae nesciunt consectetur quaerat soluta illum laudantium aliquid illo delectus quo ipsam fugiat quos numquam enim! Eaque, doloremque molestiae.
+      Tempora neque labore, cum illum minima voluptatum sint. Eaque molestiae nam tenetur porro facilis sequi excepturi nisi sit, et praesentium vero rem harum! Molestiae cum ipsam facilis laboriosam placeat nulla.
+    </p>
+</section> <!-- fin .credits-->

@@ -1,0 +1,408 @@
+/* Basic Elements */
+
+.root {
+    --body-font-family: 'Sahitya', serif;
+    --body-font-color: black;
+    --body-background-color: white;
+
+    --title-font-family: 'Playfair Display', serif;
+
+
+}
+
+* {
+   
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Sahitya', serif;
+    font-size: 2.3rem;
+	line-height: 1.5;
+	color: var(--body-font-color); 
+	background-color: var(--body-background-color); 
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: justify;
+    text-align: justify;
+}
+
+p {
+    text-indent: 1.25em;
+    margin-bottom: 1.25em;
+}
+
+
+h1 {}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+
+/* h5: Used for section titles (Credits, Footnotes, Glossary, etc.)*/
+h5 {  
+    text-transform: uppercase;
+    margin: 2.5rem 0 1rem 0;
+} 
+
+
+/* ----------- */
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: darkred;
+	}
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: darkred;
+	}
+a:hover, a:focus, a:active { 
+	text-decoration: underline; 
+    color: rgba(200,0,0,0.75);
+	}
+
+
+
+
+
+
+figure {
+    display: inline-block;
+    flex-direction: column;
+    margin: .5em auto;
+}
+
+img {    
+    max-height: 600px;
+    border: .3em solid #FFF;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+blockquote, quote {
+    font-style: italic;
+}
+
+
+/* ------- SECTIONS --------------*/
+
+
+
+
+
+
+
+/*  STORY TOP (Title, subtitle, author's name, etc.) */
+
+
+/*.story-top contains all the other elements */
+.story-top {  /* Used with section*/ }   
+
+
+.story-title, .story-subtitle, .author {
+    font-family:  'Playfair Display', serif;
+}
+
+.original-title{           /* used with p */
+    font-size: smaller;
+    font-style: italic;
+    text-indent: 0;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.story-title {
+    margin-top: 1em;
+    margin-bottom: .5em;
+}
+
+.story-subtitle {           /* used with h2 */
+    margin-bottom: 1em;
+}
+
+.author {                   /* used with h2 */
+    display: none;      /* This line is added in case that a larger work with a series of stories by the same author are included - uncommenting this line will remove the author's name.*/      
+}                       
+
+/* dofp (date of first publication) */
+.year {                     /* used with h3 */
+
+}                 
+
+.story-subtitle{}       /* used with h4 */
+
+/* If the story has a number within a book or the author's works*/
+.story-number {         /* used with p */ 
+    display: none;
+}                       
+
+.chapter {
+    text-align: center;
+}
+
+
+
+
+
+/*  STORY Section (Include's the text of the story, it may have subsections like chapters, or text that is formated differently - like text intended to read as letters) */
+
+/* .story contains all the elements of this section, usually <p> elements*/
+.story { /*used with main*/ }
+
+#story { /* set on the main element, next to class .story */}
+
+/*Página de transición, de poco texto entre historias - May be used instead of .story, with main*/
+.interior-page{ } 
+
+
+
+/* Different elements within a story*/
+
+/* Used for introductions by authors or narrators*/
+.intro {} 
+
+/* For list within stories*/
+.list-in-stories li { 
+    list-style-type: none;
+}
+
+/* For poetry -  .verse elements will be found within .poem elements*/
+.poem {
+    margin: 0 auto;
+    width: 50%;
+}
+.verse {
+    text-indent: 0;
+}
+
+/* For letter or notes within the story. The .letter element will contain all the other elements */
+.letter {}  /*text in form of a letter*/
+.sender-address{}
+.receiver-address{}
+.letter-signature {}  /**/
+
+
+/* biography*/
+.bio {} 
+
+
+
+
+/* FOR INLINE DEFINITIONS */
+.definable {}
+.word {}
+.definition-container{}
+.information{}
+.definitions{}
+
+
+
+
+/* text alignment */
+/* Different formats within story  - These need to be reduced*/
+
+.story .center{
+    text-indent: 0;
+    margin-top: 3.25em;
+}
+
+/*For sections that require a*/
+.big-space-below{
+    margin-bottom: 3em;
+}
+
+.half-right {padding: 0 20%;}   /*block of text set right width 50%*/
+.third-right{
+    padding: 0 30%;
+}   /*block of text set right width 30%*/
+
+.center { text-align: center;}
+.right { text-align: right;}
+.italics{ font-style: italic;}
+.capitalized {  text-transform: capitalize; }
+.uppercase { text-transform: uppercase;}
+.lowercase { text-transform: lowercase;}
+
+
+
+
+/* -------------------------  SECTIONS ------------------------------*/
+
+
+/* FOOTNOTE SECTION */
+/* Use this section if there are footnotes and you want them to display at the bottom. 
+If you want to have links back and forth from this section to the text use <a> elements
+There are pre-added id for #note-X for the footnote and #text-X for the text that originates
+the footnote. PLEASE NOTE: It may be a better idea to use notes that display when the 
+text is hovered (Wikipedia style)*/
+
+section.footnotes-section, section.footnotes-section > * { 
+    display: none;  /* If the text has this section remove or comment this rule*/
+    font-size: smaller;    
+} 
+/*cada uno de los párrafos que contiene un footnote*/
+.footnote{}/*Used with section */
+#note-1 {}
+#text-1 {}
+
+
+/* Each .footnote must have a unique #id="note-ID"  that will be used to navegate
+ to the footnote and each footnote will have a link that will take back to the text where
+ the footnote was included . The text will have a unique #id too, with format id="text-ID
+ ID should be substituted by a unique number or word, the same in both note-ID and text-ID 
+ */
+
+
+
+
+
+
+
+
+/* INFORMATION SECTION (.info)*/
+/* This section is intended to provide information about the autor, the story, and provide
+relevant links to other sources. There is a specifici section to link to audiobook sources.*/
+
+section.info, section.info > * {
+    /*display: none;*/  /* If the text has this section remove or comment this rule*/    
+}
+
+.info {/* Used with section */}
+.info-links /*dentro de .info, contiene enlaces a recursos externos*/
+
+
+
+/* Author subsection inside the INFORMATION SECTION */
+
+.author-bio {}  /*used with div, contains .author-bio-text and .author-img */
+.author-bio-text {}
+.author-img {} 
+
+
+.info-links {}
+#info-links {}
+
+.audiobook-links {}
+#audiobook-links {}
+
+
+
+
+
+/* INFORMATION SECTION */
+
+/*.story-info contains 2 larger sections: .author-bio and .info-links */
+.story-info {    /* used with section*/
+    background-color: #ccc;
+    font-size: .9em;    
+}
+
+
+/* .author-bio contains two larger sections .author-bio-text which is a short bio, 
+and .author-image, which contains a figure element for adding the author's portraint + legend*/
+.author-bio {
+    display: flex;
+}
+.author-bio-text{
+    margin: 2% 3%;
+}
+.author-image{
+    margin: 2% 2%;
+    display: flex;  
+    justify-items: center;
+}
+
+figcaption{
+    font-size: smaller;
+    text-align: center;
+}
+.author-bio img{
+    max-height: 300px;
+    border: .5em solid #FFF;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    margin: 0 auto;
+}
+
+@media (max-width: 900px){
+    body {
+        padding: .65em;
+    }
+    .author-bio {
+        display: flex;
+        flex-direction: column;
+    }
+    .author-bio-text{
+        margin: 2% 3%;
+    }
+    .author-image{
+        margin: 2% 2%;
+    }
+    figure {
+        display: flex;
+    }
+    
+    figcaption{
+        font-size: smaller;
+        text-align: center;
+        margin: 2% 3%;
+    }
+    .author-bio img{
+        max-height: 300px;
+        border: .5em solid #FFF;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+        margin: auto;
+    }
+}
+
+/* .info-links contains two divs, one for .ref-links which are for relevant links and
+.audiobook-links, which are for links to audio versions of the story */
+
+.info-links{  /* used with div*/
+    display: block;
+    margin-left: 10px;
+    padding-bottom: 20px;
+    margin-right: 10%; 
+}
+.info-links li{
+    list-style-position: outside;
+}
+
+.info-links {
+    /*display: none;*/
+}
+
+
+
+
+
+
+/* GLOSSARY SECTION */
+section.glossary, section.glossary > * {
+    display: none;  /* If this text has this section remove or comment this rule*/
+    font-size: smaller;      
+}
+.glossary {}  /* used with section */
+#ashtophet {}      /*the word that links to the glossary*/
+#ashtophet-def {}  /*the definition of the word in the glossary*/
+.glos {}  /*Used with a, para darle formato a este tipo de palabras */
+
+
+
+
+
+
+/* CREDITS SECTION */
+section.credits, section.credits > * {
+    /*display: none; *//* If this text has this section remove or comment this rule*/
+    font-size: smaller;    
+}
+.credits {}
+#cr-img {}   /*used within figcaption to credit the author image*/
+#img-1  {}   /*Used to credit additional images*/
+#text-img-1 {}  /*Used to return to the section where the image is*/

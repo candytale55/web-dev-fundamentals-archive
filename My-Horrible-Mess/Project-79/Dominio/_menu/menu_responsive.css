@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header {
+    width: 100%;
+    background: #4e94ab;
+}
+
+
+#btn-menu {
+    display: none; /*Ocultar checkbox*/
+}
+
+header label { 
+    display: none; /*no se vea en pantallas grandes*/
+    width: 32px;
+    height: 32px;
+    padding: 10px;
+    border-right: 1px solid #fff;
+}
+
+header label:hover { /*imagen 3 barras cambia cuando pasa el cursor*/
+    cursor: pointer; 
+    background: rgba(0,0,0,0.3);
+}
+
+.menu ul {
+    margin: 0;
+    list-style: none;
+    padding: 0; /*pega a la izq*/
+    display: flex;
+    /*flex-direction: column; /*El default es ROW, si los quiero en column siempre usar esto*/
+    /* justify-content: flex-end; /*En caso de ROW y que quisiera ubicarlos en la esq derecha*/
+}
+
+.menu li {
+    flex-grow: 1; /*En menu ROW esto hará que se distribuya en todo el espacio*/
+    border-bottom: 1px solid #fff;
+}
+
+.menu li:hover{
+    background: rgba(0,0,0,0.3); /*Cambia a color oscuro*/
+}
+
+.menu li a {
+    display: block;
+    padding: 15px 20px;
+    /*padding: 10px; /*El valor si los quisiera en ROW sería 15px 20px*/
+    color: #fff;
+    text-decoration: none; /*quita el subrayado*/
+}
+
+main {
+    padding: 20px;
+}
+
+/*Tablet*/
+@media (max-width: 768px) {
+    header label {
+        display: block;
+    }
+
+    .menu {
+        position: absolute;
+        background: #4e94ab;
+        width: 70%;
+        margin-left: -70%; /*Hace que se meta a la izquierda*/
+        transition: all 0.5s;
+    }
+
+    .menu ul {
+        flex-direction: column;
+    }
+
+    #btn-menu:checked ~ .menu { 
+        /*Cuando el checkbox este seleccionado, virgulilla (~) indica que me busque la clase menu*/
+        margin: 0; /*Se anula el margin-left de -70%*/
+    }
+}

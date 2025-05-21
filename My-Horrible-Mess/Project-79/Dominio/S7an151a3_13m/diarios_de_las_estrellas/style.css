@@ -1,0 +1,438 @@
+/* Basic Elements */
+
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 2.3rem;
+  line-height: 1.5;
+  color: #000; 
+  background-color: #fff; 
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: justify;
+  text-align: justify;
+}
+
+
+
+p {
+  text-indent: 1.25em;
+  margin-bottom: 1.25em;
+}
+
+
+h1, h2, h3, h4, h5 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: #000; 
+}
+
+h3 { /* Used for original title in index*/
+  font-size: 1em;
+}
+
+/* h5: Used for section titles (Credits, Footnotes, Glossary, etc.)*/
+h5 {  
+  text-transform: uppercase;
+  margin: 2.5rem 0 1rem 0;
+} 
+
+
+/* ----------- */
+a:link { 
+font-weight: 400; 
+text-decoration: none; 
+color: darkslategrey;
+}
+a:visited { 
+font-weight: 400; 
+text-decoration: none; 
+  color: darkblue;
+}
+a:hover, a:focus, a:active { 
+  text-decoration: underline; 
+  color: darkslategrey;
+}
+
+a sup {
+  font-weight: 400;
+  font-size: .9rem;
+}
+
+
+
+
+figure {
+  display: inline-block;
+  flex-direction: column;
+  margin: .5em auto;
+}
+
+img {    
+  max-height: 600px;
+  border: .3em solid #FFF;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+blockquote, q {
+  font-style: italic;
+}
+
+
+/* ------- SECTIONS --------------*/
+
+
+/* INDEX, Main BOOK-TITLE and COVER */
+/*Comment display:none if you want it to show*/
+
+
+main {
+  width: 77%;
+  margin: 0 auto;
+}
+
+
+.book-index {
+  padding: 0 10%;
+}
+
+
+.book-title {
+  font-size: 3rem;
+  margin: .5rem;
+} /*Used with h1*/
+
+.book-author { 
+  /*display:none;*/
+  font-size: 2.5rem;
+  margin: .5rem;
+}
+
+
+
+
+
+
+
+/* palabras */
+.glos, .def {
+  text-decoration: underline;
+  color: darkslateblue;
+}  /*Used at times with a or span, includes title attribute that adds information most of the time para darle formato a este tipo de palabras */
+
+
+/* textos especiales dentro de la historia */
+
+/* notas en la puerta de PROF. A. S. TARANTOGA */
+.doc-in-story {
+  line-height: 2;
+  padding: 2em 2em 2em 3em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: rgba(179, 103, 10, 0.329);
+  width: 65%;
+  margin: 0 auto;
+  font-size: .8em;
+}
+.add-shadow {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+
+/* To change: 
+id=cover used withsection, used to enclose .book-title and .book-author and book-cover
+
+
+#book-cover { /*used with div and with class container, contains an image with id #img-cover}
+
+*/
+
+ul.no-bullet li {
+  list-style: none; 
+}
+
+ul.dotted-list li{
+  margin: 1em 0;
+  line-height: 1.3;
+}
+
+
+
+
+/*This sets the English name to the right of the page, while the a element 
+in Spanish remains to the left */
+
+ul.indexed-list span + span {
+  float: right;
+}
+
+
+
+
+
+
+
+/* NAVIGATION BAR*/
+ul.nav-bar span + span {
+  float: right;
+}
+
+
+
+
+
+
+ul.dotted-list {
+  max-width: 40em;
+  padding: 0 8%;
+  overflow-x: hidden;
+  list-style: none
+}
+ul.dotted-list li:before {
+  float: left;
+  width: 0;
+  white-space: nowrap;
+  content:
+". . . . . . . . . . . . . . . . . . . . "
+". . . . . . . . . . . . . . . . . . . . "
+". . . . . . . . . . . . . . . . . . . . "
+". . . . . . . . . . . . . . . . . . . . "
+}
+ul.dotted-list span:first-child {
+  padding-right: 0.33em;
+  background: white}
+ul.dotted-list span + span {
+  float: right;
+  padding-left: 0.33em;
+  background: white}
+
+/*  STORY TOP (Title, subtitle, author's name, etc.) */
+
+
+/*.story-top contains all the other elements */
+.story-top, .story-header {  /* Used with div */ 
+  padding: 0 10%;
+}   
+
+.story-top p, .story-header p {
+  display: none;
+}
+
+.story-title, .story-subtitle, .author {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.original-title, .original_title{          
+  font-style: italic;
+  font-weight: 400;
+  text-indent: 0;
+  margin-bottom: 1em;
+}
+
+.story-title {
+  margin-top: 1em;
+  margin-bottom: .5em;
+}
+
+.story-subtitle {           /* used with h2 */
+  margin-bottom: 1em;
+}
+
+h2.story-subtitle {
+  font-style: italic;
+  font-size: .9em;
+}
+
+
+.author, .story-author {                   /* used with h2 */
+  display: none;      /* This line is added in case that a larger work with a series of stories by the same author are included - uncommenting this line will remove the author's name.*/      
+}                       
+
+.author.display{
+  display:contents;
+}
+
+/* dofp (date of first publication) */
+.year, .story-year {                     /* used with h3 */
+  display: none;
+}                 
+
+
+/* If the story has a number within a book or the author's works*/
+.story-number {         /* used with p */ 
+  display: none;
+}                       
+
+
+
+.chapter {
+  text-align: center;
+  font-weight: bold;
+}
+
+
+
+
+
+
+/* For poetry -  .verse elements will be found within .poem elements*/
+.poem {
+  margin: 0 auto;
+  width: 80%;
+}
+.verse {
+  text-indent: 0;
+  margin: 1.5em 1em;
+}
+
+
+
+/* ALIGNMENT */
+
+.story .center{
+  text-indent: 0;
+  margin-top: 3.25em;
+}
+
+
+/*For sections that require a space below or avove*/
+.big-space-below{
+  margin-bottom: 3em;
+}
+
+.big-space-above{
+  margin-top: 4rem;
+}
+
+/*block of text set right width 50%*/
+.half-right {
+  padding: 0 20%;
+}   
+
+/*block of text set right width 30%*/
+.third-right{
+  padding: 0 30%;
+}   
+
+
+/* TO FORMAT INDIVIDUAL ELEMENTS ON-THE-FLY */
+.center { text-align: center;}
+.right { text-align: right;}
+.italics{ font-style: italic;}
+.capitalized {  text-transform: capitalize; }
+.uppercase { text-transform: uppercase;}
+.lowercase { text-transform: lowercase;}
+.no-indent{ text-indent: 0;}
+.hide {display: none;}
+
+
+
+
+
+/* -------------------------  SECTIONS ------------------------------*/
+
+
+/* INFORMATION SECTION (.info)*/
+/* This section is intended to provide information about the autor, the story, and provide
+relevant links to other sources. There is a specifici section to link to audiobook sources.*/
+
+/*.story-info contains 2 larger sections: .author-bio and .info-links */
+.story-info {    /* used with section*/
+  padding: 1em 2em;
+  background-color: #ccc;
+  font-size: .9em;
+  border-radius: .5rem;    
+}
+
+
+/* .author-bio contains two larger sections .author-bio-text which is a short bio, 
+and .author-image, which contains a figure element for adding the author's portraint + legend*/
+.author-bio {
+  display: flex;
+}
+.author-bio-text{
+  margin: 2% 3%;
+}
+.author-image{
+  margin: 2% 2%;
+  display: flex;  
+  justify-items: center;
+}
+
+figcaption{
+  font-size: smaller;
+  text-align: center;
+}
+.author-bio img{
+  max-height: 300px;
+  border: .5em solid #FFF;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  margin: 0 auto;
+}
+
+@media (max-width: 900px){
+  body {
+      padding: .65em;
+  }
+  .author-bio {
+      display: flex;
+      flex-direction: column;
+  }
+  .author-bio-text{
+      margin: 2% 3%;
+  }
+  .author-image{
+      margin: 2% 2%;
+  }
+  figure {
+      display: flex;
+  }
+  
+  figcaption{
+      font-size: smaller;
+      text-align: center;
+      margin: 2% 3%;
+  }
+  .author-bio img{
+      max-height: 300px;
+      border: .5em solid #FFF;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+      margin: auto;
+  }
+}
+
+
+
+/* .info-links contains two divs, one for .ref-links which are for relevant links and
+.audiobook-links, which are for links to audio versions of the story */
+
+.info-links{  /* used with div*/
+  display: block;
+  margin-left: 10px;
+  padding-bottom: 20px;
+  margin-right: 10%; 
+}
+.info-links li{
+  list-style-position: outside;
+}
+
+.info-links {
+  display: none;
+}
+
+
+section.story-info, section.story-info >* {
+  display: none;
+} 
+
+section.footnotes-section, section.footnotes-section > * { 
+  font-size: smaller;    
+} 
+
+
+
+
