@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <title>Form a Story</title>
+  </head>
+  <body>
+    <section id="top">
+      <img src="https://s3.amazonaws.com/codecademy-content/courses/learn-html-forms/formAStoryLogo.svg" alt="Form A Story Logo">
+    </section>
+
+    <section id="main">
+      <h1>Complete the Form -<br> Complete the Story!</h1>
+      <hr>
+      <!--Add your form below:-->
+      <!--Punto 1 y 2-->
+      <form action="/story.html" method="POST">
+
+        <!-- Punto 4 y 5-->
+        <label for='animal-1'>Animal:</label>
+        <input name='animal-1' type="text" id='animal-1'  required>
+
+        <!--Punto 6-->
+        <br>
+
+        <!--Punto 7-->
+        <label for="animal-2">Another Animal:</label>
+        <input name="animal-2" type="text" id="animal-2" required>
+        <br>
+
+
+        <!-- Punto 8 -->
+        <label for="animal-3">One More Animal</label>
+        <input id="animal-3" type="text" name="animal-3" required>
+        <br>
+
+        <!-- Punto 9 -->
+        <label for="adj-1">Adjective (past tense):</label>
+        <input id="adj-1" type="text" name="adj-1" required>
+        <br>
+
+        <!-- Punto 10 -->
+        <label for="verb-1">Verb (ends in -ing):</label>
+        <input id="adj-1" type="text" name="adj-1" required>
+        <br>
+
+        <!-- Punto 11 -->
+        <label for="num-1">Number:</label>
+        <input id="num-1" type="number" required>
+        <br>
+
+        <!-- Punto 12,13,14 -->
+        <span>Yes or No:</span>
+        <!-- For radio buttons, we want to add the <input> before the <label> to render the radio button on the left of the text. -->
+        <input type="radio" id="yes" name="answer" value="yes" required>
+        <label for="yes">Yes</label>
+        <input type="radio" id="no" value="no" name="answer">
+        <label for="no">No</label>
+        <br>
+        <!--You do not need to add a required attribute for the second radio button. If two radio buttons share the same name, only one needs to have the required attribute.-->
+
+        <!-- Punto 15 -->
+        <label for="speed">Relative speed (ends in -er)</label>
+        <select id="speed" name="speed" required>
+          <!-- Punto 16 -->
+          <option value="faster">faster</option>
+          <option value="quicklier">quicklier</option>
+          <option value="snail-er">snail-er</option>
+          <option value="dasher">dasher</option>
+          <option value="slower">slower</option>
+        </select>
+        <br>
+
+        <!-- Punto 17 -->
+        <label for="quote">Motivational Quote:</label>
+        <input type="text" list="quote-choices" id="quote" name="quote" required>
+        <!-- Punto 18 y 19-->
+        <datalist id="quote-choices">
+          <option value="Together we can change the world, just one random act of kindness at a time">Together we can change the world, just one random act of kindness at a time</option>
+          <option value="Carry out a random act of kindness, with no expectation of reward, safe in the knowledge that one day someone might do the same for you">Carry out a random act of kindness, with no expectation of reward, safe in the knowledge that one day someone might do the same for you</option>
+          <option value="I don't believe that if you do good, good things will happen">I don't believe that if you do good, good things will happen</option>
+          <option value="Goals transform a random walk into a chase.">Goals transform a random walk into a chase.</option>
+        </datalist>
+        <br>
+
+        <!-- Punto 20 -->
+        <label for="message">Meaningful Message:</label>
+        <textarea id="message" name="message" rows="8" column="40" required></textarea>
+        <br>
+
+        <!-- Punto 3 -->
+        <input type="submit" value="Form My Story!">
+      </form>
+    </section>
+  </body>
+</html>
