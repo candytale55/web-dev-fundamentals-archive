@@ -1,0 +1,65 @@
+a {
+  color: #2176FF;
+  text-decoration: underline;
+  cursor: pointer;
+}
+ 
+a:hover {
+  text-decoration: none;
+  transition: all ease-in .2s;
+ }
+
+#nav-summit {
+ text-decoration: none;
+}
+
+
+.nav-link:hover {
+  font-weight: bold;
+}
+
+
+.btn {
+  background-color: #2176FF;
+  border-radius: 5px;
+  color: #ffffff;
+  font-family: 'Raleway',sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.btn:hover {
+  font-weight: bold;
+  transition: all ease-out .1s;
+}
+
+.btn:active {
+ 
+}
+
+.btn:active {
+  /* ADD TRANSITIONS */
+}
+
+
+.activity {
+  border: 2px solid #2176FF;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.activity:hover{
+  color: #2176FF;
+  background-color: #fff;
+  font-weight: bold;
+  transition: all .2s ease-in;
+}
+
+.activity:active {
+  font-size: 40px;
+  transition: font-size .3s;
+}
