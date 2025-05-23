@@ -1,0 +1,36 @@
+.container {  /* Separates the two grids*/
+  display: flex;
+}
+
+.grid {
+  background-color: yellow;
+  display: flex;
+  flex-wrap: wrap;
+  height: 400px;
+  width: 200px;
+}
+
+.grid div {
+  height: 20px;
+  width: 20px;
+}
+
+
+.mini-grid {
+  background-color: pink;
+  display: flex;
+  flex-wrap: wrap;
+  height: 80px;
+  margin-left: 50px;
+  width : 80px;
+}
+
+.mini-grid div {
+  height: 80px;
+  width: 20px;
+}
+
+
+.tetromino {
+  background-color: blue;
+}
