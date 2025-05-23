@@ -1,5 +1,7 @@
 # Message_Mixer_js
 
+> Takes a string and transforms it through different functions and display the output of that behavior to the console.
+
 <div>Three different ways to export modules in JavaScript.  Message Mixer takes a string and transforms it with functions, including:</div> </br>
 
 <ul>
