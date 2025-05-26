@@ -111,15 +111,12 @@ While the project includes a mix of styles, syntaxes, and structural decisions, 
 
 ## Screenshots
 
-<table>
-  <tr>
-    <td><img src="src/imagenes/scsh-001.png" alt="Screenshot 1" width="300"/></td>
-    <td><img src="src/imagenes/scsh-002.png" alt="Screenshot 2" width="300"/></td>
-  </tr>
-  <tr>
-    <td><img src="src/imagenes/scsh-003.png" alt="Screenshot 3" width="300"/></td>
-  </tr>
-</table>
+<p align="center">
+  <img src="src/imagenes/scsh-001.png" alt="Screenshot 1" width="300"/>
+  <img src="src/imagenes/scsh-002.png" alt="Screenshot 2" width="300"/>
+  <img src="src/imagenes/scsh-003.png" alt="Screenshot 3" width="300"/>
+</p>
+
 
 ---
 
