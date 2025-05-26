@@ -27,10 +27,12 @@ function App() {
     <div className="App">
       <div className='freecodecamp-logo-contenedor'>
         <img
-          src={freeCodeCampLogo} 
+          src={freeCodeCampLogo}
           className='freecodecamp-logo'
           alt='Logo de freeCodeCamp' />
       </div>
+
+
       <div className='contenedor-calculadora'>
 
         <Pantalla input={input} />
