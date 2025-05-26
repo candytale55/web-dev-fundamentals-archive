@@ -43,7 +43,7 @@ While the project includes a mix of styles, syntaxes, and structural decisions, 
 
 ## Known Issues / TODOs
 
-- The calculator UI may be **pushed out of the viewport** due to logo positioning and lack of responsive height control  
+- ~~The calculator UI may be **pushed out of the viewport** due to logo positioning and lack of responsive height control~~ (fixed)  
 - Clicking the `=` button multiple times after a valid result causes a runtime error from `mathjs`:
 
 ```bash
