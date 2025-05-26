@@ -1,70 +1,146 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React Calculator – FreeCodeCamp Project
 
-## Available Scripts
+---
+
+## About this project
+
+This React application is a functional calculator that supports basic arithmetic operations (addition, subtraction, multiplication, division) using a visually styled keypad and display area. The result is computed using the `mathjs` library.
+
+This project explores more concepts such as conditional rendering, library integration, and component modularity.
+
+While the project includes a mix of styles, syntaxes, and structural decisions, this is intentional — it’s meant to demonstrate different ways of building React components. The variations (like function declarations vs. arrow functions, or passing props vs. using destructuring) reflect real-world flexibility and tutorial pedagogy — **not inconsistency**.
+
+---
+
+## Technologies and Versions
+
+- **React 18.x** — Frontend framework  
+- **JavaScript (ES6+)** — JSX, ES6 syntax, arrow functions  
+- **CSS3** — Custom styling, visual feedback, layout control  
+- **Create React App (CRA)** — Starter boilerplate  
+- **mathjs** — Math parser used for evaluating expressions (mathjs@14.5.0)
+
+---
+
+## Features (Things Learned)
+
+- Fully functional calculator using `mathjs.evaluate()`  
+- Dynamic string-based input with `useState`  
+- Modular components: `Boton`, `BotonClear`, and `Pantalla`  
+- Event handling with `onClick` and inline arrow functions  
+- Conditional class assignment using `trimEnd()`  
+- Custom styles with `user-select: none`, `flex: 1 1`, rounded borders  
+- Clean separation between logic and UI  
+- Stateless functional components with arrow functions and implicit return  
+- Button clear handler: `<BotonClear manejarClear={() => setInput('')} />`  
+- Defensive check for empty input in `calcularResultado()` to avoid runtime errors  
+- Practical use of `props`, destructuring, and styling best practices  
+- Example of styling quirks like `margin: 1px solid #888;`  
+- Demonstrates concept of creating a `<Calculadora />` wrapper for centralized logic (alternative approach)
+
+---
+
+## Known Issues / TODOs
+
+- The calculator UI may be **pushed out of the viewport** due to logo positioning and lack of responsive height control  
+- Clicking the `=` button multiple times after a valid result causes a runtime error from `mathjs`:
+
+```bash
+  Unexpected type of argument in function evaluate (expected: string or Array or Matrix or boolean, actual: number, index: 0)
+```
+
+* `evaluate()` expects a string input, but receives a number. Type coercion or guarding logic is required.
+* Consider modularizing the logic into a dedicated `<Calculadora />` component for improved scalability
+
+---
+
+## Setup and Running
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/estefaniacn/calculadora-react-freecodecamp.git
+   ```
+
+2. Navigate into the project directory:
+
+   ```bash
+   cd calculadora-react-freecodecamp
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm start
+   ```
+
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+---
+
+## Project Structure Overview
+
+```
+/src
+├── App.js                 # Main app logic
+├── index.js              # Entry point
+├── App.css               # App-wide styling
+├── /componentes          # Reusable components
+│   ├── Boton.jsx
+│   ├── BotonClear.jsx
+│   └── Pantalla.jsx
+├── /hojas-de-estilo      # Component-specific CSS
+│   ├── Boton.css
+│   ├── BotonClear.css
+│   └── Pantalla.css
+└── /imagenes             # Logo and screenshots
+    ├── freecodecamp-logo.png
+    ├── scsh-001.png
+    ├── scsh-002.png
+    └── scsh-003.png
+```
+
+---
+
+## Screenshots
+
+<table>
+  <tr>
+    <td><img src="src/imagenes/scsh-001.png" alt="Screenshot 1" width="300"/></td>
+    <td><img src="src/imagenes/scsh-002.png" alt="Screenshot 2" width="300"/></td>
+  </tr>
+  <tr>
+    <td><img src="src/imagenes/scsh-003.png" alt="Screenshot 3" width="300"/></td>
+  </tr>
+</table>
+
+---
+
+## Useful Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+* `npm start` — Run the app in development mode
+* `npm run build` — Create an optimized production build
+* `npm test` — Run tests (if configured)
+* `npm run eject` — Ejects CRA settings (advanced use only)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+More info: [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## References
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Project 3 from the 2022 React Fundamentals course
+* YouTube Tutorial: [https://youtu.be/6Jfk8ic3KVk?si=zydChaDQD2M-UZ-A\&t=13924](https://youtu.be/6Jfk8ic3KVk?si=zydChaDQD2M-UZ-A&t=13924)
+* GitHub Repo: [https://github.com/estefaniacn/calculadora-react-freecodecamp](https://github.com/estefaniacn/calculadora-react-freecodecamp)
+* mathjs documentation: [https://mathjs.org/docs/index.html](https://mathjs.org/docs/index.html)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
