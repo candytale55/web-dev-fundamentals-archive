@@ -34,25 +34,25 @@ This project introduces React fundamentals such as reusable components, props ha
 
 1. Clone the repository:
 
-   ```bash
+```
    git clone https://github.com/estefaniacn/testimonios-freecodecamp.git
 ```
 
 2. Navigate to the folder:
 
-   ```bash
+   ```
    cd testimonios-freecodecamp
    ```
 
 3. Install dependencies:
 
-   ```bash
+   ```
    npm install
    ```
 
 4. Start the development server:
 
-   ```bash
+   ```
    npm start
    ```
 
