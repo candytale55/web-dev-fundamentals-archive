@@ -1,0 +1,99 @@
+/* Global reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* Add this for easier sizing */
+}
+
+html,
+body {
+  font-size: 18px;
+  background-color: #f5f6f7;
+  font-family: Lato, sans-serif;
+  /* Move font-family here for global use */
+}
+
+/* Headings */
+h1 {
+  max-width: 940px;
+  font-size: 2.5em;
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 40px 0;
+  padding: 0 1rem;
+  /* Add horizontal padding for small screens */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Root App container */
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* Stack vertically */
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Main content container */
+.contenedor-principal {
+  min-height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 940px;
+  width: 100%;
+  gap: 2rem;
+  /* spacing between testimonies */
+  padding: 0 1rem;
+}
+
+/* For small screens (mobile) */
+@media (max-width: 600px) {
+
+  html,
+  body {
+    font-size: 16px;
+    /* Slightly smaller font for mobile */
+  }
+
+  .contenedor-principal {
+    flex-direction: column;
+    min-height: auto;
+    /* Let height adjust */
+    gap: 1.5rem;
+  }
+
+  h1 {
+    font-size: 1.8em;
+  }
+}
+
+/* Tablet and above */
+@media (min-width: 601px) and (max-width: 900px) {
+  .contenedor-principal {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  h1 {
+    font-size: 2.2em;
+  }
+}
+
+/* Desktop */
+@media (min-width: 901px) {
+  .contenedor-principal {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+}
