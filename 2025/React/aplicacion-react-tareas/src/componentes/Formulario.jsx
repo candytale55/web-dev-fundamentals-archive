@@ -12,6 +12,8 @@ function Formulario(props) {
     };
 
     const manejarEnvio = e => { 
+        e.preventDefault();
+        console.log("enviando formulario");
         const tareaNueva = {
             id: '34545',
             texto: 'Hola'
@@ -19,7 +21,9 @@ function Formulario(props) {
     };
 
     return (
-        <form className='tarea-formulario'>
+        <form
+            className='tarea-formulario'
+            onSubmit={manejarEnvio}>
             <input
                 className='tarea-input'
                 type='text'
