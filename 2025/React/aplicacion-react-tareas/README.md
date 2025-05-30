@@ -75,7 +75,7 @@ This application serves as an introduction to React fundamentals, covering compo
    npm start
    ```
 
-5. Visit the app at: [http://localhost:3000](http://localhost:3000)
+5. Once the server is running, open http://localhost:3000 in your browser (this link only works locally on your machine).
 
 ---
 
