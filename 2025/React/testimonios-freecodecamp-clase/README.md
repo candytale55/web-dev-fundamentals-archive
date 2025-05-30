@@ -33,25 +33,25 @@ The logic and layout remain the same, but component definition now uses `class e
 
 1. Clone the class component version:
 
-   ```bash
+```
    git clone https://github.com/estefaniacn/testimonios-freecodecamp-clase.git
-````
+```
 
 2. Navigate to the folder:
 
-   ```bash
+   ``` 
    cd testimonios-freecodecamp-clase
    ```
 
 3. Install dependencies:
 
-   ```bash
+   ```
    npm install
    ```
 
 4. Start the development server:
 
-   ```bash
+   ```
    npm start
    ```
 
