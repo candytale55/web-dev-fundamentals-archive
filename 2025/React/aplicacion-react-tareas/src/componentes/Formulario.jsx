@@ -1,5 +1,6 @@
 import '../hojas-de-estilo/Formulario.css'
-import React, {useState} from 'react';
+import React, { useState } from 'react';
+import {v4 as uuidv4} from 'uuid'
 
 function Formulario(props) {
 
@@ -12,12 +13,16 @@ function Formulario(props) {
     };
 
     const manejarEnvio = e => { 
+        
         e.preventDefault();
         console.log("enviando formulario");
+
         const tareaNueva = {
-            id: '34545',
-            texto: 'Hola'
+            id: uuidv4(),
+            texto: input,
+            completada: false
         }
+        props.onSubmit(tareaNueva);
     };
 
     return (
