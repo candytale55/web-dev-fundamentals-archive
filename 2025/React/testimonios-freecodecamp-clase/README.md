@@ -55,7 +55,7 @@ The logic and layout remain the same, but component definition now uses `class e
    npm start
    ```
 
-5. Open your browser to [http://localhost:3000](http://localhost:3000)
+5. After installed, open your browser to [http://localhost:3000](http://localhost:3000)
 
 ---
 
