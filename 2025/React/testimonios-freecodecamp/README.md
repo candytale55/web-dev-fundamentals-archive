@@ -36,7 +36,7 @@ This project introduces React fundamentals such as reusable components, props ha
 
    ```bash
    git clone https://github.com/estefaniacn/testimonios-freecodecamp.git
-````
+```
 
 2. Navigate to the folder:
 
