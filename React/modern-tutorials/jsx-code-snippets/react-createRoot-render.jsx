@@ -22,3 +22,16 @@ Breakdown (Step,	Code,	What it does)
 import { createRoot } from "react-dom/client"
 const container = document.getElementById("root")     
 createRoot(document.getElementById("root")).render(<h1>Anything I want</h1>)
+
+
+
+// Another way:
+
+import { createRoot } from "react-dom/client"
+const root = createRoot(document.getElementById("root"))
+root.render(
+    <main> 
+        <img src="react-logo.png" />
+        <h1>This is another element</h1>
+    </main>
+)
