@@ -1,77 +1,102 @@
+# Contador de Clics – React Project (Class Components Version)
 
-# Contador de Clics – React Project
-
-> Proyecto 2 from the 2022 React Fundamentals course  
+> Proyecto 2 (Clase) from the 2022 React Fundamentals course  
 > Finished: **May 2025**  
-> Tutorial: https://youtu.be/6Jfk8ic3KVk?si=VELkHbJLNgoijYbg&t=10160
+> Tutorial: https://youtu.be/6Jfk8ic3KVk?si=NZyzVRJKZ0lfbVvx&t=27757
 
 ---
 
 ## About this project
 
-This React application implements a simple click counter with two interactive buttons: one to increment the count and another to reset it. It’s the second project in a series built during the freeCodeCamp React Fundamentals course on YouTube.
+This React application implements a simple click counter using **class-based components**. It is a reworked version of the functional project from the freeCodeCamp React Fundamentals course on YouTube. The interface includes two buttons — one to increment the click count and another to reset it — along with a live counter.
 
-The app introduces key concepts such as **React Hooks** (`useState`) for state management, **arrow functions** for event handling, and **destructuring** of props for clean, modular code. Although `import React from "react"` is no longer required in modern versions of React, it is included here as a best practice per the tutorial’s recommendations.
+Unlike the original version that used **functional components** with `useState`, this project refactors `App`, `Contador`, and `Boton` into **class components**, providing a hands-on look at traditional React practices such as using constructors, managing state with `this.state`, and event handling via class methods or arrow functions.
 
-The interface is styled using modular CSS files and is responsive to common screen sizes.
+In the `App` component, both **a class method** and **an arrow function** are used to handle events, illustrating two valid approaches to `this` binding in class components. Props are passed using **destructuring** for cleaner syntax. A modular `Logo` component was also added for better structure.
+
+The app is styled with component-based CSS and designed to work across screen sizes.
+
+---
+
+## Learning Highlights
+
+This project was built as a hands-on way to explore React **class components**, which are the predecessor to functional components with hooks. While modern React often prefers functions with `useState` and `useEffect`, understanding class-based components remains valuable for:
+
+- Reading and maintaining legacy codebases
+- Learning how `this.state`, `constructor`, and `setState()` work
+- Handling event binding with `this` and understanding scope
+- Comparing approaches: **arrow functions** vs. **bound methods** in event handlers
+- Reinforcing key React concepts like **props**, **state**, and **component hierarchy**
+
+By converting all major components from functional to class-based and mixing both binding methods (`bind()` and arrow functions), this project serves as a complete beginner-friendly example of class components in practice.
 
 ---
 
 ## Technologies and Versions
 
 - **React 18.x** — Frontend framework  
-- **JavaScript (ES6+)** — JSX, arrow functions, destructuring  
-- **CSS3** — Component-based styling, layout and visual feedback  
+- **JavaScript (ES6+)** — JSX, class syntax, destructuring  
+- **CSS3** — Modular styling and layout  
 - **Create React App (CRA)** — Project scaffolding (`npx create-react-app [folder-name]`)
 
 ---
 
 ## Features
 
-- React state managed using the `useState` hook  
-  - `numClics` is initialized to 0  
-  - The `manejarClic` function updates the count using `setNumClics(numClics + 1)`  
-  - The `reiniciarContador` function resets the count to zero  
-- Props are passed using ES6 destructuring in child components (`Contador`, `Boton`)  
-- Arrow functions are used for concise and predictable callback handling  
-- Semantic HTML with accessible image alt attributes  
-- Clean separation of concerns with dedicated component and style folders  
+- Class-based component structure (`App`, `Contador`, `Boton`)  
+- State managed via `this.state` and updated with `this.setState`  
+- Event handlers:
+  - `manejarClic`: implemented as an **arrow function** (auto-binds `this`)
+  - `reiniciarContador`: implemented as a **method** with manual `bind()` in constructor  
+- Props destructured in components for clarity  
+- Semantic HTML and accessibility best practices  
+- Modular `Logo` component  
+- Organized file structure and modular CSS
 
 ---
 
 ## Setup and Running
 
 1. Clone the repository:  
-   ```bash
-   git clone https://github.com/your-username/contador-de-clics.git
-```
+   ```
+   git clone https://github.com/your-username/contador-de-clics-clase.git
+   ```
 
 2. Navigate into the project folder:
 
-   ```bash
-   cd contador-de-clics
    ```
+   cd contador-de-clics-clase
+   ```
+
 3. Install dependencies:
 
-   ```bash
+   ```
    npm install
    ```
+
 4. Start the development server:
 
-   ```bash
+   ```
    npm start
    ```
+
 5. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
 ## Project Structure Overview
 
-* `/src/componentes` — React components: `Boton.jsx`, `Contador.jsx`
-* `/src/imagenes` — Static images and screenshots
-* `/src/hojas-de-estilo` — CSS files (`boton.css`, `contador.css`)
-* `/src/App.js` — Main component holding the application logic
-* `/src/index.js` — React entry point
+```
+/src
+├── App.js                    # Main application (class component)
+├── index.js                  # Entry point
+├── /componentes
+│   ├── Boton.jsx             # Button (class component)
+│   ├── Contador.jsx          # Counter (class component)
+│   └── Logo.jsx              # Reusable logo component
+├── /imagenes                 # Static images and screenshots
+└── /hojas-de-estilo          # CSS modules for each component
+```
 
 ---
 
@@ -79,10 +104,10 @@ The interface is styled using modular CSS files and is responsive to common scre
 
 In the project directory, you can run:
 
-* `npm start` — Runs the app in development mode
-* `npm run build` — Builds the app for production
-* `npm test` — Runs test watcher
-* `npm run eject` — Ejects CRA configs (advanced use only)
+* `npm start` — Launches development server
+* `npm run build` — Builds app for production
+* `npm test` — Runs tests
+* `npm run eject` — Ejects from CRA config (advanced use)
 
 More info: [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started)
 
@@ -105,15 +130,20 @@ More info: [Create React App documentation](https://facebook.github.io/create-re
 
 ## References
 
-* The exercise comes from the 2022 React tutorial:
-  [https://youtu.be/6Jfk8ic3KVk?si=VELkHbJLNgoijYbg\&t=10160](https://youtu.be/6Jfk8ic3KVk?si=VELkHbJLNgoijYbg&t=10160)
-* GitHub repository for Proyecto 2:
+* YouTube tutorial (class-based version):  
+  [https://youtu.be/6Jfk8ic3KVk?si=NZyzVRJKZ0lfbVvx&t=27757](https://youtu.be/6Jfk8ic3KVk?si=NZyzVRJKZ0lfbVvx&t=27757)
+
+* GitHub repository for Proyecto 2 (Clase):  
+  [https://github.com/estefaniacn/contador-de-clics-clase](https://github.com/estefaniacn/contador-de-clics-clase)
+
+* Original functional version:  
   [https://github.com/estefaniacn/contador-de-clics-freecodecamp](https://github.com/estefaniacn/contador-de-clics-freecodecamp)
-* **Note to self:** Used `npx create-react-app` to scaffold due to older tutorial context.
+
+* **Note to self:** Scaffolded with `npx create-react-app` per tutorial.
 
 ---
 
 ## Acknowledgements
 
-* Built while following the freeCodeCamp React Fundamentals curriculum
-* Thanks to freeCodeCamp and Estefanía C.N. for their excellent educational content
+* Built while following the freeCodeCamp React Fundamentals curriculum  
+* Thanks to freeCodeCamp and Estefanía C.N. for providing clear, hands-on learning material
