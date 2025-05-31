@@ -13,13 +13,13 @@ class App extends React.Component{
     this.state = {
       numClics: 0
     };
-    this.manejarClic = this.manejarClic.bind(this);
     this.reiniciarContador = this.reiniciarContador.bind(this);
   }
 
-  manejarClic() {
-    this.setState(({ numClics })=>({numClics: numClics + 1}));  
-  }
+
+ manejarClic = () => {
+    this.setState(({ numClics }) => ({ numClics: numClics + 1 }))
+  };
 
   reiniciarContador() {
     this.setState({ numClics : 0 });   
