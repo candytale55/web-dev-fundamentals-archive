@@ -113,6 +113,6 @@ That’s it! You should see the React Facts project running locally.
 ## 📺 Tutorial & Credits
 
 * **Course**: [Scrimba – Learn React for Free](https://github.com/scrimba/learn-react)
-* **Instructor**: [Bob Ziroll](https://scrimba.com/instructor/bobziroll)
+* **Instructor**: Bob Ziroll
 * **Video**: [React Facts Project – YouTube](https://youtu.be/x4rFhThSX04?si=QIQqXsR_Ebc2P6e2&t=6331)
 
