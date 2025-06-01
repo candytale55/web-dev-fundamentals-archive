@@ -1,26 +1,34 @@
 import { useState } from 'react'
-import reactLogo from './assets/react-logo.png'
-import { createApp } from 'react-dom/client'
 import './App.css'
-
+import Header from './components/Header'
+import MainContent from './components/MainContent'
+import Footer from './components/Footer'
 
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <main>
-      <img src={reactLogo} alt='React Logo' width="40px" />
-      <h1>Fun Facts about React</h1>
-      <ul>
-        <li>Was first released in 2013</li>
-        <li>Was originally created by Jordan Walker</li>
-        <li>Has well over 200k stars on GitHub</li>
-        <li>Is maintained by Meta</li>
-        <li>Powers thousands of enterprise apps, including mobile apps</li>
-      </ul>
-    </main>
+    <>
+      <Header />
+      <MainContent />
+      <Footer />
+    </>
   )
 }
 
 export default App
+
+
+/*
+
+            <h1>Why I Want to Learn React</h1>
+            <ol>
+                <li>Because it's a modern, powerful, and frankly cool tool to build interfaces</li>
+                <li>It boosts my employability — React is in high demand across the industry</li>
+                <li>Helps me build applications faster and more efficiently</li>
+                <li>It's a requirement for an exciting new job opportunity I'm preparing for</li>
+                <li>Honestly... I just wanted to! And that's reason enough</li>
+            </ol>
+        </>
+*/

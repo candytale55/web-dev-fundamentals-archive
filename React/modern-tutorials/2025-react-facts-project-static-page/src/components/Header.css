@@ -1,0 +1,22 @@
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo {
+    width: 55px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-list li {
+    padding: 0 .8em;
+    font-size: 1.1em;
+}
+
