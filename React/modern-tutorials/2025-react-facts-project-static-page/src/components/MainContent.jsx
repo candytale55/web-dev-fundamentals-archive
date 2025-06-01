@@ -5,7 +5,7 @@ function MainContent() {
     return (
         <main>
           <h1>Fun Facts about React</h1>
-          <ul className='react-facts-list'>
+          <ul className='facts-list'>
             <li>Was first released in 2013</li>
             <li>Was originally created by Jordan Walker</li>
             <li>Has well over 200k stars on GitHub</li>
@@ -17,3 +17,4 @@ function MainContent() {
 }
 
 export default MainContent;
+

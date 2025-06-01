@@ -1,16 +1,13 @@
-import reactLogo from '../assets/react-logo.png'
+import reactLogo from '../assets/images/react-logo.png'
 import './Header.css'
+
 
 function Header() {
     return (
         <header>
-            <img src={reactLogo} alt='React Logo' className='nav-logo' />
             <nav>
-                <ul className='nav-list'>
-                    <li>Pricing</li>
-                    <li>About</li>
-                    <li>Contact</li>
-                </ul>
+                <img src={reactLogo} alt='React Logo' className='nav-logo' />
+                <span>ReactFacts</span>
             </nav>
         </header>
     );

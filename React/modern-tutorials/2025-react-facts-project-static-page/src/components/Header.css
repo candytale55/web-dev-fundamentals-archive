@@ -1,22 +1,24 @@
 
+
+
 header {
+    height: 90px;
+    background-color: #212228;
+    padding: 30px 25px;
+}
+
+nav {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    height: 100%;
 }
 
-.nav-logo {
-    width: 55px;
+nav > img {
+    width: 40px;
+    margin-right: 7px;
 }
 
-.nav-list {
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly;
+nav > span {
+    color: #61DAFB;
+    font-size: 1.4rem;
 }
-
-.nav-list li {
-    padding: 0 .8em;
-    font-size: 1.1em;
-}
-

@@ -1,12 +1,31 @@
+
+
 main {
+  padding: 60px 30px;
+
+  background-image: url(../assets/images/react-logo-half.png);
+  background-repeat: no-repeat;
+  background-position: right 70%;
+}
+
+main > h1 {
+  margin: 0;
+  font-size: 2.4rem;
+}
+
+.facts-list {
+  margin-top: 40px;
+  max-width: 400px;
+}
+
+.facts-list > li {
+  padding-block: 10px;
+  line-height: 19px;
   text-align: left;
-  margin: 1em 0 2em;
 }
 
-h1 {
-  font-size: 2.5em;
-}
 
-.react-facts-list li {
-  
+.facts-list>li::marker {
+  color: #61DAFB;
+  font-size: 1.8rem;
 }
