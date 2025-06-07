@@ -23,6 +23,10 @@ Built for learning purposes.
 
 ---
 
+## Screenshot
+
+![Storytelling App Screenshot](scsh-01.png)
+
 ## How to Run
 
 1. Download the files.
