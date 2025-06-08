@@ -12,20 +12,70 @@ import BotonClear from './componentes/BotonClear';
 function App() {
 
   const [input, setInput] = useState('');
+  const operators = ['+', '-', '*', '/', '%', '^'];
+ 
   
-  const agregarInput = (val) => {
-    setInput(input + val);
+  // Ensures valid operator input: replaces consecutive operators, but allows '-' for negative numbers.
+  function sanitizeOperatorInput(currentInput, newInput) {
+    const lastChar = currentInput.slice(-1);
+    if (operators.includes(lastChar)) {
+      // Allow - after another operator for negative numbers
+      if (newInput === '-' && lastChar !== '-') {
+        return currentInput + newInput;
+      }
+      // Replace last operator (avoid ++, +*, etc.)
+      return currentInput.slice(0, -1) + newInput;
+    }
+    return currentInput + newInput;
   }
 
 
+  // Checks if a decimal can be added by ensuring the current number segment has no existing decimal point.
+  function canAddDecimal(currentInput) {
+    const parts = currentInput.split(/[\+\-\*\/]/) // Split into segments between operators
+    const lastNumber = parts[parts.length - 1];
+    return !lastNumber.includes('.')
+  }
 
+  // Prevents multiple leading zeros by removing the last zero if the current number segment is exactly '0'
+  function sanitizeZeroInput(currentInput) {
+    const parts = currentInput.split(/[\+\-\*\/]/);
+    const last = parts[parts.length - 1];
+    if (last === '0') {
+      return currentInput.slice(0, -1); // remove last zero
+    }
+    return currentInput;
+  }
+
+
+  const agregarInput = (val) => {
+    
+    if (val === '.') {
+      // Prevent adding multiple decimals in the same number segment
+      if (!canAddDecimal(input)) return;
+    }
+
+    if (val === '0') {
+      // Avoid multiple leading zeroes like '00'
+      setInput(sanitizeZeroInput(input) + val);
+      return;
+    }
+
+    if (operators.includes(val)) {
+      // Prevent invalid sequences like ++ or *+ by sanitizing operator input
+      setInput(sanitizeOperatorInput(input, val));
+    } else {
+      // Append valid numbers or characters to the input
+      setInput(input + val);
+    }
+  }
 
 
 
   const calcularResultado = () => {
 
     if (input){
-      setInput(evaluate(input));
+      setInput(evaluate(input).toString());
     } else {
       alert('Introduzca un valor para realizar los cálculos');
     }
@@ -33,7 +83,7 @@ function App() {
 
   return (
     <div className="App">
-      
+
       <Logo />
 
 
