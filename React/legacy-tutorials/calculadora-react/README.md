@@ -1,5 +1,18 @@
-
 # React Calculator – FreeCodeCamp Project
+
+## Calculator (Legacy)
+
+**⚠️ This project is no longer maintained.  
+[A new, modern version is available here](https://github.com/candytale55/calculator-vite)
+
+
+---
+
+## New Modern Version
+
+Check out the new, modern calculator built with Vite!  
+Enjoy faster builds and a streamlined development experience.  
+[https://github.com/candytale55/calculator-vite](https://github.com/candytale55/calculator-vite)
 
 ---
 
@@ -44,14 +57,10 @@ While the project includes a mix of styles, syntaxes, and structural decisions, 
 ## Known Issues / TODOs
 
 - ~~The calculator UI may be **pushed out of the viewport** due to logo positioning and lack of responsive height control~~ (fixed)  
-- Clicking the `=` button multiple times after a valid result causes a runtime error from `mathjs`:
-
-```bash
-  Unexpected type of argument in function evaluate (expected: string or Array or Matrix or boolean, actual: number, index: 0)
-```
-
-* `evaluate()` expects a string input, but receives a number. Type coercion or guarding logic is required.
-* Consider modularizing the logic into a dedicated `<Calculadora />` component for improved scalability
+- ~~Clicking the `=` button multiple times after a valid result causes a runtime error from `mathjs`~~ (fixed)  
+- ~~Unexpected type of argument in function evaluate (expected: string or Array or Matrix or boolean, actual: number, index: 0)~~ (fixed)
+- ~~`evaluate()` expects a string input, but receives a number. Type coercion or guarding logic is required.~~ (fixed)
+- ~~Consider modularizing the logic into a dedicated `<Calculadora />` component for improved scalability~~ (The new modern version includes this feature)
 
 ---
 
@@ -127,7 +136,6 @@ In the project directory, you can run:
 * `npm start` — Run the app in development mode
 * `npm run build` — Create an optimized production build
 * `npm test` — Run tests (if configured)
-* `npm run eject` — Ejects CRA settings (advanced use only)
 
 More info: [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started)
 
