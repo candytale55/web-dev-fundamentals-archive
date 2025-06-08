@@ -1,18 +1,26 @@
+import { useState } from 'react';
+import { evaluate } from 'mathjs';
+
 import './App.css';
-import freeCodeCampLogo from './imagenes/freecodecamp-logo.png';
+
+import Logo from './componentes/Logo';
 import Boton from './componentes/Boton';
 import Pantalla from './componentes/Pantalla';
 import BotonClear from './componentes/BotonClear';
-import { useState } from 'react';
-import { evaluate } from 'mathjs';
+
 
 function App() {
 
   const [input, setInput] = useState('');
-
+  
   const agregarInput = (val) => {
     setInput(input + val);
   }
+
+
+
+
+
 
   const calcularResultado = () => {
 
@@ -25,12 +33,8 @@ function App() {
 
   return (
     <div className="App">
-      <div className='freecodecamp-logo-contenedor'>
-        <img
-          src={freeCodeCampLogo}
-          className='freecodecamp-logo'
-          alt='Logo de freeCodeCamp' />
-      </div>
+      
+      <Logo />
 
 
       <div className='contenedor-calculadora'>
