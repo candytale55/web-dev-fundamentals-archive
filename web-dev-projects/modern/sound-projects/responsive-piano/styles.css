@@ -1,0 +1,96 @@
+/* Apply border-box model to all elements */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+/* Main piano container */
+#piano {
+    background-color: #00471b;
+    /* Dark green background */
+    width: 992px;
+    height: 290px;
+    margin: 80px auto;
+    /* Center horizontally with top margin */
+    padding: 90px 20px 0 20px;
+    /* Padding on all sides except bottom */
+    position: relative;
+    /* Needed for positioning child elements absolutely */
+    border-radius: 10px;
+}
+
+/* Wrapper for all keys */
+.keys {
+    background-color: #040404;
+    /* Very dark background behind the keys */
+    width: 949px;
+    height: 180px;
+    padding-left: 2px;
+    overflow: hidden;
+    /* Prevent black keys from overflowing */
+}
+
+/* White keys */
+.key {
+    background-color: #ffffff;
+    /* White key color */
+    position: relative;
+    width: 41px;
+    height: 175px;
+    margin: 2px;
+    float: left;
+    /* Arrange keys side by side */
+    border-radius: 0 0 3px 3px;
+    /* Rounded bottom corners */
+}
+
+/* Black keys (using pseudo-element to overlay them on top of white keys) */
+.key.black--key::after {
+    background-color: #1d1e22;
+    /* Black key color */
+    content: "";
+    position: absolute;
+    left: -18px;
+    /* Shifted left to sit between white keys */
+    width: 32px;
+    height: 100px;
+    border-radius: 0 0 3px 3px;
+}
+
+/* FreeCodeCamp logo styling */
+.logo {
+    width: 200px;
+    position: absolute;
+    top: 23px;
+}
+
+/* Responsive design for tablets and smaller screens */
+@media (max-width: 768px) {
+    #piano {
+        width: 358px;
+    }
+
+    .keys {
+        width: 318px;
+    }
+
+    .logo {
+        width: 150px;
+    }
+}
+
+/* Responsive design for medium-sized screens */
+@media (max-width: 1199px) and (min-width: 769px) {
+    #piano {
+        width: 675px
+    }
+
+    .keys {
+        width: 633px;
+    }
+}
