@@ -1,0 +1,124 @@
+/* Apply border-box to all elements for consistent sizing */
+* {
+    box-sizing: border-box;
+}
+
+/* Root font size (used for rem units) */
+html {
+    font-size: 16px;
+}
+
+/* Body uses imported font */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Main label styling */
+.label {
+    border: 2px solid black;
+    width: 270px;
+    margin: 20px auto;
+    padding: 0 7px;
+}
+
+/* Header title styling */
+header h1 {
+    text-align: center;
+    margin: -4px 0;
+    letter-spacing: 0.15px;
+}
+
+/* Base paragraph styles — flex for spacing between label and value */
+p {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Divider line between sections */
+.divider {
+    border-bottom: 1px solid #888989;
+    margin: 2px 0;
+}
+
+/* Bold text shortcut */
+.bold {
+    font-weight: 800;
+}
+
+/* Thick black bar separator */
+.large {
+    height: 10px;
+}
+
+/* Shared styles for thick and medium bars */
+.large,
+.medium {
+    background-color: black;
+    border: 0;
+}
+
+/* Medium black bar */
+.medium {
+    height: 5px;
+}
+
+/* Slightly smaller text (13.6px) */
+.small-text {
+    font-size: 0.85rem;
+}
+
+/* Calorie section layout */
+.calories-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+/* Remove margin from h2 for tight layout */
+.calories-info h2 {
+    margin: 0;
+}
+
+/* Left side (Calories label) styling */
+.left-container p {
+    margin: -5px -2px;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+/* Calorie number styling */
+.calories-info span {
+    margin: -7px -2px;
+    font-size: 2.4em;
+    font-weight: 700;
+}
+
+/* Align text to the right side */
+.right {
+    justify-content: flex-end;
+}
+
+/* Indented paragraphs (e.g. sub-items) */
+.indent {
+    margin-left: 1em;
+}
+
+/* Double-indent for more detailed items */
+.double-indent {
+    margin-left: 2em;
+}
+
+/* Divider rule for daily value items, except those with no-divider */
+.daily-value p:not(.no-divider) {
+    border-bottom: 1px solid #888989;
+}
+
+/* Footnote text styling */
+.note {
+    font-size: 0.6rem;
+    margin: 5px 0;
+    padding: 0 8px;
+    text-indent: -8px;
+    /* Hanging indent for small print */
+}

@@ -1,0 +1,68 @@
+/* Universal selector: Applies box-sizing to all elements to ensure padding and borders are included in the element's total width and height */
+* {
+    box-sizing: border-box;
+}
+
+/* Body styles: Set margin to 0, apply a sans-serif font, and set a light background color for the page */
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: #f5f6f7;
+}
+
+/* Header styling: Centers text, applies uppercase letters, and adds padding, background color, and border */
+.header {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 32px;
+    background-color: #0a0a23;
+    /* Dark background color */
+    color: #fff;
+    /* White text color */
+    border-bottom: 4px solid #fdb347;
+    /* Border with orange color below header */
+}
+
+/* Gallery container styling: Using flexbox to create a responsive grid layout for images */
+.gallery {
+    display: flex;
+    /* Use flexbox layout */
+    flex-direction: row;
+    /* Arrange images in rows */
+    flex-wrap: wrap;
+    /* Allow images to wrap onto new rows when needed */
+    justify-content: center;
+    /* Center images horizontally within the container */
+    align-items: center;
+    /* Center images vertically within the container */
+    gap: 16px;
+    /* Add gap between images */
+    max-width: 1400px;
+    /* Set max width of the gallery */
+    margin: 0 auto;
+    /* Center the gallery container */
+    padding: 20px 10px;
+    /* Add padding around the gallery */
+}
+
+/* Styling for images inside the gallery: Ensuring all images are responsive and fit within the layout */
+.gallery img {
+    width: 100%;
+    /* Make the image take up 100% of its container's width */
+    max-width: 350px;
+    /* Set a maximum width of 350px for each image */
+    height: 300px;
+    /* Set the height of each image */
+    object-fit: cover;
+    /* Ensure the image covers the area without distorting */
+    border-radius: 10px;
+    /* Add rounded corners to the images */
+}
+
+/* ::after pseudo-element: This creates an invisible element that forces the last image to align properly */
+.gallery::after {
+    content: "";
+    /* Creates an empty pseudo-element */
+    width: 350px;
+    /* Set the same width as the images to ensure proper layout */
+}
