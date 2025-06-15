@@ -1,0 +1,67 @@
+/* Reset margin and padding on all elements and set box-sizing for predictable sizing */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Define color variables for consistent styling */
+:root {
+  --dark-grey: #0a0a23;
+  --white: #ffffff;
+  --yellow: #f1be32;
+}
+
+/* Set background and text color for the entire body */
+body {
+  background-color: var(--dark-grey);
+  color: var(--white);
+}
+
+/* Center the main heading and add spacing above */
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Style the select dropdown: block display, centered horizontally, and padding */
+.select-container {
+  display: block;
+  margin: 25px auto;
+  padding: 8px;
+  border: 4px solid var(--white);
+  border-radius: 4px;
+  width: 200px;
+}
+
+/* Container for product cards: flex layout in column by default,
+   centered alignment, with spacing (gap) between cards */
+.products-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+/* Responsive breakpoint: when viewport width is at least 760px,
+   switch layout to row for better use of horizontal space */
+@media (min-width: 760px) {
+  .products-container {
+    flex-direction: row;
+  }
+}
+
+/* Individual product card styling */
+.card {
+  background-color: var(--white);
+  color: var(--dark-grey);
+  border: 4px solid var(--yellow);
+  border-radius: 5px;
+  padding: 10px;
+  width: 200px;
+  /* fixed width for consistent sizing */
+}
