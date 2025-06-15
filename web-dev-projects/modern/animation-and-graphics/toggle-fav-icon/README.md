@@ -69,9 +69,9 @@ favorite-icon-toggler/
 
 ## Screenshots
 
-| Initial View                      | After Clicking a Heart                 | Hover Effect                    |
+| Initial View                      | Hover Effect                  | After Clicking a Heart                   |
 | --------------------------------- | -------------------------------------- | ------------------------------- |
-| ![Initial](img/screenshot-01.png) | ![Filled Heart](img/screenshot-02.png) | ![Hover](img/screenshot-03.png) |
+| ![Initial](img/screenshot-01.png) | ![Hover](img/screenshot-02.png) | ![Filled Heart](img/screenshot-03.png) |
 
 ---
 
