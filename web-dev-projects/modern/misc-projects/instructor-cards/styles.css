@@ -1,0 +1,84 @@
+/* Reset styles and apply box-sizing globally */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Define color variables for consistent theming */
+:root {
+    --main-bg-color: #1b1b32;
+    --light-grey: #f5f6f7;
+    --dark-purple: #5a01a7;
+    --golden-yellow: #feac32;
+}
+
+/* Apply base styles to the body */
+body {
+    background-color: var(--main-bg-color);
+    text-align: center;
+}
+
+/* Style for main title */
+.title {
+    color: var(--light-grey);
+    margin: 20px 0;
+}
+
+/* Flex container for author cards */
+#author-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Style for each author card */
+.user-card {
+    border-radius: 15px;
+    width: 300px;
+    height: 350px;
+    background-color: var(--light-grey);
+    margin: 20px;
+}
+
+/* Style for author image */
+.user-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+/* Visual divider under the image */
+.purple-divider {
+    background-color: var(--dark-purple);
+    width: 100%;
+    height: 15px;
+}
+
+/* Author name styling */
+.author-name {
+    margin: 10px;
+}
+
+/* Bio text styling */
+.bio {
+    margin: 20px;
+}
+
+/* Error message styling */
+.error-msg {
+    color: var(--light-grey);
+}
+
+/* Load More button styling */
+.btn {
+    cursor: pointer;
+    width: 200px;
+    margin: 10px;
+    color: var(--main-bg-color);
+    font-size: 14px;
+    background-color: var(--golden-yellow);
+    background-image: linear-gradient(#fecc4c, #ffac33);
+    border-color: var(--golden-yellow);
+    border-width: 3px;
+}
