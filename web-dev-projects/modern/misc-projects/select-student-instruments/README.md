@@ -66,9 +66,10 @@ This project was created as a practice exercise to understand how to work with `
 
 ## Screenshots
 
-| All Instruments             | Woodwinds                   | Percussion                  |
-| --------------------------- | --------------------------- | --------------------------- |
-| ![](img/screenshot-001.png) | ![](img/screenshot-002.png) | ![](img/screenshot-003.png) |
+| All Instruments                                 | Woodwinds                                       | Percussion                                      |
+| ----------------------------------------------- | ----------------------------------------------- | ----------------------------------------------- |
+| <img src="img/screenshot-001.png" width="250"/> | <img src="img/screenshot-002.png" width="250"/> | <img src="img/screenshot-003.png" width="250"/> |
+
 
 ---
 
