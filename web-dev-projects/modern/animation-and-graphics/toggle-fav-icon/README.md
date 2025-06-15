@@ -80,10 +80,15 @@ favorite-icon-toggler/
 | Concept              | Description                                                       |
 | -------------------- | ----------------------------------------------------------------- |
 | `querySelectorAll()` | Selects all heart buttons to attach event listeners               |
-| `addEventListener()` | Listens for click events to toggle the heart icon                 |
-| `classList.toggle()` | Adds or removes the `filled` class to change heart appearance     |
+| `addEventListener()`                 | Registers click events on each heart button                  |
+| Event object (`event.currentTarget`) | Identifies the exact button clicked within the event handler |
+| `classList.contains()`               | Checks if the button has the `filled` class                  |
+| `classList.add()` / `remove()`       | Adds or removes the `filled` class to toggle appearance      |
 | `innerHTML`          | Changes the symbol from empty heart (♡) to filled heart (❤)       |
-| Conditional logic    | Checks whether the icon is already filled and updates accordingly |
+
+> **Note:** There was a previous version of the script using anonymous functions for event listeners.  
+> You can review the earlier implementation [here](https://github.com/candytale55/web-dev-fundamentals-archive/commit/e808e4484ff42db12fc80cdbf96be4afdcc7a52c#diff-11b6d80dbc15e78be41125d793e156b64375696407270225285e503717a2bf34).
+
 
 ---
 
