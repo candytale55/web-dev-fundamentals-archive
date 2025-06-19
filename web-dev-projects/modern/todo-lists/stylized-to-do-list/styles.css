@@ -1,0 +1,99 @@
+/* Global reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f9f9;
+  color: #333;
+  padding: 2rem;
+  line-height: 1.6;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1em;
+}
+/* Main list */
+.todo-list {
+  list-style: none;
+  max-width: 600px;
+  margin: auto;
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+}
+
+.todo-list li {
+  margin-bottom: 1.5rem;
+}
+
+/* Checkboxes and labels */
+input[type="checkbox"] {
+  transform: scale(1.2);
+  margin-right: 0.75rem;
+  cursor: pointer;
+}
+
+label {
+  font-weight: 600;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+/* Subtask list */
+.sub-item {
+  margin-top: 0.5rem;
+  margin-left: 2rem;
+  list-style: disc;
+}
+
+/* Anchor styles (subtasks) */
+a.sub-item-link {
+  text-decoration: none;
+  color: #2a7ae2; /* Link blue */
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+a.sub-item-link:hover {
+  color: #f97316; /* Orange for hover */
+}
+
+a.sub-item-link:active {
+  color: #e11d48; /* Deep pink on click */
+}
+
+a.sub-item-link:visited {
+  color: #7c3aed; /* Violet for visited links */
+}
+
+a.sub-item-link:focus {
+  outline: 3px solid #facc15; /* Bright yellow focus ring */
+  border-radius: 4px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  body {
+    padding: 1rem;
+  }
+
+  .todo-list {
+    padding: 1rem;
+  }
+
+  label {
+    font-size: 1rem;
+  }
+
+  a.sub-item-link {
+    display: inline-block;
+    word-break: break-word;
+  }
+}
