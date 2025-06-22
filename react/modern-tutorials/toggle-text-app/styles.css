@@ -1,0 +1,41 @@
+/* Apply base styling to the entire page */
+body {
+  font-family: Arial, sans-serif;        /* Use Arial as the default font */
+  display: flex;                         /* Enable Flexbox layout */
+  justify-content: center;              /* Center horizontally */
+  align-items: center;                  /* Center vertically */
+  height: 100vh;                         /* Set height to full viewport */
+  background-color: #f4f4f4;             /* Light gray background */
+}
+
+/* Container that holds the toggle button and message */
+#toggle-container {
+  text-align: center;                    /* Center the text inside the container */
+  background: white;                     /* White background */
+  padding: 20px;                         /* Add space inside the container */
+  border-radius: 10px;                   /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);/* Subtle shadow for depth */
+}
+
+/* Style for the toggle button */
+#toggle-button {
+  padding: 10px 20px;                    /* Padding inside the button */
+  border: none;                          /* Remove default border */
+  background: #007BFF;                   /* Bootstrap blue background */
+  color: white;                          /* White text color */
+  border-radius: 5px;                    /* Slightly rounded corners */
+  cursor: pointer;                       /* Pointer cursor on hover */
+  transition: background 0.3s ease;      /* Smooth background color transition */
+}
+
+/* Button hover effect */
+#toggle-button:hover {
+  background: #0056b3;                   /* Darker blue when hovering */
+}
+
+/* Style for the message paragraph */
+#message {
+  margin-top: 20px;                      /* Space above the message */
+  font-size: 1.125rem;                   /* Slightly larger text */
+  color: #333;                           /* Dark gray text color */
+}
