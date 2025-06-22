@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- Sets the language of the document for screen readers and browsers -->
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Review</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+
+
+    <header role="banner">
+        <!-- Could contain site branding or navigation -->
+        <h1>Vampattack!</h1>
+        <!-- Skip to main content link for keyboard users -->
+        <a href="#main" class="skip-link">Skip to main content</a>
+    </header>
+
+    <main id="main"> <!-- Main landmark region for screen readers -->
+
+
+
+        <!-- Descriptive alt text provides meaningful context for screen reader users -->
+        <img src="./img/vampattack-poster.jpg"
+            alt="Poster for Vampattack! showing vampires swarming toward two steampunk vampire hunters" />
+
+        <p>
+            <strong>Vampattack!</strong> is a pulse-pounding action-romance set in a gritty, steampunk world overrun by
+            bloodthirsty vampires. As the undead swarm from the shadows, a fearless couple of rogue vampire hunters
+            stand their ground—armed with gears, grit, and a forbidden love. With danger closing in and sparks flying,
+            <em>Vampattack!</em> delivers stylish combat, smoldering chemistry, and gothic thrills in every frame.
+        </p>
+
+        <!-- aria-label describes the star rating for screen readers -->
+        <p>
+            <strong>Movie Rating:</strong>
+            <span role="img" aria-label="9.2 out of 10 stars">⭐⭐⭐⭐⭐⭐⭐⭐⭐☆</span> (9.2/10)      
+        </p>
+
+        <h2>Cast Members</h2>
+
+        <ul>
+            <li><strong>Brock Steelejaw</strong> as Captain Gideon Gearhart</li>
+            <li><strong>Velvet Bloodrose</strong> as Lady Seraphina Nightwhisper</li>
+            <li><strong>Chaz Thunderbiscuit</strong> as Dr. Ignatius Fangbane</li>
+            <li><strong>Luna Von Crunch</strong> as Countess Vileena of the Blood Court</li>
+            <li><strong>Dirk Sprocket</strong> as Jasper “Sprock” McSteam</li>
+            <li><strong>Mister Snuffles</strong> as Bark Helsing, the Vampire-Hunting Dog</li>
+        </ul>
+
+    </main>
+
+    <footer role="contentinfo">
+        <!-- Footer content could go here -->
+    </footer>
+
+</body>
+
+</html>
