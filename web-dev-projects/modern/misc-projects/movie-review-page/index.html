@@ -4,33 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Movie Review</title>
-    <style>
-      /* Skip link is visually hidden but appears on keyboard focus */
-      .skip-link {
-        position: absolute;
-        left: -999px;
-        top: auto;
-        width: 1px;
-        height: 1px;
-        overflow: hidden;
-        z-index: 100;
-      }
-      .skip-link:focus {
-        position: static;
-        width: auto;
-        height: auto;
-        padding: 8px;
-        background: #007BFF;
-        color: white;
-        text-decoration: none;
-        font-weight: bold;
-      }
-      /* Focus outline for keyboard users */
-      a:focus, button:focus {
-        outline: 3px solid #0056b3;
-        outline-offset: 2px;
-      }
-    </style>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
 
@@ -47,7 +21,7 @@
 
     <!-- Descriptive alt text provides meaningful context for screen reader users -->
     <img
-      src="https://cdn.freecodecamp.org/curriculum/labs/rise-beyond-2.png"
+      src="./img/vampattack-poster.jpg"
       alt="Poster for Vampattack! showing vampires swarming toward two steampunk vampire hunters"
     />
 
