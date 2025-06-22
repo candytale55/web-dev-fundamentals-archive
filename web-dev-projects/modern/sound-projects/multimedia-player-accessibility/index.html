@@ -2,44 +2,102 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Multimedia Player</title>
-    <link rel="stylesheet" href="./styles.css">
+    <!-- Meta charset ensures proper character encoding -->
+    <meta charset="UTF-8" />
+
+    <!-- Responsive scaling for mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Page title shown in browser tab -->
+    <title>Clockwork Serenade - Multimedia Player</title>
+
+    <!-- External stylesheet for layout and design (optional) -->
+    <link rel="stylesheet" href="./styles.css" />
 </head>
 
 <body>
-    <h1>Multimedia Player</h1>
+    <!-- Main heading for the page -->
+    <h1>Clockwork Serenade: Multimedia Showcase</h1>
 
+    <!-- Audio section begins -->
     <section>
-        <h2>Steampunk Dance</h2>
-        <audio controls aria-label="audio-file"
-            src="https://cdn.freecodecamp.org/curriculum/js-music-player/sailing-away.mp3" **>**
-            <!-- ❌ MISTAKE: You're using the `src` directly on <audio>. It needs a <source> inside instead -->
-            **</audio>**
+        <h2>"Brass & Gears" – Audio Track</h2>
+
+        <!-- Audio player element with controls -->
+        <!-- aria-label provides a descriptive label for screen readers -->
+        <audio controls aria-label="Brass and Gears by The Chrono Nocturnes">
+            <!-- Source element specifying the file and its MIME type -->
+            <source src="https://cdn.freecodecamp.org/curriculum/js-music-player/sailing-away.mp3" type="audio/mp3" />
+            <!-- Fallback text for browsers that don't support audio -->
+            Your browser does not support the audio element.
+        </audio>
+
+        <!-- Descriptive metadata for users and screen readers -->
+        <p><strong>Artist:</strong> The Chrono Nocturnes</p>
+        <p><strong>Genre:</strong> Steampunk Waltz-Fusion</p>
+        <p>
+            <em>“Brass & Gears”</em> captures the clanking rhythm of clock towers and the melancholic melody of airship
+            horns drifting over the Victorian skyline.
+        </p>
     </section>
 
+    <!-- Video section begins -->
     <section>
-        <h2>Steampunk Dance</h2>
-        <video controls **>** <!-- ❌ MISTAKE: Missing required `width` attribute -->
-            <track src="subtitles.vtt" kind="subtitles" srclang="en" label="English">
-            <!-- ✅ Valid track, but real file should exist or be correctly linked -->
-            <source src="https://cdn.freecodecamp.org/curriculum/labs/What is the map method and how does it work.mp4"
+        <h2>"Midnight Revolutions" – Live Dance Video</h2>
+
+        <!-- Video element with fixed width and playback controls -->
+        <video controls width="640">
+            <!-- Video source file and type -->
+            <source
+                src="./img/video-steampunk-dancers.mp4"
                 type="video/mp4" />
+
+            <!-- Subtitles track for accessibility -->
+            <!-- kind="subtitles" indicates this is for spoken content -->
+            <!-- srclang="en" identifies the subtitle language -->
+            <!-- label="English" used by screen readers and visible in UI -->
+            <!-- default makes this track selected by default -->
+            <track
+                src="https://cdn.freecodecamp.org/curriculum/labs/What%20is%20the%20map%20method%20and%20how%20does%20it%20work.vtt"
+                kind="subtitles" srclang="en" label="English" default />
+
+            <!-- Fallback message if video isn't supported -->
             Your browser does not support the video tag.
-            **
-        </video>**
+        </video>
+
+        <!-- Descriptive text for context -->
+        <p><strong>Performance:</strong> The Chrono Nocturnes dance troupe performing in front of King George's
+            statue in Marquetsquare Plaza.</p>
+        <p><em>“Midnight Revolutions”</em> is an energetic fusion of mechanical rhythm and Victorian pageantry,
+            featuring synchronized moves under gaslight lanterns.</p>
     </section>
 
+    <!-- Transcript section for users who cannot access audio/video -->
     <section>
-        <audio controls aria-label="audio-file"
-            src="https://cdn.freecodecamp.org/curriculum/js-music-player/sailing-away.mp3" type="audio/mp3" **>**
-            <!-- ❌ Again, using `src` directly on <audio> instead of using a <source> inside -->
-            **</audio>**
-        <h2>Transcript</h2>
-        <p>This is the transcript of the video</p>
-    </section>
+        <h2>Video Transcript</h2>
 
+        <!-- Repeat of the audio track (could be omitted if redundant) -->
+        <!-- Still includes an aria-label for clarity -->
+        <audio controls aria-label="Midnight Revolutions by The Chrono Nocturnes">
+            <source src="https://cdn.freecodecamp.org/curriculum/js-music-player/sailing-away.mp3" type="audio/mp3" />
+            Your browser does not support the audio element.
+        </audio>
+
+        <!-- Text transcript of the video for accessibility -->
+        <!-- Useful for screen reader users, search indexing, and low-bandwidth users -->
+        <p>
+            [Music begins: ticking clockwork, followed by rising violins]
+            <br />
+            Narrator (voiceover): "In the heart of Marketsquare Plaza, where iron hooves once galloped and gears turned
+            dreams into motion, a dance unfolds. Cloaked in steam and velvet, the Chrono Nocturnes bring to life the
+            poetry of revolution and rhythm."
+            <br /><br />
+            [Dance steps echo, gears whirring in tempo]
+            <br />
+            Narrator: "Each movement is a tribute to time — precise, bold, and fleeting. Watch as the dancers spiral
+            beneath King George's gaze, in defiance of rust and ruin."
+        </p>
+    </section>
 </body>
 
 </html>
