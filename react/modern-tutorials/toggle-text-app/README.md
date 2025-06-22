@@ -95,5 +95,3 @@ This project was designed to help React beginners:
 * Built as part of [freeCodeCamp's Full Stack Developer Workshop](https://www.freecodecamp.org/learn/full-stack-developer/workshop-toggle-text-app/step-1)
 * Thanks to the open-source contributors behind freeCodeCamp
 
-```
-```
