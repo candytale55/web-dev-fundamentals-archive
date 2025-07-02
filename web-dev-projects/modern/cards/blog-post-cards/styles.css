@@ -1,0 +1,59 @@
+/* General reset and dark background */
+body {
+  box-sizing: border-box; /* Ensures padding/border don't add to element's width */
+  margin: 0;
+  padding: 20px;
+  background-color: #1B263B; /* Deep space blue background for modern feel */
+}
+
+/* Card container styling */
+.blog-post-card {
+  display: flex;
+  flex-direction: column; /* Stack image and content vertically */
+  background-color: white;
+  width: 285px;
+  text-align: center;
+  border-radius: 5px; /* Rounded corners */
+  padding-bottom: 1.5em; /* Space below content */
+}
+
+/* Image styling */
+.post-img {
+  width: 100%; /* Take full width of card */
+  display: block; /* Remove extra space under image */
+  border-radius: 5px 5px 0 0; /* Rounded top corners only */
+  object-fit: cover; /* Crop to fit while preserving aspect ratio */
+  border-bottom: 5px solid #708090; /* Subtle border separator using SlateGray */
+}
+
+/* Padding around the card's text content */
+.post-content {
+  padding: 0.5em 1em;
+}
+
+/* Title styling */
+.post-title {
+  color: #4A56E2; /* Bold blue-violet tone for modern contrast */
+}
+
+/* Excerpt paragraph styling */
+.post-excerpt {
+  color: #555555; /* Medium gray for good readability */
+  padding-bottom: 2em; /* Space above Read More link */
+}
+
+/* Read More button styles */
+.read-more {
+  display: inline-block;
+  color: white;
+  background-color: #2C3E50; /* Dark blue-gray */
+  margin: 0.5em;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  text-decoration: none; /* Remove underline */
+}
+
+/* Hover effect for the Read More button */
+.read-more:hover {
+  background-color: #2ECC71; /* Fresh green on hover */
+}
