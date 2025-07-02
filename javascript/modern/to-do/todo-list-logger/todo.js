@@ -7,7 +7,8 @@ const addTask = (task) => {
 
 const removeTask = (task) => {
     if (todoList.includes(task)) {
-        todoList.splice(todoList.findIndex((e) => e === task), 1);
+        const index = todoList.indexOf(task);
+        todoList.splice(index, 1);
         console.log(`Task "${task}" removed. ${todoList.length} tasks remaining`);
     }
     else {
@@ -35,5 +36,4 @@ removeTask("Buy milk");
 
 removeTask("Do taxes");
 // logs: Task "Do taxes" not found.
-
 
