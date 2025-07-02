@@ -65,7 +65,7 @@ No server or build tools needed — just open the file locally.
 
 | Wide Screen                    | Tablet / Small Screen           | Mobile / Very Small Screen     |
 | ------------------------------ | ------------------------------- | ------------------------------ |
-| ![Wide View](img/scsh-001.jpg) | ![Small View](img/scsh-002.jpg) | ![Tiny View](img/scsh-003.jpg) |
+| ![Wide View](img/scsh-001.JPG) | ![Small View](img/scsh-002.JPG) | ![Tiny View](img/scsh-003.JPG) |
 
 ---
 
