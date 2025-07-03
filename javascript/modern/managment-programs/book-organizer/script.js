@@ -74,7 +74,7 @@ const filterBooksByYear = (year, array) => {
   
   return array
     .filter((e)=> e.releaseYear >= year)
-    .sort((a,b)=>a.releaseYear - b.releaseYear);
+    .sort(sortByYear);
   
   // filter out books written after a certain year such as 1950 from the books array and save the filtered array in a new array named filteredBooks
   // You should sort the books in the filteredBooks array according to their releaseYear in ascending order. 
