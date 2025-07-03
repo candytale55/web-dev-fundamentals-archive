@@ -1,3 +1,4 @@
+// Define an array of book objects, each with a title, authorName, and releaseYear
 const books = [
   {
     title: "Go the F**k to Sleep",
@@ -51,45 +52,48 @@ const books = [
   },
 ];
 
-
+// Define a callback function to compare books by their releaseYear
 const sortByYear = (book1, book2) => {
-  
-  if (book1.releaseYear < book2.releaseYear){
-    //should return -1 if the releaseYear of the first book is smaller than that of the second book.
+  if (book1.releaseYear < book2.releaseYear) {
+    // Return -1 if the first book was released before the second
     return -1;
-  }
-  if (book1.releaseYear > book2.releaseYear){
-    //should return 1 if the releaseYear of the first book is bigger than that of the second book.
+  } else if (book1.releaseYear > book2.releaseYear) {
+    // Return 1 if the first book was released after the second
     return 1;
-  }
-  if (book1.releaseYear === book2.releaseYear){
-    // should return 0 if both releaseYear values are equal.
+  } else {
+    // Return 0 if both books were released in the same year
     return 0;
   }
-}
-
-
-
-const filterBooksByYear = (year, array) => {
-  
-  return array
-    .filter((e)=> e.releaseYear >= year)
-    .sort(sortByYear);
-  
-  // filter out books written after a certain year such as 1950 from the books array and save the filtered array in a new array named filteredBooks
-  // You should sort the books in the filteredBooks array according to their releaseYear in ascending order. 
 };
 
+// Define a reusable function to filter books by year and sort them
+const filterBooksByYear = (year, array) => {
+  return array
+    .filter((e) => e.releaseYear >= year)  // Keep only books released on or after the given year
+    .sort(sortByYear);                     // Sort the filtered books using the sortByYear callback
+};
 
-console.log(sortByYear(  {
+// Test sortByYear directly by comparing two books
+console.log(sortByYear(
+  {
     title: "My Booky Wook",
     authorName: "Russell Brand",
     releaseYear: 2007,
-  }, {
+  },
+  {
     title: "I Feel Bad About My Neck: And Other Thoughts on Being a Woman",
     authorName: "Nora Ephron",
     releaseYear: 2006,
-  }));
+  }
+)); // Expected output: 1 (because 2007 > 2006)
 
-const filteredBooks = filterBooksByYear(2000, books);
+// === FINAL LOGIC THAT PASSED THE TUTORIAL TEST ===
+
+// Filter books released on or after the year 2000
+const filteredBooks = books.filter((book) => book.releaseYear >= 2000);
+
+// Sort the filtered books using the sortByYear callback
+filteredBooks.sort(sortByYear);
+
+// Output the final sorted and filtered array
 console.log(filteredBooks);
