@@ -36,6 +36,7 @@ This project was developed to reinforce understanding of array iteration methods
 .
 ├── script.js           # Arrow functions version of library manager
 ├── script-passed.js    # Declared function version (tutorial final version)
+├── script-newest.js    # Declared function version (New tutorial final version)
 
 ```
 
@@ -44,7 +45,7 @@ This project was developed to reinforce understanding of array iteration methods
 ## Usage Instructions
 
 
-1. Copy either `script.js` (arrow functions) or `script-passed.js` (declared functions) from the repository to your local environment.
+1. Copy either `script.js` (arrow functions) or `script-passed.js` or `script-newest.js` (declared functions) from the repository to your local environment.
 
 2. Run the copied file in your JavaScript environment (e.g., Node.js or browser console).
 
